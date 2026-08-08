@@ -377275,6 +377275,26 @@
       47.4353597
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14080995323",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Eingangshalle",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "id": "node/14080995323"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0903102,
+      47.2983523
+    ]
+  }
 }
 ]
 }
