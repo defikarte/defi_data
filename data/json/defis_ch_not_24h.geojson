@@ -190115,24 +190115,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12976923029",
-  "properties": {
-    "defibrillator:location": "vor dem Eingang",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "operator": "Gameorama",
-    "id": "node/12976923029"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3010213,
-      47.0508534
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12977818011",
   "properties": {
     "amenity": "defibrillator",

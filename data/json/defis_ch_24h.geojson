@@ -140901,6 +140901,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/12976923029",
+  "properties": {
+    "defibrillator:location": "vor dem Eingang",
+    "email": "info@gameorama.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gameorama",
+    "id": "node/12976923029"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3010212,
+      47.0508534
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12985173571",
   "properties": {
     "access": "yes",
