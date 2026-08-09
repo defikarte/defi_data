@@ -26,7 +26,7 @@
     },
     {
       "id": "luks",
-      "name": "KNZ LU",
+      "name": "Dispo LUKS",
       "geojson_file": "defis_dispo_luks.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_LUKS",
       "use_cc": true,
