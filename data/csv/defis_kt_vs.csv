@@ -66,7 +66,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,addr:city,addr:housenumber,add
 8950763725,node,46.1010486,7.7840664,yes,,,,,,,,,,,On wall outside building / An Aussenwand,,,,defibrillator,144,,node/8950763725,no,0,,,,,24/7,,,,,,,,,,,,,,,,,yes
 8955041731,node,46.0668662,7.7779256,,,,,,,,,,,,Inside building / Innen,,,,defibrillator,144,,node/8955041731,yes,0,,,,,,,,,,,,,,,,,,,,,,limited
 8956922044,node,46.2941678,7.8816796,yes,,,,,,,,,,,In underpass / In Unterführung,,,,defibrillator,144,,node/8956922044,yes,-1,,,,,24/7,,,,,,,,,,,,,,,,,yes
-8957178486,node,46.3033207,7.8701376,yes,,,,,,,,,,,On wall outside building / An Aussenwand,,,,defibrillator,144,,node/8957178486,,0,,,,,24/7,,,,,,,,,,,,,,,,,yes
+8957178486,node,46.3033379,7.8701366,yes,,,,,,,,,,,On wall outside building / An Aussenwand,,,,defibrillator,144,,node/8957178486,no,0,,,,,24/7,,,,,,,,,,,,,,,,,yes
 8957771331,node,46.3069347,7.8786405,yes,,,,,,,,,,,On wall outside building / An Aussenwand,,,,defibrillator,144,,node/8957771331,,0,,,,,24/7,,,,,,,,,,,,,,,,,yes
 8963747653,node,46.3760856,8.0260116,yes,,,,,,,,,,,eingang Bergbahnen oben (1. Stock),,,,defibrillator,144,,node/8963747653,no,,,,,,24/7,,,,,,,,,,,,,,,,,
 8982974731,node,46.2935811,7.8914049,yes,,,,,,,,,,,Lonza Arena - Nord Eingang ,,An der Wand,,defibrillator,144,,node/8982974731,no,,,,,,24/7,?,,,,,,,,,,,,,,,,
