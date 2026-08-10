@@ -377300,6 +377300,28 @@
       47.2983523
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14085234401",
+  "properties": {
+    "defibrillator:location": "Schmiedstrasse 45",
+    "description": "frei zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14085234401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2077639,
+      46.9954323
+    ]
+  }
 }
 ]
 }
