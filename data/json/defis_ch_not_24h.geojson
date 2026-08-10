@@ -212902,23 +212902,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13942411731",
-  "properties": {
-    "access": "24/7",
-    "covered": "yes",
-    "emergency": "defibrillator",
-    "id": "node/13942411731"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5078356,
-      47.36125
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13942512401",
   "properties": {
     "access": "permissive",

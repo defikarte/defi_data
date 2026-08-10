@@ -4336,9 +4336,9 @@
   "type": "Feature",
   "id": "node/13942411731",
   "properties": {
-    "access": "24/7",
     "covered": "yes",
     "emergency": "defibrillator",
+    "opening_hours": "24/7",
     "id": "node/13942411731"
   },
   "geometry": {

@@ -158184,6 +158184,23 @@
 },
 {
   "type": "Feature",
+  "id": "node/13942411731",
+  "properties": {
+    "covered": "yes",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/13942411731"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5078356,
+      47.36125
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13943112701",
   "properties": {
     "defibrillator:location": "Bezirksgebäude, Rebhaldenstrasse 15",
