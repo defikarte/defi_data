@@ -202,7 +202,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 7863923578,node,47.4174928,9.1808125,yes,,,,,,,,,,Turnhalle Enzenbühl,,,AED ist 24h verfügbar,,,defibrillator,144,node/7863923578,,,,,,,,,,,24/7,,,,,,,,,,,,
 7863923580,node,47.4113163,9.1923004,yes,,,,,,,,,,Beim Lindensaal,,,AED ist 24h verfügbar,,,defibrillator,144,node/7863923580,,,,,,,,,,,24/7,,,,,,,,,,,,
 7863923581,node,47.4137367,9.1877031,yes,,,,,,,,,,Beim Gemeindehaus,,,AED ist 24h verfügbar,,,defibrillator,144,node/7863923581,,,,,,,,,,,24/7,,,,,,,,,,,,
-7863923582,node,47.4043003,9.1914958,yes,,,,,,,,,,Bei Kasse Freibad Böden,,,während Badebetrieb verfügbar,,,defibrillator,144,node/7863923582,,,,,,,,,,,,,,,,,,,,,,,
+7863923582,node,47.4043003,9.1914958,yes,,,,,,,,2026-08-09,,Bei Kasse Freibad Böden,,,während Badebetrieb verfügbar,,,defibrillator,144,node/7863923582,,,yes,,,,,,,,,,,,,,,,,,,,
 7863930178,node,47.2769034,9.5192,yes,,,,,,,,,,Rechte Wand beim Eingang Mehrzweckhalle,,,,,,defibrillator,144,node/7863930178,,,no,,,,0,,,,24/7,,"Primarschule Lienz, Im Wegacker 17, 9464 Lienz",,,+41 71 766 15 53,,,,,,,
 7863967366,node,47.3185395,9.5474893,yes,,,,,,,,,,vor dem Eingang Mehrzweckhalle,,,AED ist 24h verfügbar,,,defibrillator,144,node/7863967366,,,,,,,,,,,24/7,,,,,,,,,,,,
 7863996065,node,47.0435307,9.4413704,yes,,,,,,,,,,"Sportanlage Riet, Südostseite, neben zweiten Eingang",,,während Öffnungszeiten verfügbar,,,defibrillator,144,node/7863996065,,,no,,,,,,,,24/7,,,,,,,,,,,,
