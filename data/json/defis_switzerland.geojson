@@ -79047,6 +79047,7 @@
     "defibrillator:location": "Schulhaus Altbau, Korridor Erdgeschoss und 3. Obergeschoss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "gibb Berufsfachschule Bern",
     "phone": "+41 31 335 91 11",
     "id": "node/8151924539"
