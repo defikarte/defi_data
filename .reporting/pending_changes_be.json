@@ -1,1 +1,13 @@
-[]
+[
+  {
+    "key": "node/5582178121",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.4467078,
+    "lat": 46.9561455,
+    "changes": [
+      "indoor: 'None' → 'no'"
+    ],
+    "detected_at": "2026-08-11T19:03:17.572148+00:00"
+  }
+]
