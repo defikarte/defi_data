@@ -102993,6 +102993,7 @@
   "type": "Feature",
   "id": "node/14058244101",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Kronenplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
