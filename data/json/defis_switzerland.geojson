@@ -6988,6 +6988,7 @@
     "defibrillator:location": "Im Kassenbereich der Migros",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/5582178121"
   },
   "geometry": {
