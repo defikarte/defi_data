@@ -53551,27 +53551,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8828054117",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Schwimmbad Salez, bei Kasse",
-    "description": "während den Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Sennwald",
-    "id": "node/8828054117"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4917394,
-      47.2370398
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8829595670",
   "properties": {
     "defibrillator:location": "Eingangsbereich Bad links",
@@ -216788,6 +216767,28 @@
     "coordinates": [
       9.0903102,
       47.2983523
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14086924501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Duvoisin-Groux SA",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "HeartSine",
+    "id": "node/14086924501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5566652,
+      46.5439462
     ]
   }
 }

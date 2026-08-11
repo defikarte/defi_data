@@ -14776,6 +14776,28 @@
       46.6013172
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14086924501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Duvoisin-Groux SA",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "HeartSine",
+    "id": "node/14086924501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5566652,
+      46.5439462
+    ]
+  }
 }
 ]
 }

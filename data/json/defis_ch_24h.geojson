@@ -52625,6 +52625,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8828054117",
+  "properties": {
+    "defibrillator:location": "Schwimmbad Salez, bei Kasse",
+    "description": "Während Bauphase Sep. 26 - Juli 27 nicht verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sennwald",
+    "id": "node/8828054117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4917396,
+      47.2370402
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8828056917",
   "properties": {
     "access": "yes",
