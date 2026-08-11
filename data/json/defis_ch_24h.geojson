@@ -151158,22 +151158,21 @@
   "id": "node/13626520301",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Tennisclub Bolligen",
-    "description": "Aussen am Clubhaus bei Eingang",
+    "defibrillator:location": "Aussenwand Clubhaus Tennisclub Bolligen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Tennisclub",
+    "operator": "TC Bolligen",
     "phone": "+41795025122",
     "id": "node/13626520301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4969488,
-      46.9673872
+      7.4968799,
+      46.9673748
     ]
   }
 },
@@ -160515,48 +160514,6 @@
     "coordinates": [
       7.2077639,
       46.9954323
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14087326301",
-  "properties": {
-    "defibrillator:location": "Tennisclub Bolligen Clubhaus",
-    "description": "Eingang Clubhaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "TC Bolligen",
-    "id": "node/14087326301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4970021,
-      46.9673756
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14087332601",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Clubhaus aussen TC Bolligen",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "TC Bolligen",
-    "id": "node/14087332601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4968799,
-      46.9673748
     ]
   }
 }
