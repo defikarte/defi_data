@@ -377331,6 +377331,35 @@
       46.75
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14087175062",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "30",
+    "addr:postcode": "3601",
+    "addr:street": "Aarenstrasse",
+    "defibrillator:location": "CSS Versicherung AG Eingang",
+    "description": "Schwarzer Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "MO-DO 08.30-12.00 13.30-17.00 Fr Geschlossen",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0576LTM",
+    "id": "node/14087175062"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6268646,
+      46.7573991
+    ]
+  }
 }
 ]
 }
