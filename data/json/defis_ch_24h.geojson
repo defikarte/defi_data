@@ -160493,6 +160493,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/14078075001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Halle de fête des Âges",
+    "description": "Disponible en tout temps",
+    "email": "info@swissmedsolutions.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "SwissMedSolutions",
+    "phone": "+41 22 304 43 43",
+    "id": "node/14078075001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.3698588,
+      46.6013172
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/14085234401",
   "properties": {
     "defibrillator:location": "Schmiedstrasse 45",

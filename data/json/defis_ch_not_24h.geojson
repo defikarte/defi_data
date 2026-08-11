@@ -216687,26 +216687,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14078075001",
-  "properties": {
-    "defibrillator:location": "Halle de fête des Âges",
-    "description": "Disponible en tout temps",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "id": "node/14078075001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.3698593,
-      46.6013176
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14078169201",
   "properties": {
     "defibrillator:location": "Fitness Center Select Fit",
