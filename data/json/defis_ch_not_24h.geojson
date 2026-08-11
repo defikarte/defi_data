@@ -216791,6 +216791,30 @@
       46.5439462
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14087114201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Deponie Waldau",
+    "description": "24/7 zugänglich",
+    "email": "ak.landquart@bluewin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Axpo Biomasse Landquart",
+    "phone": "+41 81 322 92 22",
+    "id": "node/14087114201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.12,
+      46.75
+    ]
+  }
 }
 ]
 }

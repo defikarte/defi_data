@@ -44239,26 +44239,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10738737805",
-  "properties": {
-    "defibrillator:location": "neben Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "phone": "+41 58 235 14 00",
-    "id": "node/10738737805"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6703604,
-      47.2618144
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10739676305",
   "properties": {
     "access": "yes",
@@ -48548,28 +48528,6 @@
     "coordinates": [
       7.6275283,
       47.054853
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11217268437",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Bewetec AG",
-    "phone": "+41 58 235 14 61",
-    "id": "node/11217268437"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.611703,
-      46.7783372
     ]
   }
 },
@@ -65226,6 +65184,30 @@
     "coordinates": [
       7.5025409,
       47.0501121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14087114201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Deponie Waldau",
+    "description": "24/7 zugänglich",
+    "email": "ak.landquart@bluewin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Axpo Biomasse Landquart",
+    "phone": "+41 81 322 92 22",
+    "id": "node/14087114201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.12,
+      46.75
     ]
   }
 }
