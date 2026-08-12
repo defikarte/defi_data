@@ -16122,6 +16122,29 @@
       47.4495344
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14089540101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "St.Gallerstrasse 3 Eingang Vereinsräume",
+    "email": "werkhof@roggwil-tg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Roggwil",
+    "id": "node/14089540101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4076918,
+      47.5054164
+    ]
+  }
 }
 ]
 }
