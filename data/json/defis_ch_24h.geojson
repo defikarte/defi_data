@@ -22542,7 +22542,7 @@
   "id": "node/7559403092",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehof aussen neben Schiebetüre Ettingerstrasse 11",
+    "defibrillator:location": "4147 Aesch, Ettingerstrasse 11, Gemeindehof aussen neben Schiebetüre",
     "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -22550,6 +22550,7 @@
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
     "phone": "+41 61 756 77 80",
+    "source": "aed-source",
     "wikimedia_commons": "File:Gemeindehof_aussen_neben_Schiebet%C3%BCre.jpg",
     "id": "node/7559403092"
   },
@@ -70901,7 +70902,7 @@
   "id": "node/9510974095",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindeverwaltung Aesch Hauptstrasse 23 Unter dem Fahrradunterstand",
+    "defibrillator:location": "4147 Aesch, Hauptstrasse 23, Gemeindeverwaltung Unter dem Fahrradunterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -85457,7 +85458,7 @@
   "id": "node/10262097712",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckhalle Löhrenacker Aussenbereich beim Eingang zur Küche Landskronstrasse 41",
+    "defibrillator:location": "4147 Aesch, Landskronstrasse 41, Mehrzweckhalle Löhrenacker Aussenbereich beim Eingang zur Küche",
     "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85465,6 +85466,7 @@
     "opening_hours": "24/7",
     "operator": "Gemeinde Aesch",
     "phone": "+41 61 756 77 80",
+    "source": "aed-source",
     "wikimedia_commons": "File:Mehrzweckhalle_L%C3%B6hrenacker_Aussenbereich.jpg",
     "id": "node/10262097712"
   },

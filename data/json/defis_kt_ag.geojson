@@ -31513,6 +31513,29 @@
       47.3207722
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14089832301",
+  "properties": {
+    "defibrillator:location": "Eingangsbereich",
+    "email": "info@johler-gussasphalt.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Privatperson",
+    "phone": "+41 62 889 19 56",
+    "id": "node/14089832301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1259157,
+      47.3900317
+    ]
+  }
 }
 ]
 }

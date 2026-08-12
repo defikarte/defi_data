@@ -108273,7 +108273,8 @@
   "id": "node/10601145635",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gartenbad Eingangsbereich Kasse",
+    "defibrillator:location": "4147 Aesch, Dornacherstrasse 85, Gartenbad Eingangsbereich Kasse",
+    "description": "Während der Badesaison",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -108281,6 +108282,7 @@
     "opening_hours": "Mo-Su 09:00-19:00",
     "operator": "Gemeindeverwaltung Aesch",
     "phone": "+41617567781",
+    "source": "aed-source",
     "wikimedia_commons": "File:Gartenbad_Eingangsbereich_Kasse.jpg",
     "id": "node/10601145635"
   },
@@ -207880,7 +207882,7 @@
   "id": "node/13700854001",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Hallenbad Schützenmattschulhaus Trakt D, Eingang zwischen Hallenbad und Turnhalle Dornacherstrasse 43",
+    "defibrillator:location": "4147 Aesch, Dornacherstrasse 43, Hallenbad Schützenmattschulhaus Trakt D, Eingang zwischen Hallenbad und Turnhalle",
     "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -207889,6 +207891,7 @@
     "opening_hours": "Mo-Fr 07:00-21:45",
     "operator": "Gemeinde Aesch",
     "phone": "+41 61 756 77 25",
+    "source": "aed-source",
     "id": "node/13700854001"
   },
   "geometry": {
@@ -214336,7 +214339,7 @@
   "id": "node/13982863601",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Mehrzweckhalle Löhrenacker Sanitätsraum Landskronstrasse 41",
+    "defibrillator:location": "4147 Aesch, Landskronstrasse 41, Mehrzweckhalle Löhrenacker Sanitätsraum",
     "description": "Nach Belegungsplan zugänglich",
     "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
@@ -214345,6 +214348,7 @@
     "level": "0",
     "operator": "Gemeindeverwaltung Aesch",
     "phone": "+41 61 756 77 80",
+    "source": "aed-source",
     "wikimedia_commons": "File:Mehrzweckhalle_L%C3%B6hrenacker_Sanit%C3%A4tsraum.jpg",
     "id": "node/13982863601"
   },
@@ -214361,7 +214365,7 @@
   "id": "node/13982898301",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Gartenbad Aufsichtshaus Schwimmerbecken Dornacherstrasse 85",
+    "defibrillator:location": "4147 Aesch, Dornacherstrasse 85, Gartenbad Aufsichtshaus Schwimmerbecken",
     "description": "während der Badesaison Mo-So",
     "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
@@ -214370,6 +214374,7 @@
     "level": "0",
     "operator": "Gemeinde Aesch",
     "phone": "+41 61 756 77 80",
+    "source": "aed-source",
     "wikimedia_commons": "File:Gartenbad_Aufsichtshaus_Schwimmerbecken.jpg",
     "id": "node/13982898301"
   },
@@ -214377,7 +214382,7 @@
     "type": "Point",
     "coordinates": [
       7.60058,
-      47.4766343
+      47.4766342
     ]
   }
 },
@@ -214411,7 +214416,7 @@
   "id": "node/13982944001",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Friedhof Gedenkhalle, Links hinter der Eingangstüre",
+    "defibrillator:location": "4147 Aesch, Pfeffingerstrasse 10, Gedenkhalle, rechts neben dem Eingang",
     "description": "Mo-So 07.00-19.00",
     "email": "Sozialedienste@aesch.bl.ch",
     "emergency": "defibrillator",
@@ -214426,8 +214431,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5974176,
-      47.4653288
+      7.5974174,
+      47.4653287
     ]
   }
 },
@@ -216938,6 +216943,54 @@
     "coordinates": [
       7.6493148,
       47.5845738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14089831502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schäracher 5",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "info@estermann.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:30-17:00; Fr 07:30-16:00",
+    "operator": "Estermann AG",
+    "phone": "+41 41 926 35 00",
+    "id": "node/14089831502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1110422,
+      47.1925614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14089832301",
+  "properties": {
+    "defibrillator:location": "Eingangsbereich",
+    "email": "info@johler-gussasphalt.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Privatperson",
+    "phone": "+41 62 889 19 56",
+    "id": "node/14089832301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1259157,
+      47.3900317
     ]
   }
 }

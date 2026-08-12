@@ -32827,6 +32827,31 @@
       47.0828105
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14089831502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schäracher 5",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "info@estermann.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:30-17:00; Fr 07:30-16:00",
+    "operator": "Estermann AG",
+    "phone": "+41 41 926 35 00",
+    "id": "node/14089831502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1110422,
+      47.1925614
+    ]
+  }
 }
 ]
 }
