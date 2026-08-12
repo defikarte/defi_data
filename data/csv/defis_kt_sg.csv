@@ -428,7 +428,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 8820864520,node,47.1831045,9.4606664,no,,,,,,,,,,"Pago AG, 1x Sanitätsraum, 1x Büro",,,während der Öffnungszeiten,,,defibrillator,144,node/8820864520,,,yes,,,,,,,,,,Pago AG,,,,,,,,,,
 8820864921,node,47.1821699,9.4616756,yes,,,,,,,,,,"Lippuner AG, Velounterstand",,,"im Freien, öffentlich zugänglich",,,defibrillator,144,node/8820864921,,,no,,,,,,,,24/7,,Lippuner EMT AG,,,,,,,,,,
 8821168317,node,47.1755238,9.4436656,yes,,,,,,,,,,"Lukashaus, Garagen bei Haupteinfahrt",,,"im Freien, frei zugänglich",,,defibrillator,144,node/8821168317,,,no,,,,,,,,24/7,,Lukashaus,,,,,,,,,,
-8828054117,node,47.2370398,9.4917394,no,,,,,,,,,,"Schwimmbad Salez, bei Kasse",,,während den Öffnungszeiten,,,defibrillator,144,node/8828054117,,,yes,,,,,,,,,,Gemeinde Sennwald,,,,,,,,,,
+8828054117,node,47.2370402,9.4917396,,,,,,,,,,,"Schwimmbad Salez, bei Kasse",,,Während Bauphase Sep. 26 - Juli 27 nicht verfügbar,,,defibrillator,144,node/8828054117,,,yes,,,,,,,,24/7,,Gemeinde Sennwald,,,,,,,,,,
 8828056917,node,47.2583149,9.5002905,yes,,,,,,,,,,"Marty AG, vor Bürogebäude",,,frei zugänglich vor dem Gebäude,,,defibrillator,144,node/8828056917,,,no,,,,,,,,24/7,,Marty Bauleistungen AG,,,,,,,,,,
 8831235271,node,47.3781924,9.5650417,,,,,,,,,,,Mitarbeiter Eingang vom Bürogebäude,,,,,,defibrillator,144,node/8831235271,,,yes,,,,,,,,"Mo-Fr 07:00-12:00, 13:00-17:00",,Langenegger Remo,,,+41 71 757 18 18,,,,,,,
 8840810446,node,47.297254,9.0920757,yes,,,,,,,,,,Check in Fitpool Parterre,,,während Öffnungszeiten verfügbar,,,defibrillator,144,node/8840810446,,,yes,,,,,,,,,,Maggie Weber,,,+41 79 698 34 07,,,,,,,
