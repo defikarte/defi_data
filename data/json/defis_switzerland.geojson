@@ -126770,8 +126770,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9573126,
-      47.3907227
+      6.957272,
+      47.3906215
     ]
   }
 },
@@ -377432,6 +377432,28 @@
     "coordinates": [
       7.6300104,
       46.9234957
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14089351502",
+  "properties": {
+    "defibrillator:location": "Haupteingang Dorfkirche St. Martin (Eingang Richtung Trammhaltestelle), liinks zwischen Aussen- und Innentürenn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-su 09:00-17:00",
+    "operator": "Reformierte Kirchgemeinde Riehen/Bettingen",
+    "phone": "+41 61 641 11 27",
+    "id": "node/14089351502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6493148,
+      47.5845738
     ]
   }
 }
