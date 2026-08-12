@@ -103172,6 +103172,30 @@
       47.5703026
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14089938701",
+  "properties": {
+    "defibrillator:location": "Gemeinschaftszentrum Affoltern, Kafi-Treff",
+    "description": "während den Hausöffnungszeiten verfügbar",
+    "email": "gz-affoltern@gz-zh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo 08:30-11:30, Tu-Fr 08:30-12:00, Tu, We, Fr 14:00-18:00, Th 14:00-21:00",
+    "operator": "Gemeinschaftszentrum Affoltern",
+    "phone": "+41 43 299 20 10",
+    "id": "node/14089938701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5109007,
+      47.4245604
+    ]
+  }
 }
 ]
 }
