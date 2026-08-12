@@ -65264,6 +65264,54 @@
       46.9340194
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14089110301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Treiten, vor der Eingangstüre",
+    "description": "24h zugänglich",
+    "email": "gemeinde@treiten.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde Treiten",
+    "phone": "+41 32 313 18 93",
+    "id": "node/14089110301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1595055,
+      47.0079268
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14089123301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sporthalle",
+    "description": "nur zu Betriebszeiten der Halle verfügbar",
+    "email": "aesche24@besonet.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "unihoc-Arena",
+    "phone": "+41 79 254 23 63",
+    "id": "node/14089123301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6300104,
+      46.9234957
+    ]
+  }
 }
 ]
 }
