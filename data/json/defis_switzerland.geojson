@@ -377362,6 +377362,30 @@
       46.7573991
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14089070701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Carba Center, Eingang Nord, 3. Stock",
+    "email": "bern@bsb-partner.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Jasmin Wegmüller",
+    "phone": "+41 31 978 00 78",
+    "id": "node/14089070701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4194677,
+      46.9340194
+    ]
+  }
 }
 ]
 }
