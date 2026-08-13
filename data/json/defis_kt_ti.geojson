@@ -6379,7 +6379,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "CSS Versicherung",
-    "opening_hours": "MO-DO 09.00 - 17.00 FR 09.00 - 16.00",
+    "opening_hours": "Mo-Th 09:00-17:00; Fr 09:00-16:00",
     "operator": "Lifetec AG",
     "phone": "+41800122144",
     "ref": "1561LTM",

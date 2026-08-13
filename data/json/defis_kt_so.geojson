@@ -9263,7 +9263,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-15:00; Mi 08:00 - 12:00",
+    "opening_hours": "Mo-Fr 08:00-15:00; We 08:00-12:00",
     "operator": "Kanton",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12852672702"
@@ -9310,7 +9310,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-15:00; Mi 08:00-12:00",
+    "opening_hours": "Mo-Fr 08:00-15:00; We 08:00-12:00",
     "operator": "Kanton",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12852694301"

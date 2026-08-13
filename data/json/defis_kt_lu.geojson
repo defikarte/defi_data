@@ -1965,7 +1965,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "MIGROS Kundendienst Dorfmärit",
-    "opening_hours": "Mo-Do 8-19 /Fr 8-21 / Sa 8-17 / So X",
+    "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-21:00; Sa 08:00-17:00",
     "operator": "MIGROS Wolhusen",
     "phone": "+41 41 492 50 40",
     "id": "node/7637812543"
@@ -1984,13 +1984,13 @@
   "properties": {
     "access": "unknown",
     "defibrillator:location": "bei Kasse innerhalb Tor",
-    "description": "Kasse",
+    "description": "während Saison während Öffnungszeiten, sonst 24/7",
     "email": "connection@csw-gruppe.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Schwimmbad",
-    "opening_hours": "Saison: Öffnungszeiten Schwimmbad | Off-season: 24/7",
+    "opening_hours": "24/",
     "operator": "Connection Wolhusen",
     "phone": "+41 41 490 40 40",
     "id": "node/7637812544"

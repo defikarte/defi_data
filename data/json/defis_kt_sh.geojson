@@ -3969,7 +3969,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Kanton Schaffhausen",
     "phone": "+41526327256",
     "id": "node/14060861702"

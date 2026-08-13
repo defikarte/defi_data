@@ -44666,7 +44666,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Primus AG",
-    "opening_hours": "mo-fr 08:00-12:00, 13:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-16:30",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310450"
@@ -45978,7 +45978,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "FARO AG Facility Services",
-    "opening_hours": "mo-fr 07:30-12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310509"

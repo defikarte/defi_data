@@ -14986,7 +14986,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "MO - FR 6:00 - 22:00, SA - SU 7:00 - 21:00",
+    "opening_hours": "Mo-Fr 06:00-22:00, Sa-Su 07:00-21:00",
     "operator": "Fitness Center Select Fit",
     "phone": "+41 61 511 21 28",
     "id": "node/14078169201"
@@ -15008,7 +15008,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-su 09:00-17:00",
+    "opening_hours": "Mo-Su 09:00-17:00",
     "operator": "Reformierte Kirchgemeinde Riehen/Bettingen",
     "phone": "+41 61 641 11 27",
     "id": "node/14089351502"

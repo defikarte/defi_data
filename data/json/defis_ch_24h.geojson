@@ -122177,6 +122177,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12061054269",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "im Hotel an der Reception im Backoffice, unten links ",
+    "description": "während den Öffnungszeiten verfügbar, Haupteingang-Türe ist ab 22:30 - 6:30 Uhr geschlossen ausser in der Zwischensaison im Frühling (April bis Juli) ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Hotel Maistra 160 ",
+    "phone": "+41818426160",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12061054269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.9038368,
+      46.4914162
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12062755869",
   "properties": {
     "access": "yes",

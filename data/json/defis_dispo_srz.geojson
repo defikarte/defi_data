@@ -99488,7 +99488,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Property One Partners AG",
-    "opening_hours": "Mo-Fr 08.30-12.00 13.30-16.30",
+    "opening_hours": "Mo-Fr 08:30-12:00, 13:30-16:30",
     "operator": "LIfetec AG",
     "phone": "+41 800 122 144",
     "ref": "1670LTM",
@@ -103021,7 +103021,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Kanton Schaffhausen",
     "phone": "+41526327256",
     "id": "node/14060861702"
@@ -103106,14 +103106,13 @@
   "type": "Feature",
   "id": "node/14064202502",
   "properties": {
-    "defibrillator:location": "Haupt eingang Fitneszenter Leuholz",
-    "description": "Haupt Eingan auf der Rechten seite",
+    "defibrillator:location": "Haupteingang Fitnesscenter Leuholz, auf der rechten Seite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "6:00-10:00",
-    "operator": "Fitneszenter Leuholz",
+    "opening_hours": "Mo-Su 06:00-10:00",
+    "operator": "Fitnesscenter Leuholz",
     "id": "node/14064202502"
   },
   "geometry": {

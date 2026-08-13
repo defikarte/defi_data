@@ -21818,7 +21818,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "MIGROS Kundendienst Dorfmärit",
-    "opening_hours": "Mo-Do 8-19 /Fr 8-21 / Sa 8-17 / So X",
+    "opening_hours": "Mo-Th 08:00-19:00; Fr 08:00-21:00; Sa 08:00-17:00",
     "operator": "MIGROS Wolhusen",
     "phone": "+41 41 492 50 40",
     "id": "node/7637812543"
@@ -21837,13 +21837,13 @@
   "properties": {
     "access": "unknown",
     "defibrillator:location": "bei Kasse innerhalb Tor",
-    "description": "Kasse",
+    "description": "während Saison während Öffnungszeiten, sonst 24/7",
     "email": "connection@csw-gruppe.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Schwimmbad",
-    "opening_hours": "Saison: Öffnungszeiten Schwimmbad | Off-season: 24/7",
+    "opening_hours": "24/",
     "operator": "Connection Wolhusen",
     "phone": "+41 41 490 40 40",
     "id": "node/7637812544"
@@ -119156,7 +119156,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Biplast AG",
-    "opening_hours": "Mo. 05:00 Uhr bis Sa. 05:00",
+    "opening_hours": "Mo-Sa 05:00-05:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "0591LTM",
@@ -119702,7 +119702,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Heilpädagogische Schule Heerbrugg",
-    "opening_hours": "Mo-Fr 7:30-11:40, 13:15-16:00",
+    "opening_hours": "Mo-Fr 07:30-11:40,13:15-16:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310214"
@@ -124196,7 +124196,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Primus AG",
-    "opening_hours": "mo-fr 08:00-12:00, 13:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-16:30",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310450"
@@ -125436,7 +125436,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "FARO AG Facility Services",
-    "opening_hours": "mo-fr 07:30-12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310509"
@@ -137591,7 +137591,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr: 07:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "phone": "+41 81 413 33 33",
     "id": "node/11038063111"
   },
@@ -148292,7 +148292,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8:00 - 17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Skigebiet Minschuns",
     "id": "node/11465662469"
   },
@@ -153398,7 +153398,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Ingenieurbureau A. Aegerter & Dr. O. Bosshardt AG",
-    "opening_hours": "Mo-Fr 08:00-11:13 13:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-11:30, 13:00-16:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11703541052"
@@ -161782,7 +161782,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:30-17:00 ",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Somedia Services AG",
     "phone": "+41 81 255 55 61",
     "source": "local_knowledge, defikarte.ch",
@@ -161848,7 +161848,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-So 10.00-17.00 Uhr",
+    "opening_hours": "Mo-Su 10:00-17:00",
     "operator": "First Responder Schams",
     "id": "node/11932701415"
   },
@@ -165955,30 +165955,6 @@
     "coordinates": [
       6.5514945,
       46.5501095
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12061054269",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "im Hotel an der Reception im Backoffice, unten links ",
-    "description": "während den Öffnungszeiten verfügbar, Haupteingang-Türe ist ab 22:30 - 6:30 Uhr geschlossen ausser in der Zwischensaison im Frühling (April bis Juli) ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7  ",
-    "operator": "Hotel Maistra 160 ",
-    "phone": "+41818426160",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12061054269"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.9038368,
-      46.4914162
     ]
   }
 },
@@ -174229,7 +174205,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Grand Hotel des Bains St. Moritz AG (Kempinski Hotel)",
-    "opening_hours": "Juni - Sep + Dez - März 24h",
+    "opening_hours": "Jun-Sep; Dec-Mar",
     "operator": "Lifetec AG",
     "phone": "+41 800 122 144",
     "postal_code": "7500",
@@ -186794,7 +186770,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "CSS Versicherung",
-    "opening_hours": "MO-DO 09.00 - 17.00 FR 09.00 - 16.00",
+    "opening_hours": "Mo-Th 09:00-17:00; Fr 09:00-16:00",
     "operator": "Lifetec AG",
     "phone": "+41800122144",
     "ref": "1561LTM",
@@ -187390,7 +187366,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-15:00; Mi 08:00 - 12:00",
+    "opening_hours": "Mo-Fr 08:00-15:00; We 08:00-12:00",
     "operator": "Kanton",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12852672702"
@@ -187437,7 +187413,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-15:00; Mi 08:00-12:00",
+    "opening_hours": "Mo-Fr 08:00-15:00; We 08:00-12:00",
     "operator": "Kanton",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12852694301"
@@ -188384,7 +188360,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Automobiles Senn SA",
-    "opening_hours": "Mo-Fr 07:30-12:00 13:00-18:30 Sa 08:00-13:00",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-18:30; Sa 08:00-13:00",
     "operator": "Lifetec AG",
     "phone:CH": "0800 122 144",
     "ref": "1568LTM",
@@ -188414,7 +188390,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Automobiles Senn SA",
-    "opening_hours": "Mo-Fr 07:30-12:00 13:30-18:00",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-18:00",
     "operator": "Lifetec AG",
     "phone:CH": "0800 122 144",
     "ref": "1569LTM",
@@ -191923,7 +191899,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "MO -SU 9:00 - 17:00",
+    "opening_hours": "Mo-Su 09:00-17:00",
     "operator": "Bergbahnen Scuol",
     "phone": "+41818611414",
     "id": "node/13055591601"
@@ -192198,7 +192174,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "7:00-17:00",
+    "opening_hours": "07:00-17:00",
     "operator": "Viamala Storys AG",
     "phone": "+41815520007",
     "source": "local_knowledge, defikarte.ch",
@@ -209386,7 +209362,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Property One Partners AG",
-    "opening_hours": "Mo-Fr 08.30-12.00 13.30-16.30",
+    "opening_hours": "Mo-Fr 08:30-12:00, 13:30-16:30",
     "operator": "LIfetec AG",
     "phone": "+41 800 122 144",
     "ref": "1670LTM",
@@ -215643,7 +215619,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "7:00-18:00",
+    "opening_hours": "07:00-18:00",
     "operator": "Holcim (Schweiz) AG",
     "phone": "+41793311167",
     "id": "node/14000252501"
@@ -216570,7 +216546,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Kanton Schaffhausen",
     "phone": "+41526327256",
     "id": "node/14060861702"
@@ -216628,14 +216604,13 @@
   "type": "Feature",
   "id": "node/14064202502",
   "properties": {
-    "defibrillator:location": "Haupt eingang Fitneszenter Leuholz",
-    "description": "Haupt Eingan auf der Rechten seite",
+    "defibrillator:location": "Haupteingang Fitnesscenter Leuholz, auf der rechten Seite",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "6:00-10:00",
-    "operator": "Fitneszenter Leuholz",
+    "opening_hours": "Mo-Su 06:00-10:00",
+    "operator": "Fitnesscenter Leuholz",
     "id": "node/14064202502"
   },
   "geometry": {
@@ -216681,7 +216656,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "MO - FR 6:00 - 22:00, SA - SU 7:00 - 21:00",
+    "opening_hours": "Mo-Fr 06:00-22:00, Sa-Su 07:00-21:00",
     "operator": "Fitness Center Select Fit",
     "phone": "+41 61 511 21 28",
     "id": "node/14078169201"
@@ -216933,7 +216908,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-su 09:00-17:00",
+    "opening_hours": "Mo-Su 09:00-17:00",
     "operator": "Reformierte Kirchgemeinde Riehen/Bettingen",
     "phone": "+41 61 641 11 27",
     "id": "node/14089351502"

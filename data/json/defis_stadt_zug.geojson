@@ -2499,7 +2499,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Property One Partners AG",
-    "opening_hours": "Mo-Fr 08.30-12.00 13.30-16.30",
+    "opening_hours": "Mo-Fr 08:30-12:00, 13:30-16:30",
     "operator": "LIfetec AG",
     "phone": "+41 800 122 144",
     "ref": "1670LTM",
