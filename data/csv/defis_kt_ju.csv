@@ -46,7 +46,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 9157256955,node,47.2562364,6.9954695,yes,Saignelégier,,2350,,,,Salle de soins,,,defibrillator,144,node/9157256955,,,,,Fondation RéaJura Cœur,+41 79 414 74 11,,,
 9157256956,node,47.2560362,6.9972151,yes,Saignelégier,,2350,,,,A la pharmacie,,,defibrillator,144,node/9157256956,,,,,Fondation RéaJura Cœur,+41 79 414 74 11,,,
 9157256957,node,47.255831,6.9959267,yes,Saignelégier,,2350,,,,Vers l'entrée,,,defibrillator,144,node/9157256957,,,,24/7,Fondation RéaJura Cœur,+41 79 414 74 11,,,
-9157256958,node,47.3907227,6.9573126,yes,Rocourt,,2907,,,,Vers l'entrée,,,defibrillator,144,node/9157256958,,,,24/7,Fondation RéaJura Cœur,+41 79 414 74 11,,,
+9157256958,node,47.3906215,6.957272,yes,Rocourt,,2907,,,,Vers l'entrée,,,defibrillator,144,node/9157256958,,,,24/7,Fondation RéaJura Cœur,+41 79 414 74 11,,,
 9157256959,node,47.3662164,6.9517505,yes,Roche d'Or,,2912,,,,Façade du Bâtiment,,,defibrillator,144,node/9157256959,,,,24/7,Fondation RéaJura Cœur,+41 79 414 74 11,,,
 9157256960,node,47.37538,6.92339,yes,Réclère,,2912,,,,Façade du Bâtiment,,,defibrillator,144,node/9157256960,,,,24/7,Fondation RéaJura Cœur,+41 79 414 74 11,,,
 9157256961,node,47.3247815,7.4154654,yes,Rebeuvelier,,2832,,,,façade Est du bâtiment communal,,,defibrillator,144,node/9157256961,,,,24/7,Fondation RéaJura Cœur,+41 79 414 74 11,,,

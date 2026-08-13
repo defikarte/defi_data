@@ -197,3 +197,4 @@ osm_id,osm_type,lat,lon,access,addr:housenumber,addr:street,check_date,defibrill
 13893188901,node,47.5595648,7.5837911,private,,,,Universität Basel,nicht dauerhaft zugänglich,facilities-petersplatz@unibas.ch,defibrillator,144,,node/13893188901,yes,,1,,,,Universität Basel,+41 61 207 64 44,,,,,
 13954359501,node,47.574788,7.5921257,private,,,,"Building WKL 620, Inside Entrance Door",Accessable only for KV Basel AG workers,,defibrillator,144,,node/13954359501,yes,,0,,,,KV Basel AG Aeschengraben 15 4002 Basel,+41612956300,,,,,
 14023654859,node,47.527576,7.5971517,,,,,Am Kamin,,,defibrillator,,,node/14023654859,no,,,,,,,,,,,,
+14089351502,node,47.5845738,7.6493148,,,,,"Haupteingang Dorfkirche St. Martin (Eingang Richtung Trammhaltestelle), liinks zwischen Aussen- und Innentürenn",,,defibrillator,144,,node/14089351502,yes,,0,,,Mo-su 09:00-17:00,Reformierte Kirchgemeinde Riehen/Bettingen,+41 61 641 11 27,,,,,
