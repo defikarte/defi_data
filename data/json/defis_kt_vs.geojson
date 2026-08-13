@@ -7185,6 +7185,27 @@
       46.1959188
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14091830001",
+  "properties": {
+    "defibrillator:location": "On the wall of E27 Lonza restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "LONZA",
+    "id": "node/14091830001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8842479,
+      46.2949022
+    ]
+  }
 }
 ]
 }
