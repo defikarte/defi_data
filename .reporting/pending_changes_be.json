@@ -33,5 +33,27 @@
       "indoor: 'None' → 'yes'"
     ],
     "detected_at": "2026-08-11T23:41:48.627199+00:00"
+  },
+  {
+    "key": "node/10763310450",
+    "name": "Primus AG",
+    "address": null,
+    "lon": 7.29451,
+    "lat": 47.06684,
+    "changes": [
+      "opening_hours: 'mo-fr 08:00-12:00, 13:00-16:30' → 'Mo-Fr 08:00-12:00,13:00-16:30'"
+    ],
+    "detected_at": "2026-08-13T10:07:54.208321+00:00"
+  },
+  {
+    "key": "node/10763310509",
+    "name": "FARO AG Facility Services",
+    "address": null,
+    "lon": 7.36165,
+    "lat": 46.9362,
+    "changes": [
+      "opening_hours: 'mo-fr 07:30-12:00, 13:00-17:00' → 'Mo-Fr 07:30-12:00,13:00-17:00'"
+    ],
+    "detected_at": "2026-08-13T10:07:54.208456+00:00"
   }
 ]
