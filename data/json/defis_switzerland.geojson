@@ -377559,6 +377559,31 @@
       47.4245604
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14091426401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ATM GLOBAL LOGISTICS",
+    "description": "Dans le nouveau bâtiment / Disponible pendant les heures d'ouverture",
+    "email": "rh@atmgl.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00 - 12:00, 13:00 - 17:00",
+    "operator": "ATM Global Logistics SA",
+    "phone": "+41 32 925 98 00",
+    "id": "node/14091426401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7853862,
+      47.0799674
+    ]
+  }
 }
 ]
 }
