@@ -97098,16 +97098,17 @@
   "type": "Feature",
   "id": "node/10841271005",
   "properties": {
-    "defibrillator:location": "Rohräcker 414 (Momentan kein Defi (defekt)",
-    "description": "Cafeteria (Momentan kein Defi (defekt)",
+    "defibrillator:location": "Rohräcker 414",
+    "description": "Cafeteria (Pausenraum)",
+    "email": "info@rathgeb-bio.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Rathgeb BioLog AG",
-    "phone": "+41527440000",
-    "source": "local_knowledge, defikarte.ch",
+    "phone": "+41 52 744 00 00",
+    "source": "aed-source",
     "id": "node/10841271005"
   },
   "geometry": {
