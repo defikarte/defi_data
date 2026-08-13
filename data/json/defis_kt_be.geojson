@@ -9381,30 +9381,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6635047509",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Oberthal",
-    "addr:housenumber": "56f",
-    "addr:postcode": "3531",
-    "addr:street": "Reutengraben",
-    "defibrillator:location": "in Autounterstand an linker Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Baugeschäft Hofer Oberthal",
-    "id": "node/6635047509"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6744115,
-      46.9167167
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6635047510",
   "properties": {
     "access": "yes",

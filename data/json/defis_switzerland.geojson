@@ -17049,30 +17049,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6635047509",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Oberthal",
-    "addr:housenumber": "56f",
-    "addr:postcode": "3531",
-    "addr:street": "Reutengraben",
-    "defibrillator:location": "in Autounterstand an linker Wand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Baugeschäft Hofer Oberthal",
-    "id": "node/6635047509"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6744115,
-      46.9167167
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6635047510",
   "properties": {
     "access": "yes",
@@ -281814,14 +281790,14 @@
   "type": "Feature",
   "id": "node/11941799069",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "Zentrum Ebenrain für Landwirtschaft, Natur, Ernährung",
-    "description": "während Öffnungszeit zugänglich",
+    "description": "An Fassade befestigt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "opening_hours": "24/7",
     "operator": "Kanton Basel-Landschaft Zentrum Ebenrain und Schloss Ebenrain",
     "phone": "+41 61 552 21 21",
     "source": "local_knowledge, defikarte.ch",
@@ -281830,8 +281806,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8036404,
-      47.4622261
+      7.8036821,
+      47.4623641
     ]
   }
 },
