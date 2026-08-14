@@ -404,4 +404,4 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 13943112701,node,47.2041223,8.7552192,,,,,,,,,"Bezirksgebäude, Rebhaldenstrasse 15",,bezirkskanzlei@hoefe.ch,defibrillator,144,node/13943112701,,no,0,,,24/7,Bezirk Höfe,,+41 44 786 73 20,,,
 13959975401,node,47.1746134,8.9015078,yes,,,,,,,,Schulhaus Stockberg 2,,liegenschaften@schuebelbach.ch,defibrillator,144,node/13959975401,,no,0,,,24/7,Gemeinde Schübelbach,,,,,
 13982361001,node,47.1933313,8.7217417,,,,,,,,,"Gewerbegebäude, neben dem Lift im Haupteingang",während Öffnungszeiten verfügbar,,defibrillator,144,node/13982361001,,yes,0,,,Mo-Su 07:00-19:00,Philipp Theiler,,+41447870304,,,
-14064202502,node,47.1935305,8.8817107,,,,,,,,,Haupt eingang Fitneszenter Leuholz,Haupt Eingan auf der Rechten seite,,defibrillator,144,node/14064202502,,yes,0,,,6:00-10:00,Fitneszenter Leuholz,,,,,
+14064202502,node,47.1935305,8.8817107,,,,,,,,,"Haupteingang Fitnesscenter Leuholz, auf der rechten Seite",,,defibrillator,144,node/14064202502,,yes,0,,,Mo-Su 06:00-10:00,Fitnesscenter Leuholz,,,,,
