@@ -212368,28 +212368,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13916539601",
-  "properties": {
-    "defibrillator:location": "Geschäftshaus Aurum",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "FM Team",
-    "id": "node/13916539601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5668799,
-      47.2848191
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13918503294",
   "properties": {
     "defibrillator:location": "RUAG AG",

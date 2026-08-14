@@ -78951,21 +78951,24 @@
   "type": "Feature",
   "id": "node/13916539601",
   "properties": {
-    "defibrillator:location": "Geschäftshaus Aurum",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "yes",
+    "defibrillator:location": "vor dem Eingang Geschäftshaus Aurum",
+    "description": "Zürcherstrasse 59, 8800 Thalwil",
+    "email": "info@fmteam.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "FM Team",
+    "opening_hours": "24/7",
+    "operator": "FM Team Die Gebäudeservice AG",
+    "phone": "+41 44 720 30 40",
     "id": "node/13916539601"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5668799,
-      47.2848191
+      8.5666686,
+      47.2847863
     ]
   }
 },
