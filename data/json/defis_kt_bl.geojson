@@ -10528,6 +10528,25 @@
       47.4700689
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14095166485",
+  "properties": {
+    "addr:floor": "-1",
+    "defibrillator:location": "Treppe runter, mittlerer Schrank",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Schwimmhalle Birsfelden",
+    "id": "node/14095166485"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6225548,
+      47.5548048
+    ]
+  }
 }
 ]
 }
