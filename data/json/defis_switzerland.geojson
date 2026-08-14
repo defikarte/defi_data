@@ -94035,6 +94035,7 @@
   "id": "node/8562819833",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-14",
     "defibrillator:location": "Im Eingangsbereich, auf der Innenseite, hinter einer Glasscheibe sichtbar. Am Tag frei zugänglich, in der Nacht muss geläutet werden, dass die Nachtwache den Defi aushändigen kann",
     "description": "24h verfügbar / über Nachtwache",
     "emergency": "defibrillator",
@@ -377581,6 +377582,24 @@
     "coordinates": [
       7.8842479,
       46.2949022
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14094389296",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Outdoor at wall",
+    "emergency": "defibrillator",
+    "wheelchair": "yes",
+    "id": "node/14094389296"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8534422,
+      46.1736043
     ]
   }
 }

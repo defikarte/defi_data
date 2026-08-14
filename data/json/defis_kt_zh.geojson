@@ -14037,6 +14037,7 @@
   "id": "node/8562819833",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-14",
     "defibrillator:location": "Im Eingangsbereich, auf der Innenseite, hinter einer Glasscheibe sichtbar. Am Tag frei zugänglich, in der Nacht muss geläutet werden, dass die Nachtwache den Defi aushändigen kann",
     "description": "24h verfügbar / über Nachtwache",
     "emergency": "defibrillator",
