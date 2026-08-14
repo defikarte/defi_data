@@ -377602,6 +377602,25 @@
       46.1736043
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14094696201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Funivia S. Carlo-Robiei",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14094696201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5297716,
+      46.410141
+    ]
+  }
 }
 ]
 }
