@@ -17232,18 +17232,22 @@
     "addr:housenumber": "205",
     "addr:postcode": "2746",
     "addr:street": "Rue des Courtils",
+    "defibrillator:location": "-",
+    "email": "info@les-aliziers.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Home Les Aliziers",
+    "operator": "Résidence Les Aliziers",
     "phone": "+41 32 499 80 80",
     "id": "node/6635063457"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.438693,
-      47.2844486
+      7.437891,
+      47.2849099
     ]
   }
 },
@@ -194012,19 +194016,23 @@
     "addr:housenumber": "6",
     "addr:postcode": "2746",
     "addr:street": "Rue du Collège",
-    "description": "Derrière l'école, contre le mur extérieur",
+    "defibrillator:location": "Derrière l'école, à côté de la porte, contre le mur extérieur.",
+    "description": "Boîte verte AED",
+    "email": "secretariat.communal@cremines.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Ecole de Crémines",
-    "phone": "+41 324999445",
+    "operator": "Commune de Crémines",
+    "phone": "+41 32 499 95 42",
     "id": "node/10543669800"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4414558,
-      47.2830435
+      7.4416186,
+      47.283042
     ]
   }
 },
