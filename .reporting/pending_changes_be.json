@@ -55,5 +55,35 @@
       "opening_hours: 'mo-fr 07:30-12:00, 13:00-17:00' → 'Mo-Fr 07:30-12:00,13:00-17:00'"
     ],
     "detected_at": "2026-08-13T10:07:54.208456+00:00"
+  },
+  {
+    "key": "node/10543669800",
+    "name": "(ohne Name)",
+    "address": "Rue du Collège 6, 2746 Crémines",
+    "lon": 7.4416186,
+    "lat": 47.283042,
+    "changes": [
+      "operator: 'Ecole de Crémines' → 'Commune de Crémines'",
+      "phone: '+41 324999445' → '+41 32 499 95 42'",
+      "defibrillator:location: 'None' → 'Derrière l'école, à côté de la porte, contre le mur extérieur.'",
+      "description: 'Derrière l'école, contre le mur extérieur' → 'Boîte verte AED'",
+      "level: 'None' → '0'",
+      "indoor: 'None' → 'no'"
+    ],
+    "detected_at": "2026-08-15T02:53:59.444888+00:00"
+  },
+  {
+    "key": "node/6635063457",
+    "name": "(ohne Name)",
+    "address": "Rue des Courtils 205, 2746 Crémines",
+    "lon": 7.437891,
+    "lat": 47.2849099,
+    "changes": [
+      "operator: 'Home Les Aliziers' → 'Résidence Les Aliziers'",
+      "defibrillator:location: 'None' → '-'",
+      "level: 'None' → '0'",
+      "indoor: 'None' → 'yes'"
+    ],
+    "detected_at": "2026-08-15T02:53:59.447013+00:00"
   }
 ]
