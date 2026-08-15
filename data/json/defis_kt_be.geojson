@@ -65296,6 +65296,79 @@
       46.9234957
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14096359401",
+  "properties": {
+    "defibrillator:location": "Schule Matten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14096359401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8704073,
+      46.6778589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14096362001",
+  "properties": {
+    "defibrillator:location": "Brienz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/14096362001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.03657,
+      46.754709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14096398601",
+  "properties": {
+    "defibrillator:location": "Bfbfjfkykxjxj",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14096398601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.494089,
+      46.9740771
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14096406001",
+  "properties": {
+    "defibrillator:location": "Zuhause",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14096406001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.817057,
+      46.698742
+    ]
+  }
 }
 ]
 }
