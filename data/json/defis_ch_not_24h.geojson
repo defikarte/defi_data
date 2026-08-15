@@ -217095,6 +217095,23 @@
       46.698742
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14096817501",
+  "properties": {
+    "defibrillator:location": "im Vorraum ",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14096817501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8640329,
+      46.9023883
+    ]
+  }
 }
 ]
 }
