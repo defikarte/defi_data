@@ -102,7 +102,7 @@ osm_id,osm_type,lat,lon,access,check_date,covered,defibrillator:location,descrip
 10814071405,node,46.9104843,8.5615763,yes,,,Dorfstrasse 15 Isental,,,defibrillator,144,,node/10814071405,yes,0,,,,,,24/7,Samariterverein,,,,
 10946047905,node,46.8695362,8.6557321,yes,2024-05-01,,Eingang Turnhalle Grundmatte,"Aussen am Eingang, immer verfügbar",,defibrillator,144,,node/10946047905,no,0,,,,,,24/7,Gemeinde,+41 41 874 04 76,"local_knowledge, defikarte.ch",,
 10946047906,node,46.861849,8.6521679,yes,,,Eingang Schwimmbad Gräwimatt,"Aussen am Eingang, immer verfügbar",,defibrillator,144,,node/10946047906,no,,,,,,,24/7,Gemeinde,+41 41 874 04 76,"local_knowledge, defikarte.ch",,
-11076083174,node,46.9604656,8.5730531,,,,,,,defibrillator,144,,node/11076083174,yes,,,,,,,,,,,,
+11076083174,node,46.9604735,8.5730264,,,,,,,defibrillator,144,,node/11076083174,yes,,,,,,,,,,,,
 11285446669,node,46.7766345,8.6682716,yes,,,Eingang zum Ärztezentrum Silenen,24 Stunden/7 Tage (Aussenmontage),,defibrillator,144,,node/11285446669,no,0,,,,,,24/7,Ärztezentrum Silenen,+41 41 244 40 50,"local_knowledge, defikarte.ch",,
 11813297697,node,46.8701789,8.6514947,yes,2025-06-29,,"Fussballplatz Grüner Wald, Eingang",öffentlich zugänglich,,defibrillator,144,,node/11813297697,no,,,,,,,24/7,FC Schattdorf,+41 79 390 42 01,"local_knowledge, defikarte.ch",,
 11932949817,node,46.9684307,8.5924427,,,,,,,defibrillator,144,,node/11932949817,,,,,,,,,,,,,

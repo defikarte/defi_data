@@ -1256,7 +1256,7 @@ Zufahrt zwischen Gebäude 5 und 6",,Grüner Koffer,,defibrillator,144,,,,node/10
 11062952505,node,46.8410615,8.4116301,yes,,,,,,,,,,,,,,Bergstation vom Sessellift,,,,defibrillator,144,,,,node/11062952505,no,,,,,,,,,,24/7,,,,,,,,,
 11067196806,node,46.7920059,8.163287,yes,,,,,,,,,,,,,,Lagerhaus Tourismusverein,,An der Fassade beim Eingang,,defibrillator,144,,,,node/11067196806,no,,0,,,,,,,,24/7,Tourismusverein Lungern,,+41799616241,,"local_knowledge, defikarte.ch",,,,
 11067645314,node,47.0863123,8.1169369,yes,,,,,,,,,,,,,yes,,,,,defibrillator,144,,,,node/11067645314,,,,,,,,,,,24/7,,yes,,,,,yes,,
-11076083174,node,46.9604656,8.5730531,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/11076083174,yes,,,,,,,,,,,,,,,,,,,
+11076083174,node,46.9604735,8.5730264,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/11076083174,yes,,,,,,,,,,,,,,,,,,,
 11088834206,node,47.0137133,8.5001078,yes,,,,,,,,,,,,,,Eingang Station,,,,defibrillator,144,,,,node/11088834206,no,,,,,,,,,,24/7,,,,,,,,,
 11114363405,node,46.9794984,8.2556462,,,,,,,,,,,,,,,bei Löschposten Bucherershop EG Panoramagalerie,,,,defibrillator,144,,,,node/11114363405,yes,,0,,,,,,,,,Pilatus-Bahnen AG,,+41413291142,,,,,,
 11114373405,node,46.9795021,8.253538,yes,,,,,,,,,,,,,,Hotel Pilatus-Kulm,,neben Eingang Lift,,defibrillator,144,,,,node/11114373405,yes,,,,,,,,,,24/7,Pilatus-Bahnen AG,,+41413291142,,"local_knowledge, defikarte.ch",,,,
