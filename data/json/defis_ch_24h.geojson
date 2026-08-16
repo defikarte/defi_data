@@ -26092,7 +26092,7 @@
   "id": "node/7637818475",
   "properties": {
     "access": "yes",
-    "check_date": "2026-01-04",
+    "check_date": "2026-08-14",
     "defibrillator:location": "Aussenwand Rest. Bahnhöfli",
     "description": "Bahnhöfli Restaurant",
     "emergency": "defibrillator",
@@ -53680,6 +53680,7 @@
   "id": "node/8851160392",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-14",
     "defibrillator:location": "auf dem Platz, zwischen Postfächern und Ladestationen für Elektrofahrzeuge",
     "description": "Haltestelle Tanzplatz",
     "emergency": "defibrillator",
