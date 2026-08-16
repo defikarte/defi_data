@@ -9864,7 +9864,7 @@
   "id": "node/12146510146",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "À l'entrée, sur un poteau",
+    "defibrillator:location": "A l'intérieur de l'immeuble, derrière un poteau entre la sortie de la Migros et l'entrée du Kiosque",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
