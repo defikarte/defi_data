@@ -377753,6 +377753,25 @@
       46.9023883
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14098399002",
+  "properties": {
+    "defibrillator:location": "Eingang Bächtelenweg 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14098399002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.45556,
+      46.9255992
+    ]
+  }
 }
 ]
 }
