@@ -217131,6 +217131,24 @@
       46.9255992
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14098653717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Outside on wall",
+    "emergency": "defibrillator",
+    "wheelchair": "yes",
+    "id": "node/14098653717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8502876,
+      46.172415
+    ]
+  }
 }
 ]
 }
