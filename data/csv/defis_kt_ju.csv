@@ -181,7 +181,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 10765933798,node,47.4163706,7.0772453,yes,,,,,,,A l'accueil du fitness,Pendant les heures d'ouverture,,defibrillator,144,node/10765933798,yes,1,,,,,,,
 11483583916,node,47.2709171,7.3621769,yes,Moutier,98,2740,Rue Industrielle,,,Rez-de-chaussée en face de l'entrée,,,defibrillator,144,node/11483583916,,,,24/7,Forum de l'Arc SA,+41324931739,,,
 11741283793,node,47.4056691,7.1266386,private,,,,,,,SAK Auto Kabel AG Rue Adolphe-Gandon 18 Werkstatt 1295LTM,Gelber Koffer,,defibrillator,144,node/11741283793,yes,0,,"Mo-Fr 08:00-12:00, 13:00-16:00",Lifetec AG Schweiz,+41 800 122 144,,,
-11741352434,node,47.4819707,7.146499,,,,,,,,Technopoli SA Sur les Perrières 361 2944 Bonfol 1.UG bei Stempeluhr/Tableau 2 (alimentation electric)  1298LTM,Oranger Koffer,,defibrillator,144,node/11741352434,yes,-1,,"Mo-Fr 08:00-12:00,13:00-17:00",Lifetec AG Schweiz,+41 800 122 144,,,
+11741352434,node,47.482236,7.1463295,,,,,,,,Technopoli SA Sur les Perrières 361 2944 Bonfol 1.UG bei Stempeluhr/Tableau 2 (alimentation electric)  1298LTM,Oranger Koffer,,defibrillator,144,node/11741352434,yes,-1,,"Mo-Fr 08:00-12:00,13:00-17:00",Lifetec AG Schweiz,+41 800 122 144,,,
 11786937118,node,47.1761592,6.8946374,permissive,,,,,,,,,,defibrillator,144,node/11786937118,no,,,24/7,,,,,
 12638902001,node,47.4146268,7.0915858,,,,,,,,bâtiment rose entrée gauche,appareil vert marque douane,,defibrillator,144,node/12638902001,yes,1,,24/7,privé,+41 79 414 74 74,,"local_knowledge, defikarte.ch",
 12716567301,node,47.4244646,7.1208849,yes,,,,,,,Halle des Fêtes d’Alle,"En exterieur, côté route de Porrentruy.",,defibrillator,144,node/12716567301,no,0,,24/7,RéaJura,+41794147411,,,
