@@ -217246,6 +217246,23 @@
       47.3914176
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14101157085",
+  "properties": {
+    "defibrillator:location": "Ebene Gondeln, hinter den Drehkreuzen zur Bergfahrt an der Wand (bei der Personal-Kabine)",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14101157085"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6785656,
+      46.783588
+    ]
+  }
 }
 ]
 }

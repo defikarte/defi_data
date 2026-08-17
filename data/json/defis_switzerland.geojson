@@ -288545,7 +288545,7 @@
   "id": "node/12071622970",
   "properties": {
     "access": "yes",
-    "check_date": "2025-03-07",
+    "check_date": "2026-08-17",
     "defibrillator:location": "Wand zwischen den WC",
     "defibrillator:location:de": "An der Wand zwischen den Eingängen der Toiletten.",
     "emergency": "defibrillator",
@@ -377913,6 +377913,23 @@
     "coordinates": [
       8.5158073,
       47.3914176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14101157085",
+  "properties": {
+    "defibrillator:location": "Ebene Gondeln, hinter den Drehkreuzen zur Bergfahrt an der Wand (bei der Personal-Kabine)",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14101157085"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6785656,
+      46.783588
     ]
   }
 }
