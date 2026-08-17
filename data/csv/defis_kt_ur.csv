@@ -7,7 +7,7 @@ osm_id,osm_type,lat,lon,access,check_date,covered,defibrillator:location,descrip
 6635532681,node,46.894496,8.6076517,yes,2026-04-04,,Aussenwand Toiletteneingang,,,defibrillator,144,,node/6635532681,no,,,,,,,24/7,,,,,
 7637812578,node,46.7143595,8.6087968,,,,,Zentrale,,defibrillator,144,,node/7637812578,,,,,Kraftwerk Wassen AG,,,,,,,,
 7637818465,node,46.8722739,8.7276474,,,,,rechts beim Eingang,,defibrillator,144,,node/7637818465,,,,,Primarschulhaus,,,,,,,,
-7637818475,node,46.9784928,8.5871685,yes,2026-01-04,,Aussenwand Rest. Bahnhöfli,Bahnhöfli Restaurant,,defibrillator,144,,node/7637818475,no,,,,,,,24/7,,,,,yes
+7637818475,node,46.9784928,8.5871685,yes,2026-08-14,,Aussenwand Rest. Bahnhöfli,Bahnhöfli Restaurant,,defibrillator,144,,node/7637818475,no,,,,,,,24/7,,,,,yes
 7637818477,node,46.8847365,8.6052124,yes,2024-03-24,,,Eingang MZH,,defibrillator,144,,node/7637818477,,0,,,Mehrzweckhalle,,,24/7,,,,,
 7637818479,node,46.8883495,8.6032726,yes,2024-04-28,,,,,defibrillator,144,,node/7637818479,yes,0,,,Seerestaurant,,,Mar: 09:00-18:00; Apr-Sep: 09:00-22:00; Oct: 09:00-18:00; Nov-Feb: off,Seerestaurant,,,,
 7637818488,node,46.8633022,8.6462162,,,,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/7637818488,yes,,,,Brand Metallbau AG,,,,,,,,
@@ -69,7 +69,7 @@ osm_id,osm_type,lat,lon,access,check_date,covered,defibrillator:location,descrip
 8384897885,node,46.8778097,8.6392951,yes,2024-04-28,,"BWZ Haupteingang, links vor die Türen.",,,defibrillator,144,,node/8384897885,yes,,,,,,,24/7,,,,,no
 8486525584,node,46.9016261,8.6445919,yes,,,Bergstation Eggberge,,,defibrillator,144,,node/8486525584,yes,0,,,,,,24/7,,,,,
 8678285150,node,46.8605587,8.6426992,yes,2024-02-06,,Durchgang beim Teich,,,defibrillator,144,,node/8678285150,no,,,,,,,24/7,Stiftung Behindertenbetriebe Uri (SBU),+41 41 874 15 15,,,
-8851160392,node,46.967351,8.5845475,yes,,,"auf dem Platz, zwischen Postfächern und Ladestationen für Elektrofahrzeuge",Haltestelle Tanzplatz,,defibrillator,144,,node/8851160392,no,,,,,,,24/7,,,,,yes
+8851160392,node,46.9673291,8.5845162,yes,2026-08-14,,"auf dem Platz, zwischen Postfächern und Ladestationen für Elektrofahrzeuge",Haltestelle Tanzplatz,,defibrillator,144,,node/8851160392,no,,,,,,,24/7,,,,,yes
 8979391059,node,46.9781585,8.5910748,yes,,,Neben dem WC,Jugendherberge Seelisberg,,defibrillator,144,,node/8979391059,yes,,,,,,,,Jugendherberge Seelisberg,+41 41 820 52 32,,,no
 9230592776,node,46.8644545,8.6367365,yes,,,An Aussenwand,,,defibrillator,144,,node/9230592776,no,,,,,,,,,,,,
 9515956035,node,46.8870501,8.6339306,,,,Feuerwehrlokal,,,defibrillator,144,,node/9515956035,,,,,,,,,,,,,
