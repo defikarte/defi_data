@@ -238994,7 +238994,7 @@
     "access": "yes",
     "addr:housenumber": "16",
     "addr:street": "Matten",
-    "defibrillator:location": "Schulhaus Matten bei Pausen Unterstand",
+    "defibrillator:location": "Schulhaus Matten bei Pausen Unterstand, südlich vom Hauptgebäude",
     "description": "Grüner Kasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -239010,8 +239010,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.412715,
-      47.1974201
+      8.4127164,
+      47.1974185
     ]
   }
 },
@@ -280920,8 +280920,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.4611143,
-      46.4805756
+      6.461161,
+      46.4805797
     ]
   }
 },
@@ -377791,6 +377791,31 @@
     "coordinates": [
       8.8502876,
       46.172415
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14100572301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Parkhaus (Vorraum)",
+    "description": "immer verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14100572301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5149531,
+      47.1769008
     ]
   }
 }

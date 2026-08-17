@@ -2657,6 +2657,31 @@
       47.1749591
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14100572301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Parkhaus (Vorraum)",
+    "description": "immer verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14100572301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5149531,
+      47.1769008
+    ]
+  }
 }
 ]
 }
