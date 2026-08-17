@@ -352103,28 +352103,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13505334403",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Hof Metzgerei Volkart",
-    "description": "öffentlich zugänglich an Hauswand angebracht. Auf der Seite zwischen Volg und Metzgerei.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "id": "node/13505334403"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5154996,
-      47.5232796
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13506049701",
   "properties": {
     "access": "yes",
@@ -377910,6 +377888,31 @@
     "coordinates": [
       8.5364287,
       47.4524244
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14101124901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Carbahaus, Förrlibuckstrasse 30",
+    "description": "Firma assetimmo im 6. Stock (im Lift mit D angeschrieben)",
+    "email": "info@assetimmo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:30 - 15:30",
+    "operator": "assetimmo Immobilien-Anlagestiftung",
+    "phone": "+41 44 404 20 42",
+    "id": "node/14101124901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5158073,
+      47.3914176
     ]
   }
 }

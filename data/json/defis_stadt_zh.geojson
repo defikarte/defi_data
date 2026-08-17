@@ -19245,6 +19245,31 @@
       47.4245604
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14101124901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Carbahaus, Förrlibuckstrasse 30",
+    "description": "Firma assetimmo im 6. Stock (im Lift mit D angeschrieben)",
+    "email": "info@assetimmo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:30 - 15:30",
+    "operator": "assetimmo Immobilien-Anlagestiftung",
+    "phone": "+41 44 404 20 42",
+    "id": "node/14101124901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5158073,
+      47.3914176
+    ]
+  }
 }
 ]
 }
