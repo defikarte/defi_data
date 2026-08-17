@@ -103298,6 +103298,27 @@
       47.4524446
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14100799101",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Dormakaba Empfang",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Dormakaba AG",
+    "phone": "+41448189099",
+    "id": "node/14100799101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5364287,
+      47.4524244
+    ]
+  }
 }
 ]
 }

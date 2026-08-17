@@ -12,7 +12,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Sa 7:00-19:00",
+    "opening_hours": "Mo-Sa 07:00-19:00",
     "operator": "Mühleholzmarkt, Hauswartung Immo Vogt",
     "phone": "+423 222 01 35",
     "id": "node/7813190773"
@@ -444,7 +444,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Liecht. Landesverwaltung",
     "id": "node/9004557424"
   },
@@ -2794,7 +2794,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Landesverwaltung",
     "id": "node/11698462269"
   },
@@ -2817,7 +2817,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Landesverwaltung",
     "id": "node/11698519869"
   },
@@ -2909,7 +2909,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Gemeinde Vaduz",
     "phone": "+423 222 01 35",
     "id": "node/11809529069"
@@ -3536,7 +3536,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00-17:30",
+    "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "Hoval AG",
     "phone": "+423 399 23 82",
     "id": "node/12259416901"
@@ -3608,7 +3608,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-18:00",
+    "opening_hours": "Mo-Fr 07:30-18:00",
     "operator": "Privat",
     "phone": "+4232652500",
     "id": "node/12320165601"
@@ -3632,7 +3632,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Fr 07:30-17:30 ",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "Sigma Kreditbank",
     "phone": "+4232390395",
     "id": "node/12372464101"
@@ -3656,7 +3656,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Fr 7:00-17:30",
+    "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "Firma Plan:Ing ",
     "phone": "+4233779000",
     "id": "node/12372470501"
@@ -3921,7 +3921,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 7:00-17:30",
+    "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "Frickbau AG",
     "phone": "+4232364600",
     "id": "node/12707297301"
@@ -3945,7 +3945,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-17:30",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "Frickbau AG",
     "phone": "+4232364600",
     "id": "node/12707301801"
@@ -4017,7 +4017,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 7:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Firma NOX Systems",
     "phone": "+4233702525",
     "id": "node/12886651201"
@@ -4089,7 +4089,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Su 7:00-18:00",
+    "opening_hours": "Mo-Su 07:00-18:00",
     "operator": "LAK",
     "phone": "+4233881313",
     "id": "node/12985552402"
@@ -4281,7 +4281,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-17:30",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "Dr. Helmuth Vogt Zahnarzt",
     "phone": "+4233922424",
     "id": "node/13230327601"
@@ -4567,7 +4567,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-12:00, 13:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Kunstschule Nendeln",
     "phone": "+4232220135",
     "id": "node/13545531901"
@@ -4705,7 +4705,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Stiftung 50 plus",
     "phone": "+4232220135",
     "id": "node/13622332901"
