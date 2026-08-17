@@ -80473,6 +80473,30 @@
       47.2568393
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14100788001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hofwiesenstrasse 24, Empfang",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Dormakaba AG",
+    "phone": "+41448189099",
+    "id": "node/14100788001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5363762,
+      47.4524446
+    ]
+  }
 }
 ]
 }
