@@ -160667,6 +160667,30 @@
       47.1769008
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14100688201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "CEIBS Gebäude, Aussenfassade neben dem Schuleingang, direkt an der Strasse",
+    "description": "24/7 Verfügbar in grünem AED Kasten",
+    "email": "info.zh@ceibs.edu",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "CEIBS Switzerland AG",
+    "phone": "+41 44 728 99 86",
+    "id": "node/14100688201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6094252,
+      47.2572408
+    ]
+  }
 }
 ]
 }

@@ -80424,6 +80424,55 @@
       47.4245604
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14100688201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "CEIBS Gebäude, Aussenfassade neben dem Schuleingang, direkt an der Strasse",
+    "description": "24/7 Verfügbar in grünem AED Kasten",
+    "email": "info.zh@ceibs.edu",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "CEIBS Switzerland AG",
+    "phone": "+41 44 728 99 86",
+    "id": "node/14100688201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6094252,
+      47.2572408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14100694201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Altes Wasserwerk, Nebengebäude CEIBS, Hirsackerstrasse 56",
+    "description": "Wàhrend Events direkt verfügbar, sonst während Bürozeiten bei Hirsackerstrasse 46 melden",
+    "email": "info.zh@ceibs.edu",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 9:00-17:00",
+    "operator": "CEIBS Switzerland",
+    "phone": "+41 44 728 99 86",
+    "id": "node/14100694201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6100753,
+      47.2568393
+    ]
+  }
 }
 ]
 }

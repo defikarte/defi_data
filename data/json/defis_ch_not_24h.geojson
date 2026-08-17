@@ -217151,6 +217151,31 @@
       46.172415
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14100694201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Altes Wasserwerk, Nebengebäude CEIBS, Hirsackerstrasse 56",
+    "description": "Wàhrend Events direkt verfügbar, sonst während Bürozeiten bei Hirsackerstrasse 46 melden",
+    "email": "info.zh@ceibs.edu",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 9:00-17:00",
+    "operator": "CEIBS Switzerland",
+    "phone": "+41 44 728 99 86",
+    "id": "node/14100694201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6100753,
+      47.2568393
+    ]
+  }
 }
 ]
 }
