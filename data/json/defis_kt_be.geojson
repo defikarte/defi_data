@@ -65388,6 +65388,31 @@
       46.9255992
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102509201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Cafeteria",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102509201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4374187,
+      46.9465401
+    ]
+  }
 }
 ]
 }

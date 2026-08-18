@@ -25,7 +25,7 @@
   "id": "node/7721055966",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Grossraumbüro",
+    "defibrillator:location": "SWICA Agentur Appenzell Grossraumbüro",
     "description": "nur während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -40,8 +40,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4068456,
-      47.3312567
+      9.406845,
+      47.3312563
     ]
   }
 },

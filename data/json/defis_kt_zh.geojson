@@ -80546,6 +80546,81 @@
       47.2394413
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102497001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102497001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5616601,
+      47.2975128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102501801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Vorplatz Besprechungsraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102501801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5347656,
+      47.3805162
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102516602",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "dsp Ingenieure + Planer AG",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "dsp@dsp.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Unternehmung",
+    "phone": "+41 44 905 88 88",
+    "id": "node/14102516602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.717996,
+      47.348972
+    ]
+  }
 }
 ]
 }

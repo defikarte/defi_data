@@ -1908,7 +1908,7 @@
   "id": "node/7721055966",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Grossraumbüro",
+    "defibrillator:location": "SWICA Agentur Appenzell Grossraumbüro",
     "description": "nur während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -1923,8 +1923,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4068456,
-      47.3312567
+      9.406845,
+      47.3312563
     ]
   }
 },
@@ -38472,6 +38472,56 @@
     "coordinates": [
       9.0903102,
       47.2983523
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102503901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102503901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.83526,
+      47.2300835
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102504502",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Archiv",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102504502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4761049,
+      47.1667979
     ]
   }
 }

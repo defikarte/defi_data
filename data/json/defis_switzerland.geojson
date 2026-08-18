@@ -64681,7 +64681,7 @@
   "id": "node/7721055966",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Grossraumbüro",
+    "defibrillator:location": "SWICA Agentur Appenzell Grossraumbüro",
     "description": "nur während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -64696,8 +64696,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4068456,
-      47.3312567
+      9.406845,
+      47.3312563
     ]
   }
 },
@@ -377944,7 +377944,7 @@
   "id": "node/14102436301",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Empfang SWICA",
+    "defibrillator:location": "SWICA Agentur Olten - Empfang",
     "description": "Während Öffnungszeiten Verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -377960,7 +377960,7 @@
     "type": "Point",
     "coordinates": [
       7.9030531,
-      47.3500684
+      47.3500683
     ]
   }
 },
@@ -378086,6 +378086,281 @@
     "coordinates": [
       9.1069159,
       47.5683698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102497001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102497001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5616601,
+      47.2975128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102501801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Vorplatz Besprechungsraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102501801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5347656,
+      47.3805162
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102503901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102503901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.83526,
+      47.2300835
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102504502",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Archiv",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102504502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4761049,
+      47.1667979
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102509201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Cafeteria",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102509201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4374187,
+      46.9465401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102511702",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Treppenhaus/EIngang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102511702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9504323,
+      46.007899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102516601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Caféteria",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102516601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.148905,
+      46.8097176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102516602",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "dsp Ingenieure + Planer AG",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "dsp@dsp.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Unternehmung",
+    "phone": "+41 44 905 88 88",
+    "id": "node/14102516602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.717996,
+      47.348972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102516603",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Ascenseur",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102516603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9288925,
+      46.9913594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102521401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Eingang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102521401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0459578,
+      47.3904717
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102522501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Solothurn - Korridor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102522501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5336035,
+      47.2064796
     ]
   }
 }
