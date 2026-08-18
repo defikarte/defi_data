@@ -10777,10 +10777,12 @@
   "type": "Feature",
   "id": "node/12515022601",
   "properties": {
-    "defibrillator:location": "Garage AMAG",
+    "access": "yes",
+    "defibrillator:location": "A la réception du garage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "id": "node/12515022601"
   },
   "geometry": {
@@ -14836,6 +14838,25 @@
     "coordinates": [
       6.6261469,
       46.5160616
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102807904",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur mur en haut des escaliers",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14102807904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8343992,
+      46.4717486
     ]
   }
 }

@@ -177994,10 +177994,12 @@
   "type": "Feature",
   "id": "node/12515022601",
   "properties": {
-    "defibrillator:location": "Garage AMAG",
+    "access": "yes",
+    "defibrillator:location": "A la réception du garage",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "id": "node/12515022601"
   },
   "geometry": {

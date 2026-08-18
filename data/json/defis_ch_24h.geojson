@@ -160694,6 +160694,25 @@
       47.6057222
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102807904",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur mur en haut des escaliers",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14102807904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8343992,
+      46.4717486
+    ]
+  }
 }
 ]
 }
