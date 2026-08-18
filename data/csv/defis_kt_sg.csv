@@ -316,7 +316,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 8291730882,node,47.4143539,9.1834763,private,,,,,,,,,,,,,,,,defibrillator,144,node/8291730882,,,yes,,,,,,,,,,,,,,,,,,,,
 8300126316,node,47.4431036,9.4247887,yes,,,,,,,,,,An der Wand draussen gegenüber der Einfahrt,,,,,,defibrillator,144,node/8300126316,,,no,,,,,,,,24/7,,Max Müller AG,,,+41 71 282 50 82,,,,,,,
 8300132204,node,47.4131926,9.2587854,,,,,,,,,,,Im 1. OG bei der Verwaltung,,,während Bürozeiten,,,defibrillator,144,node/8300132204,,,yes,,,,,,,,Mo-Fr 08:00-17:00,,Rettung St. Gallen,,,+41 71 412 74 30,,,,,,,
-8300136288,node,47.3790789,9.5430316,yes,,,,,,,,,,beim Seiteneingang Turnhalle,,,,,,defibrillator,144,node/8300136288,,,no,,,,,,,,24/7,,Schulleitung,,,+41 71 757 92 01,,,,,,,
+8300136288,node,47.3790919,9.5430886,yes,,,,,,,,,,beim Seiteneingang Turnhalle,,,,,,defibrillator,144,node/8300136288,,,no,,,,,,,,24/7,,Schulleitung,,,+41 71 757 92 01,,,,,,,
 8300136290,node,47.3810487,9.5441689,yes,,,,,,,,,,im Durchgang vom Schulhaus zur Vierfachturnhalle,,,nur während Bürozeiten,,,defibrillator,144,node/8300136290,,,yes,,,,,,,,,,Schulleitung,,,+41 71 757 92 00,,,,,,,
 8300203526,node,47.41256,9.3449502,no,,,,,,,,,,1. OG,,,,,,defibrillator,144,node/8300203526,,,yes,,,,,,,,,,Kessler & Co AG,,,,,,,,,,
 8300203628,node,47.3765754,9.5419458,yes,,,,,,,,,,Links neben dem Haupteingang,,,,,,defibrillator,144,node/8300203628,,,no,,,,,,,,24/7,,Schulleitung,,,+41 71 757 92 02,,,,,,,

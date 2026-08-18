@@ -120,3 +120,4 @@ EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",,defibrillator,144,node/7568
 13808872401,node,47.1677901,8.5285838,yes,,,,,"Bushaltestelle Obersack, Lüssirainstrasse",,sicherheit@stadtzug.ch,defibrillator,144,node/13808872401,no,0,,24/7,"Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",,+41 58 728 99 03,,,,,
 13907392489,node,47.1495371,8.5075214,yes,,,,,Badeplatz Tellenörtli,,,defibrillator,144,node/13907392489,no,0,,24/7,"Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",,+41 58 723 99 00,,,,,
 13921899601,node,47.1749591,8.5238705,yes,,,,,Beim Einfang der Dreifachsporthalle an der linken Wand,,,defibrillator,144,node/13921899601,no,0,,24/7,Hochbauamt Kanton Zug,,+41 41 594 54 00,,,,,File:Defi_Kantonsschule_ZG.png
+14100572301,node,47.1769008,8.5149531,yes,,,,,Eingang Parkhaus (Vorraum),immer verfügbar,patrick.luescher@siemens.com,defibrillator,144,node/14100572301,yes,0,,24/7,Siemens Schweiz AG,,+41 58 724 50 83,,,,,

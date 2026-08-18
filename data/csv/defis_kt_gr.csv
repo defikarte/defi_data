@@ -628,7 +628,7 @@ Neben Eingang Gemeindeverwaltung
 12041279969,node,46.3378471,9.6455455,,,,,,,,,,,,Bergstation Albigna,,,,,defibrillator,,144,,,,node/12041279969,,,no,,,,,,24/7,ewz,,,+41 58319 62 11,,,"local_knowledge, defikarte.ch",,
 12061054269,node,46.4914162,9.9038368,permissive,,,,,,,,,,,"im Hotel an der Reception im Backoffice, unten links ",,,"während den Öffnungszeiten verfügbar, Haupteingang-Türe ist ab 22:30 - 6:30 Uhr geschlossen ausser in der Zwischensaison im Frühling (April bis Juli) ",,defibrillator,,144,,,,node/12061054269,,,yes,,,,,,24/7,Hotel Maistra 160 ,,,+41818426160,,,"local_knowledge, defikarte.ch",,
 12066902904,node,46.8084709,9.8386625,,,,,,,,,,,,Kasse Parsennbahn,,,,,defibrillator,,144,,,,node/12066902904,,,yes,,,0,,,,Davos Klosters Bergbahn AG,,,+41 81 417 66 60,,,,,
-12071622970,node,46.777145,9.6601473,yes,,,,,,,,2025-03-07,,,Wand zwischen den WC,An der Wand zwischen den Eingängen der Toiletten.,,,,defibrillator,,144,,,,node/12071622970,,,no,,,,,,24/7,Gemeinde Arosa,,,,,,,,
+12071622970,node,46.777145,9.6601473,yes,,,,,,,,2026-08-17,,,Wand zwischen den WC,An der Wand zwischen den Eingängen der Toiletten.,,,,defibrillator,,144,,,,node/12071622970,,,no,,,,,,24/7,Gemeinde Arosa,,,,,,,,
 12079943914,node,46.7143431,9.4503036,yes,,,,,1,,Löser,,,,"Altes Feuerwehrmagazin
 1451LTS",,,Grüner Kasten Gelber Koffer,,defibrillator,,144,,,,node/12079943914,,,no,,,,,Stadt Fürstenau,24/7,Lifetec AG Schweiz,,,+41 800 122 144,,1451LTS,,,
 12079982986,node,46.7206605,9.448259,yes,,,,,56,,Domleschgerstrasse,,,,"Beim Gemeindehaus, links am Gebäude und Velounterstand vorbei, hinter dem Haus an Holzfasade.
@@ -813,3 +813,4 @@ Furtschellas Talstation
 14041367801,node,46.4679666,9.649396,yes,,,,,,,,,,,Zugang zu den Toiletten bei der Talstation Bivio,,,Von 1.5.-10.12. verfügbar und aufgehängt,info@schneesportbivio.ch,defibrillator,,144,,,,node/14041367801,,,no,,,0,,,24/7,Bivio SPortanlagen AG,,,+41 81 684 54 00,,,,,
 14057943501,node,46.8417055,9.3116423,yes,,,,,,,,,,,Milchseilbahn bei Bushaltestelle,,,,dario.gauch@flims.ch,defibrillator,,144,,,,node/14057943501,,,no,,,,,,24/7,Gemeinde Flims (Dario Gauch),,,+41 76 422 63 76,,,,,
 14096817501,node,46.9023883,9.8640329,,,,,,,,,,,,im Vorraum ,,,,,defibrillator,,,,,,node/14096817501,,,yes,,,,,,,,,,,,,,,
+14101157085,node,46.783588,9.6785656,,,,,,,,,,,,"Ebene Gondeln, hinter den Drehkreuzen zur Bergfahrt an der Wand (bei der Personal-Kabine)",,,,,defibrillator,,,,,,node/14101157085,,,yes,,,,,,,,,,,,,,,
