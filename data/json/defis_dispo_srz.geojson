@@ -103322,6 +103322,31 @@
       47.3914176
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102442401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Empfang SWICA",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102442401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7220635,
+      47.2394413
+    ]
+  }
 }
 ]
 }
