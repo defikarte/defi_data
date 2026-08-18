@@ -24388,6 +24388,25 @@
       47.0479466
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14103320601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zum Kindergarten Stirnrütistrasse 19",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Gemeinde Horw",
+    "id": "node/14103320601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.310005,
+      47.0256667
+    ]
+  }
 }
 ]
 }

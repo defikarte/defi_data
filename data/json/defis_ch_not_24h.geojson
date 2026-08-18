@@ -12944,6 +12944,7 @@
     "defibrillator:location": "Der AED befindet sich im 3. Stock im Treppenhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Tiefbauamt der Stadt Bern",
     "phone": "+41 31 321 23 23",
@@ -218320,6 +218321,25 @@
     "coordinates": [
       8.5298629,
       47.343875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14103320601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zum Kindergarten Stirnrütistrasse 19",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "operator": "Gemeinde Horw",
+    "id": "node/14103320601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.310005,
+      47.0256667
     ]
   }
 }
