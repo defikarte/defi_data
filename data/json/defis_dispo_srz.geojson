@@ -103620,6 +103620,31 @@
       47.343875
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14103706901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pflegezentrum Sonnenberg Haupteingang Haus Pilatus",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@pflegezentrum-sonnenberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-20:00",
+    "operator": "Pflegezentrum Sonnenberg",
+    "phone": "+41 44 714 27 25",
+    "id": "node/14103706901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4553603,
+      47.2859528
+    ]
+  }
 }
 ]
 }
