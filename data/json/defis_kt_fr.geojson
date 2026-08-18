@@ -7984,6 +7984,27 @@
       46.8097178
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102953301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mur extérieur de la salle de gym",
+    "email": "eric.ch@websud.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14102953301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0594595,
+      46.5947031
+    ]
+  }
 }
 ]
 }

@@ -146403,18 +146403,22 @@
   "type": "Feature",
   "id": "node/9498011517",
   "properties": {
-    "defibrillator:location": "Beim Eingang zum Büro",
+    "access": "yes",
+    "defibrillator:location": "Südöstliche Ecke Ökonomiegebäude an der Strasse",
+    "email": "mail@stoutz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "KSM Stoutz AG",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Familie Stoutz",
+    "phone": "+41 76 614 45 28",
     "id": "node/9498011517"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3381726,
+      8.3381724,
       47.2572614
     ]
   }
@@ -379030,6 +379034,27 @@
     "coordinates": [
       6.8343992,
       46.4717486
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102953301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mur extérieur de la salle de gym",
+    "email": "eric.ch@websud.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14102953301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0594595,
+      46.5947031
     ]
   }
 }

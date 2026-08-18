@@ -75688,26 +75688,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9498011517",
-  "properties": {
-    "defibrillator:location": "Beim Eingang zum Büro",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:30-17:00",
-    "operator": "KSM Stoutz AG",
-    "id": "node/9498011517"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3381726,
-      47.2572614
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9498410106",
   "properties": {
     "access": "yes",
