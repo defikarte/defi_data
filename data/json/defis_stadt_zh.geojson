@@ -19295,6 +19295,29 @@
       47.3805162
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14103068501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "TopPharm Morgental Apotheke, in der Apotheke",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:00-19:00, Sa 8:00-17:00",
+    "operator": "Apotheke",
+    "phone": "+4143 399 88 66",
+    "id": "node/14103068501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5298629,
+      47.343875
+    ]
+  }
 }
 ]
 }
