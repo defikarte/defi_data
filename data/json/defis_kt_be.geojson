@@ -65394,7 +65394,7 @@
   "id": "node/14102509201",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Cafeteria",
+    "defibrillator:location": "SWICA Standort Bern - Cafeteria",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -65409,8 +65409,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4374187,
-      46.9465401
+      7.4374186,
+      46.94654
     ]
   }
 }

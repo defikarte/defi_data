@@ -7965,7 +7965,7 @@
   "id": "node/14102516601",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Caféteria",
+    "defibrillator:location": "SWICA Agentur Fribourg - Caféteria",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -7980,8 +7980,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.148905,
-      46.8097176
+      7.1489051,
+      46.8097178
     ]
   }
 }

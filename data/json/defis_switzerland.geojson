@@ -87899,8 +87899,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3164991,
-      47.2980195
+      8.3165354,
+      47.2979222
     ]
   }
 },
@@ -377969,7 +377969,7 @@
   "id": "node/14102442401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Empfang SWICA",
+    "defibrillator:location": "SWICA Agentur Stäfa - Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -377984,7 +377984,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7220635,
+      8.7220636,
       47.2394413
     ]
   }
@@ -377994,7 +377994,7 @@
   "id": "node/14102448101",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA - Infirmerie",
+    "defibrillator:location": "SWICA Lausanne - Infirmerie",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378009,7 +378009,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6261468,
+      6.6261469,
       46.5160616
     ]
   }
@@ -378019,7 +378019,7 @@
   "id": "node/14102451101",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Lagerraum EG",
+    "defibrillator:location": "SWICA Luzern - Lagerraum EG",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378034,8 +378034,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3067337,
-      47.0479465
+      8.3067338,
+      47.0479466
     ]
   }
 },
@@ -378044,7 +378044,7 @@
   "id": "node/14102455301",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Vorraum /Grossraumbüro",
+    "defibrillator:location": "SWICA Agentur Frauenfeld - Vorraum/Grossraumbüro",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378059,8 +378059,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9001659,
-      47.5599407
+      8.900166,
+      47.5599408
     ]
   }
 },
@@ -378069,7 +378069,7 @@
   "id": "node/14102459901",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Büro / Küche",
+    "defibrillator:location": "SWICA Agentur Weinfelden - Büro/Küche",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378084,8 +378084,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1069159,
-      47.5683698
+      9.106916,
+      47.5683697
     ]
   }
 },
@@ -378094,7 +378094,7 @@
   "id": "node/14102497001",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Empfang",
+    "defibrillator:location": "SWICA Agentur Thalwil - Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378110,7 +378110,7 @@
     "type": "Point",
     "coordinates": [
       8.5616601,
-      47.2975128
+      47.2975127
     ]
   }
 },
@@ -378119,7 +378119,7 @@
   "id": "node/14102501801",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Vorplatz Besprechungsraum",
+    "defibrillator:location": "SWICA Standort Zürich - Vorplatz Besprechungsraum",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378144,7 +378144,7 @@
   "id": "node/14102503901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SWICA Empfang",
+    "defibrillator:location": "SWICA Generalagentur Rapperswil-Jona - Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378159,7 +378159,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.83526,
+      8.8352599,
       47.2300835
     ]
   }
@@ -378169,7 +378169,7 @@
   "id": "node/14102504502",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Archiv",
+    "defibrillator:location": "SWICA Agentur Buchs - Archiv",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378184,8 +378184,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4761049,
-      47.1667979
+      9.476105,
+      47.166798
     ]
   }
 },
@@ -378194,7 +378194,7 @@
   "id": "node/14102509201",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Cafeteria",
+    "defibrillator:location": "SWICA Standort Bern - Cafeteria",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378209,8 +378209,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4374187,
-      46.9465401
+      7.4374186,
+      46.94654
     ]
   }
 },
@@ -378219,7 +378219,7 @@
   "id": "node/14102511702",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SWICA Treppenhaus/EIngang",
+    "defibrillator:location": "SWICA Agentur Lugano - Treppenhaus/Eingang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378234,8 +378234,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9504323,
-      46.007899
+      8.9504322,
+      46.0078989
     ]
   }
 },
@@ -378244,7 +378244,7 @@
   "id": "node/14102516601",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Caféteria",
+    "defibrillator:location": "SWICA Agentur Fribourg - Caféteria",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378259,8 +378259,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.148905,
-      46.8097176
+      7.1489051,
+      46.8097178
     ]
   }
 },
@@ -378294,7 +378294,7 @@
   "id": "node/14102516603",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Ascenseur",
+    "defibrillator:location": "SWICA Agentur Neuchâtel - Ascenseur",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378319,7 +378319,7 @@
   "id": "node/14102521401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SWICA Eingang",
+    "defibrillator:location": "SWICA Agentur Aarau - Eingang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -378361,6 +378361,229 @@
     "coordinates": [
       7.5336035,
       47.2064796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102541301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Agentur Wetzikon - Korridor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102541301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7982267,
+      47.3236493
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102542801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Zug - Korridor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102542801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5172883,
+      47.1713353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102545201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Sion - Cafétéria",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102545201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3586708,
+      46.2285468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102546801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Amriswil - Korridor Teppenhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102546801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2920328,
+      47.5448709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102555601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Uzwil - Cafeteria",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102555601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1331095,
+      47.4370193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102558201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Chur - Korridor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102558201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5340702,
+      46.8528459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102566601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Rorschach - Büro neben Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102566601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4907562,
+      47.4791481
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102571101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Standort Bellinzona - Foyer Scale",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102571101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.027247,
+      46.1939566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102584603",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Buchenweg 1, 5113 Holderbank AG, Erdgeschoss",
+    "description": "während Büroöffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00 - 17:00",
+    "operator": "Verein Wohngemeinschaft Casa Viva",
+    "phone": "+41628931311",
+    "id": "node/14102584603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1690431,
+      47.4289463
     ]
   }
 }

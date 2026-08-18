@@ -14819,7 +14819,7 @@
   "id": "node/14102448101",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA - Infirmerie",
+    "defibrillator:location": "SWICA Lausanne - Infirmerie",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -14834,7 +14834,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6261468,
+      6.6261469,
       46.5160616
     ]
   }

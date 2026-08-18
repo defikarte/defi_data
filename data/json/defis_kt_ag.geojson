@@ -2658,8 +2658,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3164991,
-      47.2980195
+      8.3165354,
+      47.2979222
     ]
   }
 },
@@ -31544,7 +31544,7 @@
   "id": "node/14102521401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SWICA Eingang",
+    "defibrillator:location": "SWICA Agentur Aarau - Eingang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -31561,6 +31561,29 @@
     "coordinates": [
       8.0459578,
       47.3904717
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102584603",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Buchenweg 1, 5113 Holderbank AG, Erdgeschoss",
+    "description": "während Büroöffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00 - 17:00",
+    "operator": "Verein Wohngemeinschaft Casa Viva",
+    "phone": "+41628931311",
+    "id": "node/14102584603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1690431,
+      47.4289463
     ]
   }
 }

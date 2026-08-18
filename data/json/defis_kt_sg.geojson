@@ -32491,7 +32491,7 @@
   "id": "node/14102503901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "SWICA Empfang",
+    "defibrillator:location": "SWICA Generalagentur Rapperswil-Jona - Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -32506,7 +32506,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.83526,
+      8.8352599,
       47.2300835
     ]
   }
@@ -32516,7 +32516,7 @@
   "id": "node/14102504502",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Archiv",
+    "defibrillator:location": "SWICA Agentur Buchs - Archiv",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -32531,8 +32531,58 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4761049,
-      47.1667979
+      9.476105,
+      47.166798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102555601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Uzwil - Cafeteria",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102555601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1331095,
+      47.4370193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102566601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Rorschach - Büro neben Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102566601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4907562,
+      47.4791481
     ]
   }
 }

@@ -80527,7 +80527,7 @@
   "id": "node/14102442401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Empfang SWICA",
+    "defibrillator:location": "SWICA Agentur Stäfa - Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -80542,7 +80542,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7220635,
+      8.7220636,
       47.2394413
     ]
   }
@@ -80552,7 +80552,7 @@
   "id": "node/14102497001",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Empfang",
+    "defibrillator:location": "SWICA Agentur Thalwil - Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -80568,7 +80568,7 @@
     "type": "Point",
     "coordinates": [
       8.5616601,
-      47.2975128
+      47.2975127
     ]
   }
 },
@@ -80577,7 +80577,7 @@
   "id": "node/14102501801",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Vorplatz Besprechungsraum",
+    "defibrillator:location": "SWICA Standort Zürich - Vorplatz Besprechungsraum",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -80619,6 +80619,31 @@
     "coordinates": [
       8.717996,
       47.348972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102541301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Agentur Wetzikon - Korridor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102541301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7982267,
+      47.3236493
     ]
   }
 }

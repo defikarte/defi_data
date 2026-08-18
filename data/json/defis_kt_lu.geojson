@@ -24369,7 +24369,7 @@
   "id": "node/14102451101",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Lagerraum EG",
+    "defibrillator:location": "SWICA Luzern - Lagerraum EG",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -24384,8 +24384,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3067337,
-      47.0479465
+      8.3067338,
+      47.0479466
     ]
   }
 }

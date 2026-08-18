@@ -16151,7 +16151,7 @@
   "id": "node/14102455301",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Vorraum /Grossraumbüro",
+    "defibrillator:location": "SWICA Agentur Frauenfeld - Vorraum/Grossraumbüro",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -16166,8 +16166,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9001659,
-      47.5599407
+      8.900166,
+      47.5599408
     ]
   }
 },
@@ -16176,7 +16176,7 @@
   "id": "node/14102459901",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Büro / Küche",
+    "defibrillator:location": "SWICA Agentur Weinfelden - Büro/Küche",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -16191,8 +16191,33 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1069159,
-      47.5683698
+      9.106916,
+      47.5683697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102546801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Amriswil - Korridor Teppenhaus",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102546801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2920328,
+      47.5448709
     ]
   }
 }

@@ -2531,7 +2531,7 @@
   "id": "node/14102516603",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Ascenseur",
+    "defibrillator:location": "SWICA Agentur Neuchâtel - Ascenseur",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",

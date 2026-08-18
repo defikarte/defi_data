@@ -5127,7 +5127,7 @@
   "id": "node/14102511701",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Grossraumbüro",
+    "defibrillator:location": "SWICA Agentur Vaduz FL - Grossraumbüro",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -5143,7 +5143,7 @@
     "type": "Point",
     "coordinates": [
       9.5235447,
-      47.1284833
+      47.1284832
     ]
   }
 }

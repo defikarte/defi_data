@@ -19276,7 +19276,7 @@
   "id": "node/14102501801",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Vorplatz Besprechungsraum",
+    "defibrillator:location": "SWICA Standort Zürich - Vorplatz Besprechungsraum",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
