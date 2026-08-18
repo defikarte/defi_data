@@ -160669,6 +160669,31 @@
       47.2572408
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102651403",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Treppenaufgang zum Showroom der Beerli Schreinerei AG",
+    "description": "IMMER verfügbar",
+    "email": "schreinerei@beer.li",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Beerli Schreinerei AG",
+    "phone": "+41 71 699 14 42",
+    "id": "node/14102651403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1155618,
+      47.6057222
+    ]
+  }
 }
 ]
 }

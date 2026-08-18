@@ -3981,6 +3981,31 @@
       47.6949482
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102629101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Agentur Schaffhausen - Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102629101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6322096,
+      47.6970434
+    ]
+  }
 }
 ]
 }

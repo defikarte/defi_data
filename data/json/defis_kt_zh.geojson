@@ -80646,6 +80646,81 @@
       47.3236493
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102616603",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Standort Winterthur - Büro Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102616603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7161972,
+      47.4971588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102626601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Uster - Empfang - Korridor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102626601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7177285,
+      47.3481895
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102644801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Generalagentur Kloten - Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102644801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5792494,
+      47.4533882
+    ]
+  }
 }
 ]
 }

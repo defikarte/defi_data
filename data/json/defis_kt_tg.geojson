@@ -16220,6 +16220,56 @@
       47.5448709
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102615202",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Kreuzlingen - Korridor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102615202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1757357,
+      47.6478951
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102651403",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Treppenaufgang zum Showroom der Beerli Schreinerei AG",
+    "description": "IMMER verfügbar",
+    "email": "schreinerei@beer.li",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Beerli Schreinerei AG",
+    "phone": "+41 71 699 14 42",
+    "id": "node/14102651403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1155618,
+      47.6057222
+    ]
+  }
 }
 ]
 }

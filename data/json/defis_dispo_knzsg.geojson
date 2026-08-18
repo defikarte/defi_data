@@ -38574,6 +38574,106 @@
       47.4791481
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14102611001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Agentur Wil - Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102611001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0461277,
+      47.4649632
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102615801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Standort St. Gallen - Korrifor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102615801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3716169,
+      47.4207951
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102626602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Agentur Herisau - Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102626602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2814692,
+      47.3857709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102637701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SWICA Generalagentur Heerbrugg - Büro Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102637701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.626765,
+      47.4094659
+    ]
+  }
 }
 ]
 }
