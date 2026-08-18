@@ -111753,6 +111753,7 @@
   "id": "node/11531692170",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-18",
     "defibrillator:location": "Aussenfassade Langlauf Häuschen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
