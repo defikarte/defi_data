@@ -14879,6 +14879,25 @@
       46.4582007
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14106402981",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le hall de la banque",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14106402981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8430753,
+      46.4617946
+    ]
+  }
 }
 ]
 }
