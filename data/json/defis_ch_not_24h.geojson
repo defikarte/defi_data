@@ -16599,7 +16599,7 @@
     "addr:city": "Frutigen",
     "addr:housenumber": "4",
     "addr:postcode": "3714",
-    "addr:street": "Mike Schmid Olympiastrasse",
+    "addr:street": "Mike Schmid-Olympiastrasse",
     "defibrillator:location": "AED im Garderobenhaus des FC Frutigen Steht nur zu Trainings- und Spielzeiten zur Verfügung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -218420,6 +218420,26 @@
     "coordinates": [
       8.5942098,
       47.4136364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14106170117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le hall menant aux toilettes du restaurant",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14106170117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8488043,
+      46.4582007
     ]
   }
 }

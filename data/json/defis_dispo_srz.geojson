@@ -103675,6 +103675,29 @@
       47.4136364
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14106136801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landi Baltenswil, links neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Landi Schweiz",
+    "phone": "+41448381930",
+    "id": "node/14106136801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6456159,
+      47.4285941
+    ]
+  }
 }
 ]
 }

@@ -34179,7 +34179,7 @@
     "addr:city": "Frutigen",
     "addr:housenumber": "4",
     "addr:postcode": "3714",
-    "addr:street": "Mike Schmid Olympiastrasse",
+    "addr:street": "Mike Schmid-Olympiastrasse",
     "defibrillator:location": "AED im Garderobenhaus des FC Frutigen Steht nur zu Trainings- und Spielzeiten zur Verfügung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -379201,6 +379201,49 @@
     "coordinates": [
       7.6200559,
       46.9487121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14106136801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landi Baltenswil, links neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Landi Schweiz",
+    "phone": "+41448381930",
+    "id": "node/14106136801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6456159,
+      47.4285941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14106170117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le hall menant aux toilettes du restaurant",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14106170117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8488043,
+      46.4582007
     ]
   }
 }

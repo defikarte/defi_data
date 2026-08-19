@@ -14859,6 +14859,26 @@
       46.4717486
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14106170117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le hall menant aux toilettes du restaurant",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14106170117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8488043,
+      46.4582007
+    ]
+  }
 }
 ]
 }
