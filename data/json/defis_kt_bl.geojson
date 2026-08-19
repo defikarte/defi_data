@@ -5040,6 +5040,7 @@
   "id": "node/10771392905",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-19",
     "defibrillator:location": "Milchlokal/Brauerei",
     "description": "immer öffentlich zugänglich",
     "emergency": "defibrillator",
