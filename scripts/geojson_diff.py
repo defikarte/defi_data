@@ -6,7 +6,7 @@ import re
 old_file = sys.argv[1]
 new_file = sys.argv[2]
 
-DEFIKARTE_LOGO_URL = "https://github.com/defikarte/defi_data/raw/main/img/logo.png"
+DEFIKARTE_LOGO_URL = "https://assets.defikarte.ch/logo/logo_gruen.jpg"
 
 RELEVANT_FIELDS = [
     "name", "status", "operator", "phone", "access", "opening_hours",

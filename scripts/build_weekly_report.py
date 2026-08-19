@@ -11,7 +11,7 @@ import html
 import sys
 from datetime import datetime, timezone
 
-DEFIKARTE_LOGO_URL = "https://github.com/defikarte/defi_data/raw/main/img/logo.png"
+DEFIKARTE_LOGO_URL = "https://assets.defikarte.ch/logo/logo_gruen.jpg"
 
 
 def maps_links(lon, lat, key=None):
