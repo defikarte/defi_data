@@ -379177,6 +379177,29 @@
       47.4136364
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14105010501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "deligno ag",
+    "description": "Bei Treppenaufgang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "deligno ag",
+    "id": "node/14105010501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6200559,
+      46.9487121
+    ]
+  }
 }
 ]
 }
