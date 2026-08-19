@@ -1,6 +1,6 @@
 osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:street,check_date,defibrillator:location,defibrillator:location:de,description,email,emergency,emergency:phone,id,indoor,level,name,note,opening_hours,operator,phone,ref,source
 873925262,node,47.3337067,9.4172675,yes,,,,,,Eingangsbereich Alters und Pflegezentrum im Gebäude links,,,,defibrillator,144,node/873925262,,,,,Mo-Sa 08:00-20:00,,,,
-7721055966,node,47.3312566,9.4068454,yes,,,,,,"SWICA: Bei Kopierer, bei Infoschalter melden",,nur während Öffnungszeiten verfügbar,,defibrillator,144,node/7721055966,,,,,,,,,
+7721055966,node,47.3312563,9.406845,private,,,,,,SWICA Agentur Appenzell Grossraumbüro,,nur während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,node/7721055966,yes,0,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,
 7721098228,node,47.3211036,9.4327502,yes,,,,,,An der Hauswand bei Feuerwehrhaus,,,,defibrillator,144,node/7721098228,,,,,24/7,,,,
 7721098234,node,47.3331968,9.4036317,yes,,,,,,"Haupteingang, im 1.OG neben Lift",,nur während Öffnungszeiten verfügbar,,defibrillator,144,node/7721098234,,,,,,,,,
 7721098235,node,47.3310201,9.4097845,yes,,,,,,im Eingangsbereich,,,,defibrillator,144,node/7721098235,no,,,,24/7,,,,

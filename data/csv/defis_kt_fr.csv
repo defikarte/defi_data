@@ -376,3 +376,5 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14038848801,node,46.6093755,7.0019187,yes,,,,,,,,,FC Vestiaire - Route de l'Adrey,,Disponible H24 7j/7j,commune@vuadens.ch,defibrillator,144,,,node/14038848801,no,,,,,,,,,Commune de Vuadens,,,,,,,,,
 14055013997,node,46.951924,7.0973676,yes,,,,,,,,,Outside at the entrance of the toilets on the see side.,,,,defibrillator,,,,node/14055013997,no,,,,,,,,,,,,,,,,,,
 14085234401,node,46.9954323,7.2077639,,,,,,,,,,Schmiedstrasse 45,,frei zugänglich,,defibrillator,144,,,node/14085234401,no,,,0,,,,,24/7,Gemeinde,,,,,,,,,
+14102516601,node,46.8097178,7.1489051,private,,,,,,,,,SWICA Agentur Fribourg - Caféteria,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,,node/14102516601,yes,,,0,,,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,,,+41 52 244 22 33,,,,,,
+14102953301,node,46.5947031,7.0594595,yes,,,,,,,,,Mur extérieur de la salle de gym,,,eric.ch@websud.ch,defibrillator,144,,,node/14102953301,no,,,,,,,,24/7,,,,,,,,,,

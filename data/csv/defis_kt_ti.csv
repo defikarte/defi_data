@@ -241,7 +241,7 @@ en: Please survey on site. Location looks unreasonable on aerial imagenery.",nod
 10755705560,node,45.9893391,8.8203014,yes,,,,,,,,,,,,defibrillator,144,,node/10755705560,,,0,,,24/7,,,,,,yes
 10763310196,node,46.00782,8.95121,,,,,,,,Empfang,,,oranger Koffer,,defibrillator,144,,node/10763310196,,yes,,,Walder Wyss AG,Mo-Fr 08:00-17:30,Lifetec AG Schweiz,+41 800 122 144,,,,
 10763310197,node,46.16712,8.79768,no,,,,,,,Rechts vom Empfang,,,oranger Koffer,,defibrillator,144,,node/10763310197,,yes,,,AON Schweiz AG,,Lifetec AG Schweiz,+41 800 122 144,,,,
-10763310198,node,45.9316,8.90452,no,,,,,,,,,,oranger Koffer,,defibrillator,144,,node/10763310198,,yes,,,Bucherer AG (Privat Person),,Lifetec AG Schweiz,+41 800 122 144,,,,
+10763310198,node,45.9315888,8.9044797,no,,,,,,,,,,oranger Koffer,,defibrillator,144,,node/10763310198,,yes,,,Bucherer AG (Privat Person),,Lifetec AG Schweiz,+41 800 122 144,,,,
 10763310199,node,45.84147,8.93455,no,,,,,,,Im Büro des Lagerleiters. Eingang erster Raum rechts,,,gelber Koffer,,defibrillator,144,,node/10763310199,,yes,,,Eni Suisse S.A.,,Lifetec AG Schweiz,+41 800 122 144,,,,
 10763310200,node,45.97996,8.92858,no,,,,,,,Eingangsbereich Büro Ersatzteillager,,,oranger Koffer,,defibrillator,144,,node/10763310200,,yes,,,"Emil Frey SA, Auto-Centro Noranco-Lugano",,Lifetec AG Schweiz,+41 800 122 144,,,,
 10763310201,node,46.00619,8.95081,no,,,,,,,"2.OG, Grossraumbüro",,,gelber Koffer,,defibrillator,144,,node/10763310201,,yes,,,Reuss Private AG,,Lifetec AG Schweiz,+41 800 122 144,,,,
@@ -359,3 +359,6 @@ en: Please survey on site. Location looks unreasonable on aerial imagenery.",nod
 14094389296,node,46.1736043,8.8534422,yes,,,,,,,Outdoor at wall,,,,,defibrillator,,,node/14094389296,,,,,,,,,,,,yes
 14094696201,node,46.410141,8.5297716,yes,,,,,,,Funivia S. Carlo-Robiei,,,,,defibrillator,,,node/14094696201,,no,,,,24/7,,,,,,
 14098653717,node,46.172415,8.8502876,yes,,,,,,,Outside on wall,,,,,defibrillator,,,node/14098653717,,,,,,,,,,,,yes
+14102511702,node,46.0078989,8.9504322,yes,,,,,,,SWICA Agentur Lugano - Treppenhaus/Eingang,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102511702,,yes,0,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,
+14102571101,node,46.1939566,9.027247,private,,,,,,,SWICA Standort Bellinzona - Foyer Scale,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102571101,,yes,0,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,
+14102606801,node,46.1691246,8.800738,yes,,,,,,,SWICA Agentur Locarno - Corridoio,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102606801,,yes,0,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,
