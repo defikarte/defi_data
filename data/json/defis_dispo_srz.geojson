@@ -103645,6 +103645,31 @@
       47.2859528
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14104695701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kinderpraxisklinik Juliett & Mike AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "juliettundmike@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Kinderpraxisklinik Juliett & Mike AG",
+    "phone": "+41 44 821 86 65",
+    "id": "node/14104695701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6271479,
+      47.3993571
+    ]
+  }
 }
 ]
 }

@@ -59195,15 +59195,15 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Hochschule Luzern, Hausdienst Viscosi, Pascal Brodard oder Norbert Waldvogel",
+    "operator": "Hochschule Luzern, Hausdienst Viscosi",
     "phone": "+41 41 248 63 44",
     "id": "node/8995428408"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2776959,
-      47.0716569
+      8.277696,
+      47.0716568
     ]
   }
 },
@@ -59217,15 +59217,15 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Hochschule Luzern, Hausdienst Viscosi, Pascal Brodard oder Norbert Waldvogel",
+    "operator": "Hochschule Luzern, Hausdienst Viscosi",
     "phone": "+41 41 248 63 44",
     "id": "node/8995428409"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.278006,
-      47.0705748
+      8.2780058,
+      47.0705749
     ]
   }
 },
@@ -218365,6 +218365,31 @@
     "coordinates": [
       8.4553603,
       47.2859528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14104695701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kinderpraxisklinik Juliett & Mike AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "juliettundmike@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Kinderpraxisklinik Juliett & Mike AG",
+    "phone": "+41 44 821 86 65",
+    "id": "node/14104695701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6271479,
+      47.3993571
     ]
   }
 }

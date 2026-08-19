@@ -17968,15 +17968,15 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Hochschule Luzern, Hausdienst Viscosi, Pascal Brodard oder Norbert Waldvogel",
+    "operator": "Hochschule Luzern, Hausdienst Viscosi",
     "phone": "+41 41 248 63 44",
     "id": "node/8995428408"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2776959,
-      47.0716569
+      8.277696,
+      47.0716568
     ]
   }
 },
@@ -17990,15 +17990,15 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-19:00",
-    "operator": "Hochschule Luzern, Hausdienst Viscosi, Pascal Brodard oder Norbert Waldvogel",
+    "operator": "Hochschule Luzern, Hausdienst Viscosi",
     "phone": "+41 41 248 63 44",
     "id": "node/8995428409"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.278006,
-      47.0705748
+      8.2780058,
+      47.0705749
     ]
   }
 },
