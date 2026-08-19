@@ -376539,7 +376539,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "4",
-    "opening_hours": "6:00 -19:00",
+    "opening_hours": "06:00-19:00",
     "operator": "Firma Hälg & Co.AG",
     "phone": "+41 44 448 47 46",
     "id": "node/14055471801"
@@ -377826,7 +377826,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 9:00-17:00",
+    "opening_hours": "Mo-Fr 09:00-17:00",
     "operator": "CEIBS Switzerland",
     "phone": "+41 44 728 99 86",
     "id": "node/14100694201"
