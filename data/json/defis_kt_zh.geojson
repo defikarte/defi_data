@@ -45517,31 +45517,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11037266767",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Empfang / Sekretariat",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "latitude": "47.39904",
-    "longitude": "8.6177",
-    "name": "Bitzer Sanitär AG",
-    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
-    "operator": "Lifetec AG",
-    "phone": "+41 800 122 144",
-    "id": "node/11037266767"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6177,
-      47.39904
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11037266769",
   "properties": {
     "access": "yes",
@@ -80792,6 +80767,36 @@
     "coordinates": [
       8.6271479,
       47.3993571
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14104908809",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Wallisellen",
+    "addr:housenumber": "26",
+    "addr:postcode": "8304",
+    "addr:street": "Rotackerstrasse",
+    "defibrillator:location": "Bitzer Sanitär AG Empfang / Sekretariat",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Bitzer Sanitär AG",
+    "opening_hours": "Mo-Fr 7.30 – 12.00 Mo-Do 13.00 – 17.00 Freitag bis 16.00",
+    "operator": "Lifetec Ag",
+    "phone": "0800122144",
+    "ref": "1185LTM",
+    "id": "node/14104908809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5942098,
+      47.4136364
     ]
   }
 }
