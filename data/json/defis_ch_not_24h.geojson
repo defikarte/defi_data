@@ -139095,25 +139095,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11051121005",
-  "properties": {
-    "defibrillator:location": "Gemeinde Verwaltung Breitenbach",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "id": "node/11051121005"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5443308,
-      47.4081574
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11052543405",
   "properties": {
     "defibrillator:location": "in der Praxis im EG, beim Eingang rechts an der Wand",

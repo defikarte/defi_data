@@ -240809,18 +240809,21 @@
   "type": "Feature",
   "id": "node/11051121005",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Gemeinde Verwaltung Breitenbach",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung",
     "id": "node/11051121005"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5443308,
-      47.4081574
+      7.5443311,
+      47.408157
     ]
   }
 },
@@ -298575,8 +298578,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5369054,
-      47.3973397
+      7.5379002,
+      47.3971399
     ]
   }
 },
