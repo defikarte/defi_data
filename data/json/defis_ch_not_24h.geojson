@@ -134872,6 +134872,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/10976407605",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "all'interno degli uffici",
+    "description": "variabile",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "note": "Temoraneamente fuori servizio Vorübergehend ausser Betrieb",
+    "operator": "armasuisse Immobilien",
+    "phone": "+41 58 483 40 95",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10976407605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.908,
+      46.1401541
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10976811605",
   "properties": {
     "defibrillator:location": "Geschäftshaus Valiant Bank",

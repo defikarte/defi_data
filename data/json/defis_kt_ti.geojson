@@ -4998,15 +4998,14 @@
   "type": "Feature",
   "id": "node/10976407605",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Temoraneamente fuori servizio / Vorübergehend ausser Betrieb",
-    "description": "Temoraneamente fuori servizio / Vorübergehend ausser Betrieb",
+    "access": "private",
+    "defibrillator:location": "all'interno degli uffici",
+    "description": "variabile",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1",
+    "level": "0",
     "note": "Temoraneamente fuori servizio Vorübergehend ausser Betrieb",
-    "opening_hours": "24/7",
     "operator": "armasuisse Immobilien",
     "phone": "+41 58 483 40 95",
     "source": "local_knowledge, defikarte.ch",
@@ -5015,8 +5014,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9039576,
-      46.1431617
+      8.908,
+      46.1401541
     ]
   }
 },
