@@ -116923,6 +116923,34 @@
 },
 {
   "type": "Feature",
+  "id": "node/11843468900",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "14",
+    "addr:street": "Übernollaweg",
+    "defibrillator:location": "Beim Werkhof, An Fassade auf der Rückseite (bei Entsorgungsstelle)\n1401 LTS",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeinde Thusis",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1401 LTS",
+    "id": "node/11843468900"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4370731,
+      46.6916944
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11844905069",
   "properties": {
     "defibrillator:location": "Haupteingang Zollhaus Kirche, Zollhausstrasse 5",
