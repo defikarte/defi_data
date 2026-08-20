@@ -379265,6 +379265,54 @@
       46.4617946
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14106849401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Neerach, beim Eingang links neben der Schiebetüre",
+    "email": "gemeindeverwaltung@neerach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Neerach",
+    "phone": "+41 44 859 16 16",
+    "id": "node/14106849401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4716963,
+      47.5111614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14106864101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhausplatz, neben Türe zum Mehrzweckgebäude/Turnhalle unter dem Dach",
+    "email": "gemeindeverwaltung@neerach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Neerach",
+    "phone": "+41 44 859 16 16",
+    "id": "node/14106864101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4734913,
+      47.5092194
+    ]
+  }
 }
 ]
 }
