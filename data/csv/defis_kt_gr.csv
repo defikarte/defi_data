@@ -598,7 +598,7 @@ Neben Eingang Gemeindeverwaltung
 11824236269,node,46.4833497,9.8357034,yes,,,,,,,,,,,Eingang Klinik Gut / Heilbad,,,,,defibrillator,,144,,,,node/11824236269,,,no,,,,,,24/7,,,,,,,"local_knowledge, defikarte.ch",,
 11841584472,node,46.7394599,8.9738868,yes,,,,,,,,,,,"Scheune, Südseite, Campliun, Via Principala",,,am Gebäude Südseite,,defibrillator,,144,,,,node/11841584472,,,no,,,,,,24/7,Gemeinde Trun,,,,,,"local_knowledge, defikarte.ch",,
 11843468900,node,46.6916944,9.4370731,yes,,,,,14,,Übernollaweg,,,,"Beim Werkhof, An Fassade auf der Rückseite (bei Entsorgungsstelle)
-1401 LTS",,,Grüner Kasten / Oranger Koffer,,defibrillator,,144,,,,node/11843468900,,,no,,,0,,Gemeinde Thusis,24 / 7,Lifetec AG Schweiz,,,+41 800 122 144,,1401 LTS,,,
+1401 LTS",,,Grüner Kasten / Oranger Koffer,,defibrillator,,144,,,,node/11843468900,,,no,,,0,,Gemeinde Thusis,24/7,Lifetec AG Schweiz,,,+41 800 122 144,,1401 LTS,,,
 11884814770,node,46.8486353,9.5329142,permissive,,,,,,,,,,,hassler medic,,,Zugang mit Chipkarte oder nach telefonischer Rücksprache ,,defibrillator,,144,,,,node/11884814770,,,no,,,,,,24/7,Praxis Physiotherapie ,,,+41786838668,,,"local_knowledge, defikarte.ch",,
 11896492169,node,46.8772951,9.5250897,no,,,,,,,,,,,Schulhaus Haldenstein Turnhalle,,,Beim Eingang der Turnhalle,,defibrillator,,144,,,,node/11896492169,,,no,,,0,,,,,,,,,,,,
 11898412627,node,46.8903207,9.8410124,,,,,,,,,,,yes,In einer alten Telefonkabine.,,,,,defibrillator,,144,,,,node/11898412627,,,,,,,,,,,,,,,,,,

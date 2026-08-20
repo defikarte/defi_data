@@ -309,7 +309,7 @@ Sichtbar von der Strasse aus. ",,defibrillator,144,,node/9075763717,no,,,,,,24/7
 10763310567,node,47.50992,7.61505,no,,,,,,,,Wand zwischen Schlüsselkasten und Stempeluhr,,oranger Koffer,,defibrillator,144,,node/10763310567,yes,,,,Paul Ullrich AG,,,Lifetec AG Schweiz,+41 800 122 144,,,,,,
 10763310568,node,47.55196,7.64225,,,,,,,,,Eingagsbereich vom Gebäude,,blauer Rucksack,,defibrillator,144,,node/10763310568,yes,,,,Birsterminal AG,,"Mo-Fr 08:00-11:30, 13:30-17:00",Lifetec AG Schweiz,+41 800 122 144,,,,,,
 10766467905,node,47.5540864,7.5734547,,,,,,,,,"Belchenstraße 6, Basel",,,,defibrillator,144,,node/10766467905,yes,,1,,,,"Mo-Fr 07:30-12:00,13:00-16:30",Firma E.KALT AG,+41 61 306 36 36,,,,,,
-10771392905,node,47.4151112,7.8660674,yes,,,,,,,,Milchlokal/Brauerei,,immer öffentlich zugänglich,,defibrillator,144,,node/10771392905,no,,0,,,,24/7,Gemeinde Häfelfingen,+41794077405,,,"local_knowledge, defikarte.ch",,,
+10771392905,node,47.4151112,7.8660674,yes,,,,,,,2026-08-19,Milchlokal/Brauerei,,immer öffentlich zugänglich,,defibrillator,144,,node/10771392905,no,,0,,,,24/7,Gemeinde Häfelfingen,+41794077405,,,"local_knowledge, defikarte.ch",,,
 10777896895,node,47.5575281,7.5904768,,,,,,,,,"Im Eingangsbereich, nach Kasse",,,,defibrillator,144,,node/10777896895,yes,,,,,,,,,,,,,,
 10781539926,node,47.5523715,7.5906824,yes,,,,,,,,"Elisabethenstrasse 16, Bühnen Eingang (Porte)",,,,defibrillator,144,,node/10781539926,yes,,0,,,,Mo-Fr 08:00-17:00,Theater Basel,+41 61 295 11 00,,,,,,
 10781604959,node,47.5540432,7.5737362,yes,,,,,,,,1.OG Gang,,,,defibrillator,144,,node/10781604959,yes,,1,,,,"Mo-Fr 08:00-12:00, 13:00-17:00",Andrea Moser,+41613063622,,,,,,
