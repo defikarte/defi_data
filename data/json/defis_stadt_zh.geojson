@@ -19318,6 +19318,25 @@
       47.343875
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14107210701",
+  "properties": {
+    "defibrillator:location": "Lerchenhalde 10, 8046 Zürich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Privatpersonen",
+    "id": "node/14107210701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5101185,
+      47.4125056
+    ]
+  }
 }
 ]
 }
