@@ -218433,6 +218433,31 @@
       46.4617946
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14106885001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Alterswilerstr.9",
+    "description": "Während Praxisöffnungszeiten verfügbar",
+    "email": "mzkemmental@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-12:00, 13:30-17:00",
+    "operator": "Medizinisches Zentrum Kemmental",
+    "phone": "+41 71 699 18 11",
+    "id": "node/14106885001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1654908,
+      47.6096189
+    ]
+  }
 }
 ]
 }

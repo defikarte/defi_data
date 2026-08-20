@@ -160733,7 +160733,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "1",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Beerli Schreinerei AG",
     "phone": "+41 71 699 14 42",
@@ -160742,8 +160742,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1155618,
-      47.6057222
+      9.1155624,
+      47.6057218
     ]
   }
 },
