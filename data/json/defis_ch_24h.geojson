@@ -111179,6 +111179,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/11500221969",
+  "properties": {
+    "defibrillator:location": "PBT AG, Dufourstrasse 71",
+    "description": "Neben dem Tor auf der Nordseite des Gebäudes",
+    "email": "info@pbt-ag.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Firma",
+    "phone": "+41 71 633 21 51",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11500221969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0903175,
+      47.566743
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11500361884",
   "properties": {
     "access": "yes",
