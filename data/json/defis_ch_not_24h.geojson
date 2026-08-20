@@ -131860,29 +131860,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10885852205",
-  "properties": {
-    "defibrillator:location": "Deponie, Waldau",
-    "description": "während den Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Firma",
-    "phone": "+41813229222",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10885852205"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5792305,
-      46.967833
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10886074505",
   "properties": {
     "defibrillator:location": "Neulandweg 3: Treppenhaus west, Neulandweg 5: Personaleingang",

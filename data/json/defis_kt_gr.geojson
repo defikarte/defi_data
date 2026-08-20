@@ -9838,12 +9838,12 @@
   "id": "node/10885852205",
   "properties": {
     "defibrillator:location": "Deponie, Waldau",
-    "description": "während den Öffnungszeiten verfügbar",
+    "description": "24/7 Zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Firma",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Axpo Biomasse AG",
     "phone": "+41813229222",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10885852205"
