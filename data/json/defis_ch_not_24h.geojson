@@ -218431,6 +218431,29 @@
       47.4125056
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14109181701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Friedhof Lengnau, Emil Schiblistrasse 1 (vor dem Haupteingang der Abdankungshalle im Aussenbereich)",
+    "email": "steve.schranz@lengnau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde",
+    "phone": "+41 32 654 71 01",
+    "id": "node/14109181701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3683027,
+      47.178443
+    ]
+  }
 }
 ]
 }
