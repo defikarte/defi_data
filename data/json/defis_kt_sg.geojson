@@ -32660,6 +32660,31 @@
       47.4094659
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14109090301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vor dem Personaleingang 1",
+    "description": "jederzeit",
+    "email": "info@igp-powder.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Firma",
+    "phone": "+41 71 929 81 11",
+    "id": "node/14109090301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0525629,
+      47.4413135
+    ]
+  }
 }
 ]
 }
