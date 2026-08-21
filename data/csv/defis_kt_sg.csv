@@ -238,7 +238,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 7865291249,node,47.2032793,9.350337,yes,,,,,,,,,,Foto Forrer beim Kiosk an der Nordwand,,,AED ist 24h verfügbar,,,defibrillator,144,node/7865291249,,,no,,,,,,,,24/7,,Gemeinde Wildhaus,,,+41793554300,,,,,,,
 7865291250,node,47.2075014,9.3660915,yes,,,,,,,,,,Im Kiosk der Badi an einem Aussenkasten,,,,,,defibrillator,144,node/7865291250,,,no,,,,,,,,24/7,,Gemeinde Wildhaus,,,,,,,,,,
 7873380428,node,47.3642663,9.0426033,,,,,,,,,,,Im Oberstufenschulhaus,,,Öffentlich 24h zugänglich,,,defibrillator,144,node/7873380428,,,,,,,,,,,24/7,,,,,,,,,,,,
-7873493234,node,47.2489107,9.1681698,yes,,,,,,,,,,beim Wartehäuschen,,,,,,defibrillator,144,node/7873493234,,,no,,,,,,,,24/7,,SOB,,,+41 58 580 70 70,,,,,,,
+7873493234,node,47.2489011,9.1681534,yes,,,,,,,,,,beim Wartehäuschen,,,,,,defibrillator,144,node/7873493234,,,no,,,,,,,,24/7,,SOB,,,+41 58 580 70 70,,,,,,,
 7873493235,node,47.221314,9.2022604,,,,,,,,,,,,,,,,,defibrillator,144,node/7873493235,,,,,,,,,,,,,,,,,,,,,,,
 7882989143,node,47.2232859,8.8166755,,,,,,,,,,,Inside a closet right at the entrance (with corresponding sign above it),,,,,,defibrillator,144,node/7882989143,,,yes,,,,0,,,,Mo-Fr 07:15-15:30,closed,,,,,,,,,,,yes
 7882989144,node,47.2234996,8.8174601,,,,,,,,,,,On the wall underneath the walkway,,,,,,defibrillator,144,node/7882989144,,,yes,,,,0,,,,Mo-Fr 07:15-15:30,closed,,,,,,,,,,,yes
