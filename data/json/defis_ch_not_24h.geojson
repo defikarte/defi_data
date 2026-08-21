@@ -218454,6 +218454,30 @@
       47.178443
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14109554301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Stigeli",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Sa 10:00 - 20:00",
+    "operator": "Stadt Affoltern am Albis",
+    "phone": "+41 44 762 56 00",
+    "id": "node/14109554301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4575609,
+      47.2788481
+    ]
+  }
 }
 ]
 }
