@@ -64197,18 +64197,20 @@
   "id": "node/7720904268",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Verkehrsverein",
+    "check_date": "2026-08-16",
+    "defibrillator:location": "Beim Verkehrsverein;an südwestlicher Aussenfassade",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7720904268"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.2468799,
-      46.7930534
+      10.2468902,
+      46.7930427
     ]
   }
 },
