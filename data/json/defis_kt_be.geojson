@@ -57016,7 +57016,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Garage Wenger",
-    "opening_hours": "Mo-Fr 07:30-12:00 13:30-18:00 Sa 08:00-12:00",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:30-18:00; Sa 08:00-12:00",
     "operator": "Lifetec AG",
     "phone:CH": "0800 122 144",
     "ref": "1515LTM",
