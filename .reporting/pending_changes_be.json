@@ -31,5 +31,16 @@
       "addr:street: 'Mike Schmid Olympiastrasse' → 'Mike Schmid-Olympiastrasse'"
     ],
     "detected_at": "2026-08-19T20:28:42.790894+00:00"
+  },
+  {
+    "key": "node/12484474658",
+    "name": "Garage Wenger",
+    "address": "Wychelstrasse 32",
+    "lon": 7.8590363,
+    "lat": 46.6807115,
+    "changes": [
+      "opening_hours: 'Mo-Fr 07:30-12:00 13:30-18:00 Sa 08:00-12:00' → 'Mo-Fr 07:30-12:00, 13:30-18:00; Sa 08:00-12:00'"
+    ],
+    "detected_at": "2026-08-22T18:30:37.415089+00:00"
   }
 ]
