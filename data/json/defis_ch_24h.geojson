@@ -133444,6 +133444,7 @@
   "id": "node/12542340002",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Devant l'entrée de l'administration communale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -160993,6 +160994,25 @@
     "coordinates": [
       9.318205,
       46.8132606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14115852405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur le mur extérieur du restaurant",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14115852405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0713875,
+      46.0696591
     ]
   }
 }

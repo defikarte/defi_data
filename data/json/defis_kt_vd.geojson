@@ -10914,6 +10914,7 @@
   "id": "node/12542340002",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Devant l'entrée de l'administration communale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
