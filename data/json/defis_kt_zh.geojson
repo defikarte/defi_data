@@ -80959,6 +80959,27 @@
       47.2776753
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14115512901",
+  "properties": {
+    "defibrillator:location": "Freibad Töss Side",
+    "description": "wöhrend den Öffnungszeiten verfügbar (Mai - September)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "10:00 - 20:00",
+    "operator": "Gemeinde Rorbas",
+    "id": "node/14115512901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5764903,
+      47.5364838
+    ]
+  }
 }
 ]
 }

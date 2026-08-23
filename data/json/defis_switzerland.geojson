@@ -379497,6 +379497,49 @@
       46.6936557
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14115426901",
+  "properties": {
+    "defibrillator:location": "Flims",
+    "description": "neben öffentlichem wc",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Flims",
+    "id": "node/14115426901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.318205,
+      46.8132606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14115512901",
+  "properties": {
+    "defibrillator:location": "Freibad Töss Side",
+    "description": "wöhrend den Öffnungszeiten verfügbar (Mai - September)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "10:00 - 20:00",
+    "operator": "Gemeinde Rorbas",
+    "id": "node/14115512901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5764903,
+      47.5364838
+    ]
+  }
 }
 ]
 }

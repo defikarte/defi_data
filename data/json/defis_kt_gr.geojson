@@ -17454,6 +17454,28 @@
       46.8528459
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14115426901",
+  "properties": {
+    "defibrillator:location": "Flims",
+    "description": "neben öffentlichem wc",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Flims",
+    "id": "node/14115426901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.318205,
+      46.8132606
+    ]
+  }
 }
 ]
 }
