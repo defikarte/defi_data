@@ -9840,9 +9840,10 @@
     "addr:housenumber": "14",
     "addr:postcode": "3082",
     "addr:street": "Riedstrasse",
-    "defibrillator:location": "öffentlich",
+    "defibrillator:location": "Im Eingangsfoyer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/6636650002"
@@ -9850,8 +9851,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.609791,
-      46.9108573
+      7.6097984,
+      46.9108216
     ]
   }
 },

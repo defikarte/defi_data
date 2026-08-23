@@ -12510,9 +12510,10 @@
     "addr:housenumber": "14",
     "addr:postcode": "3082",
     "addr:street": "Riedstrasse",
-    "defibrillator:location": "öffentlich",
+    "defibrillator:location": "Im Eingangsfoyer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/6636650002"
@@ -12520,8 +12521,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.609791,
-      46.9108573
+      7.6097984,
+      46.9108216
     ]
   }
 },
@@ -39265,18 +39266,16 @@
     "description": "während den Öffnungzeiten erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Genaue Lokalisation im Gebäude?",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-18:00; Sa 07:00-13:00",
-    "operator": "ruba immo ag",
     "phone": "+41 317122150",
     "id": "node/9708819417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.634931,
-      46.9099434
+      7.6348059,
+      46.9099626
     ]
   }
 },
