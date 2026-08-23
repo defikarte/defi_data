@@ -42,5 +42,28 @@
       "opening_hours: 'Mo-Fr 07:30-12:00 13:30-18:00 Sa 08:00-12:00' → 'Mo-Fr 07:30-12:00, 13:30-18:00; Sa 08:00-12:00'"
     ],
     "detected_at": "2026-08-22T18:30:37.415089+00:00"
+  },
+  {
+    "key": "node/6636650002",
+    "name": "(ohne Name)",
+    "address": "Riedstrasse 14, 3082 Schlosswil",
+    "lon": 7.6097984,
+    "lat": 46.9108216,
+    "changes": [
+      "defibrillator:location: 'öffentlich' → 'Im Eingangsfoyer'",
+      "indoor: 'None' → 'yes'"
+    ],
+    "detected_at": "2026-08-23T18:29:53.917460+00:00"
+  },
+  {
+    "key": "node/9708819417",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.6348059,
+    "lat": 46.9099626,
+    "changes": [
+      "operator: 'ruba immo ag' → 'None'"
+    ],
+    "detected_at": "2026-08-23T18:29:53.919702+00:00"
   }
 ]
