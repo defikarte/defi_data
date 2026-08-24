@@ -103856,6 +103856,31 @@
       47.5364838
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14119728101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Chamerstrasse 115",
+    "description": "aussen an Fassade, Seite Hauptstrasse",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14119728101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4928628,
+      47.1786007
+    ]
+  }
 }
 ]
 }
