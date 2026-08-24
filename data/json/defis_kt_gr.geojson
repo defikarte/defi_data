@@ -1067,12 +1067,14 @@
   "id": "node/7720904253",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-24",
     "defibrillator:location": "In der öffentlichen Toilette.",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "image": "https://openaedmap.org/api/v1/photos/view/JNpi2L0Z_yTvh528BCOopg.webp",
     "image:license": "CC0",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/7720904253"
   },
