@@ -15065,6 +15065,36 @@
       47.5515586
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14119166245",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Basel",
+    "addr:housenumber": "18",
+    "addr:postcode": "4051",
+    "addr:street": "Theaterstrasse",
+    "defibrillator:location": "CSS Versicherung AG EG Empfangzone",
+    "description": "Koffer Schwarz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "CSS Versicherung AG",
+    "opening_hours": "mo-fr 08.30-12.00 13.30 - 17.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0575LTM",
+    "id": "node/14119166245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5896309,
+      47.5529179
+    ]
+  }
 }
 ]
 }
