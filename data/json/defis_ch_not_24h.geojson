@@ -218543,6 +218543,25 @@
       47.5364838
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14118401301",
+  "properties": {
+    "defibrillator:location": "Spitex Wiggertal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14118401301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9712759,
+      47.2470013
+    ]
+  }
 }
 ]
 }
