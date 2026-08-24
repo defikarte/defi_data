@@ -379661,6 +379661,27 @@
       47.1786007
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14120254701",
+  "properties": {
+    "defibrillator:location": "Ecole supérieure de soins ambulanciers",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "8:00 - 17:00",
+    "operator": "ESAMB",
+    "id": "node/14120254701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1782686,
+      46.1891264
+    ]
+  }
 }
 ]
 }
