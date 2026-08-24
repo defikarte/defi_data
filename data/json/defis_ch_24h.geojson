@@ -161016,6 +161016,30 @@
       46.0696591
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14118604701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf Seite Tennisplatz / Fussballplatz",
+    "email": "roger.hess@burgdorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Roger Hess",
+    "phone": "+41 79 656 39 76",
+    "id": "node/14118604701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6286481,
+      46.9220866
+    ]
+  }
 }
 ]
 }

@@ -10398,14 +10398,15 @@
     "defibrillator:location": "nicht öffentlich, nur während Spielbetrieb zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "Espace Arena",
     "id": "node/6636649998"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6287794,
-      46.92255
+      7.628636,
+      46.922322
     ]
   }
 },
