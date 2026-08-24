@@ -3344,6 +3344,7 @@
   "id": "node/8934970117",
   "properties": {
     "access": "yes",
+    "amenity": "toilets",
     "defibrillator:location": "Receptiongebäude Campingplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
