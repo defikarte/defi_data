@@ -19337,6 +19337,31 @@
       47.4125056
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14122367801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Altor Equity Partners, by the reception in a wooden cabinet",
+    "description": "Available during opening hours (sometimes longer)",
+    "email": "reception-zurich@altor.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "Private Office",
+    "phone": "+41 79 924 36 08",
+    "id": "node/14122367801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5480835,
+      47.3615779
+    ]
+  }
 }
 ]
 }
