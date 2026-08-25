@@ -17479,6 +17479,30 @@
       46.8132606
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14121936301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gang-Ende links (Küche)",
+    "description": "während der Öffnungszeiten verfügbar",
+    "email": "neurologeninchur@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 7:45 - 12:00, 13:45 - 18:00",
+    "phone": "+41 81 322 82 00",
+    "id": "node/14121936301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5306317,
+      46.8550185
+    ]
+  }
 }
 ]
 }
