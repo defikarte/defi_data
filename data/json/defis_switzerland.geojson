@@ -116773,19 +116773,18 @@
   "id": "node/8995975918",
   "properties": {
     "defibrillator:location": "Polizei Posten",
-    "description": "Während Oeffungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-17:00",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Polizei",
     "id": "node/8995975918"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6496589,
-      47.5850214
+      7.6494509,
+      47.5850965
     ]
   }
 },
@@ -379680,6 +379679,47 @@
     "coordinates": [
       6.1782686,
       46.1891264
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14121827401",
+  "properties": {
+    "defibrillator:location": "Alterssiedlung Drei Brunnen",
+    "description": "Einfahrt Tiefgarage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14121827401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6558258,
+      47.586517
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14121846901",
+  "properties": {
+    "defibrillator:location": "Schulhaus Hinter Gärten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14121846901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6576295,
+      47.588966
     ]
   }
 }

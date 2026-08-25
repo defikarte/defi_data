@@ -59280,27 +59280,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8995975918",
-  "properties": {
-    "defibrillator:location": "Polizei Posten",
-    "description": "Während Oeffungszeiten Verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-18:30; Sa 09:00-17:00",
-    "operator": "Polizei",
-    "id": "node/8995975918"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6496589,
-      47.5850214
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8996121895",
   "properties": {
     "access": "yes",
