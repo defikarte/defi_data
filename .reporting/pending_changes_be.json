@@ -9,5 +9,16 @@
       "indoor: 'None' → 'yes'"
     ],
     "detected_at": "2026-08-24T09:48:05.713886+00:00"
+  },
+  {
+    "key": "node/9376215931",
+    "name": "(ohne Name)",
+    "address": "Fellerstrasse 22, 3027 Bern",
+    "lon": 7.3901555,
+    "lat": 46.947707,
+    "changes": [
+      "access: 'permissive' → 'None'"
+    ],
+    "detected_at": "2026-08-26T11:31:27.188602+00:00"
   }
 ]
