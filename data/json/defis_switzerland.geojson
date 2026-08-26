@@ -376499,7 +376499,7 @@
   "id": "node/14053966401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim Treppenabgang zur Tiefgarage / Bei den Besucher PP",
+    "defibrillator:location": "Beim Treppenabgang zur Tiefgarage / Bei den Besucher PP / Im Feldacher",
     "email": "firstresponder@confcom.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -379621,7 +379621,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "CSS Versicherung AG",
-    "opening_hours": "mo-fr 08.30-12.00 13.30 - 17.00",
+    "opening_hours": "Mo-Fr 08:30-12:00,13:30-17:00; Sa,Su,PH off",
     "operator": "Lifetec AG",
     "phone": "0800122144",
     "ref": "0575LTM",
