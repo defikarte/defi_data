@@ -379817,6 +379817,29 @@
       47.4254125
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14124968802",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zentrum Karl der Grosse",
+    "description": "Eingang Kirchgasse 14 vorne links im Foyer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Sa 08:00-22:00",
+    "operator": "Stadt Zürich",
+    "phone": "+41 44 415 68 64",
+    "id": "node/14124968802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5446685,
+      47.3697932
+    ]
+  }
 }
 ]
 }
