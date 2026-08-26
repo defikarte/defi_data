@@ -379771,6 +379771,30 @@
       47.3615779
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14124363501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schützenmattstrasse 39, 4051 Basel Mehrfamilienhaus, 2. Stock in Bürki Praxis Empfang",
+    "description": "Während Öffnungszeiten, bei Bürki Praxis läuten",
+    "email": "buerkipraxis@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo - Fr 08:00 - 12:00",
+    "operator": "Bürki Praxis",
+    "id": "node/14124363501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.580586,
+      47.55546
+    ]
+  }
 }
 ]
 }
