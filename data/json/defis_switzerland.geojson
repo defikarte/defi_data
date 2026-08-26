@@ -177363,12 +177363,12 @@
   "type": "Feature",
   "id": "node/10068609305",
   "properties": {
-    "defibrillator:location": "Man find in 3. Stock rechts. Es ist ein Nebengebäude der Französische Schule. Der Besitzer des Defibrillators ist das Lycée Français de Zurich, das sich in der Zukunfstrasse 1, 8600 Dübendorf, befindet.",
+    "defibrillator:location": "Französisches Lycée Zürich, Picard-Gebäude, Erdgeschoss an der Rezeption",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "3",
+    "level": "0",
     "operator": "Anne Bauer",
     "phone": "+41 43 355 03 22",
     "id": "node/10068609305"
@@ -177376,8 +177376,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.602649,
-      47.4012177
+      8.6023289,
+      47.4007257
     ]
   }
 },
