@@ -37008,7 +37008,6 @@
   "type": "Feature",
   "id": "node/9376215931",
   "properties": {
-    "access": "permissive",
     "addr:city": "Bern",
     "addr:housenumber": "22",
     "addr:postcode": "3027",
