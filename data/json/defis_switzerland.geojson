@@ -379795,6 +379795,29 @@
       47.55546
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14124557101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rettungswache Laufen vom KSBL / im Eingangsbereich",
+    "email": "info@fwlaufental.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stützpunktfeuerwehr Laufental",
+    "phone": "+41 61 761 11 44",
+    "id": "node/14124557101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5108296,
+      47.4254125
+    ]
+  }
 }
 ]
 }
