@@ -7250,6 +7250,25 @@
       46.0696591
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14128708701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entreé Lac Souterrain",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14128708701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4256605,
+      46.2567628
+    ]
+  }
 }
 ]
 }

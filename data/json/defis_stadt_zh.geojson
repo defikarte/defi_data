@@ -2557,13 +2557,14 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
+    "email": "sebastiano.maione@zuerich.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "ug",
+    "level": "-1",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/8562820772"
   },
@@ -7545,8 +7546,8 @@
     "indoor": "yes",
     "level": "5",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/10741161483"
   },
@@ -7569,15 +7570,15 @@
     "indoor": "yes",
     "level": "4",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/10741161484"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5426016,
+      8.5426015,
       47.4160862
     ]
   }
@@ -7593,15 +7594,15 @@
     "indoor": "yes",
     "level": "3",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/10741161485"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5425258,
+      8.5425257,
       47.4160854
     ]
   }
@@ -7617,15 +7618,15 @@
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/10741161487"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5424256,
+      8.5424257,
       47.4160798
     ]
   }
@@ -15203,8 +15204,8 @@
     "indoor": "yes",
     "level": "2",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/12625044096"
   },
@@ -15225,10 +15226,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/12625044097"
   },

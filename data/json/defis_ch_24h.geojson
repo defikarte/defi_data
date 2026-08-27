@@ -73392,20 +73392,22 @@
   "id": "node/9628028338",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Neben Bancomat",
+    "defibrillator:location": "Westseite, Hauswand",
+    "email": "gemeindeschreiberei@ringgenberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Raiffeisenbank Jungfrau",
-    "phone": "+41 33 822 12 27",
+    "operator": "Tourismusbüro Ringgenberg (Einwohnergemeinde Ringgenberg)",
+    "phone": "+41 33 826 58 00",
     "id": "node/9628028338"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8953974,
-      46.7020517
+      7.8955631,
+      46.7019146
     ]
   }
 },
@@ -73418,21 +73420,22 @@
     "addr:housenumber": "14",
     "addr:postcode": "3852",
     "addr:street": "Strandbadweg",
-    "defibrillator:location": "Neben Haupteingang",
-    "description": "Schulhausabwart Jens Frutiger +41 79 682 76 53",
+    "defibrillator:location": "Links neben Haupteingang",
+    "email": "gemeindeschreiberei@ringgenberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Burgseelihalle/Mehrzweckhalle Ringgenberg",
-    "phone": "+41 79 682 76 53",
+    "operator": "Burgseelihalle/Mehrzweckhalle Ringgenberg (Einwohnergemeinde Ringgenberg)",
+    "phone": "+41 33 826 58 00",
     "id": "node/9628028339"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       7.8894174,
-      46.6985686
+      46.6985687
     ]
   }
 },
@@ -73512,20 +73515,21 @@
     "addr:postcode": "3805",
     "addr:street": "Hauptstrasse",
     "defibrillator:location": "Westseite, Seite Dorfgasse",
-    "description": "Schulhausabwart Jens Frutiger",
+    "email": "gemeindeschreiberei@ringgenberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeindehaus Goldswil",
-    "phone": "+41 79 682 76 53",
+    "operator": "Gemeindehaus Goldswil (Einwohnergemeinde Ringgenberg)",
+    "phone": "+41 33 826 58 00",
     "id": "node/9628057163"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.876539,
-      46.6962764
+      7.8765388,
+      46.6962766
     ]
   }
 },
@@ -79150,9 +79154,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Aussenfassade Garderobe FC Horgen",
+    "description": "immer zugänglich",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Horgen",
     "phone": "+41 44 728 42 46",
@@ -85542,12 +85549,14 @@
     "access": "yes",
     "defibrillator:location": "Schulhaus Rainweg aussen bei dem Haupteingang",
     "description": "Aussen immer erreichbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Horgen",
+    "phone": "+41 44 728 42 46",
     "id": "node/10264448509"
   },
   "geometry": {
@@ -91848,12 +91857,15 @@
   "properties": {
     "access": "yes",
     "colour": "lime",
-    "defibrillator:location": "Postautohaltestelle Wührenbach",
+    "defibrillator:location": "Postautohaltestelle Wührenbach, Wührenbachstrasse 131, 8815 Horgenberg",
+    "description": "öffentliche Toilette",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Horgen, Bahnhofstrasse 10, 8810 Horgen",
+    "phone": "+41 44 728 42 46",
     "id": "node/10725889310"
   },
   "geometry": {
@@ -161149,6 +161161,93 @@
     "coordinates": [
       7.5108296,
       47.4254125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128024501",
+  "properties": {
+    "defibrillator:location": "Schulhaus Burgi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14128024501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6455642,
+      47.5797403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128040301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "neben Briefkasten",
+    "email": "gemeindeschreiberei@ringgenberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Bushaltestelle Säge",
+    "phone": "+41 33 826 58 00",
+    "id": "node/14128040301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9080806,
+      46.7065055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128708701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entreé Lac Souterrain",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14128708701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4256605,
+      46.2567628
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128785601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rue Haute 21 , 2013 Colombier",
+    "description": "extérieur",
+    "email": "services_generaux_brnev@raiffeisen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Banque Raiffeisen Neuchâtel et Vallées",
+    "phone": "+41 32 836 41 20",
+    "id": "node/14128785601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8595344,
+      46.965972
     ]
   }
 }

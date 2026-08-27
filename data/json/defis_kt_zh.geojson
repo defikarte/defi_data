@@ -13377,27 +13377,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8560862935",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:45-12:00,13:15-17:00",
-    "operator": "ProMinent Dosiertechnik AG",
-    "id": "node/8560862935"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4721957,
-      47.4419813
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8560862936",
   "properties": {
     "access": "permissive",
@@ -14062,13 +14041,14 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Im Treppenhaus",
+    "email": "sebastiano.maione@zuerich.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "ug",
+    "level": "-1",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/8562820772"
   },
@@ -26492,27 +26472,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9625633025",
-  "properties": {
-    "defibrillator:location": "im unteren Foyer des Gemeindesaals (Schinzenhofsaal)",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeindeverwaltung Horgen / Neidhart Monika",
-    "phone": "+41 44 728 41 11",
-    "id": "node/9625633025"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.596901,
-      47.2604024
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9628048120",
   "properties": {
     "access": "yes",
@@ -30198,10 +30157,14 @@
   "type": "Feature",
   "id": "node/9945320170",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Eingangsbereich Garderobengebäude, Eingangstüre",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 44 728 43 34",
@@ -30221,9 +30184,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Aussenfassade Garderobe FC Horgen",
+    "description": "immer zugänglich",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Horgen",
     "phone": "+41 44 728 42 46",
@@ -30242,9 +30208,12 @@
   "id": "node/9945320172",
   "properties": {
     "defibrillator:location": "Eingangsbereich Turnhalle, Eingangstüre",
+    "description": "während Schulbetrieb zugänglich",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 44 728 42 46",
@@ -30262,10 +30231,14 @@
   "type": "Feature",
   "id": "node/9945320173",
   "properties": {
-    "defibrillator:location": "Eingangsbereich Turnhalle, Eingangstüre",
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbereich Schulhaus, Eingangstüre",
+    "description": "Während Schulbetrieb zugänglich",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 44 728 42 46",
@@ -30283,10 +30256,14 @@
   "type": "Feature",
   "id": "node/9945320174",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Entree zum Schinzenhofsaal",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo 08:00-11:30, 14:00-18:30; Tu 14:00-16:30; We-Th 08:00-11:30, 14:00-16:30, Fr 07:30-14:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 79 199 94 76",
@@ -30304,10 +30281,14 @@
   "type": "Feature",
   "id": "node/9945320175",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Eingangsbereich Erdgeschoss",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo 08:00-11:30, 14:00-18:30; Tu 14:00-16:30; We-Th 08:00-11:30, 14:00-16:30, Fr 07:30-14:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 44 728 41 11",
@@ -30325,10 +30306,14 @@
   "type": "Feature",
   "id": "node/9945320176",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Eingang Empfang 1. Stock",
+    "description": "während den Öffnungszeiten",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo 08:00-11:30, 14:00-18:30; Tu 14:00-16:30; We-Th 08:00-11:30, 14:00-16:30, Fr 07:30-14:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 44 728 41 11",
@@ -30346,10 +30331,14 @@
   "type": "Feature",
   "id": "node/9945320177",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Eingangsbereich, Eingangstüre",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 44 725 16 01",
@@ -30367,10 +30356,14 @@
   "type": "Feature",
   "id": "node/9945320178",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Erste Hilfe Raum",
+    "description": "während Öffnungszeiten Sportbad",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 08:00-19:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 79 193 58 08",
@@ -30388,10 +30381,14 @@
   "type": "Feature",
   "id": "node/9945320179",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Erste Hilfe Raum",
+    "description": "während Öffnungszeit Badibetrieb verfügbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 09:00-20:00",
     "operator": "Gemeinde Horgen",
     "phone": "+41 79 193 58 08",
@@ -34747,12 +34744,14 @@
     "access": "yes",
     "defibrillator:location": "Schulhaus Rainweg aussen bei dem Haupteingang",
     "description": "Aussen immer erreichbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Horgen",
+    "phone": "+41 44 728 42 46",
     "id": "node/10264448509"
   },
   "geometry": {
@@ -34767,14 +34766,17 @@
   "type": "Feature",
   "id": "node/10264450409",
   "properties": {
-    "defibrillator:location": "Schulhaus Berghalden, innen bei dem Haupteingang links an der Wand",
-    "description": "Zugang nur während Schulbetrieb",
+    "access": "permissive",
+    "defibrillator:location": "Rainweg 16 Horgen Schulhaus Berghalden, innen bei dem Haupteingang links an der Wand",
+    "description": "Zugang nur während Schulbetrieb / Schulhaus Berghalden, innen bei dem Haupteingang links an der Wand",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Gemeinde Horgen",
+    "phone": "+41 44 728 42 46",
     "id": "node/10264450409"
   },
   "geometry": {
@@ -37118,12 +37120,15 @@
   "properties": {
     "access": "yes",
     "colour": "lime",
-    "defibrillator:location": "Postautohaltestelle Wührenbach",
+    "defibrillator:location": "Postautohaltestelle Wührenbach, Wührenbachstrasse 131, 8815 Horgenberg",
+    "description": "öffentliche Toilette",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Horgen, Bahnhofstrasse 10, 8810 Horgen",
+    "phone": "+41 44 728 42 46",
     "id": "node/10725889310"
   },
   "geometry": {
@@ -37354,8 +37359,8 @@
     "indoor": "yes",
     "level": "5",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/10741161483"
   },
@@ -37378,15 +37383,15 @@
     "indoor": "yes",
     "level": "4",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/10741161484"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5426016,
+      8.5426015,
       47.4160862
     ]
   }
@@ -37402,15 +37407,15 @@
     "indoor": "yes",
     "level": "3",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/10741161485"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5425258,
+      8.5425257,
       47.4160854
     ]
   }
@@ -37426,15 +37431,15 @@
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/10741161487"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5424256,
+      8.5424257,
       47.4160798
     ]
   }
@@ -53092,13 +53097,15 @@
   "type": "Feature",
   "id": "node/11745138855",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Schulpflege Horgen Glärnischstrasse 57 Neben Teamzimmer 16 1318LTM",
+    "access": "permissive",
+    "defibrillator:location": "Schulraus Rotweg Glärnischstrasse 57 Neben Teamzimmer 16 1318LTM",
     "description": "Während Schulbetrieb verfügbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11745138855"
@@ -53138,12 +53145,13 @@
   "type": "Feature",
   "id": "node/11745160431",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Schulpflege Horgen\nRainweg 16\nBeim Zimmer 301\n1316LTM",
-    "description": "Oranger Koffer",
+    "access": "permissive",
+    "defibrillator:location": "Schulpflege Horgen Rainweg 16 Beim Zimmer 301 1316LTM",
+    "description": "während Schulbetrieb zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11745160431"
@@ -53151,7 +53159,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5994527,
+      8.5994526,
       47.2563148
     ]
   }
@@ -53184,11 +53192,13 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "Schulpflege Horgen Einsiedlerstrasse 26 Beim Lehrerzimmer / Abstellraum 1314LTM",
+    "description": "während Schulbetrieb zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "note": "Während Schulbetrieb verfügbar",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11745179394"
@@ -53227,13 +53237,15 @@
   "type": "Feature",
   "id": "node/11745350249",
   "properties": {
-    "access": "customers",
+    "access": "permissive",
     "defibrillator:location": "Schulpflege Horgen Dorfstrasse 47 Trakt A, Eingangsbereich 1320LTM",
-    "description": "Oranger Koffer",
+    "description": "offen während Schulbetrieb",
+    "email": "liegenschaftenundflaechen@horgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11745350249"
@@ -53241,7 +53253,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6052173,
+      8.6052174,
       47.2157902
     ]
   }
@@ -66653,8 +66665,8 @@
     "indoor": "yes",
     "level": "2",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/12625044096"
   },
@@ -66675,10 +66687,9 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "eg",
     "opening_hours": "Mo-Fr 07:00-18:00",
-    "operator": "Alessandro Ghisletta, Städtische Gesundheitsdienste",
-    "phone": "+41 44 412 18 17",
+    "operator": "Sebastiano Maione",
+    "phone": "+41 44 412 30 12",
     "wheelchair": "limited",
     "id": "node/12625044097"
   },
@@ -81026,6 +81037,56 @@
     "coordinates": [
       8.5446685,
       47.3697932
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128029302",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Altersiedlung Baumgärtlihof",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-17:00",
+    "operator": "Gemeinde",
+    "phone": "+41 44 728 42 46",
+    "id": "node/14128029302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.600007,
+      47.259119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128073101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Heerenrainli 1 Dorfstrasse 56 Hirzel",
+    "description": "während Schulbetrieb verfügbar",
+    "email": "liegenschaftenundflaechen@horgen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Gemeinde Horgen",
+    "phone": "+41 44 728 42 46",
+    "id": "node/14128073101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6073352,
+      47.2160948
     ]
   }
 }

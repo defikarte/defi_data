@@ -2550,6 +2550,30 @@
       46.9913594
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14128785601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rue Haute 21 , 2013 Colombier",
+    "description": "extérieur",
+    "email": "services_generaux_brnev@raiffeisen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Banque Raiffeisen Neuchâtel et Vallées",
+    "phone": "+41 32 836 41 20",
+    "id": "node/14128785601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8595344,
+      46.965972
+    ]
+  }
 }
 ]
 }
