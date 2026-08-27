@@ -36802,6 +36802,7 @@
   "id": "node/9605130355",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-27",
     "defibrillator:location": "Schützenhaus Choller / An Wand neben dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -66210,8 +66211,8 @@
   "id": "node/11462032664",
   "properties": {
     "access": "yes",
-    "check_date": "22.12.2023",
-    "defibrillator:location": "Aussenkasten beim Eingang WC-Anlagen",
+    "check_date": "2026-08-27",
+    "defibrillator:location": "Eingang WC-Anlagen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -103986,6 +103987,30 @@
     "coordinates": [
       8.6073352,
       47.2160948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128832702",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Therapiebad Mühlentalstrasse 88a",
+    "email": "rheuma.sh@bluewin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Rheumaliga Bad schaff wass",
+    "phone": "+41 52 643 44 47",
+    "id": "node/14128832702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6302378,
+      47.7045104
     ]
   }
 }

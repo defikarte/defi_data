@@ -65580,6 +65580,27 @@
       46.7065055
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14129107601",
+  "properties": {
+    "defibrillator:location": "Lutertalpark 10",
+    "description": "Gegenüber Briefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14129107601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.496861,
+      46.977002
+    ]
+  }
 }
 ]
 }

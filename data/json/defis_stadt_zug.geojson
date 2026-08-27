@@ -1184,6 +1184,7 @@
   "id": "node/9605130355",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-27",
     "defibrillator:location": "Schützenhaus Choller / An Wand neben dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
