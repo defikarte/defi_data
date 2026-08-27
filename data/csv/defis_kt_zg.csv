@@ -218,7 +218,7 @@ EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",,defibrillator,144,node/7568
 9327261917,node,47.1470016,8.4318142,yes,,,,,,,Lettenstrasse 7/9 am Gebäude angebracht,,,defibrillator,144,node/9327261917,no,,0,,,,24/7,,,,,,,limited,
 9417976882,node,47.0991213,8.5175136,,,,,,,,"Praxis, Parterre",,,defibrillator,144,node/9417976882,yes,,,,,,"Mo-Fr 08:00-12:00, 13:30-18:00",Ärzte-Walchwil AG,,+41 41 758 10 60,,,,,
 9459918657,node,47.1361338,8.5820456,private,,,,,,,Treppenhaus im Erdgeschoss,24h verfügbar (über Türöffnung),,defibrillator,144,node/9459918657,yes,,,,,,24/7,Markus Gössi,,+41 78 839 80 74,,,,,
-9524523017,node,47.1658127,8.6299644,yes,,,,,,,Bürogebäude Andy Wickart Haustechnik AG,im Eingangsbereich,,defibrillator,144,node/9524523017,yes,,,,,,Mo-Fr 08:00-17:00,Büro,,+41797184870,,,,,
+9524523017,node,47.1658126,8.6299646,yes,,,,,,,Wohnhaus,im Eingangsbereich,,defibrillator,144,node/9524523017,yes,,,,,,,Privat,,,,,,,
 9530626434,node,47.1979256,8.5331575,,,,,,,2026-03-30,Links neben dem Eingang der Kita ,,,defibrillator,144,node/9530626434,no,,,,,,,,,,,,,,
 9605130355,node,47.1811558,8.4821065,yes,,,,,,,Schützenhaus Choller / An Wand neben dem Eingang,,,defibrillator,144,node/9605130355,no,,0,,,,24/7,"Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",,+41 58 728 99 00,,,,,
 9605130356,node,47.182295,8.4866439,yes,,,,,,,"Sportplatz Riedmatt, rechts vom Eingang, draussen",,,defibrillator,144,node/9605130356,no,,0,,,,24/7,"Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",,+41 58 728 99 00,,,,,
