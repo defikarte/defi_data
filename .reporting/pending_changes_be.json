@@ -20,5 +20,48 @@
       "access: 'permissive' → 'None'"
     ],
     "detected_at": "2026-08-26T11:31:27.188602+00:00"
+  },
+  {
+    "key": "node/9628028338",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.8955631,
+    "lat": 46.7019146,
+    "changes": [
+      "operator: 'Raiffeisenbank Jungfrau' → 'Tourismusbüro Ringgenberg (Einwohnergemeinde Ringgenberg)'",
+      "phone: '+41 33 822 12 27' → '+41 33 826 58 00'",
+      "defibrillator:location: 'Neben Bancomat' → 'Westseite, Hauswand'",
+      "level: 'None' → '0'"
+    ],
+    "detected_at": "2026-08-27T13:50:42.867553+00:00"
+  },
+  {
+    "key": "node/9628028339",
+    "name": "(ohne Name)",
+    "address": "Strandbadweg 14, 3852 Ringgenberg",
+    "lon": 7.8894174,
+    "lat": 46.6985687,
+    "changes": [
+      "operator: 'Burgseelihalle/Mehrzweckhalle Ringgenberg' → 'Burgseelihalle/Mehrzweckhalle Ringgenberg (Einwohnergemeinde Ringgenberg)'",
+      "phone: '+41 79 682 76 53' → '+41 33 826 58 00'",
+      "defibrillator:location: 'Neben Haupteingang' → 'Links neben Haupteingang'",
+      "description: 'Schulhausabwart Jens Frutiger +41 79 682 76 53' → 'None'",
+      "level: 'None' → '0'"
+    ],
+    "detected_at": "2026-08-27T13:50:42.867594+00:00"
+  },
+  {
+    "key": "node/9628057163",
+    "name": "(ohne Name)",
+    "address": "Hauptstrasse 26, 3805 Goldswil b. Interlaken",
+    "lon": 7.8765388,
+    "lat": 46.6962766,
+    "changes": [
+      "operator: 'Gemeindehaus Goldswil' → 'Gemeindehaus Goldswil (Einwohnergemeinde Ringgenberg)'",
+      "phone: '+41 79 682 76 53' → '+41 33 826 58 00'",
+      "description: 'Schulhausabwart Jens Frutiger' → 'None'",
+      "level: 'None' → '0'"
+    ],
+    "detected_at": "2026-08-27T13:50:42.867615+00:00"
   }
 ]
