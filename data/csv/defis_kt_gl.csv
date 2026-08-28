@@ -86,3 +86,4 @@ osm_id,osm_type,lat,lon,access,access:conditional,addr:city,addr:housenumber,add
 13855870901,node,47.0957903,9.0670285,yes,,,,,,Schulhaus Obererlen Eingang Süd,Während Schulöffnungszeiten,liegenschaften@glarus-nord.ch,defibrillator,144,,node/13855870901,yes,0,,07:00-17:00,Gemeinde Glarus Nord,+41 58 611 74 11,,,
 13860040501,node,47.165473,9.0137047,permissive,,,,,,Tschachenstrasse 51,07:00-17:00 Mo. - Fr.,,defibrillator,144,,node/13860040501,yes,,,,,,,,
 14008252568,node,47.0992985,9.06742,yes,,Näfels,24,8752,Bahnhofstrasse,"Zahnarztpraxis Nord, EG Labor",Oranger Koffer,,defibrillator,144,,node/14008252568,yes,0,,Mo-Fr 08:00-17:00,Lifetec AG,0800122144,0697LTM,,
+14130508901,node,47.1498241,9.0310568,private,,,,,,Beim Empfang,während der Öffnungszeiten erreichbar,raphael.soltermann@altherr.ch,defibrillator,144,,node/14130508901,yes,0,,Mo - Fr 07:00 - 17:15,"Altherr Nutzfahrzeuge-AG, Zweigniederlassung Bilten",+41 55 619 67 00,,,
