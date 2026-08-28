@@ -4030,6 +4030,29 @@
       47.7045104
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14131423902",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Migros an den Kassen",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "sebastian@familiekipp.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Migros",
+    "id": "node/14131423902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8528724,
+      47.6513594
+    ]
+  }
 }
 ]
 }

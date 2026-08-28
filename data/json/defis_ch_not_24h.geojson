@@ -11129,7 +11129,7 @@
   "id": "node/6636906419",
   "properties": {
     "access": "permissive",
-    "addr:city": "Busswil",
+    "addr:city": "Busswil BE",
     "addr:housenumber": "23",
     "addr:postcode": "3292",
     "addr:street": "Bahnhofstrasse",
@@ -218809,6 +218809,29 @@
     "coordinates": [
       8.3083969,
       47.0443755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14131423902",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Migros an den Kassen",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "sebastian@familiekipp.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Migros",
+    "id": "node/14131423902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8528724,
+      47.6513594
     ]
   }
 }

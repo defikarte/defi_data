@@ -32685,6 +32685,101 @@
       47.4413135
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14131137303",
+  "properties": {
+    "defibrillator:location": "Altersliegenschaft Riethüsliblick",
+    "description": "Beim Eingang der Tiefgarage",
+    "email": "marco.schaumann@weber-verwaltungen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Alters- und Wohngenossenschaft LOGISCASA",
+    "phone": "+41 71 226 46 60",
+    "id": "node/14131137303"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3677128,
+      47.4126153
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14131144801",
+  "properties": {
+    "defibrillator:location": "Alterssiedlung Flurgarten, Flurhofstrasse 7",
+    "description": "Am Ende des Laubengangs links von den Briefkästen",
+    "email": "marco.schaumann@weber-verwaltungen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Alters- und Wohngenossenschaft LOGISCASA",
+    "phone": "+41 71 226 46 60",
+    "id": "node/14131144801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3880388,
+      47.4274557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14131146303",
+  "properties": {
+    "defibrillator:location": "Im Treppenhaus, erstes Zwischengeschoss UG",
+    "email": "marco.schaumann@weber-verwaltungen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Alters- und Wohngenossenschaft LOGISCASA",
+    "phone": "+41 71 226 46 60",
+    "id": "node/14131146303"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3889776,
+      47.4254342
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14131155001",
+  "properties": {
+    "defibrillator:location": "Alterssiedlung Broggepark, Eingang Haus 3a",
+    "description": "Beim Eingang",
+    "email": "marco.schaumann@weber-verwaltungen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Alters- und Wohngemeinschaft LOGISCASA",
+    "phone": "+41 71 226 46 60",
+    "id": "node/14131155001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3344503,
+      47.4104574
+    ]
+  }
 }
 ]
 }
