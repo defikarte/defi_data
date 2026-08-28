@@ -32916,6 +32916,28 @@
       47.2470013
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14130601504",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "BSI Business Systems Integration AG, Neustadtstrasse 8, 6003 Luzern",
+    "description": "Während Bürozeiten zugänglich, am Schaufenster klopfen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "BSI Business Systems Integration AG",
+    "id": "node/14130601504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3083969,
+      47.0443755
+    ]
+  }
 }
 ]
 }

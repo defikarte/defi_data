@@ -380036,6 +380036,53 @@
       46.977002
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14130508901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Beim Empfang",
+    "description": "während der Öffnungszeiten erreichbar",
+    "email": "raphael.soltermann@altherr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00 - 17:15",
+    "operator": "Altherr Nutzfahrzeuge-AG, Zweigniederlassung Bilten",
+    "phone": "+41 55 619 67 00",
+    "id": "node/14130508901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0310568,
+      47.1498241
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14130601504",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "BSI Business Systems Integration AG, Neustadtstrasse 8, 6003 Luzern",
+    "description": "Während Bürozeiten zugänglich, am Schaufenster klopfen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "BSI Business Systems Integration AG",
+    "id": "node/14130601504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3083969,
+      47.0443755
+    ]
+  }
 }
 ]
 }
