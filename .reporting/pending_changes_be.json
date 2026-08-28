@@ -63,5 +63,16 @@
       "level: 'None' → '0'"
     ],
     "detected_at": "2026-08-27T13:50:42.867615+00:00"
+  },
+  {
+    "key": "node/6636906419",
+    "name": "(ohne Name)",
+    "address": "Bahnhofstrasse 23, 3292 Busswil BE",
+    "lon": 7.3233955,
+    "lat": 47.0999362,
+    "changes": [
+      "addr:city: 'Busswil' → 'Busswil BE'"
+    ],
+    "detected_at": "2026-08-28T21:09:40.652588+00:00"
   }
 ]
