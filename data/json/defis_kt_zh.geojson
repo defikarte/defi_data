@@ -23730,6 +23730,7 @@
   "id": "node/9295375617",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-29",
     "defibrillator:location": "Freie Schule Winterthur, Heiligbergstrasse 54, 8400 Winterthur, Haupteingang Schulhaus",
     "description": "jederzeit zugänglich",
     "emergency": "defibrillator",
