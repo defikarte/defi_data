@@ -12410,14 +12410,15 @@
   "type": "Feature",
   "id": "node/6636649998",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Biglen",
     "addr:postcode": "3507",
     "addr:street": "Syrengasse",
-    "defibrillator:location": "nicht öffentlich, nur während Spielbetrieb zugänglich",
+    "defibrillator:location": "Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Espace Arena",
     "id": "node/6636649998"
   },
@@ -65604,6 +65605,42 @@
     "coordinates": [
       7.496861,
       46.977002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14132982701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bettlach ",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14132982701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7918265,
+      47.2117368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14132983001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Solothurn",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14132983001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7919407,
+      47.2117157
     ]
   }
 }

@@ -10389,29 +10389,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6636649998",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Biglen",
-    "addr:postcode": "3507",
-    "addr:street": "Syrengasse",
-    "defibrillator:location": "nicht öffentlich, nur während Spielbetrieb zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Espace Arena",
-    "id": "node/6636649998"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.628636,
-      46.922322
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6636650001",
   "properties": {
     "access": "permissive",
@@ -89102,6 +89079,7 @@
   "id": "node/9917843297",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-29",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -218813,6 +218791,42 @@
     "coordinates": [
       8.8528724,
       47.6513594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14132982701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bettlach ",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14132982701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7918265,
+      47.2117368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14132983001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Solothurn",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14132983001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7919407,
+      47.2117157
     ]
   }
 }

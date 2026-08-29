@@ -5637,6 +5637,7 @@
   "id": "node/13021242986",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Devant les portes vitrées automatiques",
     "emergency": "defibrillator",
     "indoor": "no",
     "opening_hours": "24/7",

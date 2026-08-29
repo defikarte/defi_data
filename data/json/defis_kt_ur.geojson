@@ -1378,6 +1378,7 @@
   "id": "node/8486525584",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-29",
     "defibrillator:location": "Bergstation Eggberge",
     "emergency": "defibrillator",
     "emergency:phone": "144",

@@ -20174,14 +20174,15 @@
   "type": "Feature",
   "id": "node/6636649998",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "addr:city": "Biglen",
     "addr:postcode": "3507",
     "addr:street": "Syrengasse",
-    "defibrillator:location": "nicht öffentlich, nur während Spielbetrieb zugänglich",
+    "defibrillator:location": "Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Espace Arena",
     "id": "node/6636649998"
   },
@@ -88233,6 +88234,7 @@
   "id": "node/8486525584",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-29",
     "defibrillator:location": "Bergstation Eggberge",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -168100,6 +168102,7 @@
   "id": "node/9917843297",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-29",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -333177,6 +333180,7 @@
   "id": "node/13021242986",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Devant les portes vitrées automatiques",
     "emergency": "defibrillator",
     "indoor": "no",
     "opening_hours": "24/7",
@@ -380205,6 +380209,42 @@
     "coordinates": [
       8.8528724,
       47.6513594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14132982701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bettlach ",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14132982701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7918265,
+      47.2117368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14132983001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Solothurn",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14132983001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7919407,
+      47.2117157
     ]
   }
 }

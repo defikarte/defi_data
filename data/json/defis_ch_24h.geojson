@@ -9786,6 +9786,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/6636649998",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Biglen",
+    "addr:postcode": "3507",
+    "addr:street": "Syrengasse",
+    "defibrillator:location": "Haupteingang links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Espace Arena",
+    "id": "node/6636649998"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.628636,
+      46.922322
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6636649999",
   "properties": {
     "access": "yes",
@@ -43155,6 +43179,7 @@
   "id": "node/8486525584",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-29",
     "defibrillator:location": "Bergstation Eggberge",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -141887,6 +141912,7 @@
   "id": "node/13021242986",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Devant les portes vitrées automatiques",
     "emergency": "defibrillator",
     "indoor": "no",
     "opening_hours": "24/7",
