@@ -2831,6 +2831,7 @@
     "defibrillator:location": "An der Wand im Wartesaal der Bushaltestelle angebracht",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/5371136952"
   },
@@ -19901,6 +19902,7 @@
     "addr:housenumber": "19",
     "addr:postcode": "3252",
     "addr:street": "Hauptstrasse",
+    "check_date": "2026-08-29",
     "defibrillator:location": "Links vor dem Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -160757,6 +160759,29 @@
     "coordinates": [
       8.5297716,
       46.410141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14098399002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Bächtelenweg 1",
+    "email": "baechtelenpark@outlook.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Quartier Bächtelenweg",
+    "id": "node/14098399002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4555594,
+      46.925599
     ]
   }
 },
