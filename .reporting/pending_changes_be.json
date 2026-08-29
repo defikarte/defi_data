@@ -6,9 +6,12 @@
     "lon": 7.628636,
     "lat": 46.922322,
     "changes": [
-      "indoor: 'None' → 'yes'"
+      "access: 'permissive' → 'yes'",
+      "opening_hours: 'None' → '24/7'",
+      "defibrillator:location: 'nicht öffentlich, nur während Spielbetrieb zugänglich' → 'Haupteingang links'",
+      "indoor: 'yes' → 'no'"
     ],
-    "detected_at": "2026-08-24T09:48:05.713886+00:00"
+    "detected_at": "2026-08-29T15:33:35.456988+00:00"
   },
   {
     "key": "node/9376215931",
