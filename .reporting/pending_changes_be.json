@@ -74,5 +74,18 @@
       "addr:city: 'Busswil' → 'Busswil BE'"
     ],
     "detected_at": "2026-08-28T21:09:40.652588+00:00"
+  },
+  {
+    "key": "node/14098399002",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.4555594,
+    "lat": 46.925599,
+    "changes": [
+      "operator: 'None' → 'Quartier Bächtelenweg'",
+      "access: 'None' → 'yes'",
+      "opening_hours: 'None' → '24/7'"
+    ],
+    "detected_at": "2026-08-29T10:51:19.066332+00:00"
   }
 ]
