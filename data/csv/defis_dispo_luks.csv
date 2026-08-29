@@ -15,7 +15,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:delivery,addr:city,addr
 5194641075,node,47.1087993,8.3660824,private,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/5194641075,yes,,,,,,,,,,24/7,,,+41 41 455 87 33,,,,,,
 5194644314,node,47.1114919,8.3666618,private,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/5194644314,yes,,,,,,,,,,,,,+41 41 455 86 00,,,,,,
 5194646372,node,47.1113824,8.3669676,private,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/5194646372,yes,,,,,,,,,,24/7,,,+41 41 455 85 32,,,,,,
-5371136952,node,46.9024516,8.6250459,yes,,,,,,,,,,2024-01-28,,,,An der Wand im Wartesaal der Bushaltestelle angebracht,,,,defibrillator,144,,,,node/5371136952,,,,,,,,,,,24/7,,,,,,,,,
+5371136952,node,46.9024516,8.6250459,yes,,,,,,,,,,2024-01-28,,,,An der Wand im Wartesaal der Bushaltestelle angebracht,,,,defibrillator,144,,,,node/5371136952,no,,,,,,,,,,24/7,,,,,,,,,
 5387108677,node,46.8824002,8.6454334,yes,,,,,,,,,,2024-08-14,,,,Rechts von Eingangstür,,,,defibrillator,144,,,,node/5387108677,no,,,,,,,Mehrzweckgebäude Winkel,,,24/7,,,,,,,,,
 5401265428,node,46.9612052,8.3645563,,,,,,,,,,,2026-06-06,,,,,,bei der Sammelstelle Gemeindeparkplatz,,defibrillator,144,,,,node/5401265428,no,,,,,,,,,,24/7,,,,,,,,,
 5523221438,node,46.8793331,8.6494954,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/5523221438,,,,,,,,,,,,,,,,,,,,

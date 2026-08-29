@@ -1,6 +1,6 @@
 osm_id,osm_type,lat,lon,access,check_date,covered,defibrillator:location,description,email,emergency,emergency:phone,fixme,id,indoor,level,location,mapillary,name,note,note:de,opening_hours,operator,phone,source,website,wheelchair
 5155567241,node,46.5986073,8.5021515,,2024-05-05,,,,,defibrillator,144,,node/5155567241,no,,"Gegenüber der Hotel Post, an der Wand befestigt",,Feuerwehr Magazin,,,24/7,,,,,
-5371136952,node,46.9024516,8.6250459,yes,2024-01-28,,An der Wand im Wartesaal der Bushaltestelle angebracht,,,defibrillator,144,,node/5371136952,,,,,,,,24/7,,,,,
+5371136952,node,46.9024516,8.6250459,yes,2024-01-28,,An der Wand im Wartesaal der Bushaltestelle angebracht,,,defibrillator,144,,node/5371136952,no,,,,,,,24/7,,,,,
 5387108677,node,46.8824002,8.6454334,yes,2024-08-14,,Rechts von Eingangstür,,,defibrillator,144,,node/5387108677,no,,,,Mehrzweckgebäude Winkel,,,24/7,,,,,
 5523221438,node,46.8793331,8.6494954,,,,,,,defibrillator,144,,node/5523221438,,,,,,,,,,,,,
 6459359556,node,46.9493514,8.6209514,yes,2024-12-05,,Gemeindehausplatz,"Rechts von WC Eingang, am Wand.",,defibrillator,144,,node/6459359556,no,0,,,,,,24/7,,,,,yes

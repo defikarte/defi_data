@@ -203,7 +203,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 11283249307,node,46.6255229,7.0599325,,,,,,,,,,,,au rez supérieur dans le couloir près de la passerelle,,defibrillator,144,,,node/11283249307,,,,,,,,,,,,,,,,,,,
 11288441935,node,46.5277832,6.8964716,customers,,,,,,,,,À l'entrée du magasin à gauche en entrant,,,,defibrillator,144,,,node/11288441935,yes,,,,,,,,"Mo-Th, Sa 07:00-20:00; Fr 07:00-21:00",Lidl,,,,,,,,,
 11298603425,node,46.5269763,6.852005,yes,,,,,,2023-10-29,,,Dans la cabine téléphonique,,,,defibrillator,144,,,node/11298603425,no,,,,,,,,24/7,,,,,,,,,,
-11303350385,node,46.6413023,7.0607852,yes,,,,,,2023-10-31,,,À l'extérieur vers l'entrée des urgences/permanence,,,,defibrillator,144,,,node/11303350385,no,,,,,,,,24/7,Hôpital Riaz,,,,,,,,,
+11303350385,node,46.6413043,7.0607854,yes,,,,,,2023-10-31,,,À l'extérieur vers l'entrée des urgences/permanence,,,,defibrillator,144,,,node/11303350385,no,,,,,,,,24/7,Hôpital Riaz,,,,,,,,,
 11333570688,node,46.5259632,6.8679999,,,,,,,,,,,,Sous le couvert,,defibrillator,144,,,node/11333570688,,,,,,,,,24/7,,,,,,,,,,
 11335627415,node,46.6187772,6.9810318,,,96,,Grand-Rue,,,,,,,Sur le mur extérieur,,defibrillator,144,,,node/11335627415,,,,,,,,,24/7,,,,,,,,,,
 11335647245,node,46.5746576,6.927903,,,,,,,,,,,,"sur le mur, bouton alerte 144 intégré",,defibrillator,144,,,node/11335647245,,,,,,,,,24/7,,,,,,,,,,
