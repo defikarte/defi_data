@@ -67,7 +67,7 @@ osm_id,osm_type,lat,lon,access,check_date,covered,defibrillator:location,descrip
 7826353819,node,46.7065725,8.5997736,yes,2024-03-02,,"Mounted on the ouside wall of the building, facing the Volg",,,defibrillator,144,,node/7826353819,no,,,478843426736630,,,,24/7,,,,,
 8319547349,node,46.8550883,8.6457287,yes,2024-04-26,,,Beim Jumbo/Manor Haupteingang links.,,defibrillator,144,,node/8319547349,yes,0,,,,,,Mo-Th 08:30-18:30; Fr 08:30-19:00; Sa 08:00-17:00,,,,,
 8384897885,node,46.8778097,8.6392951,yes,2024-04-28,,"BWZ Haupteingang, links vor die Türen.",,,defibrillator,144,,node/8384897885,yes,,,,,,,24/7,,,,,no
-8486525584,node,46.9016261,8.6445919,yes,,,Bergstation Eggberge,,,defibrillator,144,,node/8486525584,yes,0,,,,,,24/7,,,,,
+8486525584,node,46.9016261,8.6445919,yes,2026-08-29,,Bergstation Eggberge,,,defibrillator,144,,node/8486525584,yes,0,,,,,,24/7,,,,,
 8678285150,node,46.8605587,8.6426992,yes,2024-02-06,,Durchgang beim Teich,,,defibrillator,144,,node/8678285150,no,,,,,,,24/7,Stiftung Behindertenbetriebe Uri (SBU),+41 41 874 15 15,,,
 8851160392,node,46.9673291,8.5845162,yes,2026-08-14,,"auf dem Platz, zwischen Postfächern und Ladestationen für Elektrofahrzeuge",Haltestelle Tanzplatz,,defibrillator,144,,node/8851160392,no,,,,,,,24/7,,,,,yes
 8979391059,node,46.9781585,8.5910748,yes,,,Neben dem WC,Jugendherberge Seelisberg,,defibrillator,144,,node/8979391059,yes,,,,,,,,Jugendherberge Seelisberg,+41 41 820 52 32,,,no

@@ -20,7 +20,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 9894045817,node,46.9036325,6.4800993,,,,,,,,Contre le mur exterieur de la salle de gym.,,Defivrilateur philips complet avec connexion a une centrale.,,defibrillator,144,node/9894045817,no,,,24/7,,,,,,,,,
 9897558917,node,46.9438883,6.8439084,yes,,,,,,,Cort‘Agora,,dehors à côté de l‘entrée,,defibrillator,144,node/9897558917,no,,,24/7,Commune Cortaillod,+41328865103,,,,,,,
 9917843261,node,46.9207371,6.8067759,yes,,,,,,,Verkaufsfläche LIDL,,während Öffnungszeiten verfügbar,,defibrillator,144,node/9917843261,yes,,,,LIDL Schweiz,+41716278074,,,,,,,
-9917843297,node,47.1014398,6.8264796,yes,,,,,,,Verkaufsfläche LIDL,,während Öffnungszeiten verfügbar,,defibrillator,144,node/9917843297,yes,,,,LIDL Schweiz,+41716278074,,,,,,,
+9917843297,node,47.1014398,6.8264796,yes,,,,,,2026-08-29,Verkaufsfläche LIDL,,während Öffnungszeiten verfügbar,,defibrillator,144,node/9917843297,yes,,,,LIDL Schweiz,+41716278074,,,,,,,
 9917843298,node,46.9928132,6.9255609,yes,,,,,,,Verkaufsfläche LIDL,,während Öffnungszeiten verfügbar,,defibrillator,144,node/9917843298,yes,,,,LIDL Schweiz,+41716278074,,,,,,,
 9928847715,node,47.0094422,6.9752419,,,,,,,,,,,,defibrillator,144,node/9928847715,,,,,,,,,,,,,
 9947494717,node,46.9396904,6.852042,yes,,,,,,,"Restaurant ""Le Pilotis""",,"Sur le mur Nord du restaurant ""Le Pilotis """,,defibrillator,144,node/9947494717,no,,,24/7,Commune Cortaillod,,,,,,,,
