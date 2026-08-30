@@ -14917,6 +14917,46 @@
       46.6936557
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14135061102",
+  "properties": {
+    "defibrillator:location": "cronay commune",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14135061102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6961991,
+      46.7570858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14135073101",
+  "properties": {
+    "defibrillator:location": "cronay commune",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14135073101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6961991,
+      46.7570858
+    ]
+  }
 }
 ]
 }

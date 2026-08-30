@@ -245885,8 +245885,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6429331,
-      46.7441174
+      7.6428935,
+      46.7440934
     ]
   }
 },
@@ -284020,6 +284020,7 @@
   "id": "node/11987709969",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-30",
     "defibrillator:location": "4654 Lostorf, Schlossstrasse 28, Schloss Wartenfels",
     "description": "immer verfügbar",
     "emergency": "defibrillator",
@@ -380282,6 +380283,66 @@
     "coordinates": [
       8.8554608,
       47.6561877
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14135061102",
+  "properties": {
+    "defibrillator:location": "cronay commune",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14135061102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6961991,
+      46.7570858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14135073101",
+  "properties": {
+    "defibrillator:location": "cronay commune",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14135073101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6961991,
+      46.7570858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14135244403",
+  "properties": {
+    "defibrillator:location": "Amavita Apotheke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "phone": "+41 58 878 13 20",
+    "id": "node/14135244403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6437985,
+      46.880715
     ]
   }
 }

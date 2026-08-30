@@ -32940,6 +32940,26 @@
       47.0443755
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14135244403",
+  "properties": {
+    "defibrillator:location": "Amavita Apotheke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "phone": "+41 58 878 13 20",
+    "id": "node/14135244403"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6437985,
+      46.880715
+    ]
+  }
 }
 ]
 }

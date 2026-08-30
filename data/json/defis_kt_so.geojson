@@ -7647,6 +7647,7 @@
   "id": "node/11987709969",
   "properties": {
     "access": "yes",
+    "check_date": "2026-08-30",
     "defibrillator:location": "4654 Lostorf, Schlossstrasse 28, Schloss Wartenfels",
     "description": "immer verfügbar",
     "emergency": "defibrillator",
