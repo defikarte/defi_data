@@ -15202,6 +15202,27 @@
       47.5797403
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14135503601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Camping Waldhort WC Anlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Camping Waldhort",
+    "id": "node/14135503601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6028334,
+      47.4997262
+    ]
+  }
 }
 ]
 }
