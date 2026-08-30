@@ -4038,7 +4038,6 @@
     "access": "permissive",
     "defibrillator:location": "Migros an den Kassen",
     "description": "Während Öffnungszeiten verfügbar",
-    "email": "sebastian@familiekipp.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -4049,8 +4048,29 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8528724,
-      47.6513594
+      8.8528723,
+      47.6513591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14134489201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Restaurant Steinerhof",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14134489201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8554608,
+      47.6561877
     ]
   }
 }
