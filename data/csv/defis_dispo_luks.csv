@@ -1605,3 +1605,5 @@ im Haupteingang,",,"Klingel benutzen, wenn jemand da ist, helfen wir gerne",,def
 14103320601,node,47.0256667,8.310005,yes,,,,,,,,,,,,,,Beim Eingang zum Kindergarten Stirnrütistrasse 19,,,,defibrillator,,,,,node/14103320601,yes,,,,,,,,,,,Gemeinde Horw,,,,,,,,
 14118401301,node,47.2470013,7.9712759,,,,,,,,,,,,,,,Spitex Wiggertal,,,,defibrillator,144,,,,node/14118401301,yes,,0,,,,,,,,,,,,,,,,,
 14130601504,node,47.0443755,8.3083969,permissive,,,,,,,,,,,,,,"BSI Business Systems Integration AG, Neustadtstrasse 8, 6003 Luzern",,"Während Bürozeiten zugänglich, am Schaufenster klopfen",,defibrillator,144,,,,node/14130601504,yes,,0,,,,,,,,,BSI Business Systems Integration AG,,,,,,,,
+14135244403,node,46.880715,8.6437985,,,,,,,,,,,,,,,Amavita Apotheke,,,,defibrillator,144,,,,node/14135244403,yes,,0,,,,,,,,,,,+41 58 878 13 20,,,,,,
+14136696001,node,47.2107943,8.1790817,yes,,,,,,,,,,,,,,Velounterstand vor dem Zentrum,,Jederzeit verfügbar,sekretariat.sursee@reflu.ch,defibrillator,144,,,,node/14136696001,no,,0,,,,,,,,24/7,Reformierte Kirchgemeinde Sursee,,+41 41 921 11 19,,,,,,
