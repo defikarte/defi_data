@@ -46882,26 +46882,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8574205094",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Am Eingang der Schule",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8574205094"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0024845,
-      47.6019484
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8576857317",
   "properties": {
     "access": "yes",
@@ -48424,8 +48404,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0938874,
-      47.1715475
+      8.0938866,
+      47.1715438
     ]
   }
 },
@@ -161487,6 +161467,67 @@
     "coordinates": [
       8.1790817,
       47.2107943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136904601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baugenossenschaft Frohheim. An Fassade vor Hauseingängen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14136904601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.470032,
+      47.3920089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136906901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baugenossenschaft Frohheim. An Fassade vor Hauseingängen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14136906901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4699044,
+      47.3906152
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14137670201",
+  "properties": {
+    "defibrillator:location": "Löwen Ebikon im Hoteleingang links an der Wand",
+    "description": "Tags über ist der Eingang offen. In der Nacht über den Garteneingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14137670201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3381458,
+      47.0805251
     ]
   }
 }

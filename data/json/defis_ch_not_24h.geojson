@@ -36700,7 +36700,6 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:15-15:30",
-    "opening_hours:covid19": "closed",
     "wheelchair": "yes",
     "id": "node/7882989143"
   },
@@ -36722,7 +36721,6 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:15-15:30",
-    "opening_hours:covid19": "closed",
     "wheelchair": "yes",
     "id": "node/7882989144"
   },
@@ -152252,8 +152250,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0022644,
-      47.6036613
+      9.0011966,
+      47.6039645
     ]
   }
 },
@@ -218973,6 +218971,30 @@
     "coordinates": [
       9.0022487,
       47.6036617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14137214601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "In Arztpraxis",
+    "email": "dr.morge@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-17:30",
+    "operator": "Praxis Dr. med. Franziska Morger",
+    "phone": "+41 44 838 30 40",
+    "id": "node/14137214601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.623934,
+      47.448393
     ]
   }
 }

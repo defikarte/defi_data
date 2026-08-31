@@ -4895,7 +4895,6 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:15-15:30",
-    "opening_hours:covid19": "closed",
     "wheelchair": "yes",
     "id": "node/7882989143"
   },
@@ -4917,7 +4916,6 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:15-15:30",
-    "opening_hours:covid19": "closed",
     "wheelchair": "yes",
     "id": "node/7882989144"
   },

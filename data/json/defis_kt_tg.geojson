@@ -1993,26 +1993,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8574205094",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Am Eingang der Schule",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8574205094"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0024845,
-      47.6019484
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8576304020",
   "properties": {
     "access": "yes",
@@ -12884,8 +12864,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0022644,
-      47.6036613
+      9.0011966,
+      47.6039645
     ]
   }
 },

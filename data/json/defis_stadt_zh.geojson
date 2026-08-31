@@ -19385,6 +19385,46 @@
       47.3697932
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14136904601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baugenossenschaft Frohheim. An Fassade vor Hauseingängen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14136904601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.470032,
+      47.3920089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136906901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baugenossenschaft Frohheim. An Fassade vor Hauseingängen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14136906901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4699044,
+      47.3906152
+    ]
+  }
 }
 ]
 }

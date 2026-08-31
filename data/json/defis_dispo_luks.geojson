@@ -16946,8 +16946,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0938874,
-      47.1715475
+      8.0938866,
+      47.1715438
     ]
   }
 },
@@ -32983,6 +32983,27 @@
     "coordinates": [
       8.1790817,
       47.2107943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14137670201",
+  "properties": {
+    "defibrillator:location": "Löwen Ebikon im Hoteleingang links an der Wand",
+    "description": "Tags über ist der Eingang offen. In der Nacht über den Garteneingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14137670201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3381458,
+      47.0805251
     ]
   }
 }
