@@ -6573,14 +6573,15 @@
   "type": "Feature",
   "id": "node/8080270385",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "GC EG",
-    "description": "Zugang während Öffnungszeiten über Haupteingang (Im Langacher 44) Alarmgesichert - Aufgebot Betriebssanität erfolgt automatisch",
+    "access": "yes",
+    "defibrillator:location": "GC EG Aussentreppe",
+    "description": "Defikasten",
+    "email": "severin.debrunner@mt.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "opening_hours": "24/7",
     "operator": "Betriebssanität Mettler Toledo",
     "phone": "+41 44 944 21 44",
     "id": "node/8080270385"
@@ -6588,8 +6589,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6851536,
-      47.3659561
+      8.6852402,
+      47.3659227
     ]
   }
 },
@@ -81088,6 +81089,56 @@
     "coordinates": [
       8.6073352,
       47.2160948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136399901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus 2.OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "zwz@zwz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Th 07:00-12:00, 13:00-16:30, Fr 07:00-12:00, 13:00-16:00",
+    "operator": "ZWZ AG",
+    "phone": "+41 44 525 80 80",
+    "id": "node/14136399901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4542189,
+      47.4469997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136402401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "EG, Produktion",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "zwz@zwz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:00-12:00, 13:00-16:30, Fr 07:00-12:00, 13:00-16:00",
+    "operator": "ZWZ AG",
+    "phone": "+41 44 525 80 80",
+    "id": "node/14136402401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4541087,
+      47.4472083
     ]
   }
 }

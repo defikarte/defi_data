@@ -40304,30 +40304,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8080270385",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "GC EG",
-    "description": "Zugang während Öffnungszeiten über Haupteingang (Im Langacher 44) Alarmgesichert - Aufgebot Betriebssanität erfolgt automatisch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
-    "operator": "Betriebssanität Mettler Toledo",
-    "phone": "+41 44 944 21 44",
-    "id": "node/8080270385"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6851536,
-      47.3659561
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8080270386",
   "properties": {
     "access": "private",
@@ -152262,6 +152238,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/11656002069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZH Müllheim rechts neben Haupteingang",
+    "email": "t.buehrer@ps-muellheim.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/11656002069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0022644,
+      47.6036613
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11657485095",
   "properties": {
     "access": "yes",
@@ -218904,6 +218901,78 @@
     "coordinates": [
       7.6028334,
       47.4997262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136399901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus 2.OG",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "zwz@zwz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Th 07:00-12:00, 13:00-16:30, Fr 07:00-12:00, 13:00-16:00",
+    "operator": "ZWZ AG",
+    "phone": "+41 44 525 80 80",
+    "id": "node/14136399901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4542189,
+      47.4469997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136402401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "EG, Produktion",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "zwz@zwz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:00-12:00, 13:00-16:30, Fr 07:00-12:00, 13:00-16:00",
+    "operator": "ZWZ AG",
+    "phone": "+41 44 525 80 80",
+    "id": "node/14136402401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4541087,
+      47.4472083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136674201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZH Müllheim neben Haupteingang",
+    "email": "t.buehrer@ps-muellheim.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Primarschule",
+    "id": "node/14136674201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0022487,
+      47.6036617
     ]
   }
 }

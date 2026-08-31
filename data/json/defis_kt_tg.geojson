@@ -12873,19 +12873,19 @@
   "id": "node/11656002069",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Eingangstüre link",
+    "defibrillator:location": "MZH Müllheim rechts neben Haupteingang",
+    "email": "t.buehrer@ps-muellheim.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Primarsche Müllheim",
+    "level": "0",
     "id": "node/11656002069"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.002605,
-      47.6034189
+      9.0022644,
+      47.6036613
     ]
   }
 },
@@ -16295,6 +16295,28 @@
     "coordinates": [
       9.1654908,
       47.6096189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14136674201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZH Müllheim neben Haupteingang",
+    "email": "t.buehrer@ps-muellheim.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Primarschule",
+    "id": "node/14136674201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0022487,
+      47.6036617
     ]
   }
 }

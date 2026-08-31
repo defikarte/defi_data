@@ -32960,6 +32960,31 @@
       46.880715
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14136696001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Velounterstand vor dem Zentrum",
+    "description": "Jederzeit verfügbar",
+    "email": "sekretariat.sursee@reflu.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Reformierte Kirchgemeinde Sursee",
+    "phone": "+41 41 921 11 19",
+    "id": "node/14136696001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1790817,
+      47.2107943
+    ]
+  }
 }
 ]
 }
