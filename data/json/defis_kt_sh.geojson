@@ -4073,6 +4073,27 @@
       47.6561877
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14138174301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "FC Thayngen Umkleidehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "FC Thayngen in",
+    "id": "node/14138174301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.707749,
+      47.742672
+    ]
+  }
 }
 ]
 }
