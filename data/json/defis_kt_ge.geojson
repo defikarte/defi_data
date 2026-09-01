@@ -2703,6 +2703,28 @@
       46.1891264
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14140716401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennis Bois des Frères",
+    "description": "public devant l’immeuble",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Vernier",
+    "id": "node/14140716401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1044227,
+      46.2101078
+    ]
+  }
 }
 ]
 }
