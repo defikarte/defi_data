@@ -5645,16 +5645,24 @@
   "type": "Feature",
   "id": "node/5077324003",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Sporthalle",
+    "description": "Immer verfügbar",
+    "email": "feuerwehr@rueti.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
     "id": "node/5077324003"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8446659,
-      47.2609278
+      8.844666,
+      47.260928
     ]
   }
 },
@@ -218535,7 +218543,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Schweizerische Eidgenossenschaft / GS-VBS",
-    "opening_hours": "Mo-Fr 08:30-11:00, 14:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310459"
@@ -265705,13 +265713,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "PS Müllheim",
     "id": "node/11656002069"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0011966,
-      47.6039645
+      9.0014981,
+      47.6039678
     ]
   }
 },
@@ -313808,12 +313818,16 @@
   "type": "Feature",
   "id": "node/12579002301",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "Schulhaus Alpenblick",
-    "description": "während Schulbetrieb verfügbar",
+    "description": "Immer verfügba",
+    "email": "feuerwehr@rueti.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
     "id": "node/12579002301"
   },
   "geometry": {
@@ -380398,28 +380412,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14136674201",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "MZH Müllheim neben Haupteingang",
-    "email": "t.buehrer@ps-muellheim.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Primarschule",
-    "id": "node/14136674201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0022487,
-      47.6036617
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14136696001",
   "properties": {
     "access": "yes",
@@ -380546,6 +380538,164 @@
     "coordinates": [
       8.707749,
       47.742672
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14138992101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus BZGS",
+    "email": "thomas.knoepfel@bzgs.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "07:00-17:30",
+    "operator": "BZG",
+    "phone": "+41 58 229 88 36",
+    "id": "node/14138992101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5908564,
+      47.4638089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139127801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eidg. Forschungsanstalt WSL, links neben eingang",
+    "email": "martin.moritzi@wsl.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Eidg. Forschungsanstalt WSL",
+    "phone": "+41 44 739 22 26",
+    "id": "node/14139127801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4549512,
+      47.3603145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139159201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirchgemeindeverwaltung",
+    "description": "während den Öffnungszeiten (Eingang - Kopierraum)",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14139159201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6357636,
+      46.7816127
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139522002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Haupteingang",
+    "description": "24h",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
+    "id": "node/14139522002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8516647,
+      47.2562941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139574302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Kirchgemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kirchgemeinde Hasle b.B.",
+    "id": "node/14139574302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6472457,
+      47.0165055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139577123",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafostation Schäflibach-/Industriestrasse",
+    "emergency": "defibrillator",
+    "operator": "Gemeinde Reichenburg",
+    "id": "node/14139577123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9900836,
+      47.1684608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139588101",
+  "properties": {
+    "defibrillator:location": "Trafostation Schäflibach-/Industriestrasse",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Reichenburg",
+    "phone": "+41 55 464 30 60",
+    "id": "node/14139588101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9900772,
+      47.1684385
     ]
   }
 }

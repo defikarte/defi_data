@@ -3165,23 +3165,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5077324003",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/5077324003"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8446659,
-      47.2609278
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5103296769",
   "properties": {
     "defibrillator:location": "Bei der Metalli Apotheke",
@@ -124318,7 +124301,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Schweizerische Eidgenossenschaft / GS-VBS",
-    "opening_hours": "Mo-Fr 08:30-11:00, 14:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310459"
@@ -152236,27 +152219,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11656002069",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "MZH Müllheim rechts neben Haupteingang",
-    "email": "t.buehrer@ps-muellheim.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "id": "node/11656002069"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0011966,
-      47.6039645
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11657485095",
   "properties": {
     "access": "yes",
@@ -179692,26 +179654,6 @@
     "coordinates": [
       8.2927412,
       47.4495346
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12579002301",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Schulhaus Alpenblick",
-    "description": "während Schulbetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/12579002301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8446164,
-      47.2559811
     ]
   }
 },
@@ -218954,28 +218896,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14136674201",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "MZH Müllheim neben Haupteingang",
-    "email": "t.buehrer@ps-muellheim.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Primarschule",
-    "id": "node/14136674201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.0022487,
-      47.6036617
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14137214601",
   "properties": {
     "access": "permissive",
@@ -218995,6 +218915,72 @@
     "coordinates": [
       8.623934,
       47.448393
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14138992101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus BZGS",
+    "email": "thomas.knoepfel@bzgs.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "07:00-17:30",
+    "operator": "BZG",
+    "phone": "+41 58 229 88 36",
+    "id": "node/14138992101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5908564,
+      47.4638089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139159201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirchgemeindeverwaltung",
+    "description": "während den Öffnungszeiten (Eingang - Kopierraum)",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14139159201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6357636,
+      46.7816127
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139577123",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafostation Schäflibach-/Industriestrasse",
+    "emergency": "defibrillator",
+    "operator": "Gemeinde Reichenburg",
+    "id": "node/14139577123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9900836,
+      47.1684608
     ]
   }
 }

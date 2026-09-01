@@ -2481,6 +2481,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/5077324003",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Sporthalle",
+    "description": "Immer verfügbar",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
+    "id": "node/5077324003"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.844666,
+      47.260928
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/5111112085",
   "properties": {
     "access": "yes",
@@ -113463,6 +113488,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/11656002069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZH Müllheim rechts neben Haupteingang",
+    "email": "t.buehrer@ps-muellheim.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "PS Müllheim",
+    "id": "node/11656002069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0014981,
+      47.6039678
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11656221469",
   "properties": {
     "access": "yes",
@@ -134107,6 +134155,30 @@
     "coordinates": [
       6.7828328,
       46.5014606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12579002301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Alpenblick",
+    "description": "Immer verfügba",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
+    "id": "node/12579002301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8446164,
+      47.2559811
     ]
   }
 },
@@ -161549,6 +161621,98 @@
     "coordinates": [
       8.707749,
       47.742672
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139127801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eidg. Forschungsanstalt WSL, links neben eingang",
+    "email": "martin.moritzi@wsl.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Eidg. Forschungsanstalt WSL",
+    "phone": "+41 44 739 22 26",
+    "id": "node/14139127801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4549512,
+      47.3603145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139522002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Haupteingang",
+    "description": "24h",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
+    "id": "node/14139522002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8516647,
+      47.2562941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139574302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Kirchgemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kirchgemeinde Hasle b.B.",
+    "id": "node/14139574302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6472457,
+      47.0165055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139588101",
+  "properties": {
+    "defibrillator:location": "Trafostation Schäflibach-/Industriestrasse",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Reichenburg",
+    "phone": "+41 55 464 30 60",
+    "id": "node/14139588101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9900772,
+      47.1684385
     ]
   }
 }

@@ -44866,7 +44866,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Schweizerische Eidgenossenschaft / GS-VBS",
-    "opening_hours": "Mo-Fr 08:30-11:00, 14:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310459"
@@ -65641,6 +65641,51 @@
     "coordinates": [
       7.7919407,
       47.2117157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139159201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirchgemeindeverwaltung",
+    "description": "während den Öffnungszeiten (Eingang - Kopierraum)",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14139159201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6357636,
+      46.7816127
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139574302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Kirchgemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kirchgemeinde Hasle b.B.",
+    "id": "node/14139574302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6472457,
+      47.0165055
     ]
   }
 }

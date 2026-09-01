@@ -38817,6 +38817,30 @@
       47.4104574
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14138992101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus BZGS",
+    "email": "thomas.knoepfel@bzgs.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "07:00-17:30",
+    "operator": "BZG",
+    "phone": "+41 58 229 88 36",
+    "id": "node/14138992101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5908564,
+      47.4638089
+    ]
+  }
 }
 ]
 }

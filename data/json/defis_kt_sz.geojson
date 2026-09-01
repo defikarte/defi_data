@@ -8929,6 +8929,47 @@
       47.1910618
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14139577123",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafostation Schäflibach-/Industriestrasse",
+    "emergency": "defibrillator",
+    "operator": "Gemeinde Reichenburg",
+    "id": "node/14139577123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9900836,
+      47.1684608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14139588101",
+  "properties": {
+    "defibrillator:location": "Trafostation Schäflibach-/Industriestrasse",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Reichenburg",
+    "phone": "+41 55 464 30 60",
+    "id": "node/14139588101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9900772,
+      47.1684385
+    ]
+  }
 }
 ]
 }
