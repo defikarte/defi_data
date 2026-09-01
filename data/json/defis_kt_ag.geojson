@@ -23937,6 +23937,7 @@
     "access": "yes",
     "defibrillator:location": "Fassade Mehrzweckgebäude, Schulanlage Oberlunkhofen",
     "description": "Bei Eingang Tagesstrukturen (bei Unterstand)",
+    "email": "gemeindekanzlei@oberlunkhofen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -31613,6 +31614,30 @@
     "coordinates": [
       8.3056191,
       47.4746448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14140488804",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fassade neben Garagentor bei Garage Hagenbuch (Gebäude Griesacher 2)",
+    "email": "gemeindekanzlei@oberlunkhofen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 56 649 99 80",
+    "id": "node/14140488804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3964293,
+      47.312351
     ]
   }
 }

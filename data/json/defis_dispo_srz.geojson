@@ -104294,6 +104294,35 @@
       47.1684385
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14140091512",
+  "properties": {
+    "addr:city": "Winterthur",
+    "addr:housenumber": "285",
+    "addr:postcode": "8404",
+    "addr:street": "Wülflingerstrasse",
+    "defibrillator:location": "BWT Bau Vis à vis Werkstatt",
+    "description": "grüner kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "BWT Bau",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1685LTS",
+    "id": "node/14140091512"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6887228,
+      47.5110964
+    ]
+  }
 }
 ]
 }

@@ -158706,6 +158706,7 @@
     "access": "yes",
     "defibrillator:location": "Fassade Mehrzweckgebäude, Schulanlage Oberlunkhofen",
     "description": "Bei Eingang Tagesstrukturen (bei Unterstand)",
+    "email": "gemeindekanzlei@oberlunkhofen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
