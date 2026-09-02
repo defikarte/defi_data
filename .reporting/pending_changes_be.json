@@ -21,5 +21,20 @@
       "indoor: 'yes' → 'no'"
     ],
     "detected_at": "2026-09-02T10:42:52.865031+00:00"
+  },
+  {
+    "key": "node/6564797308",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 8.1973703,
+    "lat": 46.7469697,
+    "changes": [
+      "access: 'permissive' → 'None'",
+      "defibrillator:location: 'Nach der Reception rechts.' → 'Nach der Reception rechts'",
+      "addr:housenumber: '372' → 'None'",
+      "addr:postcode: '6084' → 'None'",
+      "addr:city: 'Hasliberg Wasserwendi' → 'None'"
+    ],
+    "detected_at": "2026-09-02T18:34:16.822556+00:00"
   }
 ]
