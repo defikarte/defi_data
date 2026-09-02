@@ -2,7 +2,7 @@
   "kantone": [
     {
       "id": "zh",
-      "name": "Zürich",
+      "name": "Kanton Zürich",
       "geojson_file": "defis_kt_zh.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_ZH",
       "use_cc": false,
@@ -10,7 +10,7 @@
     },
     {
       "id": "bl",
-      "name": "Basel",
+      "name": "Dispo Basel",
       "geojson_file": "defis_dispo_basel.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_BL",
       "use_cc": true,
@@ -34,7 +34,7 @@
     },
     {
       "id": "so",
-      "name": "Solothurn",
+      "name": "Kanton Solothurn",
       "geojson_file": "defis_kt_so.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_SO",
       "use_cc": true,
@@ -42,7 +42,7 @@
     },
     {
       "id": "be",
-      "name": "Bern",
+      "name": "Kanton Bern",
       "geojson_file": "defis_kt_be.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_BE",
       "use_cc": true,
@@ -50,7 +50,7 @@
     },
     {
       "id": "gr",
-      "name": "Graubünden",
+      "name": "Kanton Graubünden",
       "geojson_file": "defis_kt_gr.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_GR",
       "use_cc": true,
@@ -58,7 +58,7 @@
     },
     {
       "id": "gl",
-      "name": "Glarus",
+      "name": "Kanton Glarus",
       "geojson_file": "defis_kt_gl.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_GL",
       "use_cc": true,
@@ -66,7 +66,7 @@
     },
     {
       "id": "ai",
-      "name": "Appenzell Innerrhoden",
+      "name": "Kanton Appenzell Innerrhoden",
       "geojson_file": "defis_kt_ai.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_AI",
       "use_cc": true,
@@ -74,7 +74,7 @@
     },
     {
       "id": "ti",
-      "name": "Tessin",
+      "name": "Kanton Tessin",
       "geojson_file": "defis_kt_ti.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_TI",
       "use_cc": true,
@@ -82,7 +82,7 @@
     },
     {
       "id": "vs",
-      "name": "Wallis",
+      "name": "Kanton Wallis",
       "geojson_file": "defis_kt_vs.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_VS",
       "use_cc": true,
@@ -90,7 +90,7 @@
     },
     {
       "id": "ju",
-      "name": "Jura",
+      "name": "Kanton Jura",
       "geojson_file": "defis_kt_ju.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_JU",
       "use_cc": true,
