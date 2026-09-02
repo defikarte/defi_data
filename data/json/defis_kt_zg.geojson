@@ -6545,27 +6545,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11034673556",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei der Zürich Versicherung",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Zürich Versicherungs-Gesellschaft",
-    "id": "node/11034673556"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5240079,
-      47.1826185
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11037266774",
   "properties": {
     "access": "yes",

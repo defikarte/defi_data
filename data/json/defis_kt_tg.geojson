@@ -16279,6 +16279,30 @@
       47.6096189
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14141574701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich Schulgebäude",
+    "description": "Während Schulbetrieb zugänglich",
+    "email": "sekretariat@schule-aachtal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schule Aachtal",
+    "phone": "+41 71 772 04 00",
+    "id": "node/14141574701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2166413,
+      47.5501751
+    ]
+  }
 }
 ]
 }

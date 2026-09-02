@@ -135598,27 +135598,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11034673556",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei der Zürich Versicherung",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Zürich Versicherungs-Gesellschaft",
-    "id": "node/11034673556"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5240079,
-      47.1826185
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11034673557",
   "properties": {
     "access": "yes",
@@ -218997,6 +218976,30 @@
     "coordinates": [
       8.7358437,
       46.1327691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14141574701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich Schulgebäude",
+    "description": "Während Schulbetrieb zugänglich",
+    "email": "sekretariat@schule-aachtal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schule Aachtal",
+    "phone": "+41 71 772 04 00",
+    "id": "node/14141574701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2166413,
+      47.5501751
     ]
   }
 }

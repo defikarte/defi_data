@@ -24494,6 +24494,51 @@
       47.0805251
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14141495101",
+  "properties": {
+    "defibrillator:location": "Fussballplatz Schanz links vom Eingang zum WC",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fussballclub Gunzwil",
+    "id": "node/14141495101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1842866,
+      47.2098722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14141636001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppen neben Schwimmbad nr 12 im UG (vor Tunnel zum nr 2)",
+    "description": "Gartenweg zwischen Schödrütihlade 2 und 12, Treppe oder Auszug bei nr 2, UG und dann Weg/tunnel zum nr 12 (verbindet)",
+    "email": "cla.croce@libero.it",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Private STWEG Schädrütihalde 2-4-12",
+    "id": "node/14141636001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3472717,
+      47.0576938
+    ]
+  }
 }
 ]
 }

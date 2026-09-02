@@ -122340,10 +122340,11 @@
   "id": "node/9081342763",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Links neben Haupteingang der Zivilschutzanlage",
+    "defibrillator:location": "Eingang Mehrzweckgebäude Muttli, Seite Sportplatz",
+    "email": "info@muentschemier.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Müntschemier",
     "phone": "+41 32 313 17 72",
@@ -122352,8 +122353,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1469464,
-      47.0003322
+      7.1459728,
+      47.0011837
     ]
   }
 },
@@ -236011,27 +236012,6 @@
     "coordinates": [
       7.4181326,
       46.9343462
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11034673556",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bei der Zürich Versicherung",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Zürich Versicherungs-Gesellschaft",
-    "id": "node/11034673556"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5240079,
-      47.1826185
     ]
   }
 },
@@ -380787,6 +380767,98 @@
     "coordinates": [
       6.1044227,
       46.2101078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14141427001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Gemeindeverwaltung",
+    "email": "info@muentschemier.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Müntschemier",
+    "phone": "+41 32 313 17 72",
+    "id": "node/14141427001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1409865,
+      46.9939293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14141495101",
+  "properties": {
+    "defibrillator:location": "Fussballplatz Schanz links vom Eingang zum WC",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fussballclub Gunzwil",
+    "id": "node/14141495101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1842866,
+      47.2098722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14141574701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich Schulgebäude",
+    "description": "Während Schulbetrieb zugänglich",
+    "email": "sekretariat@schule-aachtal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Schule Aachtal",
+    "phone": "+41 71 772 04 00",
+    "id": "node/14141574701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2166413,
+      47.5501751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14141636001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppen neben Schwimmbad nr 12 im UG (vor Tunnel zum nr 2)",
+    "description": "Gartenweg zwischen Schödrütihlade 2 und 12, Treppe oder Auszug bei nr 2, UG und dann Weg/tunnel zum nr 12 (verbindet)",
+    "email": "cla.croce@libero.it",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Private STWEG Schädrütihalde 2-4-12",
+    "id": "node/14141636001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3472717,
+      47.0576938
     ]
   }
 }

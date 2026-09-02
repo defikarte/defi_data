@@ -33956,10 +33956,11 @@
   "id": "node/9081342763",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Links neben Haupteingang der Zivilschutzanlage",
+    "defibrillator:location": "Eingang Mehrzweckgebäude Muttli, Seite Sportplatz",
+    "email": "info@muentschemier.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Müntschemier",
     "phone": "+41 32 313 17 72",
@@ -33968,8 +33969,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1469464,
-      47.0003322
+      7.1459728,
+      47.0011837
     ]
   }
 },
@@ -65686,6 +65687,29 @@
     "coordinates": [
       7.6472457,
       47.0165055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14141427001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Gemeindeverwaltung",
+    "email": "info@muentschemier.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Müntschemier",
+    "phone": "+41 32 313 17 72",
+    "id": "node/14141427001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1409865,
+      46.9939293
     ]
   }
 }
