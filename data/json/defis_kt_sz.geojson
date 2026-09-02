@@ -4185,6 +4185,7 @@
   "id": "node/9716243917",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-02",
     "defibrillator:location": "Fussballplatz, beim Kassahaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -8968,6 +8969,28 @@
     "coordinates": [
       8.9900772,
       47.1684385
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142188001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links an der Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "FW Gemeinde Lauerz",
+    "id": "node/14142188001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.586613,
+      47.030754
     ]
   }
 }

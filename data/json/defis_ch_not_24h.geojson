@@ -34495,26 +34495,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7773292420",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "in der Schiedsrichterkabine",
-    "description": "Zugang haben nur Trainer und Funktionäre des FC Rüti",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "operator": "FC Rüti",
-    "id": "node/7773292420"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8415077,
-      47.2523562
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7777533523",
   "properties": {
     "access": "yes",
@@ -203710,29 +203690,6 @@
     "coordinates": [
       8.8501656,
       47.252215
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13575299501",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Turnhalle Lindenberg, Musikanlageraum",
-    "description": "während Schulbetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "-1",
-    "opening_hours": "08:05 - 11:50, 13:30 - 16:30",
-    "operator": "Schule Rüti ZH",
-    "id": "node/13575299501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8508817,
-      47.2518072
     ]
   }
 },

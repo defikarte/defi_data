@@ -3325,26 +3325,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4171946434",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Strähl Käse AG",
-    "wheelchair": "yes",
-    "id": "node/4171946434"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1678029,
-      47.6111736
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4171975608",
   "properties": {
     "access": "yes",
@@ -67052,19 +67032,23 @@
   "type": "Feature",
   "id": "node/7773292420",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "in der Schiedsrichterkabine",
-    "description": "Zugang haben nur Trainer und Funktionäre des FC Rüti",
+    "access": "yes",
+    "defibrillator:location": "Am Garderobengebäude Strassenseitig",
+    "description": "Immer zugänglich",
+    "email": "feuerwehr@rueti.ch",
     "emergency": "defibrillator",
-    "indoor": "yes",
-    "operator": "FC Rüti",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
     "id": "node/7773292420"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8415077,
-      47.2523562
+      8.8408803,
+      47.2526372
     ]
   }
 },
@@ -157798,6 +157782,7 @@
   "id": "node/9716243917",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-02",
     "defibrillator:location": "Fussballplatz, beim Kassahaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -354274,22 +354259,23 @@
   "type": "Feature",
   "id": "node/13575299501",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Turnhalle Lindenberg, Musikanlageraum",
-    "description": "während Schulbetrieb verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Lindenberg Haupteingang",
+    "description": "immer zugänglich",
+    "email": "feuerwehr@rueti.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "-1",
-    "opening_hours": "08:05 - 11:50, 13:30 - 16:30",
-    "operator": "Schule Rüti ZH",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 252 33 60",
     "id": "node/13575299501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.8508817,
-      47.2518072
+      47.2518073
     ]
   }
 },
@@ -380859,6 +380845,28 @@
     "coordinates": [
       8.3472717,
       47.0576938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142188001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links an der Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "FW Gemeinde Lauerz",
+    "id": "node/14142188001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.586613,
+      47.030754
     ]
   }
 }

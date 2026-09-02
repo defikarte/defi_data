@@ -1698,26 +1698,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4171946434",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Strähl Käse AG",
-    "wheelchair": "yes",
-    "id": "node/4171946434"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1678029,
-      47.6111736
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4171975608",
   "properties": {
     "access": "yes",
@@ -32553,6 +32533,30 @@
     "coordinates": [
       7.8639573,
       46.680547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7773292420",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Garderobengebäude Strassenseitig",
+    "description": "Immer zugänglich",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
+    "id": "node/7773292420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8408803,
+      47.2526372
     ]
   }
 },
@@ -75202,6 +75206,7 @@
   "id": "node/9716243917",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-02",
     "defibrillator:location": "Fussballplatz, beim Kassahaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -150560,6 +150565,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/13575299501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turnhalle Lindenberg Haupteingang",
+    "description": "immer zugänglich",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 252 33 60",
+    "id": "node/13575299501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8508817,
+      47.2518073
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13576305901",
   "properties": {
     "access": "yes",
@@ -161857,6 +161886,28 @@
     "coordinates": [
       8.3472717,
       47.0576938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142188001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links an der Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "FW Gemeinde Lauerz",
+    "id": "node/14142188001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.586613,
+      47.030754
     ]
   }
 }

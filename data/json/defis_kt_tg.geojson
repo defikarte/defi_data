@@ -143,26 +143,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4171946434",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Strähl Käse AG",
-    "wheelchair": "yes",
-    "id": "node/4171946434"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1678029,
-      47.6111736
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5198792009",
   "properties": {
     "access": "yes",
