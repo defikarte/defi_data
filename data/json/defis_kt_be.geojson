@@ -5285,12 +5285,7 @@
   "type": "Feature",
   "id": "node/6564797308",
   "properties": {
-    "access": "permissive",
-    "addr:city": "Hasliberg Wasserwendi",
-    "addr:housenumber": "372",
-    "addr:place": "Schäri",
-    "addr:postcode": "6084",
-    "defibrillator:location": "Nach der Reception rechts.",
+    "defibrillator:location": "Nach der Reception rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -5302,8 +5297,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1973611,
-      46.746962
+      8.1973703,
+      46.7469697
     ]
   }
 },
@@ -28302,26 +28297,6 @@
     "coordinates": [
       7.7274624,
       47.1736874
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818939",
-  "properties": {
-    "defibrillator:location": "bei der Reception ",
-    "description": "bei Rezeption",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "REKA Feriendorf",
-    "id": "node/7637818939"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.197252,
-      46.7469485
     ]
   }
 },

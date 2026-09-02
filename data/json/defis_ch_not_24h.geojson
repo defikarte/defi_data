@@ -29099,26 +29099,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818939",
-  "properties": {
-    "defibrillator:location": "bei der Reception ",
-    "description": "bei Rezeption",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "REKA Feriendorf",
-    "id": "node/7637818939"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.197252,
-      46.7469485
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818943",
   "properties": {
     "defibrillator:location": "Bei der Elektroladestation vor dem BÃ¼rogebÃ¤ude",
@@ -152725,13 +152705,14 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/11684223328"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.887492,
-      46.9860778
+      6.8876466,
+      46.9855759
     ]
   }
 },
@@ -203608,28 +203589,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13572836904",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "TH Schanz, Sekundarschule Rüti ZH",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "operator": "Schule Rüti ZH",
-    "phone": "+41 79 781 26 21",
-    "id": "node/13572836904"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8460346,
-      47.2604243
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13574030706",
   "properties": {
     "access": "private",
@@ -203644,29 +203603,6 @@
     "coordinates": [
       8.6478077,
       47.4048834
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13575285701",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Sporthalle Widacher, an der Kasse Hallenbad",
-    "description": "während Schulbetrieb verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "08:05 - 11:50, 13:30 - 16:30",
-    "operator": "Schule Rüti ZH",
-    "id": "node/13575285701"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8499751,
-      47.2522605
     ]
   }
 },
@@ -218957,6 +218893,56 @@
     "coordinates": [
       9.2166413,
       47.5501751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142568701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Five moods, SV Restaurant",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr \"08:30-13:30, 11:15-13:45\"",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14142568701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5150238,
+      47.177482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142577501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang Siemens Smart Infrastructure AG",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14142577501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5139072,
+      47.1795017
     ]
   }
 }

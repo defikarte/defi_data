@@ -2712,6 +2712,56 @@
       47.1786007
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14142568701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Five moods, SV Restaurant",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr \"08:30-13:30, 11:15-13:45\"",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14142568701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5150238,
+      47.177482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142577501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang Siemens Smart Infrastructure AG",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14142577501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5139072,
+      47.1795017
+    ]
+  }
 }
 ]
 }

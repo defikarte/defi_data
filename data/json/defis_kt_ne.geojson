@@ -1402,13 +1402,14 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/11684223328"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.887492,
-      46.9860778
+      6.8876466,
+      46.9855759
     ]
   }
 },

@@ -5906,12 +5906,7 @@
   "type": "Feature",
   "id": "node/6564797308",
   "properties": {
-    "access": "permissive",
-    "addr:city": "Hasliberg Wasserwendi",
-    "addr:housenumber": "372",
-    "addr:place": "Schäri",
-    "addr:postcode": "6084",
-    "defibrillator:location": "Nach der Reception rechts.",
+    "defibrillator:location": "Nach der Reception rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -5923,8 +5918,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1973611,
-      46.746962
+      8.1973703,
+      46.7469697
     ]
   }
 },
@@ -150565,6 +150560,55 @@
 },
 {
   "type": "Feature",
+  "id": "node/13572836904",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sekundarschule Rüti Zentrum",
+    "description": "Immer verfügbar",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
+    "id": "node/13572836904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8448127,
+      47.2600168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13575285701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sporthalle Widacher",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
+    "id": "node/13575285701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8497549,
+      47.2521343
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13575299501",
   "properties": {
     "access": "yes",
@@ -161908,6 +161952,29 @@
     "coordinates": [
       8.586613,
       47.030754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142569201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor Haupteingang Badi Talegg bei Verkehrsschild Brücke",
+    "email": "infrastruktur@embrach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Embrach",
+    "phone": "+41 44 554 48 88",
+    "id": "node/14142569201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5987821,
+      47.5100776
     ]
   }
 }

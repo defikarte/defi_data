@@ -97472,21 +97472,24 @@
   "type": "Feature",
   "id": "node/13572836904",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "TH Schanz, Sekundarschule Rüti ZH",
+    "access": "yes",
+    "defibrillator:location": "Sekundarschule Rüti Zentrum",
+    "description": "Immer verfügbar",
+    "email": "feuerwehr@rueti.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "operator": "Schule Rüti ZH",
-    "phone": "+41 79 781 26 21",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
     "id": "node/13572836904"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8460346,
-      47.2604243
+      8.8448127,
+      47.2600168
     ]
   }
 },
@@ -97513,22 +97516,23 @@
   "type": "Feature",
   "id": "node/13575285701",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Sporthalle Widacher, an der Kasse Hallenbad",
-    "description": "während Schulbetrieb verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Sporthalle Widacher",
+    "email": "feuerwehr@rueti.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "08:05 - 11:50, 13:30 - 16:30",
-    "operator": "Schule Rüti ZH",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
     "id": "node/13575285701"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8499751,
-      47.2522605
+      8.8497549,
+      47.2521343
     ]
   }
 },
@@ -104328,6 +104332,79 @@
     "coordinates": [
       8.586613,
       47.030754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142568701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Five moods, SV Restaurant",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr \"08:30-13:30, 11:15-13:45\"",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14142568701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5150238,
+      47.177482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142569201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor Haupteingang Badi Talegg bei Verkehrsschild Brücke",
+    "email": "infrastruktur@embrach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Embrach",
+    "phone": "+41 44 554 48 88",
+    "id": "node/14142569201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5987821,
+      47.5100776
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142577501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang Siemens Smart Infrastructure AG",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14142577501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5139072,
+      47.1795017
     ]
   }
 }
