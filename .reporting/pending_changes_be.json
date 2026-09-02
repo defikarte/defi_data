@@ -36,5 +36,28 @@
       "addr:city: 'Hasliberg Wasserwendi' → 'None'"
     ],
     "detected_at": "2026-09-02T18:34:16.822556+00:00"
+  },
+  {
+    "key": "node/13641206301",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.4841342,
+    "lat": 46.973437,
+    "changes": [
+      "defibrillator:location: 'RBS Station Ittigen' → 'Auf dem Perron 1 an der zweiten Säule von Osten/Bolligen'",
+      "description: 'Gleis 1, Richtung Bern' → 'None'"
+    ],
+    "detected_at": "2026-09-02T21:40:33.083017+00:00"
+  },
+  {
+    "key": "node/6681669085",
+    "name": "(ohne Name)",
+    "address": "Gumweg 50, 3612 Steffisburg",
+    "lon": 7.6419417,
+    "lat": 46.7808114,
+    "changes": [
+      "defibrillator:location: 'Freibad Steffisburg' → 'Aussen beim Eingang Freibad'"
+    ],
+    "detected_at": "2026-09-02T21:40:33.085097+00:00"
   }
 ]
