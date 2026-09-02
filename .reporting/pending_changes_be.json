@@ -9,5 +9,17 @@
       "opening_hours: 'Mo-Fr 08:30-11:00, 14:00-16:30' → 'Mo-Fr 08:00-17:00'"
     ],
     "detected_at": "2026-09-01T13:09:39.072329+00:00"
+  },
+  {
+    "key": "node/9081342763",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.1459728,
+    "lat": 47.0011837,
+    "changes": [
+      "defibrillator:location: 'Links neben Haupteingang der Zivilschutzanlage' → 'Eingang Mehrzweckgebäude Muttli, Seite Sportplatz'",
+      "indoor: 'yes' → 'no'"
+    ],
+    "detected_at": "2026-09-02T10:42:52.865031+00:00"
   }
 ]
