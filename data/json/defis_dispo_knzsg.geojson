@@ -28155,7 +28155,9 @@
   "id": "node/11868375913",
   "properties": {
     "access": "private",
+    "addr:city": "Oberriet SG",
     "addr:housenumber": "199",
+    "addr:postcode": "9463",
     "addr:street": "Staatsstrasse",
     "defibrillator:location": "1.OG Office Eingang beim Drucker 1410LTM",
     "description": "Oranger Koffer",

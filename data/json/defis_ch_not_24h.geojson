@@ -159099,7 +159099,9 @@
   "id": "node/11868375913",
   "properties": {
     "access": "private",
+    "addr:city": "Oberriet SG",
     "addr:housenumber": "199",
+    "addr:postcode": "9463",
     "addr:street": "Staatsstrasse",
     "defibrillator:location": "1.OG Office Eingang beim Drucker 1410LTM",
     "description": "Oranger Koffer",
@@ -218908,7 +218910,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr \"08:30-13:30, 11:15-13:45\"",
+    "opening_hours": "Mo-Fr 08:30-13:30, 11:15-13:45",
     "operator": "Siemens Schweiz AG",
     "phone": "+41 58 724 50 83",
     "id": "node/14142568701"

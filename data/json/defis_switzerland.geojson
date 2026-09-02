@@ -28306,7 +28306,7 @@
     "addr:housenumber": "50",
     "addr:postcode": "3612",
     "addr:street": "Gumweg",
-    "defibrillator:location": "Freibad Steffisburg",
+    "defibrillator:location": "Aussen beim Eingang Freibad",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -276452,7 +276452,9 @@
   "id": "node/11868375913",
   "properties": {
     "access": "private",
+    "addr:city": "Oberriet SG",
     "addr:housenumber": "199",
+    "addr:postcode": "9463",
     "addr:street": "Staatsstrasse",
     "defibrillator:location": "1.OG Office Eingang beim Drucker 1410LTM",
     "description": "Oranger Koffer",
@@ -357609,8 +357611,8 @@
   "id": "node/13641206301",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "RBS Station Ittigen",
-    "description": "Gleis 1, Richtung Bern",
+    "covered": "yes",
+    "defibrillator:location": "Auf dem Perron 1 an der zweiten Säule von Osten/Bolligen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -357623,8 +357625,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4840381,
-      46.9734475
+      7.4841342,
+      46.973437
     ]
   }
 },
@@ -380862,7 +380864,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr \"08:30-13:30, 11:15-13:45\"",
+    "opening_hours": "Mo-Fr 08:30-13:30, 11:15-13:45",
     "operator": "Siemens Schweiz AG",
     "phone": "+41 58 724 50 83",
     "id": "node/14142568701"
