@@ -142,7 +142,7 @@ def process_immediate(kanton):
             if recipient:
                 try:
                     send_mail(
-                        subject=f"Änderungen an Defis Kanton {kanton['name']}",
+                        subject=f"Änderungen an Defis {kanton['name']}",
                         html_body=html_body,
                         to_addr=recipient,
                         cc_addr=cc,

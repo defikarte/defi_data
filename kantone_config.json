@@ -18,7 +18,7 @@
     },
     {
       "id": "zg_city",
-      "name": "die Stadt Zug",
+      "name": "Stadt Zug",
       "geojson_file": "defis_stadt_zug.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_ZG",
       "use_cc": true,
