@@ -7270,6 +7270,31 @@
       46.2567628
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14145057002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "À l’entrée au rez de chaussée en face de l’ascenseur",
+    "description": "Sonnez à n’importe quel nom pour qu’on ouvre la porte",
+    "email": "cocatrini@me.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Maison de plusieurs appartements 24/7 porte d’entrée doit être ouverte par sonnette - sonnez chez n’importe qui pour qu’on ouvre",
+    "phone": "+41 79 209 91 54",
+    "id": "node/14145057002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2347172,
+      46.1913776
+    ]
+  }
 }
 ]
 }
