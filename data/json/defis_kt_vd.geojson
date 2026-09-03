@@ -14957,6 +14957,26 @@
       46.7570858
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14144425601",
+  "properties": {
+    "defibrillator:location": "Façade du bâtiment WC. Côté voie 1",
+    "description": "Disponible 24h/24h",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/14144425601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9635682,
+      46.3170963
+    ]
+  }
 }
 ]
 }
