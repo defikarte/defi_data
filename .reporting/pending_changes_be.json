@@ -59,5 +59,19 @@
       "defibrillator:location: 'Freibad Steffisburg' → 'Aussen beim Eingang Freibad'"
     ],
     "detected_at": "2026-09-02T21:40:33.085097+00:00"
+  },
+  {
+    "key": "node/12185985536",
+    "name": "(ohne Name)",
+    "address": "Frutigenstrasse 44",
+    "lon": 7.6251858,
+    "lat": 46.7485076,
+    "changes": [
+      "access: 'yes' → 'None'",
+      "opening_hours: 'Mi-Fr 11:30-14:00, 17:30-22:00; Sa 11:30-22:00; So 09:00-22:00' → 'We-Fr 11:30-14:00,17:30-22:00; Sa 11:30-22:00; Su 09:00-22:00'",
+      "defibrillator:location: 'Eingang Buffet 1475LTM' → 'Eingang Buffet'",
+      "level: '0' → 'None'"
+    ],
+    "detected_at": "2026-09-03T12:40:10.654584+00:00"
   }
 ]
