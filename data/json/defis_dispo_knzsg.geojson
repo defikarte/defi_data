@@ -28051,7 +28051,9 @@
   "id": "node/11843686245",
   "properties": {
     "access": "customers",
+    "addr:city": "Kaltbrunn",
     "addr:housenumber": "46",
+    "addr:postcode": "8722",
     "addr:street": "Benknerstrasse",
     "defibrillator:location": "Halle bei Wendetreppe EG 1354LTM",
     "description": "Oranger Koffer",
@@ -36388,8 +36390,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4918872,
-      47.2066987
+      9.491721,
+      47.2066919
     ]
   }
 },
@@ -36412,8 +36414,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4923554,
-      47.2063333
+      9.4921363,
+      47.2062888
     ]
   }
 },
