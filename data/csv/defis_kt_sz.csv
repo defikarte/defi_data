@@ -197,7 +197,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 9655534417,node,47.0169384,8.647878,yes,,,,,,,,Ausgleichskasse Schwyz,rechts vom Haupteingang,,defibrillator,144,node/9655534417,,no,,,,24/7,Ausgleichskasse Schwyz,,+41418190425,,,
 9711532242,node,47.0619956,8.5207018,yes,,,,,,,,"Asylunterkunft Arth, an Hauswand Richtung Hauptstrasse",,,defibrillator,144,node/9711532242,,no,,,,24/7,Gemeindeverwaltung Arth,,+41 41 859 02 02,,,
 9716238617,node,47.0020384,8.6112227,yes,,,,,,,,"Reismühle Nutrex, neben Eingang",,,defibrillator,144,node/9716238617,,no,,,,24/7,Reismühle Nutrex,,,,,
-9716243917,node,46.9981834,8.5979722,yes,,,,,,,,"Fussballplatz, beim Kassahaus",,,defibrillator,144,node/9716243917,,no,,,,24/7,,,,,,
+9716243917,node,46.9981834,8.5979722,yes,,,,,2026-09-02,,,"Fussballplatz, beim Kassahaus",,,defibrillator,144,node/9716243917,,no,,,,24/7,,,,,,
 9716245517,node,46.9925779,8.6091882,yes,,,,,,,,"Grand Palais, beim Eingang",,,defibrillator,144,node/9716245517,,no,,,,24/7,,,,,,
 9731780817,node,47.0928619,8.4539574,,,,,,,,,"Bethlehemweg 12, 6405 Immensee",,,defibrillator,144,node/9731780817,,yes,,,,Mo-Su 06:45-20:15,Gymnasium Immensee,,+41418548181,,,
 9742573487,node,47.0571972,8.8015805,yes,,,,,,,,Direkt links neben dem Bancomat der Schwyzer Kantonalbank,,,defibrillator,144,node/9742573487,,no,,,,24/7,Schwyzer Kantonalbank,,+41 58 800 20 20,,,
@@ -408,3 +408,4 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14102645602,node,47.1910618,8.8511,private,,,,,,,,SWICA Agentur Lachen - Lager,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,node/14102645602,,yes,0,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,,+41 52 244 22 33,,,
 14139577123,node,47.1684608,8.9900836,yes,,,,,,,,Trafostation Schäflibach-/Industriestrasse,,,defibrillator,,node/14139577123,,,,,,,Gemeinde Reichenburg,,,,,
 14139588101,node,47.1684385,8.9900772,,,,,,,,,Trafostation Schäflibach-/Industriestrasse,öffentlich zugänglich,,defibrillator,144,node/14139588101,,no,0,,,24/7,Gemeinde Reichenburg,,+41 55 464 30 60,,,
+14142188001,node,47.030754,8.586613,yes,,,,,,,,links an der Hausfassade,,,defibrillator,144,node/14142188001,,no,0,,,24/7,FW Gemeinde Lauerz,,,,,
