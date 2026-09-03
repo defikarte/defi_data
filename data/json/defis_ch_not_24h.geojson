@@ -169229,19 +169229,15 @@
   "type": "Feature",
   "id": "node/12185985536",
   "properties": {
-    "access": "yes",
     "addr:housenumber": "44",
     "addr:street": "Frutigenstrasse",
-    "defibrillator:location": "Eingang Buffet 1475LTM",
+    "defibrillator:location": "Eingang Buffet",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mi-Fr 11:30-14:00, 17:30-22:00; Sa 11:30-22:00; So 09:00-22:00",
+    "opening_hours": "We-Fr 11:30-14:00,17:30-22:00; Sa 11:30-22:00; Su 09:00-22:00",
     "operator": "Lifetec AG",
-    "phone:CH": "0800 122 144",
-    "postal_code": "3600",
     "ref": "1475LTM",
     "id": "node/12185985536"
   },
@@ -204318,30 +204314,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13594886201",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Turnhalle Lehrer Garderobe",
-    "description": "Während Öffnungszeiten beschränkt verfügbar nur mit Schlüssel",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 08:00 - 17:00",
-    "operator": "Schule Rüti",
-    "phone": "+41 55 251 33 80",
-    "id": "node/13594886201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8545359,
-      47.2576646
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13595388901",
   "properties": {
     "access": "yes",
@@ -218945,6 +218917,76 @@
     "coordinates": [
       8.5139072,
       47.1795017
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14144032601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "direkt nach dem Haupteingang (durch Schiebetüre) im Windfang, gekennzeichnet",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@allreal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
+    "phone": "+41 44 319 11 11",
+    "id": "node/14144032601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.56134,
+      47.4247161
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14144032701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Besi Switzerland",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Firma Besi Switzerland",
+    "phone": "+41417495111",
+    "id": "node/14144032701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4792209,
+      47.1880767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14144080903",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "PostParc Hochhaus",
+    "description": "nur während der Bürozeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Firma",
+    "phone": "+41315613838",
+    "id": "node/14144080903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4381652,
+      46.9482511
     ]
   }
 }

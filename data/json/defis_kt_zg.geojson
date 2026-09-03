@@ -9994,6 +9994,28 @@
       47.1795017
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14144032701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Besi Switzerland",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Firma Besi Switzerland",
+    "phone": "+41417495111",
+    "id": "node/14144032701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4792209,
+      47.1880767
+    ]
+  }
 }
 ]
 }

@@ -151093,6 +151093,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/13594886201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Ferrach Haupteingang",
+    "email": "feuerwehr@rueti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Rüti",
+    "phone": "+41 55 251 33 60",
+    "id": "node/13594886201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8542636,
+      47.2576279
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13602964501",
   "properties": {
     "access": "yes",
@@ -161975,6 +161999,31 @@
     "coordinates": [
       8.5987821,
       47.5100776
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14143952201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nebentüre bei Büroeingang Fischer Mühle AG (AED Defibrillator Schild hängt an Türe)",
+    "description": "AED Defibrillator befindet sich bei Türöffnung rechts. Türe ist immer offen.",
+    "email": "info@muehlefischer.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Fischer Mühle AG",
+    "phone": "+41 32 338 12 22",
+    "id": "node/14143952201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1697547,
+      47.0357605
     ]
   }
 }
