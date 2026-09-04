@@ -21282,14 +21282,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "-1",
     "opening_hours": "24/7",
     "id": "node/8560010417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5240783,
-      47.3122263
+      8.5241211,
+      47.3123447
     ]
   }
 },
