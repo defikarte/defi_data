@@ -16247,7 +16247,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-12:00, 13:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00",
     "operator": "Medizinisches Zentrum Kemmental",
     "phone": "+41 71 699 18 11",
     "id": "node/14106885001"

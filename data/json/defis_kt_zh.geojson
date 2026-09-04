@@ -80741,7 +80741,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 8:00-19:00, Sa 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-17:00",
     "operator": "Apotheke",
     "phone": "+4143 399 88 66",
     "id": "node/14103068501"
@@ -81214,7 +81214,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8:00-17:30",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Praxis Dr. med. Franziska Morger",
     "phone": "+41 44 838 30 40",
     "id": "node/14137214601"

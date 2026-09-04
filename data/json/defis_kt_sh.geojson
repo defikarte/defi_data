@@ -4018,7 +4018,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Rheumaliga Bad schaff wass",
     "phone": "+41 52 643 44 47",
     "id": "node/14128832702"

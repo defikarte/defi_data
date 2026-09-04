@@ -17492,7 +17492,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 7:45 - 12:00, 13:45 - 18:00",
+    "opening_hours": "Mo-Fr 07:45-12:00,13:45-18:00",
     "phone": "+41 81 322 82 00",
     "id": "node/14121936301"
   },

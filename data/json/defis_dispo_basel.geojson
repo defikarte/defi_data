@@ -720,7 +720,7 @@
   "type": "Feature",
   "id": "node/8764057862",
   "properties": {
-    "defibrillator:location": "Befindet sich im Erdgeschoss im Bereich der Aufzüge.",
+    "defibrillator:location": "Zurzeit ausser Betrieb - 04.09.2026 - ML - Befindet sich im Erdgeschoss im Bereich der Aufzüge.",
     "description": "während Öffnungszeiten verfügbar, am Empfang melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
