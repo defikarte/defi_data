@@ -17519,6 +17519,30 @@
       46.7915534
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14148332901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Appeso all'edificio Buvette all'entrata per andare agli spogliatoi",
+    "description": "Sempre disponibile / immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "VPC-Fernando",
+    "phone": "+41786321492",
+    "id": "node/14148332901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.1275099,
+      46.2473709
+    ]
+  }
 }
 ]
 }
