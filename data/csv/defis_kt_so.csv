@@ -9,7 +9,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 6532311692,node,47.2163944,7.6119556,permissive,Deitingen,,22,4543,Grabmattstrasse,,,,,,,Im Clubhaus des FC Deitingen,,,,,defibrillator,144,,node/6532311692,yes,,,,,,unknown,Einwohnergemeinde Deitingen,,,,,,,
 6532311693,node,47.2116098,7.6213811,permissive,Deitingen,,10,4543,Schulhausstrasse,,,,,,,"In der Zweienhalle, Im Eingangsbereich",,,,,defibrillator,144,,node/6532311693,yes,,,,,,,Einwohnergemeinde Deitingen,,,+41 76 570 1579,,,,
 6532311694,node,47.212281,7.619284,yes,Deitingen,,1,4543,Wangenstrasse,,,,,,,Aussen beim Gemeindehaus,,,,,defibrillator,144,,node/6532311694,,,,,,,24/7,Einwohnergemeinde Deitingen,,yes,+41 76 570 1579,,,,
-6532327368,node,47.1708655,7.6711825,yes,Burgäschi,,26,4556,Hauptstrasse,,,,,,,"neben Restaurant, bei Eingang Srandbad",,,,,defibrillator,144,,node/6532327368,,,,,,,24/7,Strandbad Burgäshisee,,,+41 62 955 70 80,,,,
+6532327368,node,47.1708655,7.6711825,yes,Burgäschi,,26,4556,Hauptstrasse,,2026-09-03,,,,,"neben Restaurant, bei Eingang Srandbad",,,,,defibrillator,144,,node/6532327368,no,,,,,,24/7,Strandbad Burgäshisee,,,+41 62 955 70 80,,,,
 6546027575,node,47.3479338,7.9080043,yes,,,,,,,2025-03-18,,,,,Seiteneingang Fachhochschule Nordwestschweiz FHNW,,,,,defibrillator,144,,node/6546027575,yes,,0,,,,Mo-Fr 07:00-21:00; Sa 07:00-18:00,Fachhochschule Nordwestschweiz FHNW,,,+41 84 882 10 11,,,,yes
 6611866878,node,47.1573599,7.646601,yes,,,,,,,,,,,,,,,,,defibrillator,144,,node/6611866878,,,,outdoor,,,,,,,,,,,
 6629821167,node,47.2081866,7.5615515,permissive,Zuchwil,,14,4528,Industriestrasse,,,,,,,Hinter Fronttüre im Treppenhaus,,,,,defibrillator,144,,node/6629821167,,,,,,,Mo-Fr 07:30-18:00,DePuy Synthes,,,+41 32 720 7972,,,,

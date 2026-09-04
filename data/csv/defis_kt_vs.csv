@@ -226,7 +226,7 @@ Achtung: Betriebszeiten beachten (saisonal unterschiedlich!)",,defibrillator,144
 12096683209,node,46.2363479,7.2716044,yes,,,,,,,,,,,Bei dem Gemeinde Anschlagkasten,,,,defibrillator,144,,node/12096683209,no,,,,,,24/7,Commune de Conthey,,,,+41 27 345 45 45,,,,,,,,,,,,limited
 12096716232,node,45.9335311,7.0937033,customers,,,,,,,,,,,Bei Eingang bei der Rezeption,,,,defibrillator,144,,node/12096716232,,0,,,,,24/7,Camping des Glaciers SA,,,,+41 27 783 18 26,,,,,,,,,,,,no
 12096740317,node,46.1015474,7.0717502,yes,,,,,,,,,,,Bei Rolltreppe,,,,defibrillator,144,,node/12096740317,yes,0,,,,,Mo-Th 08:15-18:30; Fr 08:15-20:00; Sa 08:00-17:00,Genossenschaft Migros Wallis,,,,+41 27 720 68 80,,,,,,,,,,,,limited
-12096882742,node,46.094998,7.0747749,yes,,,,,,,,,,,Beim Eingang Barryland,,,,defibrillator,144,"check location, museum was moved!",node/12096882742,yes,0,,,,,Mo-Su 10:00-18:00,Fondation Barry du Grand-St-Bernard,,,,+41 27 722 65 42,,,,,,,,,,,,limited
+12096882742,node,46.0952621,7.0749466,yes,,,,,,,,,,,Beim Eingang Barryland,,,,defibrillator,144,"check location, museum was moved!",node/12096882742,yes,0,,,,,Mo-Su 10:00-18:00,Fondation Barry du Grand-St-Bernard,,,,+41 27 722 65 42,,,,,,,,,,,,limited
 12103389801,node,46.3886627,8.1194173,yes,,,,,,,,,,,Kirche,,Haupteingang,,defibrillator,144,,node/12103389801,yes,,,,,,24/7,Gemeinde,,,,,,,,,,,,,,,,
 12108054256,node,46.3092932,7.578021,,,,,,,,,,,,,,,,defibrillator,144,,node/12108054256,,,,,,,,,,,,,,,,,,,,,,,,
 12118429614,node,46.4069844,7.7911607,,,,,,,,,,,,,,,,defibrillator,144,,node/12118429614,no,,,,,,24/7,,,,,,,,,,,,,,,,,
@@ -357,3 +357,4 @@ Achtung: Betriebszeiten beachten (saisonal unterschiedlich!)",,defibrillator,144
 14102545201,node,46.2285468,7.3586708,private,,,,,,,,,,,SWICA Agentur Sion - Cafétéria,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102545201,yes,4,,,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,,,,+41 52 244 22 33,,,,,,,,,,,,
 14115852405,node,46.0696591,7.0713875,yes,,,,,,,,,,,Sur le mur extérieur du restaurant,,,,defibrillator,,,node/14115852405,no,,,,,,24/7,,,,,,,,,,,,,,,,,
 14128708701,node,46.2567628,7.4256605,yes,,,,,,,,,,,Entreé Lac Souterrain,,,,defibrillator,,,node/14128708701,no,,,,,,24/7,,,,,,,,,,,,,,,,,
+14145057002,node,46.1913776,7.2347172,yes,,,,,,,,,,,À l’entrée au rez de chaussée en face de l’ascenseur,,Sonnez à n’importe quel nom pour qu’on ouvre la porte,cocatrini@me.com,defibrillator,144,,node/14145057002,yes,0,,,,,24/7,Maison de plusieurs appartements 24/7 porte d’entrée doit être ouverte par sonnette - sonnez chez n’importe qui pour qu’on ouvre,,,,+41 79 209 91 54,,,,,,,,,,,,

@@ -31,7 +31,7 @@ osm_id,osm_type,lat,lon,access,check_date,covered,defibrillator:location,descrip
 7637818992,node,46.8164805,8.6466211,,,,,Pausenraum / Garderobe,,defibrillator,144,,node/7637818992,,,,,Zivilschutzausbildungszentrum,,,,,,,,
 7637819106,node,46.7687398,8.6889162,yes,,,,,,defibrillator,144,,node/7637819106,,,,,Feuerwehrlokal,,,24/7,,,,,
 7637819107,node,46.7664633,8.7113249,,,,,Veloabstand Talstation Luftseilbahn Golzern,,defibrillator,144,,node/7637819107,,,,,Golzern,,,,,,,,
-7637819120,node,46.9347598,8.5793891,yes,2023-05-21,,Im Rollstuhlgerechten WC,Kehrplatz Baumgarten,,defibrillator,144,,node/7637819120,yes,0,,,,,,24/7,Gemeinde Bauen,,,,yes
+7637819120,node,46.9347598,8.5793891,yes,2026-08-25,,Im Rollstuhlgerechten WC,Kehrplatz Baumgarten,,defibrillator,144,,node/7637819120,yes,0,,,,,,24/7,Gemeinde Bauen,,,,yes
 7637819121,node,46.9177433,8.5953028,,,,,Nordseite d. Gebäudes an d. Fassade,,defibrillator,144,,node/7637819121,,,,,Schweiz. Sprengstoff AG,,,,,,,,
 7637819128,node,46.8752372,8.6659661,yes,2025-09-05,,An der Aussenwand neben dem Haupteingang,beim Eingang,,defibrillator,144,,node/7637819128,no,,,,Sporthalle,,,24/7,,,,,
 7637819129,node,46.8623572,8.6290787,,,,,Links neben Haupteingang (alte Telefonkabine),,defibrillator,144,,node/7637819129,,,,,Gemeindeverwaltung,,,,,,,,
