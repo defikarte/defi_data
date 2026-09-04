@@ -73,5 +73,38 @@
       "level: '0' → 'None'"
     ],
     "detected_at": "2026-09-03T12:40:10.654584+00:00"
+  },
+  {
+    "key": "node/12526107557",
+    "name": "(ohne Name)",
+    "address": "Hallmattstrasse 33",
+    "lon": 7.3799092,
+    "lat": 46.9304978,
+    "changes": [
+      "opening_hours: 'Mo bis fr: 07:00-12:00 13:00-18:00 sa 09:00-13:00' → 'Mo-Fr 07:00-12:00, 13:00-18:00; sa 09:00-13:00'"
+    ],
+    "detected_at": "2026-09-04T18:09:19.804119+00:00"
+  },
+  {
+    "key": "node/13612121583",
+    "name": "CSS Versicherung",
+    "address": "Nidausgasse 8, 2500 Biel",
+    "lon": 7.245441,
+    "lat": 47.140131,
+    "changes": [
+      "opening_hours: 'Mo-Fr 08.30-12.00 13.30-17.00' → 'Mo-Fr 08:30-12:00, 13:30-17:00'"
+    ],
+    "detected_at": "2026-09-04T18:09:19.804444+00:00"
+  },
+  {
+    "key": "node/14087175062",
+    "name": "(ohne Name)",
+    "address": "Aarenstrasse 30, 3601 Thun",
+    "lon": 7.6268646,
+    "lat": 46.7573991,
+    "changes": [
+      "opening_hours: 'MO-DO 08.30-12.00 13.30-17.00 Fr Geschlossen' → 'Mo-Th 08:30-12:00, 13:30-17:00; Fr off'"
+    ],
+    "detected_at": "2026-09-04T18:09:19.804621+00:00"
   }
 ]
