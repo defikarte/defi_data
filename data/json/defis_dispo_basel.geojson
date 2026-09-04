@@ -720,7 +720,6 @@
   "type": "Feature",
   "id": "node/8764057862",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Befindet sich im Erdgeschoss im Bereich der Aufzüge.",
     "description": "während Öffnungszeiten verfügbar, am Empfang melden",
     "emergency": "defibrillator",

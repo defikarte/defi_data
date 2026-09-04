@@ -52623,7 +52623,6 @@
   "type": "Feature",
   "id": "node/8764057862",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Befindet sich im Erdgeschoss im Bereich der Aufzüge.",
     "description": "während Öffnungszeiten verfügbar, am Empfang melden",
     "emergency": "defibrillator",
@@ -219009,6 +219008,28 @@
     "coordinates": [
       6.9635682,
       46.3170963
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14148560002",
+  "properties": {
+    "defibrillator:location": "Haupteingang erste Türe Rechts, ÖKK Kundenempfang, hängt rechts an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00- 17:00",
+    "operator": "ÖKK (Firma)",
+    "id": "node/14148560002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.725309,
+      47.497506
     ]
   }
 }
