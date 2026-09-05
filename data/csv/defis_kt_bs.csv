@@ -9,7 +9,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 8173665988,node,47.5665159,7.6024398,no,,,,,,6.60,"über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",,defibrillator,144,,node/8173665988,yes,,,,,,ETH Zürich,+41 44 342 11 88,,,,,
 8590117259,node,47.5853313,7.6517484,yes,,,,,,Zwischen den Kassen und Pflanzen,,,defibrillator,144,,node/8590117259,yes,,0,,,"Mo-Fr 08:00-19:00, Sa 07:30-18:00; PH off",Genossenschaft Migros Basel,+41 58 575 83 80,,,,yes,
 8746933062,node,47.5845825,7.6514488,,,,,,,Gemeinde Riehen Aussen vor dem Eingang,,,defibrillator,144,,node/8746933062,no,,,,,24/7,,,,,,,
-8764057862,node,47.5495166,7.5805436,no,,,,,,Befindet sich im Erdgeschoss im Bereich der Aufzüge.,"während Öffnungszeiten verfügbar, am Empfang melden",,defibrillator,144,,node/8764057862,yes,,,,,,Firma Fracht AG,+41 61 287 95 55,,,,,
+8764057862,node,47.5495166,7.5805436,,,,,,,Zurzeit ausser Betrieb - 04.09.2026 - ML - Befindet sich im Erdgeschoss im Bereich der Aufzüge.,"während Öffnungszeiten verfügbar, am Empfang melden",,defibrillator,144,,node/8764057862,yes,,,,,,Firma Fracht AG,+41 61 287 95 55,,,,,
 8820880778,node,47.5477948,7.5895015,yes,,,,,2026-02-07,Neben den Haupteingang,,,defibrillator,144,,node/8820880778,yes,,0,,,24/7,,,,,,yes,
 8956974917,node,47.5413462,7.6204624,,,,,,,Shopping Center Mall UG bei Beldona Shop,Während Oeffungszeiten Verfügbar,,defibrillator,144,,node/8956974917,yes,,,,,Mo-Fr 09:00-20:00; Sa 09:00-18:00,Center SJP,,,,,,
 8962755917,node,47.5394403,7.6040429,yes,,,,,,"Migros, Dreispitz Oben bei WC",Während Oeffungszeiten Verfügbar,,defibrillator,144,,node/8962755917,yes,,,,,Mo-Fr 09:00-20:00; Sa 09:00-18:00,Migros,,,,,,

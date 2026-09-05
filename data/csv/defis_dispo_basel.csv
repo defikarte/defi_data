@@ -33,7 +33,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:floor,addr:housenumbe
 8709977809,node,47.3913404,7.7535505,yes,,,,,,,,Seitlich visavis Schulhaus Parkplatz,,,,defibrillator,144,,node/8709977809,no,,,,,,24/7,Katholisches Pfarramt Oberdorf,,,,,,,
 8722381418,node,47.5102337,7.765094,yes,,,,,,,,"Volgladen, aussen neben dem Eingang",,Frei zugänglich,,defibrillator,144,,node/8722381418,no,,,,,,24/7,Einwohnergemeinde Arisdorf,,,,,,,
 8746933062,node,47.5845825,7.6514488,,,,,,,,,Gemeinde Riehen Aussen vor dem Eingang,,,,defibrillator,144,,node/8746933062,no,,,,,,24/7,,,,,,,,
-8764057862,node,47.5495166,7.5805436,no,,,,,,,,Befindet sich im Erdgeschoss im Bereich der Aufzüge.,,"während Öffnungszeiten verfügbar, am Empfang melden",,defibrillator,144,,node/8764057862,yes,,,,,,,Firma Fracht AG,+41 61 287 95 55,,,,,,
+8764057862,node,47.5495166,7.5805436,,,,,,,,,Zurzeit ausser Betrieb - 04.09.2026 - ML - Befindet sich im Erdgeschoss im Bereich der Aufzüge.,,"während Öffnungszeiten verfügbar, am Empfang melden",,defibrillator,144,,node/8764057862,yes,,,,,,,Firma Fracht AG,+41 61 287 95 55,,,,,,
 8775932605,node,47.4182206,7.543222,yes,,,,,,,,Links neben dem Eingang des Kindergartens (im Unterstand),,,,defibrillator,144,,node/8775932605,no,,,,,,24/7,Einwohnergemeinde Brislach,+41 79 322 76 76,,,,,,
 8775959234,node,47.4197769,7.5040282,yes,,,,,,,,Beim Eingang des Kirchgemeindehaus,,,,defibrillator,144,,node/8775959234,no,,,,,,24/7,"Reformierte Kirchgemeinde Laufental, Corinne Züllig",+41 61 761 40 43,,,,,,
 8775968100,node,47.3987504,7.6543218,yes,,,,,,,,Links am Gebäude beim Eingang zum Gemeindezentrum,,,,defibrillator,144,,node/8775968100,no,,,,,,24/7,"Gemeindeverwaltung Bretzwil, Kirchgasse 3, 4207 Bretzwil",+41 61 943 04 40,,,,,,

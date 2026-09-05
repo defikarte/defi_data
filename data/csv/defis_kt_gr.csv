@@ -816,5 +816,6 @@ Furtschellas Talstation
 14101157085,node,46.783588,9.6785656,,,,,,,,,,,,,"Ebene Gondeln, hinter den Drehkreuzen zur Bergfahrt an der Wand (bei der Personal-Kabine)",,,,,defibrillator,,,,,,node/14101157085,,,yes,,,,,,,,,,,,,,,
 14102558201,node,46.8528459,9.5340702,private,,,,,,,,,,,,SWICA Agentur Chur - Korridor,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,,144,,,,node/14102558201,,,yes,,,1,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,,,+41 52 244 22 33,,,,,
 14115426901,node,46.8132606,9.318205,,,,,,,,,,,,,Flims,,,neben öffentlichem wc,,defibrillator,,144,,,,node/14115426901,,,no,,,0,,,24/7,Gemeinde Flims,,,,,,,,
-14121936301,node,46.8550185,9.5306317,permissive,,,,,,,,,,,,Gang-Ende links (Küche),,,während der Öffnungszeiten verfügbar,neurologeninchur@hin.ch,defibrillator,,144,,,,node/14121936301,,,yes,,,1,,,"Mo-Fr 7:45 - 12:00, 13:45 - 18:00",,,,+41 81 322 82 00,,,,,
+14121936301,node,46.8550185,9.5306317,permissive,,,,,,,,,,,,Gang-Ende links (Küche),,,während der Öffnungszeiten verfügbar,neurologeninchur@hin.ch,defibrillator,,144,,,,node/14121936301,,,yes,,,1,,,"Mo-Fr 07:45-12:00,13:45-18:00",,,,+41 81 322 82 00,,,,,
 14134389371,node,46.7915534,9.8209168,,,,,,,,,,,,,,,,,,defibrillator,,,,,,node/14134389371,,,no,,,,,,,,,,,,,,,
+14148332901,node,46.2473709,10.1275099,yes,,,,,,,,,,,,Appeso all'edificio Buvette all'entrata per andare agli spogliatoi,,,Sempre disponibile / immer verfügbar,,defibrillator,,144,,,,node/14148332901,,,no,,,0,,,24/7,VPC-Fernando,,,+41786321492,,,,,

@@ -180,7 +180,7 @@ osm_id,osm_type,lat,lon,access,addr:housenumber,addr:street,check_date,defibrill
 14046088401,node,47.7129296,8.7257271,yes,,,,"Vito Serratore AG, Hintereingang",,,defibrillator,144,,node/14046088401,no,0,,24/7,Vito Serratore AG,+41526541585,,,,,,
 14060861702,node,47.6949482,8.6331464,permissive,,,,Dienststelle Berufsbildung und Berufsberatung,während Öffnungszeiten verfügbar,,defibrillator,144,,node/14060861702,yes,,,Mo-Fr 08:00-17:00,Kanton Schaffhausen,+41526327256,,,,,,
 14102629101,node,47.6970434,8.6322096,yes,,,,SWICA Agentur Schaffhausen - Empfang,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102629101,yes,2,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,,,
-14128832702,node,47.7045104,8.6302378,permissive,,,,Therapiebad Mühlentalstrasse 88a,,rheuma.sh@bluewin.ch,defibrillator,144,,node/14128832702,yes,0,,Mo-Fr 8:00-17:00,Rheumaliga Bad schaff wass,+41 52 643 44 47,,,,,,
+14128832702,node,47.7045104,8.6302378,permissive,,,,Therapiebad Mühlentalstrasse 88a,,rheuma.sh@bluewin.ch,defibrillator,144,,node/14128832702,yes,0,,Mo-Fr 08:00-17:00,Rheumaliga Bad schaff wass,+41 52 643 44 47,,,,,,
 14131423902,node,47.6513591,8.8528723,permissive,,,,Migros an den Kassen,Während Öffnungszeiten verfügbar,,defibrillator,144,,node/14131423902,yes,0,,,Migros,,,,,,,
 14134489201,node,47.6561877,8.8554608,permissive,,,,Restaurant Steinerhof,während der Öffnungszeiten,,defibrillator,144,,node/14134489201,yes,0,,,,,,,,,,
 14138174301,node,47.742672,8.707749,permissive,,,,FC Thayngen Umkleidehaus,,,defibrillator,144,,node/14138174301,yes,,,24/7,FC Thayngen in,,,,,,,

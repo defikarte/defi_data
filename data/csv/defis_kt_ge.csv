@@ -134,5 +134,5 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 13980945692,node,46.2007091,6.1590361,,,,,,Near the checkout counters,,,,,defibrillator,,,node/13980945692,,,,,,Mo-We 07:30-19:00; Th 07:30-20:00; Fr 07:30-19:30; Sa 07:30-18:00,,,,,,,
 14014504302,node,46.203719,6.149224,permissive,,,,,"Rue du Rhone 78, 6ème étage",,,Available during opening hours,jbaggen@alvarezandmarsal.com,defibrillator,144,,node/14014504302,yes,,,,,08:00-17:00,,,,,,,
 14102662001,node,46.2165951,6.1481032,private,,,,,SWICA Agentur Genève - Cordoir,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102662001,yes,,1,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,,
-14120254701,node,46.1891264,6.1782686,,,,,,Ecole supérieure de soins ambulanciers,,,,,defibrillator,144,,node/14120254701,yes,,0,,,8:00 - 17:00,ESAMB,,,,,,
+14120254701,node,46.1891264,6.1782686,,,,,,Ecole supérieure de soins ambulanciers,,,,,defibrillator,144,,node/14120254701,yes,,0,,,08:00-17:00,ESAMB,,,,,,
 14140716401,node,46.2101078,6.1044227,yes,,,,,Tennis Bois des Frères,,,public devant l’immeuble,,defibrillator,144,,node/14140716401,no,,,,,24/7,Vernier,,,,,,
