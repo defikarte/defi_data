@@ -162139,6 +162139,71 @@
       47.1354553
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14155448801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Postautohaltstelle Grossbach",
+    "email": "info@einwohnerverein-gross.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnerverein Gross mitänand",
+    "id": "node/14155448801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.77839,
+      47.1127253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14155451601",
+  "properties": {
+    "defibrillator:location": "Bei Postautohaltstelle Nügüetli",
+    "email": "info@einwohnerverein-gross.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnerverein Gross mitänand",
+    "id": "node/14155451601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7751626,
+      47.1197045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14155456501",
+  "properties": {
+    "defibrillator:location": "An der Musikbaracke",
+    "description": "Bei der Verzweigung Grossbachweg / Boden",
+    "email": "info@einwohnerverein-gross.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnerverein Gross mitänand",
+    "id": "node/14155456501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7720294,
+      47.1118476
+    ]
+  }
 }
 ]
 }
