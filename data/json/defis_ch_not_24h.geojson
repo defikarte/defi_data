@@ -219032,6 +219032,28 @@
       47.497506
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14152963901",
+  "properties": {
+    "defibrillator:location": "Restaurant Schloss Laufen",
+    "description": "Mobiler yDefi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Schloss Laufen am Rheinfall",
+    "phone": "+41526596767",
+    "id": "node/14152963901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6148669,
+      47.6765977
+    ]
+  }
 }
 ]
 }

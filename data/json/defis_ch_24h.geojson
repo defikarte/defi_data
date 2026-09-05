@@ -162119,6 +162119,26 @@
       47.4050862
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14153967201",
+  "properties": {
+    "defibrillator:location": "Treppenhaus Milchmanufaktur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "id": "node/14153967201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7466164,
+      47.1354553
+    ]
+  }
 }
 ]
 }
