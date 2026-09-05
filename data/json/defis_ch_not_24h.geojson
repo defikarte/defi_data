@@ -219054,6 +219054,24 @@
       47.6765977
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14156170801",
+  "properties": {
+    "access": "unknown",
+    "defibrillator:location": "Juste avant la buvette",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14156170801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.01064,
+      46.2515596
+    ]
+  }
 }
 ]
 }
