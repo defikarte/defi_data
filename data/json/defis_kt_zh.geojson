@@ -81373,6 +81373,31 @@
       47.497506
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14152879602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hotel Harry s home",
+    "description": "im Windfang platziert, linke Seite",
+    "email": "seidenplatz@ecorenova.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Privatperson STWEG",
+    "phone": "+41 43 456 80 60",
+    "id": "node/14152879602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6050969,
+      47.4050862
+    ]
+  }
 }
 ]
 }
