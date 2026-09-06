@@ -409,3 +409,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14139577123,node,47.1684608,8.9900836,yes,,,,,,,,Trafostation Schäflibach-/Industriestrasse,,,defibrillator,,node/14139577123,,,,,,,Gemeinde Reichenburg,,,,,
 14139588101,node,47.1684385,8.9900772,,,,,,,,,Trafostation Schäflibach-/Industriestrasse,öffentlich zugänglich,,defibrillator,144,node/14139588101,,no,0,,,24/7,Gemeinde Reichenburg,,+41 55 464 30 60,,,
 14142188001,node,47.030754,8.586613,yes,,,,,,,,links an der Hausfassade,,,defibrillator,144,node/14142188001,,no,0,,,24/7,FW Gemeinde Lauerz,,,,,
+14153967201,node,47.1354553,8.7466164,,,,,,,,,Treppenhaus Milchmanufaktur,,,defibrillator,144,node/14153967201,,yes,1,,,24/7,,,,,,
+14155448801,node,47.1127253,8.77839,yes,,,,,,,,Bei Postautohaltstelle Grossbach,,info@einwohnerverein-gross.ch,defibrillator,144,node/14155448801,,no,,,,24/7,Einwohnerverein Gross mitänand,,,,,
+14155451601,node,47.1197045,8.7751626,,,,,,,,,Bei Postautohaltstelle Nügüetli,,info@einwohnerverein-gross.ch,defibrillator,144,node/14155451601,,no,,,,24/7,Einwohnerverein Gross mitänand,,,,,
+14155456501,node,47.1118476,8.7720294,,,,,,,,,An der Musikbaracke,Bei der Verzweigung Grossbachweg / Boden,info@einwohnerverein-gross.ch,defibrillator,144,node/14155456501,,no,,,,24/7,Einwohnerverein Gross mitänand,,,,,

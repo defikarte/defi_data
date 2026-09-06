@@ -29,7 +29,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 7410535756,node,47.2911596,9.0980078,,,,,,,,,,,Aussen an der Wand,,,,,,defibrillator,144,node/7410535756,,,no,,,,,,,,24/7,Hedinger AG,,,,,,,,,,
 7559485217,node,47.4454841,9.14217,yes,,,,,,,,,,Aussen am Treppengebäude zum Parkhaus,,,,,,defibrillator,144,node/7559485217,,,no,,,,,,,,24/7,Raiffeisenbank Regio Uzwil,,,,,,,,,,
 7559485218,node,47.4360498,9.1349709,yes,,,,,,,,,,"Aussen, rechts, neben der Schiebetüre, an der Wand",,,,,,defibrillator,144,node/7559485218,,,no,,,,,,,,24/7,,,,,,,,,,,
-7559489762,node,47.1590913,9.3805768,yes,Grabs,,,,,Voralpsee,,,,bei Kiosk,,,Grüner Kasten,,,defibrillator,144,node/7559489762,,,,,,,0,,,,24/7,Lifetec AG,,,+41800122144,,0019LTC,,,,,
+7559489762,node,47.1590899,9.3805704,yes,Grabs,,,,,Voralpsee,,,,bei Kiosk,,,Grüner Kasten,,,defibrillator,144,node/7559489762,,,,,,,0,,,,24/7,Lifetec AG,,,+41800122144,,0019LTC,,,,,
 7559742677,node,47.228441,8.8369104,yes,,,,,,,,,,In Kirchgemeindehaus,,,,,,defibrillator,144,node/7559742677,,,,,,,,,,,,,,,,,,,,,,
 7559742678,node,47.2256432,8.8643816,yes,,,,,,,,,,Eventhalle,,,"Zeugen Jehovas, Beschilderung beachten",,,defibrillator,144,node/7559742678,,,,,,,,,,,,,,,,,,,,,,
 7559742679,node,47.224018,8.8225378,yes,,,,,,,,,,Kinderzoo,,,bei Kasse melden,,,defibrillator,144,node/7559742679,,,,,,,,,,,,,,,,,,,,,,
@@ -723,7 +723,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 10050845117,node,47.4208471,9.2847327,,,,,,,,,,,Zooschule - Tür rein Gleich rechts,,,,,,defibrillator,144,node/10050845117,,,yes,,,,0,,,,Mo-Su 09:00-17:00,Walter Zoo,,,+41 71 387 50 50,,,,,,,no
 10055923698,node,47.4010298,9.3028202,yes,,,,,,,,,,"Eingang Ausbildungszentrum, von aussen eintretend Wand links zwischen den beiden Glastüren. AED in weissem Kasten",,,,,,defibrillator,144,node/10055923698,,,no,,,,,,,,24/7,ZBW - Zentrum berufliche Weiterbildung,,,+41 71 313 40 56,,,,,,,
 10055929102,node,47.4763616,9.1498516,,,,,,,,,,,Haupteingang MS Protect auf der Inneseite,,,,,,defibrillator,144,node/10055929102,,,yes,,,,,,,,Mo-Fr 07:00-16:00,MS Protect AG / Ralf Kirstein,,,+41797984016,,,,,,,
-10063079417,node,47.4186483,9.3213903,,,,,,,,,,,Fussballclub FC Abtwil,,,Nachmittags- Abends,,,defibrillator,144,node/10063079417,,,yes,,,,,,,,Mo-Su 16:00-22:00,Gemeinde Gaiseewald,,,+41 79 214 74 40,,,,,,,
+10063079417,node,47.4186483,9.3213903,,,,,,,,,,,Fussballclub FC Abtwil,,,Nachmittags- Abends,,,defibrillator,144,node/10063079417,,,yes,,,,,,,,Mo-Su 16:00-22:00,Gemeinde Gaiserwald,,,+41 79 214 74 40,,,,,,,
 10068611294,node,47.4146397,9.3142591,yes,,,,,,,,,,Der Defibrillator befindet sich im 3.Stock gegenüber der Personenlifte.,,,,,,defibrillator,144,node/10068611294,,,yes,,,,,,,,Mo-Fr 06:30-21:30; Sa 06:30-14:00,Sandra Gloor,,,+41 79 549 43 55,,,,,,,
 10068611295,node,47.402291,9.3035967,yes,,,,,,,,,,Der Defibrillator befindet sich im 1.Stock an der Wand. Zugänglich über Personenlift oder Treppenhaus.,,,,,,defibrillator,144,node/10068611295,,,yes,,,,,,,,Mo-Fr 07:30-17:30,Sandra Gloor,,,+41 79 549 43 55,,,,,,,
 10068611296,node,47.4009972,9.302788,yes,,,,,,,,,,"Der Defibrillator befindet sich beim Haupteingang EG, links an der Wand.",,,,,,defibrillator,144,node/10068611296,,,yes,,,,,,,,Mo-Th 06:30-17:00; Fr 06:30-16:00,Sandra Gloor,,,+41 79 549 43 55,,,,,,,
