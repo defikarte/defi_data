@@ -275537,7 +275537,9 @@
   "id": "node/11844086109",
   "properties": {
     "access": "private",
+    "addr:city": "Gossau SG",
     "addr:housenumber": "6",
+    "addr:postcode": "9200",
     "addr:street": "Langfeldstrasse",
     "defibrillator:location": "Langfeld 2 Eingang 1359LTM",
     "description": "Oranger Koffer",
@@ -381274,6 +381276,27 @@
     "coordinates": [
       7.01064,
       46.2515596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14157035101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "In der Grip Kletterhalle.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Grip Climbing Biel / Bienne",
+    "wheelchair": "no",
+    "id": "node/14157035101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2681008,
+      47.1440449
     ]
   }
 }

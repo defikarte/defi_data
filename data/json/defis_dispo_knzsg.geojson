@@ -28105,7 +28105,9 @@
   "id": "node/11844086109",
   "properties": {
     "access": "private",
+    "addr:city": "Gossau SG",
     "addr:housenumber": "6",
+    "addr:postcode": "9200",
     "addr:street": "Langfeldstrasse",
     "defibrillator:location": "Langfeld 2 Eingang 1359LTM",
     "description": "Oranger Koffer",
