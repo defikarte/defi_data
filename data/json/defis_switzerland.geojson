@@ -67633,17 +67633,23 @@
   "type": "Feature",
   "id": "node/7786338208",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Volgladen",
+    "email": "matug@bluewin.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Samariter Wartau",
+    "phone": "+41 81 783 20 32",
     "id": "node/7786338208"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4742266,
-      47.0977231
+      9.4742274,
+      47.0977222
     ]
   }
 },
@@ -381297,6 +381303,30 @@
     "coordinates": [
       8.5115985,
       47.3629172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14158026501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links vorne am Gebäude",
+    "email": "info@wartau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Wartau",
+    "phone": "+41 58 228 20 50",
+    "id": "node/14158026501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4766888,
+      47.0805442
     ]
   }
 }
