@@ -352571,27 +352571,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13516798001",
-  "properties": {
-    "defibrillator:location": "Bergstation FlemX Rechts neben Ein/Ausgang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Weisse Arena Bergbahnen AG",
-    "id": "node/13516798001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2402171,
-      46.8674778
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13518929501",
   "properties": {
     "access": "permissive",
