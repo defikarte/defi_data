@@ -81420,6 +81420,27 @@
       47.6765977
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14157392101",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "kdmz (3. Stock)",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "kdmz",
+    "phone": "+41432599980",
+    "id": "node/14157392101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5115985,
+      47.3629172
+    ]
+  }
 }
 ]
 }
