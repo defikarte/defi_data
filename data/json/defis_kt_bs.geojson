@@ -207,6 +207,7 @@
   "type": "Feature",
   "id": "node/8764057862",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Zurzeit ausser Betrieb - 04.09.2026 - ML - Befindet sich im Erdgeschoss im Bereich der Aufzüge.",
     "description": "während Öffnungszeiten verfügbar, am Empfang melden",
     "emergency": "defibrillator",
@@ -4628,6 +4629,29 @@
     "coordinates": [
       7.6455642,
       47.5797403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14158925701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkehrsgarten",
+    "description": "neben dem kleinen Törchen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verkehrspolizei",
+    "id": "node/14158925701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5648253,
+      47.5573131
     ]
   }
 }

@@ -29632,10 +29632,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Haupteingang rechts an der Wand",
+    "description": "Haupteingang rechts an der Wand",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062378"
   },
   "geometry": {
@@ -29650,12 +29655,17 @@
   "type": "Feature",
   "id": "node/7650062379",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Durchgang Reception / Aufenthaltsraum",
+    "access": "permissive",
+    "defibrillator:location": "Durchgang nach Rezeption links vor Duschen/WC",
+    "description": "nur in der Saison",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062379"
   },
   "geometry": {
@@ -29672,9 +29682,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gegenüber Kassenhaus beim Haupteingang",
+    "description": "während Öffnungszeiten hinter Barriere",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062381"
   },
   "geometry": {
@@ -29692,16 +29708,21 @@
     "access": "yes",
     "defibrillator:location": "vis-a-vis Bootstankstelle an Wand",
     "description": "bei den öffentlichen WC",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062382"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4380349,
-      47.5137382
+      9.438035,
+      47.5137379
     ]
   }
 },
@@ -81871,8 +81892,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2009742,
-      46.530852
+      9.2009644,
+      46.530844
     ]
   }
 },
@@ -162211,6 +162232,29 @@
     "coordinates": [
       9.4766888,
       47.0805442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14158925701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkehrsgarten",
+    "description": "neben dem kleinen Törchen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verkehrspolizei",
+    "id": "node/14158925701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5648253,
+      47.5573131
     ]
   }
 }

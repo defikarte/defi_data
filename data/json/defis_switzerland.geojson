@@ -62002,9 +62002,16 @@
   "id": "node/7650062376",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang Parterre rechts Büro Abteilung Sicherheitsdienste",
+    "defibrillator:location": "Stadthaus - Haupteingang Parterre rechts vor Büro Abteilung Sicherheitsdienste",
+    "description": "während Öffnungszeiten",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo,Tu,Th 08:30-12:00,14:00-17:00 ; We 14:00-17:00 ; Fr 08:30-14:00",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062376"
   },
   "geometry": {
@@ -62020,16 +62027,21 @@
   "id": "node/7650062377",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Halle im Schrank",
+    "defibrillator:location": "Seeparksaal - Saal im Schrank",
     "description": "Defi-Signet Kennzeichnung",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062377"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4333371,
+      9.4333372,
       47.5194433
     ]
   }
@@ -62040,10 +62052,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Haupteingang rechts an der Wand",
+    "description": "Haupteingang rechts an der Wand",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062378"
   },
   "geometry": {
@@ -62058,12 +62075,17 @@
   "type": "Feature",
   "id": "node/7650062379",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Durchgang Reception / Aufenthaltsraum",
+    "access": "permissive",
+    "defibrillator:location": "Durchgang nach Rezeption links vor Duschen/WC",
+    "description": "nur in der Saison",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062379"
   },
   "geometry": {
@@ -62080,9 +62102,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Gegenüber Kassenhaus beim Haupteingang",
+    "description": "während Öffnungszeiten hinter Barriere",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062381"
   },
   "geometry": {
@@ -62100,16 +62128,21 @@
     "access": "yes",
     "defibrillator:location": "vis-a-vis Bootstankstelle an Wand",
     "description": "bei den öffentlichen WC",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "id": "node/7650062382"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4380349,
-      47.5137382
+      9.438035,
+      47.5137379
     ]
   }
 },
@@ -104080,6 +104113,7 @@
   "type": "Feature",
   "id": "node/8764057862",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Zurzeit ausser Betrieb - 04.09.2026 - ML - Befindet sich im Erdgeschoss im Bereich der Aufzüge.",
     "description": "während Öffnungszeiten verfügbar, am Empfang melden",
     "emergency": "defibrillator",
@@ -110171,17 +110205,23 @@
   "id": "node/8868356210",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Inside bath on your left. Wall mounted.",
+    "defibrillator:location": "Links nach Kasse beim Zugang WC",
+    "description": "während Öffnungszeiten",
+    "email": "fsl@arbon.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
     "wheelchair": "limited",
     "id": "node/8868356210"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4190955,
-      47.5259695
+      9.4190956,
+      47.5259696
     ]
   }
 },
@@ -178996,8 +179036,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2009742,
-      46.530852
+      9.2009644,
+      46.530844
     ]
   }
 },
@@ -381327,6 +381367,101 @@
     "coordinates": [
       9.4766888,
       47.0805442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14158925701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkehrsgarten",
+    "description": "neben dem kleinen Törchen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verkehrspolizei",
+    "id": "node/14158925701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5648253,
+      47.5573131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14159150402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Pausenraum Arbon Energie AG",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "denys.buff@arbonenergie.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Arbon Energie AG",
+    "phone": "+41 71 447 62 65",
+    "id": "node/14159150402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4292709,
+      47.5045245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14159158202",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Geschäftshaus Fecker",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "denys.buff@arbonenergie.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Arbon Energie AG",
+    "phone": "+41 71 447 62 65",
+    "id": "node/14159158202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4186111,
+      47.4983112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14159161601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Seewasserwerk Eingang Süd innen rechts an der Wand",
+    "description": "Während Arbeitszeiten verfügbar",
+    "email": "denys.buff@arbonenergie.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Arbon Energie AG",
+    "phone": "+41 71 447 62 65",
+    "id": "node/14159161601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4354332,
+      47.5184815
     ]
   }
 }
