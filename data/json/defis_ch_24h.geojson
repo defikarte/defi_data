@@ -162257,6 +162257,29 @@
       47.5573131
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14159733601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wright-Strasse 45, gegenüber Eingang",
+    "email": "fabian.caneve@bluewin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Siedlungskommission ABZ Glattpark und ABZ",
+    "phone": "+41 79 586 53 72",
+    "id": "node/14159733601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5604568,
+      47.4200086
+    ]
+  }
 }
 ]
 }

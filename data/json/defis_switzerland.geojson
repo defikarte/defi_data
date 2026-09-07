@@ -69702,11 +69702,17 @@
   "type": "Feature",
   "id": "node/7853369110",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Alterszentrum",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Im Alters- und Pflegezentrum (Kopierraum)",
+    "description": "während Öffnungszeiten verfügbar (nur mit Schlüssel)",
+    "email": "info@waegelwiesen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00 - 19:00",
+    "operator": "Wägelwiesen Alter- und Pflegezentrum AG",
+    "phone": "+41 44 877 76 76",
     "id": "node/7853369110"
   },
   "geometry": {
@@ -381462,6 +381468,52 @@
     "coordinates": [
       9.4354332,
       47.5184815
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14159412801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im AKSO / IVSO Gebäude",
+    "email": "eliane.jaeggi@akso.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:30 - 11:30, 13:30-16:30",
+    "operator": "AKSO / IVSO",
+    "id": "node/14159412801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.554098,
+      47.207346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14159733601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wright-Strasse 45, gegenüber Eingang",
+    "email": "fabian.caneve@bluewin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Siedlungskommission ABZ Glattpark und ABZ",
+    "phone": "+41 79 586 53 72",
+    "id": "node/14159733601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5604568,
+      47.4200086
     ]
   }
 }

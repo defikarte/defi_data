@@ -11100,6 +11100,29 @@
       47.2064796
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14159412801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im AKSO / IVSO Gebäude",
+    "email": "eliane.jaeggi@akso.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:30 - 11:30, 13:30-16:30",
+    "operator": "AKSO / IVSO",
+    "id": "node/14159412801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.554098,
+      47.207346
+    ]
+  }
 }
 ]
 }
