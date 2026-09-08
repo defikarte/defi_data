@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "key": "node/10204252080",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.2148767,
+    "lat": 47.1413199,
+    "changes": [
+      "opening_hours: 'None' → '24/7'",
+      "defibrillator:location: 'Front Door outside' → 'Kapellenweg 2, Atelier Ginkjo'",
+      "description: 'None' → 'Beim Hauseingang / strassenseitig'",
+      "level: 'None' → '0'"
+    ],
+    "detected_at": "2026-09-08T14:12:53.098662+00:00"
+  },
+  {
+    "key": "node/14074235201",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.1372402,
+    "lat": 47.067853,
+    "changes": [
+      "defibrillator:location: 'An Rückseite des Gebäudes' → 'Kiosk Rive / An Rückseite des Gebäudes'",
+      "description: 'None' → 'Während der Sommersaison'"
+    ],
+    "detected_at": "2026-09-08T14:12:53.101063+00:00"
+  }
+]
