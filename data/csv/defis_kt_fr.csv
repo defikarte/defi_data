@@ -216,7 +216,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 11828363889,node,46.966581,7.1851498,yes,,,,,,,,,"Fedex Express Swiss Post Gmbh, Biberenzelgli 30, 3210 Kerzers",,immer zugaenglich,,defibrillator,144,,,node/11828363889,no,,,0,,,,,24/7,Fedex Express Swiss Post Gmbh,,,+41319321154,,,"local_knowledge, defikarte.ch",,,
 11860317070,node,46.9249094,7.1076494,yes,,,,,,,,,EG aussen vor dem Eingang Gemeindehaus Seeseite,,,,defibrillator,144,,,node/11860317070,no,,,0,,,,,,,,,,,,,,,
 11868560769,node,46.8781767,7.1915075,yes,,,,,,,,,Bei den Briefkästen im Unterstand,,"24/7 verfügbar, Model Defibtech Lifeline View",,defibrillator,144,,,node/11868560769,no,,,0,,,,,24/7,Betreiber Camping Schiffenen,,,,,,,,,
-11873482901,node,46.8186561,7.1570457,,,,,,,,,,,,,,defibrillator,144,,,node/11873482901,,,,,,,,,,,,,,,,,,,
+11873482901,node,46.8187186,7.1569997,yes,,,,,,,,,Proximité des toilettes public,,,chst@ville-fr.ch,defibrillator,144,,,node/11873482901,no,,,0,,,,,07:00-20:00,Ville de Fribourg,,,+41 26 351 70 14,,,,,,
 11883115102,node,46.8207716,7.1528148,yes,,,,,,,,,AGY Centre / Brandmeldeanlage 1375LTM,,Orangerkoffer,,defibrillator,144,,,node/11883115102,yes,,,,,,Leatech SA,,Mo-Fr 08:00-19:00 Sa 08:00-16:00,Lifetec AG Schweiz,,,+41 800 122 144,,1375LTM,,,,
 11883129284,node,46.7794535,7.1524158,yes,,11,,Route de Fribourg,,,,,"Magazine / Werkstatt UG
 1376LTM",,Oranger Koffer,,defibrillator,144,,,node/11883129284,yes,,,-1,,,,,"Mo-Th 07:15-12:00,13:30-18:30; Fr 07:15-12:00,13:30-18:00; Sa 08:00-12:00",Lifetec AG Schweiz,,,+41 800 122 144,,1376LTM,,,,
@@ -312,7 +312,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 13437133301,node,46.8571999,7.0689583,yes,,,,,,,,,A l'extérieur devant le bâtiment,,24h/24,,defibrillator,144,,,node/13437133301,no,,,0,,,,,,Commune de Misery-Courtion,,,+41 26 475 18 87,,,,,,
 13441631427,node,46.7493073,7.281073,yes,,,,,,,,,Am Gebäude,,,,defibrillator,,,,node/13441631427,no,,,,,,,,,,,,,,,,,,
 13448361101,node,46.8054301,7.1608531,,,,,,,,,,Place de l'Hôtel-de-Ville 2,,Disponible en tout temps,,defibrillator,144,,,node/13448361101,no,,,0,,,,,,,,,,,,,,,
-13448377401,node,46.8053838,7.161308,yes,,,,,,,,,Maison de Ville (administration communale),,Disponible pendant les heures d'ouverture,,defibrillator,144,,,node/13448377401,yes,,,0,,,,,,Ville de Fribourg,,,,,,,,,
+13448377401,node,46.8054164,7.1612529,yes,,,,,,,,,Maison de Ville (administration communale) à droite à l'entrée malette de 1er secours mise à disposition,,Disponible pendant les heures d'ouverture,chst@ville-fr.ch,defibrillator,144,,,node/13448377401,yes,,,0,,,,,,Ville de Fribourg (CHST),,,+41 26 351 70 14,,,,,,
 13452724801,node,46.8148623,7.0426296,,,,,,,,,,Sous le préau devant l'école,,,,defibrillator,144,,,node/13452724801,no,,,0,,,,,24/7,,,,,,,,,,
 13504408504,node,46.8182518,6.976765,permissive,,,,,,,,,"Centre médical de Montagny, dans l'armoire à la réception",,Disponible pendant les heures d'ouverture,,defibrillator,144,,,node/13504408504,yes,,,0,,,,,,Centre médical de Montagny,,,+41 26 660 78 18,,,,,,
 13521870801,node,46.880314,7.133059,yes,,,,,,,,,Bertschy AG / Aussenwand beim Empfang,,24/7 verfügbar,,defibrillator,144,,,node/13521870801,no,,,,,,,,24/7,Arnold Bertschy AG,,,+41266843456,,,,,,
@@ -378,3 +378,5 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14085234401,node,46.9954323,7.2077639,,,,,,,,,,Schmiedstrasse 45,,frei zugänglich,,defibrillator,144,,,node/14085234401,no,,,0,,,,,24/7,Gemeinde,,,,,,,,,
 14102516601,node,46.8097178,7.1489051,private,,,,,,,,,SWICA Agentur Fribourg - Caféteria,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,,node/14102516601,yes,,,0,,,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,,,+41 52 244 22 33,,,,,,
 14102953301,node,46.5947031,7.0594595,yes,,,,,,,,,Mur extérieur de la salle de gym,,,eric.ch@websud.ch,defibrillator,144,,,node/14102953301,no,,,,,,,,24/7,,,,,,,,,,
+14162087701,node,46.8214127,7.1568404,yes,,,,,,,,,"Atelier Parc et Promenade a gauche en rentrant, malette de 1er secours disponible",,Disponible durant les heures d'ouverture,chst@ville-fr.ch,defibrillator,144,,,node/14162087701,yes,,,0,,,,,,Ville de Fribourg,,,+41 26 351 70 14,,,,,,
+14162109401,node,46.8117295,7.1475886,permissive,,,,,,,,,A gauche en rentrant configuration de la machine en allemand,,Disponible durant les heures d'ouverture de l'écoie,chst@ville-fr.ch,defibrillator,144,,,node/14162109401,yes,,,0,,,,,,Ville de Fribourg,,,+41 26 351 70 14,,,,,,
