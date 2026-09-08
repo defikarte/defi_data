@@ -83421,6 +83421,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/10204252080",
+  "properties": {
+    "defibrillator:location": "Kapellenweg 2, Atelier Ginkjo",
+    "description": "Beim Hauseingang / strassenseitig",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/10204252080"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2148767,
+      47.1413199
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10208946117",
   "properties": {
     "access": "yes",
@@ -131605,7 +131626,8 @@
   "type": "Feature",
   "id": "node/12436086201",
   "properties": {
-    "defibrillator:location": "Beim Parkplatz Restaurant Gubel",
+    "access": "yes",
+    "defibrillator:location": "Beim Parkplatz Restaurant Gubel, grüner Metallkasten an Garagenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -131617,8 +131639,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5740191,
-      47.162386
+      8.5739885,
+      47.1623673
     ]
   }
 },
@@ -160776,7 +160798,8 @@
   "id": "node/14074235201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "An Rückseite des Gebäudes",
+    "defibrillator:location": "Kiosk Rive / An Rückseite des Gebäudes",
+    "description": "Während der Sommersaison",
     "email": "welcome@st-petersinsel.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -162301,6 +162324,31 @@
     "coordinates": [
       8.5399579,
       47.4086461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162418103",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "St. Petersinsel 26",
+    "description": "Im Innenhof",
+    "email": "welcome@st-petersinsel.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hotel St. Petersinsel",
+    "phone": "+41 32 338 11 14",
+    "id": "node/14162418103"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1426221,
+      47.0697974
     ]
   }
 }

@@ -7917,7 +7917,8 @@
   "type": "Feature",
   "id": "node/12436086201",
   "properties": {
-    "defibrillator:location": "Beim Parkplatz Restaurant Gubel",
+    "access": "yes",
+    "defibrillator:location": "Beim Parkplatz Restaurant Gubel, grüner Metallkasten an Garagenwand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -7929,8 +7930,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5740191,
-      47.162386
+      8.5739885,
+      47.1623673
     ]
   }
 },

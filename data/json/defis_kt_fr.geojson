@@ -1860,19 +1860,23 @@
   "type": "Feature",
   "id": "node/10068469904",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Dans le hall des vestiaires",
+    "access": "permissive",
+    "defibrillator:location": "Dans le hall d'entrée",
+    "description": "Diponible selon les horaire de l'école ou manifesation sportive",
+    "email": "chst@ville-fr.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
     "id": "node/10068469904"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1570658,
-      46.8090191
+      7.1570173,
+      46.8091022
     ]
   }
 },
@@ -8045,7 +8049,7 @@
   "id": "node/14162109401",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "A gauche en rentrant configuration de la machine en allemand",
+    "defibrillator:location": "A gauche en rentrant configuration linguistique de la machine en allemand",
     "description": "Disponible durant les heures d'ouverture de l'écoie",
     "email": "chst@ville-fr.ch",
     "emergency": "defibrillator",
@@ -8059,8 +8063,320 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1475886,
-      46.8117295
+      7.1475881,
+      46.8117293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162418703",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Salle de gymnatique du jura",
+    "description": "Diponibilité selon horaire de l'école ou activité de club",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162418703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1477329,
+      46.8124434
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162434301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Entrée de la salle à droite",
+    "description": "Disponible selon les horaires de l'école ou activité de la salle de spéctacle",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162434301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.148652,
+      46.8123957
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162439202",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Police locale accueil public (salle d'attente)",
+    "description": "Disponible selon les horaires d'ouverture",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162439202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1520128,
+      46.8127867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162440701",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Piscine du Levant (local des gardiens)",
+    "description": "Disponible selon les horaires d'ouverture et cours",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162440701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1513932,
+      46.813319
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162452001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Couloir entre les terrains de sport",
+    "description": "Disponible selon les horaires d'ouverture",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162452001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.155737,
+      46.8165119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162454402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Entrée principale à droite",
+    "description": "Disponible selon utilisation des manifestations de la grande salle",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162454402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1565309,
+      46.8167468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162460101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée principale en face",
+    "description": "Disponible selon les horaires d'ouverture ou manifestation",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162460101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1567788,
+      46.8172961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162463301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Local des gardes bains",
+    "description": "Diposnible selon heures d'ouverture et saisonalité",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162463301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1588596,
+      46.8021903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162468502",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Le hall d'entrée de l'école",
+    "description": "Diponible selon horaire de l'école",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162468502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1565774,
+      46.8093592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162488901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Couloir à droite après les escaliers",
+    "description": "Bâtiment en réafectation",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162488901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1649847,
+      46.8052184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162491104",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "L'atelier / malette de 1er secours disponible",
+    "description": "Diponible pendant les heures d'ouverture ou manifestation",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162491104"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1616549,
+      46.8072198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162577901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Cour intérieur en face monter les escaliers",
+    "description": "Disponible selon les ouvertures des institutions sur place",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162577901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1654005,
+      46.8025805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162598701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée des vestiaires sur la droite",
+    "description": "Diponible selon les activités des clubs",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162598701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.140837,
+      46.8057078
     ]
   }
 }

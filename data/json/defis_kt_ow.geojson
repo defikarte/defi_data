@@ -3114,6 +3114,30 @@
       46.7872552
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14162388102",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Dorfplatz 8, Rathaus, Sarnen",
+    "description": "Während der Öffnungszeiten verfügbar Mo-Fr 8-12 / 13.30-17h",
+    "email": "staatskanzlei@ow.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Kanton Obwalden",
+    "phone": "+41 41 666 63 12",
+    "id": "node/14162388102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2451334,
+      46.8960388
+    ]
+  }
 }
 ]
 }
