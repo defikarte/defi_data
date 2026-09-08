@@ -155886,19 +155886,24 @@
   "type": "Feature",
   "id": "node/13784723701",
   "properties": {
-    "defibrillator:location": "cour de l'école de la Vignettaz, à côté de l'entrée du batiment E",
-    "description": "accessible en tout temps",
+    "access": "yes",
+    "defibrillator:location": "Cour de l'école de la Vignettaz, à côté de l'entrée du batiment E",
+    "description": "Accessible en tout temps",
+    "email": "chst@ville-fr.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
     "id": "node/13784723701"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1437226,
-      46.7977093
+      7.1437268,
+      46.7977003
     ]
   }
 },
@@ -162349,6 +162354,31 @@
     "coordinates": [
       7.1426221,
       47.0697974
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162633001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée de l'accueil scolaire du Schonberg",
+    "description": "Disponible en tout temps",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162633001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1738392,
+      46.8087288
     ]
   }
 }
