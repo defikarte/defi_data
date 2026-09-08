@@ -4627,15 +4627,23 @@
   "type": "Feature",
   "id": "node/11873482901",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Proximité des toilettes public",
+    "email": "chst@ville-fr.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "07:00-20:00",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
     "id": "node/11873482901"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1570457,
-      46.8186561
+      7.1569997,
+      46.8187186
     ]
   }
 },
@@ -6698,20 +6706,22 @@
   "id": "node/13448377401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Maison de Ville (administration communale)",
+    "defibrillator:location": "Maison de Ville (administration communale) à droite à l'entrée malette de 1er secours mise à disposition",
     "description": "Disponible pendant les heures d'ouverture",
+    "email": "chst@ville-fr.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Ville de Fribourg",
+    "operator": "Ville de Fribourg (CHST)",
+    "phone": "+41 26 351 70 14",
     "id": "node/13448377401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.161308,
-      46.8053838
+      7.1612529,
+      46.8054164
     ]
   }
 },
@@ -8003,6 +8013,54 @@
     "coordinates": [
       7.0594595,
       46.5947031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162087701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Atelier Parc et Promenade a gauche en rentrant, malette de 1er secours disponible",
+    "description": "Disponible durant les heures d'ouverture",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162087701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1568404,
+      46.8214127
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162109401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "A gauche en rentrant configuration de la machine en allemand",
+    "description": "Disponible durant les heures d'ouverture de l'écoie",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162109401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1475886,
+      46.8117295
     ]
   }
 }

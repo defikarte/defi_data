@@ -24539,6 +24539,31 @@
       47.0576938
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14162031101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verdichterstation Ruswil - TK Kontrollgebäude",
+    "description": "Defibrillator. Model: Defibrillator ZOLL AED Plus.",
+    "email": "lozano@transitgas.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
+    "operator": "Transitgas AG",
+    "phone": "+41 79 859 85 22",
+    "id": "node/14162031101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.093061,
+      47.0621312
+    ]
+  }
 }
 ]
 }

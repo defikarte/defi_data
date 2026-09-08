@@ -276721,15 +276721,23 @@
   "type": "Feature",
   "id": "node/11873482901",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Proximité des toilettes public",
+    "email": "chst@ville-fr.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "07:00-20:00",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
     "id": "node/11873482901"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1570457,
-      46.8186561
+      7.1569997,
+      46.8187186
     ]
   }
 },
@@ -350564,20 +350572,22 @@
   "id": "node/13448377401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Maison de Ville (administration communale)",
+    "defibrillator:location": "Maison de Ville (administration communale) à droite à l'entrée malette de 1er secours mise à disposition",
     "description": "Disponible pendant les heures d'ouverture",
+    "email": "chst@ville-fr.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Ville de Fribourg",
+    "operator": "Ville de Fribourg (CHST)",
+    "phone": "+41 26 351 70 14",
     "id": "node/13448377401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.161308,
-      46.8053838
+      7.1612529,
+      46.8054164
     ]
   }
 },
@@ -381537,6 +381547,127 @@
     "coordinates": [
       8.5399579,
       47.4086461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14161894201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zum Gewerbepark Dietfurt, gegenüber der Schreinerei",
+    "description": "Der Defi hängt aussen an der Eingangstür und ist 24/7 zugänglich",
+    "email": "manuela.feuz@snenergie.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "SN Energie AG",
+    "phone": "+41 55 647 42 00",
+    "id": "node/14161894201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0811169,
+      47.3446814
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162031101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verdichterstation Ruswil - TK Kontrollgebäude",
+    "description": "Defibrillator. Model: Defibrillator ZOLL AED Plus.",
+    "email": "lozano@transitgas.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
+    "operator": "Transitgas AG",
+    "phone": "+41 79 859 85 22",
+    "id": "node/14162031101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.093061,
+      47.0621312
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162036701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus 1A, 4. OG, rechts",
+    "email": "logistik@oda-gesundheit-bern.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "OdA Gesundheit Bern",
+    "phone": "+41 31 970 40 70",
+    "id": "node/14162036701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4159583,
+      46.927029
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162087701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Atelier Parc et Promenade a gauche en rentrant, malette de 1er secours disponible",
+    "description": "Disponible durant les heures d'ouverture",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162087701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1568404,
+      46.8214127
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162109401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "A gauche en rentrant configuration de la machine en allemand",
+    "description": "Disponible durant les heures d'ouverture de l'écoie",
+    "email": "chst@ville-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ville de Fribourg",
+    "phone": "+41 26 351 70 14",
+    "id": "node/14162109401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1475886,
+      46.8117295
     ]
   }
 }

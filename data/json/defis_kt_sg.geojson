@@ -32838,6 +32838,30 @@
       47.0805442
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14161894201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zum Gewerbepark Dietfurt, gegenüber der Schreinerei",
+    "description": "Der Defi hängt aussen an der Eingangstür und ist 24/7 zugänglich",
+    "email": "manuela.feuz@snenergie.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "SN Energie AG",
+    "phone": "+41 55 647 42 00",
+    "id": "node/14161894201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0811169,
+      47.3446814
+    ]
+  }
 }
 ]
 }

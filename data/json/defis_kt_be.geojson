@@ -65753,6 +65753,30 @@
       47.1440449
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14162036701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus 1A, 4. OG, rechts",
+    "email": "logistik@oda-gesundheit-bern.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "OdA Gesundheit Bern",
+    "phone": "+41 31 970 40 70",
+    "id": "node/14162036701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4159583,
+      46.927029
+    ]
+  }
 }
 ]
 }
