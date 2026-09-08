@@ -162280,6 +162280,29 @@
       47.4200086
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14161687402",
+  "properties": {
+    "defibrillator:location": "Senevita Regensberg",
+    "email": "regensberg@senevita.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Privatunternehmen",
+    "phone": "+41 44 466 88 50",
+    "id": "node/14161687402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5399579,
+      47.4086461
+    ]
+  }
 }
 ]
 }
