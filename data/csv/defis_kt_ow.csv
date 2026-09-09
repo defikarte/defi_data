@@ -152,3 +152,4 @@ im Haupteingang,","Klingel benutzen, wenn jemand da ist, helfen wir gerne",,defi
 13629744901,node,46.9430356,8.2860294,,,In der Loge,,,defibrillator,,node/13629744901,,,,24/7,,,,
 13700596601,node,46.8895891,8.2452846,permissive,,Klinik Sarnen,,,defibrillator,144,node/13700596601,yes,2,,24/7,Luzerner Psychiatrie AG,+41 58 856 50 46,,
 13817689801,node,46.7872552,8.1583317,,,"Stiftung Betagtenheim, Eyhuis, neben Lieferanteneingang",,,defibrillator,144,node/13817689801,no,0,,24/7,"Stiftung Betagtenheim Lungern, Eyhuis",,,
+14162388102,node,46.8960388,8.2451334,permissive,,"Dorfplatz 8, Rathaus, Sarnen",Während der Öffnungszeiten verfügbar Mo-Fr 8-12 / 13.30-17h,staatskanzlei@ow.ch,defibrillator,144,node/14162388102,yes,1,,,Kanton Obwalden,+41 41 666 63 12,,

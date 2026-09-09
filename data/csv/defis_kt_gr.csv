@@ -609,7 +609,7 @@ Neben Eingang Gemeindeverwaltung
 11930405269,node,46.8480509,9.5019969,permissive,,,,,,,,,,,,Medienhaus Somedia Chur,,,Eingangshalle Gegenüber Haupteingang,,defibrillator,,144,,,,node/11930405269,,,yes,,,0,,,Mo-Fr 07:30-17:00,Somedia Services AG,,,+41 81 255 55 61,,,"local_knowledge, defikarte.ch",,
 11930405270,node,46.7743259,9.2066073,permissive,,,,,,,,,,,,Druckereigebäude,,,Während Öffnungszeiten verfügbar. Mo.-Fr. 08.00-12.00 / 13.00-17.00,,defibrillator,,144,,,,node/11930405270,,,yes,,,,,,,Communicaziun.ch AG,,,,,,"local_knowledge, defikarte.ch",,
 11932699861,node,46.6162222,9.4261725,yes,,,,,,,,,2024-05-25,,,"In einer Nische, im grünen Aussenkasten",,,,,defibrillator,,144,,,,node/11932699861,,,no,,,,,,24/7,First Responder Schams,,,,,,,,
-11932701415,node,46.6345033,9.4420796,yes,,,,,,,,,,,,Kassengebäude Zugang Besichtigung der Kirche St. Martin,,,,,defibrillator,,144,,,,node/11932701415,,,yes,,,,,,Mo-Su 10:00-17:00,First Responder Schams,,,,,,,,
+11932701415,node,46.6344973,9.4420642,yes,,,,,,,,,,,,Kassengebäude Zugang Besichtigung der Kirche St. Martin,,,,,defibrillator,,144,,,,node/11932701415,,,yes,,,,,,Mo-Su 10:00-17:00,First Responder Schams,,,,,,,,
 11932709815,node,46.634022,9.4248368,yes,,,,,,,,,2024-05-25,,,Im Sitzungszimmer der Gemeindekanzlei auf dem Tisch,,,,,defibrillator,,144,,,,node/11932709815,,,yes,,,,,,24/7,First Responder Schams,,,,,,,,
 11932755097,node,46.6125815,9.4380912,yes,,,,,,,,,,,,"Im Kehrichthäuschen, im grünen Aussenkasten",,,,,defibrillator,,144,,,,node/11932755097,,,yes,,,,,,24/7,First Responder Schams,,,,,,,,
 11933763269,node,46.727533,9.5574892,yes,,,,,,,,,,,,Reception Schweizerhof,,,,,defibrillator,,144,,,,node/11933763269,,,yes,,,0,,,24/7,Hotel,,,,,,,,
