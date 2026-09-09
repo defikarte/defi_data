@@ -6802,43 +6802,17 @@
 },
 {
   "type": "Feature",
-  "id": "node/13964964201",
+  "id": "node/13964974401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gare Martigny DEA",
-    "description": "Sur quai 1",
+    "defibrillator:location": "Quai 1 de la gare de Martigny à l'arrière du centre voyageurs",
     "email": "francine.vaquin@sbb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "1",
-    "opening_hours": "24/7",
-    "operator": "SBB - CFF",
-    "phone": "+41 79 255 80 34",
-    "id": "node/13964964201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0791621,
-      46.1057925
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13964974401",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "gare Martigny",
-    "description": "quai 1 défibrillateur",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1",
     "opening_hours": "24/7",
     "operator": "SBB/CFF",
-    "phone": "+41792558034",
+    "phone": "+41 79 255 80 34",
     "id": "node/13964974401"
   },
   "geometry": {
@@ -6846,27 +6820,6 @@
     "coordinates": [
       7.0791881,
       46.105893
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13965003001",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gare Martine débrilateur SBB-CFF",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "SBB-procamed",
-    "phone": "+41792558034",
-    "id": "node/13965003001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0792777,
-      46.1057189
     ]
   }
 },

@@ -1075,9 +1075,10 @@
   "id": "node/7579693163",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckgebäude Alosen",
+    "defibrillator:location": "Aussen an der Wand vom Mehrzweckgebäude Alosen, in hellgrünem Metallkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579693163"
@@ -1085,8 +1086,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6353546,
-      47.1413377
+      8.6353684,
+      47.1413454
     ]
   }
 },

@@ -24564,6 +24564,52 @@
       47.0621312
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14165508601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sozialversicherungszentrum WAS Luzern",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "WAS Luzern",
+    "id": "node/14165508601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2953091,
+      47.0388458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165517501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sozialversicherungszentrum WAS Luzern",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "WAS Luzern",
+    "id": "node/14165517501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2949791,
+      47.0391364
+    ]
+  }
 }
 ]
 }

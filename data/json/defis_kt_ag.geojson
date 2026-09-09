@@ -31640,6 +31640,29 @@
       47.312351
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14165523001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gartenweg 12, beim Rollstuhleingsmg",
+    "description": "Montag bis Samstag",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00",
+    "operator": "naef ortho Praxis für Kieferorthopädie AG",
+    "phone": "+41618311168",
+    "id": "node/14165523001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.797191,
+      47.5536919
+    ]
+  }
 }
 ]
 }

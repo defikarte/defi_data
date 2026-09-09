@@ -19494,6 +19494,56 @@
       47.3680643
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14165488002",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Restaurant BANK",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "service@bindella.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "operator": "Kafi Bank AG",
+    "phone": "+41 44 211 80 04",
+    "id": "node/14165488002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5264693,
+      47.3764345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165752801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Right by the entrance, at the Netcetera AG reception.",
+    "description": "Accessible during opening hours",
+    "email": "fm-ch@netcetera.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00",
+    "operator": "Netcetera AG",
+    "phone": "+41 44 297 57 35",
+    "id": "node/14165752801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5144104,
+      47.3785878
+    ]
+  }
 }
 ]
 }

@@ -44556,9 +44556,10 @@
   "id": "node/7579693163",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Mehrzweckgebäude Alosen",
+    "defibrillator:location": "Aussen an der Wand vom Mehrzweckgebäude Alosen, in hellgrünem Metallkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Oberägeri",
     "id": "node/7579693163"
@@ -44566,8 +44567,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6353546,
-      47.1413377
+      8.6353684,
+      47.1413454
     ]
   }
 },
@@ -281159,8 +281160,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4420796,
-      46.6345033
+      9.4420642,
+      46.6344973
     ]
   }
 },
@@ -372580,43 +372581,17 @@
 },
 {
   "type": "Feature",
-  "id": "node/13964964201",
+  "id": "node/13964974401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gare Martigny DEA",
-    "description": "Sur quai 1",
+    "defibrillator:location": "Quai 1 de la gare de Martigny à l'arrière du centre voyageurs",
     "email": "francine.vaquin@sbb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "level": "1",
-    "opening_hours": "24/7",
-    "operator": "SBB - CFF",
-    "phone": "+41 79 255 80 34",
-    "id": "node/13964964201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0791621,
-      46.1057925
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13964974401",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "gare Martigny",
-    "description": "quai 1 défibrillateur",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1",
     "opening_hours": "24/7",
     "operator": "SBB/CFF",
-    "phone": "+41792558034",
+    "phone": "+41 79 255 80 34",
     "id": "node/13964974401"
   },
   "geometry": {
@@ -372624,27 +372599,6 @@
     "coordinates": [
       7.0791881,
       46.105893
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13965003001",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gare Martine débrilateur SBB-CFF",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "SBB-procamed",
-    "phone": "+41792558034",
-    "id": "node/13965003001"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0792777,
-      46.1057189
     ]
   }
 },
@@ -382274,6 +382228,200 @@
     "coordinates": [
       7.1492665,
       46.8041111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165488002",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Restaurant BANK",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "service@bindella.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 10:00-22:00",
+    "operator": "Kafi Bank AG",
+    "phone": "+41 44 211 80 04",
+    "id": "node/14165488002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5264693,
+      47.3764345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165508601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sozialversicherungszentrum WAS Luzern",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "WAS Luzern",
+    "id": "node/14165508601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2953091,
+      47.0388458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165517501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sozialversicherungszentrum WAS Luzern",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "WAS Luzern",
+    "id": "node/14165517501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2949791,
+      47.0391364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165523001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gartenweg 12, beim Rollstuhleingsmg",
+    "description": "Montag bis Samstag",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 07:00-19:00",
+    "operator": "naef ortho Praxis für Kieferorthopädie AG",
+    "phone": "+41618311168",
+    "id": "node/14165523001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.797191,
+      47.5536919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165598301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsschule Stadelhofen Filiale Dübendorf Haus A",
+    "description": "während Öffnungszeiten verfügbar, während Schulferien geschlossen",
+    "email": "sekretariat.fdu@edu.zh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kanton",
+    "phone": "+41 43 256 27 27",
+    "id": "node/14165598301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6144092,
+      47.4021449
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165612602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsschule Stadelhofen Filiale Dübendorf Haus B",
+    "description": "während Öffnungszeiten verfügbar, während Schulferien geschlossen",
+    "email": "sekretariat.fdu@edu.zh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kanton",
+    "phone": "+41 43 256 27 27",
+    "id": "node/14165612602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6139923,
+      47.4015597
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165612603",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsschule Stadelhofen Filiale Dübendorf, Sporthalle",
+    "description": "während Öffnungszeiten verfügbar, während Schulferien geschlossen",
+    "email": "sekretariat.fdu@edu.zh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kanton",
+    "phone": "+41 43 256 27 27",
+    "id": "node/14165612603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6133244,
+      47.4017195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14165752801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Right by the entrance, at the Netcetera AG reception.",
+    "description": "Accessible during opening hours",
+    "email": "fm-ch@netcetera.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00",
+    "operator": "Netcetera AG",
+    "phone": "+41 44 297 57 35",
+    "id": "node/14165752801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5144104,
+      47.3785878
     ]
   }
 }
