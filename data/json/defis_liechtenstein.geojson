@@ -1,6 +1,5151 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/7813190773",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mühleholzmarkt",
+    "description": "während Öffnungszeiten verfügbar, direkt an der Wand bei den Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Sa 07:00-19:00",
+    "operator": "Mühleholzmarkt, Hauswartung Immo Vogt",
+    "phone": "+423 222 01 35",
+    "id": "node/7813190773"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5099866,
+      47.1545645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8842630421",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Tennishalle Schaanerstrasse 42",
+    "description": "Im Gang zwischen den Eingängen bei den Hallen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-22:00",
+    "operator": "Tennisclub Vaduz",
+    "phone": "+423 222 01 35",
+    "id": "node/8842630421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5071502,
+      47.1509125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8842630422",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vadozner Huus, Rathausplatz, Gemeindepolizei",
+    "description": "An der Aussenwand bei der Gemeindepolizei Rathausplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "id": "node/8842630422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5223373,
+      47.1404741
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556000",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Jungendhaus Malbun, Flur Erdgeschoss",
+    "description": "Nur Verfügbar wenn Tagesbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Betreiber Jugendhaus Landesverwaltung",
+    "phone": "+423 263 22 86",
+    "id": "node/9004556000"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5960319,
+      47.1099416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Obergufer, Turnhalle und Schuleingang",
+    "description": "24h verfügbar Eingangsbereich Turnhalle aussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 75",
+    "id": "node/9004556001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5474035,
+      47.1169584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556004",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dorfzentrum, Eingang Gemeindeverwaltung Warteraum",
+    "description": "Öffentlich zugänglich und im Wandkasten verbaut unterhalb Infobildschirm und neben WC Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 69",
+    "id": "node/9004556004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5432273,
+      47.1179677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportplatz Leitawis Sanitätsraum Tribüne Hauptplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 68",
+    "id": "node/9004556005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5405088,
+      47.1147438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556006",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pfarrkirche Balzers, bei der Toilettenanlage aussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41 79 698 93 11",
+    "id": "node/9004556006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5019813,
+      47.0654426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556008",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindesaal Balzers",
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41 79 697 33 26",
+    "id": "node/9004556008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5024067,
+      47.0665958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556010",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hallenbad Balzers Bademeisterkabine",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-22:00",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41 78 802 10 79",
+    "id": "node/9004556010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5027715,
+      47.0674838
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556011",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fussballplatz Hauptgebäude",
+    "description": "Nebeneingang Hauptgebäude FC, direkt neben der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41 79 639 33 13",
+    "id": "node/9004556011"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4954404,
+      47.0732475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556013",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Pfarrkirche, Eingang links an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 792 36 42",
+    "id": "node/9004556013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5302078,
+      47.1064055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556014",
+  "properties": {
+    "defibrillator:location": "LAK Haus, Sekretariat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "Sekretariat",
+    "phone": "+423 399 15 00",
+    "id": "node/9004556014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5253959,
+      47.1044959
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556015",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Primarschule, vor dem Sekretariat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 399 21 90",
+    "id": "node/9004556015"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.526611,
+      47.1053813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004556016",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bademeisterkabine",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Bademeister",
+    "phone": "+423 392 34 94",
+    "id": "node/9004556016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5260477,
+      47.1057958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557420",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Anmeldung",
+    "phone": "+423 399 55 11",
+    "id": "node/9004557420"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5215684,
+      47.1093264
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557421",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Freizeitanlage Kiosk Unterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen GePo",
+    "phone": "+423 236 36 42",
+    "ref": "Sportplatz Triesen",
+    "id": "node/9004557421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5202327,
+      47.110701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557422",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Amt für Kultur, Haupteingang EG links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+423 236 75 43",
+    "id": "node/9004557422"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5196761,
+      47.1202291
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557423",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Europark, Haupteingang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-11:30, 13:30-17:00",
+    "operator": "Karin Pirchler",
+    "phone": "+423 236 60 37",
+    "id": "node/9004557423"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5241353,
+      47.1234905
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557424",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Amt für Strassenverkehr, in der Fahrzeughalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Liecht. Landesverwaltung",
+    "id": "node/9004557424"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5218608,
+      47.1263466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557425",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landespolizei Haupteingang Anmeldung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Landespolizei",
+    "phone": "+423 236 79 87",
+    "id": "node/9004557425"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5221424,
+      47.1260601
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557426",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Amt für Bevölkerungsschutz, Eingang Schulungsgebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+423 236 69 20",
+    "id": "node/9004557426"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5144606,
+      47.1319562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557427",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garagen Werkbetrieb Vaduz / LRK Hauptsitz",
+    "description": "Am Garagentor bei der Bauverwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 222 01 35",
+    "id": "node/9004557427"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5129813,
+      47.1328539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557428",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bürohaus beim Empfang 2.OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Uwe Negele",
+    "phone": "+423 236 71 79",
+    "id": "node/9004557428"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5223704,
+      47.1332444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557430",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Amt für Informatik, Haupteingang Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+423 236 76 25",
+    "id": "node/9004557430"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.521952,
+      47.1358847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557431",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang 1.OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Sekretariat Zentrale",
+    "phone": "+423 236 64 00",
+    "id": "node/9004557431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5190766,
+      47.1374429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557433",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Liechtensteinische Musikschule, Haupteingang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+423 236 69 26",
+    "ref": "Liechtensteinische Musikschule",
+    "id": "node/9004557433"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5230902,
+      47.1366635
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557435",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Regierungsgebäude Haupteingang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Telefonzentrale",
+    "phone": "+423 236 61 11",
+    "id": "node/9004557435"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5226789,
+      47.1370698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557436",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Information Tourismusbüro Liechtenstein Center",
+    "description": "Im Eingangsbereich neben Haupttüre 24/7 zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Auskunft LieMarketing",
+    "phone": "+423 239 63 00",
+    "ref": "Liechtenstein Center",
+    "id": "node/9004557436"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5226547,
+      47.1385276
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557437",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "DLG, Dienstleistungszentrum Giessen\nBeim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+423 236 62 73",
+    "id": "node/9004557437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5201727,
+      47.137545
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557438",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Amt für Gesundheit",
+    "description": "Aeulestr. 51, Haupteingang West",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Markus Heeb, Hausdienst",
+    "phone": "+423 233 40 58",
+    "id": "node/9004557438"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5217951,
+      47.1390421
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557439",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Rheinparkstadion Haupttribüne, Sanitätszimmer",
+    "description": "Am Wochenende nur zu Spielzeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 222 01 35",
+    "id": "node/9004557439"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5106679,
+      47.1407051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557445",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand des Uni Restaurants Aufgang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "id": "node/9004557445"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5160362,
+      47.1494547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557446",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "FMA, Kundenempfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:30-17:00",
+    "operator": "Heinz Schädler, Hausdienst",
+    "phone": "+423 236 62 35",
+    "id": "node/9004557446"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5109495,
+      47.1516141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557447",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Freibad Mühleholz vor Sanitätsraum",
+    "email": "info@freibad.li",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "note": "Nur in Saisonzeiten zugänglich",
+    "operator": "Schwimm- u. Badeanstalt Mühleholz",
+    "phone": "+423 232 24 77",
+    "id": "node/9004557447"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5061994,
+      47.152528
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557448",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Konrad Hanno",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-11:30, 13:00-17:00; Fr 07:30-11:30",
+    "operator": "Angelika Dürr",
+    "phone": "+423 237 72 44",
+    "id": "node/9004557448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5081292,
+      47.1576578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557449",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennisanlage Dux, Öffentliches WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan Alex Steiger, SIBE",
+    "phone": "+423 237 72 44",
+    "id": "node/9004557449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5274881,
+      47.1674173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557451",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hallenbad / Turnhalle Eingang Schulhaus Resch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan Alex Steiger, SIBE",
+    "phone": "+423 237 72 44",
+    "id": "node/9004557451"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.514968,
+      47.1662426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557455",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "SAL, öffentlicher Durchgang beim WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan Alex Steiger, SIBE",
+    "phone": "+423 237 72 44",
+    "id": "node/9004557455"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5098203,
+      47.1665019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557456",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus der Wirtschaft: Eingang EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Empfang",
+    "phone": "+423 236 71 00",
+    "id": "node/9004557456"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5099196,
+      47.1677036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557458",
+  "properties": {
+    "defibrillator:location": "LAK Haus in Cafeteria",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "Sekretariat",
+    "phone": "+423 236 47 47",
+    "id": "node/9004557458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5080823,
+      47.1690001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557459",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ivoclar Empfang",
+    "description": "Zugang nur bei Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Ivoclar",
+    "phone": "+423 235 35 35",
+    "id": "node/9004557459"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5093983,
+      47.1727032
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557460",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhofstrasse 7, Vis a Vis des Werkhofs und Altstoffsammelstelle",
+    "description": "Werkhofstrasse 7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan, Alex Steiger, SIBE",
+    "phone": "+423 237 72 44",
+    "id": "node/9004557460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5121324,
+      47.1707962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557462",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Liecht. Kraftwerke, LKW",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "LKW, Liecht. Kraftwerke",
+    "phone": "+423 236 01 11",
+    "id": "node/9004557462"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5116658,
+      47.1748969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557463",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "hpz Werkstätten Auxilia, erster Stock gegenüber Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Fredy Kindle SIBE",
+    "phone": "+423 239 61 70",
+    "id": "node/9004557463"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5128432,
+      47.1745942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557464",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Werk 1",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Leiter Werkschutz",
+    "phone": "+423 234 22 01",
+    "id": "node/9004557464"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5244276,
+      47.1793582
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557465",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ospelt: Portier/Securitasloge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Securitas",
+    "phone": "+41 58 377 11 10",
+    "id": "node/9004557465"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5013177,
+      47.2002032
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "LAK Haus am Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "Sekretariat",
+    "phone": "+423 377 46 00",
+    "id": "node/9004557469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5244518,
+      47.2114243
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557470",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulzentrum Eschen, Hallenbad, erste Hilfe Raum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-21:00",
+    "operator": "Bademeister",
+    "phone": "+423 373 48 66",
+    "id": "node/9004557470"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5262194,
+      47.2134996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557473",
+  "properties": {
+    "defibrillator:location": "Pförnerhaus Anmeldung Sicherheit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Sicherheitsbeauftragte Frau Sandra Konzet",
+    "phone": "+423 377 23 11",
+    "id": "node/9004557473"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5293897,
+      47.2080317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557474",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportpark Eschen-Mauren",
+    "description": "Nebeneingang zu den Kabinen EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen",
+    "phone": "+423 794 90 20",
+    "id": "node/9004557474"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5383885,
+      47.2058305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557475",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrdepot",
+    "defibrillator:location:en": "fire station",
+    "description": "Bei den Garagentoren",
+    "email": "gemeinde@mauren.li",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "panoramax": "8bfe5f1d-876f-487d-b48e-4997bbd28708",
+    "phone": "+423 792 22 41",
+    "wheelchair": "designated",
+    "id": "node/9004557475"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5471501,
+      47.2098016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557476",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schaanwald Parkplatz Bancomat Zuschg",
+    "defibrillator:location:en": "Next to the cash machine, on the outer wall",
+    "description": "Neben Bancomat, Aussenwand",
+    "email": "gemeinde@mauren.li",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "panoramax": "62fb4c4c-e944-4105-8636-7741195ee375",
+    "phone": "+423 792 22 47",
+    "wheelchair": "designated",
+    "id": "node/9004557476"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.56206,
+      47.2109182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557477",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schule, Eingang bei Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+423 792 22 41",
+    "id": "node/9004557477"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5638239,
+      47.2108577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557478",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "KaiserAG - Obere Werkhalle - Sicherheitsposten",
+    "defibrillator:location:en": "Company: Kaiser AG",
+    "email": "gemeinde@mauren.li",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Thomas Lampert",
+    "phone": "+4223 377 21 30",
+    "wheelchair": "yes",
+    "id": "node/9004557478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5683622,
+      47.2169156
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557479",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Öffentliche Toilette / WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+423 792 22 59",
+    "id": "node/9004557479"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5436196,
+      47.2206587
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557481",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppenhaus UG der Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:30",
+    "operator": "Hausdienst",
+    "phone": "+423 792 22 40",
+    "id": "node/9004557481"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5441633,
+      47.2212186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557482",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verwaltungseingang EG",
+    "description": "Bei Eingang Gemeindeverwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schellenberg",
+    "phone": "+423 222 01 35",
+    "id": "node/9004557482"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5466444,
+      47.2323843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557484",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindesaal im Foyer",
+    "description": "Nur bei Veranstaltungen verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/9004557484"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5252296,
+      47.2394468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557487",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennishaus",
+    "description": "Erdgeschoss Aussen unter der Terrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/9004557487"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5245173,
+      47.2452964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557488",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Freizeitpark und Fussballplatz Widau",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/9004557488"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5279824,
+      47.2470901
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9088806217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Gamprin, gegenüber Bankomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gamprin-Bendern",
+    "phone": "+423 375 91 00",
+    "id": "node/9088806217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5106176,
+      47.2184097
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9088810017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeschulen Gamprin, gegenüber Eingang Aula",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gamprin-Bendern",
+    "phone": "+423 375 91 00",
+    "id": "node/9088810017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5109559,
+      47.2197109
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9088810018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Post Bendern",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gamprin-Bendern",
+    "phone": "+423 375 91 00",
+    "id": "node/9088810018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5029242,
+      47.2105658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9088812017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Freizeitanlage Grossabünt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gamprin-Bendern",
+    "phone": "+423 375 91 00",
+    "id": "node/9088812017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5057481,
+      47.2177819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9088820717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bongert / Parkplatz Kirche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gamprin-Bendern",
+    "phone": "+423 375 91 00",
+    "id": "node/9088820717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5046536,
+      47.2120567
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9180373117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "LFV Campus und FC Schaan Rheinwiese Schaan",
+    "description": "Beim Treppenaufgang zur Tribüne, direkt neben dem Restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+423 222 01 25",
+    "id": "node/9180373117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4929023,
+      47.1667836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9219009136",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Telecom Liechtenstein Schaanerstr. 1,",
+    "description": "Beim Verkaufsladen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
+    "operator": "Telecom Liechtenstein AG",
+    "phone": "+423 237 74 00",
+    "id": "node/9219009136"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5105486,
+      47.1468193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9352008617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulzentrum Planken",
+    "description": "Hinter dem Gebäude, öffentlich zugänglich bei den Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Planken",
+    "phone": "+423 375 81 00",
+    "ref": "Schulhaus / Feuerwehrdepot",
+    "id": "node/9352008617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5461863,
+      47.1857513
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9472004262",
+  "properties": {
+    "defibrillator:location": "4.OG Empfang rechts hinter Glaswand",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Robert Edlinger",
+    "phone": "+43 664 281 4920",
+    "id": "node/9472004262"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5355642,
+      47.2072331
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10074622164",
+  "properties": {
+    "defibrillator:location": "Hauptgebäude VP Bank. Bei Personaleingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-21:00",
+    "operator": "VP Bank",
+    "phone": "+42 32356310",
+    "id": "node/10074622164"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5206784,
+      47.1364399
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10074622165",
+  "properties": {
+    "defibrillator:location": "Haus Giessen VP Bank, Bei Personaleingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-21:00",
+    "operator": "VP Bank",
+    "phone": "+42 32356310",
+    "id": "node/10074622165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5202675,
+      47.1403781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10074622166",
+  "properties": {
+    "defibrillator:location": "Haus Zentrum Triesen, VP Bank bei Personaleingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-21:00",
+    "operator": "VP Bank",
+    "phone": "+42 32356310",
+    "id": "node/10074622166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5244146,
+      47.1217239
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10127670618",
+  "properties": {
+    "defibrillator:location": "INFICON AG, 2.OG im Atrium bei Kantine",
+    "description": "während Öffnungszeiten verfügbar 08:00 - 12:00 / 13:30 - 17:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "INFICON AG",
+    "id": "node/10127670618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5138074,
+      47.0757407
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10282470612",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "HPZ Schule Haupteingang",
+    "description": "während Öffnungszeiten der Schule verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10282470612"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5151529,
+      47.1678344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10581038974",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Müller AG, Westfassade Franz-Josef-Öhri-Strasse 32",
+    "description": "Aussengehäuse in der Mitte der Westfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Müller AG Schreinerei und Innenausbau, Mauren",
+    "phone": "+423 377 12 90",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10581038974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5487982,
+      47.2221003
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10599307305",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhaus, Rhigass 5, 9487 Gamprin-Bendern",
+    "description": "An Aussenfassade neben Gebäudeeingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gamprin",
+    "phone": "+423 375 91 00",
+    "id": "node/10599307305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5027666,
+      47.2063538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10720578105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ARA Bendern",
+    "description": "Beim Velounterstand rechts Neben Haupttor",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Abwasserzweckverband der Gemeinden Liechtensteins",
+    "phone": "+423 377 17 44",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10720578105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5017303,
+      47.2139967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310410",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Universität, Spörry, Bei Empfang 1. OG",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "name": "Universität Liechtenstein",
+    "opening_hours": "Mo-Th 08:30-12:00,13:30-17:00, Fr 08:30-12:00,13:30-15:00",
+    "operator": "Universität",
+    "id": "node/10763310410"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5164293,
+      47.1494507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310412",
+  "properties": {
+    "defibrillator:location": "2.OG, Empfang",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "name": "Bemer International AG",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:00-17:00; Fr 08:00-12:00, 13:00-15:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310412"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.52209,
+      47.12098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310413",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Mercedes Garage Weilenmann, EG, Kundenwartebereich",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Garage Weilenmann AG",
+    "opening_hours": "Mo-Fr 07:30-18:00; Sa 08:00-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310413"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5097915,
+      47.1741828
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310414",
+  "properties": {
+    "defibrillator:location": "1.OG, Küche Cafeteria",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "name": "IFM Independent Fund Management AG (F&M AG)",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310414"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.50878,
+      47.16562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310415",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Home of Finance, Zollstr. 32",
+    "description": "Empfang im EG, oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "SOLFIN Financial Service Solutions AG",
+    "opening_hours": "Mo-Fr 08:30-12:00, 13:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310415"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5174593,
+      47.1329507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hotel Gorfion, Mitarbeiter Treppenhaus, hinter Tür EG.",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "name": "Hotel Gorfion Anstalt",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.60902,
+      47.10129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10765221505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sonnenplatz Einkaufszentrum",
+    "description": "Beim Haupteingang zwischen den Schiebetüren",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:00-17:00; Su 08:00-17:00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10765221505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5254154,
+      47.1090444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10795986605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Liecht. Braustube, Eingang bei Briefkästen. An der Wand gegenüber des Lifts montiert.",
+    "description": "von Mo-Fr 08.00-12.00 Uhr / 13.00-17.00 Uhr und den Öffnungszeiten der Braustube verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "HFH AG",
+    "id": "node/10795986605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5164561,
+      47.1772926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10819384705",
+  "properties": {
+    "defibrillator:location": "RMS Shooting und Kafi",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "operator": "RMS Shooting",
+    "id": "node/10819384705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5146022,
+      47.1774116
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266741",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haus Amann",
+    "description": "Im Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.1388577",
+    "longitude": "9.521315769",
+    "name": "Funk Insurance Brokers AG",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Lifetec AG",
+    "id": "node/11037266741"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5213163,
+      47.1388578
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11217394739",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zollamt Schaanwald",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-18:00; Sa 10:00-18:00",
+    "operator": "BAZG",
+    "id": "node/11217394739"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5697308,
+      47.2180305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11276896069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Office Building, Landstrasse 105, 9495 Triesen",
+    "description": "Office opening hours",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-12:00,13:30-17:00",
+    "operator": "Euro Atlantic Foundation",
+    "phone": "+4233997550",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11276896069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5239305,
+      47.1155115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11296224569",
+  "properties": {
+    "defibrillator:location": "Schluchertreff Malbun, Öffentlicher Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 61",
+    "id": "node/11296224569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6079587,
+      47.1033471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11371369571",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ampera House",
+    "description": "Haupteingang nur zu Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Privat",
+    "id": "node/11371369571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5187459,
+      47.1784333
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11395695569",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Labor Risch, Im Empfangsbereich",
+    "description": "Bei der Garderobe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30 - 12:30, 13:30 - 18:30",
+    "operator": "Dr. Risch Anstalt",
+    "phone": "+41 58 523 30 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11395695569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5136237,
+      47.1343666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11401087569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportzentrum Schellenberg",
+    "description": "Bei Haupteingang Sportzentrum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schellenberg",
+    "phone": "+423 222 01 35",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11401087569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5511425,
+      47.2344678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409708469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Haupteingang",
+    "description": "Hinter Schiebetüre neben Lift / Alarmgesichert ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen",
+    "phone": "+423 794 90 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409708469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5235586,
+      47.2124884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409708470",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Forstwerkhof Eschen-Nendeln",
+    "description": "Direkt an der Fassade beim Eingang ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen",
+    "phone": "+423 794 90 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409708470"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5483422,
+      47.1963031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409722070",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschule Nendeln",
+    "description": "Beim Eingang zur Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen Nendeln",
+    "phone": "+423 794 90 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11409722070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.546631,
+      47.197459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11409822869",
+  "properties": {
+    "defibrillator:location": "Bushaltestelle Essanestrasse Presta",
+    "description": "An Bushaltestelle Rückwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen",
+    "phone": "+423 794 90 20",
+    "id": "node/11409822869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5277811,
+      47.207529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11412517769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Haupteingang",
+    "description": "Von Poststrasse aus sichtbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11412517769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5248246,
+      47.2407069
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11412699570",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Ebenholz Im Parkhaus",
+    "description": "ca. 30 Meter in die Einfahrt fahren rechts an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 29",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11412699570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.514423,
+      47.1484976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11412741569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kindergarten Schwefel Eingangsbereich ",
+    "description": "Im gedeckten Eingangsbereich ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz ",
+    "phone": "+423 265 06 06",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11412741569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5244062,
+      47.1292208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11412750269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wuhrstrasse 7 Bürogebäude",
+    "description": "Bei Haupteingang neben Türe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11412750269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.51401,
+      47.1353665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11413452269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Forstwerkhof Vaduz Letziweg",
+    "description": "An der Hauswand ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "id": "node/11413452269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5250811,
+      47.148332
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11413463669",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schloss Vaduz",
+    "description": "In der Küche beim Personal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hauswart Schloss",
+    "id": "node/11413463669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5243141,
+      47.1397125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11413493469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wertstoffsammelstelle Vaduz/Triesen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "id": "node/11413493469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5224357,
+      47.1242447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11414811071",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rheinparkstadion WC Damen neben Spielplatz",
+    "description": "Ist witterungsgeschützt im inneren der Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "id": "node/11414811071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5106669,
+      47.1415672
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11414830169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rheinparkstadion Trainingsgelände Platz 4 Nord",
+    "description": "An Wand des Eingangs (nähe Schrebergärten)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "id": "node/11414830169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5091949,
+      47.1433146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11414830171",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehr und Samariter Depot, Schaanerstr. 43",
+    "description": "Am Eingang zum Depot",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 222 01 35",
+    "id": "node/11414830171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5070739,
+      47.1501554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11438903069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus der Familien beim LLB Bankomat",
+    "description": "Im öffentlich zugänglichen Bankomatenraum neben dem Eingang der Drogerie Müller",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan Alex Steiger SiBe",
+    "id": "node/11438903069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5082954,
+      47.1648445
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11457632569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Roxy Markt",
+    "description": "Im Gang zum Migrosmarkt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "Stefan Ospelt",
+    "id": "node/11457632569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5121218,
+      47.0753508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11457634669",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Umicore AG Betriebssanität ",
+    "description": "Bei der Betriebssanität",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Umicore AG",
+    "id": "node/11457634669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5132609,
+      47.076262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11480627969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Clinicum Alpinum",
+    "description": "Beim Eingang vom öffentlichen WC und dem Reastaurant Gaflei Stuba ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Clinicum",
+    "phone": "+423 238 85 00",
+    "id": "node/11480627969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5444216,
+      47.1429181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11531604931",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindesaal,\nBeim Haupteingang links an der Wand",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "id": "node/11531604931"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5192402,
+      47.1383792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11598105669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Hallenbad / Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+4233993692",
+    "id": "node/11598105669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5261586,
+      47.1059712
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11598729469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nellengasse Primarschule Garage Hauswartung",
+    "description": "Bei Garagentore an Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/11598729469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5259957,
+      47.2390233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11649491371",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tennishaus",
+    "description": "Beim Eingang zur Tennishalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen / Tennisclub Triesen",
+    "phone": "+423 792 36 42",
+    "id": "node/11649491371"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5262425,
+      47.0930718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11649514569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Campingplatz Mittagsspitze",
+    "description": "Direkt bei Strasse sichtbar, Einfahrt Camping, Hausfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 792 36 42",
+    "id": "node/11649514569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5270424,
+      47.0861519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11652564769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Gemeindeveraltung",
+    "description": "Aussenwand bei Tiefgaragenzugang Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 792 36 42",
+    "id": "node/11652564769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.523884,
+      47.1100085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11676134010",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Universität Liechtenstein, 1.OG Cafeteria",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "name": "Universität Liechtenstein",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Lifetec AG Schweitz",
+    "phone": "+41 800 122 144",
+    "id": "node/11676134010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5113465,
+      47.1518677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11694863269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "LAK, Garderobe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "LAK",
+    "id": "node/11694863269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5229979,
+      47.135526
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11695090769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Spörry Triesen, Treppenturm",
+    "description": "Beim Treppenturm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 222 01 35",
+    "id": "node/11695090769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5263641,
+      47.1079353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11698448369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pförtnerhaus, Schloss-Sicherheit",
+    "description": "Beim Pförtner um Hilfe rufen. ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schloss Vaduz",
+    "id": "node/11698448369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5246114,
+      47.13898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11698462269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Realschule, Turnhalle",
+    "description": "Bei der Mensa, Eingangshalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Landesverwaltung",
+    "id": "node/11698462269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5257519,
+      47.1053826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11698519869",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "WST, Oberschule in Telefonnische",
+    "description": "vis a vis Sekretariat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Landesverwaltung",
+    "id": "node/11698519869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5259775,
+      47.1049458
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11754925369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrdepot Garagentore",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/11754925369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5230189,
+      47.243565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11769835969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Strassenkreuzung Lawenastrasse / Garnis",
+    "description": "Direkt an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 792 36 42",
+    "id": "node/11769835969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5358453,
+      47.1002091
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11769839169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landesspital Eingang Empfang",
+    "description": "Direkt beim Eingangsbereich nähe Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "LLS",
+    "id": "node/11769839169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5225524,
+      47.1345827
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11809529069",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Deponie im Rain",
+    "description": "im Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 222 01 35",
+    "id": "node/11809529069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5181298,
+      47.1544879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11826866284",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Oberweilerstrasse Verzweigung Geisszipfelstrasse",
+    "description": "Privatgrundstück Hausfassade gut ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/11826866284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.524427,
+      47.2353045
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11827202448",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Musikhaus EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-22:00",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/11827202448"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5249385,
+      47.2396125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11827202449",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "Während externen Betrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+423 377 49 20",
+    "id": "node/11827202449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5252214,
+      47.2393475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11834901471",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Sareis Bergrestaurant, Eingangsbereich",
+    "description": "Wärend Öffnungszeiten und Bahnbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Bergbahnen Malbun",
+    "id": "node/11834901471"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6202875,
+      47.1026378
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11834920269",
+  "properties": {
+    "defibrillator:location": "Schneeflucht Restaurant, Eingangsbereich",
+    "description": "In der Skisaison und den Öffnungszeiten des Restaurants verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Bergbahnen Malbun",
+    "id": "node/11834920269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5994944,
+      47.1095262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11849557271",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wangerberg / Sütigerwis Spielplatz",
+    "description": "An WC Häuschen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg GePo",
+    "phone": "+423 792 26 61",
+    "id": "node/11849557271"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.54582,
+      47.1086364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11849635098",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gut sichtbar an der Hauptstrasse beim Holzschopf;Direkt an Strasse / Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 61",
+    "id": "node/11849635098"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5493519,
+      47.1185506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11849773998",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Masescha, Öffentliches WC / Entsorgung",
+    "description": "In der Nische zum Eingang der Toilette / Wartebereich Bushaltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 61",
+    "id": "node/11849773998"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.542801,
+      47.1325985
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11850190269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rizlina öffentliches WC",
+    "description": "Aussenwand Nord",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 222 01 35",
+    "id": "node/11850190269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5533848,
+      47.1199508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11850537284",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rotenboden, Saminaüberbauung",
+    "description": "An der Nordfassade direkt an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 61",
+    "id": "node/11850537284"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5389982,
+      47.1273843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886871869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafostation LKW Steinortstrasse",
+    "description": "Direkt neben der Strasse ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 61",
+    "id": "node/11886871869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5503341,
+      47.1133862
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886879169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Steg Zollhaus Bushaltestelle",
+    "description": "Bei den Postfächern / Bushaltestelle an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 792 26 61",
+    "id": "node/11886879169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5769323,
+      47.1126858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11916053469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirche Nendeln, öffentliche Toilette",
+    "description": "Öffentliche Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen-Nendeln",
+    "phone": "+4237949020",
+    "id": "node/11916053469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5447861,
+      47.1995431
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12011868469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Liechtenstein Wärme",
+    "description": "Beim Haupteingang an der Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Wärme.li",
+    "phone": "+4232361555",
+    "id": "node/12011868469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5099569,
+      47.1737575
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12067551769",
+  "properties": {
+    "defibrillator:location": "Reception, Park Hotel Sonnenhof",
+    "description": "taeglich von 06:30 bis 22:00 uhr verfuegbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 06:30-24:00",
+    "operator": "Park Hotel Sonnenhof",
+    "phone": "+4232390202",
+    "id": "node/12067551769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5233675,
+      47.1472271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12069964269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kinderspielplatz Auring",
+    "description": "Am Toilettengebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+4237937802",
+    "id": "node/12069964269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5179357,
+      47.1354929
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12071244969",
+  "properties": {
+    "access": "yes",
+    "check_date": "2025-02-22",
+    "defibrillator:location": "Rheinparkstadion Kassahaus Parkplätze",
+    "description": "Am Kassahaus Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 793 78 02",
+    "id": "node/12071244969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5106807,
+      47.1394554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12106370601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Praxis Dr. med. Christoph Wanger, Zimmer: Ergometrie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo, Tu, We, Fr 08:00-12:00, 14:00-18:00, Th 08:00-12:00",
+    "operator": "Arztpraxis",
+    "phone": "+41 79 249 89 76",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12106370601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5080179,
+      47.1640455
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12122290501",
+  "properties": {
+    "defibrillator:location": "Spielplatz Waldhotel",
+    "description": "Bei den öffentlichen Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+4237937802",
+    "id": "node/12122290501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5212921,
+      47.1506679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12157841501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kleinsteg Parkplätze Alpwerksgebäude",
+    "description": "Öffentliche Toiletten, WC Anlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+4237922661",
+    "id": "node/12157841501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5770049,
+      47.1079421
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12167764301",
+  "properties": {
+    "defibrillator:location": "Haupteingang / Eingang 1, Lova Center, Austrasse, 9490 Vaduz",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Lova Center",
+    "phone": "+4232361616",
+    "id": "node/12167764301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5242233,
+      47.1228007
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12193430401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "BWB Legal Bürogebäude",
+    "description": "Beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "BWB",
+    "id": "node/12193430401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5244396,
+      47.1255569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12214050201",
+  "properties": {
+    "defibrillator:location": "Tennishaus",
+    "description": "beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+4233771040",
+    "id": "node/12214050201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5400827,
+      47.206865
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12214153201",
+  "properties": {
+    "defibrillator:location": "Bancomat Mauren Post",
+    "description": "beim Bancomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+4233771040",
+    "id": "node/12214153201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5421458,
+      47.2186832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12214268503",
+  "properties": {
+    "defibrillator:location": "Resch Schule Nordseite",
+    "description": "unter den Parkplätzen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+4232377240",
+    "id": "node/12214268503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5160524,
+      47.1664923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12231717901",
+  "properties": {
+    "defibrillator:location": "Im Pardiel 71 an der Strasse",
+    "description": "Kreuzung Pardiel / Wiesengass",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+4237947244",
+    "id": "node/12231717901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5053262,
+      47.1641064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12259416901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hoval AG Firmengelände Haupteingang",
+    "description": "AED im mobilen Notfallrucksack neben Eingangstüre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Hoval AG",
+    "phone": "+423 399 23 82",
+    "id": "node/12259416901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5236719,
+      47.1230687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12259418801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hoval AG, Werksgelände",
+    "description": "Im mobilen Einsatzrucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Hoval",
+    "phone": "+423 399 23 82",
+    "id": "node/12259418801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5216408,
+      47.1216857
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12278966603",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landstrasse 35, Architektur Hasler",
+    "description": "Rechts beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+423 222 01 35",
+    "id": "node/12278966603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5154054,
+      47.1447383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12320165601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Liecht. Business Center",
+    "description": "Beim Eingang innen an der Wand ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Privat",
+    "phone": "+4232652500",
+    "id": "node/12320165601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.523798,
+      47.1142047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12372464101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Sigma Kreditbank Bürohaus ",
+    "description": "im Büro ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Sigma Kreditbank",
+    "phone": "+4232390395",
+    "id": "node/12372464101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5236913,
+      47.1127779
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12372470501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "ITW Gebäude Firma Plan:Ing",
+    "description": "im inneren des Gebäudes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Firma Plan:Ing ",
+    "phone": "+4233779000",
+    "id": "node/12372470501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5129422,
+      47.076753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12507267901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Saxgass 8a Rückhaltebecken",
+    "description": "Sichtbar von der Strasse am Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+4232377200",
+    "id": "node/12507267901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5108604,
+      47.1585846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12508973201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schreinerei Noldi Frommelt AG, rotes Gebäude, Fassade Nordost",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schreinerei Noldi Frommelt",
+    "operator:type": "private",
+    "phone": "+41788007803",
+    "id": "node/12508973201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5072697,
+      47.1792589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12574311801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Argus Sicherheitsdienst AG",
+    "description": "Klingeln und den AED anfordern, dieser wird umgehend gebracht..",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Argus Sicherheitsdienst",
+    "phone": "+4233774040",
+    "id": "node/12574311801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5338979,
+      47.2074649
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12578826001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschule Eschen",
+    "description": "Simsgasse unterhalb des Gebäudes beim Abwartseingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen",
+    "phone": "+423 794 90 20",
+    "id": "node/12578826001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5207233,
+      47.2126662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12625392302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude Vereinshaus",
+    "description": "Beim Eingang Skiclub",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 399 36 36",
+    "id": "node/12625392302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5245702,
+      47.1019264
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12655522201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wohnen im Alter, Elgagass 34",
+    "description": "Eingang Südseite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41796973326",
+    "id": "node/12655522201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4989736,
+      47.0648791
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12655690901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Familienzentrum Heiligwies 24",
+    "description": "Eingang Kindergarten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41796973326",
+    "id": "node/12655690901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5085058,
+      47.0694972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12684800402",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Max Heidegger Autogarage Messinastr. 1",
+    "description": "Direkt an der Industriestrasse ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 792 36 42",
+    "id": "node/12684800402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5195197,
+      47.1194191
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12687191001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafostation LKW Wingerta",
+    "description": "Direkt an der Strasse Wigerta",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41796973326",
+    "id": "node/12687191001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5120978,
+      47.063032
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12687254001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Trafostation LKW Mariahilf",
+    "description": "Beim Parkplatz, hinter dem Kindergarten Mariahilf",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+41796973326",
+    "id": "node/12687254001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4891531,
+      47.0612383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12707297301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Frick Bau Magazin Büro",
+    "description": "Im Büro, 1. Stock",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Frickbau AG",
+    "phone": "+4232364600",
+    "id": "node/12707297301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5116756,
+      47.1760039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12707301801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Frick Bau Elementwerk",
+    "description": "Im Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Frickbau AG",
+    "phone": "+4232364600",
+    "id": "node/12707301801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4913001,
+      47.1667139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12754309901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vogelparadies",
+    "description": "Bei den Veloständern direkt an der Strasse, Josef Murr Weg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+4233771040",
+    "id": "node/12754309901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5502472,
+      47.2155792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12814650501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Meierhofstrasse 120",
+    "description": "Direkt an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+423 792 36 42",
+    "id": "node/12814650501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5307263,
+      47.1128171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12886651201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "NOX Systems AG",
+    "description": "Beim Haupteingang klingeln",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Firma NOX Systems",
+    "phone": "+4233702525",
+    "id": "node/12886651201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5211696,
+      47.1248517
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12952477601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Steinegerta Bildungscampus",
+    "description": "Beim Eingang, an der Infotafel befestigt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+423 222 01 35",
+    "id": "node/12952477601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5212814,
+      47.1634628
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969209301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirche Ruggell",
+    "description": "Beim Hydrant und Anschlagbrett, direkt an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Ruggell",
+    "phone": "+4233774920",
+    "id": "node/12969209301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5283163,
+      47.2410232
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12985552402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "LAK Unterm Schloss 80",
+    "description": "beim Haupteingang rechts in einem Sideboard gelagert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00-18:00",
+    "operator": "LAK",
+    "phone": "+4233881313",
+    "id": "node/12985552402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4979174,
+      47.0649605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13006614102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Müko Gartengestaltung Mauren",
+    "description": "direkt neben der Hauptstrasse, an der Werbetafel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+4232220135",
+    "id": "node/13006614102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5348564,
+      47.2143318
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13096032201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gebr. Hilti AG Baugeschäft Standort",
+    "description": "Im Treppenhaus, zwischen Tiefgarage und Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Gebr. Hilti AG",
+    "phone": "+4232371313",
+    "id": "node/13096032201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5091026,
+      47.1771995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13152917501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Obergass / Fürst Johannes Str.",
+    "description": "direkt an der Strasse bei der Trafostation LKW",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+4232220135",
+    "id": "node/13152917501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.515689,
+      47.1625097
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13152943401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "HPZ Im Kresta 31",
+    "description": "Beim Lieferanteneingang neben Bushaltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+4232220135",
+    "id": "node/13152943401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5170334,
+      47.1704154
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13152990201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hinterschellenberg / Hala",
+    "description": "Beim Veloparkplatz / Spielplatz / gelber Briefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schellenberg",
+    "phone": "+4232220135",
+    "id": "node/13152990201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.559291,
+      47.2407478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13153045701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vorderschellenberg / Widum / Platta",
+    "description": "Bushaltestelle Widum / Platta",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schellenberg",
+    "phone": "+4232220135",
+    "id": "node/13153045701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5386646,
+      47.2290981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13202078501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Coop Tankstelle Gagoz 77 Balzers",
+    "description": "Direkt neben dem Eingang bei den Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+4232220135",
+    "id": "node/13202078501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4974667,
+      47.0684864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13230327601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Dr. Vogt Zahnarzt, Dorfstrasse 7b",
+    "description": "Ebenerdig in der Praxis",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Dr. Helmuth Vogt Zahnarzt",
+    "phone": "+4233922424",
+    "id": "node/13230327601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5259865,
+      47.1099218
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13296381301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Schwärzler Rechtsanwälte",
+    "description": "Beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Schwärzler Rechtsanwälte",
+    "phone": "+423 239 85 40",
+    "id": "node/13296381301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5228522,
+      47.1282952
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13307920301",
+  "properties": {
+    "defibrillator:location": "Gasser Partner Rechtsanwälte",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Firma",
+    "phone": "+4232363080",
+    "id": "node/13307920301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5133669,
+      47.1691321
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13353316115",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "TAK Reberastrasse 12",
+    "description": "Beim TAK direkt an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+4232220135",
+    "id": "node/13353316115"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5117491,
+      47.1673171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13363205401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Behandlungszimmer der Arztpraxis",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:00-15:30",
+    "operator": "Arztpraxis",
+    "phone": "+423 232 11 39",
+    "id": "node/13363205401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5218811,
+      47.1334101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13475549701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Postgebäude Schaan",
+    "description": "Bei der Päcklebox",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13475549701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5085273,
+      47.167682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13485437901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alte Post Landstr. 190, Triesen",
+    "description": "An der Hauswand, direkt an der Haupstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13485437901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.524034,
+      47.1114068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13500741502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kindergarten St. Wolfgangstr. 14, Triesen",
+    "description": "An Trafostation, direkt an der Str. ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+4232220135",
+    "id": "node/13500741502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5262973,
+      47.1175911
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13505334401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zentrum für Schulmedien, Pflugstr. 28",
+    "description": "An der seitlichen Eingangstür",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13505334401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.524473,
+      47.124816
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13505341201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulzentrum Unterland",
+    "description": "Beim Eingang des Hallenbads",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13505341201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5258086,
+      47.2137408
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13506243101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Burg Gutenberg",
+    "description": "An der seitlichen Gebäudemauer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13506243101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5006563,
+      47.0656609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13508520501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Nach dem Haupteingang Gang rechts um die Ecke",
+    "description": "Anmeldung beim Kundendienst an der digitalen Infosäule im Eingangsbereich, Zugang nur für Mitarbeitende",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Liechtensteinische Post AG",
+    "id": "node/13508520501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.493195,
+      47.1688895
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13545531901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kunstschule Nendeln, Churerstrasse 60",
+    "description": "Beim Haupteingang im Vorraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Kunstschule Nendeln",
+    "phone": "+4232220135",
+    "id": "node/13545531901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.541792,
+      47.1975778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13555755501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Standesamt Vaduz, St. Florinsgasse 3",
+    "description": "Beim Aufgang zum Standesamt, direkt an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13555755501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5226925,
+      47.1365035
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13592172501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Mühleholz",
+    "description": "An der Hauswand, direkt bei der Kreuzung Schaanerstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "phone": "+4232220135",
+    "id": "node/13592172501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5059605,
+      47.1557065
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13603072601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrdepot / Werkhof Balzers Neugrüt",
+    "description": "An der Aussenwand bei den Garagen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+4232220135",
+    "id": "node/13603072601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5124786,
+      47.079141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13604905301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus Gutenberg Burgweg 3",
+    "description": "Beim Haupteingang rechts an Hauswand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Balzers",
+    "phone": "+4232220135",
+    "id": "node/13604905301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.49943,
+      47.0641497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13620828901",
+  "properties": {
+    "defibrillator:location": "Im Kokon Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/13620828901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5272198,
+      47.2500324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13622332901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stiftung 50 plus, Im Bretscha 22",
+    "description": "In den Werkstätten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-17:00",
+    "operator": "Stiftung 50 plus",
+    "phone": "+4232220135",
+    "id": "node/13622332901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5094899,
+      47.1704075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13623448701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Landgericht",
+    "description": "Bei Tiefgarageneinfahrt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13623448701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5227466,
+      47.1325795
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13684567301",
+  "properties": {
+    "defibrillator:location": "SZU OG2 Eingang",
+    "description": "während den regulären schulzeiten benutzbar 07:30-16:50",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "02",
+    "opening_hours": "Mo-Fr 07:30-16:50",
+    "operator": "Gemeinde Eschen",
+    "id": "node/13684567301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5269979,
+      47.2140602
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13732131101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zollhaus Binza Mauren",
+    "description": "Direkt an der Strasse beim Zollhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+4232220135",
+    "id": "node/13732131101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5519884,
+      47.2236705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13732168801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pfadiheim Auf Berg Mauren",
+    "description": "Bei Velounterstand neben Garageneinfahrt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+4232220135",
+    "id": "node/13732168801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5359715,
+      47.2208126
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13732203301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Roten Haus Vaduz",
+    "description": "An der Maurer vis a vis vom roten Haus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Vaduz",
+    "phone": "+4232220135",
+    "id": "node/13732203301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5216901,
+      47.1451038
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13752848301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Entsorgi Wertstoffsammelstelle",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "ELREC AG",
+    "phone": "+4233731337",
+    "id": "node/13752848301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5145689,
+      47.2084156
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13801707302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Meierhof Trafostation Eichholzweg 2",
+    "description": "LKW Trafostation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+4232220135",
+    "id": "node/13801707302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5291762,
+      47.1219067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13808265901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Mühleholz II",
+    "description": "Zwischen Haus alt und Haus weiss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+4232220135",
+    "id": "node/13808265901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5056312,
+      47.1550809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13844025601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haus Ospelt, Zollstrasse 13",
+    "description": "Beim Haupteingang, an Fassade links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+4232220135",
+    "id": "node/13844025601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5049224,
+      47.1678233
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13852798102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sägagass 2, Oberdorf Triesen",
+    "description": "Beim Brunnen an der Strasse, 60m unterhalb Restaurant Linde",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesen",
+    "phone": "+4232220135",
+    "id": "node/13852798102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5318108,
+      47.1064701
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13882597601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Poststrasse 2",
+    "description": "Gerade beim Empfang an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "07:30 - 17:30",
+    "operator": "MTF Solutions AG",
+    "phone": "+4233993535",
+    "id": "node/13882597601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.510228,
+      47.1679552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13904162201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Private company",
+    "description": "Mo-Fr 8:00-17:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "phone": "+423 388 09 09",
+    "id": "node/13904162201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5071592,
+      47.0757638
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13919696702",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kindergarten Schönbühl",
+    "description": "Beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Eschen",
+    "phone": "+423 222 01 35",
+    "id": "node/13919696702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5197366,
+      47.2158281
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13925794501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulzentrum Mühleholz II Gymnasium",
+    "description": "Beim Eingang zur Turnhalle, beim Haus Rot",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Liecht. Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/13925794501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5043332,
+      47.1555271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14000180901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Litzistrasse Verzweigung Grüschaweg",
+    "description": "Direkt an der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+4232220135",
+    "id": "node/14000180901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5396719,
+      47.1182466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14000193301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Engistrasse Wasserversorgung",
+    "description": "An Bruchsteinmauer, bei Wasserversorgung T‘berg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+4232220135",
+    "id": "node/14000193301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5406094,
+      47.1237074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14038907502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Laurentius Bad / Apotheke Landstrasse 97",
+    "description": "An der Landstrasse / Kreuzung / beim Briefkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schaan",
+    "phone": "+4232220135",
+    "id": "node/14038907502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5089121,
+      47.1611767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102511701",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Vaduz FL - Grossraumbüro",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102511701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5235447,
+      47.1284832
+    ]
+  }
+}
 ]
 }

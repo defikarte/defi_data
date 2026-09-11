@@ -1,6 +1,4659 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/3361809293",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof SBB Passarelle Eingang Süd bei Transa",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/3361809293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5882575,
+      47.545876
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4313408793",
+  "properties": {
+    "defibrillator:location": "Attached to pillar in the middle of the Ibis lobby, just inside the main entrance.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/4313408793"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5847019,
+      47.546757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4316234217",
+  "properties": {
+    "defibrillator:location": "Zoo Basel, Haupteingang, unmittelbar nach der Kasse an Hausecke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Zoo Basel",
+    "phone": "+41 61 295 35 35",
+    "id": "node/4316234217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5823325,
+      47.5488976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4926738436",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/4926738436"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6099661,
+      47.560014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6251274093",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Neben der Geschirrrückgae",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/6251274093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5817814,
+      47.5615179
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7726925169",
+  "properties": {
+    "defibrillator:location": "Rechts neben dem Erlen-Kiosk",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/7726925169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.60849,
+      47.5743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7727020234",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am linken Ende des Restaurant an der Wand",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Lange Erlen",
+    "id": "node/7727020234"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.60485,
+      47.5745
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8173665988",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "6.60",
+    "description": "über Alarmzentrale 24h verfügbar, ansonsten während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ETH Zürich",
+    "phone": "+41 44 342 11 88",
+    "id": "node/8173665988"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6024398,
+      47.5665159
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8590117259",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zwischen den Kassen und Pflanzen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 07:30-18:00; PH off",
+    "operator": "Genossenschaft Migros Basel",
+    "phone": "+41 58 575 83 80",
+    "wheelchair": "yes",
+    "id": "node/8590117259"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6517484,
+      47.5853313
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8746933062",
+  "properties": {
+    "defibrillator:location": "Gemeinde Riehen Aussen vor dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8746933062"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6514488,
+      47.5845825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8764057862",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Zurzeit ausser Betrieb - 04.09.2026 - ML - Befindet sich im Erdgeschoss im Bereich der Aufzüge.",
+    "description": "während Öffnungszeiten verfügbar, am Empfang melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Firma Fracht AG",
+    "phone": "+41 61 287 95 55",
+    "id": "node/8764057862"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5805436,
+      47.5495166
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8820880778",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-02-07",
+    "defibrillator:location": "Neben den Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/8820880778"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5895015,
+      47.5477948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8956974917",
+  "properties": {
+    "defibrillator:location": "Shopping Center Mall UG bei Beldona Shop",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "operator": "Center SJP",
+    "id": "node/8956974917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6204624,
+      47.5413462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8962755917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros, Dreispitz Oben bei WC",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "operator": "Migros",
+    "id": "node/8962755917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6040429,
+      47.5394403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8971490662",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen rechts an der Apotheke (grüner Kasten), Zürcherstrasse 97",
+    "description": "automatische telefonische Verbindung mit Notfallzentrale nach Öffnen der Box",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Breite-Apotheke AG",
+    "phone": "+41 61 319 98 98",
+    "id": "node/8971490662"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6114668,
+      47.5547958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8977133617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Decathlon Sportgeschäft",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "operator": "Decathlon",
+    "id": "node/8977133617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6063419,
+      47.5362239
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8980778417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mr. Pickwick",
+    "description": "Neben der Bar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Mr. Pickwick",
+    "id": "node/8980778417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5890964,
+      47.5535367
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8995801821",
+  "properties": {
+    "access": "yes",
+    "check_date": "2025-12-06",
+    "defibrillator:location": "Reception St Chrischona Campus",
+    "description": "Während Oeffungszeiten Verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-12:00",
+    "operator": "Campus Chrischona ",
+    "id": "node/8995801821"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6819799,
+      47.5729031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8995834318",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pflegeheim Chrischona",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "fixme": "In welchem Gebäude befindet sich der Defibrillator?",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Pflegeheim Chrischona",
+    "id": "node/8995834318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6806301,
+      47.5731682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8995922117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Naturbad",
+    "description": "Während Öffungszeiten Verfügbar, mitte Mai - mitte Sep.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "May- Sep Mo-Su 09:00-19:00",
+    "operator": "Naturbad",
+    "phone": "+41 61 646 81 18",
+    "id": "node/8995922117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6451763,
+      47.5923541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8995975918",
+  "properties": {
+    "defibrillator:location": "Polizei Posten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Polizei",
+    "id": "node/8995975918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6494509,
+      47.5850965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8998912117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros Bei Blumenabteilung /Kundendienst",
+    "description": "während oeffungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-20:00; Sa 07:30-18:00",
+    "operator": "Migros",
+    "id": "node/8998912117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6157475,
+      47.5700068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9064091917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unmittelbar vor dem Gebäudeeingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rebecca Santschi",
+    "phone": "+41 79 544 95 21",
+    "id": "node/9064091917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6006442,
+      47.5521859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9088936117",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "LZM Unibasel 3. Stock",
+    "description": "von Treppen aus, gerade aus.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:00",
+    "operator": "Universität Basel",
+    "id": "node/9088936117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5798301,
+      47.5631111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9107013776",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Hauseingeng Rechts an der Wand.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 06:00-18:00",
+    "operator": "ED Basel-Stadt, Digitalisierung und Informatik DIG-IT, Basel-Stadt",
+    "phone": "+41 61 267 42 22",
+    "id": "node/9107013776"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5828557,
+      47.5574609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9128863342",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Eingang Bau- und Verkehrsdepartement Basel-Stadt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9128863342"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5950106,
+      47.5524304
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9131353517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stücki Center Kiosk /Migros",
+    "description": "während Oeffzngszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+    "id": "node/9131353517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5959054,
+      47.5803125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9131353518",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stücki Center direkt bei Migros Kundendienst",
+    "description": "während Oeffungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-19:00; Sa 09:00-18:00",
+    "operator": "Migros",
+    "id": "node/9131353518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5959054,
+      47.5803125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9264311717",
+  "properties": {
+    "defibrillator:location": "Basefit.ch Säule neben Rezeption",
+    "description": "während Öffnungszeiten Fitness",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "09:00-22:00",
+    "id": "node/9264311717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5873122,
+      47.5493367
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277222781",
+  "properties": {
+    "defibrillator:location": "Erdgeschoss, Mitte Gang in der Schublade (gekennzeichnet)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Peter Gäth",
+    "phone": "+41 61 284 42 94",
+    "id": "node/9277222781"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5947667,
+      47.5467417
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9277279117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1. Stock, am Ende vom grossen Bürovorraum, frei zugänglich",
+    "description": "während Öffnungszeiten verfügbar ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00",
+    "operator": "Theologische Fakultät, Universität Basel",
+    "phone": "+41612072900",
+    "id": "node/9277279117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5853977,
+      47.558124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9344079217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Uni BS Dep. Mathematik",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "id": "node/9344079217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5872174,
+      47.5602396
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9344143917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Universitätsbibliothek, Eingangshalle",
+    "description": "geradeaus, links hinten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa 12:00-20:00",
+    "phone": "+41 61 207 31 00",
+    "id": "node/9344143917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5810395,
+      47.5597517
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388530737",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben dem Brezelkönig und Rolltreppe Gleis 11/12",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9388530737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5890364,
+      47.5467974
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9498474634",
+  "properties": {
+    "defibrillator:location": "Bei Bucherer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:30-18:30; Sa 09:30-17:00",
+    "operator": "Bucherer SA",
+    "id": "node/9498474634"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5902118,
+      47.5561972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9524918533",
+  "properties": {
+    "defibrillator:location": "Shopping Center St. Jakob BS",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "operator": "Wincasa AG",
+    "phone": "+41 61 377 81 11",
+    "wheelchair": "limited",
+    "id": "node/9524918533"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6196985,
+      47.5410014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9577631617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grendelmatte, draussen, neben der Tür.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9577631617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6391365,
+      47.5810231
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625721817",
+  "properties": {
+    "defibrillator:location": "Kasten beim Eingang vonAnima Engineering",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Harald Burger",
+    "phone": "+41 79 558 13 45",
+    "id": "node/9625721817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5849357,
+      47.5556357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9631526417",
+  "properties": {
+    "defibrillator:location": "Pax, Schweizerische Lebensversicherungs-Gesellschaft AG",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "phone": "+41 61 277 66 66",
+    "id": "node/9631526417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5965373,
+      47.5520535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9634891859",
+  "properties": {
+    "defibrillator:location": "Neben dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/9634891859"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5900505,
+      47.5474059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9680907781",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Einkaufszentrum St.Jakob Parterre Hinterer Teil NewYorker Mode",
+    "description": "Während Oeffungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-2",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 09:00-18:00",
+    "operator": "Wincasa AG",
+    "phone": "+41 61 377 81 11",
+    "wheelchair": "limited",
+    "id": "node/9680907781"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.61987,
+      47.5408751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9719954793",
+  "properties": {
+    "defibrillator:location": "EG Gang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-11:30, 13:30-16:00",
+    "operator": "Nicole Schnyder, Leiterin Administration",
+    "phone": "+41 61 267 58 46",
+    "id": "node/9719954793"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5665673,
+      47.5762353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9719986537",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Erdgeschoss im Gang welcher von der Eigangshalle anschliesst",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:45-17:15",
+    "operator": "Michela Leitenberger (-Mariani), Leiterin Baukoordination / Sicherheitsdelegierte",
+    "phone": "+41 61 267 98 36",
+    "id": "node/9719986537"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5964887,
+      47.5524991
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9719986538",
+  "properties": {
+    "defibrillator:location": "Im Erdgeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:30",
+    "operator": "Roman Baumgartner, Leiter Hausdienst",
+    "phone": "+41 61 385 25 86",
+    "id": "node/9719986538"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5742156,
+      47.5621695
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9719986539",
+  "properties": {
+    "defibrillator:location": "1.OG im Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:30",
+    "operator": "Cédric Thiévent, Geschäftsleiter Verwaltung",
+    "phone": "+41 61 267 38 76",
+    "id": "node/9719986539"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5795639,
+      47.5645731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9749180180",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Erdgeschoss, hinter Abteilungstür rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:30",
+    "id": "node/9749180180"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5757974,
+      47.5615216
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9749180181",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, linke Seite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-19:30",
+    "id": "node/9749180181"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5757679,
+      47.5617596
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9780863555",
+  "properties": {
+    "defibrillator:location": "Neben den Liften",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "F. Hoffmann-La Roche Ltd",
+    "wheelchair": "limited",
+    "id": "node/9780863555"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6073579,
+      47.5594462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9780881594",
+  "properties": {
+    "defibrillator:location": "Neben den WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "F. Hoffmann-La Roche Ltd",
+    "wheelchair": "limited",
+    "id": "node/9780881594"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6074008,
+      47.5587466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917843267",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917843267"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5942145,
+      47.5605972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9962241652",
+  "properties": {
+    "defibrillator:location": "inside the building",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9962241652"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6059866,
+      47.5646924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10009204076",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Next to reception desk",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/10009204076"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5840224,
+      47.5469829
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10048045217",
+  "properties": {
+    "defibrillator:location": "Birsstrasse 320b, 4052 Basel, 2. OG (im Office)",
+    "description": "Werktags zu den Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:00",
+    "operator": "Elektro Datenbank Schweiz ELDAS",
+    "phone": "+41613859855",
+    "id": "node/10048045217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6216756,
+      47.5412052
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10282200209",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lehrwerkstatt für Mechanik",
+    "description": "während den Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:45 -17:30",
+    "operator": "Lehrwerkstatt für Mechanik",
+    "phone": "+41616956400",
+    "id": "node/10282200209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.609058,
+      47.5627654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10292625110",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1. Stocl an Wand links neben Türe dasteam ag",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "dasteam ag",
+    "phone": "+41 61 278 99 99",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10292625110"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5989556,
+      47.5455391
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10542582609",
+  "properties": {
+    "defibrillator:location": "DB Schenker AG",
+    "description": "Klingen bei DB Schenker",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Privatperson",
+    "id": "node/10542582609"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5987412,
+      47.5683478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10574567641",
+  "properties": {
+    "defibrillator:location": "Aussen an der Hauswand. Gut sichtbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10574567641"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5654448,
+      47.5546162
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10586626805",
+  "properties": {
+    "defibrillator:location": "bitte Klingeln, Defi ist am Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Netcloud AG",
+    "phone": "+41583441212",
+    "id": "node/10586626805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5820015,
+      47.5558806
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10601519505",
+  "properties": {
+    "defibrillator:location": "Neubadstrasse 7",
+    "description": "während den Bürozeiten beim Empfang verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Applied Chemicals International AG",
+    "phone": "+41 61 282 82 82",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10601519505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5740755,
+      47.5506372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10680118205",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Juristische Fakultät, Eingangsbereich",
+    "description": "im Gebäude während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10680118205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5973678,
+      47.545282
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10734407914",
+  "properties": {
+    "defibrillator:location": "Stänzlergasse 4",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "MIGX GmbH",
+    "phone": "+41797376491",
+    "id": "node/10734407914"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5890249,
+      47.5524966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10743944205",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Restaurant Mister Wong, bei der Kasse",
+    "description": "Während Öffnungszeiten berfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Restaurant",
+    "id": "node/10743944205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5887983,
+      47.5551554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10757374206",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pflegezentrum Holbeinhof, Leimenstrasse 67, 4051 Basel",
+    "description": "Links vom Eingang im weissen Kasten an Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Pflegezentrum Holbeinhof",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10757374206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5806415,
+      47.551908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310510",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "4.OG, Empfang (Büro440)",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Walder Wyss AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310510"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59342,
+      47.55208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310511",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Schrank im Büro",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Aon Schweiz AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310511"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59225,
+      47.55213
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310512",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Concierge Büro rechts.",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Swiss Real Estate Investments AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310512"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.58151,
+      47.55214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310513",
+  "properties": {
+    "defibrillator:location": "Kundendienst, 3.OG",
+    "description": "blauer Rucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Manor AG",
+    "opening_hours": "Mo-Fr 08:30-20:00; Sa 08:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310513"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59252,
+      47.56122
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310515",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich",
+    "description": "in weissem Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Gruner AG",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310515"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.61527,
+      47.551
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310516",
+  "properties": {
+    "defibrillator:location": "EG, Eingangsbereich",
+    "description": "in weissem Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Gruner AG",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310516"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.60943,
+      47.54496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310532",
+  "properties": {
+    "defibrillator:location": "3. Stock, im Büro",
+    "description": "gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Orion Rechtsschutz-Versicherung AG",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:00-17:00; Fr 08:00-12:00, 13:00-16:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310532"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59363,
+      47.55199
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310534",
+  "properties": {
+    "defibrillator:location": "Empfangsgebäude, im EG",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Lottner AG Basel - Entsorgung, Recycling, Sammelstelle",
+    "opening_hours": "Mo-Fr 06:30-11:45, 12:45-16:45; Sa 08:00-14:45",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310534"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.56995,
+      47.577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310537",
+  "properties": {
+    "defibrillator:location": "EG, im Wandschrank",
+    "description": "gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "CSG Baumanagement AG",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:30-17:00; Fr 08:00-12:00, 13:30-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310537"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.57997,
+      47.55079
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310542",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Im Schildhof",
+    "description": "gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Bank CIC (Schweiz) AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310542"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59178,
+      47.55395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310549",
+  "properties": {
+    "defibrillator:location": "Reception geradeaus",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Optiswiss AG",
+    "opening_hours": "Mo-Fr 08:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310549"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.60685,
+      47.53453
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310551",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Notfallapotheke, Sekretariat",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Alpha RHEINTAL Bank AG",
+    "opening_hours": "Mo-Fr 08:30-12:00, 14:00-16:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310551"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.61102,
+      47.54631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310552",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1.OG, vor Kopierraum",
+    "description": "gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "STH Basel",
+    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310552"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.65006,
+      47.57753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310555",
+  "properties": {
+    "defibrillator:location": "EG, Cafeteria, Gebäude 84",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Bayer Consumer Care AG",
+    "opening_hours": "Mo-Fr 07:30-17:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310555"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59446,
+      47.54611
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310560",
+  "properties": {
+    "defibrillator:location": "EG, Eingangsbereich",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Manor AG",
+    "opening_hours": "Mo-Th 07:00-18:00; Fr 07:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310560"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59472,
+      47.55993
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310561",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1.OG, Küche beim Empfang",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Lenz Caemmerer Basel",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5918,
+      47.55298
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310562",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garderobe, EG",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Burckhardt + Partner AG",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310562"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59449,
+      47.54109
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310566",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "3.OG bei Küche",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "KulThrstifThng Basel H.Geiger",
+    "opening_hours": "We-Mo 11:00-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310566"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.58389,
+      47.5627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10766467905",
+  "properties": {
+    "defibrillator:location": "Belchenstraße 6, Basel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-16:30",
+    "operator": "Firma E.KALT AG",
+    "phone": "+41 61 306 36 36",
+    "id": "node/10766467905"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5734547,
+      47.5540864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10777896895",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich, nach Kasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10777896895"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5904768,
+      47.5575281
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10781539926",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Elisabethenstrasse 16, Bühnen Eingang (Porte)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Theater Basel",
+    "phone": "+41 61 295 11 00",
+    "id": "node/10781539926"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5906824,
+      47.5523715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10781604959",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "1.OG Gang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Andrea Moser",
+    "phone": "+41613063622",
+    "id": "node/10781604959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5737362,
+      47.5540432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10806763608",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "nach der Kapelle 5 vor Eingang zu Aufbahrungsräumen",
+    "description": "Während Öffnungszeiten des Friedhofareals. Mit dem Auto nur Mo-Fr 8 bis 17:30 Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "07:00-19:30,08:00-17:30",
+    "operator": "Stadtgärtnerei Friedhöfe Basel",
+    "phone": "+41 61 267 20 00",
+    "id": "node/10806763608"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6398915,
+      47.565487
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10901653171",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Garten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Pavel Herman",
+    "phone": "+41774882286",
+    "id": "node/10901653171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5948884,
+      47.5489477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10963504705",
+  "properties": {
+    "defibrillator:location": "Café Momo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 11:00-16:00; Su 11:00-17:00",
+    "phone": "+41 61 367 86 00",
+    "id": "node/10963504705"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5920098,
+      47.5409259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10963507305",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, gegenüber des Empfangs",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung",
+    "phone": "+41 61 367 85 85",
+    "id": "node/10963507305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5917969,
+      47.5412708
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266744",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "VISCHER Bar/Cafeteria (5.OG)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.55332326",
+    "longitude": "7.592333121",
+    "name": "VISCHER AG",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "id": "node/11037266744"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5923119,
+      47.5533148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11037266752",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "latitude": "47.55207",
+    "longitude": "7.59221",
+    "name": "Funk Insurance Brokers AG",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "id": "node/11037266752"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.59221,
+      47.55207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038060226",
+  "properties": {
+    "defibrillator:location": "Lonza Rezeption",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 08:00-12:00",
+    "operator": "Lonza DPS",
+    "phone": "+41 78 7222403",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038060226"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5969815,
+      47.5789648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063707",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Victoria Apotheke,",
+    "description": "An der Aussenwand der Apotheke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/11038063707"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5616255,
+      47.5512439
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063813",
+  "properties": {
+    "defibrillator:location": "Lonza Rezeption",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Lonza DPS",
+    "phone": "+41 78 7222403",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11038063813"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5967938,
+      47.5776982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11185095737",
+  "properties": {
+    "defibrillator:location": "Stadtcasino Basel:Backstage bei Bühnenaufgang rechts",
+    "description": "Während Öffnungszeiten & Konzertbetrieb verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00-24:00",
+    "operator": "Casino-Gesellschaft Basel",
+    "phone": "+41 61 226 36 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11185095737"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5903779,
+      47.5541998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11267648870",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Eingang rechts an der Wand",
+    "description": "-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verein Saal 12",
+    "phone": "+41 76 527 41 19",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11267648870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.607941,
+      47.553921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11283380536",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In the zoo shop of the self-service restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/11283380536"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5778143,
+      47.5478529
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11307517269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathaus, Markplatz 9",
+    "description": "hinten links, Eingang Empfang, hinter der Türe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00,12:30-17:00",
+    "operator": "Präsidialdepartement / Staatskanzlei",
+    "phone": "+41 61 267 85 49",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11307517269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5882965,
+      47.5583016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11474731369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang zu Coop",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/11474731369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6070418,
+      47.5673647
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11546554370",
+  "properties": {
+    "defibrillator:location": "Rezeption Hochbergerstrasse 60c",
+    "description": "während der Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
+    "operator": "Techpark Basel",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11546554370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5972819,
+      47.5784871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11551850170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Klingelbergstrasse 23 (Universitätsspital)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Universitätsspital Basel",
+    "id": "node/11551850170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5803991,
+      47.5613186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11703996269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Betty Bossi",
+    "description": "Während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Betty Bossi",
+    "id": "node/11703996269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6017155,
+      47.5392095
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11723225743",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Betriebsgebäude",
+    "description": "Blauer Foppa Rucksack 1388 LTB",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "ProRheno AG",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11723225743"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6002196,
+      47.5818013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11723369994",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Betriebsgebäude",
+    "description": "Blauer Foppa Rucksack 1387 LTB",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "ProRheno AG",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11723369994"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6004643,
+      47.5817492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11724214069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Windfang Haupteingang Chrischonarain 135a",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Diakonissen Mutterhaus St. Chrischona",
+    "phone": "+41616066540",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11724214069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6794541,
+      47.571213
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11768851269",
+  "properties": {
+    "defibrillator:location": "Basler Verkehrs-Betriebe, Gebäude \"Verkehr\", Münchensteinerstrasse 83, 4052 Basel",
+    "description": "Im Treppenhaus, nur während Betriebszeiten und nach Türöffnung durch Empfang erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-16:00",
+    "operator": "Basler Verkehrs-Betriebe",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11768851269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6065892,
+      47.5402811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11897195669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Clubhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Tennisclub Riehen",
+    "phone": "+41793216468",
+    "source": "aed-source",
+    "id": "node/11897195669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6374359,
+      47.5792525
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11926124469",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hörberatung Basel",
+    "description": "Während den Öffnungszeiten Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo -Fr 08:30 - 18:00",
+    "operator": "Geschäft",
+    "phone": "+41 61 261 08 80",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11926124469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5856022,
+      47.558353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12016641066",
+  "properties": {
+    "addr:housenumber": "14",
+    "addr:street": "Leimgrubenweg",
+    "defibrillator:location": "Werkstatt 1440LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Centra-Garage AG",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00; Sa,Su,PH off",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1440LTM",
+    "id": "node/12016641066"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.606454,
+      47.5370121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12016655293",
+  "properties": {
+    "addr:housenumber": "33",
+    "addr:street": "Lyon-Strasse",
+    "defibrillator:location": "Beim Empfang 1439LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "CG Carrosserie AG",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00; Sa,Su,PH off",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1439LTM",
+    "id": "node/12016655293"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6066057,
+      47.5338863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12112524407",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "17",
+    "addr:street": "Allschwilerstrasse",
+    "defibrillator:location": "EG Beim Empfang",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "trimag Treuhand-Immobilien AG",
+    "opening_hours": "Mo-Th 09:00-12:00,14:00-17:00; Fr 09:00-12:00,14:00-16:00",
+    "operator": "Lifetec AG",
+    "phone": "+41800 122144",
+    "postal_code": "4055",
+    "ref": "1457LTM",
+    "id": "node/12112524407"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5743679,
+      47.5558013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12114303596",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "15",
+    "addr:street": "Hardstrasse",
+    "defibrillator:location": "Werkstatt neben Büro\n1458LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Niki Hasler AG",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:15",
+    "operator": "Lifetec AG",
+    "phone": "+41800122144",
+    "ref": "1458LTM",
+    "id": "node/12114303596"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6025599,
+      47.5519735
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12138359701",
+  "properties": {
+    "defibrillator:location": "Alterssiedlung Pilatus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Alterssiedlung Genossenschaftsverband Pilatus",
+    "id": "node/12138359701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5634279,
+      47.553066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12222320001",
+  "properties": {
+    "defibrillator:location": "Pflegehotel St.Johann",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-17:00",
+    "phone": "+41613261616",
+    "id": "node/12222320001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5750616,
+      47.562634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12239556491",
+  "properties": {
+    "defibrillator:location": "Praxis Eingang EG rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:30-19:30; Fr 07:30-15:00",
+    "operator": "Physiotherapie Schmeitzky GmbH",
+    "phone": "+41 61 691 18 11",
+    "id": "node/12239556491"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5884441,
+      47.5656053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12244231601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Byfangweg 1a",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Firma Planconsult W+B",
+    "phone": "+41 61 206 98 76",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12244231601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.580781,
+      47.5530195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12248475201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haus der Vereine, Hauptfoyer (vis-à-vis der Toiletten)",
+    "description": "während Öffnungszeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Samariterverein Riehen ",
+    "phone": "+41 61 599 11 31",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12248475201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6495198,
+      47.584884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12252791102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Byfangweg 1a",
+    "description": "Mo-Fr 08:00-17:00 verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Firma",
+    "phone": "+41612069876",
+    "id": "node/12252791102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5834558,
+      47.5528197
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12293542801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wien-Strasse 2, 4053 Basel",
+    "description": "während den Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr  07:00 - 17:00",
+    "operator": "ETAVIS Kriegel+Schaffner AG",
+    "phone": "+41 61 316 60 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12293542801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6097327,
+      47.5354754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12314120201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gellertstrasse 55",
+    "description": "Während Bürozeiten geöffnet.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "08:00-17:00",
+    "operator": "Pantex AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12314120201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6152035,
+      47.5508193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12355091801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Basler Personenschifffahrt AG",
+    "description": "während Betriebszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Firma",
+    "phone": "+41616399500",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12355091801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5893265,
+      47.5879022
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12355094501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Basler Personenschifffahrt AG",
+    "description": "während Betriebszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Firma",
+    "phone": "+41616399500",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12355094501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5892621,
+      47.5874644
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12393225501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus Kirschgartenstrasse 5 / 7",
+    "description": "während Öffnungdzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "DECK AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12393225501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5920141,
+      47.5514881
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12397534201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Universitätsspital Basel Klinikum 2",
+    "description": "Vom Eingang gerade aus dann links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universitätsspital Basel",
+    "id": "node/12397534201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5832054,
+      47.5619595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12415950603",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Bankomaten.",
+    "description": "Immer verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/12415950603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5780084,
+      47.5743049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12415961904",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Bankomaten",
+    "description": "Immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/12415961904"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5779985,
+      47.5743057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12430308006",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Durchgang Basel SNCF",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/12430308006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5885548,
+      47.54795
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12535973902",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Coop Pensionskasse, Lift rechts",
+    "description": "Durch klingeln bei Pensionskasse oder Mietern",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Coop Pensionskasse",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12535973902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5917834,
+      47.5422221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12539342401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang, Hochparterre, Missionsstrasse 62, 4055 Basel",
+    "description": "während der Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-19:30",
+    "operator": "Fakultät für Psychologie",
+    "phone": "+41 61 207 6363",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12539342401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5753415,
+      47.56127
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12620205101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkhof Empfang",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-16:30",
+    "operator": "Gemeinde",
+    "phone": "+41 61 645 60 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12620205101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6558293,
+      47.5923176
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12633123501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Greifengasse 18",
+    "description": "Seiteneingang neben Saner Apotheke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Laborgemeinschaft 1",
+    "phone": "+41612616613",
+    "id": "node/12633123501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5920649,
+      47.5609515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12650538301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kongresscenter 2.OG",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "id": "node/12650538301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5994116,
+      47.5629894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12735792801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang Wittlingerstrasse 184",
+    "description": "immer zugänlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Wohmgenossenschaft Wiesengrund",
+    "phone": "+41765644080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12735792801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6210186,
+      47.5644515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12735795501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang Wittlingerstrasse 184 Basel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohmgenossenschaft Wiesengrund",
+    "phone": "+41765644080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12735795501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6213777,
+      47.5646254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12735796301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang Wittlingerstrasse 196 Basel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohmgenossenschaft Wiesengrund",
+    "phone": "+41765644080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12735796301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6217325,
+      47.5647989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12735796302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauseingang Wittlingerstrasse 202 Basel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohmgenossenschaft Wiesengrund",
+    "phone": "+41765644080",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12735796302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6221344,
+      47.5649589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12793894101",
+  "properties": {
+    "defibrillator:location": "St. Johannsring 19 Organische Chemie Departement Chemie Universitat Basel",
+    "description": "On the North Wall",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Universität Basel",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12793894101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5796652,
+      47.5653784
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12793945501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Klingelbergstrasse 80 Physikalische Chemie, Departement Chemie, Universität Basel",
+    "description": "Next to elevator",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12793945501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5791502,
+      47.5642781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12848377201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Birseckstrasse 59, 4059 Basel hinter dem Haus an Aussenfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohngenossenschaft 1943 Jakobsberg",
+    "phone": "+41 79 352 64 87",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12848377201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6029521,
+      47.5315276
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12853324901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gewerbeverband Basel GVBS, 1. Stock rechts an der Wand vor Eingangstür zum Empfang GVBS",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-16:00; Fr 08:00-15:00",
+    "operator": "Gewerbeverband Basel-Stadt",
+    "phone": "+41 61 227 50 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12853324901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5914347,
+      47.5524041
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12855286501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Malzgasse 30",
+    "description": "aussen vor Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gesundheitsdepartement Basel-Stadt",
+    "phone": "+41612679836",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12855286501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5963285,
+      47.5522973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12920802301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "kHaus - Kasernen Kopfbau",
+    "description": "Zugang gewährleistet von 08:00 – 23:00 Uhr über den Eingang mit der Rollstuhlrampe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-23:00",
+    "operator": "kHaus AG",
+    "phone": "+41774837914",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12920802301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5893748,
+      47.5626492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12922890801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "kHaus - Kasernen Kopfbau (2 Stock)",
+    "description": "Im 2. Obergeschoss beim Saal (Zugang gewährleistet von Mo-Fr 08:00 – 18:00 Uhr)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "operator": "kHaus AG",
+    "phone": "+41774837914",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12922890801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5892943,
+      47.5627324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12949232301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Peter Merian Strasse 80",
+    "description": "Bürofläche, Zugang nur mit Badge. Es kann jedoch geklingelt werden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Post CH AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12949232301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5939238,
+      47.5463067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12999098901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hof St. Alban-Vorstadt 12, rechts nach Durchgang",
+    "description": "Werktags",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "07:00-21:00",
+    "operator": "Christoph Merian Stiftung",
+    "phone": "+41 61 226 33 33",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12999098901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5954157,
+      47.5544381
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105684327",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/13105684327"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5880928,
+      47.5479708
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13130726701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hauptgebäude bei Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "reavita AG",
+    "phone": "+41444668066",
+    "id": "node/13130726701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5605226,
+      47.5728811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13130876301",
+  "properties": {
+    "defibrillator:location": "Gebäude S Abteilung S1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "UPK",
+    "id": "node/13130876301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.56408,
+      47.5702041
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13204730301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "ethnologisches Seminar",
+    "description": "während Öffnungszeiten; Tür öffnet auf Klingeln automatisch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "id": "node/13204730301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5908288,
+      47.5569682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13249819202",
+  "properties": {
+    "defibrillator:location": "Gerbergasse 1, Eingangsbereich rechts",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-19:00, Sa 07:00-17:00",
+    "operator": "Eigentümer Liegenschaft / Bächtiger Liwoba Immobilien AG",
+    "phone": "+41613788222",
+    "id": "node/13249819202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5881146,
+      47.5575545
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13252995906",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Sekretariat Architekturbüro",
+    "description": "Während Bürozeiten zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Privat",
+    "id": "node/13252995906"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5778041,
+      47.5506257
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13256190901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Nach der ersten Tür: im Vorraum von der Station P1",
+    "description": "Defibrillator (AED) im Vorraum des P-Gebäudes direkt vor den Stationstüren.Tagsüber meist offen; nachts/bei Ereignissen kann die Außentür verschlossen sein (Zutritt dann nur mit Schlüssel).",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Universitäre Psychiatrische Kliniken (UPK)",
+    "id": "node/13256190901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.563883,
+      47.5709759
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13368921601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Befindet sich an der Aussenwand des Gebäude OK neben der gartentherapie",
+    "description": "Das Gebäude OK ist die MESA (Küche/ Kantine) von der UPK Basel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universitäre Psychiatrische Kliniken (UPK) Basel",
+    "phone": "+41 61 325 51 11",
+    "id": "node/13368921601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5634433,
+      47.5725174
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13369077701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "im Eingangsbereich vom Gebäude F",
+    "description": "Der Zugang zum Gebäude F ist nur tagsüber möglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00 - 16:00",
+    "operator": "Universitäre Psychiatrische Kliniken (UPK) Basel",
+    "phone": "+41 61 325 51 11",
+    "id": "node/13369077701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5653824,
+      47.5724931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13372257202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "St.Alban-Graben 3",
+    "description": "Available during working hours",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "wega Informatik AG",
+    "phone": "+41 61 270 87 87",
+    "id": "node/13372257202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5941375,
+      47.5529008
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13378713659",
+  "properties": {
+    "defibrillator:location": "Zweiter Stock, im ActivFitness neben dem Büro",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/13378713659"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6331496,
+      47.5696771
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13508561201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Generationenhaus Neubad",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 06:30-22:00",
+    "operator": "Generationenhaus Neubad",
+    "phone": "+41 61 565 44 44",
+    "id": "node/13508561201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5674973,
+      47.5456763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13514176503",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Praxis im Gellert",
+    "description": "während Öffnungszeichen erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Praxis im Gellert",
+    "phone": "+41 61 312 34 12",
+    "id": "node/13514176503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6105791,
+      47.5485114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13585739001",
+  "properties": {
+    "defibrillator:location": "Museum Tinguely",
+    "description": "zu Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Museum Tinguely AG",
+    "phone": "+41616819320",
+    "id": "node/13585739001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6121697,
+      47.5589791
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13605369802",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Querfeld Silo",
+    "description": "Nach Seiteneingang Silo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kantensprung",
+    "id": "node/13605369802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.592833,
+      47.5411323
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13611180501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feldbergstrasse 47, 4057 Basel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-21:00",
+    "operator": "PARAT Studio",
+    "phone": "+41 61 220 02 91",
+    "id": "node/13611180501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5908602,
+      47.5663229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13645173602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kornhausgasse 18 an der Hauswand aussen",
+    "description": "jeder Zeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einsatzunterstützung Rettung Basel-Stadt",
+    "phone": "+41 61 268 14 07",
+    "id": "node/13645173602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5829475,
+      47.556122
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13695350401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Kultur und Gewerbehaus ELYS",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Immobilien Basel-Stadt",
+    "phone": "+41 79 902 30 21",
+    "id": "node/13695350401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.573804,
+      47.5738403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13695356801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang 209",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 19:00",
+    "operator": "Immobilien Basel-Stadt",
+    "phone": "+41 79 902 30 22",
+    "id": "node/13695356801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.574577,
+      47.5739068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13697739302",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Büro Kellerhals Carrard, 3. OG beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Procamed",
+    "phone": "+41 52 368 60 00",
+    "id": "node/13697739302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.593998,
+      47.5513539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700797701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Amt für Umwelt und Energie",
+    "description": "Während Bürozeiten. Am Schalter melden. Achtung von 12:00 - 13:00 geschlossen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Amt für Umwelt und Energie",
+    "phone": "+41 612670812",
+    "id": "node/13700797701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.587055,
+      47.559728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700798201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bioflix Einkaufladen 5meter links neben Eingang",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Bettingen",
+    "phone": "+41 61 267 00 80",
+    "id": "node/13700798201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6651528,
+      47.5708953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700885301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bluttrainwer 12 Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Riehen",
+    "phone": "+41 61 646 81 61",
+    "id": "node/13700885301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.635897,
+      47.570023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13701091501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Birmannsgasse 8",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Universität Basel",
+    "phone": "+41 79 716 97 62",
+    "id": "node/13701091501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5787964,
+      47.5583264
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13702411123",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "2. Stock Eingangsbereich rechts",
+    "description": "Zu Bürozeiten im 2. Stock bei Eskamed AG läiuten. Ausserhalb dieser Zeiten im 3. Sstock bei Keberle läuten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Silva Keberle",
+    "phone": "+41 79 211 22 82",
+    "id": "node/13702411123"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.576371,
+      47.549314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713175501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Amt für Wirtschaft und Arbeit, BS, Utengasse 36, 4058, rechts neben dem Empfang bei Teeküche",
+    "description": "Der Defi ist rechts neben dem Emfang in der Eingangshalle an der Wand. Mo-Fr. 08:00 - 17:00 Uhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Amt für Wirtschaft und Arbeit (AWA), Benjamin Bochsler, Leiter Hausverwaltung",
+    "phone": "+41 61 267 88 41",
+    "id": "node/13713175501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.593153,
+      47.5598867
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713233701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Hof der Stiftung Habitat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:30-19:00",
+    "operator": "Stiftung Habitat",
+    "phone": "+41 61 327 10 60",
+    "wikimedia_commons": "File:Eingang_Utengasse.jpg",
+    "id": "node/13713233701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5927052,
+      47.5598914
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13713617302",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Baumann & Cie, Banquiers",
+    "description": "während Öffnungszeiten zugänglich, Zutritt und erhältlich nur über den Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:15-12:00, 13:30-16:45",
+    "operator": "Baumann & Cie, Banquiers",
+    "phone": "+41 61 279 41 41",
+    "id": "node/13713617302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.597305,
+      47.5487046
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13715533601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Reinacherstrasse 85, 4053 Basel, Haupteingang, oberhalb Treppenstufen an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:45-12:00, 13:00-16:45",
+    "operator": "HGC Handel AG, Reinacherstrasse 85, 4053 Basel",
+    "phone": "+41 79 627 47 45",
+    "id": "node/13715533601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6045768,
+      47.538312
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13715566901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EIngang Binningerstrasse 6",
+    "description": "Immer, da vor dem Gebäude an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "TUM",
+    "phone": "+41 61 267 68 24",
+    "id": "node/13715566901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.585469,
+      47.550416
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13716402801",
+  "properties": {
+    "defibrillator:location": "Theater Fauteuil und Tabouretti",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Theater Fauteuil",
+    "phone": "+41 61 261 26 11",
+    "id": "node/13716402801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5863051,
+      47.5573698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13716838601",
+  "properties": {
+    "defibrillator:location": "Departement Physik, erstes Obergeschoss, Treppe links.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Univiersität Basel",
+    "phone": "+41 61 207 37 20",
+    "id": "node/13716838601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5787431,
+      47.564676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13718194301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Revierzentrale Hiltalingerstrasse 79, Cafeteria",
+    "description": "Die Revierzentrale ist täglich von 05:00 bis 21:00 erreichbar unter +41 61 639 95 30",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "05:00 - 21:00",
+    "operator": "Schweizerische Rheinhäfen",
+    "phone": "+41 61 639 95 30",
+    "id": "node/13718194301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5906381,
+      47.5890889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13718334701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schifffahrt Terminal St. Johann",
+    "description": "Der Defibrillator befindet sich im Innern des Terminals im Untergeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Schweizerische Rheinhäfen",
+    "phone": "+41 61 639 95 30",
+    "id": "node/13718334701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5832141,
+      47.5673594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13718351102",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hochbergerstrasse 160",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 12:00, 13:00 - 16:00",
+    "operator": "Schweizerische Rheinhäfen",
+    "phone": "+41 61 639 95 30",
+    "id": "node/13718351102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5907762,
+      47.5822875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727293301",
+  "properties": {
+    "defibrillator:location": "Beim Kellereingang",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohngenossenschaft",
+    "phone": "+41 79 469 93 07",
+    "id": "node/13727293301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5616009,
+      47.5489508
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727293306",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hofseite beim Kellereingang",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Wohngenossenschaft Furkastrasse",
+    "phone": "+41 79 469 93 07",
+    "id": "node/13727293306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5620015,
+      47.5476002
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727352701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhaus Storchen, Elektroparkplätzen",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Parkhaus Storchen",
+    "phone": "+41 61 267 69 93",
+    "id": "node/13727352701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5865006,
+      47.5592709
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727360401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "3 UG Ausgang Steinenbachgässlein",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-3",
+    "opening_hours": "24/7",
+    "operator": "Parkhaus Steinen",
+    "phone": "+41 61 267 69 93",
+    "id": "node/13727360401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5861797,
+      47.5522612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13727366701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhaus Elisabethen Kassenbereich 2 UG",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-2",
+    "opening_hours": "24/7",
+    "operator": "Parkhaus Elisabethen",
+    "phone": "+41 61 319 98 98",
+    "id": "node/13727366701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.58748,
+      47.550483
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13729499101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Provisorischer Standort der Berufsfachschule KV Basel",
+    "description": "Im Gebäude direkt Links beim Eingang (ZUTRITT NUR MIT BADGE MÖGLICH!)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:45 - 16:00",
+    "operator": "Novartis",
+    "id": "node/13729499101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5890476,
+      47.5711315
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13731825101",
+  "properties": {
+    "defibrillator:location": "Hirschgässlein 21",
+    "description": "available during opening hours",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 07:00 - 20:00",
+    "operator": "Universität Basel",
+    "id": "node/13731825101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5927743,
+      47.5507533
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13766084101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zentrum für Bilddiagnostik AG, beim MRI 2 im Schrank",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "frontdesk@bilddiagnostik.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Unternehmen, Zentrum für Bilddiagnostik AG",
+    "phone": "+41 61 281 69 69",
+    "id": "node/13766084101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5876341,
+      47.5483657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13793534702",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Peter Merian Weg 6, Wirtschaftswissenschaftliche Fakultät, Uni Basel",
+    "description": "In der Eingangshalle, rechts am hellblauen Info-Möbel",
+    "email": "kopas-wwz@unibas.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
+    "operator": "Universität Basel",
+    "id": "node/13793534702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5976791,
+      47.5451496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798012401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Engelgasse 12",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@adimmo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 07:00-20:00",
+    "operator": "Adimmo AG",
+    "phone": "+41 61 378 77 11",
+    "id": "node/13798012401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.599085,
+      47.550866
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13805983701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausstellung Bäder 1.OG",
+    "email": "ruedi.ledergerber@bmsuisse.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "BR Bauhandel AG Richner",
+    "phone": "+41 61 560 74 74",
+    "id": "node/13805983701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6169514,
+      47.544757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13808271001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Fachgeschäft Justin Unternährer AG",
+    "email": "email@unternaehrer-ag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-12:00,13:30-18:00",
+    "operator": "Justin Unternährer -AG",
+    "phone": "+41 61 382 72 72",
+    "id": "node/13808271001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5689785,
+      47.5612459
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13817847402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gesellschaft für Arbeit und Wohnen beim Links Daneben",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00 - 17:30",
+    "operator": "Verein",
+    "id": "node/13817847402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6144051,
+      47.5562359
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13860429401",
+  "properties": {
+    "defibrillator:location": "Rotterdamstr 15",
+    "description": "im Treppenhaus 1. OG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-16:45",
+    "operator": "Hans Kohler AG",
+    "phone": "+41 61 337 96 66",
+    "id": "node/13860429401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6056274,
+      47.5345087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13893188901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Universität Basel",
+    "description": "nicht dauerhaft zugänglich",
+    "email": "facilities-petersplatz@unibas.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Universität Basel",
+    "phone": "+41 61 207 64 44",
+    "id": "node/13893188901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5837911,
+      47.5595648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13954359501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Building WKL 620, Inside Entrance Door",
+    "description": "Accessable only for KV Basel AG workers",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "KV Basel AG Aeschengraben 15 4002 Basel",
+    "phone": "+41612956300",
+    "id": "node/13954359501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5921257,
+      47.574788
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14023654859",
+  "properties": {
+    "defibrillator:location": "Am Kamin",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14023654859"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5971517,
+      47.527576
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14089351502",
+  "properties": {
+    "defibrillator:location": "Haupteingang Dorfkirche St. Martin (Eingang Richtung Trammhaltestelle), liinks zwischen Aussen- und Innentürenn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 09:00-17:00",
+    "operator": "Reformierte Kirchgemeinde Riehen/Bettingen",
+    "phone": "+41 61 641 11 27",
+    "id": "node/14089351502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6493148,
+      47.5845738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102600402",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Standort Basel - Empfang",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102600402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5936678,
+      47.5515586
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14119166245",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Basel",
+    "addr:housenumber": "18",
+    "addr:postcode": "4051",
+    "addr:street": "Theaterstrasse",
+    "defibrillator:location": "CSS Versicherung AG EG Empfangzone",
+    "description": "Koffer Schwarz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "CSS Versicherung AG",
+    "opening_hours": "Mo-Fr 08:30-12:00,13:30-17:00; Sa,Su,PH off",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0575LTM",
+    "id": "node/14119166245"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5896309,
+      47.5529179
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14121827401",
+  "properties": {
+    "defibrillator:location": "Alterssiedlung Drei Brunnen",
+    "description": "Einfahrt Tiefgarage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14121827401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6558258,
+      47.586517
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14121846901",
+  "properties": {
+    "defibrillator:location": "Schulhaus Hinter Gärten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14121846901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6576295,
+      47.588966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14124363501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schützenmattstrasse 39, 4051 Basel Mehrfamilienhaus, 2. Stock in Bürki Praxis Empfang",
+    "description": "Während Öffnungszeiten, bei Bürki Praxis läuten",
+    "email": "buerkipraxis@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo - Fr 08:00 - 12:00",
+    "operator": "Bürki Praxis",
+    "id": "node/14124363501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.580586,
+      47.55546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128024501",
+  "properties": {
+    "defibrillator:location": "Schulhaus Burgi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14128024501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6455642,
+      47.5797403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14158925701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkehrsgarten",
+    "description": "neben dem kleinen Törchen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Verkehrspolizei",
+    "id": "node/14158925701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5648253,
+      47.5573131
+    ]
+  }
+}
 ]
 }

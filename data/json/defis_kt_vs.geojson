@@ -1,6 +1,7253 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/357181864",
+  "properties": {
+    "access": "yes",
+    "check_date": "2024-07-24",
+    "defibrillator:location": "Belle Vista eingang - gegenüber Hotel Jungfrau.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "1",
+    "location": "Treppen hoch zum der Belle Vista Eingang, gegenüber der Hotel Jungfrau.",
+    "opening_hours": "24/7",
+    "wheelchair": "no",
+    "id": "node/357181864"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1017062,
+      46.4118664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/442135045",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "On wall outside building / An Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "panoramax": "25dadc45-42f2-452a-b181-ae08c8e5cc58",
+    "wheelchair": "yes",
+    "id": "node/442135045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7460552,
+      46.0193273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/2286121927",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans les toilettes publiques",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "panoramax": "85eb06f6-0d25-472f-b345-b1671f4c053c",
+    "panoramax:0": "468ec26d-c356-437a-b12e-c3e9979f142b",
+    "survey:date": "2026-06-19",
+    "wheelchair": "yes",
+    "id": "node/2286121927"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4047258,
+      46.1802779
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/3993151059",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/3993151059"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0636058,
+      46.3908974
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4011377616",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich links an der Wand.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/4011377616"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.633475,
+      46.3404511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4011377622",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/4011377622"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6267375,
+      46.3796532
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4393108726",
+  "properties": {
+    "defibrillator:location": "Neben der Kasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/4393108726"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7743446,
+      46.4111655
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/4793510704",
+  "properties": {
+    "defibrillator:location": "an der Aussenwand neben der Tourist-Information und der Ladestation für Elektrofahrzeuge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/4793510704"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3093992,
+      46.5059999
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5013618784",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5013618784"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0970107,
+      46.0894706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5021724835",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5021724835"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7814809,
+      46.3139409
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5038382251",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5038382251"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7842571,
+      46.3121476
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5038382252",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5038382252"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7906659,
+      46.3105658
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5049932224",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5049932224"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7135607,
+      46.2930714
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5155762989",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5155762989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3509259,
+      46.5334145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5168993421",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5168993421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7700962,
+      46.0172917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5314952023",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5314952023"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2918675,
+      46.3746721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5409196565",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "recycling:cans": "yes",
+    "recycling:clothes": "yes",
+    "recycling:coffee_capsules": "yes",
+    "recycling:glass": "yes",
+    "recycling:glass_bottles": "yes",
+    "recycling:paper": "yes",
+    "recycling:shoes": "yes",
+    "recycling:waste": "yes",
+    "id": "node/5409196565"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1255545,
+      46.1437417
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5412526955",
+  "properties": {
+    "defibrillator:location": "AED an Aussenmauer bei Eingang",
+    "description": "AED an Aussenmauer bei Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/5412526955"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0642277,
+      46.3921846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5484264049",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rechts von Türe/Eingang Betten Dorf Bahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "panoramax": "84c85e0c-0230-42c0-9b7f-57b8c9c22c5b",
+    "id": "node/5484264049"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0578738,
+      46.3863053
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5487200131",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5487200131"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9744539,
+      46.0824869
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5827567522",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "id": "node/5827567522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1313448,
+      46.3983974
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5959611201",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5959611201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8506282,
+      46.3142471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5960695148",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/5960695148"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8194204,
+      46.3129467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6167968547",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausgang Gondelbahn, Wand bergseitig",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "survey:date": "2025-12-22",
+    "id": "node/6167968547"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8676078,
+      46.2066974
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6176739377",
+  "properties": {
+    "defibrillator:location": "Gondelbahn Eingang, Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/6176739377"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0461872,
+      46.356499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6284465304",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank",
+    "description": "Rechts neben Eingang der Bank",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/6284465304"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3264864,
+      46.5135933
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6402924824",
+  "properties": {
+    "defibrillator:location": "Kassenbereich Migros",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/6402924824"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7482141,
+      46.0217895
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6442457038",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans une malette contre le mur de la gare",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Swiss Vapeur Parc",
+    "id": "node/6442457038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.85698,
+      46.3848353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6565869515",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Jungfraujoch",
+    "addr:place": "Station",
+    "addr:postcode": "3801",
+    "defibrillator:location": "Eis Gateway, links neben Drehtür, an der Wand.",
+    "description": "Nur während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Jungfraubahn",
+    "phone": "+41 33 828 79 36",
+    "id": "node/6565869515"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9816272,
+      46.5475418
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6576230066",
+  "properties": {
+    "defibrillator:location": "Sur le mur des toilettes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/6576230066"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8674791,
+      46.3146263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6611512286",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/6611512286"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8024554,
+      46.1757031
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6657867903",
+  "properties": {
+    "defibrillator:location": "Er ist außen am Gebäude links an der Hauskante.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/6657867903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7578989,
+      46.3633805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6721515247",
+  "properties": {
+    "check_date": "2024-10-16",
+    "defibrillator:location": "Aussenseite, unter Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/6721515247"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9845285,
+      46.3588167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6858729925",
+  "properties": {
+    "defibrillator:location": "On the wall just inside the entrance from the train tracks.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/6858729925"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9761649,
+      46.0824515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7004033936",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/7004033936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7318347,
+      46.0015896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7090814465",
+  "properties": {
+    "defibrillator:location": "Rechts neben Eingang Kasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7090814465"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8413368,
+      46.1967419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7132075155",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7132075155"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1035508,
+      46.4132214
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7169646671",
+  "properties": {
+    "access": "yes",
+    "colour": "green",
+    "defibrillator:location": "Next to the gate of the direct aerial lift to Bettmeralp.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "panoramax": "26ad7f61-dcac-4001-b550-b5e9ef965a53",
+    "wheelchair": "yes",
+    "id": "node/7169646671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0767734,
+      46.3713238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7187716805",
+  "properties": {
+    "description": "Beim Eingang zur Gemeindeverwaltung hinter der ersten Türe links an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Saas-Fee",
+    "id": "node/7187716805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.925034,
+      46.1074984
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7306084063",
+  "properties": {
+    "defibrillator:location": "Ausgang Gondelbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/7306084063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0347502,
+      46.3600634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7739963954",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7739963954"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5814481,
+      46.2100892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7952323016",
+  "properties": {
+    "defibrillator:location": "Dans l'entrée piéton du parking",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/7952323016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3683059,
+      46.2317758
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8125972166",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Hauswand, Südostecke des Gebädes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8125972166"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2026029,
+      46.4429805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8130584733",
+  "properties": {
+    "access": "yes",
+    "check_date": "2024-07-24",
+    "covered": "yes",
+    "defibrillator:location": "Rechts vor Eingang des Gemeindebüros",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/8130584733"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2352335,
+      46.4667868
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8286805250",
+  "properties": {
+    "defibrillator:location": "Aussenwand zwischen Eingängen Bahn und Tourismusbüro",
+    "description": "Standort löschen - Kein Defi hier",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8286805250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0330336,
+      46.3780851
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8559790217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen vor Tourismusbüro unter dem Dach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8559790217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8383883,
+      46.195725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8559810417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal Ried",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8559810417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8251948,
+      46.181221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563480417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal",
+    "description": "24/24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8563480417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8663423,
+      46.2730573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563513617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Stromverteilkasten",
+    "description": "24/24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/8563513617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8612021,
+      46.2782498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8563563117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Coop Eingang",
+    "description": "24/24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8563563117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2695937,
+      46.4881403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8574115092",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8574115092"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9875745,
+      46.3254752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8574115093",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Unterstand der Bushaltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8574115093"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9917734,
+      46.323878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8577596282",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A gauche de l'entrée de la caserne des pompiers",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Pompier de Sion",
+    "id": "node/8577596282"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3650107,
+      46.2382539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8829118118",
+  "properties": {
+    "access": "yes",
+    "check_date": "2024-07-24",
+    "defibrillator:location": "Eingang zum Zug; eingang bahnhof",
+    "defibrillator:location:en": "Entrance railway station",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "db725074-2671-4b33-8405-8d46900af3d9",
+    "wheelchair": "yes",
+    "id": "node/8829118118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1341588,
+      46.4060357
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8852813017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkplatz Fafleralp, Bushaltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8852813017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8621863,
+      46.4346021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8895322317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Gebäude",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Bergbahnen",
+    "id": "node/8895322317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7861432,
+      46.0169665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8898103618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang Hotel",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Hotel",
+    "id": "node/8898103618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7834326,
+      45.983114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8909402818",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Haupteingang der Bergstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Belalp Bahnen",
+    "id": "node/8909402818"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.974501,
+      46.3717505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8918941018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Info La Foulz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "TéléLaFouly-ChampexLac SA",
+    "id": "node/8918941018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0989639,
+      45.9317919
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8918944974",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/8918944974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8278425,
+      46.2707886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8926874880",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8926874880"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6352607,
+      46.3164293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8946945673",
+  "properties": {
+    "defibrillator:location": "Neben Eingang links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Saas-Fee",
+    "id": "node/8946945673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9276916,
+      46.1056394
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8948650946",
+  "properties": {
+    "defibrillator:location": "Beim Operator-Büro Bergbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8948650946"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9165562,
+      46.1150238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8950763724",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Inside building / Innen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/8950763724"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7819122,
+      46.0999504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8950763725",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "On wall outside building / An Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/8950763725"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7840664,
+      46.1010486
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8955041731",
+  "properties": {
+    "defibrillator:location": "Inside building / Innen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "wheelchair": "limited",
+    "id": "node/8955041731"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7779256,
+      46.0668662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8956922044",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In underpass / In Unterführung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/8956922044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8816796,
+      46.2941678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8957178486",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "On wall outside building / An Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/8957178486"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8701366,
+      46.3033379
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8957771331",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "On wall outside building / An Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/8957771331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8786405,
+      46.3069347
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8963747653",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "eingang Bergbahnen oben (1. Stock)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8963747653"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0260116,
+      46.3760856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8982974731",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lonza Arena - Nord Eingang ",
+    "description": "An der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "?",
+    "id": "node/8982974731"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8914049,
+      46.2935811
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8995351884",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/8995351884"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9573444,
+      46.0942412
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9004557021",
+  "properties": {
+    "defibrillator:location": "Swisspeak Resort, Vercorin, vers le bancomat Raiffeisen",
+    "description": "Bancomat Raiffeisen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Swisspeak",
+    "id": "node/9004557021"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5333377,
+      46.2545184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9014613141",
+  "properties": {
+    "defibrillator:location": "In the recycling building, after entering on the left wall",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9014613141"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7722006,
+      46.3994753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9025974025",
+  "properties": {
+    "defibrillator:location": "Aussenwand Migros Partner",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9025974025"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0157387,
+      46.3357656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9045241417",
+  "properties": {
+    "defibrillator:location": "Bei der Bushaltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9045241417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7595868,
+      46.3940921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9061117553",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9061117553"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6290238,
+      46.0019752
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9061117559",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9061117559"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5276775,
+      46.0060618
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9162239319",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Reception TCS Camping Sion",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "operator": "TCS Camping",
+    "phone": "+41791245169",
+    "id": "node/9162239319"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3137988,
+      46.2117066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9209513185",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A côté des caisses du parking",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9209513185"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3629043,
+      46.2325299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9210122062",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'accueil du musée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "fixme": "Emplacement\nHoraires accès",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/9210122062"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3643261,
+      46.2341146
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9233470297",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang zum Alters- und Pflegeheim rechts an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Coeur Wallis",
+    "id": "node/9233470297"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0116832,
+      46.3114006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9233470298",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Volg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Coeur Wallis",
+    "id": "node/9233470298"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0170376,
+      46.3166743
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9233470299",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Rosswaldbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Rosswald Bahnen AG",
+    "id": "node/9233470299"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.040982,
+      46.304364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9245599382",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Gemeindeverwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Termen",
+    "id": "node/9245599382"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.020049,
+      46.3274778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9245646849",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bei der Trafostation Hasel",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Coeur Wallis/Gemeinde Termen",
+    "id": "node/9245646849"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0281064,
+      46.3257192
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9282878610",
+  "properties": {
+    "defibrillator:location": "A côté (gauche) de l'entrée de l'administration communale",
+    "defibrillator:location:en": "Outside the entrance of the municipality building",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9282878610"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4126043,
+      46.2837728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9293592846",
+  "properties": {
+    "defibrillator:location": "A côté de la caisse (niveau -2) du parking de la Cible",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/9293592846"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3613613,
+      46.2358972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9356624457",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor der AXA Geschäftsstelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9356624457"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6436922,
+      46.3115265
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9356644189",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeinde Leuk",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/9356644189"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6407565,
+      46.3114969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9386446353",
+  "properties": {
+    "defibrillator:location": "Eingang Restaurant Sportzentrum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9386446353"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8412778,
+      46.1945205
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388480517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Törbel öffentliche Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9388480517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8515248,
+      46.2373854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388488317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Törbel öffentliche Toilette 2",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9388488317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8530274,
+      46.2385302
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9388492517",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Törbel öffentliche Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9388492517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8529918,
+      46.2385322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9405572930",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/9405572930"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5740912,
+      46.1761047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9444758899",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9444758899"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5296215,
+      46.2557798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9489669165",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "manufacturer": "Schiller",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Saas-Fee",
+    "wheelchair": "yes",
+    "id": "node/9489669165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9249146,
+      46.1036065
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9498474642",
+  "properties": {
+    "defibrillator:location": "Bei Bucherer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 09:00-12:00, 14:00-19:00",
+    "operator": "Bucherer SA",
+    "id": "node/9498474642"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7476452,
+      46.023137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9498474643",
+  "properties": {
+    "defibrillator:location": "Bei Bucherer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 10:00-12:30, 14:00-19:00",
+    "operator": "Bucherer SA",
+    "id": "node/9498474643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4678375,
+      46.304897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9513349896",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9513349896"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3722289,
+      46.1811733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9514220322",
+  "properties": {
+    "defibrillator:location": "Next to the kiosk entrance",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9514220322"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.386457,
+      46.1842595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9523916721",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Info & Caisse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/9523916721"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2699864,
+      46.0800043
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9600998966",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9600998966"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0680063,
+      46.3751705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9672359717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung Baltschieder",
+    "description": "Draussen. Ständig verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Baltschieder",
+    "id": "node/9672359717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8645581,
+      46.3086941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9689440917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrmagazin Visp",
+    "description": "Bei Feuerwehrmagazin unten. Nicht bei Kirche oben.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr Visp, https://coeurvalais.ch/",
+    "id": "node/9689440917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8652195,
+      46.3049555
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9690376083",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur le mur du bâtiment du Sauvetage du Bouveret",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9690376083"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8541263,
+      46.3861445
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9726750152",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9726750152"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.146283,
+      46.0648682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9726750163",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9726750163"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0449739,
+      46.1325673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9741988578",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/9741988578"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9000581,
+      46.3110966
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9781542517",
+  "properties": {
+    "defibrillator:location": "Bahnhofplatz 7",
+    "description": "Korridor Betriebstrakt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "phone": "+41848642442",
+    "id": "node/9781542517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9859558,
+      46.3192406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9781547418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang von Bus Terminal her",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "panoramax": "599e6b18-eeb6-4a3b-b2fc-a23c5adf16cb",
+    "phone": "+41848642442",
+    "id": "node/9781547418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.774979,
+      46.0680608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9804686816",
+  "properties": {
+    "defibrillator:location": "Devant l'entrée de Carron-Lugon",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "ref": "CH1926",
+    "id": "node/9804686816"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1226917,
+      46.1417599
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9804706317",
+  "properties": {
+    "defibrillator:location": "Devant l'entrepôt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9804706317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1283834,
+      46.144895
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9862344669",
+  "properties": {
+    "defibrillator:location": "Dans le hall principal, à gauche depuis l'entrée principale, contre le mur, à coté du magasin MobilZone.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9862344669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9467868,
+      46.2611679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9862344670",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Av. du Théâtre 9, Théâtre Crochetan, ans le couloir qui mène au restaurant depuis le foyer du théâtre, dans le couloir qui mène au restaurant depuis le foyer du théâtre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Commune de Monthey / sécurité civile",
+    "id": "node/9862344670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9488884,
+      46.2542215
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9862344672",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Av. de la Gare 17a, à droite de l'entrée de la salle de Gym du Vieux-Collège, en dessus de la boite aux lettres",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Cœur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/9862344672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9497863,
+      46.254167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9862344673",
+  "properties": {
+    "defibrillator:location": "contre le mur, à droite du service client",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9862344673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9521411,
+      46.253864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9862351992",
+  "properties": {
+    "defibrillator:location": "Contre le mur, à gauche de l'entrée de la déchetterie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/9862351992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9642306,
+      46.2509005
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9873260345",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Av. de la Plantaud 48, Soluna, sous le Balcon, façade principale",
+    "description": "Accès direct en voiture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/9873260345"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9560276,
+      46.2505499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917843290",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917843290"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0891658,
+      46.1025626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917843312",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917843312"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9563812,
+      46.2649208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917845024",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917845024"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5164489,
+      46.2846171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917845083",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917845083"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9623225,
+      46.3076098
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917845090",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917845090"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3045265,
+      46.2228557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917845109",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917845109"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8937518,
+      46.2935413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9966212418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Postauto Haltestelle Hofmatta",
+    "description": "Unterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9966212418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8591084,
+      46.3085251
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9995229040",
+  "properties": {
+    "defibrillator:location": "Dans la cafétéria, sur le mur en face de l'accès aux WC.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9995229040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9464089,
+      46.2608557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10064327656",
+  "properties": {
+    "defibrillator:location": "Contre le mur, entre les caisses et la vitrine",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10064327656"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9563448,
+      46.2647976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10064327657",
+  "properties": {
+    "defibrillator:location": "Contre le mur, entre Office World et Migros.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10064327657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9562696,
+      46.2653903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10064328892",
+  "properties": {
+    "defibrillator:location": "Contre le mur, entre les deux salles de gym, côté vestiaire.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10064328892"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9522013,
+      46.2595896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10066918175",
+  "properties": {
+    "defibrillator:location": "Just after the toll booth on the left",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/10066918175"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1934946,
+      45.8993402
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10108687517",
+  "properties": {
+    "defibrillator:location": "Im LANDI TopShop",
+    "description": "Während Öffnungszeiten LANDI TopShop nutzbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "06:00-22:00",
+    "operator": "LANDI Oberwallis AG",
+    "id": "node/10108687517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9152286,
+      46.2954471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10113301636",
+  "properties": {
+    "defibrillator:location": "Contre le mur du bâtiment, à l'extérieur, à l'extrème gauche de la façade principale.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10113301636"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0066913,
+      46.208078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10159393817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkgarage",
+    "description": "24/7 zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Sanitätsverein",
+    "phone": "+41 79 369 47 34",
+    "id": "node/10159393817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8928925,
+      46.2001523
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10198911750",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Durchgang zum Hauseingang, hinterste Garage (mit Service-Türe) - Beschilderung folgen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hausgemeinschaft Egga Staldenried",
+    "phone": "+41 78 679 79 70",
+    "id": "node/10198911750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8814968,
+      46.2280943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10203684217",
+  "properties": {
+    "defibrillator:location": "Postautowendeplatz Mund, im Bus/WC Häuschen",
+    "description": "immer vorhanden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10203684217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9415079,
+      46.3147099
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10255520909",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Volg (rechts neben Eingang)",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/10255520909"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3368767,
+      46.1960322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10272995223",
+  "properties": {
+    "defibrillator:location": "Contre le mur, à droite de la porte d'accès principale, à l'extérieur du bâtiment.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10272995223"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9373366,
+      46.2930593
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10294944050",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10294944050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6326707,
+      46.3436852
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10300250531",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10300250531"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6333866,
+      46.3189397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10309073341",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10309073341"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6247395,
+      46.3806383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10311205776",
+  "properties": {
+    "defibrillator:location": "Beim Einstieg zur Gondelbahn Daubensee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10311205776"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6162723,
+      46.3980915
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10562272309",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Morenia",
+    "description": "während Öffnungszeiten verfügbar. Nach Eingang rechts an der Holzsäule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "09:00-16:00",
+    "operator": "Restaurant Morenia",
+    "id": "node/10562272309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9170532,
+      46.0814734
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10661577708",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Av. du Simplon 14b, Tennis, Contre le mur extérieur, à gauche de l'entrée principale",
+    "description": "Accès direct en voiture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/10661577708"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9521966,
+      46.248717
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10715810305",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb des Haupteingangs der Rezeption ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10715810305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8716586,
+      46.1768515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10715861046",
+  "properties": {
+    "defibrillator:location": "Av. de la Gare 24, Raiffeisen, local bancomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/10715861046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9500309,
+      46.2532814
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10720524207",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dorfstrasse 1, beim Eingang zur Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Saas-Balen",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10720524207"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9283202,
+      46.1537275
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10720529206",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seilbahnstrasse 18",
+    "description": "beim Haupteingang links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 27 957 24 31",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10720529206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.938593,
+      46.1279951
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10734221789",
+  "properties": {
+    "defibrillator:location": "sur le pied du panneau publicitaire, face sud-est.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10734221789"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9414594,
+      46.2749167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10750914106",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vor der Toilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "75a472f1-5da5-4476-9538-f0030ebdd7f3",
+    "phone": "+41 76 382 67 85",
+    "survey:date": "2025-07-07",
+    "wheelchair": "yes",
+    "id": "node/10750914106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3581306,
+      46.2324953
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310146",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zugang zu Werkstatt, nach Eingang links",
+    "description": "Koffer orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Garage Zenith SA",
+    "opening_hours": "Mo-Th 07:30-12:00, 13:30-18:00; Sa 07:30-12:00",
+    "operator": "Lifetec Schweiz AG",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310146"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.33913,
+      46.22733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310147",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang links im Kassenbereich",
+    "description": "Koffer gelb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Aligro Sion",
+    "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-20:00, Sa 08:00-17:00",
+    "operator": "Lifetec Schweiz AG",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310147"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.35724,
+      46.22311
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10797417205",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Turnhalle",
+    "description": "Ja, Aussenstandort",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Chippis",
+    "id": "node/10797417205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5414682,
+      46.2804447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10811355568",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Stempeluhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Matterhorn Gotthard Bahn",
+    "phone": "+41 27 927 71 98",
+    "id": "node/10811355568"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7508605,
+      46.0233111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10811355569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links beim WC-Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Matterhorn Gotthard Bahn",
+    "phone": "+41848642442",
+    "id": "node/10811355569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9649712,
+      46.3123475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10811355570",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vis-a-Vis der Schalteranlagen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Matterhorn Gotthard Bahn",
+    "phone": "+41 27 927 71 98",
+    "id": "node/10811355570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7485833,
+      46.0239681
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10811355571",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nach dem Eingang rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Matterhorn Gotthard Bahn",
+    "phone": "+41 848 642 442",
+    "id": "node/10811355571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7822561,
+      45.9832624
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10811355572",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingangsbereich hinter der Türe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Matterhorn Gotthard Bahn",
+    "phone": "+41 27 927 71 98",
+    "id": "node/10811355572"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7550843,
+      45.9929651
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10811355573",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Warteraum oberhalb des Feuerlöschers",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Matterhorn Gotthard Bahn",
+    "phone": "+41 848642442",
+    "id": "node/10811355573"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7540061,
+      46.0048307
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10811355575",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "RFT",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Matterhorn Gotthard Bahn",
+    "id": "node/10811355575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3429937,
+      46.5309755
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10819137205",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fassade Raiffeisenbank Mischabel-Matterhorn, Bahnhofstrasse 10, 3922 Stalden ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Stalden ",
+    "phone": "+41 27 953 15 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10819137205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8710872,
+      46.232808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10819146605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "MZA ST. Michael, Haupteingang, Bahnhofplatz 6, 3922 Stalden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Stalden ",
+    "phone": "+4127953 15 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10819146605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8703845,
+      46.2321846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10819147605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wartehaus Postautohaltestelle Stale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Stalden ",
+    "phone": "+4127953 15 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10819147605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.865701,
+      46.2307553
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10860312764",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "contre le mur nord du centre scolaire, au niveau de la route cantonale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10860312764"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8542005,
+      46.3838718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10860319474",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Aussenwand links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "wheelchair": "yes",
+    "id": "node/10860319474"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6253936,
+      46.3789906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10867541331",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/10867541331"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0106333,
+      46.2021151
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10884210986",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "North side of pillar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "yes",
+    "id": "node/10884210986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9946373,
+      46.3155493
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10909471805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mayens-de-Sion Est;au départ du grand Bisse de Vex;sur mur extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "commune de Vex",
+    "id": "node/10909471805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3808656,
+      46.2032882
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10944507838",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Dans le hall d'entrée / In entrance hall",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "wheelchair": "yes",
+    "id": "node/10944507838"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2085708,
+      46.1575271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10944507839",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la reception (selon horaires) / In hotel lobby (during opening hours)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-22:00",
+    "wheelchair": "yes",
+    "id": "node/10944507839"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0836492,
+      46.107697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10967794604",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Right next to the entrance",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/10967794604"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9234416,
+      46.2559159
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10976347858",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "A côté de l'entrée / Next to entrance",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "wheelchair": "no",
+    "id": "node/10976347858"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3095282,
+      46.0312059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10976347859",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Dans la centrale électrique",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "wheelchair": "no",
+    "id": "node/10976347859"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3504982,
+      45.9996874
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10978232233",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dehors / Outside",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "wheelchair": "limited",
+    "id": "node/10978232233"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2642199,
+      46.0511124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10981353699",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dehors / Outside",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "wheelchair": "yes",
+    "id": "node/10981353699"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2333082,
+      46.0936129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11043620889",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "In Empfangshalle / Inside entrance hall",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/11043620889"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9566582,
+      46.082184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11063043005",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Draussen an der Wand beim öffentlichen WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lac de Tanay?",
+    "id": "node/11063043005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8338966,
+      46.3439916
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988050",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Primarschulhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gampel-Bratsch",
+    "id": "node/11104988050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7129951,
+      46.3121546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988051",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen beim Eingang zur Seilbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gampel-Bratsch",
+    "id": "node/11104988051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7394209,
+      46.3155074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988052",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wartesaal Luftseilbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0.5",
+    "operator": "Gemeinde Gampel-Bratsch",
+    "id": "node/11104988052"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7228511,
+      46.3263554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988053",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Gampel-Bratsch",
+    "id": "node/11104988053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7239423,
+      46.3347849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988054",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Fabrikstrasse 1",
+    "email": "info@medicus.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gesundheitszentrum Medicus",
+    "id": "node/11104988054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7436539,
+      46.3169759
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988055",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zentrum Metropol",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steg-Hohtenn",
+    "id": "node/11104988055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.745077,
+      46.3148511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988056",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Gampel-Bratsch",
+    "id": "node/11104988056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7396038,
+      46.3118128
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988057",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkplatz Nordseite, Eingang Schule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gampel-Bratsch",
+    "id": "node/11104988057"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7079365,
+      46.3209467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988058",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Engersch Dorf",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Gampel-Bratsch",
+    "id": "node/11104988058"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7099508,
+      46.3278964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988059",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kraftwerk Lötschen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kraftwerk Lötschen",
+    "id": "node/11104988059"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.744436,
+      46.3195389
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11104988060",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haus der Generationen St. Anna",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Haus der Generationen Steg",
+    "phone": "+41 27 933 19 19",
+    "id": "node/11104988060"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.748006,
+      46.3160266
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11117359220",
+  "properties": {
+    "defibrillator:location": "Sur la facade du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/11117359220"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3501724,
+      46.2507093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11120023517",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Dans le restaurant / Inside restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Jun-Oct 12:00-14:30, 18:30-20:30",
+    "wheelchair": "no",
+    "id": "node/11120023517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3429799,
+      46.0030431
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11180998840",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Heliport Zermatt;Hangar bei der Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-18:00",
+    "operator": "Air Zermatt",
+    "phone": "+41 27 970 70 00",
+    "id": "node/11180998840"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7529625,
+      46.0292273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11191574437",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Gondelstation Bettmerhorn",
+    "description": "Personal nach Defi fragen.\nAchtung: Betriebszeiten beachten (saisonal unterschiedlich!)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/11191574437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0770213,
+      46.410398
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11225117337",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sozialmedizinisches Zentrum Oberwallis, Links neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41775349193",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11225117337"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.994796,
+      46.3195
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11254507037",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fitness Palace Eingang",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-21:30",
+    "operator": "Fitness Palace",
+    "phone": "+41279243300",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11254507037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9919529,
+      46.3126567
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11270946087",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hintermattstrasse 6, 3985 Geschinen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Verein",
+    "phone": "+41 27 974 12 22",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11270946087"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3017425,
+      46.5005577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11371089269",
+  "properties": {
+    "defibrillator:location": "Beim Eingang Hallenbad Steg",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steg-Hohtenn",
+    "phone": "+41 27 932 10 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11371089269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7540785,
+      46.3147798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11371090569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Nordwand der Kirche",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steg-Hohtenn",
+    "phone": "+41 27 933 12 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11371090569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.755838,
+      46.3186108
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11371093369",
+  "properties": {
+    "defibrillator:location": "Parkhaus unter dem Kirchplatz Steg",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Steg-Hohtenn",
+    "phone": "+41 27 933 12 70",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11371093369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7470243,
+      46.3155245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11374913369",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeinde Grengiols",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/11374913369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0927342,
+      46.3724131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11382059569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Spital Brig",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/11382059569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9818359,
+      46.3172344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11383596069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sierre",
+    "description": "Am Schwimmbad",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Keine",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11383596069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5404835,
+      46.2905833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11455302270",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Egga Eingangsbereich",
+    "description": "Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde,Samariter",
+    "phone": "+41794653730",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11455302270"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.774412,
+      46.2863125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11455307670",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Luftseilbahn",
+    "description": "Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde,Samariter",
+    "phone": "+41794653730",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11455307670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7837632,
+      46.293954
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11455310069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus EG vor öffentlicher Toillette",
+    "description": "Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde,Samariter",
+    "phone": "+41794653730",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11455310069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7795005,
+      46.2945994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11523012509",
+  "properties": {
+    "defibrillator:location": "Next to entrance of cable car office",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/11523012509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9385958,
+      46.1280434
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11536529969",
+  "properties": {
+    "defibrillator:location": "Migros Haute-Nendaz im Eingangsbereich",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00-20:00",
+    "operator": "Migros",
+    "phone": "+41277206595",
+    "id": "node/11536529969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2922576,
+      46.1819948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11536664783",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/11536664783"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0433193,
+      46.0949971
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11589037669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingang vom Ibis Style",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Ibis Style",
+    "id": "node/11589037669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5208912,
+      46.2877572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11594246983",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Postgebäude Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 27 957 24 31",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11594246983"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9365116,
+      46.1236302
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11595151169",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Berghaus Möriken-Wildegg",
+    "description": "Verfügbar wenn Lagerhaus offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/11595151169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0706572,
+      46.3906383
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11648692970",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Maison de la santé du Haut-Lac, rez-de-chaussée",
+    "description": "À droite devant l’entrée, dans l’angle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "phone": "+41244820090",
+    "id": "node/11648692970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8894333,
+      46.3372502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11708878269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans la boîte à livres",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/11708878269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9872466,
+      46.2420077
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11749803569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrlokal Herbriggen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde St. Niklaus",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11749803569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7931529,
+      46.1371141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11854306770",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Draussen, vor dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/11854306770"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3070146,
+      46.2170261
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11884853469",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feriensiedlung Aragon Haus 21v in 3995 Ernen",
+    "description": "stationiert bei Eingang Reception beim Haus 21v",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feriensiedlung Aragon",
+    "phone": "+41 79 958 02 75",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11884853469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1411366,
+      46.3960072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11886100170",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand gut sichtbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11886100170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1839824,
+      46.3640068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12046613791",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Gebäudewand montiert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Samariterverein Bürchen",
+    "id": "node/12046613791"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.814319,
+      46.2836863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12061279971",
+  "properties": {
+    "defibrillator:location": "in staircase building",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/12061279971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1699256,
+      46.0067305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12064439969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sion Aéroport Check-In",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Sion Aéroport",
+    "id": "node/12064439969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3377077,
+      46.222809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12071373920",
+  "properties": {
+    "check_date": "2024-07-24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "location": "Rechts bei Eingangstür des Wohnhaus Nr 61 (Restaurant Bergfreund)",
+    "opening_hours": "24/7",
+    "id": "node/12071373920"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1002605,
+      46.4109769
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12085318963",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée principale sur la gauche après l'ascenseur.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "procamed ag",
+    "id": "node/12085318963"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5110398,
+      46.2824861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12096670554",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Hinter der Eingangstüre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "La Grande Maison",
+    "phone": "+41 79 830 76 07",
+    "wheelchair": "limited",
+    "id": "node/12096670554"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3174404,
+      46.2484726
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12096683209",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei dem Gemeinde Anschlagkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune de Conthey",
+    "phone": "+41 27 345 45 45",
+    "wheelchair": "limited",
+    "id": "node/12096683209"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2716044,
+      46.2363479
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12096716232",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Bei Eingang bei der Rezeption",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Camping des Glaciers SA",
+    "phone": "+41 27 783 18 26",
+    "wheelchair": "no",
+    "id": "node/12096716232"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0937033,
+      45.9335311
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12096740317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei Rolltreppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:15-18:30; Fr 08:15-20:00; Sa 08:00-17:00",
+    "operator": "Genossenschaft Migros Wallis",
+    "phone": "+41 27 720 68 80",
+    "wheelchair": "limited",
+    "id": "node/12096740317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0717502,
+      46.1015474
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12096882742",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang Barryland",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "fixme": "check location, museum was moved!",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 10:00-18:00",
+    "operator": "Fondation Barry du Grand-St-Bernard",
+    "phone": "+41 27 722 65 42",
+    "wheelchair": "limited",
+    "id": "node/12096882742"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0749466,
+      46.0952621
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12103389801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kirche",
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/12103389801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1194173,
+      46.3886627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12108054256",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/12108054256"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.578021,
+      46.3092932
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12118429614",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12118429614"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7911607,
+      46.4069844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12118448248",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12118448248"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7832051,
+      46.4037639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12135463338",
+  "properties": {
+    "defibrillator:location": "On the wall next to the reception of Taxi Christophe, between the building and the fuel station",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12135463338"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7763582,
+      46.0688437
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12151069201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Chemin de la Sargnia 12",
+    "description": "ganzjährig, toute l'année",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41763890862",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12151069201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0607496,
+      46.1487796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12159931328",
+  "properties": {
+    "defibrillator:location": "in der Bergstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/12159931328"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7974267,
+      46.0214804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12189407401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bei Eingang Westseite",
+    "description": "Nur während Öffnungszeiten verfügbar. ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00- 19:00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12189407401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7484673,
+      46.0235783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12194213701",
+  "properties": {
+    "defibrillator:location": "Gemeindekanzlei Raron",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Raron",
+    "id": "node/12194213701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8010794,
+      46.3094313
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12208526840",
+  "properties": {
+    "defibrillator:location": "Kehrichtsammelstelle, Bushaltestelle Fäld",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Fäld",
+    "id": "node/12208526840"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2121205,
+      46.3688279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12223973601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sekratariat Sportarena",
+    "description": "An Aussenfassade Richtung Tennisplätze",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Zermatt",
+    "id": "node/12223973601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.748693,
+      46.0223994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12237797001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Restaurant Croix de Coeur",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/12237797001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.23287,
+      46.1217172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12250098784",
+  "properties": {
+    "access": "yes",
+    "brand": "Aivia",
+    "defibrillator:location": "At a column of the roof, facing towards Bahnhofsplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "3b6fc850-cb46-4c1a-8eb7-57de7971fbbb",
+    "id": "node/12250098784"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7477727,
+      46.0237332
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12258196701",
+  "properties": {
+    "defibrillator:location": "arrête de bus",
+    "description": "Sous l‘abri du bus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commine de Conthey",
+    "id": "node/12258196701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3063156,
+      46.2409293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12258220384",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le hall d'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/12258220384"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1870236,
+      46.1713507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12338844401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Installationsplatz Baustelle Sanierung Furkatunnel",
+    "description": "Zugang nur im Notfall erlaubt, ansonsten Zugang für unbefugte verboten. Der Defi befindet sich an der Aussenseite der Halle und ist in einem beleuchteten Kasten gelagert.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "ARGE Marti Furkatunnel",
+    "phone": "+41795612240",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12338844401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3590829,
+      46.5361078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12338846101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Installationsplatz - Aussenseite Containergebäude",
+    "description": "Zugang nur im Notfall erlaubt, ansonsten Zugang für unbefugte verboten. Der Defi befindet sich an der Aussenseite des Containergebäudes und ist in einem beleuchteten Kasten gelagert.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "ARGE Marti Furkatunnel",
+    "phone": "+41795612240",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12338846101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3580852,
+      46.5348273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12381780101",
+  "properties": {
+    "defibrillator:location": "Talstation Luftd24/7eilbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12381780101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8369952,
+      46.2143352
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12433339701",
+  "properties": {
+    "defibrillator:location": "Ladenalp, Kapelle",
+    "description": "An der Aussenwand der Kapelle angebracht",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Steg-Hohtenn",
+    "phone": "+41279331270",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12433339701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7669156,
+      46.3260831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12460908701",
+  "properties": {
+    "defibrillator:location": "Gandegg, Lauchernalp",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12460908701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7580656,
+      46.4258846
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12465387323",
+  "properties": {
+    "defibrillator:location": "Sur un poteau au bord de la route",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12465387323"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1769701,
+      46.1311922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12469084000",
+  "properties": {
+    "defibrillator:location": "On an exterior wall.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12469084000"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.167956,
+      46.2028944
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12484331334",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Garage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/12484331334"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7427215,
+      46.3167826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12590021570",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12590021570"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5011927,
+      46.2642007
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12630221401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Johanniterkonturei, 3970 Salgesch, Wallis",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "www.schiller.ch",
+    "id": "node/12630221401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5699014,
+      46.311217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12630319102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Place de la Chapelle, 1867 Ollon",
+    "description": "aussen an der Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "keine Angaben",
+    "id": "node/12630319102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4775538,
+      46.2737831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12677518071",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "wheelchair": "limited",
+    "id": "node/12677518071"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6098376,
+      46.2291511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12731408601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rue de la Mairie 17, 1905 Dorénaz",
+    "description": "à l'entrée de la maison communale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Commune de Dorénaz",
+    "phone": "+41 27 764 16 48",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12731408601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.042585,
+      46.1487143
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12731894612",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Outside, facing the playground",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12731894612"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9612206,
+      46.2599472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12732093402",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "lomattenstrasse 37",
+    "description": "beim Eingang zur Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12732093402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9305556,
+      46.1121733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12738454756",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/12738454756"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.947692,
+      46.2539203
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12749901953",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Durchgang zwischen Bhf und Cafébar, an Stützträger.",
+    "description": "Nur während Betreibszeiten.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Jungfraubahnen",
+    "phone": "+41 33 828 79 36",
+    "id": "node/12749901953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9822931,
+      46.54725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12749901954",
+  "properties": {
+    "access": "yes",
+    "access:conditional": "yes @ opening_hours",
+    "defibrillator:location": "Im oberen Stock zwischen Lifthalle Sphinx und Terasse.",
+    "description": "Nur während Betreibszeiten.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Jungfraubahnen",
+    "phone": "+41 33 828 79 36",
+    "id": "node/12749901954"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9851955,
+      46.5474411
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12749925868",
+  "properties": {
+    "access": "yes",
+    "access:conditional": "yes @ opening_hours",
+    "defibrillator:location": "Im Rundgangstollen, beim Brandschutztor, Verzweigung Aletschstollen.",
+    "description": "Nur während Betreibszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Junfraubahnen",
+    "phone": "+41 33 828 79 36",
+    "id": "node/12749925868"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9851103,
+      46.5475557
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12794232850",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12794232850"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1673311,
+      46.1598259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12809561201",
+  "properties": {
+    "defibrillator:location": "Clausen Kran AG, offene Halle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12809561201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9579972,
+      46.3055521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12875473205",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/12875473205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6294491,
+      46.3788813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12918834401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Konkordiahütte SAC",
+    "description": "Eingang Hauptgebäude (nur wenn bewartet)",
+    "email": "info@konkordiahuette.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Konkordiahütte Mazenauer & Sager GmbH",
+    "phone": "+41 33 855 13 94",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12918834401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0531824,
+      46.5004011
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12946896277",
+  "properties": {
+    "access": "yes",
+    "check_date": "2025-06-23",
+    "defibrillator:location": "montiert an der Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Walliser Kantonalbank",
+    "id": "node/12946896277"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7442033,
+      46.3152022
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12950298101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Au coin du banque",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "7ff7ab60-ac5a-4ff4-9591-5b2bd9edda3c",
+    "survey:date": "2025-07-07",
+    "wheelchair": "yes",
+    "id": "node/12950298101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5288135,
+      46.2917581
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12966587515",
+  "properties": {
+    "defibrillator:location": "Outside, to the left of the main entrance",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12966587515"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8670994,
+      46.1757704
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12969280439",
+  "properties": {
+    "defibrillator:location": "Outside on a wall on the main parking area, to the right of the entrance to the ticket office.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12969280439"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8597701,
+      46.1638837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12982891775",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location:en": "At the reception",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-23:00",
+    "panoramax": "6675d09a-2439-42f4-b55e-bcb688e988bc",
+    "survey:date": "2025-07-06",
+    "wheelchair": "limited",
+    "id": "node/12982891775"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4808189,
+      46.3136516
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12985173571",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location:en": "Outside at the main entrance",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "1e6ac7d7-2e34-4518-9ebe-23ee4ec3e22c",
+    "survey:date": "2025-07-07",
+    "id": "node/12985173571"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4812602,
+      46.3123879
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12986250774",
+  "properties": {
+    "defibrillator:location": "Hanged on the external wall",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/12986250774"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8338652,
+      46.3439847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12987742691",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "0d31d025-9797-4681-9f34-c10009440d8a",
+    "survey:date": "2025-07-08",
+    "wheelchair": "yes",
+    "id": "node/12987742691"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4688901,
+      46.3045689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12987751710",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Au réception du spa/entrée du piscine",
+    "defibrillator:location:en": "At the reception of the spa/entrance to the the pool",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "09:00-20:00",
+    "panoramax": "a48bf55d-a031-40d4-8285-d885e220c670",
+    "survey:date": "2025-07-08",
+    "wheelchair": "limited",
+    "id": "node/12987751710"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4813174,
+      46.3137494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12989470919",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location:en": "Outside, next to the entrance of the cable car.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "68d457f8-f5c6-4d9a-a3d0-36d81dabef05",
+    "survey:date": "2025-07-09",
+    "id": "node/12989470919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4672063,
+      46.308498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12993826302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée, sur la façade",
+    "description": "disponible pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Galliker Transport AG",
+    "phone": "+41 62 748 82 23",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12993826302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2980547,
+      46.2151941
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13015103942",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "panoramax": "424736c4-99e7-418b-bfa0-cdbfc4599aa6",
+    "survey:date": "2025-07-21",
+    "wheelchair": "limited",
+    "id": "node/13015103942"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5357162,
+      46.3020001
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13018804711",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur la facade du bâtiment",
+    "defibrillator:location:en": "On outside wall",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "locked": "no",
+    "opening_hours": "24/7",
+    "id": "node/13018804711"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4349581,
+      46.3463666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13021242986",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Devant les portes vitrées automatiques",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13021242986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3584164,
+      46.2289769
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13052455777",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros Kasse",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Migros",
+    "id": "node/13052455777"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1355569,
+      46.4039972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13065396602",
+  "properties": {
+    "defibrillator:location": "links aussen am Office de Tourism links an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13065396602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2328126,
+      46.1449761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13105700861",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Defi, Hotel Schwarzhorn, beim Eingang",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Tscherrig Beni und Carmen",
+    "phone": "+41 27 932 14 14",
+    "wheelchair": "yes",
+    "id": "node/13105700861"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7064263,
+      46.2116575
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13149108801",
+  "properties": {
+    "defibrillator:location": "Wehreyering 45",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Ewald Gattlen AG",
+    "phone": "+41 27 946 41 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13149108801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8656534,
+      46.2983115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13180341601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dorfstrasse 4",
+    "description": "das alte kommunale Gebäude, innerhalb der öffentlichen Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lalden",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13180341601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9035154,
+      46.299398
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13180350201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus",
+    "description": "An der Aussenwand der Schule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lalden",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13180350201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9069099,
+      46.2982716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13180351801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Finnenbachstrasse16",
+    "description": "An der Aussenwand der Umkleidekabinen neben dem Sportplatz Finnenbach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lalden",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13180351801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8954783,
+      46.3019044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13240772753",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/13240772753"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0065933,
+      46.1109787
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13243565401",
+  "properties": {
+    "defibrillator:location": "Gemeinde Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Agarn",
+    "phone": "+41274749630",
+    "id": "node/13243565401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6647045,
+      46.2971819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13264965101",
+  "properties": {
+    "defibrillator:location": "Juraweg 48 frick",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/13264965101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9893054,
+      46.0837558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13340882601",
+  "properties": {
+    "defibrillator:location": "Rothornhütte SAC",
+    "description": "Während den Bewartungszeiten Juni - September",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/13340882601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6973161,
+      46.0481897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13355898048",
+  "properties": {
+    "defibrillator:location": "Turnhalle Bammatta",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13355898048"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9997689,
+      46.3269722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13355898049",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussen, links von Haupteingang Missione",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13355898049"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9901112,
+      46.3256863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13383666201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Centre de secours et incendie CSI Chablais-VS, à gauche du bâtiment, près de l'entrée PCi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune de Monthey",
+    "id": "node/13383666201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.958556,
+      46.2684158
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13383668302",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Dans la Isuzu Pick-up véhciule du chef de matériel, VS 452 743",
+    "description": "Accessible uniquement pour les sapeurs-pompiers ou personnes ayant le badge d’accès de la caserne",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/13383668302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9583489,
+      46.2682303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13410639101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle Stapfen",
+    "description": "dauerhaft erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Naters",
+    "id": "node/13410639101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0039005,
+      46.3258863
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13413164048",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'angle de l'école, en bas",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13413164048"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8537686,
+      46.2380836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13413206206",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'angle du magasin de sports",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13413206206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8572797,
+      46.2369677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13414029657",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Au milieu de la façade",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13414029657"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8759752,
+      46.2404238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13438997645",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Outside Denner supermarket entrance",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/13438997645"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0391115,
+      46.1348421
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13468744102",
+  "properties": {
+    "defibrillator:location": "Devant le poste de Police",
+    "description": "Défibrilateur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Personne privée",
+    "id": "node/13468744102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5852633,
+      46.2165255
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13503388101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Dans le centre commercial « Soleil », dans le ce tre medical du Chablais, à la réception",
+    "description": "Disponible durant les heures d’ouverture du centre médical",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Centre médical du Chablais",
+    "phone": "+41 24 473 23 30",
+    "id": "node/13503388101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9548674,
+      46.2668938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13534108182",
+  "properties": {
+    "access": "yes",
+    "colour": "green",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "outdoor": "yes",
+    "wheelchair": "limited",
+    "id": "node/13534108182"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6241615,
+      46.3808934
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13543361701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Talstation Sesselbahn Gassen",
+    "description": "Immer erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Bellwald Sportbahnen AG",
+    "phone": "+41 27 971 19 27",
+    "id": "node/13543361701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1618044,
+      46.4289656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13552094268",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Inside Migros at cashier.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-19:00",
+    "operator": "Migros",
+    "wheelchair": "no",
+    "id": "node/13552094268"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6261483,
+      46.3791466
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13565059801",
+  "properties": {
+    "defibrillator:location": "Toilettes publiques",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/13565059801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8926334,
+      46.2041018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13576305901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vestiaires Terrain Noyeraya , sur le mur côté route du Triboulet",
+    "description": "Armoire verte, au-dessus coffret électrique, accès direct en voiture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13576305901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9618068,
+      46.2460896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13576338201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pl. Hôtel de Ville 2, Hôtel de Ville, dans le Hall d'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13576338201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9458729,
+      46.2508648
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13580149001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parking Cotterg, cage d'escaliers, à côté de la caisse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Coeur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13580149001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9473701,
+      46.2539032
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13580168701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Av. de l'Europe 42, devant la paroisse protestante",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Cœur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13580168701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9526361,
+      46.2553187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13580172202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rue des produits 9, Ecole Chimie, sur le perron à droite de la porte d'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Cœur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13580172202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9570782,
+      46.2546384
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13580175901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Av. de la Gare 58, Tonkinelle, à gauche de l'entrée principale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Cœur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13580175901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9552338,
+      46.25492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13580185101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rue du Closillon 45, Garage Gattoni, devant la porte d'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Cœur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13580185101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9628414,
+      46.2571464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13580191901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tonkin 28, Salle de Gym Reposieux, à côté de l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Cœur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13580191901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9524988,
+      46.2594921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13580195801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Rte de Clos Donroux 1, Gessimo, après la barrière, sous le couvert à boîte aux lettres",
+    "description": "Disponible pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Cœur Valais",
+    "phone": "+41 27 603 62 73",
+    "id": "node/13580195801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9503684,
+      46.2622774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13588414101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrance to the Rosablanche buildings C, D, E",
+    "description": "Parking deck level, inside the first door on the left wall, next to the mailboxes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13588414101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3170763,
+      46.1347509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13644605664",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/13644605664"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3019095,
+      46.0849664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13644605673",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "id": "node/13644605673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3182431,
+      46.0800633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13655015101",
+  "properties": {
+    "defibrillator:location": "Maison de Commune",
+    "description": "Dehors vers le mur, côté Café Central",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Commune",
+    "id": "node/13655015101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9462545,
+      46.2690172
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13665654201",
+  "properties": {
+    "addr:housenumber": "15",
+    "addr:street": "Route de la Fin",
+    "emergency": "defibrillator",
+    "id": "node/13665654201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8713028,
+      46.1749202
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13686425502",
+  "properties": {
+    "defibrillator:location": "Basel Aeschenplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "id": "node/13686425502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9551819,
+      46.30044
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700791201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "entrée principale du théâtre des Alambics Martigny",
+    "description": "à l'extérieur, sur le mur, à droite de la porte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13700791201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0750057,
+      46.1022171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13716590989",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A côté de la porte de service",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13716590989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8983427,
+      46.31207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13732795717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A côté de l'entrée",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13732795717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9409016,
+      46.2773849
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13734153106",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur la façade de la caserne des pompiers",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13734153106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9839824,
+      46.2105278
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13734966674",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur la façade du restaurant",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13734966674"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9585325,
+      46.2230656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770561001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Logistik Halle Büro",
+    "description": "Wärend den Öffnungszeiten",
+    "email": "donald.albrecht@bmsuisse.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-17:30",
+    "operator": "Gétaz Miauton SA Visp",
+    "phone": "+41 27 948 85 72",
+    "id": "node/13770561001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8756341,
+      46.3010092
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13770594101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Getaz Miauton SA Shop Eingang rechts",
+    "description": "während den Öffnungszeiten",
+    "email": "donald.albrecht@bmsuisse.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-17:30",
+    "operator": "Getaz Miauton SA, Visp",
+    "phone": "+41 27 948 85 72",
+    "id": "node/13770594101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8750386,
+      46.3007885
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13806987201",
+  "properties": {
+    "defibrillator:location": "Restaurant Adler Hitta",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "id": "node/13806987201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7630008,
+      46.0127922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13835470467",
+  "properties": {
+    "defibrillator:location": "Service clientèle Migros",
+    "emergency": "defibrillator",
+    "opening_hours": "Mo-Th 07:30-18:30; Fr 07:30-20:00; Sa 07:30-17:00; Su, PH off",
+    "id": "node/13835470467"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3838754,
+      46.2316374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13901459201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hôtel Nendaz 4 Vallées et Spa",
+    "description": "Disponible dans le lobby de l'hôtel et à l'étage inférieur du spa",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/13901459201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2901111,
+      46.180924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13914010101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kappel Riedji",
+    "description": "Hinterste Bankreihe rechts unter der Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "37",
+    "opening_hours": "24/7",
+    "operator": "Kappele",
+    "phone": "+41794187766",
+    "id": "node/13914010101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8947187,
+      46.2407238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13914041601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Kapel rechts hinterste Bankreihe",
+    "description": "24/7 offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "37",
+    "opening_hours": "24/7",
+    "operator": "Alpgenosenschaft Riedji",
+    "phone": "+41794187766",
+    "id": "node/13914041601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8947211,
+      46.240751
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13929662901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Rue du Stade 2 - 1926 Fully",
+    "description": "Disponible sur appel téléphonique",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "phone": "+41 78 652 59 00",
+    "id": "node/13929662901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1174706,
+      46.1385981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13959880504",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-06-23",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/13959880504"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1549037,
+      46.0621396
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13964974401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Quai 1 de la gare de Martigny à l'arrière du centre voyageurs",
+    "email": "francine.vaquin@sbb.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "SBB/CFF",
+    "phone": "+41 79 255 80 34",
+    "id": "node/13964974401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0791881,
+      46.105893
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13967268101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Airnace SA",
+    "description": "Disponible pendant les heures d'ouverture",
+    "email": "info@airnace.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-18:30",
+    "operator": "Entreprise",
+    "phone": "+41 27 766 40 97",
+    "id": "node/13967268101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0262962,
+      46.1708854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13970140679",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Left of the tourist information above Volg",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/13970140679"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7781092,
+      46.4019961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13983001201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stabitec AG",
+    "description": "während den Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stabitec AG",
+    "phone": "+41 27 932 20 00",
+    "id": "node/13983001201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7528395,
+      46.3095955
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14001033621",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14001033621"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.154604,
+      46.4065731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14001033627",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Informationstafel “Pfarrei Ernen” beim Eingang des Friedhofs",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14001033627"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.144074,
+      46.3984568
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14002999418",
+  "properties": {
+    "defibrillator:location": "Sous la galerie devant la salle polyvalente",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14002999418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9883896,
+      46.2427978
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14004506001",
+  "properties": {
+    "defibrillator:location": "à côté des boîtes aux lettres",
+    "description": "libre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14004506001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8768007,
+      46.1851716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14006225745",
+  "properties": {
+    "defibrillator:location": "Links neben Eingang",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14006225745"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6252669,
+      46.1370526
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14007959004",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14007959004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.573707,
+      46.1384731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14038934754",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Outside on the building wall",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14038934754"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0090897,
+      46.0321848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14046196401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Info Point Gletsch",
+    "description": "immer offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14046196401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3611668,
+      46.5614654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14060922943",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dans le couloir entre l'hôtel et Idiap (selon horaires) / In corridor between hotel and Idiap (during opening hours)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "06:30-22:30",
+    "wheelchair": "yes",
+    "id": "node/14060922943"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.084718,
+      46.1093446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14063512301",
+  "properties": {
+    "defibrillator:location": "Gare de Sierre quai 1 secteur C",
+    "description": "24/24 7/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "id": "node/14063512301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5318069,
+      46.2917441
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14063522701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "gare de Sierre quai 1 Secteur C",
+    "description": "Gare de Sierre quai 1 secteur 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "SBB",
+    "phone": "+41792558034",
+    "id": "node/14063522701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5330791,
+      46.2924136
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14063587202",
+  "properties": {
+    "defibrillator:location": "Gare de Sion quai 1 a côté kiosque",
+    "description": "Ouvert 24h",
+    "email": "vaquinfrancine@gmail.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14063587202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3592393,
+      46.2273725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14068521730",
+  "properties": {
+    "emergency": "defibrillator",
+    "location": "Burgerhaus, bei eingang",
+    "opening_hours": "24/7",
+    "id": "node/14068521730"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1398484,
+      46.1959188
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14091830001",
+  "properties": {
+    "defibrillator:location": "On the wall of E27 Lonza restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "LONZA",
+    "id": "node/14091830001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8842479,
+      46.2949022
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102545201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Sion - Cafétéria",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102545201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3586708,
+      46.2285468
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14115852405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur le mur extérieur du restaurant",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14115852405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0713875,
+      46.0696591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14128708701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entreé Lac Souterrain",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14128708701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4256605,
+      46.2567628
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14145057002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "À l’entrée au rez de chaussée en face de l’ascenseur",
+    "description": "Sonnez à n’importe quel nom pour qu’on ouvre la porte",
+    "email": "cocatrini@me.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Maison de plusieurs appartements 24/7 porte d’entrée doit être ouverte par sonnette - sonnez chez n’importe qui pour qu’on ouvre",
+    "phone": "+41 79 209 91 54",
+    "id": "node/14145057002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2347172,
+      46.1913776
+    ]
+  }
+}
 ]
 }

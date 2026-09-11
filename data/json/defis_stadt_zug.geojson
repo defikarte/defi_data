@@ -1,6 +1,2767 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/5103296769",
+  "properties": {
+    "defibrillator:location": "Bei der Metalli Apotheke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-19:00; Sa 08:00-17:00",
+    "id": "node/5103296769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5173405,
+      47.1724013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/5706235894",
+  "properties": {
+    "defibrillator:location": "Neben Portierloge",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "V-ZUG AG",
+    "id": "node/5706235894"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5219527,
+      47.1809093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7006201377",
+  "properties": {
+    "defibrillator:location": "unklar?",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7006201377"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5151587,
+      47.1665279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7120020585",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Seitenflügel vor der Migros an einem Stütrpfeiler",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "wheelchair": "yes",
+    "id": "node/7120020585"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5180399,
+      47.1731672
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739427",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "in der Schule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739427"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5177863,
+      47.1595384
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739428",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Museum für Urgeschichte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739428"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5155999,
+      47.1598364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739429",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "links vom Gebäude beim Velounterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739429"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5147738,
+      47.1676399
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739431",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "nach Velounterstand rechts an Stützmauer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739431"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5165501,
+      47.1643245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739432",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulgebäude Athene",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739432"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5154761,
+      47.1601087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739433",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739433"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5159311,
+      47.1698555
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739434",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "*Aktuell nicht verfügbar!*\n\nBahnhof neben Gleis 3 Lift",
+    "description": "*Aktuell nicht verfügbar!*\n\nEG, Ausgang Richtung Metalli beim Lift zum Gleis 3",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/7568739434"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5155839,
+      47.1733774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739435",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Amt für Berufsberatung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "wheelchair": "yes",
+    "id": "node/7568739435"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.516096,
+      47.172484
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739436",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gewerblich-Industrielles Bildungszentrum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Hochbauamt, Kanton Zug",
+    "phone": "+41 41 728 54 00",
+    "id": "node/7568739436"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5187237,
+      47.1789016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739437",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verwaltungsgebäude 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739437"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5134085,
+      47.1607774
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739438",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verwaltungsgebäude 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "wheelchair": "no",
+    "id": "node/7568739438"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5199685,
+      47.1671447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739439",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Rettungsdienst Zug",
+    "email": "info.hba@zg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Rettungsdienst Zug",
+    "phone": "+41 41 594 46 60",
+    "wheelchair": "limited",
+    "id": "node/7568739439"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5102936,
+      47.1753641
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739440",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Windfang, öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739440"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.510094,
+      47.173513
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739441",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus KBZ",
+    "email": "info.hba@zg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739441"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5110301,
+      47.1751886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7568739442",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verwaltungsgebäude 1 Links Neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton Zug",
+    "id": "node/7568739442"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5107037,
+      47.1743179
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654664",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bei der Mobiliar im 1. Stock",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7930654664"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5162161,
+      47.1675541
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654665",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hallenbad Herti, bei der Badeaufsicht",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Hallenbad Herti, bei der Badeaufsicht",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "operator:email": "sicherheit@stadtzug.ch",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654665"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5034233,
+      47.1814497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654667",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Riedmatt, Fassade Velounterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654667"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4891379,
+      47.1828457
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654668",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Guthirt, zwischen Trakt A und B",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654668"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5190472,
+      47.1776672
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Loreto, Trakt 4, bei Briefkasten, (oberer Parkplatz)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5245152,
+      47.1709794
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654670",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hallenbad Loreto, bei der Badeaufsicht",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5236941,
+      47.17101
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654671",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Letzi Schulhaus, Fassade bei Pavillon EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654671"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5006016,
+      47.1777657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654673",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulzentrum Maria Opferung, Box bei Toreingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654673"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5199283,
+      47.162856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654674",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Kirchmatt, Fassade bei Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654674"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5192846,
+      47.1631111
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654675",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Klubschule",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7930654675"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5181433,
+      47.1729395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654676",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Migros",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/7930654676"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5054082,
+      47.1779033
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654677",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Migros",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/7930654677"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5151567,
+      47.1652628
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654678",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Gimenen, Holzschopf vor Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654678"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5179663,
+      47.1526994
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654679",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "6300 Zug",
+    "addr:housenumber": "2",
+    "addr:street": "General-Guisan-Strasse",
+    "defibrillator:location": "Sporthalle Zug, Seiteneingang UG links",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654679"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5084766,
+      47.1760036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654681",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Hänggeli, beim Haupteingang UG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654681"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5248689,
+      47.1686773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654682",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Burgbachsaal, Hausfassade links (bei Nebeneingang)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 09",
+    "id": "node/7930654682"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5171884,
+      47.165482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654683",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Strandbad Zug, bei der Badaufsicht",
+    "description": "während Betriebszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654683"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5020178,
+      47.1752405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930654684",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhaus Neustadtplatz, Rückwand von Parkhaus Kasse (Hinterausgang Musikschule)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930654684"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5128164,
+      47.1720126
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930677686",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Fitnesspark",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/7930677686"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5166468,
+      47.1749024
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930677687",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Casino Zug, Stütze Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930677687"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5142444,
+      47.1644313
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930677688",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Seebad Seeliken, bei der Badaufsicht",
+    "description": "während dem Badebetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930677688"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5133733,
+      47.1642889
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930677689",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Leichtathletikanlage Allmend, Fassade bei Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "operator:email": "sicherheit@stadtzug.ch",
+    "phone": "+41 58 728 99 00",
+    "id": "node/7930677689"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5082178,
+      47.1805505
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930677690",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fussballstadion Allmend, Fassade links (bei Schuhputzstation, Seiteneingang)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 09",
+    "id": "node/7930677690"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5077685,
+      47.1776809
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7930677691",
+  "properties": {
+    "defibrillator:location": "Feuerwehr Zug (FFZ), Hintereingang, Seite Industriestrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Feuerwehramt Stadt Zug",
+    "phone": "+41 58 728 18 18",
+    "id": "node/7930677691"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5206995,
+      47.1804539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8003897916",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/8003897916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5163486,
+      47.1641182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8165390899",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8165390899"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5210103,
+      47.1513652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8165737450",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Wartehalle der Bergstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Zugerbergbahn AG",
+    "phone": "+41 41 711 53 76",
+    "id": "node/8165737450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5329456,
+      47.1439447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8520333804",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich Zugorama",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 09:00-17:00; Sa 09:00 - 14:00; PH off",
+    "operator": "V-ZUG AG",
+    "id": "node/8520333804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5199393,
+      47.1815063
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8681975394",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seebad Siehbach (Männerbadi), an der Aussenfassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/8681975394"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.507569,
+      47.1717122
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8702057865",
+  "properties": {
+    "defibrillator:location": "im Befundraum 1, links unten im weissen Regal",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Dr. med. Claude Mair-Noack",
+    "phone": "+41 41 511 26 26",
+    "id": "node/8702057865"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5147433,
+      47.1730873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8820883648",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben den Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-We 09:00-22:00; Su 10:00-20:00; Th-Fr 09:00-24:00; Sa 10:00-24:00",
+    "operator": "Freiruum Zug",
+    "wheelchair": "yes",
+    "id": "node/8820883648"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5127946,
+      47.1769154
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8962374918",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "direkt neben Haupt-Eingang Haus Bundesplatz 7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Citypark Immobilien AG, Rigistrasse 1, 6302 Zug, Kontaktperson: Gabriela Kottmann",
+    "phone": "+41 41 783 85 05",
+    "id": "node/8962374918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5144021,
+      47.171041
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9007872019",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zug",
+    "defibrillator:location": "Schulhaus BPS Eingang",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "name": "Institut Montana",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "1595LTS",
+    "id": "node/9007872019"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5351923,
+      47.144806
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9131895535",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "In der Apotheke drin",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:30; Sa 08:00-16:00",
+    "operator": "Apotheke Spillmann",
+    "phone": "+41 41 711 15 47",
+    "id": "node/9131895535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5155731,
+      47.1687938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9245669368",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Eingangsbereich, rechts neben Treppenaufstieg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 07:30-16:30",
+    "id": "node/9245669368"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.518791,
+      47.1622227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130355",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-08-27",
+    "defibrillator:location": "Schützenhaus Choller / An Wand neben dem Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130355"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4821065,
+      47.1811558
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130356",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportplatz Riedmatt, rechts vom Eingang, draussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130356"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4866439,
+      47.182295
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130357",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Herti Nord, Fassade bei Haupteingang",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "website": "https://www.stadtzug.ch/",
+    "id": "node/9605130357"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5109147,
+      47.1821748
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130359",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ökihof Zug / Eingang Brocki",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130359"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5230035,
+      47.1845884
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130360",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bibliothek Zug, Haupteingang rechts / nach Zwischendurchgang",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130360"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5150886,
+      47.1645665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130361",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Friedhof St. Michael, Fassade bei Werkgarage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130361"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5214954,
+      47.1604592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130362",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulanlage Oberwil, Eingang ZSA links (bei Turnhalle)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130362"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5084733,
+      47.1491142
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130363",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Badeanlage Trubikon, Eingangstüre rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130363"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5045619,
+      47.139324
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130364",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stadthaus Zug, bei Briefkasten beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130364"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5141093,
+      47.1756344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9605130365",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stadthaus Zug, Eingang West (Betreibungsamt)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/9605130365"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5133851,
+      47.1756909
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9625620056",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Empfang Zug: Grossraumbüro Garderobe 1. OG 1397 LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "VZ VermögensZentrum AG",
+    "phone": "+41 41 726 11 11",
+    "id": "node/9625620056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5159769,
+      47.1688351
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9680168817",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhof in Apotheke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "gemeinde",
+    "id": "node/9680168817"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5150782,
+      47.173523
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9680997477",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang, Trakt 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Hochbauamt des Kt. Zug / Claudia Regli",
+    "phone": "+41 41 728 54 35",
+    "id": "node/9680997477"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5231899,
+      47.1744073
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9680997478",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Sporthallen Trakt 8",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Kantonsschule Zug / Reto Lehmann",
+    "phone": "+41 41 728 13 01",
+    "id": "node/9680997478"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5247804,
+      47.1746206
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9684536672",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "VZ Corporate Services AG Innere Güterstrasse 2 2.OG bei WC",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "name": "VZ Corporate Services AG",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1398LTM",
+    "id": "node/9684536672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5171562,
+      47.1769507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9737589662",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich des Museums Burg Zug, nur zugänglich wenn Museum geöffnet.",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Museum Burg Zug",
+    "phone": "+41 41 728 29 70",
+    "id": "node/9737589662"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5166493,
+      47.1650881
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9992168218",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Windfang Zimmer Biomet",
+    "description": "nur während Öffnungszeiten ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:30-17:00",
+    "operator": "Zimmer Biomet",
+    "id": "node/9992168218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5133178,
+      47.1761786
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10262985509",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zug",
+    "defibrillator:location": "Unter der Passerelle grüne Box",
+    "description": "Grüne Box aussen am Haus gut ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "1597LTS",
+    "id": "node/10262985509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5339791,
+      47.1442906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10262989309",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zug",
+    "defibrillator:location": "Schulhaus Felsenegg Rechter Eingangsbereich ein Grüner Kasten",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Lifetec AG",
+    "phone": "+41 41 729 11 67",
+    "ref": "1594LTS",
+    "id": "node/10262989309"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.531726,
+      47.1415982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10566993409",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich",
+    "description": "Schlüssel wird benötigt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Stiftung Eichholz",
+    "phone": "+41417486130",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10566993409"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4838303,
+      47.1830543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310128",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "3.OG Eingangsbereich, rechte Seite an Wand.",
+    "description": "Koffer orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Partners Group AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310128"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51894,
+      47.1813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310129",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kopierstation unter dem Tisch",
+    "description": "Koffer orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "QCAM AG",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "wheelchair": "yes",
+    "id": "node/10763310129"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5182952,
+      47.1757937
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310131",
+  "properties": {
+    "defibrillator:location": "Mobil Unterwegs",
+    "description": "Blauer Rucksack",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Institut Montana Zugerberg",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310131"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.53397,
+      47.14432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310136",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Eingangsbereich / Empfang",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Iten Immobilien AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310136"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51997,
+      47.16833
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310138",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Werkstatt ( bei Ölpumpe)",
+    "description": "gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Auto Wild AG",
+    "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:30; Sa 09:00-12:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310138"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51816,
+      47.18051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310140",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "1.OG, Reception im Kopierraum",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Wenger Vieli AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51834,
+      47.17361
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310144",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "3.OG;4.OG",
+    "description": "gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Seagen International GmbH",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310144"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51452,
+      47.17724
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310145",
+  "properties": {
+    "defibrillator:location": "2.OG, Garderobe",
+    "description": "oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "PMG Fonds Management AG",
+    "opening_hours": "Mo-Fr 07:30-18:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310145"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.51433,
+      47.17728
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10989527105",
+  "properties": {
+    "defibrillator:location": "Gubelstrasse 22",
+    "description": "nur während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Eingemietete Firma im Stadthaus Zug",
+    "phone": "+41 417269966",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10989527105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5139966,
+      47.1756535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063829",
+  "properties": {
+    "defibrillator:location": "Zurich HelpPoint Zug",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00",
+    "operator": "Zürich Versicherungs-Gesellschaft AG",
+    "phone": "+41800808080",
+    "id": "node/11038063829"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5240012,
+      47.1826288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11052543405",
+  "properties": {
+    "defibrillator:location": "in der Praxis im EG, beim Eingang rechts an der Wand",
+    "description": "während den Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 07:30-19:30; Fr 07:30-19:30",
+    "operator": "Cubus Physio",
+    "id": "node/11052543405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5188203,
+      47.1809305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11750021069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zugerbergstrasse 3c",
+    "description": "AED Immer Verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schulen St. Michael Zug AG",
+    "phone": "+41417271210",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11750021069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5185242,
+      47.1617075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11873658778",
+  "properties": {
+    "access": "private",
+    "addr:city": "Zug",
+    "addr:housenumber": "78",
+    "addr:postcode": "6300",
+    "addr:street": "Baarerstrasse",
+    "defibrillator:location": "EG, im Büro nach Treppe rechts an der Wand, nähe Regal 1365LTM",
+    "description": "Koffer Schwarz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Ammann+Partner AG",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "ref": "1365LTM",
+    "id": "node/11873658778"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5180118,
+      47.1768023
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11917431969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vereinshaus Gartenverein",
+    "email": "arealchef@gartenverein-herti.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gartenverein Herti",
+    "id": "node/11917431969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5092162,
+      47.182299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11917432070",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Herti, (Pavillon A, Eingang), Eichwaldstrasse 19",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/11917432070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5045455,
+      47.1822074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11929342969",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Rank 120, Hochparterre rechts, 6300 Zug",
+    "description": "Privat, anrufen oder läuten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Su 10:00-19:00",
+    "operator": "Privatperson",
+    "phone": "+41798177784",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11929342969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.48961,
+      47.1807948
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11989736469",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bahnhofstrasse 2, Eingang Bahnhofstrasse oder Poststrasse möglich",
+    "description": "Während den Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Eviosys Packaging Switzerland GmbH",
+    "phone": "+41417591099",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11989736469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5158956,
+      47.1681595
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12140032801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Physio im Schutzengel, Allmendstrasse 1",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 07:30-20:00, Fr 07:30-18:00, Sa 08:30-13:00",
+    "operator": "Privatperson",
+    "phone": "+41417116770",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12140032801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5060036,
+      47.1744064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12306615001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Kunsteisbahn Zug AG",
+    "phone": "+41417253150",
+    "id": "node/12306615001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5075432,
+      47.176515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12339677301",
+  "properties": {
+    "defibrillator:location": "Merck (Schweiz) AG, Chamerstrasse 174, 6300 Zug",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-16:00, Fr 08:00-12:00",
+    "phone": "+41 41 729 22 22",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12339677301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.485136,
+      47.1813855
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12474381501",
+  "properties": {
+    "defibrillator:location": "Mr.Pickwick Pub",
+    "description": "Hinterer Teil der Bar. Neben Kücheneingang.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "11:30-01:00",
+    "id": "node/12474381501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5145603,
+      47.172665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12538752301",
+  "properties": {
+    "defibrillator:location": "Trainingshalle, Haupteingang, im Gang rechts an Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Kunsteisbahn Zug AG",
+    "phone": "+41417253150",
+    "id": "node/12538752301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5085106,
+      47.1767404
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12610755305",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Johnson & Johnson Bürogebäude",
+    "description": "Nur zu Bürozeiten via Rezeption zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "Privatunternehmen",
+    "id": "node/12610755305"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.511755,
+      47.1754769
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12679547401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Bürogebäude Landis Bau AG",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Landis Bau AG",
+    "phone": "+41 41 729 19 19",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12679547401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5149783,
+      47.1802515
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704242401",
+  "properties": {
+    "defibrillator:location": "Stadthaus Zug, 5th floor, next to the elevators",
+    "description": "only on week days and during office hours accessible",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-17:00",
+    "operator": "SHL Medical AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12704242401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5140502,
+      47.1757009
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12704538101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kinderarztpraxis Zug",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Arztpraxis",
+    "phone": "+41 41 710 18 18",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12704538101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5156274,
+      47.1689362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12855316002",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "In the entrance area on the left side when entering the building at Baarerstrasse 112 stored in a green box.",
+    "description": "Accessible during office hours or when granted access to entry of the building.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
+    "operator": "Private, company owned.",
+    "phone": "+41 75 433 1390",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12855316002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5193932,
+      47.1801713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12865317201",
+  "properties": {
+    "defibrillator:location": "Johannespraxis",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Arztpraxis",
+    "phone": "+41417418255",
+    "id": "node/12865317201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5063204,
+      47.1795499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12966226601",
+  "properties": {
+    "defibrillator:location": "Klinik Meissenberg (Empfang)",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-18:00",
+    "operator": "Klinik Meissenberg",
+    "phone": "+41 41 726 57 57",
+    "id": "node/12966226601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5151294,
+      47.1535329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13027229301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Tennisclub Zug",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Privatperson",
+    "id": "node/13027229301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5241178,
+      47.1859091
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13086811535",
+  "properties": {
+    "access": "yes",
+    "addr:city": "ZUG",
+    "defibrillator:location": "Links vom Chalet Suisse",
+    "description": "Grüner Kasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "level": "0",
+    "name": "Institut Montana",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "1596LTS",
+    "id": "node/13086811535"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5333184,
+      47.1437438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13277840901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Göblizentrum, Industriestrasse 55",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Eigentümerverband",
+    "id": "node/13277840901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.521658,
+      47.183856
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13637646601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Tor Ahornstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13637646601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5205761,
+      47.1811886
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13737134001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schiffanlegestelle Bahnhofsteg, neben den öffentlichen WC",
+    "description": "öffentlich",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13737134001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5134695,
+      47.1703093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13737134002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrdepot Oberwil, an Fassade",
+    "description": "öffentlich",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13737134002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5080377,
+      47.1460918
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13755226946",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zug",
+    "addr:housenumber": "18",
+    "addr:postcode": "6300",
+    "addr:street": "Chamerstrasse",
+    "defibrillator:location": "EG Eingang rechts",
+    "description": "Koffer Schwarz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Property One Partners AG",
+    "opening_hours": "Mo-Fr 08:30-12:00, 13:30-16:30",
+    "operator": "LIfetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "1670LTM",
+    "id": "node/13755226946"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5112655,
+      47.1722251
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13773972401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Fassade beim Eingang",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13773972401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5209354,
+      47.1765078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13798466105",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neuer Eingang Strandbad Zug",
+    "description": "Neben Infoscreen",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13798466105"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5036603,
+      47.1744661
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13806504601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lüssirainstrasse 5",
+    "description": "Bei Einfahrt Tiefgarage",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/13806504601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5312859,
+      47.1708055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13808872401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bushaltestelle Obersack, Lüssirainstrasse",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 03",
+    "id": "node/13808872401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5285838,
+      47.1677901
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13907392489",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Badeplatz Tellenörtli",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 723 99 00",
+    "id": "node/13907392489"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5075214,
+      47.1495371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13921899601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Einfang der Dreifachsporthalle an der linken Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hochbauamt Kanton Zug",
+    "phone": "+41 41 594 54 00",
+    "wikimedia_commons": "File:Defi_Kantonsschule_ZG.png",
+    "id": "node/13921899601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5238705,
+      47.1749591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14100572301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Parkhaus (Vorraum)",
+    "description": "immer verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14100572301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5149531,
+      47.1769008
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14102542801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SWICA Agentur Zug - Korridor",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fm@swica.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",
+    "operator": "SWICA Krankenversicherung AG",
+    "phone": "+41 52 244 22 33",
+    "id": "node/14102542801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5172883,
+      47.1713353
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14119728101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Chamerstrasse 115",
+    "description": "aussen an Fassade, Seite Hauptstrasse",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14119728101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4928628,
+      47.1786007
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142568701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Five moods, SV Restaurant",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:30-13:30, 11:15-13:45",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14142568701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5150238,
+      47.177482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14142577501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Empfang Siemens Smart Infrastructure AG",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "patrick.luescher@siemens.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "Siemens Schweiz AG",
+    "phone": "+41 58 724 50 83",
+    "id": "node/14142577501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5139072,
+      47.1795017
+    ]
+  }
+}
 ]
 }

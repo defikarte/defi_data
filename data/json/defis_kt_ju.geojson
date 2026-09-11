@@ -1,6 +1,4385 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/6635063456",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Moutier",
+    "addr:housenumber": "30c",
+    "addr:postcode": "2740",
+    "addr:street": "Rue du Château",
+    "defibrillator:location": "Bâtiment administratif, 1er étage à côté de la fenêtre ouest",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
+    "operator": "Intendance des impôts du canton de Berne",
+    "phone": "+41 31 633 96 00",
+    "id": "node/6635063456"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3731077,
+      47.2808332
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6635063458",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "111",
+    "addr:postcode": "2740",
+    "addr:street": "Rue Industrielle",
+    "defibrillator:location": "A la réception du bâtiment administratif",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Tornos SA",
+    "phone": "+41 32 494 44 44",
+    "id": "node/6635063458"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3630229,
+      47.2716436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6635063460",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Moutier",
+    "addr:housenumber": "21",
+    "addr:postcode": "2740",
+    "addr:street": "Viaduc",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 06:45-12:00, 12:45-16:00",
+    "operator": "Michel Imhof SA",
+    "phone": "+41 32 493 31 04",
+    "id": "node/6635063460"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3730833,
+      47.2775905
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728595876",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Moutier",
+    "addr:housenumber": "30",
+    "addr:postcode": "2740",
+    "addr:street": "Rue du Château",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Th 08:30-11:30, 14:00-17:30, Fr 08:30-11:30, 14:00-17:00, Sa 09:00-11:00",
+    "operator": "Polizeiwache Moutier",
+    "phone": "+41 31 638 80 00",
+    "id": "node/8728595876"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3727754,
+      47.2805841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8728645201",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "71",
+    "addr:postcode": "2740",
+    "addr:street": "Quartier de la Verrerie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Precidec Sàrl",
+    "phone": "+41 32 493 58 62",
+    "id": "node/8728645201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3581304,
+      47.265808
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8851322139",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "wheelchair": "no",
+    "id": "node/8851322139"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4751753,
+      47.3287145
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157207016",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Glovelier",
+    "addr:postcode": "2855",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157207016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.20558,
+      47.33448
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256917",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassecourt",
+    "addr:postcode": "2854",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.244935,
+      47.3392182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256918",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassecourt",
+    "addr:postcode": "2854",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.23789,
+      47.33853
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256919",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassecourt",
+    "addr:postcode": "2854",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256919"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2515422,
+      47.3404196
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256920",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courfaivre",
+    "addr:postcode": "2853",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256920"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.27598,
+      47.33544
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256921",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Sceut",
+    "addr:postcode": "2855",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256921"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1513515,
+      47.3181132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256922",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassecourt",
+    "addr:postcode": "2854",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256922"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.24374,
+      47.33609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256923",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Berlincourt",
+    "addr:postcode": "2854",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256923"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.22386,
+      47.32754
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256924",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courfaivre",
+    "addr:postcode": "2853",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256924"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.28454,
+      47.33474
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256925",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Soulce",
+    "addr:postcode": "2864",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256925"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.27051,
+      47.30341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256926",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Undervelier",
+    "addr:postcode": "2863",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256926"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.22393,
+      47.3034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256927",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Glovelier",
+    "addr:postcode": "2855",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256927"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.19743,
+      47.3336
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256928",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courfaivre",
+    "addr:postcode": "2853",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256928"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2884426,
+      47.3336537
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256929",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassecourt",
+    "addr:postcode": "2854",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256929"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2377942,
+      47.3337691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256930",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rossemaison",
+    "addr:postcode": "2842",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256930"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3460786,
+      47.3459151
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256931",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Mettembert",
+    "addr:postcode": "2806",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256931"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3197044,
+      47.3979839
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256932",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courcelon",
+    "addr:postcode": "2823",
+    "defibrillator:location": "façade école",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256932"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3917061,
+      47.3602571
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256933",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bressaucourt",
+    "addr:postcode": "2904",
+    "defibrillator:location": "Façade maison",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256933"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0389374,
+      47.3908435
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256934",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Fontenais",
+    "addr:postcode": "2902",
+    "defibrillator:location": "façade entrepot",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256934"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0775399,
+      47.39831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256935",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Façade transformateur BKW",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256935"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3453734,
+      47.3593037
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256936",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Façade ouest bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256936"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3536638,
+      47.3663492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256937",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Façade nord école",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256937"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3553126,
+      47.3713306
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256938",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "check_date": "2026-02-07",
+    "defibrillator:location": "Point taxi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256938"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3506155,
+      47.3622498
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256939",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Façade du transformateur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256939"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3334213,
+      47.3668854
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256940",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Dans abribus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256940"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3405368,
+      47.3627475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256941",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Façade nord sous couvert",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256941"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3441597,
+      47.3652262
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256942",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "entrée principale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256942"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.058821,
+      47.419656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256943",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vicques",
+    "addr:postcode": "2824",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256943"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.41154,
+      47.35284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256944",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vicques",
+    "addr:postcode": "2824",
+    "defibrillator:location": "Entrée principale du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256944"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.404476,
+      47.34801
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256945",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vicques",
+    "addr:postcode": "2824",
+    "defibrillator:location": "Entrée principale du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256945"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.41498,
+      47.34817
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256946",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vermes",
+    "addr:postcode": "2829",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256946"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4751408,
+      47.328713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256947",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vendlincourt",
+    "addr:postcode": "2943",
+    "check_date": "2024-07-25",
+    "defibrillator:location": "facade du bâtiment voierie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256947"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1483721,
+      47.4505184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256948",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Vellerat",
+    "addr:postcode": "2830",
+    "defibrillator:location": "Façade ouest du Restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256948"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.37094,
+      47.31909
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256949",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Soyhières",
+    "addr:postcode": "2805",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256949"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3700076,
+      47.3923568
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256950",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saulcy",
+    "addr:postcode": "2873",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256950"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1556611,
+      47.3023594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256951",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saint-Brais",
+    "addr:postcode": "2364",
+    "defibrillator:location": "extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256951"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.112393,
+      47.305462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256953",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saignelégier",
+    "addr:postcode": "2350",
+    "defibrillator:location": "Devant garage ambulance",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9971663,
+      47.256872
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256954",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saignelégier",
+    "addr:postcode": "2350",
+    "defibrillator:location": "Infirmerie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256954"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0006783,
+      47.2509674
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256955",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saignelégier",
+    "addr:postcode": "2350",
+    "defibrillator:location": "Salle de soins",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256955"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9954695,
+      47.2562364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256956",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saignelégier",
+    "addr:postcode": "2350",
+    "defibrillator:location": "A la pharmacie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256956"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9972151,
+      47.2560362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256957",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Saignelégier",
+    "addr:postcode": "2350",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256957"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9959267,
+      47.255831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256958",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rocourt",
+    "addr:postcode": "2907",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.957272,
+      47.3906215
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256959",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Roche d'Or",
+    "addr:postcode": "2912",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256959"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9517505,
+      47.3662164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256960",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Réclère",
+    "addr:postcode": "2912",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256960"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.92339,
+      47.37538
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256961",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Rebeuvelier",
+    "addr:postcode": "2832",
+    "defibrillator:location": "façade Est du bâtiment communal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256961"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4154654,
+      47.3247815
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256962",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "sas d'entrée de la banque",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256962"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0766232,
+      47.4173259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256963",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2800",
+    "defibrillator:location": "entrée sur de l'immeuble",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256963"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0809,
+      47.41892
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256964",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Poste de Police",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256964"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.07718,
+      47.42062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256965",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "à côté du bancomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256965"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0794432,
+      47.4207283
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256966",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256966"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.088195,
+      47.41695
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256967",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "accès par chemin du Val",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256967"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.080144,
+      47.4136331
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256968",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "check_date": "2026-07-19",
+    "defibrillator:location": "façade ouest batiment Voirie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256968"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.083178,
+      47.423474
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256969",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "batiment de pompage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.06713,
+      47.418373
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256970",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "côté route",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0798099,
+      47.4254956
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256971",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Devant l'entrée principale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.068988,
+      47.412504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256972",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Cabanon",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256972"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0776443,
+      47.4168076
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256973",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "entrée réception",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256973"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.082756,
+      47.4267548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256974",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Dans la pharmacie",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0776988,
+      47.4163011
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256975",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Vers le service clientèle de la Migros",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0776849,
+      47.4164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256976",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256976"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0737176,
+      47.4105445
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256977",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256977"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0743929,
+      47.4146979
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256978",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Infirmerie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256978"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0856379,
+      47.4180345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256979",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "1er étage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256979"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0784848,
+      47.4188123
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256980",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Porrentruy",
+    "addr:postcode": "2900",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256980"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0735656,
+      47.4172832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256981",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Pleigne",
+    "addr:postcode": "2807",
+    "defibrillator:location": "Façade nord Bâtiment Epicentre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256981"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2919019,
+      47.4074521
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256982",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Movelier",
+    "addr:postcode": "2812",
+    "defibrillator:location": "droite entrée bureau communal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256982"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3171061,
+      47.4096426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256983",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Montsevelier",
+    "addr:postcode": "2828",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256983"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5078403,
+      47.3621609
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256984",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Montignez",
+    "addr:postcode": "2924",
+    "defibrillator:location": "entrée usine cage d'escaliers",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256984"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0582909,
+      47.4841342
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256985",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lugnez",
+    "addr:postcode": "2933",
+    "defibrillator:location": "façade ouest magasin",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256985"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1006579,
+      47.481181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256986",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lucelle",
+    "addr:postcode": "2807",
+    "defibrillator:location": "rez en face bur. d'accueil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2449577,
+      47.4206325
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256987",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Les Genevez",
+    "addr:postcode": "2714",
+    "defibrillator:location": "entrée nord 1er étage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256987"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1317702,
+      47.2549173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256988",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Les Genevez",
+    "addr:postcode": "2714",
+    "defibrillator:location": "Entrée principale du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256988"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1340344,
+      47.2546772
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256989",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Les Breuleux",
+    "addr:postcode": "2345",
+    "defibrillator:location": "entrée est de la halle (rue du Midi)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256989"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.003054,
+      47.2092748
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256990",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Les Breuleux",
+    "addr:postcode": "2345",
+    "defibrillator:location": "Infirmerie niveau 00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256990"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0058727,
+      47.2081988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256991",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Les Breuleux",
+    "addr:postcode": "2345",
+    "defibrillator:location": "Infirmerie niveau 0",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256991"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0038209,
+      47.2137859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256992",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Les Bois",
+    "addr:postcode": "2336",
+    "defibrillator:location": "Façade sud de l'école",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256992"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9049288,
+      47.1773292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256993",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Les Bois",
+    "addr:postcode": "2336",
+    "defibrillator:location": "bâtiment 1 entrée collab.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256993"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9028754,
+      47.1754289
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256994",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Le Noirmont",
+    "addr:postcode": "2340",
+    "defibrillator:location": "RDC nouveaux bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256994"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9648647,
+      47.2247666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256995",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Le Noirmont",
+    "addr:postcode": "2340",
+    "defibrillator:location": "Façade ouest bâtiment Voirie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256995"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.956525,
+      47.225684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256996",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Le Noirmont",
+    "addr:postcode": "2340",
+    "defibrillator:location": "Bâtiment 1995, rez sup.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9593452,
+      47.2261567
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256997",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Le Noirmont",
+    "addr:postcode": "2340",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256997"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9628513,
+      47.2250771
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256998",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lajoux",
+    "addr:postcode": "2718",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256998"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1375998,
+      47.2788467
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157256999",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Grandfontaine",
+    "addr:postcode": "2908",
+    "defibrillator:location": "Facade du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157256999"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9392029,
+      47.3920725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257000",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Glovelier",
+    "addr:postcode": "2855",
+    "defibrillator:location": "Nord du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257000"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.211926,
+      47.341112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257001",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Fahy",
+    "addr:postcode": "2916",
+    "defibrillator:location": "Entrée du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9495457,
+      47.4181831
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257002",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Develier",
+    "addr:postcode": "2802",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2957443,
+      47.3577327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257003",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "RDC vers entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-01:00",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257003"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3580165,
+      47.3604796
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257004",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Poste de Police",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.34879,
+      47.36186
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257005",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Bureau police judiciaire",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3411,
+      47.3586
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257006",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Dans la banque",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 09:00-12:00, 14:00-17:00",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257006"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3489713,
+      47.3633149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257007",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "A gauche de l'entrée principale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257007"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.353185,
+      47.360798
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257008",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "1er étage centre usine",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257008"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.342854,
+      47.3610873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257009",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "sonner à l'interphone rz-ch.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3297341,
+      47.3569221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257010",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Entrée principale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.34324,
+      47.3599364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257011",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Vers l'entrée atelier polis.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257011"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3420225,
+      47.352479
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257012",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "A la réception",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3467041,
+      47.3622147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257013",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "à l'entrée pricipale/serv. clientèle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3527036,
+      47.3603303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257014",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "Allé du rez de chaussée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3361513,
+      47.3497847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257015",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "devant l'entrée du centre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257015"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3404219,
+      47.3604471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257016",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Damvant",
+    "addr:postcode": "2914",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.89726,
+      47.37193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257017",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courtételle",
+    "addr:postcode": "2852",
+    "defibrillator:location": "Home, gauche de l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.317497,
+      47.337605
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257018",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courtételle",
+    "addr:postcode": "2852",
+    "defibrillator:location": "Magasin Joliat cycles extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.317021,
+      47.345141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257019",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courtételle",
+    "addr:postcode": "2852",
+    "defibrillator:location": "Raiffeisen, sas du bancomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257019"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.318131,
+      47.341015
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257020",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courtemautruy",
+    "addr:postcode": "2950",
+    "defibrillator:location": "Façade Ouest Transformateur BKW",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1383407,
+      47.3964432
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257021",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courtemaîche",
+    "addr:postcode": "2923",
+    "defibrillator:location": "PINOS, gauche de la réception",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257021"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.048224,
+      47.456539
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257022",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courtedoux",
+    "addr:postcode": "2905",
+    "defibrillator:location": "façade est transformateur BKW",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257022"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0428781,
+      47.4053673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257023",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "façade Ouest (entrée personnel);facade Est du Bâtiment communal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257023"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0444298,
+      47.4105753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257024",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courtedoux",
+    "addr:postcode": "2905",
+    "defibrillator:location": "Façade ext. Est",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257024"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0354672,
+      47.4129326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257025",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courroux",
+    "addr:postcode": "2822",
+    "defibrillator:location": "Façade nord entrepôt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257025"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3836603,
+      47.3568067
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257026",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courroux",
+    "addr:postcode": "2822",
+    "defibrillator:location": "A coté halles de gym",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257026"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3759113,
+      47.3620348
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257027",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courroux",
+    "addr:postcode": "2822",
+    "defibrillator:location": "Salle d'endocospie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257027"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3720534,
+      47.3623041
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257028",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courrendlin",
+    "addr:postcode": "2830",
+    "defibrillator:location": "Côté WC publics",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257028"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3705555,
+      47.3432599
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257029",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courrendlin",
+    "addr:postcode": "2830",
+    "defibrillator:location": "facade Nord du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257029"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.369257,
+      47.338119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257030",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courrendlin",
+    "addr:postcode": "2830",
+    "defibrillator:location": "Gauche entrée principale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257030"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3729544,
+      47.3355453
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257031",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courrendlin",
+    "addr:postcode": "2830",
+    "defibrillator:location": "Batiment voirie, Est du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257031"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.374663,
+      47.339812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257032",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courgenay",
+    "addr:postcode": "2950",
+    "defibrillator:location": "gauche entrée halle polyvalente",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257032"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1218828,
+      47.4004924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257033",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Courgenay",
+    "addr:postcode": "2950",
+    "defibrillator:location": "façade nord Transformateur BKW",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257033"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1194928,
+      47.4059263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257034",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Cornol",
+    "addr:postcode": "2952",
+    "defibrillator:location": "Façade Est du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257034"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1536397,
+      47.4118757
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257035",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Cornol",
+    "addr:postcode": "2952",
+    "defibrillator:location": "Ecole, à droite de l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257035"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.163453,
+      47.4073129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257036",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Corban",
+    "addr:postcode": "2826",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257036"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4763901,
+      47.3466034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257037",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Coeuve",
+    "addr:postcode": "2932",
+    "defibrillator:location": "facade Nord du Bâtiment communal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257037"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0982958,
+      47.4531378
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257038",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Chevenez",
+    "addr:postcode": "2906",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257038"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.99674,
+      47.3931
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257039",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Chevenez",
+    "addr:postcode": "2906",
+    "defibrillator:location": "Façade du Bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257039"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0026815,
+      47.3924896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257040",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Châtillon",
+    "addr:postcode": "2843",
+    "defibrillator:location": "préau de l'école",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257040"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3443604,
+      47.3303132
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257041",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bure",
+    "addr:postcode": "2915",
+    "check_date": "2025-04-10",
+    "defibrillator:location": "À gauche de l'entrée.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "source": "survey",
+    "id": "node/9157257041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0093167,
+      47.441676
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257042",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bure",
+    "addr:postcode": "2915",
+    "check_date": "2025-04-10",
+    "defibrillator:location": "Sur la façade, à gauche de l'entrée.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257042"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0060976,
+      47.4411473
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257043",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bure",
+    "addr:postcode": "2915",
+    "defibrillator:location": "Hall d'entrée rz-ch.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257043"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0114515,
+      47.4501096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257044",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bure",
+    "addr:postcode": "2915",
+    "defibrillator:location": "Hall d'entrée rz-ch.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257044"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0125063,
+      47.4480066
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257045",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bure",
+    "addr:postcode": "2915",
+    "defibrillator:location": "Corridor rz-ch.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257045"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0130129,
+      47.452175
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257046",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bure",
+    "addr:postcode": "2915",
+    "defibrillator:location": "Hall d'entrée rz-ch.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257046"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.012507,
+      47.4480559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257047",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bure",
+    "addr:postcode": "2915",
+    "defibrillator:location": "Hall d'entrée rz-ch.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257047"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0162986,
+      47.4525198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257048",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Buix",
+    "addr:postcode": "2925",
+    "defibrillator:location": "Au cabinet médical",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257048"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0303793,
+      47.4850574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257049",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bourrignon",
+    "addr:postcode": "2803",
+    "defibrillator:location": "Vers l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257049"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2439091,
+      47.3978792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257050",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "facade du bâtiment communal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "wheelchair": "limited",
+    "id": "node/9157257050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1511767,
+      47.4773228
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257051",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boncourt",
+    "addr:postcode": "2926",
+    "defibrillator:location": "Banque Cantonale face au bacomat",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257051"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0155217,
+      47.4961488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257052",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boncourt",
+    "addr:postcode": "2926",
+    "defibrillator:location": "Façade Est de la halle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257052"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0116558,
+      47.4977665
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257053",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boncourt",
+    "addr:postcode": "2926",
+    "defibrillator:location": "local de l'infirmerie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257053"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0115875,
+      47.4959981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257054",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boncourt",
+    "addr:postcode": "2926",
+    "defibrillator:location": "Entrée du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257054"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9862421,
+      47.4930803
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257055",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boncourt",
+    "addr:postcode": "2926",
+    "defibrillator:location": "Réception loge 3",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257055"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0149085,
+      47.4939057
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257056",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boécourt",
+    "addr:postcode": "2856",
+    "defibrillator:location": "Halle entrée adm. communale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.21468,
+      47.34837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257057",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Boécourt",
+    "addr:postcode": "2856",
+    "defibrillator:location": "Vers la timbreuse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257057"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2113911,
+      47.3499843
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257058",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassecourt",
+    "addr:postcode": "2854",
+    "defibrillator:location": "Hall d'accueil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257058"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2469065,
+      47.337289
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257059",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassecourt",
+    "addr:postcode": "2854",
+    "defibrillator:location": "allée centrale, entrée WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257059"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.252505,
+      47.3386859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257060",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassecourt",
+    "addr:postcode": "2854",
+    "defibrillator:location": "Rez chaus. entrée principale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257060"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2452545,
+      47.3393036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257061",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Alle",
+    "addr:postcode": "2942",
+    "defibrillator:location": "Bureau PPS",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257061"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.12885,
+      47.42418
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257062",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Alle",
+    "addr:postcode": "2942",
+    "defibrillator:location": "À droite de l'entré de la banque.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257062"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1323755,
+      47.4275222
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9157257063",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Delémont",
+    "addr:postcode": "2800",
+    "defibrillator:location": "rez porte d'entrée gauche",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-12:00, 14:00-17:00",
+    "operator": "Fondation RéaJura Cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/9157257063"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.343972,
+      47.3651447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9608397317",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "richnerstutz villmergen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/9608397317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5130155,
+      47.3266229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9878923750",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Inside wheelchair toilet, leftmost door",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/9878923750"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0049467,
+      47.2236761
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917843287",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917843287"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3660985,
+      47.2762173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917845023",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917845023"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3510714,
+      47.3627939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10543669798",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "13",
+    "addr:postcode": "2740",
+    "addr:street": "Avenue de la liberté",
+    "description": "Devant l'entrée de la ludothèque",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Ludothèque",
+    "phone": "+41 32 494 11 25",
+    "id": "node/10543669798"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3727396,
+      47.2787639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233786",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur clot est rond-point",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233786"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3511455,
+      47.3732559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233787",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Facade ext. droitte entree principale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233787"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0899021,
+      47.4182055
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233788",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Facade bet. communal hangar feu",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233788"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3323459,
+      47.4250182
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233789",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Facade est Halle des fetes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233789"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.323786,
+      47.3402061
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233790",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Batiment 37 interieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233790"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.360918,
+      47.3546687
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233791",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233791"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4046758,
+      47.3512202
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233792",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233792"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.032496,
+      47.3941246
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233793",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233793"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3224002,
+      47.3545464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233794",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "gauche de l'entree du fitness",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233794"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0921694,
+      47.4132773
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233795",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "droite de l'entree princiale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233795"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0893378,
+      47.4170711
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233796",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur transfo BKW",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233796"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.009659,
+      47.4686635
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233797",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entree du batiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233797"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0289036,
+      47.4796883
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233798",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "sous L'abri velos",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233798"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.059473,
+      47.4876683
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233799",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Facade Batiment \"Choulat\"",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0469574,
+      47.4629006
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bloc operatoire",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3447632,
+      47.3592896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233802",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bloc operatoire",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3436182,
+      47.365056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233803",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "sud du batiment, entre BIWI et PIBOR",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233803"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2091087,
+      47.3399129
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10614233804",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Facade nord Batiment paroisse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10614233804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4992356,
+      47.3433858
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310338",
+  "properties": {
+    "defibrillator:location": "1. OG in der Mitte, Links vom Warenlift",
+    "description": "Koffer gelb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "ETA SA Manufacture Horlogère Suisse",
+    "opening_hours": "Mo-Fr 08:00-12:00, 12:45-16:00",
+    "operator": "Lifetec Schweiz AG",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310338"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.99219,
+      47.48945
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310339",
+  "properties": {
+    "defibrillator:location": "1.OG, Treppenhaus",
+    "description": "Koffer orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Bedag Informatik AG",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Lifetec Schweiz AG",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310339"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3604,
+      47.36371
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310341",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Wand Links vor Bürotür 0039LTM",
+    "description": "Koffer Gelb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Altran Aluminium SA",
+    "operator": "Lifetec Schweiz AG",
+    "phone": "+41 800 122 144",
+    "ref": "0039LTM",
+    "id": "node/10763310341"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.36795,
+      47.33804
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10765933798",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'accueil du fitness",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/10765933798"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0772453,
+      47.4163706
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11483583916",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Moutier",
+    "addr:housenumber": "98",
+    "addr:postcode": "2740",
+    "addr:street": "Rue Industrielle",
+    "defibrillator:location": "Rez-de-chaussée en face de l'entrée",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "operator": "Forum de l'Arc SA",
+    "phone": "+41324931739",
+    "id": "node/11483583916"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3621769,
+      47.2709171
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11741283793",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "SAK Auto Kabel AG Rue Adolphe-Gandon 18 Werkstatt 1295LTM",
+    "description": "Gelber Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-16:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11741283793"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1266386,
+      47.4056691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11741352434",
+  "properties": {
+    "defibrillator:location": "Technopoli SA Sur les Perrières 361 2944 Bonfol 1.UG bei Stempeluhr/Tableau 2 (alimentation electric)  1298LTM",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11741352434"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1463295,
+      47.482236
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11786937118",
+  "properties": {
+    "access": "permissive",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/11786937118"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8946374,
+      47.1761592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12638902001",
+  "properties": {
+    "defibrillator:location": "bâtiment rose entrée gauche",
+    "description": "appareil vert marque douane",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "privé",
+    "phone": "+41 79 414 74 74",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12638902001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0915858,
+      47.4146268
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12716567301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Halle des Fêtes d’Alle",
+    "description": "En exterieur, côté route de Porrentruy.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "RéaJura",
+    "phone": "+41794147411",
+    "id": "node/12716567301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1208849,
+      47.4244646
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13078068501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Salle d'attente de la gare",
+    "description": "Durant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Chemins de fer du Jura",
+    "phone": "+41 32 952 42 75",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13078068501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.994096,
+      47.2546576
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13196729971",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "id": "node/13196729971"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0484412,
+      47.3082287
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13422090201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dehors devant la porte d’entrée de l’école",
+    "description": "24h/24",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Reajura cœur",
+    "phone": "+41 79 414 74 11",
+    "id": "node/13422090201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9860336,
+      47.2714235
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13614403101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Les Pâles 1, 2950 Courgenay. FESP SA",
+    "description": "Philips Heart Start",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-16:30",
+    "operator": "M. Paratte",
+    "phone": "+41324221832",
+    "id": "node/13614403101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1309898,
+      47.4064295
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13618380101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EHZ Swiss Production sàrl",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "phone": "+41 78 918 28 13",
+    "id": "node/13618380101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2476506,
+      47.34362
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13797911001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée du personnel",
+    "email": "cyril.sunier@mpsag.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "MPS Watch",
+    "phone": "+41 32 474 01 00",
+    "id": "node/13797911001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1486986,
+      47.4765068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13893911402",
+  "properties": {
+    "defibrillator:location": "kleines Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "?",
+    "id": "node/13893911402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9522239,
+      47.2613381
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13942411731",
+  "properties": {
+    "covered": "yes",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/13942411731"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5078356,
+      47.36125
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13972938165",
+  "properties": {
+    "defibrillator:location": "At the Entrance of the \"Foyer pour Personnes Agees\"",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/13972938165"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1532311,
+      47.3648397
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14051839703",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/14051839703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4234711,
+      47.3506651
+    ]
+  }
+}
 ]
 }

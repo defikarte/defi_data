@@ -1,6 +1,1987 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/6651535154",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Braunwald",
+    "addr:housenumber": "2",
+    "addr:postcode": "8784",
+    "addr:street": "Dorfstrasse",
+    "defibrillator:location": "Bei der Kasse",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Braunwald-Standseilbahn",
+    "opening_hours": "Mo-Su 04:45-24:00",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "1613LTM",
+    "id": "node/6651535154"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9983486,
+      46.9387644
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7559412996",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Vorraum bei den Bancomaten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/7559412996"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0694633,
+      47.0992943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8684770249",
+  "properties": {
+    "access:conditional": "yes @ opening_hours",
+    "defibrillator:location": "Linthpraxen Gesundheitszentrum, Bahnhofstrasse 1",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/8684770249"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9998459,
+      46.9267376
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8684770258",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8684770258"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9951775,
+      46.9196504
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713917717",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Lindthal",
+    "addr:housenumber": "2",
+    "addr:postcode": "8783",
+    "addr:street": "Stachelberg",
+    "defibrillator:location": "Braunwaldbahn Talstation, neben Kasse 3",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 04:45-24:00",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "ref": "1612LTM",
+    "id": "node/8713917717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0022627,
+      46.9284699
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713922717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Grotzenbüehl",
+    "description": "während Öffnungszeiten verfügbar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sportbahnen Braunwald AG",
+    "phone": "+41556433702",
+    "id": "node/8713922717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9941517,
+      46.9491301
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8713996417",
+  "properties": {
+    "defibrillator:location": "Wiggispark Netstal. Haupteingang linke Seite nach Brillengeschäft MC-Optikw",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8713996417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0583718,
+      47.0677294
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8868493618",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Märchenhotel",
+    "description": "während Öffnungszeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Märchenhotel",
+    "phone": "+41556537171",
+    "id": "node/8868493618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9998847,
+      46.9410747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8959492618",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Gumenbahn",
+    "description": "während Betriebszeiten der Bahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8959492618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9845985,
+      46.956047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8959716317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation Skilift unter dem Vordach",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Genossenschaft Schlattberg",
+    "phone": "+41786038620",
+    "id": "node/8959716317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0274612,
+      46.9649765
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8962356449",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "im Feuerwehrgebäude",
+    "description": "über Notruf verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Feuerwehr Glarus Süd",
+    "id": "node/8962356449"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0352371,
+      46.9607169
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9115107518",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migros, Niederurnen",
+    "description": "während Öffnungszeiten links neben Drehtüre",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-20:00; Sa 07:30-18:00",
+    "operator": "Migros",
+    "id": "node/9115107518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0560804,
+      47.1283923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9133210017",
+  "properties": {
+    "defibrillator:location": "TBGN",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "TBGN",
+    "id": "node/9133210017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0602801,
+      47.0979716
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9133210018",
+  "properties": {
+    "defibrillator:location": "Bahnhofstrasse 12",
+    "description": "TBGN",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "TBGN",
+    "id": "node/9133210018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0572469,
+      47.1237878
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9139421417",
+  "properties": {
+    "defibrillator:location": "Kommandoraum KLL",
+    "description": "Über Operator verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Kraftwerke Linth-Limmern AG",
+    "phone": "+41552852413",
+    "id": "node/9139421417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9833745,
+      46.8793497
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9154049117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Jennyareal Fabrikstrasse 2",
+    "description": "während öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "F + C Jenny AG",
+    "phone": "+41556173200",
+    "id": "node/9154049117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0600236,
+      47.1269625
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9254795117",
+  "properties": {
+    "defibrillator:location": "Gemeindehaus Glarus, Gemeindehausplatz 1, Glarus, Hintereingang links",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-We,Fr 08:00-12:00,13:30-17:00; Th 08:00-12:00,13:30-18:00",
+    "operator": "Gemeinde",
+    "phone": "+41586118111",
+    "id": "node/9254795117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0701273,
+      47.0396455
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9312199018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "EG bei den Schliessfächern",
+    "description": "während Offnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 09:00-18:00",
+    "operator": "Läderach Chocolatier",
+    "id": "node/9312199018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0247527,
+      47.1543559
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9579985417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Berghotel Bischofalp",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00-17:00",
+    "operator": "Berghotel Bischofalp",
+    "id": "node/9579985417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.141942,
+      46.9179965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9604836095",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rotes Bürogebäude Haupttüre auf der Gleisseite Erste Türe rechts im EG Links an der Wand",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Inauen-Schätti",
+    "id": "node/9604836095"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0769319,
+      46.996647
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9679226307",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenbereich. Bei den Garagentoren.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Die Luftseilbahn Matt-Weissenberge",
+    "phone": "+41 55 642 15 46",
+    "id": "node/9679226307"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1715661,
+      46.9599631
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9695774317",
+  "properties": {
+    "defibrillator:location": "Ärzte Netstal AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "fixme": "genauer Standort?",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00",
+    "operator": "Arztpraxis",
+    "phone": "+41 55 640 63 63",
+    "id": "node/9695774317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0547583,
+      47.0663659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910272343",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand Gebäude Richtung See",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "wheelchair": "limited",
+    "id": "node/9910272343"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9447404,
+      47.0252987
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910272357",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Eingang Restaurant",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9910272357"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9117467,
+      47.0231106
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9912789893",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unter dem Vordach des Toilettengebäudes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9912789893"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0012413,
+      47.0298426
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9945353809",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor dem Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Riget AG, Remo Riget",
+    "phone": "+41 55 410 33 22",
+    "id": "node/9945353809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0361007,
+      47.1476263
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10020287117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feldstrasse 1, 8750 Glarus Haupteingang tb.glarus",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 08:00-11:45,13:30-17:00; Fr 08:00-11:45,13:30-16:00",
+    "operator": "tb.glarus",
+    "phone": "+41 58 817 11 00",
+    "id": "node/10020287117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0641604,
+      47.0384675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10020898918",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GLKB Niederurnen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "id": "node/10020898918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0556017,
+      47.1275663
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10083299717",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "lintharena AG",
+    "description": "während Öffnungszeiten www.lintharena.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "lintharena ag",
+    "phone": "+41556187070",
+    "id": "node/10083299717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0657107,
+      47.1078238
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10083412018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "lintharena ag, Haupteingang innen rechts an der Wand",
+    "description": "während den Öffnungszeiten www.lintharena.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "lintharena ag",
+    "phone": "+41556187070",
+    "id": "node/10083412018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0653513,
+      47.1083288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10095045618",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportbahnen Elm Talstation",
+    "description": "immer zugänglich, rechts neben dem Drehkreuz zur Gondlbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "sportbahnen Elm",
+    "phone": "+41556426060",
+    "id": "node/10095045618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1624236,
+      46.9135626
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10111052978",
+  "properties": {
+    "defibrillator:location": "Foyer Haupteingang / Gang Lagerzimmer / Park / Badmeister Büro",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/10111052978"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0655553,
+      47.1080632
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10548577709",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zeughaus Glarus, Foyer vom Haupteingang, rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00",
+    "operator": "Militär und Zivilschutz Kanton Glarus",
+    "phone": "+41 55 646 68 50",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10548577709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0627551,
+      47.0441229
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611370805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Talstation Seilbahn Kies-Mettmen",
+    "description": "Im Kundenraum, an der rechten Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "08:00-17:00",
+    "operator": "www.mettmen-alp.ch",
+    "phone": "+41556442010",
+    "id": "node/10611370805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.090901,
+      46.9679837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10757581805",
+  "properties": {
+    "defibrillator:location": "Gaststube",
+    "description": "während Öffnungszeiten erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Ursina Kappeler",
+    "phone": "+41556431045",
+    "id": "node/10757581805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9906406,
+      46.9388221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10757586605",
+  "properties": {
+    "defibrillator:location": "Rehaklinik Zurzach Care",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Zurzach Care",
+    "phone": "+41556535111",
+    "id": "node/10757586605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9948243,
+      46.9357327
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10763310402",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Büro, nebenzimmer oberhalb Spind",
+    "description": "Koffer orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Josias Gasser Baumaterialien AG",
+    "opening_hours": "Mo-Th 07:30-12:00,13:00-17:00; Fr 07:30-12:00,13:00-16:30",
+    "operator": "Lifetec AG",
+    "phone": "+41 800 122 144",
+    "id": "node/10763310402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0581063,
+      47.0695788
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10768165605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stadel 39, beim Eingang",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Institution",
+    "phone": "+41 55 653 60 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10768165605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0394682,
+      46.9658964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10778432506",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportzentrum Kerenzerberg",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Sportzentrum Kerenzerberg",
+    "phone": "+41 55 614 17 17",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10778432506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1255134,
+      47.1224503
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10864860205",
+  "properties": {
+    "defibrillator:location": "Kraftwerkzentrale Herrenstrasse 66",
+    "description": "während Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-16:30",
+    "operator": "SN Energie AG",
+    "phone": "+41 55 647 42 08",
+    "id": "node/10864860205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0864363,
+      46.9957085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11076020483",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang rechts bei der Treppe zum Obergeschoss ist der grüne mit AED beschriftete Koffer an der Wand angebracht.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Jun-Oct: Mo-Su 00:00-23:59",
+    "wheelchair": "no",
+    "id": "node/11076020483"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.018779,
+      46.8574112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11158634206",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Links Zaunschulhaus Glarus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30-17:30",
+    "operator": "KBS Glarus",
+    "phone": "+41798306270",
+    "id": "node/11158634206"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0686844,
+      47.0379047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11217449238",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "TBGN Werkstatt, Risi 30, Näfels",
+    "description": "während Arbeitszeiten nur für Mitarbeiter verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "TBGN",
+    "phone": "+41586117711",
+    "id": "node/11217449238"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0565873,
+      47.0946488
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11286333469",
+  "properties": {
+    "defibrillator:location": "Schweizerhofstrasse 2",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Bank",
+    "phone": "+41 844 773 773",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11286333469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0713435,
+      47.0400103
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11286339069",
+  "properties": {
+    "defibrillator:location": "Hauptstrasse 67",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:30-17:00",
+    "operator": "Glarner Kantonalbank",
+    "phone": "+41 844 773 773",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11286339069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0742081,
+      46.9940812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11286346469",
+  "properties": {
+    "defibrillator:location": "Glarner Kantonalbank Filiale Linthal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:30-12:00",
+    "operator": "Glarner Kantonalbank",
+    "phone": "+41 844 773 773",
+    "id": "node/11286346469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9990795,
+      46.9218455
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11286358569",
+  "properties": {
+    "defibrillator:location": "Glarner Kantonalbank Filiale Wiggispark",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 09:00-20:00",
+    "operator": "Glarner Kantonalbank",
+    "phone": "+41 844 773 773",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11286358569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0585279,
+      47.0670124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11299924269",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "24h Zone Glarner Kantonalbank",
+    "description": "24h Zone",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Glarner Kantonalbank",
+    "phone": "+41 844 773 773",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11299924269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0683556,
+      47.0391329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11356643871",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Käsernstrasse 3",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Arztpraxis",
+    "phone": "+41556196020",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11356643871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0212131,
+      47.1504649
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11402911372",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Raiffeisenbank Glarnerland Im Dorf 4 Eingangsbereich bei Bancomat 1313LTM",
+    "description": "Oranger Koffer Lifetec One Notfallkoffer  https://www.glarus24.ch/artikel/raiffeisenbank-glarnerland-installiert-erste-hilfe-koffer-2439517",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41 800 122 144",
+    "id": "node/11402911372"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0624116,
+      47.1000189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11522016969",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Gemeinde",
+    "id": "node/11522016969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0777004,
+      47.0332942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11522065969",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Buchholzstrasse 65, 8750 Glarus",
+    "description": "während der Öffnungszeiten, immer unterschiedlich aufgrund Besetzungen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Sportanlage",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11522065969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0625137,
+      47.0503314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11522070269",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Glärnischstrasse 11, 8750 Glarus",
+    "description": "während der Öffnungszeiten, immer unterschiedlich aufgrund Besetzungen.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Sportanlage",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11522070269"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0662098,
+      47.0362447
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527634469",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Buchholzstrasse 59, 8750 Glarus",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Sportanlage",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527634469"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0623045,
+      47.049679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527641369",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Buchholzstrasse 63, 8750 Glarus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Feuerwehr",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527641369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0631521,
+      47.0500664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527654871",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Schwimmbadstrasse 1",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Schwimmbad",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527654871"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0590215,
+      47.0557827
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11527671569",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Ygrubenstrasse 12f, 8750 Glarus",
+    "description": "während der Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Glarus - Schwimmbad",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11527671569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0683234,
+      47.0465721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11640617169",
+  "properties": {
+    "defibrillator:location": "Eingang Gebäude Sernftalstrasse 34B",
+    "description": "während den Öffnungszeiten verfügbar-",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
+    "operator": "Fa. Schätti AG, Metallwarenfabrik, Tschachen 2, 8762 Schwanden",
+    "phone": "+41 55 647 34 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11640617169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.08167,
+      46.9957533
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11640617170",
+  "properties": {
+    "defibrillator:location": "Montage 1",
+    "description": "während den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 06:00-18:00",
+    "operator": "Fa. Schätti AG, Metallwarenfabrik, Tschachen 2, 8762 Schwanden",
+    "phone": "+41 55 647 34 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11640617170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0769762,
+      46.9973303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11930145969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Obere Allmeind 2a",
+    "description": "Während den Offnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "somedia",
+    "phone": "+41 55 645 28 28",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11930145969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0750772,
+      47.0337183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11941549370",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsschule Glarus, Galerie Sporthalle",
+    "description": "Während der Schulöffnungszeiten verfügbar; während der Schulferien nicht zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo-Fr 07:00-18:00",
+    "operator": "Kantonschule / Kanton Glarus",
+    "phone": "+41 55 645 45 45",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11941549370"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.066124,
+      47.0436916
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11990058069",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Turm West Seite ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Swisspearl Schweiz AG",
+    "phone": "+41798871663",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11990058069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0591333,
+      47.1222277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11993199969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Klöntal",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Axpo Kraftwerk am Löntsch AG",
+    "phone": "+41 55 285 27 11",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11993199969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0015149,
+      47.0367346
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12030726184",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "44",
+    "addr:street": "Netstalerstrasse",
+    "defibrillator:location": "Eingang Links EG\n1449LTS",
+    "description": "Grüner Kasten Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Fensterfabrik Albisrieden AG",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG Schweiz",
+    "phone": "+41800122144",
+    "ref": "1449LTS",
+    "id": "node/12030726184"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0731708,
+      47.085464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12312178501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Physiowerkstatt GmbH",
+    "description": "Immer zu erreichen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Privatpersonen, Mieter Industriestrasse 4",
+    "phone": "+41 55 612 47 47",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12312178501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0700346,
+      47.1046237
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12435249701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Industrie West 5",
+    "description": "während Betriebszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
+    "operator": "Marti Engineering AG",
+    "phone": "+41 55 647 35 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12435249701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0770566,
+      47.0080821
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12655961901",
+  "properties": {
+    "defibrillator:location": "Steinackerstrasse 4, 8753 Mollis",
+    "description": "Ausserhalb der Öffnungszeiten Klingel, Pflegeabteilung kann Tür öffnen und Defi ist im EG zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Alters- & Pflegeheime Glarus Nord",
+    "phone": "+4155618 85 85",
+    "id": "node/12655961901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0759409,
+      47.0893758
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12774646601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stand up Mietstation  im Campingplatz",
+    "description": "Während den Öffnungzeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "SUP- Swiss GmbH",
+    "phone": "+41 76 817 33 66",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12774646601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1120595,
+      47.127666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12854232901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Feldstrasse 9, 8750 Glarus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "4",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41 79 2955911",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12854232901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0678406,
+      47.0467329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12925288401",
+  "properties": {
+    "defibrillator:location": "Raststätte Restaurant Marché",
+    "description": "Haupteingang links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/12925288401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0496476,
+      47.1376677
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12963815001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussengeräteraum Sportzentrum Kerenzerberg",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "Mo - Su 07:00 - 20:00",
+    "operator": "Sportzentrum Kerenzerberg",
+    "phone": "+41 55 614 17 17",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12963815001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1221875,
+      47.1225926
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12963824902",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kraft-Fitnessraum",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Su 07:00-21:00",
+    "operator": "Sportzentrum Kerenzerberg",
+    "phone": "+41 55 614 17 17",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12963824902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1259533,
+      47.1225707
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13057922001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Elmerlodge",
+    "description": "Vor Haupteingang rechts hinter offener Holztür",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Elmerlodge",
+    "phone": "+41793791977",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13057922001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1544841,
+      46.92147
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13084892102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang im Windfang",
+    "description": "jederzeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "cura unita glarus",
+    "phone": "+41 55 645 34 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13084892102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0827429,
+      47.0308372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13084908001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang im Windfang",
+    "description": "jederzeit verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "cura unita glarus",
+    "phone": "+41 55 645 62 20",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13084908001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0597135,
+      47.0402004
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13096493302",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbereich Hauptgebäude Trakt A (rechts unterhalb Begrüssungsbildschirm)",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Th 06:00 - 21:30 ; Fr 06:00-18:00",
+    "operator": "Gewerblich-Industrielle Berufsfachschule Kanton Glarus",
+    "phone": "+41 55 617 43 45",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/13096493302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0571439,
+      47.1355636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13344417401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rega Basis Mollis, Flugplatzstrasse 12",
+    "description": "Ganz rechte Ecke von der Fassade Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rega",
+    "phone": "+41 44 654 33 11",
+    "id": "node/13344417401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0671613,
+      47.0799377
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13368975501",
+  "properties": {
+    "defibrillator:location": "Technische Betriebe Glarus Süd",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Technische Betriebe Glarus Süd",
+    "id": "node/13368975501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0732797,
+      46.9933666
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13474952401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Hof, Schulhausstrasse 7, 8755 Ennenda,",
+    "description": "Im Lehrerzimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:30 - 17:00",
+    "operator": "Samariterverein Ennenda & Schule",
+    "phone": "+41 78 631 74 32",
+    "id": "node/13474952401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0801309,
+      47.0331021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13586217701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Skilift Mattwald",
+    "description": "Neben dem Ticketautomaten in Holzkasten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Sportbahnen Braunwald",
+    "phone": "+41 55 643 37 02",
+    "id": "node/13586217701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0046365,
+      46.9483645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13611892102",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Flugplatzareal 10, 8753 Mollis, Schweiz",
+    "description": "Der Defibrillator ist im Hangar zwischen der Verbindungstür vom grossen zum kelinen Hangar.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
+    "operator": "Kopter Group AG",
+    "phone": "+41 79 851 67 25",
+    "id": "node/13611892102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0665484,
+      47.0791632
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13629270601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aebli AG, Gipserhütte 4, 8755 Ennenda",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Aebli AG, Spenglerei und sanitäre Installationen",
+    "phone": "+41 55 640 14 62",
+    "id": "node/13629270601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0784353,
+      47.0309201
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13666545701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schwändi Schwimmbad",
+    "description": "Garderobe, bei den Schliessfächern rechts",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "09:00 - 19:00",
+    "operator": "Genossenschaft Bergbadi Schwändi",
+    "phone": "+41795216051",
+    "id": "node/13666545701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0651101,
+      47.0035792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13855870901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Obererlen Eingang Süd",
+    "description": "Während Schulöffnungszeiten",
+    "email": "liegenschaften@glarus-nord.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00-17:00",
+    "operator": "Gemeinde Glarus Nord",
+    "phone": "+41 58 611 74 11",
+    "id": "node/13855870901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0670285,
+      47.0957903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13860040501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Tschachenstrasse 51",
+    "description": "07:00-17:00 Mo. - Fr.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/13860040501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0137047,
+      47.165473
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14008252568",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Näfels",
+    "addr:housenumber": "24",
+    "addr:postcode": "8752",
+    "addr:street": "Bahnhofstrasse",
+    "defibrillator:location": "Zahnarztpraxis Nord, EG Labor",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0697LTM",
+    "id": "node/14008252568"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.06742,
+      47.0992985
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14130508901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Beim Empfang",
+    "description": "während der Öffnungszeiten erreichbar",
+    "email": "raphael.soltermann@altherr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00 - 17:15",
+    "operator": "Altherr Nutzfahrzeuge-AG, Zweigniederlassung Bilten",
+    "phone": "+41 55 619 67 00",
+    "id": "node/14130508901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0310568,
+      47.1498241
+    ]
+  }
+}
 ]
 }

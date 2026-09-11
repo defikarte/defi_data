@@ -1,6 +1,3143 @@
 {
 "type": "FeatureCollection",
 "features": [
-
+{
+  "type": "Feature",
+  "id": "node/3981860525",
+  "properties": {
+    "defibrillator:location": "Spritzenhaus, rechts neben Tor",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sarnen",
+    "id": "node/3981860525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2454887,
+      46.8962894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/6834528285",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "365 T/J zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41 79 961 62 41",
+    "id": "node/6834528285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1294483,
+      46.7892768
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7580385818",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Kanal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "24/7",
+    "id": "node/7580385818"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2624657,
+      46.9121729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7580387589",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Schulhaus (während Schulbetrieb)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "id": "node/7580387589"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2360446,
+      46.8660303
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818505",
+  "properties": {
+    "description": "Foyer Eingang Halle 4",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "3-fach Turnhalle",
+    "id": "node/7637818505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2433682,
+      46.8924016
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818506",
+  "properties": {
+    "description": "Hintereingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Behindertenwerkstätte Hüetli",
+    "id": "node/7637818506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2487413,
+      46.8971584
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818507",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Britschgi Franz, Praxis",
+    "id": "node/7637818507"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2488127,
+      46.8974657
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818508",
+  "properties": {
+    "description": "Eingang re. hinter der Türe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "BWZ Obwalden",
+    "id": "node/7637818508"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2480174,
+      46.8944019
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818510",
+  "properties": {
+    "description": "Amt für Wald und Landschaft / Eingang re.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kantonale Verwaltung",
+    "id": "node/7637818510"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2492801,
+      46.8919821
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818511",
+  "properties": {
+    "description": "Hoch- und Tiefbauamt / 1. Stock li.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kantonale Verwaltung",
+    "id": "node/7637818511"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2489794,
+      46.8920562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818512",
+  "properties": {
+    "description": "Foyer Eingang Mensa",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kantonschule",
+    "id": "node/7637818512"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2443015,
+      46.892512
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818513",
+  "properties": {
+    "description": "re. vom Gerichtssaal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Kantonsgericht",
+    "id": "node/7637818513"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2465005,
+      46.895636
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818514",
+  "properties": {
+    "description": "Eingang Fitnessraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Medical Fitness AG Sarnen",
+    "id": "node/7637818514"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2497144,
+      46.8990317
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818515",
+  "properties": {
+    "description": "Betriebssanität",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Migros Center",
+    "id": "node/7637818515"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2496712,
+      46.8970349
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818516",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "operator": "Pfister Markus HNO Praxis",
+    "id": "node/7637818516"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2488118,
+      46.8974781
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818517",
+  "properties": {
+    "description": "Stationsszimmer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Psychiatrie KS Sarnen",
+    "id": "node/7637818517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2453179,
+      46.8897414
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818518",
+  "properties": {
+    "description": "Betriebssanität",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Sika Sarnafil Allmend 1",
+    "id": "node/7637818518"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2516569,
+      46.9016446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818519",
+  "properties": {
+    "description": "Empfang hinter Türe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Staatskanzlei Rathaus",
+    "id": "node/7637818519"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2455156,
+      46.895589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818520",
+  "properties": {
+    "description": "Eingangshalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Steuerverwaltung",
+    "id": "node/7637818520"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.249034,
+      46.8948085
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818521",
+  "properties": {
+    "description": "Bürogebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Strasseninspektorat",
+    "id": "node/7637818521"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2537323,
+      46.8965563
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818522",
+  "properties": {
+    "description": "2. OG Eingang Fitnesscenter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "TopGym Fitnesscenter GmbH",
+    "id": "node/7637818522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2545017,
+      46.9048899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818523",
+  "properties": {
+    "description": "Haus 1 Gemeinschaftstrakt/ Verbindungsgeschoss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Behindertenheim Rütimattli",
+    "id": "node/7637818523"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2523232,
+      46.8814894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818524",
+  "properties": {
+    "description": "Betriebssanität",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Bio Familia",
+    "id": "node/7637818524"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2331237,
+      46.865135
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818525",
+  "properties": {
+    "description": "Schichtführerbüro / Kunststoffspritzguss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Elfo AG",
+    "id": "node/7637818525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2283626,
+      46.8597705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818526",
+  "properties": {
+    "description": "1x Empfang 1x Sanität TCIII",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "maxon",
+    "id": "node/7637818526"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2210185,
+      46.859767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818614",
+  "properties": {
+    "description": "Sanitätsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Talstation Stöckalp",
+    "id": "node/7637818614"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.278778,
+      46.8019997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818615",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Melchsee-Frutt (alte Bergstation)",
+    "description": "bei Infobüro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Sportbahnen Melchsee-Frutt",
+    "phone": "+41 41 669 70 60",
+    "wheelchair": "limited",
+    "id": "node/7637818615"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2685874,
+      46.7745184
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818616",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Frutt Lodge & Spa Empfang",
+    "description": "Rezeption",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Frutt Mountain Resort",
+    "opening_hours": "24/7",
+    "operator": "Frutt Mountain Resort",
+    "phone": "+41 41 669 79 79",
+    "wheelchair": "no",
+    "id": "node/7637818616"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2700625,
+      46.7739958
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818832",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Brünig Indoor",
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Brünig Indoor",
+    "opening_hours": "24/7",
+    "operator": "Gasser Felstechnik",
+    "phone": "+41 79 961 62 41",
+    "id": "node/7637818832"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1410885,
+      46.7771871
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818833",
+  "properties": {
+    "description": "First Responder Tresor",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Holzbau AG",
+    "id": "node/7637818833"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1564301,
+      46.7810907
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818835",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "HP Gasser AG",
+    "id": "node/7637818835"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1430046,
+      46.7778548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818853",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pilatus Kulm, Neben Uhren",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Pilatusbahn Pilatus-Kulm",
+    "opening_hours": "24/7",
+    "operator": "Pilatus-Bahnen AG",
+    "phone": "+41 41 329 11 11",
+    "wheelchair": "limited",
+    "id": "node/7637818853"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2552628,
+      46.9795548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818865",
+  "properties": {
+    "description": "Kasse Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Aqua Center",
+    "id": "node/7637818865"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2671528,
+      46.8996535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818866",
+  "properties": {
+    "access": "yes",
+    "description": "EG, Restaurant, gegenüber Damentoilette",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Betagtensiedlung Huwel",
+    "opening_hours": "24/7",
+    "id": "node/7637818866"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2750555,
+      46.9048405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818868",
+  "properties": {
+    "description": "Innenhof Spänesilo",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Holzbau Bucher AG",
+    "id": "node/7637818868"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2747812,
+      46.9023957
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818885",
+  "properties": {
+    "access": "yes",
+    "description": "Aussenseite Büroeingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "von Atzigen AG",
+    "opening_hours": "24/7",
+    "id": "node/7637818885"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2612881,
+      46.911786
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818953",
+  "properties": {
+    "access": "no",
+    "description": "KW Unteraa",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "name": "Elektrizitätswerk Obwalden",
+    "id": "node/7637818953"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1749584,
+      46.8222822
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818954",
+  "properties": {
+    "access": "yes",
+    "description": "Alte Kraftwerkszentrale «Turbine» (neben Haupteingang)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Elektrizitätswerk Obwalden",
+    "opening_hours": "24/7",
+    "id": "node/7637818954"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1740573,
+      46.8225543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818970",
+  "properties": {
+    "description": "HotelRezeption",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Paxmontana, Hotel",
+    "id": "node/7637818970"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2705543,
+      46.873496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819004",
+  "properties": {
+    "description": "EG vor dem Sanitätsraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Bergstation Titlisbahn",
+    "id": "node/7637819004"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.423217,
+      46.7707096
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819005",
+  "properties": {
+    "description": "Bergstation Kassenraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Brunni-Bahnen Bergstation Ristis",
+    "id": "node/7637819005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4076972,
+      46.8323845
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819007",
+  "properties": {
+    "description": "im Clubhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Golfclub Engelberg",
+    "id": "node/7637819007"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4347034,
+      46.8070533
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819009",
+  "properties": {
+    "defibrillator:location": "draussen beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Sporting Park",
+    "opening_hours": "24/7",
+    "id": "node/7637819009"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.404828,
+      46.8179446
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819012",
+  "properties": {
+    "description": "Eingang Kasse / Drehkreuz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Talstation Titlis-Bahn",
+    "id": "node/7637819012"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3958613,
+      46.8162014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819013",
+  "properties": {
+    "defibrillator:location": "Beim Drehkreuz der Standseilbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Bergbahnen Engelberg-Trübsee-Ttilis AG",
+    "id": "node/7637819013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3955022,
+      46.8160923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819014",
+  "properties": {
+    "defibrillator:location": "links der Kasse beim ausstieg Standseilbahn",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Bergbahnen Engelberg-Trübsee-Ttilis AG",
+    "id": "node/7637819014"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.392482,
+      46.812682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819015",
+  "properties": {
+    "defibrillator:location": "Rechts der Türe des Sanitätszimmers",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Bergbahnen Engelberg-Trübsee-Ttilis AG",
+    "id": "node/7637819015"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4228731,
+      46.7707973
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819016",
+  "properties": {
+    "defibrillator:location": "Bei der Reception, Personal fragen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Titlis Terrace",
+    "id": "node/7637819016"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4008103,
+      46.8227921
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang neben dem Briefkasten der Post",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Engelberg",
+    "wheelchair": "yes",
+    "id": "node/7637819017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4078285,
+      46.8209964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckanlage Feuerwehr, Abgang Sportplatz, bei Parkuhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Einwohnergemeinde Engelberg",
+    "operator": "Einwohnergmeinde Engelberg",
+    "id": "node/7637819018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.411887,
+      46.8167829
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819168",
+  "properties": {
+    "defibrillator:location": "Werkstatt",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Ulrich & Hefti AG",
+    "id": "node/7637819168"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.275519,
+      46.938201
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819169",
+  "properties": {
+    "description": "Betriebssanität",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Alpnach Norm",
+    "id": "node/7637819169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2706261,
+      46.9375364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819170",
+  "properties": {
+    "description": "Im Haupteingang (Schleuse, linke Seite)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Allmendpark Alpnach",
+    "id": "node/7637819170"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2769178,
+      46.9423897
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819171",
+  "properties": {
+    "access": "yes",
+    "description": "Loge, Schalter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Militärflugplatz Alpnach",
+    "opening_hours": "24/7",
+    "id": "node/7637819171"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2864487,
+      46.9439873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819172",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "name": "Physical Center Mavric AG",
+    "id": "node/7637819172"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.276755,
+      46.9414588
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8341346002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor der Coop Filiale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41 79 961 62 41",
+    "id": "node/8341346002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1862575,
+      46.8375149
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8481826932",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang des Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Alpnach",
+    "id": "node/8481826932"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.273265,
+      46.9411336
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8547989330",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der linken Seite des Hoteleingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Christian Brechbühl, Geschäftsführer",
+    "phone": "+41 41 637 19 49",
+    "id": "node/8547989330"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4230011,
+      46.8098534
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8752746618",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fischerparadis Lungern",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Fischerparadis Lungern",
+    "phone": "+41 41 678 01 01",
+    "id": "node/8752746618"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1729793,
+      46.8135092
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8752746625",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "BWZ Giswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "BWZ Obwalden",
+    "phone": "+41 79 855 01 45",
+    "id": "node/8752746625"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1800584,
+      46.8316314
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8752763721",
+  "properties": {
+    "defibrillator:location": "im Haus Looschä im Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Sandra Schallberger",
+    "phone": "+41 79 961 62 41",
+    "id": "node/8752763721"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2481265,
+      46.8915775
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8752788917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ausserhalb der Firma Rollende Werkstatt Kran AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rollende Werkstatt Kran AG",
+    "phone": "+41796595349",
+    "id": "node/8752788917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2196808,
+      46.8572981
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8803549250",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang ehemaliges Hotel Schwanderhof",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sarnen",
+    "id": "node/8803549250"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2119812,
+      46.8865562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8839390917",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-06-23",
+    "defibrillator:location": "WC Minigolfanlage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sarnen",
+    "id": "node/8839390917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.243588,
+      46.8875589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8883892418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Postfächer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sarnen",
+    "phone": "+41799616241",
+    "id": "node/8883892418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2331156,
+      46.8976654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8883909317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haltestelle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sarnen",
+    "phone": "+41799616241",
+    "id": "node/8883909317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.224794,
+      46.8810942
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8890548217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "SOS Pistenrettung",
+    "description": "während Bahnbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Frutt Bahnen",
+    "id": "node/8890548217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2689345,
+      46.7757086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8890548218",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "Berghotel Bonistock",
+    "description": "im Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Berghotel Bonistock",
+    "phone": "+41 79 961 62 41",
+    "wheelchair": "limited",
+    "id": "node/8890548218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2906338,
+      46.7776168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8890632218",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Mehrzweckhalle",
+    "description": "bei den WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Giswil",
+    "phone": "+41 79 961 62 41",
+    "id": "node/8890632218"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1766006,
+      46.8391967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8900458840",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Links vom Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sarnen",
+    "id": "node/8900458840"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2622565,
+      46.9220836
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8914400617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Sportgeschäft",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Langlauffreunde Langis",
+    "id": "node/8914400617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1263569,
+      46.8932081
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8914404917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "am FC Gräudr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "FC Alpnach",
+    "id": "node/8914404917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2801443,
+      46.9525049
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8914404918",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "WC  Herzog Werft",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Herzog Werft",
+    "id": "node/8914404918"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2816738,
+      46.9534079
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978060217",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kitech AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Elektro Kathriner",
+    "id": "node/8978060217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1813962,
+      46.8432478
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978063117",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "im Behinderten WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Camping Giswil",
+    "id": "node/8978063117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.187959,
+      46.8536494
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978069317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang zum Schwimmbad rechts an der Wand",
+    "description": "Während der Öffnungszeiten des Schwimmbades verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Sarnen",
+    "id": "node/8978069317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2435614,
+      46.8839977
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978069318",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Holzbau Burch",
+    "id": "node/8978069318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2473866,
+      46.9031797
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978069319",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Elekto Gasser",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Elektro Gasser",
+    "id": "node/8978069319"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.276605,
+      46.9402907
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978072217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "bei der alten Turnhalle",
+    "description": "während Schulbetrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Sarnen",
+    "id": "node/8978072217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2440602,
+      46.8941148
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978083217",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "ARA Obwalden\nEr stet bei dem eingang bei der Werkstat.",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "ARA Obwalden",
+    "id": "node/8978083217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2875637,
+      46.9411284
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8978086117",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Empfang Garage Windlin",
+    "description": "während Öffnungszeite ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Garage Windlin",
+    "id": "node/8978086117"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2932447,
+      46.9100718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8985701017",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Family Lodg Empfang",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Frutt Mountain Resort",
+    "phone": "+41 41 669 79 79",
+    "wheelchair": "no",
+    "id": "node/8985701017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2685767,
+      46.7731201
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9108600418",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sanitärgebäude Campingplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Seefeld Park Sarnen",
+    "id": "node/9108600418"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2425151,
+      46.8828742
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9196011917",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Enz Pflästerunf",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41 79 961 62 41",
+    "id": "node/9196011917"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1750913,
+      46.8164359
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9247411323",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Huber‘s Wystübli, unter der Treppe",
+    "description": "draussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "ein Herz für OW",
+    "id": "node/9247411323"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2556136,
+      46.9335682
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9515818914",
+  "properties": {
+    "defibrillator:location": "XUND Bildungszentrum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9515818914"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2765246,
+      46.9368378
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9515869349",
+  "properties": {
+    "defibrillator:location": "Schoriederstrasse 4",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9515869349"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2685631,
+      46.9379637
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9532019050",
+  "properties": {
+    "defibrillator:location": "Kursaal Engelberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9532019050"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4020725,
+      46.8207848
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9532057479",
+  "properties": {
+    "defibrillator:location": "Bitzigasse 5",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9532057479"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2691775,
+      46.8714669
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9532178893",
+  "properties": {
+    "defibrillator:location": "Schlossmattli 10 Markus Enz AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9532178893"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1840486,
+      46.8330449
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9532184010",
+  "properties": {
+    "defibrillator:location": "Praxis Dr. Dillier",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9532184010"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1870436,
+      46.8376662
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9532197350",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9532197350"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1088081,
+      46.8253499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9534138199",
+  "properties": {
+    "defibrillator:location": "Bahnhofstrasse 11 Von Atzigen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9534138199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2586746,
+      46.9122684
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9534172534",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf dem Parkplatz der Elektrizitätswerke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Elektritsitätswerk Obwalden",
+    "phone": "+41 800 876 876",
+    "id": "node/9534172534"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2776109,
+      46.9025929
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9534639041",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sanitätsraum Skilifte Mörlialp",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Skilifte Mörlialp AG",
+    "phone": "+41 41 675 22 28",
+    "id": "node/9534639041"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1083661,
+      46.8253678
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9551027376",
+  "properties": {
+    "defibrillator:location": "Samariterlokal Brünigstrasse 107",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9551027376"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.159443,
+      46.783731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9553821878",
+  "properties": {
+    "defibrillator:location": "Bundesasylcenter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9553821878"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1224021,
+      46.8906972
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9553918879",
+  "properties": {
+    "defibrillator:location": "Kurhaus am Sarnersee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "id": "node/9553918879"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2324947,
+      46.8880693
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9624452417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bei der Drogerie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41 79 961 62 41",
+    "id": "node/9624452417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2395179,
+      46.8688783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910160717",
+  "properties": {
+    "defibrillator:location": "Pilatusstrasse 14b",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Sa 07:30-20:00",
+    "operator": "lidl Schweiz",
+    "phone": "+41 71 588 05 10",
+    "id": "node/9910160717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2486218,
+      46.9008744
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910171317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Büntenterminal",
+    "description": "Tresor für Responder plus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41799616241",
+    "id": "node/9910171317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2498419,
+      46.8989102
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910171318",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "an EWO Trafostation",
+    "description": "in Tresor für Responder Plus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41799616241",
+    "id": "node/9910171318"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2758078,
+      46.9532364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9910175217",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "an EWO Trafostation",
+    "description": "im Tresor für Responder Plus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41799616241",
+    "id": "node/9910175217"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2627098,
+      46.9241894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9917843285",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Verkaufsfläche LIDL",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "LIDL Schweiz",
+    "phone": "+41716278074",
+    "id": "node/9917843285"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2487322,
+      46.9008574
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10261946709",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Talstation Brunni-Bahnen",
+    "description": "an der Aussenwand des Toiletten-Einganges",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Brunni-Bahnen Engelberg AG",
+    "phone": "+41 41 639 60 60",
+    "id": "node/10261946709"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4153986,
+      46.8187183
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10589606805",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Migrol Tankstelle",
+    "description": "an Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41 79 961 62 41",
+    "id": "node/10589606805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2418352,
+      46.8727826
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10592192106",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Tresor Responder Plus",
+    "description": "unter Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41799619241",
+    "id": "node/10592192106"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1596009,
+      46.7850784
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611781810",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Hintereingang Gemeindeverwaltung",
+    "description": "Tresor Responder Plus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41799616241",
+    "id": "node/10611781810"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2735379,
+      46.9010093
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611782526",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Tresor Responder Plus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41799616241",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10611782526"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2827473,
+      46.8753894
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611784405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Postgebäude Eingang WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Samariterverein Kerns",
+    "phone": "+41786975353",
+    "id": "node/10611784405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2745221,
+      46.9006733
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10611796805",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Tresor Responder Plus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Härz fir Obwaldä",
+    "phone": "+41799616241",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10611796805"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2405937,
+      46.8695988
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10657914306",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kräuterhütte am Härzlisee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10657914306"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4109408,
+      46.841642
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10660721005",
+  "properties": {
+    "defibrillator:location": "Schulhaus Alpnach",
+    "description": "während Schulöffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Einwohnergemeinde Alpnach Liegenschaftsdienst",
+    "phone": "+41 41 672 96 96",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10660721005"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2683277,
+      46.9409089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10660722605",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Einwohnergemeinde Gemeindehaus Alpnach",
+    "description": "Bei Haupteingang links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Alpnach Liegenschaften Infrastruktur",
+    "phone": "+41 41 672 96 96",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/10660722605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2733113,
+      46.9411506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10759156505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Mehrzweckgebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lungern",
+    "phone": "+41 41 679 79 79",
+    "id": "node/10759156505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1609573,
+      46.7823745
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10759156506",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strandbad Lungeen",
+    "description": "an Aussenfasade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lungerm",
+    "phone": "+41 41 679 79 79",
+    "id": "node/10759156506"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.15617,
+      46.7835999
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11038063806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Fixit AG",
+    "phone": "+41 79 422 66 86",
+    "id": "node/11038063806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3236349,
+      46.9138356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11062952505",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstation vom Sessellift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/11062952505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4116301,
+      46.8410615
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11067196806",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lagerhaus Tourismusverein",
+    "description": "An der Fassade beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Tourismusverein Lungern",
+    "phone": "+41799616241",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11067196806"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.163287,
+      46.7920059
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11114363405",
+  "properties": {
+    "defibrillator:location": "bei Löschposten Bucherershop EG Panoramagalerie",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Pilatus-Bahnen AG",
+    "phone": "+41413291142",
+    "id": "node/11114363405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2556462,
+      46.9794984
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11114373405",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hotel Pilatus-Kulm",
+    "description": "neben Eingang Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Pilatus-Bahnen AG",
+    "phone": "+41413291142",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11114373405"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.253538,
+      46.9795021
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11133178693",
+  "properties": {
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/11133178693"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.422586,
+      46.8096258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11411730804",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Bei den Elektrizitätswerken",
+    "description": "nur für Mitarbeiter",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Elektritsitätswerk Obwalden",
+    "phone": "+41 800 876 876",
+    "id": "node/11411730804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2782678,
+      46.9028256
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11531619672",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Camping Obsee",
+    "description": "an der Fasade zum WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lungern",
+    "phone": "+41799616241",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11531619672"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.151834,
+      46.7852482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11569307369",
+  "properties": {
+    "defibrillator:location": "Hausarztpraxis Kerns",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:00-17:00",
+    "operator": "Hausarztpraxis Kerns",
+    "phone": "+41 41 666 03 66",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11569307369"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2745558,
+      46.9040507
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11669308669",
+  "properties": {
+    "defibrillator:location": "Rohrstrasse 2, Engelberg aussen am Gebäude",
+    "description": "immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Elektrizitäswerk Obwalden",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11669308669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4020627,
+      46.8179547
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11752441069",
+  "properties": {
+    "defibrillator:location": "Bei den Garagen, Obermatt 2/Grafenort",
+    "description": "öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Elektrizitätswerk Obwalden",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11752441069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3744574,
+      46.8421777
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11884802869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Autospritzwerk André Kiser AG",
+    "description": "Während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo - Fr 07:00 -  17:30",
+    "operator": "Firma",
+    "phone": "+41416606122",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11884802869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2630491,
+      46.9083094
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11906651069",
+  "properties": {
+    "defibrillator:location": "Gemeindehaus Sarnen, neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sarnen",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11906651069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2428643,
+      46.8933217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11906651070",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Seefeldpark Restaurant, neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Sarnen",
+    "id": "node/11906651070"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2427965,
+      46.8837896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11906671069",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Aula Cher, im Foyer",
+    "description": "während Schulbetrieb und Veranstaltungen in der Aula",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Sarnen",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11906671069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2436192,
+      46.8936299
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11925637569",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kasse Pilatus-Bahnen Alpnachstad",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Pilatus-Bahnen AG",
+    "phone": "+41 41 329 11 42",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11925637569"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2776694,
+      46.9554753
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11936951169",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "QUBO, Kägiswilerstrasse 15",
+    "description": "während Öffnungszeiten verfügbar!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Eberli AG",
+    "phone": "+41 41 666 38 48 ",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11936951169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2523042,
+      46.9013898
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12027976669",
+  "properties": {
+    "access": "no",
+    "defibrillator:location": "Unterwerk Sarnen, Hasli, Flüelistrasse 24, Sarnen",
+    "description": "Haupteingang, wenn jemand vor Ort ist zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12027976669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2502335,
+      46.8858138
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12053624069",
+  "properties": {
+    "defibrillator:location": "Dossenhalle Siedernstrasse 8 Beim Eingang am Ecken ",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/12053624069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2727011,
+      46.899832
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12278859801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sportschützen Giswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Sportschützen Giswil",
+    "phone": "+41799616241",
+    "id": "node/12278859801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1685584,
+      46.8306259
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12278863601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Asyl Unterkunft Ehemals Krone",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kanton Obwalden",
+    "phone": "+41799616241",
+    "id": "node/12278863601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.183689,
+      46.8315208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12355352732",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "zb Zentralbahn AG, Kägiswilerstrasse 49, 6060 Sarnen\nim Haupteingang,",
+    "description": "Klingel benutzen, wenn jemand da ist, helfen wir gerne",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "zb Zentralbahn AG",
+    "phone": "+4158 668 88 88",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12355352732"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2567191,
+      46.9067995
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12393307801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Treppenhaus vom Parterre zum 1. Stock an der Wand.",
+    "description": "Während dem ganzen Jahr verfügbar auch im unbewarteten Betrieb.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "SAC Rugghubelhütte",
+    "phone": "+41793557603",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12393307801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4627557,
+      46.8462064
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12613264601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "öffentliches WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lungern",
+    "phone": "+41799616241",
+    "id": "node/12613264601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.159689,
+      46.7855051
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12818579302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Baumeler Leitungsbau AG",
+    "description": "Während Betriebszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+41 41 660 41 77",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12818579302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2705975,
+      46.9005119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12912540272",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "An der Wand der Busstation",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "First Responder Zentralschweiz",
+    "wheelchair": "no",
+    "id": "node/12912540272"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2063164,
+      46.8848997
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12989098601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sporthalle Engelberg, Haupteingang",
+    "description": "während Betriebszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 18:00",
+    "operator": "Sporthalle Engelberg AG",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12989098601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4120512,
+      46.8195442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13247344701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbereich, rechts vom Shop",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Wheel Park AG",
+    "phone": "+41416609292",
+    "id": "node/13247344701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2544429,
+      46.9035509
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13264788101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Schwerzbachstrasse 1",
+    "description": "Nicht öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Fanger Elementtechnik AG",
+    "id": "node/13264788101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1891315,
+      46.8454635
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13264931201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Felsenheim, Lebensart im Alter, Flüelistrasse 33, 6072 Sachseln",
+    "description": "Von aussen frei zugänglich - rechts vom Haupteingang",
+    "email": "info@felsenheim.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Felsenheim, Lebensart im Alter",
+    "phone": "+41 41 666 04 04",
+    "id": "node/13264931201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2450559,
+      46.8682939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13471417402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Parkweg 1, 6390 Engelberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Th 08:00-15:00; Fr 08:00-12:00",
+    "operator": "Marheine Zahnmedizin AG",
+    "phone": "+41 41 637 23 32",
+    "id": "node/13471417402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4058853,
+      46.8199792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13582204603",
+  "properties": {
+    "defibrillator:location": "Enz Gartenbau",
+    "description": "öffentlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Enz Gartenbau",
+    "phone": "+41 79 958 89 86",
+    "id": "node/13582204603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2596286,
+      46.9124237
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13629744901",
+  "properties": {
+    "defibrillator:location": "In der Loge",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/13629744901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2860294,
+      46.9430356
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13700596601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Klinik Sarnen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "24/7",
+    "operator": "Luzerner Psychiatrie AG",
+    "phone": "+41 58 856 50 46",
+    "id": "node/13700596601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2452846,
+      46.8895891
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13817689801",
+  "properties": {
+    "defibrillator:location": "Stiftung Betagtenheim, Eyhuis, neben Lieferanteneingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Betagtenheim Lungern, Eyhuis",
+    "id": "node/13817689801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1583317,
+      46.7872552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14162388102",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Dorfplatz 8, Rathaus, Sarnen",
+    "description": "Während der Öffnungszeiten verfügbar Mo-Fr 8-12 / 13.30-17h",
+    "email": "staatskanzlei@ow.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Kanton Obwalden",
+    "phone": "+41 41 666 63 12",
+    "id": "node/14162388102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2451334,
+      46.8960388
+    ]
+  }
+}
 ]
 }
