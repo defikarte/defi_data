@@ -155,7 +155,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 10911425413,node,46.7880569,7.0787554,yes,,,,,,,,,Dans le couloir derrière le service clients de la Migros,,Pendant les heures d'ouverture,,defibrillator,144,,,node/10911425413,yes,,,0,,,,,,Migros,,,,,,,,,
 10922431005,node,46.9286332,7.125178,,,,,,,,,,Schützenmatt,,ja,,defibrillator,144,,,node/10922431005,yes,,,2,,,,,24/7,Murten,,,+41 79 551 68 01,,,,,,
 10934027225,node,46.8161162,7.1389064,,,,,,,,,,"Downstairs, besides the luggage locker",,,,defibrillator,144,,,node/10934027225,yes,,,-1,,,,,,,,,,,,,,,
-10934316909,node,46.8067573,7.1012465,,,,,,,,,,,,,,defibrillator,144,,,node/10934316909,no,,,,,,,,,,,,,,,,,,
+10934316909,node,46.8065703,7.100869,,,,,,,,,,"Ecole de Corminboeuf, rte du Centre 25, à côté de l'entrée",,-,commune@corminboeuf.ch,defibrillator,144,,,node/10934316909,no,,,0,,,,,,Commune de Corminboeuf,,,+41 26 475 26 46,,,,,,
 10942060565,node,46.6951678,7.1356191,yes,,,,,,,,,Sur la façade du bâtiment,,,,defibrillator,144,,,node/10942060565,no,,,,,,,,24/7,,,,,,,,,,
 10942244350,node,46.6095656,7.1089191,yes,,,,,,,,,Dans une armoire à côté de l'ascenseur et des escaliers,,Pendant les heures d'ouverture,,defibrillator,144,,,node/10942244350,yes,,,1,,,,,,Electrobroc,,,,,,,,,
 10958841782,node,46.9386352,7.135605,,,,,,,,,,Im Foyer,,,,defibrillator,144,,,node/10958841782,yes,,,,,,,,,,,,,,,,,,

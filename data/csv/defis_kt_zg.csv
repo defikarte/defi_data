@@ -458,3 +458,4 @@ EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",,defibrillator,144,node/7568
 14142568701,node,47.177482,8.5150238,yes,,,,,,,"Five moods, SV Restaurant",während den Öffnungszeiten verfügbar,patrick.luescher@siemens.com,defibrillator,144,node/14142568701,yes,,0,,,,"Mo-Fr 08:30-13:30, 11:15-13:45",Siemens Schweiz AG,,+41 58 724 50 83,,,,,
 14142577501,node,47.1795017,8.5139072,permissive,,,,,,,Empfang Siemens Smart Infrastructure AG,während den Öffnungszeiten verfügbar,patrick.luescher@siemens.com,defibrillator,144,node/14142577501,yes,,0,,,,Mo-Fr 07:00-17:30,Siemens Schweiz AG,,+41 58 724 50 83,,,,,
 14144032701,node,47.1880767,8.4792209,yes,,,,,,,Besi Switzerland,,,defibrillator,144,node/14144032701,yes,,0,,,,,Firma Besi Switzerland,,+41417495111,,,,,
+14169618803,node,47.202162,8.525117,permissive,,,,,,,"Haupteingang, an der Wand vor dem Lift",,info@trockentech.ch,defibrillator,144,node/14169618803,yes,,0,,,,,"STWEG Bachweid 3, Baar",,+41 41 761 41 70,,,,,
