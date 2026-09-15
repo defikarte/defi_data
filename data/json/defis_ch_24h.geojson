@@ -64185,6 +64185,7 @@
   "id": "node/9197347058",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-15",
     "defibrillator:location": "all'entrata del parcheggio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -162592,6 +162593,52 @@
     "coordinates": [
       8.9389218,
       47.173462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183409001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gländstrasse 8",
+    "description": "Öffentliches Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Feuerwehr",
+    "id": "node/14183409001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9024021,
+      47.277208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183431301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Langenthalerstrasse 6 Gemeindesaal Turnhalle",
+    "description": "Eingangsbereich Links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/14183431301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8979038,
+      47.2729288
     ]
   }
 }

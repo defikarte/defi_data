@@ -3245,6 +3245,7 @@
   "id": "node/9197347058",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-15",
     "defibrillator:location": "all'entrata del parcheggio",
     "emergency": "defibrillator",
     "emergency:phone": "144",
