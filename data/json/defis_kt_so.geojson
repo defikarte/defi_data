@@ -3,6 +3,25 @@
 "features": [
 {
   "type": "Feature",
+  "id": "node/696401870",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Balsthal",
+    "phone": "+41 62 386 76 76",
+    "id": "node/696401870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6887341,
+      47.3098785
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/697250228",
   "properties": {
     "access": "yes",
@@ -5058,8 +5077,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7022475,
-      47.3161884
+      7.7020231,
+      47.316087
     ]
   }
 },

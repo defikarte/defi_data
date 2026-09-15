@@ -165905,25 +165905,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12068757809",
-  "properties": {
-    "defibrillator:location": "zwischen den zwei Toiletten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "website": "defibrillator.ch",
-    "id": "node/12068757809"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7679462,
-      47.3492021
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12073401569",
   "properties": {
     "access": "yes",

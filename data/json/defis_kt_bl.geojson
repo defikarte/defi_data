@@ -379,8 +379,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.718723,
-      47.3913352
+      7.7187043,
+      47.3913655
     ]
   }
 },
@@ -7264,6 +7264,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "website": "defibrillator.ch",
     "id": "node/12068757809"
   },

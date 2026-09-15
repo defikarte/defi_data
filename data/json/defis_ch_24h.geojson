@@ -157,6 +157,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/696401870",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Balsthal",
+    "phone": "+41 62 386 76 76",
+    "id": "node/696401870"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6887341,
+      47.3098785
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/697250228",
   "properties": {
     "access": "yes",
@@ -46055,8 +46074,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.718723,
-      47.3913352
+      7.7187043,
+      47.3913655
     ]
   }
 },
@@ -96564,8 +96583,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7022475,
-      47.3161884
+      7.7020231,
+      47.316087
     ]
   }
 },
@@ -122574,6 +122593,26 @@
     "coordinates": [
       8.5086133,
       47.3291967
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12068757809",
+  "properties": {
+    "defibrillator:location": "zwischen den zwei Toiletten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "website": "defibrillator.ch",
+    "id": "node/12068757809"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7679462,
+      47.3492021
     ]
   }
 },
