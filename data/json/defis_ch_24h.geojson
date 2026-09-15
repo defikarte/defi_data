@@ -3803,30 +3803,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6066626858",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussen an Eingang Apotheke Regio Pharm Zentralplatz (Apotheke / Pharmacie 55 )",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Regio Pharm",
-    "phone": "+41 32 344 10 34",
-    "wheelchair": "no",
-    "id": "node/6066626858"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2462724,
-      47.136491
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6071133387",
   "properties": {
     "access": "yes",
@@ -17031,8 +17007,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6070299,
-      46.9965689
+      8.6069941,
+      46.9965853
     ]
   }
 },
@@ -31165,7 +31141,9 @@
   "id": "node/7721050590",
   "properties": {
     "access": "yes",
+    "addr:city": "Wangs",
     "addr:housenumber": "13",
+    "addr:postcode": "7323",
     "addr:street": "Straubstrasse",
     "defibrillator:location": "Straub Werke: Wand vor Haupteingang",
     "description": "Grüner Kasten",
@@ -31176,7 +31154,6 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG",
     "phone": "+41 800 122 144",
-    "postal_code": "7923",
     "ref": "1503LTS",
     "id": "node/7721050590"
   },
@@ -31538,7 +31515,7 @@
   "id": "node/7721434861",
   "properties": {
     "access": "yes",
-    "addr:city": "Vilters-Wangs",
+    "addr:city": "Wangs",
     "addr:housenumber": "60",
     "addr:postcode": "7323",
     "addr:street": "Vilterserstrasse",
@@ -39824,8 +39801,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1210476,
-      47.2636072
+      9.1210372,
+      47.2636102
     ]
   }
 },
@@ -78814,6 +78791,7 @@
   "id": "node/9907415818",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-14",
     "defibrillator:location": "Camping Gravatscha",
     "description": "Öffentlich zugänglich Sateliten Unterstüzt",
     "emergency": "defibrillator",
@@ -95333,7 +95311,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bei der Reception",
-    "description": "ab 24.00 bis 06.00 Uhr links beim Eingang klingeln (Reception ist durchgehend besetzt) ",
+    "description": "ab 24.00 bis 06.00 Uhr links beim Eingang klingeln (Reception ist durchgehend besetzt)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -130599,6 +130577,7 @@
     "addr:street": "Aegertenstrasse 34",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Fondation Centre ASI - Foyer",
     "phone": "+41 32 344 70 70",
@@ -134733,30 +134712,6 @@
     "coordinates": [
       7.7945993,
       47.5550655
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12600934301",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "OZD",
-    "description": "Betriebsanität 058 460 20 00",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "2",
-    "opening_hours": "24/7",
-    "operator": "Luftwaffe",
-    "phone": "+41796190572",
-    "id": "node/12600934301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6406698,
-      47.4063583
     ]
   }
 },
@@ -143490,7 +143445,7 @@
   "id": "node/13105809951",
   "properties": {
     "access": "yes",
-    "addr:city": "Vilters-Wangs",
+    "addr:city": "Wangs",
     "addr:housenumber": "4",
     "addr:postcode": "7323",
     "addr:street": "Schulhausstrasse",
@@ -153005,6 +152960,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/13691699794",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Gnadenthal",
+    "description": "an der Wand",
+    "email": "sicherheit@reusspark.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Reusspark Zentrum für Pflege und Betreuung",
+    "phone": "+41 56 619 60 88",
+    "id": "node/13691699794"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3023006,
+      47.3932508
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13694770201",
   "properties": {
     "defibrillator:location": "En Pré Neuf ZI 123 D-1814 Villeneuve",
@@ -157421,6 +157401,30 @@
     "coordinates": [
       7.2901111,
       46.180924
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13902748801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hotel Restaurant Chasseral",
+    "email": "info@hotel-chasseral.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hotel Restaurant Chasseral",
+    "phone": "+41 32 751 24 51",
+    "id": "node/13902748801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.045861,
+      47.127079
     ]
   }
 },
@@ -162427,6 +162431,167 @@
     "coordinates": [
       9.1178071,
       47.4150062
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14172846901",
+  "properties": {
+    "defibrillator:location": "Im Fennen 2, Waaghaus Anmeldung",
+    "description": "Über Zentrale verfügbar 055 617 27 40",
+    "email": "r.huber@kva-linth.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "KVA Linth",
+    "phone": "+41 55 617 27 40",
+    "id": "node/14172846901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0407181,
+      47.1350965
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14172852503",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sinserstrasse 116, 6330 Cham",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Clima-Nova AG",
+    "phone": "+41417852585",
+    "id": "node/14172852503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4432314,
+      47.1941083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14174979401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Längenmoosstrasse, 6233 Büron",
+    "description": "Aussenwand WC Gebäude",
+    "email": "meyer.jp@bluewin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung 6233 Büron",
+    "phone": "+41 78 605 05 54",
+    "id": "node/14174979401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0991973,
+      47.2121771
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14175315401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Clubhaus, im Eingangsbereich zu den Garderoben, rechts",
+    "description": "Zutritt rund um die Uhr für Clubmitglieder mit Zutrittscode",
+    "email": "info@tcneufeld.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Tennisclub Neufeld",
+    "id": "node/14175315401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4329855,
+      46.9606075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14175358483",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grüner Metallkasten aussen an der Wand der Drogerie",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14175358483"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2394688,
+      46.8687543
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14180587202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fahrradunterstand",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14180587202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5130081,
+      47.1815013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182811102",
+  "properties": {
+    "defibrillator:location": "Schulhaus Gutenbrunnen",
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Abteilung Liegenschaft Gemeinde Schübelbach",
+    "phone": "+41554505622",
+    "id": "node/14182811102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9389218,
+      47.173462
     ]
   }
 }

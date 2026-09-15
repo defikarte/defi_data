@@ -2570,10 +2570,12 @@
   "id": "node/8842064217",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bau 2 (neueres Gebäude) Eingang rechts",
+    "defibrillator:location": "Bau 2, linker Eingang",
+    "email": "info@bztf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Bildungszentrum für Technik Frauenfeld (BZTF)",
     "phone": "+41583456500",
     "id": "node/8842064217"
@@ -2581,8 +2583,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8915709,
-      47.5567733
+      8.8913807,
+      47.5569345
     ]
   }
 },
@@ -16406,7 +16408,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "2",
-    "opening_hours": "8:00-17:00",
+    "opening_hours": "08:00-17:00",
     "operator": "Praxis",
     "phone": "+41716785078",
     "id": "node/14172782901"
@@ -16416,6 +16418,54 @@
     "coordinates": [
       9.1765312,
       47.6461823
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14172865501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Historisches Museum Arbon 3.OG",
+    "description": "während den Öffnungszeiten",
+    "email": "fsl@arbon.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "Stadt Arbon",
+    "phone": "+41 71 447 14 50",
+    "id": "node/14172865501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4368472,
+      47.5159368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14172885804",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "2.OG bei Schlosspraxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fsl@arbon.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
+    "id": "node/14172885804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4371624,
+      47.5156859
     ]
   }
 }

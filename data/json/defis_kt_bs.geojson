@@ -4654,6 +4654,28 @@
       47.5573131
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14175873001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Klybeckstrasse 610",
+    "description": "Wärend den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Privat",
+    "id": "node/14175873001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5911867,
+      47.5745519
+    ]
+  }
 }
 ]
 }

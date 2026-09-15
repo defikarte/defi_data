@@ -19540,8 +19540,29 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5144104,
-      47.3785878
+      8.5144174,
+      47.3785729
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182734745",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "At entrance",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Careum",
+    "id": "node/14182734745"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5522111,
+      47.374482
     ]
   }
 }

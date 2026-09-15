@@ -3726,8 +3726,10 @@
   "type": "Feature",
   "id": "node/5562466236",
   "properties": {
+    "defibrillator:location": "on the building corner, facing the street",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/5562466236"
   },
   "geometry": {
@@ -54698,10 +54700,12 @@
   "id": "node/8842064217",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bau 2 (neueres Gebäude) Eingang rechts",
+    "defibrillator:location": "Bau 2, linker Eingang",
+    "email": "info@bztf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Bildungszentrum für Technik Frauenfeld (BZTF)",
     "phone": "+41583456500",
     "id": "node/8842064217"
@@ -54709,8 +54713,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8915709,
-      47.5567733
+      8.8913807,
+      47.5569345
     ]
   }
 },
@@ -68319,16 +68323,23 @@
   "type": "Feature",
   "id": "node/9275149960",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "im Gang in Richtung Schulzimmer",
+    "email": "maienfeld@ibw.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "ibW Höhere Fachschule Südostschweiz",
+    "phone": "+41 81 403 33 33",
     "id": "node/9275149960"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5405529,
-      47.0175188
+      9.5405528,
+      47.0175189
     ]
   }
 },
@@ -128786,8 +128797,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4773053,
-      47.0802289
+      9.4795617,
+      47.0719607
     ]
   }
 },
@@ -132052,13 +132063,13 @@
   "type": "Feature",
   "id": "node/10898895005",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Hof Oberkirch 5, neben Eingang",
+    "access": "permissive",
+    "defibrillator:location": "im Foyer (Eingangsbereich, rechts an Wand) der Kirche EGHO",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "opening_hours": "Mo-Su 07:00-19:00",
     "operator": "Christliche Schule Linth",
     "phone": "+41 55 293 37 03",
     "source": "local_knowledge, defikarte.ch",
@@ -132067,8 +132078,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0124369,
-      47.2195863
+      9.0116705,
+      47.2190717
     ]
   }
 },
@@ -174302,7 +174313,7 @@
   "id": "node/12357862501",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Kaufmännischer Verband, EG Aufenthaltsraum ",
+    "defibrillator:location": "Kaufmännischer Verband, EG Aufenthaltsraum",
     "description": "Während Schulöffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -180112,6 +180123,30 @@
     "coordinates": [
       8.671174,
       47.2298198
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12600934301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "OZD",
+    "description": "Betriebsanität 058 460 20 00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "06:00 - 17:00",
+    "operator": "Luftwaffe",
+    "phone": "+41796190572",
+    "id": "node/12600934301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6406693,
+      47.406358
     ]
   }
 },
@@ -207202,22 +207237,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13691699794",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/13691699794"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3023012,
-      47.3932501
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13695011701",
   "properties": {
     "access": "permissive",
@@ -211434,24 +211453,6 @@
     "coordinates": [
       9.3424616,
       47.4124417
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13902748801",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Restaurant Hotel Chasseral",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/13902748801"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0459034,
-      47.1271173
     ]
   }
 },
@@ -218054,7 +218055,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Bitzer Sanitär AG",
-    "opening_hours": "Mo-Fr 7.30 – 12.00 Mo-Do 13.00 – 17.00 Freitag bis 16.00",
+    "opening_hours": "Mo-Fr 07:30-12:00, Mo-Th 13:00-17:00, Fr 13:00-16:00",
     "operator": "Lifetec Ag",
     "phone": "0800122144",
     "ref": "1185LTM",
@@ -218833,6 +218834,7 @@
   "id": "node/14140603770",
   "properties": {
     "emergency": "defibrillator",
+    "indoor": "yes",
     "id": "node/14140603770"
   },
   "geometry": {
@@ -220045,8 +220047,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5144104,
-      47.3785878
+      8.5144174,
+      47.3785729
     ]
   }
 },
@@ -220167,7 +220169,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "2",
-    "opening_hours": "8:00-17:00",
+    "opening_hours": "08:00-17:00",
     "operator": "Praxis",
     "phone": "+41716785078",
     "id": "node/14172782901"
@@ -220177,6 +220179,378 @@
     "coordinates": [
       9.1765312,
       47.6461823
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14172865501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Historisches Museum Arbon 3.OG",
+    "description": "während den Öffnungszeiten",
+    "email": "fsl@arbon.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "operator": "Stadt Arbon",
+    "phone": "+41 71 447 14 50",
+    "id": "node/14172865501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4368472,
+      47.5159368
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14172885804",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "2.OG bei Schlosspraxis",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "fsl@arbon.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "Stadt Arbon - FSL",
+    "phone": "+41 71 447 14 50",
+    "id": "node/14172885804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4371624,
+      47.5156859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14175177801",
+  "properties": {
+    "defibrillator:location": "Migros Kundenservice",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00 - 19:00",
+    "id": "node/14175177801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5544043,
+      47.5097141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14175873001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Klybeckstrasse 610",
+    "description": "Wärend den Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Privat",
+    "id": "node/14175873001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5911867,
+      47.5745519
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14180315101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Beim Personaleingang",
+    "description": "Während Öffnungszeiten Verfügbar. Evtl. Rechts Via Werkstatt Personal Fragen",
+    "email": "info.hoelstein@elosmedtech.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00 - 16:00",
+    "operator": "ELOS / Firma",
+    "phone": "+41 61 956 92 22",
+    "id": "node/14180315101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.769836,
+      47.4233217
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14180963701",
+  "properties": {
+    "defibrillator:location": "Gartencenter Hoffmann AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "operator": "Firma Gartencenter Hoffmann AG",
+    "phone": "+41 44 752 31 31",
+    "id": "node/14180963701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4487254,
+      47.4123982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14181018701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "défibrillateur public",
+    "emergency": "defibrillator",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/gS4PJwaQwVxDIz58MlfELw.webp",
+    "image:license": "CC0",
+    "indoor": "no",
+    "id": "node/14181018701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.2895664,
+      46.4188181
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182484202",
+  "properties": {
+    "defibrillator:location": "Route de l'Eglise 2",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14182484202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0707723,
+      46.8331702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182486401",
+  "properties": {
+    "defibrillator:location": "Bâtiment de l'Edilité",
+    "description": "Bâtiment de l'Edilité",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14182486401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0622159,
+      46.8347223
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182734745",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "At entrance",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Careum",
+    "id": "node/14182734745"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5522111,
+      47.374482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182998201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gewerbehaus Grüfa",
+    "description": "24 Stunden verfügbar",
+    "email": "inforichterswil@espas.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Stiftung ESPAS",
+    "phone": "+41 44 786 72 72",
+    "id": "node/14182998201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6987259,
+      47.2152844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183029212",
+  "properties": {
+    "defibrillator:location": "Nach Eingangstüre 1. Treppenabsatz hoch",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14183029212"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4175243,
+      46.94705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183097201",
+  "properties": {
+    "defibrillator:location": "Migros neben Kundendienst rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "id": "node/14183097201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5964133,
+      47.4086783
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183254501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Vorraum von Kirchraum zugänglich",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14183254501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6337458,
+      46.7818168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183256301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "zwischen Toilette und kleinem Saal",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14183256301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6324369,
+      46.7815257
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183258922",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbereich UG",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14183258922"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6202777,
+      46.766861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183260223",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Foyer bei Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14183260223"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6345878,
+      46.7734119
     ]
   }
 }

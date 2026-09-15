@@ -8596,6 +8596,43 @@
       46.8041111
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14182484202",
+  "properties": {
+    "defibrillator:location": "Route de l'Eglise 2",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14182484202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0707723,
+      46.8331702
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182486401",
+  "properties": {
+    "defibrillator:location": "Bâtiment de l'Edilité",
+    "description": "Bâtiment de l'Edilité",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14182486401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0622159,
+      46.8347223
+    ]
+  }
 }
 ]
 }

@@ -1405,8 +1405,10 @@
   "type": "Feature",
   "id": "node/5562466236",
   "properties": {
+    "defibrillator:location": "on the building corner, facing the street",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/5562466236"
   },
   "geometry": {
@@ -7252,6 +7254,7 @@
   "id": "node/14140603770",
   "properties": {
     "emergency": "defibrillator",
+    "indoor": "yes",
     "id": "node/14140603770"
   },
   "geometry": {

@@ -17711,7 +17711,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bei der Reception",
-    "description": "ab 24.00 bis 06.00 Uhr links beim Eingang klingeln (Reception ist durchgehend besetzt) ",
+    "description": "ab 24.00 bis 06.00 Uhr links beim Eingang klingeln (Reception ist durchgehend besetzt)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -20946,7 +20946,7 @@
   "id": "node/12357862501",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Kaufmännischer Verband, EG Aufenthaltsraum ",
+    "defibrillator:location": "Kaufmännischer Verband, EG Aufenthaltsraum",
     "description": "Während Schulöffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -24608,6 +24608,31 @@
     "coordinates": [
       8.2949791,
       47.0391364
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14174979401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Längenmoosstrasse, 6233 Büron",
+    "description": "Aussenwand WC Gebäude",
+    "email": "meyer.jp@bluewin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung 6233 Büron",
+    "phone": "+41 78 605 05 54",
+    "id": "node/14174979401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0991973,
+      47.2121771
     ]
   }
 }

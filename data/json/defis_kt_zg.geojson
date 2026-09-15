@@ -10041,6 +10041,53 @@
       47.202162
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14172852503",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sinserstrasse 116, 6330 Cham",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Clima-Nova AG",
+    "phone": "+41417852585",
+    "id": "node/14172852503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4432314,
+      47.1941083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14180587202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fahrradunterstand",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14180587202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5130081,
+      47.1815013
+    ]
+  }
 }
 ]
 }

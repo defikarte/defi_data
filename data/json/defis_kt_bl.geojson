@@ -10592,6 +10592,50 @@
       47.4997262
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14175177801",
+  "properties": {
+    "defibrillator:location": "Migros Kundenservice",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:00 - 19:00",
+    "id": "node/14175177801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5544043,
+      47.5097141
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14180315101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Beim Personaleingang",
+    "description": "Während Öffnungszeiten Verfügbar. Evtl. Rechts Via Werkstatt Personal Fragen",
+    "email": "info.hoelstein@elosmedtech.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "08:00 - 16:00",
+    "operator": "ELOS / Firma",
+    "phone": "+41 61 956 92 22",
+    "id": "node/14180315101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.769836,
+      47.4233217
+    ]
+  }
 }
 ]
 }

@@ -1784,7 +1784,9 @@
   "id": "node/7721050590",
   "properties": {
     "access": "yes",
+    "addr:city": "Wangs",
     "addr:housenumber": "13",
+    "addr:postcode": "7323",
     "addr:street": "Straubstrasse",
     "defibrillator:location": "Straub Werke: Wand vor Haupteingang",
     "description": "Grüner Kasten",
@@ -1795,7 +1797,6 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG",
     "phone": "+41 800 122 144",
-    "postal_code": "7923",
     "ref": "1503LTS",
     "id": "node/7721050590"
   },
@@ -2447,7 +2448,7 @@
   "id": "node/7721434861",
   "properties": {
     "access": "yes",
-    "addr:city": "Vilters-Wangs",
+    "addr:city": "Wangs",
     "addr:housenumber": "60",
     "addr:postcode": "7323",
     "addr:street": "Vilterserstrasse",
@@ -6662,8 +6663,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1210476,
-      47.2636072
+      9.1210372,
+      47.2636102
     ]
   }
 },
@@ -18806,8 +18807,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4773053,
-      47.0802289
+      9.4795617,
+      47.0719607
     ]
   }
 },
@@ -19984,13 +19985,13 @@
   "type": "Feature",
   "id": "node/10898895005",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus Hof Oberkirch 5, neben Eingang",
+    "access": "permissive",
+    "defibrillator:location": "im Foyer (Eingangsbereich, rechts an Wand) der Kirche EGHO",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "opening_hours": "Mo-Su 07:00-19:00",
     "operator": "Christliche Schule Linth",
     "phone": "+41 55 293 37 03",
     "source": "local_knowledge, defikarte.ch",
@@ -19999,8 +20000,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0124369,
-      47.2195863
+      9.0116705,
+      47.2190717
     ]
   }
 },
@@ -28006,7 +28007,7 @@
   "id": "node/13105809951",
   "properties": {
     "access": "yes",
-    "addr:city": "Vilters-Wangs",
+    "addr:city": "Wangs",
     "addr:housenumber": "4",
     "addr:postcode": "7323",
     "addr:street": "Schulhausstrasse",

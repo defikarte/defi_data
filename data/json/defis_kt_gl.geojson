@@ -1982,6 +1982,30 @@
       47.1498241
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14172846901",
+  "properties": {
+    "defibrillator:location": "Im Fennen 2, Waaghaus Anmeldung",
+    "description": "Über Zentrale verfügbar 055 617 27 40",
+    "email": "r.huber@kva-linth.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "KVA Linth",
+    "phone": "+41 55 617 27 40",
+    "id": "node/14172846901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0407181,
+      47.1350965
+    ]
+  }
 }
 ]
 }

@@ -30311,15 +30311,24 @@
   "type": "Feature",
   "id": "node/13691699794",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Gnadenthal",
+    "description": "an der Wand",
+    "email": "sicherheit@reusspark.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Reusspark Zentrum für Pflege und Betreuung",
+    "phone": "+41 56 619 60 88",
     "id": "node/13691699794"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3023012,
-      47.3932501
+      8.3023006,
+      47.3932508
     ]
   }
 },

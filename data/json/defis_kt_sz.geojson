@@ -1921,8 +1921,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6070299,
-      46.9965689
+      8.6069941,
+      46.9965853
     ]
   }
 },
@@ -9076,6 +9076,28 @@
     "coordinates": [
       8.7720294,
       47.1118476
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182811102",
+  "properties": {
+    "defibrillator:location": "Schulhaus Gutenbrunnen",
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Abteilung Liegenschaft Gemeinde Schübelbach",
+    "phone": "+41554505622",
+    "id": "node/14182811102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9389218,
+      47.173462
     ]
   }
 }

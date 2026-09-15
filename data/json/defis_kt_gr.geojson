@@ -4812,16 +4812,23 @@
   "type": "Feature",
   "id": "node/9275149960",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "im Gang in Richtung Schulzimmer",
+    "email": "maienfeld@ibw.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "ibW Höhere Fachschule Südostschweiz",
+    "phone": "+41 81 403 33 33",
     "id": "node/9275149960"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5405529,
-      47.0175188
+      9.5405528,
+      47.0175189
     ]
   }
 },
@@ -6778,6 +6785,7 @@
   "id": "node/9907415818",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-14",
     "defibrillator:location": "Camping Gravatscha",
     "description": "Öffentlich zugänglich Sateliten Unterstüzt",
     "emergency": "defibrillator",

@@ -15011,6 +15011,26 @@
       46.2515596
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14181018701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "défibrillateur public",
+    "emergency": "defibrillator",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/gS4PJwaQwVxDIz58MlfELw.webp",
+    "image:license": "CC0",
+    "indoor": "no",
+    "id": "node/14181018701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.2895664,
+      46.4188181
+    ]
+  }
 }
 ]
 }

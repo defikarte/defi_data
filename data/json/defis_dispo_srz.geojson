@@ -3366,8 +3366,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6070299,
-      46.9965689
+      8.6069941,
+      46.9965853
     ]
   }
 },
@@ -85447,7 +85447,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "24/7",
+    "opening_hours": "06:00 - 17:00",
     "operator": "Luftwaffe",
     "phone": "+41796190572",
     "id": "node/12600934301"
@@ -85455,8 +85455,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6406698,
-      47.4063583
+      8.6406693,
+      47.406358
     ]
   }
 },
@@ -103685,7 +103685,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Bitzer Sanitär AG",
-    "opening_hours": "Mo-Fr 7.30 – 12.00 Mo-Do 13.00 – 17.00 Freitag bis 16.00",
+    "opening_hours": "Mo-Fr 07:30-12:00, Mo-Th 13:00-17:00, Fr 13:00-16:00",
     "operator": "Lifetec Ag",
     "phone": "0800122144",
     "ref": "1185LTM",
@@ -104830,8 +104830,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5144104,
-      47.3785878
+      8.5144174,
+      47.3785729
     ]
   }
 },
@@ -104855,6 +104855,163 @@
     "coordinates": [
       8.525117,
       47.202162
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14172852503",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sinserstrasse 116, 6330 Cham",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Clima-Nova AG",
+    "phone": "+41417852585",
+    "id": "node/14172852503"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4432314,
+      47.1941083
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14180587202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fahrradunterstand",
+    "email": "sicherheit@stadtzug.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14180587202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5130081,
+      47.1815013
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14180963701",
+  "properties": {
+    "defibrillator:location": "Gartencenter Hoffmann AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-18:00",
+    "operator": "Firma Gartencenter Hoffmann AG",
+    "phone": "+41 44 752 31 31",
+    "id": "node/14180963701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4487254,
+      47.4123982
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182734745",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "At entrance",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:30",
+    "operator": "Careum",
+    "id": "node/14182734745"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5522111,
+      47.374482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182811102",
+  "properties": {
+    "defibrillator:location": "Schulhaus Gutenbrunnen",
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Abteilung Liegenschaft Gemeinde Schübelbach",
+    "phone": "+41554505622",
+    "id": "node/14182811102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9389218,
+      47.173462
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14182998201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gewerbehaus Grüfa",
+    "description": "24 Stunden verfügbar",
+    "email": "inforichterswil@espas.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Stiftung ESPAS",
+    "phone": "+41 44 786 72 72",
+    "id": "node/14182998201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6987259,
+      47.2152844
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183097201",
+  "properties": {
+    "defibrillator:location": "Migros neben Kundendienst rechts",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "id": "node/14183097201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5964133,
+      47.4086783
     ]
   }
 }

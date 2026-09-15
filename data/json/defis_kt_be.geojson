@@ -2271,30 +2271,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6066626858",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussen an Eingang Apotheke Regio Pharm Zentralplatz (Apotheke / Pharmacie 55 )",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Regio Pharm",
-    "phone": "+41 32 344 10 34",
-    "wheelchair": "no",
-    "id": "node/6066626858"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.2462724,
-      47.136491
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6082068638",
   "properties": {
     "access": "yes",
@@ -56423,6 +56399,7 @@
     "addr:street": "Aegertenstrasse 34",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Fondation Centre ASI - Foyer",
     "phone": "+41 32 344 70 70",
@@ -64102,16 +64079,22 @@
   "id": "node/13902748801",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Restaurant Hotel Chasseral",
+    "defibrillator:location": "Hotel Restaurant Chasseral",
+    "email": "info@hotel-chasseral.ch",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hotel Restaurant Chasseral",
+    "phone": "+41 32 751 24 51",
     "id": "node/13902748801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0459034,
-      47.1271173
+      7.045861,
+      47.127079
     ]
   }
 },
@@ -65825,6 +65808,143 @@
     "coordinates": [
       7.2383013,
       46.9710639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14175315401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Clubhaus, im Eingangsbereich zu den Garderoben, rechts",
+    "description": "Zutritt rund um die Uhr für Clubmitglieder mit Zutrittscode",
+    "email": "info@tcneufeld.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Tennisclub Neufeld",
+    "id": "node/14175315401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4329855,
+      46.9606075
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183029212",
+  "properties": {
+    "defibrillator:location": "Nach Eingangstüre 1. Treppenabsatz hoch",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14183029212"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4175243,
+      46.94705
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183254501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Vorraum von Kirchraum zugänglich",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14183254501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6337458,
+      46.7818168
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183256301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "zwischen Toilette und kleinem Saal",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14183256301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6324369,
+      46.7815257
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183258922",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbereich UG",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14183258922"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6202777,
+      46.766861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14183260223",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Foyer bei Garderobe",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@refsteffisburg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Reformierte Kirchgemeinde Steffisburg",
+    "phone": "+41 33 439 80 20",
+    "id": "node/14183260223"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6345878,
+      46.7734119
     ]
   }
 }
