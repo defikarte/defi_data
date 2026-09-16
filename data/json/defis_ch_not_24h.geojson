@@ -30737,30 +30737,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819092",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Valiant Kassenraum",
-    "description": "Kassenraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "name": "Valiant Bank",
-    "opening_hours": "Mo-Su 06:00-24:00",
-    "operator": "Valiant-Bank",
-    "id": "node/7637819092"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9899412,
-      47.2128375
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819094",
   "properties": {
     "access": "permissive",
@@ -99129,25 +99105,6 @@
     "coordinates": [
       7.8166727,
       47.4622813
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10177717417",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Fussballplatz San Gian, am Gebäude Richtung Fussballplatz",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10177717417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8724228,
-      46.5138544
     ]
   }
 },
@@ -178120,6 +178077,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-18:00; Sa 09:00-13:00",
     "operator": "Lifetec AG",
     "phone:CH": "0800 122 144",
     "ref": "1528LTM",
@@ -199056,32 +199014,6 @@
     "coordinates": [
       8.5427048,
       47.4109105
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13350895945",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Aarau",
-    "addr:housenumber": "30",
-    "addr:postcode": "5001",
-    "addr:street": "Rohrerstrasse",
-    "defibrillator:location": "Vor Eingang",
-    "description": "Grünerkasten",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Lifetec AG",
-    "ref": "0028LTC Outdoor",
-    "id": "node/13350895945"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0586918,
-      47.3948276
     ]
   }
 },

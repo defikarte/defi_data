@@ -29119,6 +29119,7 @@
     "emergency": "defibrillator",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Lifetec AG",
     "ref": "0028LTC Outdoor",
     "id": "node/13350895945"

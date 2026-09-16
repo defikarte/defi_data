@@ -7458,25 +7458,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10177717417",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Fussballplatz San Gian, am Gebäude Richtung Fussballplatz",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10177717417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8724228,
-      46.5138544
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10182349757",
   "properties": {
     "access": "yes",

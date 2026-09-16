@@ -11755,14 +11755,14 @@
   "id": "node/7637819092",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Valiant Kassenraum",
-    "description": "Kassenraum",
+    "defibrillator:location": "Valiant Bank",
+    "description": "Rechts neben der Eingangstür zum Schalterraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "name": "Valiant Bank",
-    "opening_hours": "Mo-Su 06:00-24:00",
+    "opening_hours": "24/7",
     "operator": "Valiant-Bank",
     "id": "node/7637819092"
   },

@@ -28943,6 +28943,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637819092",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Valiant Bank",
+    "description": "Rechts neben der Eingangstür zum Schalterraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Valiant Bank",
+    "opening_hours": "24/7",
+    "operator": "Valiant-Bank",
+    "id": "node/7637819092"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9899412,
+      47.2128375
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637819095",
   "properties": {
     "access": "yes",
@@ -147841,6 +147865,33 @@
     "coordinates": [
       8.8492672,
       46.1695283
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13350895945",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Aarau",
+    "addr:housenumber": "30",
+    "addr:postcode": "5001",
+    "addr:street": "Rohrerstrasse",
+    "defibrillator:location": "Vor Eingang",
+    "description": "Grünerkasten",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "ref": "0028LTC Outdoor",
+    "id": "node/13350895945"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0586918,
+      47.3948276
     ]
   }
 },
