@@ -127175,8 +127175,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0532997,
-      47.3366501
+      8.0531874,
+      47.3366221
     ]
   }
 },
@@ -220464,6 +220464,25 @@
     "coordinates": [
       7.6345878,
       46.7734119
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14184929102",
+  "properties": {
+    "defibrillator:location": "Reception",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14184929102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8655066,
+      47.5829691
     ]
   }
 }

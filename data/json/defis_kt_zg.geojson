@@ -10047,7 +10047,7 @@
   "id": "node/14172852503",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sinserstrasse 116, 6330 Cham",
+    "defibrillator:location": "Beim Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -10060,7 +10060,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4432314,
+      8.4432315,
       47.1941083
     ]
   }
