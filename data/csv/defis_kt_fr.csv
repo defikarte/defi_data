@@ -401,3 +401,5 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14162694601,node,46.8044701,7.1498013,permissive,,,,,,,,,Piscine de Jolimont porte d'entrée +malette de 1er secours à disposition,,Selon présence scolaire ou club,chst@ville-fr.ch,defibrillator,144,,,node/14162694601,yes,,,0,,,,,,Ville de Fribourg,,,+41 26 351 70 14,,,,,,
 14162699102,node,46.8041182,7.1486872,private,,,,,,,,,Porte d'entrée du CO deJjolimont à droite,,Selon les horaires de l'école,chst@ville-fr.ch,defibrillator,144,,,node/14162699102,yes,,,0,,,,,,Ville de Fribourg,,,+41 26 351 70 14,,,,,,
 14162701901,node,46.8041111,7.1492665,private,,,,,,,,,Entrée des salles de gym et salle de spétacle,,Selon les horaires scolaire ou location de la salle,chst@ville-fr.ch,defibrillator,144,,,node/14162701901,yes,,,-1,,,,,,Ville de Fribourg,,,+41 26 351 70 14,,,,,,
+14182484202,node,46.8331702,7.0707723,,,,,,,,,,Route de l'Eglise 2,,,,defibrillator,144,,,node/14182484202,no,,,,,,,,,,,,,,,,,,
+14182486401,node,46.8347223,7.0622159,,,,,,,,,,Bâtiment de l'Edilité,,Bâtiment de l'Edilité,,defibrillator,144,,,node/14182486401,no,,,,,,,,,,,,,,,,,,

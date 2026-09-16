@@ -87,7 +87,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 6976938418,node,46.9864052,8.7141906,yes,,,,,,,,Schulhaus,,,defibrillator,144,node/6976938418,,,,,,24/7,Samariterverein Muotathal,,+41 41 830 24 28,,,
 6976938419,node,47.0156166,8.6481037,yes,,,,,,,,"Mythen Center Aussenbereich, Eingang Schmiedgasse",,,defibrillator,144,node/6976938419,,no,,,,24/7,Keller Apotheke,,+41 58 800 20 20,,,
 6976938420,node,47.0453865,8.5489517,yes,,,,,2024-03-10,,,"Spitex Regio Arth-Goldau - Rechte Seite des Gebäudes, montiert an der Wand unter dem Balkon",,,defibrillator,144,node/6976938420,,,0,,,24/7,Spitex Regio Arth-Goldau,,+41 41 859 14 00,,,
-6976938421,node,46.9965689,8.6070299,yes,,,,,,,,Schwyzer Kantonalbank,,,defibrillator,144,node/6976938421,,no,,,,24/7,Gemeinde Ingenbohl,,+41 58 800 20 20,,,
+6976938421,node,46.9965853,8.6069941,yes,,,,,,,,Schwyzer Kantonalbank,,,defibrillator,144,node/6976938421,,no,,,,24/7,Gemeinde Ingenbohl,,+41 58 800 20 20,,,
 6976938422,node,47.1049058,8.6769322,yes,,,,,,,,Gemeindeverwaltung,,,defibrillator,144,node/6976938422,,no,,,,24/7,Gemeindeverwaltung Rothenthurm,,+41 41 839 80 20,,,
 6976938423,node,47.0314567,8.6444616,yes,,,,,,,,"Verkehrsamt Schwyz, Haupteingang links",,,defibrillator,144,node/6976938423,,,,,,24/7,Baudepartement des Kt. Schwyz,,+41 41 819 25 26,,,
 6976938424,node,47.0674736,8.6499062,yes,,,,,,,,Bergstation Mostelberg,,,defibrillator,144,node/6976938424,,,,,,24/7,Sattel-Hochstuckli AG,,+41 41 836 80 80,,,
@@ -413,3 +413,4 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14155448801,node,47.1127253,8.77839,yes,,,,,,,,Bei Postautohaltstelle Grossbach,,info@einwohnerverein-gross.ch,defibrillator,144,node/14155448801,,no,,,,24/7,Einwohnerverein Gross mitänand,,,,,
 14155451601,node,47.1197045,8.7751626,,,,,,,,,Bei Postautohaltstelle Nügüetli,,info@einwohnerverein-gross.ch,defibrillator,144,node/14155451601,,no,,,,24/7,Einwohnerverein Gross mitänand,,,,,
 14155456501,node,47.1118476,8.7720294,,,,,,,,,An der Musikbaracke,Bei der Verzweigung Grossbachweg / Boden,info@einwohnerverein-gross.ch,defibrillator,144,node/14155456501,,no,,,,24/7,Einwohnerverein Gross mitänand,,,,,
+14182811102,node,47.173462,8.9389218,,,,,,,,,Schulhaus Gutenbrunnen,Haupteingang,,defibrillator,144,node/14182811102,,no,,,,24/7,Abteilung Liegenschaft Gemeinde Schübelbach,,+41554505622,,,

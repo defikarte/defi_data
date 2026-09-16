@@ -1,4 +1,5 @@
 osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:postcode,addr:street,amenity,check_date,contact:email,contact:phone,contact:website,covered,defibrillator:location,description,description:de,description:en,email,emergency,emergency:phone,fixme,id,indoor,latitude,level,location,longitude,name,opening_hours,operator,operator:type,outdoor,phone,ref,source,website,wheelchair
+696401870,node,47.3098785,7.6887341,yes,,,,,,,,,,,,,,,,,defibrillator,,,node/696401870,,,,,,,24/7,Einwohnergemeinde Balsthal,,,+41 62 386 76 76,,,,
 697250228,node,47.1611969,7.5081349,yes,,,,,,,,,,,,An Wand seitlich vom Eingang,,,,,defibrillator,144,,node/697250228,,,,,,,24/7,,,,,,survey,,yes
 4171975608,node,47.266444,7.541752,yes,,,,,,,,,,,,,,,,,defibrillator,144,,node/4171975608,,,0,,,,24/7,Seilpark Balmberg,,,+41 32 637 14 14,,,https://seilpark-balmberg.ch,
 4745088306,node,47.181591,7.5565291,yes,,,,,,,,,,,,Verwaltungsgebäude Einwohnergemeinde,,,,,defibrillator,144,,node/4745088306,no,,,,,,24/7,Einwohnergemeinde,,,+41 32 671 12 12,,,,
@@ -236,7 +237,7 @@ Signalisiert","Restaurant (Nachteingang Terrasse)
 Signalisiert",,,,defibrillator,144,,node/10790840306,no,,,,,,24/7,"Stadt Grenchen, Polizeiinspektorat",,,,,"local_knowledge, defikarte.ch",,
 10814932605,node,47.3359945,7.9468081,yes,,,,,,,,,,,,An Fassade,,,,,defibrillator,144,,node/10814932605,no,,,,,,24/7,Einwohnergemeinde Dulliken,,,,,,,
 10814933405,node,47.350094,7.9440902,yes,,,,,,,,,,,,rechts neben Eingang,,,,,defibrillator,144,,node/10814933405,no,,,,,,24/7,Einwohnergemeinde Dulliken,,,+41622855757,,,,
-10822632605,node,47.3161884,7.7022475,yes,,,,,,,,,,,,Garage Falkenstein,Bei der Tankstelle,,,,defibrillator,144,,node/10822632605,no,,,,,,24/7,Gemeine Balsthal/Garage Falkenstein,,,+41623913444,,"local_knowledge, defikarte.ch",,
+10822632605,node,47.316087,7.7020231,yes,,,,,,,,,,,,Garage Falkenstein,Bei der Tankstelle,,,,defibrillator,144,,node/10822632605,no,,,,,,24/7,Gemeine Balsthal/Garage Falkenstein,,,+41623913444,,"local_knowledge, defikarte.ch",,
 10831372005,node,47.2082716,7.5402872,yes,,,,,,,,,,,,Werkhof Solothurn Garage,24h zugänglich,,,,defibrillator,144,,node/10831372005,no,,,,,,,,,,,,,,
 10839145805,node,47.2052036,7.5362509,yes,,,,,,,,,,,,"Unterer Winkel 1, 4500 Solothurn","Während Öffnungszeiten verfügbar. Befindet sich in der Eingangshalle, neben dem Lift. Die Eingangstüre lässt ich über den Türöffnerknopf öffnen.",,,,defibrillator,144,,node/10839145805,yes,,,,,,Mo-Fr 07:30-17:30,Bürgergemeinde Solothurn,,,+41 32 622 62 21,,"local_knowledge, defikarte.ch",,
 10840209917,node,47.4893091,7.6106023,yes,,,,,,,,,,,,vor Eingang Apotheke,,,,,defibrillator,144,,node/10840209917,no,,0,,,,,,,,,,,,

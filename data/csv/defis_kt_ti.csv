@@ -73,7 +73,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 5074133017,node,46.2594277,8.8380043,,,,,,,,An der Außenwand,,,,,defibrillator,144,,node/5074133017,,yes,,,,,,,,,,,
 5165146502,node,46.3077345,8.5459473,,,,,,,,On the building exterior wall,,,,,defibrillator,144,,node/5165146502,,no,,,,,,,,,,,
 5193587098,node,46.3397326,8.8025666,yes,,,,,,,,,,,,defibrillator,144,,node/5193587098,,,,,,,,,,,,,
-5562466236,node,46.1537938,8.7687732,,,,,,,,,,,,,defibrillator,144,,node/5562466236,,,,,,,,,,,,,
+5562466236,node,46.1537938,8.7687732,,,,,,,,"on the building corner, facing the street",,,,,defibrillator,144,,node/5562466236,,no,,,,,,,,,,,
 5812071447,node,46.1492479,8.9521133,yes,,,,,,,An der Kreuzung,,,,,defibrillator,144,,node/5812071447,,,,,,,24/7,,,,,,
 5813154990,node,46.2043343,8.6090775,,,,,,,,,,,,,defibrillator,144,,node/5813154990,,,,,,,,,,,,,
 6159959285,node,46.281189,9.0040582,yes,,,,,,,Sede patriziale,,,,,defibrillator,144,,node/6159959285,,no,,,,,,,,,,,
@@ -169,7 +169,7 @@ en: Please survey on site. Location looks unreasonable on aerial imagenery.",nod
 9165152374,node,46.1100634,8.7728693,,,,,,,,,,,,,defibrillator,144,,node/9165152374,,,,,,,,,,,,,
 9177157832,node,46.1068814,8.7654691,,,,,,,,,,,,,defibrillator,144,,node/9177157832,,,,,,,,,,,,,
 9177738540,node,46.1177753,8.7087468,yes,,,,,,,,,,,,defibrillator,144,,node/9177738540,,no,,,,,24/7,SUSPI,,,,,
-9197347058,node,45.977248,8.8761521,yes,,,,,,,all'entrata del parcheggio,,,,,defibrillator,144,,node/9197347058,,no,,,,,24/7,,,,,,limited
+9197347058,node,45.977248,8.8761521,yes,,,,,2026-09-15,,all'entrata del parcheggio,,,,,defibrillator,144,,node/9197347058,,no,,,,,24/7,,,,,,limited
 9241286617,node,46.1650929,8.8044208,yes,,,,,,,Hafen Locarno,,,Grüner Schrank beim Hafenmeister,,defibrillator,144,,node/9241286617,,no,,,,,08:00-18:00,Hafen Locarno,+41 91 752 30 40,,,,
 9317853521,node,46.1406743,8.9163228,,,,,,,,In der Krankenabteilung,,,"Während Öffnungszeiten, zum Teil auch ausserhalb Öffnungszeiten über die Tel.-Nummer erreichbar",,defibrillator,144,,node/9317853521,,yes,,,,,Mo-Fr 08:00-16:00,Krankenabteilung Monte Ceneri (Militär),+41584698050,,,,
 9370114417,node,46.1355365,8.8249953,yes,,,,,,,kleines Häuschen,,,,,defibrillator,144,,node/9370114417,,no,,,,,24/7,,,,,,
@@ -362,4 +362,4 @@ en: Please survey on site. Location looks unreasonable on aerial imagenery.",nod
 14102511702,node,46.0078989,8.9504322,yes,,,,,,,SWICA Agentur Lugano - Treppenhaus/Eingang,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102511702,,yes,0,,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,
 14102571101,node,46.1939566,9.027247,private,,,,,,,SWICA Standort Bellinzona - Foyer Scale,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102571101,,yes,0,,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,
 14102606801,node,46.1691246,8.800738,yes,,,,,,,SWICA Agentur Locarno - Corridoio,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102606801,,yes,0,,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,
-14140603770,node,46.1327691,8.7358437,,,,,,,,,,,,,defibrillator,,,node/14140603770,,,,,,,,,,,,,
+14140603770,node,46.1327691,8.7358437,,,,,,,,,,,,,defibrillator,,,node/14140603770,,yes,,,,,,,,,,,
