@@ -185759,11 +185759,12 @@
   "type": "Feature",
   "id": "node/12806876101",
   "properties": {
-    "defibrillator:location": "Feuerwehr birwinken",
+    "access": "no",
+    "defibrillator:location": "Feuerwehr Birwinken",
     "description": "Öffentlich, 24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "operator": "Gemeinde",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12806876101"
@@ -220483,6 +220484,71 @@
     "coordinates": [
       8.8655066,
       47.5829691
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14188812903",
+  "properties": {
+    "defibrillator:location": "Am Empfang",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "7:30-17:00",
+    "operator": "Frepa AG",
+    "id": "node/14188812903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2934604,
+      47.064928
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14188822901",
+  "properties": {
+    "defibrillator:location": "Südstrasse 8",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Privatperson",
+    "id": "node/14188822901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2934108,
+      47.0649659
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14188869001",
+  "properties": {
+    "defibrillator:location": "Arztpraxis Therapie auf Augenhöhe",
+    "description": "Direkt im Eingangsbereich von der Praxis an der grauen Säule. Defibrillator kann auf Kind umgeschaltet werden.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "7:30-17:30",
+    "operator": "Therapie auf Augenhöhe GmbH",
+    "phone": "+41794000704",
+    "id": "node/14188869001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5115508,
+      47.38386
     ]
   }
 }

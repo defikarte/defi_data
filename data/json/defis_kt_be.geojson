@@ -65948,6 +65948,48 @@
       46.7734119
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14188812903",
+  "properties": {
+    "defibrillator:location": "Am Empfang",
+    "description": "Während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "7:30-17:00",
+    "operator": "Frepa AG",
+    "id": "node/14188812903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2934604,
+      47.064928
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14188822901",
+  "properties": {
+    "defibrillator:location": "Südstrasse 8",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Privatperson",
+    "id": "node/14188822901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2934108,
+      47.0649659
+    ]
+  }
 }
 ]
 }

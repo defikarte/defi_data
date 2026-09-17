@@ -14595,11 +14595,12 @@
   "type": "Feature",
   "id": "node/12806876101",
   "properties": {
-    "defibrillator:location": "Feuerwehr birwinken",
+    "access": "no",
+    "defibrillator:location": "Feuerwehr Birwinken",
     "description": "Öffentlich, 24/7",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "operator": "Gemeinde",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12806876101"

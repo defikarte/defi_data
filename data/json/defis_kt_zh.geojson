@@ -81732,6 +81732,29 @@
       47.4086783
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14188869001",
+  "properties": {
+    "defibrillator:location": "Arztpraxis Therapie auf Augenhöhe",
+    "description": "Direkt im Eingangsbereich von der Praxis an der grauen Säule. Defibrillator kann auf Kind umgeschaltet werden.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "7:30-17:30",
+    "operator": "Therapie auf Augenhöhe GmbH",
+    "phone": "+41794000704",
+    "id": "node/14188869001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5115508,
+      47.38386
+    ]
+  }
 }
 ]
 }
