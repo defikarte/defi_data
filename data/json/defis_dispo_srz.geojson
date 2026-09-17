@@ -105062,6 +105062,24 @@
       47.3889838
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14190247101",
+  "properties": {
+    "defibrillator:location": "IVF Hartmann AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14190247101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6246398,
+      47.6779854
+    ]
+  }
 }
 ]
 }

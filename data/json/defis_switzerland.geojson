@@ -383330,6 +383330,42 @@
       47.3889838
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14190245301",
+  "properties": {
+    "defibrillator:location": "Im Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14190245301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4529392,
+      46.9487423
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14190247101",
+  "properties": {
+    "defibrillator:location": "IVF Hartmann AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14190247101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6246398,
+      47.6779854
+    ]
+  }
 }
 ]
 }

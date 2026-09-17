@@ -65990,6 +65990,24 @@
       47.0649659
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14190245301",
+  "properties": {
+    "defibrillator:location": "Im Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14190245301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4529392,
+      46.9487423
+    ]
+  }
 }
 ]
 }
