@@ -613,7 +613,7 @@ Zugang: 24/7",,defibrillator,144,,,,node/7637818917,no,,,,,Campus Polizeischule 
 7637819088,node,47.2192422,7.980115,permissive,,,,,,,,,,,,,,"Baselstrasse 65, bei der Security-Loge (JT International AG)",,Zufahrt via Stationsstrasse AED bei der Security-Loge,,defibrillator,144,,,,node/7637819088,yes,,0,,,JT (Japan Tabaco),24/7,JT International AG,,+41627480182,,,,,
 7637819089,node,47.2095881,7.9790179,,,,,,,,,,,,,,,,,Empfang + 3 im Werk,,defibrillator,144,,,,node/7637819089,,,,,,Pan Gas AG,,,,,,,,,
 7637819090,node,47.2127418,7.9852585,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/7637819090,yes,,,,,,"Mo-Th 08:00-12:00,13:30-18:00; Fr 07:30-14:00",Praxis Dagmarsellen,,,,,,,
-7637819092,node,47.2128375,7.9899412,yes,,,,,,,,,,,,,,Valiant Kassenraum,,Kassenraum,,defibrillator,144,,,,node/7637819092,yes,,0,,,Valiant Bank,Mo-Su 06:00-24:00,Valiant-Bank,,,,,,,
+7637819092,node,47.2128375,7.9899412,yes,,,,,,,,,,,,,,Valiant Bank,,Rechts neben der Eingangstür zum Schalterraum,,defibrillator,144,,,,node/7637819092,no,,0,,,Valiant Bank,24/7,Valiant-Bank,,,,,,,
 7637819094,node,47.1127528,8.0975548,permissive,,,,,,,,,,,,,,"Arztpraxis Buttisholz, Arigstrasse 17, 6018 Buttisholz",,Arztpraxis,,defibrillator,144,,,,node/7637819094,yes,,0,,,Arztpraxis Buttisholz,"Mo-We, Fr 08:00-12:00,13:30-16:00; Th 08:00-12:00",Arztpraxis Buttisholz,,+41 41 929 69 29,,,,,
 7637819102,node,47.1105502,8.3430533,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/7637819102,,,,,,Implenia Bau AG,,,,,,,,,
 7637819103,node,47.0945432,8.3481047,yes,,,,,,,,,,,,,,,,Korridor EG neben Turnhalle,,defibrillator,144,,,,node/7637819103,,,,,,Schulzentrum Dorf,24/7,,,,,,,,
