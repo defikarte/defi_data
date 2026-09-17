@@ -32905,6 +32905,29 @@
       47.4150062
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14189452801",
+  "properties": {
+    "defibrillator:location": "Bahnhof Ziegelbrücke",
+    "description": "immer Verfügbar",
+    "email": "info@schaenis.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schänis",
+    "phone": "+41 55 619 61 61",
+    "id": "node/14189452801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0598532,
+      47.1362254
+    ]
+  }
 }
 ]
 }

@@ -6068,53 +6068,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310142",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Haupteingang im EG",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Landis + Gyr AG",
-    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-16:30",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310142"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.47573,
-      47.18875
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10763310143",
-  "properties": {
-    "defibrillator:location": "4. OG gegenüber Liftanlage",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Landis + Gyr AG",
-    "opening_hours": "Mo-Th 08:00-17:00; Fr 08:00-16:30",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310143"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.47586,
-      47.18867
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310144",
   "properties": {
     "access": "no",

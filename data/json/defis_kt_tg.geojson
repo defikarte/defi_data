@@ -1626,13 +1626,13 @@
   "type": "Feature",
   "id": "node/8544843017",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Mehrzweckhalle Schule",
-    "description": "während Schulzeiten - im Eingang rechts",
+    "description": "rechts neben Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Gemeinde Ermatingen",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Ermatingen",
     "id": "node/8544843017"
   },
   "geometry": {

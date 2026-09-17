@@ -44363,6 +44363,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8544843017",
+  "properties": {
+    "defibrillator:location": "Mehrzweckhalle Schule",
+    "description": "rechts neben Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Primarschule Ermatingen",
+    "id": "node/8544843017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.083445,
+      47.6678681
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8545176318",
   "properties": {
     "access": "yes",
@@ -162729,6 +162750,29 @@
     "coordinates": [
       7.8979038,
       47.2729288
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14189452801",
+  "properties": {
+    "defibrillator:location": "Bahnhof Ziegelbrücke",
+    "description": "immer Verfügbar",
+    "email": "info@schaenis.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Schänis",
+    "phone": "+41 55 619 61 61",
+    "id": "node/14189452801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0598532,
+      47.1362254
     ]
   }
 }

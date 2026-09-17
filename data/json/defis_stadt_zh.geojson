@@ -19588,6 +19588,78 @@
       47.38386
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14189151501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Tonhalle vor Vortragsaal 1",
+    "description": "während Veranstaltungen zugänglich",
+    "email": "manuel.kraemer@khsz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Kongresshaus-Stiftung Zürich",
+    "phone": "+41 79 803 60 65",
+    "id": "node/14189151501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5373446,
+      47.3659876
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14189465301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schauspielhaus Pfauen, im Foyer, Garderobe links",
+    "email": "facility.management@schauspielhaus.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "11:00 - 19:00",
+    "operator": "Schauspielhaus Zürich AG",
+    "phone": "+41 44 258 70 22",
+    "id": "node/14189465301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.54921,
+      47.3701732
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14189469001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sch",
+    "email": "facility.management@schauspielhaus.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "10:00 - 22:00",
+    "operator": "Schauspielhaus Zürich AG",
+    "phone": "+41 44 258 70 22",
+    "id": "node/14189469001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5188069,
+      47.3889838
+    ]
+  }
 }
 ]
 }
