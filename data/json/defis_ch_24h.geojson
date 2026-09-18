@@ -158448,8 +158448,9 @@
   "type": "Feature",
   "id": "node/13928061001",
   "properties": {
-    "defibrillator:location": "Toilette hsndicap de la chapelle des Marches",
+    "defibrillator:location": "Toilette handicap de la chapelle des Marches",
     "description": "Tjs ouvert",
+    "email": "gleumas@gmail.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",

@@ -220591,6 +220591,56 @@
       47.6779854
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14191532878",
+  "properties": {
+    "addr:city": "Schüpfheim",
+    "addr:housenumber": "19",
+    "addr:postcode": "6170",
+    "addr:street": "Längacher",
+    "defibrillator:location": "Container Entsorgung -Stalder Tiefbau AG",
+    "description": "koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Stalder Tiefbau AG",
+    "opening_hours": "Mo-Fr 08.00-12.00 / 13.00-17.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0452LTM",
+    "id": "node/14191532878"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.00244,
+      46.9386698
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14191589706",
+  "properties": {
+    "defibrillator:location": "Nach Empfang vor Kantiene",
+    "description": "während Öffnungszeiten Mo- Fr. 7.30 bis 12.00 13.00 bis 16.30",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Verwo AG",
+    "phone": "+41554158484",
+    "id": "node/14191589706"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9924616,
+      47.1687996
+    ]
+  }
 }
 ]
 }
