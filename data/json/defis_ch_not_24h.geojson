@@ -54614,16 +54614,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "name": "Gemeindeverband Bezirk Laufenburg",
     "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Gemeindeverband Bezirk Laufenburg",
     "phone": "+41625258888",
+    "website": "https://gv-laufenburg.ch/",
     "id": "node/8841781117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0590758,
-      47.5605666
+      8.0590181,
+      47.5605847
     ]
   }
 },

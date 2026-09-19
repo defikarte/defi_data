@@ -108162,16 +108162,18 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "name": "Gemeindeverband Bezirk Laufenburg",
     "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Gemeindeverband Bezirk Laufenburg",
     "phone": "+41625258888",
+    "website": "https://gv-laufenburg.ch/",
     "id": "node/8841781117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0590758,
-      47.5605666
+      8.0590181,
+      47.5605847
     ]
   }
 },
@@ -383425,7 +383427,8 @@
   "id": "node/14195957201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "am Treppenaufgang Minderweg oberhalb der Strasse",
+    "defibrillator:location": "Oberhalb Treppenaufgang Minderweg 4-20",
+    "email": "axel.dembeck@protonmail.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -383437,8 +383440,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6179833,
-      47.0539689
+      7.6179832,
+      47.053969
     ]
   }
 },

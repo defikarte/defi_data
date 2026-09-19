@@ -66014,7 +66014,8 @@
   "id": "node/14195957201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "am Treppenaufgang Minderweg oberhalb der Strasse",
+    "defibrillator:location": "Oberhalb Treppenaufgang Minderweg 4-20",
+    "email": "axel.dembeck@protonmail.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -66026,8 +66027,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6179833,
-      47.0539689
+      7.6179832,
+      47.053969
     ]
   }
 },
