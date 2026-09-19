@@ -1021,9 +1021,10 @@
   "type": "Feature",
   "id": "node/3653196823",
   "properties": {
-    "addr:city": "Au",
+    "addr:city": "Au SG",
     "addr:country": "CH",
     "addr:housenumber": "10",
+    "addr:postcode": "9434",
     "addr:street": "Kirchweg",
     "defibrillator:location:de": "Am Eingang des Pfarrhauses",
     "defibrillator:location:en": "beside the frontdoor",

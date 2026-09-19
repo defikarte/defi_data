@@ -103,9 +103,10 @@
   "type": "Feature",
   "id": "node/3653196823",
   "properties": {
-    "addr:city": "Au",
+    "addr:city": "Au SG",
     "addr:country": "CH",
     "addr:housenumber": "10",
+    "addr:postcode": "9434",
     "addr:street": "Kirchweg",
     "defibrillator:location:de": "Am Eingang des Pfarrhauses",
     "defibrillator:location:en": "beside the frontdoor",
@@ -17105,11 +17106,12 @@
   "properties": {
     "defibrillator:location": "Tonhalle Wil",
     "description": "Im Bereich der Zuschauergarderobe",
+    "email": "info@tonhallewil.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "0",
-    "opening_hours": "We-Fr 10:00-17:00",
+    "opening_hours": "We-Fr 10:00-12:00; 15:00-17:00",
     "operator": "Tonhalle Wil",
     "phone": "+41 71 913 89 20",
     "id": "node/10633760505"
@@ -17117,8 +17119,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0501281,
-      47.4656657
+      9.0501286,
+      47.465666
     ]
   }
 },
