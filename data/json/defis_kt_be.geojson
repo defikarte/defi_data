@@ -66008,6 +66008,28 @@
       46.9487423
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14195957201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "am Treppenaufgang Minderweg oberhalb der Strasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Buriguet Stockwerkeigentum",
+    "phone": "+41797566822",
+    "id": "node/14195957201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6179833,
+      47.0539689
+    ]
+  }
 }
 ]
 }
