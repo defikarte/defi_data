@@ -35,5 +35,16 @@
       "opening_hours: 'None' → 'Mo-Fr 07:00-12:00, 13:00-18:00; Sa 09:00-13:00'"
     ],
     "detected_at": "2026-09-16T13:12:31.343011+00:00"
+  },
+  {
+    "key": "node/14195957201",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.6179832,
+    "lat": 47.053969,
+    "changes": [
+      "defibrillator:location: 'am Treppenaufgang Minderweg oberhalb der Strasse' → 'Oberhalb Treppenaufgang Minderweg 4-20'"
+    ],
+    "detected_at": "2026-09-19T20:06:59.213233+00:00"
   }
 ]
