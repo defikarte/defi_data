@@ -162762,7 +162762,8 @@
   "type": "Feature",
   "id": "node/14189452801",
   "properties": {
-    "defibrillator:location": "Bahnhof Ziegelbrücke",
+    "check_date": "2016-09-20",
+    "defibrillator:location": "Bahnhof Ziegelbrücke, eingang zum Avec",
     "description": "immer Verfügbar",
     "email": "info@schaenis.ch",
     "emergency": "defibrillator",
@@ -162801,6 +162802,48 @@
     "coordinates": [
       7.6179832,
       47.053969
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14201623601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur MZH Ilge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Illgau",
+    "id": "node/14201623601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7272369,
+      46.9876345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14201628401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur Gemeindekanzlei Illgau",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Illgau",
+    "id": "node/14201628401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7241317,
+      46.9873985
     ]
   }
 }

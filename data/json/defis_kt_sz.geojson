@@ -9121,6 +9121,48 @@
       47.1687996
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14201623601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur MZH Ilge",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Illgau",
+    "id": "node/14201623601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7272369,
+      46.9876345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14201628401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zur Gemeindekanzlei Illgau",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Illgau",
+    "id": "node/14201628401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7241317,
+      46.9873985
+    ]
+  }
 }
 ]
 }

@@ -32916,7 +32916,8 @@
   "type": "Feature",
   "id": "node/14189452801",
   "properties": {
-    "defibrillator:location": "Bahnhof Ziegelbrücke",
+    "check_date": "2016-09-20",
+    "defibrillator:location": "Bahnhof Ziegelbrücke, eingang zum Avec",
     "description": "immer Verfügbar",
     "email": "info@schaenis.ch",
     "emergency": "defibrillator",
