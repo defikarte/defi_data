@@ -383516,6 +383516,24 @@
       46.9873985
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14202179902",
+  "properties": {
+    "defibrillator:location": "am Gebäude der Gemeindeverwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14202179902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1426644,
+      46.4246664
+    ]
+  }
 }
 ]
 }
