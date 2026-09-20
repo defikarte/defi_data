@@ -1271,6 +1271,7 @@
   "id": "node/7637819097",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-20",
     "description": "links neben Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",

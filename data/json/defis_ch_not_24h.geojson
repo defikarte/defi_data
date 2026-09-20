@@ -157938,7 +157938,9 @@
   "id": "node/11837572263",
   "properties": {
     "access": "yes",
+    "addr:city": "St. Margrethen SG",
     "addr:housenumber": "14",
+    "addr:postcode": "9430",
     "addr:street": "Grenzstrasse",
     "defibrillator:location": "Montage Schaltervorraum, EG 1406 LTM",
     "emergency": "defibrillator",
