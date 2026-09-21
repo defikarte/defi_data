@@ -1,1 +1,27 @@
-[]
+[
+  {
+    "key": "node/6636632385",
+    "name": "(ohne Name)",
+    "address": "Sandstrasse 5, 3302 Moosseedorf",
+    "lon": 7.4831987,
+    "lat": 47.0159916,
+    "changes": [
+      "operator: 'passepartout-ch AG' → 'Gemeinde Moosseedorf'",
+      "phone: '+41 76 398 38 58' → '+41 31 850 13 20'",
+      "indoor: 'None' → 'no'"
+    ],
+    "detected_at": "2026-09-21T18:32:46.936949+00:00"
+  },
+  {
+    "key": "node/8728645199",
+    "name": "(ohne Name)",
+    "address": "Schulhausstrasse 1, 3302 Moosseedorf",
+    "lon": 7.4825826,
+    "lat": 47.0138568,
+    "changes": [
+      "phone: '+41 76 398 38 58' → '+41 31 850 13 20'",
+      "indoor: 'None' → 'no'"
+    ],
+    "detected_at": "2026-09-21T18:32:46.938743+00:00"
+  }
+]
