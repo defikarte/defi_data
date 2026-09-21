@@ -16488,6 +16488,30 @@
       47.5829691
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14203329601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GEVI Werkhof Müllheim",
+    "description": "interne Tankstelle (Zugang zu Fuss 24/7 möglich)",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/14203329601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0074869,
+      47.5922189
+    ]
+  }
 }
 ]
 }

@@ -40823,6 +40823,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8101505523",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Treppe ins 1.OG, nach der 1. Türe rechts",
+    "description": "während Veranstaltungen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/8101505523"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3775304,
+      47.426284
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8101505524",
   "properties": {
     "access": "yes",
@@ -57489,6 +57510,7 @@
     "defibrillator:location": "Kassenbereich Migros. Vom Eingang her links rein.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/8959998270"
   },
   "geometry": {
@@ -72509,6 +72531,7 @@
     "addr:street": "Hirschengraben",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Domenig & Partner",
     "phone": "+41 31 380 11 00",
@@ -169413,30 +169436,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12205131701",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "SKI Gossau",
-    "description": "Wärend den Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "Mo-Fr 06:30-17:15",
-    "operator": "Kanton SG",
-    "phone": "+41582290580",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12205131701"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2336494,
-      47.4184765
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12208526840",
   "properties": {
     "defibrillator:location": "Kehrichtsammelstelle, Bushaltestelle Fäld",
@@ -205340,28 +205339,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13637654601",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Haupteingang vor der Türe",
-    "description": "Ist vor dem Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Strassenkreisinspektorat",
-    "phone": "+41 58 229 73 73",
-    "id": "node/13637654601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4181439,
-      47.4389751
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13637708401",
   "properties": {
     "access": "yes",
@@ -220686,6 +220663,23 @@
     "coordinates": [
       8.1426644,
       46.4246664
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203469032",
+  "properties": {
+    "defibrillator:location": "U1, vor Hörsaal 101",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14203469032"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5807077,
+      47.5643697
     ]
   }
 }

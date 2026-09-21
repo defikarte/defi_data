@@ -7104,10 +7104,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Treppe ins 1.OG, nach der 1. Türe rechts",
+    "description": "während Veranstaltungen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "level": "1",
     "id": "node/8101505523"
   },
   "geometry": {
@@ -29583,23 +29584,24 @@
   "type": "Feature",
   "id": "node/12205131701",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "SKI Gossau",
-    "description": "Wärend den Öffnungszeiten",
+    "access": "yes",
+    "defibrillator:location": "Strassenkreisinspektorat Gossau",
+    "description": "Einfahrtstor Aussenmontage",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "Mo-Fr 06:30-17:15",
-    "operator": "Kanton SG",
-    "phone": "+41582290580",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12205131701"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2336494,
-      47.4184765
+      9.2345067,
+      47.4186086
     ]
   }
 },
@@ -35821,14 +35823,16 @@
   "type": "Feature",
   "id": "node/13637654601",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Haupteingang vor der Türe",
-    "description": "Ist vor dem Eingang",
+    "access": "yes",
+    "defibrillator:location": "Strassenkreisinspektorat St.Gallen",
+    "description": "Eingangsbereich Aussenmontage (Zugang zu Fuss 24/7 möglich)",
+    "email": "sicherheit@sg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Strassenkreisinspektorat",
-    "phone": "+41 58 229 73 73",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
     "id": "node/13637654601"
   },
   "geometry": {
@@ -38996,6 +39000,30 @@
     "coordinates": [
       9.0598532,
       47.1362254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203337001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strassenkreisinspektorat Buchs",
+    "description": "Einfahrtstor Aussenmontage",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/14203337001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4837703,
+      47.1673792
     ]
   }
 }

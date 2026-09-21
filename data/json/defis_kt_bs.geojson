@@ -4676,6 +4676,23 @@
       47.5745519
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14203469032",
+  "properties": {
+    "defibrillator:location": "U1, vor Hörsaal 101",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14203469032"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5807077,
+      47.5643697
+    ]
+  }
 }
 ]
 }

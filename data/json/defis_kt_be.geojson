@@ -33291,6 +33291,7 @@
     "defibrillator:location": "Kassenbereich Migros. Vom Eingang her links rein.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/8959998270"
   },
   "geometry": {
@@ -37109,6 +37110,7 @@
     "addr:street": "Hirschengraben",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Domenig & Partner",
     "phone": "+41 31 380 11 00",
@@ -66053,6 +66055,30 @@
     "coordinates": [
       7.2303682,
       47.1448235
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203022501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stiftung Wildstation Landshut, Eingang Naturlehrpfad (Nordseite Gebäude)",
+    "description": "Zusätzlich Ambubeutel und Pulsoximeter während den Öffnungszeiten der Wildstation bei den Mitarbeitern vorhanden",
+    "email": "info@wildstation.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Wildstation Landshut",
+    "phone": "+41 32 665 38 93",
+    "id": "node/14203022501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.549034,
+      47.1378471
     ]
   }
 }

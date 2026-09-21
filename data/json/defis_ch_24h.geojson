@@ -37150,26 +37150,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8101505523",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Treppe ins 1.OG, nach der 1. Türe rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "id": "node/8101505523"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3775304,
-      47.426284
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8101505532",
   "properties": {
     "access": "yes",
@@ -125846,6 +125826,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/12205131701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strassenkreisinspektorat Gossau",
+    "description": "Einfahrtstor Aussenmontage",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12205131701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2345067,
+      47.4186086
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12207222001",
   "properties": {
     "defibrillator:location": "Grunachen 13c 6197 Schangnau",
@@ -151797,6 +151802,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/13637654601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strassenkreisinspektorat St.Gallen",
+    "description": "Eingangsbereich Aussenmontage (Zugang zu Fuss 24/7 möglich)",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/13637654601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4181439,
+      47.4389751
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13640392401",
   "properties": {
     "access": "yes",
@@ -162844,6 +162873,97 @@
     "coordinates": [
       8.7241317,
       46.9873985
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203022501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stiftung Wildstation Landshut, Eingang Naturlehrpfad (Nordseite Gebäude)",
+    "description": "Zusätzlich Ambubeutel und Pulsoximeter während den Öffnungszeiten der Wildstation bei den Mitarbeitern vorhanden",
+    "email": "info@wildstation.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Wildstation Landshut",
+    "phone": "+41 32 665 38 93",
+    "id": "node/14203022501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.549034,
+      47.1378471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203158985",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A côté de l'entrée",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14203158985"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8059387,
+      46.3917387
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203329601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GEVI Werkhof Müllheim",
+    "description": "interne Tankstelle (Zugang zu Fuss 24/7 möglich)",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/14203329601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0074869,
+      47.5922189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203337001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strassenkreisinspektorat Buchs",
+    "description": "Einfahrtstor Aussenmontage",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kanton St.Gallen Staatskanzlei",
+    "phone": "+41 58 229 29 08",
+    "id": "node/14203337001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4837703,
+      47.1673792
     ]
   }
 }
