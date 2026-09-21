@@ -97393,11 +97393,13 @@
   "id": "node/8602157936",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Sanitätsraum neben dem Eingang des Freibades",
-    "description": "während Öffnungszeiten verfügbar",
+    "defibrillator:location": "beim Eingang aussen angebracht",
+    "description": "ganzjährig verfügbar",
+    "email": "info@schwimmbad-wolfensberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "operator": "Matteo Taormina",
     "phone": "+41 52 212 55 92",
     "id": "node/8602157936"
