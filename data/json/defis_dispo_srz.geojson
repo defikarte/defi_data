@@ -105143,6 +105143,24 @@
       46.9873985
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14203570501",
+  "properties": {
+    "defibrillator:location": "Rettungsdienst / Schaffhauserstrasse 132 / An der Fassade zum Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14203570501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5354087,
+      47.5282813
+    ]
+  }
 }
 ]
 }

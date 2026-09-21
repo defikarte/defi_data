@@ -9500,18 +9500,20 @@
     "addr:postcode": "3302",
     "addr:street": "Sandstrasse",
     "defibrillator:location": "Haupteingang links an der Wand",
+    "email": "gemeinde@moosseedorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "passepartout-ch AG",
-    "phone": "+41 76 398 38 58",
+    "operator": "Gemeinde Moosseedorf",
+    "phone": "+41 31 850 13 20",
     "id": "node/6636632385"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4829895,
-      47.0159514
+      7.4831987,
+      47.0159916
     ]
   }
 },
@@ -50095,18 +50097,20 @@
     "addr:postcode": "3302",
     "addr:street": "Schulhausstrasse",
     "defibrillator:location": "rechts beim Haupteingang",
+    "email": "gemeinde@moosseedorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung Moosseedorf",
-    "phone": "+41 76 398 38 58",
+    "phone": "+41 31 850 13 20",
     "id": "node/8728645199"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4824514,
-      47.0137797
+      7.4825826,
+      47.0138568
     ]
   }
 },
@@ -162964,6 +162968,31 @@
     "coordinates": [
       9.4837703,
       47.1673792
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203618201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alters- und Pflegeheim, Hof Speicher AG; Hauptgebäude Zaun 6 beim Empfang",
+    "description": "links am Empfang vorbei, dort hängt er an der Wand",
+    "email": "nicole.spring@hof-speicher.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hof Speicher",
+    "phone": "+41 71 343 80 80",
+    "id": "node/14203618201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4411416,
+      47.4133723
     ]
   }
 }

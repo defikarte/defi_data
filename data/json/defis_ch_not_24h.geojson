@@ -188703,9 +188703,8 @@
   "type": "Feature",
   "id": "node/12922785101",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Salt SA",
-    "description": "Ausser Betrieb",
     "email": "diana.martinelli@salt.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -220680,6 +220679,71 @@
     "coordinates": [
       7.5807077,
       47.5643697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203570501",
+  "properties": {
+    "defibrillator:location": "Rettungsdienst / Schaffhauserstrasse 132 / An der Fassade zum Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14203570501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5354087,
+      47.5282813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203597501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Staffel Eingang MZH",
+    "email": "gemeinde@moosseedorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Gemeinde Moosseedorf",
+    "phone": "+41 31 850 13 20",
+    "id": "node/14203597501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4803022,
+      47.0114482
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14203598302",
+  "properties": {
+    "defibrillator:location": "Schulhaus Staffel Sporthalle",
+    "email": "gemeinde@moosseedorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Gemeinde Moosseedorf",
+    "phone": "+41 31 850 13 20",
+    "id": "node/14203598302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4809835,
+      47.0109123
     ]
   }
 }

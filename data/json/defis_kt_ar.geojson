@@ -2692,6 +2692,31 @@
       47.3857709
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14203618201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alters- und Pflegeheim, Hof Speicher AG; Hauptgebäude Zaun 6 beim Empfang",
+    "description": "links am Empfang vorbei, dort hängt er an der Wand",
+    "email": "nicole.spring@hof-speicher.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Hof Speicher",
+    "phone": "+41 71 343 80 80",
+    "id": "node/14203618201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4411416,
+      47.4133723
+    ]
+  }
 }
 ]
 }

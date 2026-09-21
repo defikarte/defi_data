@@ -27932,9 +27932,8 @@
   "type": "Feature",
   "id": "node/12922785101",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Salt SA",
-    "description": "Ausser Betrieb",
     "email": "diana.martinelli@salt.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
