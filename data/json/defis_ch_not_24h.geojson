@@ -217211,7 +217211,7 @@
   "id": "node/14102545201",
   "properties": {
     "access": "private",
-    "defibrillator:location": "SWICA Agentur Sion - Cafétéria",
+    "defibrillator:location": "SWICA Agentur Sion",
     "description": "während Öffnungszeiten verfügbar",
     "email": "fm@swica.ch",
     "emergency": "defibrillator",
@@ -217226,8 +217226,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.3586708,
-      46.2285468
+      7.3588176,
+      46.2295458
     ]
   }
 },
