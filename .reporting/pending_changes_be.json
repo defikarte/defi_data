@@ -46,5 +46,27 @@
       "defibrillator:location: 'am Treppenaufgang Minderweg oberhalb der Strasse' → 'Oberhalb Treppenaufgang Minderweg 4-20'"
     ],
     "detected_at": "2026-09-19T20:06:59.213233+00:00"
+  },
+  {
+    "key": "node/8959998270",
+    "name": "(ohne Name)",
+    "address": null,
+    "lon": 7.3950952,
+    "lat": 46.9468066,
+    "changes": [
+      "indoor: 'None' → 'yes'"
+    ],
+    "detected_at": "2026-09-21T12:22:26.926803+00:00"
+  },
+  {
+    "key": "node/9376215937",
+    "name": "(ohne Name)",
+    "address": "Hirschengraben 2, 3011 Bern",
+    "lon": 7.4374884,
+    "lat": 46.9468886,
+    "changes": [
+      "indoor: 'None' → 'yes'"
+    ],
+    "detected_at": "2026-09-21T12:22:26.927217+00:00"
   }
 ]
