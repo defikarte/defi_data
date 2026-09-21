@@ -415,3 +415,5 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14155456501,node,47.1118476,8.7720294,,,,,,,,,An der Musikbaracke,Bei der Verzweigung Grossbachweg / Boden,info@einwohnerverein-gross.ch,defibrillator,144,node/14155456501,,no,,,,24/7,Einwohnerverein Gross mitänand,,,,,
 14182811102,node,47.173462,8.9389218,,,,,,,,,Schulhaus Gutenbrunnen,Haupteingang,,defibrillator,144,node/14182811102,,no,,,,24/7,Abteilung Liegenschaft Gemeinde Schübelbach,,+41554505622,,,
 14191589706,node,47.1687996,8.9924616,,,,,,,,,Nach Empfang vor Kantiene,während Öffnungszeiten Mo- Fr. 7.30 bis 12.00 13.00 bis 16.30,,defibrillator,144,node/14191589706,,yes,,,,,Verwo AG,,+41554158484,,,
+14201623601,node,46.9876345,8.7272369,yes,,,,,,,,Eingang zur MZH Ilge,,,defibrillator,144,node/14201623601,,no,,,,24/7,Gemeinde Illgau,,,,,
+14201628401,node,46.9873985,8.7241317,yes,,,,,,,,Eingang zur Gemeindekanzlei Illgau,,,defibrillator,144,node/14201628401,,no,,,,24/7,Gemeinde Illgau,,,,,
