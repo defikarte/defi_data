@@ -8634,6 +8634,30 @@
       46.8347223
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14206010401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sous le préau, à côté de l'entrée école",
+    "email": "secretariat@surpierre-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Surpierre",
+    "phone": "+41 26 668 10 20",
+    "id": "node/14206010401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8389307,
+      46.7512573
+    ]
+  }
 }
 ]
 }

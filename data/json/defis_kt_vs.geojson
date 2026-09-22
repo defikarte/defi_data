@@ -7285,6 +7285,23 @@
       46.3917387
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14205853013",
+  "properties": {
+    "defibrillator:location": "Dans le sous-sol du bâtiment, au bas des escaliers menant aux toilettes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14205853013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1006918,
+      46.1889689
+    ]
+  }
 }
 ]
 }

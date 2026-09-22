@@ -101302,6 +101302,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/11038063718",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strassenkreisinspektorat Wattwil - Stützpunkt Starkenbach",
+    "description": "Tankstelle",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Staatskanzlei Kanton St.Gallen",
+    "phone": "+41 58 229 29 08",
+    "id": "node/11038063718"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2391298,
+      47.1888921
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11038063719",
   "properties": {
     "access": "yes",
@@ -163038,6 +163063,30 @@
     "coordinates": [
       9.4411416,
       47.4133723
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14206010401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sous le préau, à côté de l'entrée école",
+    "email": "secretariat@surpierre-fr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Surpierre",
+    "phone": "+41 26 668 10 20",
+    "id": "node/14206010401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8389307,
+      46.7512573
     ]
   }
 }

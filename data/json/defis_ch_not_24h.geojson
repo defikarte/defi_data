@@ -137738,29 +137738,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11038063718",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Steinbruch Starkenbach",
-    "description": "Während den Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Kanton St.Gallen",
-    "phone": "+41 79 355 43 00",
-    "id": "node/11038063718"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2385649,
-      47.1900344
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11038063721",
   "properties": {
     "defibrillator:location": "Zurich HelpPoint & Siège régional Lausanne",
@@ -220704,6 +220681,23 @@
     "coordinates": [
       7.4809835,
       47.0109123
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14205853013",
+  "properties": {
+    "defibrillator:location": "Dans le sous-sol du bâtiment, au bas des escaliers menant aux toilettes",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14205853013"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1006918,
+      46.1889689
     ]
   }
 }
