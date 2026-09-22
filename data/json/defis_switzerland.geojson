@@ -97400,6 +97400,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Matteo Taormina",
     "phone": "+41 52 212 55 92",
     "id": "node/8602157936"
@@ -383658,10 +383659,12 @@
   "type": "Feature",
   "id": "node/14203570501",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Rettungsdienst / Schaffhauserstrasse 132 / An der Fassade zum Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/14203570501"
   },
   "geometry": {

@@ -49846,30 +49846,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8602157936",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "beim Eingang aussen angebracht",
-    "description": "ganzjährig verfügbar",
-    "email": "info@schwimmbad-wolfensberg.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Matteo Taormina",
-    "phone": "+41 52 212 55 92",
-    "id": "node/8602157936"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7153621,
-      47.5135815
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8602157938",
   "properties": {
     "access": "yes",
@@ -220681,24 +220657,6 @@
     "coordinates": [
       7.5807077,
       47.5643697
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14203570501",
-  "properties": {
-    "defibrillator:location": "Rettungsdienst / Schaffhauserstrasse 132 / An der Fassade zum Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/14203570501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5354087,
-      47.5282813
     ]
   }
 },
