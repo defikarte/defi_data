@@ -1,6 +1,6 @@
 """
 Erzeugt das HTML für den wöchentlichen Änderungs-Report aus einer
-pending_changes_<id>.json Datei.
+pending_changes_<id>.json Datei (geschrieben von geojson_diff_be.py).
 
 Verwendung:
     python build_weekly_report.py <pending_file> <kanton_name> <output_html>
@@ -13,16 +13,66 @@ from datetime import datetime, timezone
 
 DEFIKARTE_LOGO_URL = "https://assets.defikarte.ch/logo/logo_gruen.jpg"
 
+GREEN_LIGHT = "#97C568"
+GREEN_DARK  = "#144430"
+INK         = "#1F2937"
+MUTED       = "#6B7280"
+RULE        = "#E5E7EB"
+BG          = "#FFFFFF"
+COLOR_GEAENDERT = "#E8A33D"
 
-def maps_links(lon, lat, key=None):
-    links = []
+FONT = "'Poppins', Arial, Helvetica, sans-serif"
+
+
+def maps_link(lon, lat, key=None):
     if key and key.startswith(("node/", "way/", "relation/")):
-        links.append(f'<a href="https://www.openstreetmap.org/{key}">OSM</a>')
-    elif lon is not None and lat is not None:
-        links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
+        return f'<a href="https://www.openstreetmap.org/{key}" style="color:{GREEN_DARK};">Karte</a>'
     if lon is not None and lat is not None:
-        links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
-    return " | ".join(links)
+        return f'<a href="https://www.google.com/maps?q={lat},{lon}" style="color:{GREEN_DARK};">Karte</a>'
+    return ""
+
+
+def badge_247():
+    return (f'<span style="display:inline-block;background-color:{GREEN_DARK};color:#ffffff;'
+            f'font-size:10px;font-weight:700;letter-spacing:0.3px;padding:2px 7px;'
+            f'border-radius:3px;margin-left:8px;vertical-align:middle;">24/7</span>')
+
+
+def dot(color):
+    return (f'<span style="display:inline-block;width:9px;height:9px;border-radius:50%;'
+            f'background-color:{color};margin-right:7px;"></span>')
+
+
+def render_changes(changes, size=13):
+    if not changes:
+        return ""
+    parts = []
+    for c in changes:
+        label, old_v, new_v = c.get("label", ""), c.get("old"), c.get("new")
+        gain_247 = (label == "Öffnungszeiten" and str(new_v) == "24/7")
+        loss_247 = (label == "Öffnungszeiten" and str(old_v) == "24/7" and str(new_v) != "24/7")
+        if gain_247:
+            parts.append(
+                f'<div style="font-size:{size}px;margin-top:2px;">'
+                f'<span style="color:{GREEN_DARK};font-weight:700;">{html.escape(label)}: neu {html.escape(str(new_v))}</span>'
+                f'{badge_247()}</div>'
+            )
+        elif loss_247:
+            parts.append(
+                f'<div style="font-size:{size}px;margin-top:2px;">'
+                f'<span style="color:{COLOR_GEAENDERT};font-weight:700;">{html.escape(label)}: nicht mehr 24/7 '
+                f'({html.escape(str(old_v))} \u2192 {html.escape(str(new_v))})</span></div>'
+            )
+        else:
+            parts.append(
+                f'<div style="color:{MUTED};font-size:{size}px;margin-top:2px;">'
+                f'{html.escape(label)} {html.escape(str(old_v))} \u2192 {html.escape(str(new_v))}</div>'
+            )
+    return "".join(parts)
+
+
+def has_247_gain(changes):
+    return any(c.get("label") == "Öffnungszeiten" and str(c.get("new")) == "24/7" for c in changes)
 
 
 def main():
@@ -40,53 +90,64 @@ def main():
         addr = e.get("address") or ""
         name = e.get("name", "(ohne Name)")
         changes = e.get("changes", [])
-        detected = e.get("detected_at", "")[:10]
-        links = maps_links(lon, lat, key)
+        link = maps_link(lon, lat, key)
 
-        rows.append(f"""
-        <tr class="changed">
-          <td>geändert</td>
-          <td>{html.escape(name)}<br><small>ID: {html.escape(key)}</small></td>
-          <td>{html.escape(addr)}</td>
-          <td>{html.escape(f"{lon}, {lat}") if lon is not None and lat is not None else ""}</td>
-          <td>{links}</td>
-          <td>{("<br>".join(html.escape(c) for c in changes))}<br><small>Erkannt: {html.escape(detected)}</small></td>
-        </tr>
-        """)
+        addr_part = f'<span style="color:{MUTED};"> · {html.escape(addr)}</span>' if addr else ""
+        changes_html = render_changes(changes)
+
+        rows.append(f'''
+        <table role="presentation" width="100%" style="border-collapse:collapse;">
+          <tr>
+            <td style="padding:12px 0;border-bottom:1px solid {RULE};">
+              <span style="font-size:12px;color:{COLOR_GEAENDERT};font-weight:600;">{dot(COLOR_GEAENDERT)}Geändert</span><br>
+              <span style="font-size:15px;font-weight:600;color:{INK};margin-top:4px;display:inline-block;">{html.escape(name)}</span>{addr_part}
+              {changes_html}
+              <div style="font-size:13px;margin-top:4px;">{link}</div>
+            </td>
+          </tr>
+        </table>
+        ''')
 
     today = datetime.now(timezone.utc).strftime("%d.%m.%Y")
+    body_html = "".join(rows)
 
     output = f"""
-    <html>
-    <head>
-    <meta charset="utf-8"/>
-    <style>
-    body {{ font-family: Arial, sans-serif; }}
-    table.data {{ border-collapse: collapse; width: 100%; }}
-    th, td {{ border: 1px solid #ddd; padding: 8px; vertical-align: top; }}
-    th {{ background-color: #f4f4f4; }}
-    tr.changed {{ background-color: #fff8e6; }}
-    small {{ color: #666; }}
-    </style>
-    </head>
-    <body>
-    <img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="width:200px;"/>
-    <h2>Wöchentlicher Änderungs-Report – {html.escape(kanton_name)}</h2>
-    <p>Zusammenstellung aller geänderten Defibrillatoren der letzten Woche (Stand {html.escape(today)}).</p>
-    <p><strong>{len(entries)} Einträge geändert</strong></p>
-    <table class="data">
-      <tr>
-        <th>Status</th><th>Name</th><th>Adresse</th>
-        <th>Koordinaten</th><th>Karte</th><th>Details</th>
-      </tr>
-      {"".join(rows)}
-    </table>
-    <br>
-    <p>Zur Erklärung: Die Tabelle zeigt geänderte Datensätze mit Pfeilen alt → neu.</p>
-    <h6>Dies ist eine automatisch generierte E-Mail von defikarte.ch</h6>
-    </body>
-    </html>
-    """
+<html>
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+</head>
+<body style="margin:0;padding:0;background-color:#F9FAFB;font-family:{FONT};">
+<table role="presentation" width="100%" style="background-color:#F9FAFB;border-collapse:collapse;">
+<tr><td align="center">
+<table role="presentation" width="600" style="max-width:600px;background-color:{BG};border-collapse:collapse;">
+<tr><td style="padding:32px 28px;">
+
+<img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="height:34px;"/>
+
+<h1 style="font-family:{FONT};font-weight:700;font-size:20px;line-height:1.35;color:{GREEN_DARK};margin:24px 0 6px 0;">
+Wöchentlicher Änderungs-Report – {html.escape(kanton_name)}
+</h1>
+
+<p style="font-family:{FONT};font-size:13px;color:{MUTED};margin:0;">
+Stand {today} · {len(entries)} Eintrag{"e" if len(entries) != 1 else ""} geändert diese Woche
+</p>
+
+<div style="font-family:{FONT};margin-top:16px;">
+{body_html}
+</div>
+
+<p style="font-family:{FONT};font-size:11px;color:{MUTED};margin-top:32px;padding-top:14px;border-top:1px solid {RULE};">
+Automatisch generiert von defikarte.ch
+</p>
+
+</td></tr>
+</table>
+</td></tr>
+</table>
+</body>
+</html>
+"""
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(output)
