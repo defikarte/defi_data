@@ -78658,16 +78658,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Inside elevator hall",
+    "description": "Bis Dezember 2026 ausser Betrieb wegen Umbau Gebäude",
+    "email": "parking@andermatt-swissalps.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "4",
+    "operator": "Andermatt Swiss Alps AG",
+    "phone": "+41 41 888 15 00",
     "wheelchair": "yes",
     "id": "node/9589469348"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5913484,
+      8.5913485,
       46.6393745
     ]
   }
@@ -94791,16 +94796,18 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "zürcherstrasse 4a",
+    "description": "Während Öffnungszeiten. Nach dem Eingang, Wandkasten links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "node/10018218717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4628877,
+      8.4628878,
       47.3684701
     ]
   }
@@ -156734,30 +156741,6 @@
     "coordinates": [
       8.3019465,
       47.4798057
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11804281469",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Raiffeisenbank Liestal-Oberbaselbiet",
-    "description": "während den Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "operator": "Raiffeisenbank Liestal-Oberbaselbiet",
-    "phone": "+41619266565",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11804281469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7351797,
-      47.4835725
     ]
   }
 },
@@ -220698,6 +220681,29 @@
     "coordinates": [
       7.1006918,
       46.1889689
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14208458001",
+  "properties": {
+    "defibrillator:location": "2. OG Eingangsbereich",
+    "description": "Zugang zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:30 - 17:00",
+    "operator": "Gehrig Group AG",
+    "phone": "+41432115656",
+    "id": "node/14208458001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5549157,
+      47.4337715
     ]
   }
 }

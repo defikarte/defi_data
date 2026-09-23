@@ -66132,6 +66132,27 @@
       47.0109123
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14208936201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Contre la façade du hangar des Téléskis",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Téléskis SA Les Prés-d'Orvin",
+    "id": "node/14208936201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1708739,
+      47.1499939
+    ]
+  }
 }
 ]
 }

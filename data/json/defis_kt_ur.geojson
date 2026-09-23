@@ -1672,16 +1672,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Inside elevator hall",
+    "description": "Bis Dezember 2026 ausser Betrieb wegen Umbau Gebäude",
+    "email": "parking@andermatt-swissalps.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "4",
+    "operator": "Andermatt Swiss Alps AG",
+    "phone": "+41 41 888 15 00",
     "wheelchair": "yes",
     "id": "node/9589469348"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5913484,
+      8.5913485,
       46.6393745
     ]
   }

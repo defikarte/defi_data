@@ -8888,30 +8888,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11804281469",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Raiffeisenbank Liestal-Oberbaselbiet",
-    "description": "während den Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "operator": "Raiffeisenbank Liestal-Oberbaselbiet",
-    "phone": "+41619266565",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11804281469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7351797,
-      47.4835725
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11804288669",
   "properties": {
     "access": "yes",

@@ -5163,6 +5163,31 @@
       47.2390144
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14209319501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Speedcom AG",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@speedcom.li",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "08:00 - 17:00",
+    "operator": "Speedcom AG",
+    "phone": "+423 220 02 02",
+    "id": "node/14209319501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5153689,
+      47.1773515
+    ]
+  }
 }
 ]
 }

@@ -44320,16 +44320,18 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "zürcherstrasse 4a",
+    "description": "Während Öffnungszeiten. Nach dem Eingang, Wandkasten links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "node/10018218717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4628877,
+      8.4628878,
       47.3684701
     ]
   }
@@ -105164,6 +105166,29 @@
     "coordinates": [
       8.5354087,
       47.5282813
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14208458001",
+  "properties": {
+    "defibrillator:location": "2. OG Eingangsbereich",
+    "description": "Zugang zu Bürozeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:30 - 17:00",
+    "operator": "Gehrig Group AG",
+    "phone": "+41432115656",
+    "id": "node/14208458001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5549157,
+      47.4337715
     ]
   }
 }
