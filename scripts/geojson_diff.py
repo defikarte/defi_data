@@ -63,6 +63,44 @@ def address(props):
     return ", ".join(parts) if parts else None
 
 
+SHOW_NO_NAME_HINT = True  # dezenter Hinweis "kein Name in OSM" bei Fallback-Titeln
+
+
+def truncate(s, n=60):
+    s = " ".join(str(s).split())
+    return s if len(s) <= n else s[:n - 1].rstrip() + "\u2026"
+
+
+def display_name(p, lon, lat):
+    """Liefert (titel, hat_eigenen_namen, titel_ist_adresse)."""
+    name = str(p.get("name") or "").strip()
+    if name:
+        return name, True, False
+    operator = str(p.get("operator") or "").strip()
+    location = str(p.get("defibrillator:location")
+                   or p.get("defibrillator:location:de")
+                   or p.get("description") or "").strip()
+    if operator and location:
+        return truncate(f"{operator} \u2013 {location}"), False, False
+    if operator:
+        return truncate(operator), False, False
+    if location:
+        return truncate(location), False, False
+    addr = address(p)
+    if addr:
+        return addr, False, True
+    if lat is not None and lon is not None:
+        return f"Standort {lat:.5f}, {lon:.5f}", False, False
+    return "Unbenannter Defi", False, False
+
+
+def name_hint(has_name):
+    if has_name or not SHOW_NO_NAME_HINT:
+        return ""
+    return (f'<span style="color:{MUTED};font-size:12px;font-weight:400;"> '
+            f'(kein Name in OSM)</span>')
+
+
 def get_key(feature):
     p = feature.get("properties", {}) or {}
     for k in ("@id", "osm_id", "osm:id", "id", "osmid", "osmId"):
@@ -112,7 +150,9 @@ def entry_data(category, feature, changes=None):
     lon, lat = coords(feature)
     key = get_key(feature)
     addr = address(p)
-    name = str(p.get("name", "(ohne Name)"))
+    name, has_name, name_is_addr = display_name(p, lon, lat)
+    if name_is_addr:
+        addr = None
     link = map_link(lon, lat, key)
 
     is_247_badge = False
@@ -131,6 +171,7 @@ def entry_data(category, feature, changes=None):
     return {
         "category": category, "name": name, "addr": addr, "link": link,
         "change_lines": change_lines, "is_247_badge": is_247_badge,
+        "hint": name_hint(has_name),
     }
 
 
@@ -224,7 +265,7 @@ if len(entries) <= LIST_THRESHOLD:
           <tr>
             <td style="padding:12px 0;border-bottom:1px solid {RULE};">
               <span style="font-size:12px;color:{c};font-weight:600;">{dot(c)}{html.escape(e["category"])}</span><br>
-              <span style="font-size:15px;font-weight:600;color:{INK};margin-top:4px;display:inline-block;">{html.escape(e["name"])}</span>{addr_part}{name_badge}
+              <span style="font-size:15px;font-weight:600;color:{INK};margin-top:4px;display:inline-block;">{html.escape(e["name"])}</span>{e["hint"]}{addr_part}{name_badge}
               {changes_html}
               <div style="font-size:13px;margin-top:4px;">{e["link"]}</div>
             </td>
@@ -245,7 +286,7 @@ else:
             <span style="font-size:13px;color:{c};font-weight:600;">{dot(c)}{html.escape(e["category"])}</span>
           </td>
           <td style="padding:10px 8px;border-bottom:1px solid {RULE};">
-            <span style="font-weight:600;color:{INK};">{html.escape(e["name"])}</span>{name_badge}
+            <span style="font-weight:600;color:{INK};">{html.escape(e["name"])}</span>{e["hint"]}{name_badge}
             {addr_html}
           </td>
           <td style="padding:10px 8px;border-bottom:1px solid {RULE};">{changes_html}</td>

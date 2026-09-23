@@ -88,7 +88,19 @@ def main():
         lon, lat = e.get("lon"), e.get("lat")
         key = e.get("key", "")
         addr = e.get("address") or ""
-        name = e.get("name", "(ohne Name)")
+        name = str(e.get("name") or "").strip()
+        has_name = e.get("has_name", True)
+        # Altbestand aus früherem Format ("(ohne Name)") sinnvoll ersetzen
+        if not name or name == "(ohne Name)":
+            has_name = False
+            if addr:
+                name, addr = addr, ""
+            elif lat is not None and lon is not None:
+                name = f"Standort {lat:.5f}, {lon:.5f}"
+            else:
+                name = "Unbenannter Defi"
+        hint = "" if has_name else (f'<span style="color:{MUTED};font-size:12px;font-weight:400;"> '
+                                    f'(kein Name in OSM)</span>')
         changes = e.get("changes", [])
         link = maps_link(lon, lat, key)
 
@@ -100,7 +112,7 @@ def main():
           <tr>
             <td style="padding:12px 0;border-bottom:1px solid {RULE};">
               <span style="font-size:12px;color:{COLOR_GEAENDERT};font-weight:600;">{dot(COLOR_GEAENDERT)}Geändert</span><br>
-              <span style="font-size:15px;font-weight:600;color:{INK};margin-top:4px;display:inline-block;">{html.escape(name)}</span>{addr_part}
+              <span style="font-size:15px;font-weight:600;color:{INK};margin-top:4px;display:inline-block;">{html.escape(name)}</span>{hint}{addr_part}
               {changes_html}
               <div style="font-size:13px;margin-top:4px;">{link}</div>
             </td>

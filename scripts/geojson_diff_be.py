@@ -64,6 +64,44 @@ def address(props):
     return ", ".join(parts) if parts else None
 
 
+SHOW_NO_NAME_HINT = True  # dezenter Hinweis "kein Name in OSM" bei Fallback-Titeln
+
+
+def truncate(s, n=60):
+    s = " ".join(str(s).split())
+    return s if len(s) <= n else s[:n - 1].rstrip() + "\u2026"
+
+
+def display_name(p, lon, lat):
+    """Liefert (titel, hat_eigenen_namen, titel_ist_adresse)."""
+    name = str(p.get("name") or "").strip()
+    if name:
+        return name, True, False
+    operator = str(p.get("operator") or "").strip()
+    location = str(p.get("defibrillator:location")
+                   or p.get("defibrillator:location:de")
+                   or p.get("description") or "").strip()
+    if operator and location:
+        return truncate(f"{operator} \u2013 {location}"), False, False
+    if operator:
+        return truncate(operator), False, False
+    if location:
+        return truncate(location), False, False
+    addr = address(p)
+    if addr:
+        return addr, False, True
+    if lat is not None and lon is not None:
+        return f"Standort {lat:.5f}, {lon:.5f}", False, False
+    return "Unbenannter Defi", False, False
+
+
+def name_hint(has_name):
+    if has_name or not SHOW_NO_NAME_HINT:
+        return ""
+    return (f'<span style="color:{MUTED};font-size:12px;font-weight:400;"> '
+            f'(kein Name in OSM)</span>')
+
+
 def get_key(feature):
     p = feature.get("properties", {}) or {}
     for k in ("@id", "osm_id", "osm:id", "id", "osmid", "osmId"):
@@ -171,19 +209,23 @@ for k in added:
     p = props(new_idx[k])
     lon, lat = coords(new_idx[k])
     key = get_key(new_idx[k])
+    dname, has_name, name_is_addr = display_name(p, lon, lat)
     is_247 = p.get("opening_hours") == "24/7"
     immediate_entries.append({
-        "category": "Neu", "name": str(p.get("name", "(ohne Name)")),
-        "addr": address(p), "link": map_link(lon, lat, key), "is_247_badge": is_247,
+        "category": "Neu", "name": dname,
+        "addr": None if name_is_addr else address(p), "link": map_link(lon, lat, key),
+        "is_247_badge": is_247, "hint": name_hint(has_name),
     })
 
 for k in removed:
     p = props(old_idx[k])
     lon, lat = coords(old_idx[k])
     key = get_key(old_idx[k])
+    dname, has_name, name_is_addr = display_name(p, lon, lat)
     immediate_entries.append({
-        "category": "Gelöscht", "name": str(p.get("name", "(ohne Name)")),
-        "addr": address(p), "link": map_link(lon, lat, key), "is_247_badge": False,
+        "category": "Gelöscht", "name": dname,
+        "addr": None if name_is_addr else address(p), "link": map_link(lon, lat, key),
+        "is_247_badge": False, "hint": name_hint(has_name),
     })
 
 # ── Geändert: strukturiert in pending-Datei sammeln (für Weekly-Report) ─────
@@ -200,10 +242,12 @@ for k in common:
             })
     if changes:
         lon, lat = coords(new_idx[k])
+        dname, has_name, name_is_addr = display_name(npr, lon, lat)
         changed_entries.append({
             "key": k,
-            "name": npr.get("name", "(ohne Name)"),
-            "address": address(npr),
+            "name": dname,
+            "has_name": has_name,
+            "address": None if name_is_addr else address(npr),
             "lon": lon,
             "lat": lat,
             "changes": changes,
@@ -252,7 +296,7 @@ if immediate_entries:
           <tr>
             <td style="padding:12px 0;border-bottom:1px solid {RULE};">
               <span style="font-size:12px;color:{c};font-weight:600;">{dot(c)}{html.escape(e["category"])}</span><br>
-              <span style="font-size:15px;font-weight:600;color:{INK};margin-top:4px;display:inline-block;">{html.escape(e["name"])}</span>{addr_part}{name_badge}
+              <span style="font-size:15px;font-weight:600;color:{INK};margin-top:4px;display:inline-block;">{html.escape(e["name"])}</span>{e["hint"]}{addr_part}{name_badge}
               <div style="font-size:13px;margin-top:4px;">{e["link"]}</div>
             </td>
           </tr>
