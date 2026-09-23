@@ -135803,6 +135803,7 @@
     "defibrillator:location": "Grüner Aussenkasten an der Wand hinter dem Tor zur Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Samariter Val Müstair",
     "id": "node/9309828217"
@@ -309786,7 +309787,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "07:00-20:00",
     "operator": "Altersheim Schleitheim",
     "phone": "+41 52 687 41 00",
     "source": "local_knowledge, defikarte.ch",
@@ -309795,8 +309796,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4974045,
-      47.7559409
+      8.4974098,
+      47.7559373
     ]
   }
 },
@@ -383814,6 +383815,28 @@
     "coordinates": [
       7.1708739,
       47.1499939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14209479801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ARA Sennwald",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde",
+    "id": "node/14209479801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5169474,
+      47.2599968
     ]
   }
 }

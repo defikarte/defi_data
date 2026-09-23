@@ -66354,6 +66354,7 @@
     "defibrillator:location": "Grüner Aussenkasten an der Wand hinter dem Tor zur Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Samariter Val Müstair",
     "id": "node/9309828217"
@@ -132696,30 +132697,6 @@
     "coordinates": [
       8.7822543,
       47.4259021
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12498224601",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "alte Beggingerstrasse 60",
-    "description": "Nachts bitte Türklingel betätigen (Nachtwache)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Altersheim Schleitheim",
-    "phone": "+41 52 687 41 00",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12498224601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4974045,
-      47.7559409
     ]
   }
 },

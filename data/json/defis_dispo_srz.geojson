@@ -83547,7 +83547,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "07:00-20:00",
     "operator": "Altersheim Schleitheim",
     "phone": "+41 52 687 41 00",
     "source": "local_knowledge, defikarte.ch",
@@ -83556,8 +83556,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4974045,
-      47.7559409
+      8.4974098,
+      47.7559373
     ]
   }
 },

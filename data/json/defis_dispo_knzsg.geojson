@@ -39053,6 +39053,28 @@
       47.4133723
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14209479801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ARA Sennwald",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde",
+    "id": "node/14209479801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5169474,
+      47.2599968
+    ]
+  }
 }
 ]
 }

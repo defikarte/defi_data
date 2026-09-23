@@ -5014,6 +5014,7 @@
     "defibrillator:location": "Grüner Aussenkasten an der Wand hinter dem Tor zur Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Samariter Val Müstair",
     "id": "node/9309828217"

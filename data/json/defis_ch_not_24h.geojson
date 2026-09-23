@@ -177080,6 +177080,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12498224601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "alte Beggingerstrasse 60",
+    "description": "Nachts bitte Türklingel betätigen (Nachtwache)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "07:00-20:00",
+    "operator": "Altersheim Schleitheim",
+    "phone": "+41 52 687 41 00",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12498224601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4974098,
+      47.7559373
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12500290301",
   "properties": {
     "defibrillator:location": "Eingang Update Fitness",
@@ -220704,6 +220728,28 @@
     "coordinates": [
       8.5549157,
       47.4337715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14209479801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "ARA Sennwald",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde",
+    "id": "node/14209479801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5169474,
+      47.2599968
     ]
   }
 }
