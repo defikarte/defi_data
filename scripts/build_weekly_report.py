@@ -121,6 +121,21 @@ def main():
         ''')
 
     today = datetime.now(timezone.utc).strftime("%d.%m.%Y")
+
+    gains = sum(1 for e in entries if any(
+        c.get("label") == "Öffnungszeiten" and str(c.get("new")) == "24/7" for c in e.get("changes", [])))
+    losses = sum(1 for e in entries if any(
+        c.get("label") == "Öffnungszeiten" and str(c.get("old")) == "24/7" and str(c.get("new")) != "24/7"
+        for c in e.get("changes", [])))
+    summary_block = ""
+    if len(entries) > 1 and (gains or losses):
+        cells = []
+        if gains:
+            cells.append(f'<td style="padding-right:18px;"><strong style="color:{GREEN_DARK};">{gains}</strong> neu 24/7</td>')
+        if losses:
+            cells.append(f'<td><strong style="color:{COLOR_GEAENDERT};">{losses}</strong> nicht mehr 24/7</td>')
+        summary_block = (f'<table role="presentation" style="margin:14px 0 0 0;border-collapse:collapse;">'
+                         f'<tr style="font-family:{FONT};font-size:14px;color:{MUTED};">{"".join(cells)}</tr></table>')
     body_html = "".join(rows)
 
     output = f"""
@@ -144,6 +159,8 @@ Wöchentlicher Änderungs-Report – {html.escape(kanton_name)}
 <p style="font-family:{FONT};font-size:13px;color:{MUTED};margin:0;">
 Stand {today} · {len(entries)} Eintrag{"e" if len(entries) != 1 else ""} geändert diese Woche
 </p>
+
+{summary_block}
 
 <div style="font-family:{FONT};margin-top:16px;">
 {body_html}

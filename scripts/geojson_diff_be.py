@@ -151,6 +151,23 @@ def dot(color):
             f'background-color:{color};margin-right:7px;"></span>')
 
 
+def summary_html(counts, gains_247=0, losses_247=0):
+    """Zusammenfassungszeile; counts = [(label, anzahl, farbe), ...]"""
+    cells = []
+    for label, n, color in counts:
+        if n:
+            cells.append(f'<td style="padding-right:18px;white-space:nowrap;">{dot(color)}'
+                         f'<strong style="color:{INK};">{n}</strong> {label}</td>')
+    if gains_247:
+        cells.append(f'<td style="padding-right:18px;white-space:nowrap;">'
+                     f'<strong style="color:{GREEN_DARK};">{gains_247}</strong> neu 24/7</td>')
+    if losses_247:
+        cells.append(f'<td style="white-space:nowrap;">'
+                     f'<strong style="color:{COLOR_GEAENDERT};">{losses_247}</strong> nicht mehr 24/7</td>')
+    return (f'<table role="presentation" style="margin:16px 0 6px 0;border-collapse:collapse;">'
+            f'<tr style="font-family:{FONT};font-size:14px;color:{MUTED};">{"".join(cells)}</tr></table>')
+
+
 def html_shell(title, legend_html, body_html, now_str):
     return f"""
 <html>
@@ -304,8 +321,16 @@ if immediate_entries:
         ''')
     body_html = "".join(lines)
 
+    summary_block = ""
+    if len(immediate_entries) > 1:
+        n_neu = sum(1 for e in immediate_entries if e["category"] == "Neu")
+        n_del = len(immediate_entries) - n_neu
+        gains = sum(1 for e in immediate_entries if e["is_247_badge"])
+        summary_block = summary_html(
+            [("neu", n_neu, COLOR_NEU), ("gelöscht", n_del, COLOR_GELOESCHT)], gains)
+
     html_mail = html_shell(
-        "Neue und gelöschte Defis – Kanton Bern", legend, body_html, now_str
+        "Neue und gelöschte Defis – Kanton Bern", summary_block, body_html, now_str
     )
     with open("diff_immediate.html", "w", encoding="utf-8") as f:
         f.write(html_mail)

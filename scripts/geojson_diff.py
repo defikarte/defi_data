@@ -184,6 +184,23 @@ def dot(color):
             f'background-color:{color};margin-right:7px;"></span>')
 
 
+def summary_html(counts, gains_247=0, losses_247=0):
+    """Zusammenfassungszeile; counts = [(label, anzahl, farbe), ...]"""
+    cells = []
+    for label, n, color in counts:
+        if n:
+            cells.append(f'<td style="padding-right:18px;white-space:nowrap;">{dot(color)}'
+                         f'<strong style="color:{INK};">{n}</strong> {label}</td>')
+    if gains_247:
+        cells.append(f'<td style="padding-right:18px;white-space:nowrap;">'
+                     f'<strong style="color:{GREEN_DARK};">{gains_247}</strong> neu 24/7</td>')
+    if losses_247:
+        cells.append(f'<td style="white-space:nowrap;">'
+                     f'<strong style="color:{COLOR_GEAENDERT};">{losses_247}</strong> nicht mehr 24/7</td>')
+    return (f'<table role="presentation" style="margin:16px 0 6px 0;border-collapse:collapse;">'
+            f'<tr style="font-family:{FONT};font-size:14px;color:{MUTED};">{"".join(cells)}</tr></table>')
+
+
 def render_change_lines(change_lines, size=13):
     if not change_lines:
         return ""
@@ -240,6 +257,16 @@ for e in entries:
     summary[e["category"]] += 1
 
 now_str = datetime.now(timezone.utc).strftime("%d.%m.%Y, %H:%M UTC")
+
+summary_block = ""
+if len(entries) > 1:
+    gains = sum(1 for e in entries if e["is_247_badge"])
+    losses = sum(1 for e in entries if any(cl[4] for cl in e["change_lines"]))
+    summary_block = summary_html(
+        [("neu", summary["Neu"], COLOR_NEU),
+         ("geändert", summary["Geändert"], COLOR_GEAENDERT),
+         ("gelöscht", summary["Gelöscht"], COLOR_GELOESCHT)],
+        gains, losses)
 
 legend = f'''
 <table role="presentation" style="margin:14px 0 4px 0;">
@@ -321,7 +348,7 @@ html_mail = f"""
 Stand {now_str}
 </p>
 
-{legend}
+{summary_block}
 
 <div style="font-family:{FONT};margin-top:8px;">
 {body_html}
