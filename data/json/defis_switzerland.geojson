@@ -8583,6 +8583,7 @@
   "id": "node/6177297273",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-24",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -16703,12 +16704,12 @@
     "addr:housenumber": "222",
     "addr:postcode": "3803",
     "addr:street": "Spirenwaldstrasse",
-    "defibrillator:location": "Rechts neben dem Eingang",
+    "defibrillator:location": "Rechts neben dem Eingang zur Mehrzweckhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Hallenbad Beatenberg",
-    "phone": "+41 33 841 81 24",
+    "operator": "Gemeindeverwaltung Beatenberg",
+    "phone": "+41 33 841 14 59",
     "id": "node/6633357550"
   },
   "geometry": {
@@ -244384,12 +244385,13 @@
     "access": "permissive",
     "defibrillator:location": "Appisberg Haus 3b",
     "description": "Gelbes Haus Eingang Nord.",
+    "email": "e.amstutz@appisberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30 - 17:00",
     "operator": "Verein Appisberg",
-    "phone": "+41 43 843 44 10",
+    "phone": "+41 43 843 43 13",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11148833407"
   },
@@ -383909,6 +383911,86 @@
     "coordinates": [
       8.5156991,
       47.362634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212030901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Berg, neben dem Haupteingang",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Schulgemeinde Balgach",
+    "phone": "+41 71 552 36 36",
+    "id": "node/14212030901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6049952,
+      47.4081411
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212033501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Breite, Haupteingang",
+    "description": "immer erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Schulgemeinde Balgach",
+    "phone": "+41 71 552 36 36",
+    "id": "node/14212033501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6094633,
+      47.4083245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212315643",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Durchgang zwischen Gebäude A und Gebäude B",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14212315643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5190199,
+      47.3986134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212315644",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich auf der Rückseite einer grossen, weissen Säule",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14212315644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5204326,
+      47.398881
     ]
   }
 }

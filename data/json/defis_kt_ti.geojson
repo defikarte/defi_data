@@ -1516,6 +1516,7 @@
   "id": "node/6177297273",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-24",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",

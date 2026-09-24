@@ -39075,6 +39075,50 @@
       47.2599968
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14212030901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Berg, neben dem Haupteingang",
+    "description": "immer verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Schulgemeinde Balgach",
+    "phone": "+41 71 552 36 36",
+    "id": "node/14212030901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6049952,
+      47.4081411
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212033501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Breite, Haupteingang",
+    "description": "immer erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Schulgemeinde Balgach",
+    "phone": "+41 71 552 36 36",
+    "id": "node/14212033501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6094633,
+      47.4083245
+    ]
+  }
 }
 ]
 }

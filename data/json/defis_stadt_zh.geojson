@@ -19681,6 +19681,42 @@
       47.362634
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14212315643",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Durchgang zwischen Gebäude A und Gebäude B",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14212315643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5190199,
+      47.3986134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212315644",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich auf der Rückseite einer grossen, weissen Säule",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14212315644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5204326,
+      47.398881
+    ]
+  }
 }
 ]
 }

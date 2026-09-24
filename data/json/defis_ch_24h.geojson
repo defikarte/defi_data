@@ -4103,6 +4103,7 @@
   "id": "node/6177297273",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-24",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -7883,12 +7884,12 @@
     "addr:housenumber": "222",
     "addr:postcode": "3803",
     "addr:street": "Spirenwaldstrasse",
-    "defibrillator:location": "Rechts neben dem Eingang",
+    "defibrillator:location": "Rechts neben dem Eingang zur Mehrzweckhalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "opening_hours": "24/7",
-    "operator": "Hallenbad Beatenberg",
-    "phone": "+41 33 841 81 24",
+    "operator": "Gemeindeverwaltung Beatenberg",
+    "phone": "+41 33 841 14 59",
     "id": "node/6633357550"
   },
   "geometry": {

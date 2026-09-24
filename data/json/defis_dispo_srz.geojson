@@ -62210,12 +62210,13 @@
     "access": "permissive",
     "defibrillator:location": "Appisberg Haus 3b",
     "description": "Gelbes Haus Eingang Nord.",
+    "email": "e.amstutz@appisberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30 - 17:00",
     "operator": "Verein Appisberg",
-    "phone": "+41 43 843 44 10",
+    "phone": "+41 43 843 43 13",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11148833407"
   },
@@ -105210,6 +105211,42 @@
     "coordinates": [
       8.5156991,
       47.362634
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212315643",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Durchgang zwischen Gebäude A und Gebäude B",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14212315643"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5190199,
+      47.3986134
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14212315644",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Eingangsbereich auf der Rückseite einer grossen, weissen Säule",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14212315644"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5204326,
+      47.398881
     ]
   }
 }
