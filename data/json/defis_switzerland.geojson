@@ -291425,8 +291425,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5870572,
-      47.3140741
+      8.5870573,
+      47.3140744
     ]
   }
 },
@@ -383435,6 +383435,8 @@
     "email": "axel.dembeck@protonmail.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/rOx9WN-imdonjQfl_JEy4A.webp",
+    "image:license": "CC0",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Buriguet Stockwerkeigentum",
@@ -383838,6 +383840,75 @@
     "coordinates": [
       9.5169474,
       47.2599968
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14211465601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hitachi Energy / INP Gebäude Werner",
+    "email": "helpdeskbd.ch-hsg@apleona.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
+    "operator": "Apleona",
+    "id": "node/14211465601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2533713,
+      47.4958208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14211584201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstrasse 3, 6060 Sarnen; Frontseite",
+    "description": "24",
+    "email": "seelsorgrraum@kg-sarnen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kath. Kirchgemeinde Sarnen, Pfarrgässli 4, 6060 Sarnen",
+    "phone": "+41 41 662 40 20",
+    "id": "node/14211584201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2376047,
+      46.8933635
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14211739501",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "AED im 1. Stock",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "II-VI Laser Enterprise",
+    "phone": "044 455 85 85",
+    "id": "node/14211739501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5156991,
+      47.362634
     ]
   }
 }

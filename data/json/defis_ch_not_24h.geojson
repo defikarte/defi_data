@@ -220752,6 +220752,50 @@
       47.2599968
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14211465601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hitachi Energy / INP Gebäude Werner",
+    "email": "helpdeskbd.ch-hsg@apleona.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
+    "operator": "Apleona",
+    "id": "node/14211465601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2533713,
+      47.4958208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14211739501",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "AED im 1. Stock",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "II-VI Laser Enterprise",
+    "phone": "044 455 85 85",
+    "id": "node/14211739501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5156991,
+      47.362634
+    ]
+  }
 }
 ]
 }

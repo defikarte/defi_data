@@ -124095,8 +124095,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5870572,
-      47.3140741
+      8.5870573,
+      47.3140744
     ]
   }
 },
@@ -162851,6 +162851,8 @@
     "email": "axel.dembeck@protonmail.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/rOx9WN-imdonjQfl_JEy4A.webp",
+    "image:license": "CC0",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Buriguet Stockwerkeigentum",
@@ -163086,6 +163088,31 @@
     "coordinates": [
       7.1708739,
       47.1499939
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14211584201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bergstrasse 3, 6060 Sarnen; Frontseite",
+    "description": "24",
+    "email": "seelsorgrraum@kg-sarnen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kath. Kirchgemeinde Sarnen, Pfarrgässli 4, 6060 Sarnen",
+    "phone": "+41 41 662 40 20",
+    "id": "node/14211584201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2376047,
+      46.8933635
     ]
   }
 }

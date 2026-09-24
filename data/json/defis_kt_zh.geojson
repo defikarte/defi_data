@@ -59765,8 +59765,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5870572,
-      47.3140741
+      8.5870573,
+      47.3140744
     ]
   }
 },
@@ -81873,6 +81873,27 @@
     "coordinates": [
       8.5549157,
       47.4337715
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14211739501",
+  "properties": {
+    "access": "customers",
+    "defibrillator:location": "AED im 1. Stock",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
+    "operator": "II-VI Laser Enterprise",
+    "phone": "044 455 85 85",
+    "id": "node/14211739501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5156991,
+      47.362634
     ]
   }
 }

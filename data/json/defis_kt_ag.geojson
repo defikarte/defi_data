@@ -31760,6 +31760,29 @@
       47.2729288
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14211465601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hitachi Energy / INP Gebäude Werner",
+    "email": "helpdeskbd.ch-hsg@apleona.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "08:00-17:00",
+    "operator": "Apleona",
+    "id": "node/14211465601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2533713,
+      47.4958208
+    ]
+  }
 }
 ]
 }
