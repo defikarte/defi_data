@@ -400,7 +400,6 @@ Sichtbar von der Strasse aus. ",,defibrillator,144,,node/9075763717,no,,,,,,24/7
 11768851269,node,47.5402811,7.6065892,,,,,,,,,"Basler Verkehrs-Betriebe, Gebäude ""Verkehr"", Münchensteinerstrasse 83, 4052 Basel",,"Im Treppenhaus, nur während Betriebszeiten und nach Türöffnung durch Empfang erreichbar",,defibrillator,144,,node/11768851269,yes,,,,,,Mo-Fr 09:00-16:00,Basler Verkehrs-Betriebe,,,,"local_knowledge, defikarte.ch",,,
 11770815569,node,47.4478029,7.7659392,yes,,,,,,,,Eingang Mehrzweckhalle,,,,defibrillator,144,,node/11770815569,no,,0,,,,24/7,Gemeinde,,,,,,,
 11770815570,node,47.4509067,7.7630022,yes,,,,,,,,Aussenfassade Wohnhaus,,,,defibrillator,144,,node/11770815570,no,,0,,,,24/7,Gemeinde,,,,,,,
-11804281469,node,47.4835725,7.7351797,no,,,,,,,,Raiffeisenbank Liestal-Oberbaselbiet,,während den Öffnungszeiten verfügbar,,defibrillator,144,,node/11804281469,yes,,1,,,,,Raiffeisenbank Liestal-Oberbaselbiet,+41619266565,,,"local_knowledge, defikarte.ch",,,
 11804288669,node,47.4630675,7.8143477,yes,,,,,,,,Raiffeisenbank Liestal-Oberbaselbiet,,,,defibrillator,144,,node/11804288669,no,,0,,,,24/7,Raiffeisenbank Liestal-Oberbaselbiet,+41 61 926 65 65,,,"local_knowledge, defikarte.ch",,,
 11804291069,node,47.4655916,7.8530896,yes,,,,,,,,Raiffeisenbank Liestal-Oberbaselbiet,,,,defibrillator,144,,node/11804291069,yes,,0,,,,24/7,Raiffeisenbank Liestal-Oberbaselbiet,+41 61 926 65 65,,,"local_knowledge, defikarte.ch",,,
 11818235590,node,47.4574731,7.4397873,,,,,,,,,,,,,defibrillator,144,,node/11818235590,,,,,,,,,,,,,,,

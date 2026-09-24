@@ -81,7 +81,7 @@ osm_id,osm_type,lat,lon,access,check_date,covered,defibrillator:location,descrip
 9553799872,node,46.7918386,8.6711875,yes,2024-02-06,,Bei Eingang,,,defibrillator,144,,node/9553799872,no,,,,,,,24/7,,,,,
 9562065435,node,46.8670428,8.6299453,yes,2026-03-22,,Der Defibrillator ist beim Sportplatz Allmend in Attinghausen gut sichtbar an der Aussenfassade des Werkhofs montiert.,,,defibrillator,144,,node/9562065435,no,,,,,,,24/7,Gemeindeverwaltung Attinghausen,+41 41 874 14 50,,,
 9587163942,node,46.8901798,8.6278715,yes,2024-11-27,,"Nördliche Fassade, daneben der Eingang zur MassTechnik",,,defibrillator,144,,node/9587163942,no,0,,,,,,24/7,"MassTechnik GmbH, 6460 Altdorf",+41 41 870 52 29,,,
-9589469348,node,46.6393745,8.5913484,yes,,,Inside elevator hall,,,defibrillator,144,,node/9589469348,yes,,,,,,,,,,,,yes
+9589469348,node,46.6393745,8.5913485,yes,,,Inside elevator hall,Bis Dezember 2026 ausser Betrieb wegen Umbau Gebäude,parking@andermatt-swissalps.ch,defibrillator,144,,node/9589469348,yes,4,,,,,,,Andermatt Swiss Alps AG,+41 41 888 15 00,,,yes
 9605147725,node,46.8732639,8.6357294,yes,2024-11-08,,"Vor dem Hauseingang, rechts, an der Aussenwand",,,defibrillator,144,,node/9605147725,no,0,,,Pro Familiaweg 11,,,24/7,"Wohnbaugenossenschaft Pro Familia, 6460 Altdorf, Herr Beat Furrer, Hauswart",+41 79 903 59 67,,,
 9649198022,node,46.7781403,8.6514994,yes,,,In der offenen Bergstation,,,defibrillator,144,,node/9649198022,no,,,,,,,24/7,Luftseilbahn Amsteg-Arnisee,+41 41 883 12 47,,,
 9684575107,node,46.6350816,8.5957272,yes,,,Seniorenzentrum Eingang,,,defibrillator,144,,node/9684575107,yes,,,,,,,24/7,,+41 41 888 70 10,,,

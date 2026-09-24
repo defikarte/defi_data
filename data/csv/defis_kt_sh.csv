@@ -141,7 +141,7 @@ osm_id,osm_type,lat,lon,access,addr:housenumber,addr:street,check_date,defibrill
 12009925069,node,47.6855519,8.619114,,,,,"Schulhaus Rosenberg,beim Notausgang (Zimmer 16)",,,defibrillator,144,,node/12009925069,yes,,,,Schulhaus Rosenberg,,,,,,,
 12014267169,node,47.6974945,8.4584051,,,,,Lopengraben 7,,,defibrillator,144,,node/12014267169,yes,,,,Privatperson,+41796568581,,"local_knowledge, defikarte.ch",,,,
 12218696701,node,47.6613527,8.859053,yes,,,,Xundheitszentrum Chlini Schanz 42,,,defibrillator,144,,node/12218696701,yes,,,,Arztpraxis Xundheitszentrum,+41 52 741 36 26,,,,,,
-12498224601,node,47.7559409,8.4974045,yes,,,,alte Beggingerstrasse 60,Nachts bitte Türklingel betätigen (Nachtwache),,defibrillator,144,,node/12498224601,yes,,,24/7,Altersheim Schleitheim,+41 52 687 41 00,,"local_knowledge, defikarte.ch",,,,
+12498224601,node,47.7559373,8.4974098,yes,,,,alte Beggingerstrasse 60,Nachts bitte Türklingel betätigen (Nachtwache),,defibrillator,144,,node/12498224601,yes,,,07:00-20:00,Altersheim Schleitheim,+41 52 687 41 00,,"local_knowledge, defikarte.ch",,,,
 12531744201,node,47.7130944,8.6508685,permissive,,,,Im Ottos bei der ersten Kasse,während Öffnungszeiten verfügbar,,defibrillator,144,,node/12531744201,yes,1,,09:00-19:00,Verkaufsgeschäft,,,,,,,
 12638129001,node,47.7000182,8.6300075,yes,,,,Sporthalle BBZ Mühlental,"Immer Verfügbar, ist im Aussenbereich.",,defibrillator,144,,node/12638129001,no,,,24/7,BBZ Schaffhausen,+41 52 632 21 16,,"local_knowledge, defikarte.ch",,,,
 12722072301,node,47.717731,8.6605203,,,,,im Majorenacker 11,während den Öffnungszeiten,,defibrillator,144,,node/12722072301,yes,,,Mo-Fr 07:30-17:30,GVS Agrar AG,+41 52 631 19 00,,"local_knowledge, defikarte.ch",,,,

@@ -239,7 +239,7 @@ Zum Eingang in den Vorraum der Kirche rein dann geradeaus,zwei Treppen hinunter.
 9277898117,node,46.8560122,9.5243693,yes,,,,,,,,,,,,"Eingangsbereich GBC, vor dem Sekretariat",,,Nur während Öffnungszeiten zugänglich,,defibrillator,,144,,,,node/9277898117,,,no,,,0,,,,Gewerbliche Berufsschule Chur,,,,,,,,
 9309827117,node,46.6067333,10.432733,no,,,,,,,,,,,,Center da sanda Val Müstair,,,Defi im Krankenhaus,,defibrillator,,144,,,,node/9309827117,,,yes,,,,,,,Center da sanda Val Müstair,,,,,,,,
 9309827417,node,46.6261825,10.4460933,yes,,,,,,,,,,,,Reiffeisenbank Müstair,,,"Neben Bankomat an der Wand, unter dem Vordach.",,defibrillator,,144,,,,node/9309827417,,,no,,,,,,24/7,Reiffeisenbank Müstair,,,,,,,,
-9309828217,node,46.6295561,10.4490919,,,,,,,,,,,,,Grüner Aussenkasten an der Wand hinter dem Tor zur Kirche,,,,,defibrillator,,144,,,,node/9309828217,,,,,,,,,24/7,Samariter Val Müstair,,,,,,,,
+9309828217,node,46.6295561,10.4490919,,,,,,,,,,,,,Grüner Aussenkasten an der Wand hinter dem Tor zur Kirche,,,,,defibrillator,,144,,,,node/9309828217,,,no,,,,,,24/7,Samariter Val Müstair,,,,,,,,
 9309829717,node,46.6352642,10.4584855,,,,,,,,,,,,,Zollamt Müstair,,,Während Anwesenheit des Zolls verfügbar,,defibrillator,,144,,,,node/9309829717,,,yes,,,0,,,,Bundesamt für Zoll und Grenzsicherheit,,,,,,,,
 9318463429,node,46.5699061,9.3664851,yes,,,,,,,,,,,,Öffentliche zugänglicher Eingangsbereich des Gemeindehauses. Wandbefestigung auf der linken Seite.,,,,,defibrillator,,144,,,,node/9318463429,,,no,,,,,,24/7,Reaplus GmbH,,,+41 43 536 69 15,,,,,
 9327291216,node,46.7880932,9.2799282,permissive,,,,,,,,,,,,Mehrzweckhalle,,,während Öffnungszeiten verfügbar,bauamt@safiental.ch,defibrillator,,144,,,,node/9327291216,,,yes,,,-1,,,,Gemeinde Safiental,,,+41 81 630 60 59,,,,,
