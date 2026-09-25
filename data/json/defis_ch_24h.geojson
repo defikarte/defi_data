@@ -163117,6 +163117,54 @@
       46.8933635
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14213820301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Gemeinschaftsraum",
+    "email": "hauswart-leimbach@freiblick.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Baugenossenschaft Freiblick",
+    "phone": "+41 44 974 21 00",
+    "id": "node/14213820301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.540759,
+      47.3937737
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14213960301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GEVI Werkhof Biäsche",
+    "description": "Haupteingang / Aussenmontage",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Staatskanzlei Kanton St.Gallen",
+    "phone": "+41 58 229 29 08",
+    "id": "node/14213960301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0945139,
+      47.1284429
+    ]
+  }
 }
 ]
 }

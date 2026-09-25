@@ -2006,6 +2006,30 @@
       47.1350965
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14213960301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "GEVI Werkhof Biäsche",
+    "description": "Haupteingang / Aussenmontage",
+    "email": "sicherheit@sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Staatskanzlei Kanton St.Gallen",
+    "phone": "+41 58 229 29 08",
+    "id": "node/14213960301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0945139,
+      47.1284429
+    ]
+  }
 }
 ]
 }
