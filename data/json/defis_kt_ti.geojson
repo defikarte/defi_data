@@ -7266,6 +7266,24 @@
       46.1327691
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14214632101",
+  "properties": {
+    "addr:housenumber": "113",
+    "addr:street": "Riva Paradiso",
+    "check_date": "2026-09-25",
+    "emergency": "defibrillator",
+    "id": "node/14214632101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9466561,
+      45.9930388
+    ]
+  }
 }
 ]
 }

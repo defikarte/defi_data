@@ -218781,26 +218781,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14144425601",
-  "properties": {
-    "defibrillator:location": "Façade du bâtiment WC. Côté voie 1",
-    "description": "Disponible 24h/24h",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "id": "node/14144425601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.9635682,
-      46.3170963
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14148560002",
   "properties": {
     "defibrillator:location": "Haupteingang erste Türe Rechts, ÖKK Kundenempfang, hängt rechts an der Wand",
@@ -220897,6 +220877,24 @@
     "coordinates": [
       7.6054635,
       47.5217486
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14214632101",
+  "properties": {
+    "addr:housenumber": "113",
+    "addr:street": "Riva Paradiso",
+    "check_date": "2026-09-25",
+    "emergency": "defibrillator",
+    "id": "node/14214632101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9466561,
+      45.9930388
     ]
   }
 }

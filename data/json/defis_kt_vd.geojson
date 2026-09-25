@@ -14968,13 +14968,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "id": "node/14144425601"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9635682,
-      46.3170963
+      6.9635566,
+      46.3170926
     ]
   }
 },

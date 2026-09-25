@@ -374810,6 +374810,8 @@
     "email": "alessandro@rizzolini.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/bpmeTT4SWUPsBkiFptla4w.webp",
+    "image:license": "CC0",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -381017,13 +381019,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "id": "node/14144425601"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9635682,
-      46.3170963
+      6.9635566,
+      46.3170926
     ]
   }
 },
@@ -384063,6 +384066,24 @@
     "coordinates": [
       9.0945139,
       47.1284429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14214632101",
+  "properties": {
+    "addr:housenumber": "113",
+    "addr:street": "Riva Paradiso",
+    "check_date": "2026-09-25",
+    "emergency": "defibrillator",
+    "id": "node/14214632101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9466561,
+      45.9930388
     ]
   }
 }

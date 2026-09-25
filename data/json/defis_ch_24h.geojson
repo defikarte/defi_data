@@ -160027,6 +160027,8 @@
     "email": "alessandro@rizzolini.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/bpmeTT4SWUPsBkiFptla4w.webp",
+    "image:license": "CC0",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -162226,6 +162228,27 @@
     "coordinates": [
       7.1528895,
       47.0447388
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14144425601",
+  "properties": {
+    "defibrillator:location": "Façade du bâtiment WC. Côté voie 1",
+    "description": "Disponible 24h/24h",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14144425601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9635566,
+      46.3170926
     ]
   }
 },
