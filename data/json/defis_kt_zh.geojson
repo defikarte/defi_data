@@ -36848,6 +36848,7 @@
   "type": "Feature",
   "id": "node/10703821707",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Wislistrasse 9",
     "description": "24h-Wohnheim > Der AED ist im Gebäude, direkt im Eingangsbereich. Die Eingangstür ist in der Regel geschlossen, deshalb bitte klingeln oder rechtzeitig anrufen. Es sind immer Betreuer*innen vor Ort.",
     "emergency": "defibrillator",
@@ -36863,7 +36864,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5416226,
+      8.5416227,
       47.5317992
     ]
   }
