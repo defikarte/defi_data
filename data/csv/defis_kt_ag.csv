@@ -1442,3 +1442,4 @@ Im Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. gesch
 14168961201,node,47.3755615,8.2332002,,,,,,,,,,"ASTAG, Ausbildungszentrum Oben im ersten stock neben dem Lift im kesselhaus",,,,defibrillator,144,,node/14168961201,,yes,,,1,,,,,,,,,,,,,,
 14183409001,node,47.277208,7.9024021,yes,,,,,,,,,Gländstrasse 8,,Öffentliches Gebäude,,defibrillator,144,,node/14183409001,,no,,,0,,,,24/7,Feuerwehr,,,,,,,,,
 14183431301,node,47.2729288,7.8979038,yes,,,,,,,,,Langenthalerstrasse 6 Gemeindesaal Turnhalle,,Eingangsbereich Links,,defibrillator,144,,node/14183431301,,no,,,0,,,,24/7,Gemeinde,,,,,,,,,
+14211465601,node,47.4958208,8.2533713,permissive,,,,,,,,,Hitachi Energy / INP Gebäude Werner,,,helpdeskbd.ch-hsg@apleona.com,defibrillator,144,,node/14211465601,,yes,,,0,,,,08:00-17:00,Apleona,,,,,,,,,

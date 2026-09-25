@@ -79,7 +79,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 6159959285,node,46.281189,9.0040582,yes,,,,,,,Sede patriziale,,,,,defibrillator,144,,node/6159959285,,no,,,,,,,,,,,
 6159959287,node,46.3005593,8.9843088,yes,,,,,,,,,,,,defibrillator,144,,node/6159959287,,,,,,,24/7,,,,,,
 6159959288,node,46.3298294,8.9675539,yes,,,,,,,Posizionato sotto la tettoia dell'entata dell'ufficio tecnico,,,,,defibrillator,144,,node/6159959288,,no,,,,,24/7,,,,,,
-6177297273,node,46.1885488,8.8398306,yes,,,,,,,,,,,,defibrillator,144,,node/6177297273,,no,,,,,24/7,,,,,,
+6177297273,node,46.1885488,8.8398306,yes,,,,,2026-09-24,,,,,,,defibrillator,144,,node/6177297273,,no,,,,,24/7,,,,,,
 6425234749,node,45.8719326,8.9861807,,,,,,,,fuori al ingreso ,,,,,defibrillator,144,,node/6425234749,,yes,,,,,,,,,,,
 6638279372,node,45.9336273,8.9714997,,,,,,,,Outside wall,,,,,defibrillator,144,,node/6638279372,,,,,,,,,,,,,
 6689642658,node,46.1809501,8.859779,,,,,,,,"Outside the building, on a wall",,,,,defibrillator,144,,node/6689642658,,no,,,,,,,,,,,

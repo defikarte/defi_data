@@ -885,3 +885,6 @@ Vor dem Sekretariat.",,,,,defibrillator,,,,node/13999804310,yes,,,,,,,Mo-Fr 07:0
 14189151501,node,47.3659876,8.5373446,permissive,,,,,,,,,Tonhalle vor Vortragsaal 1,,,während Veranstaltungen zugänglich,manuel.kraemer@khsz.ch,defibrillator,144,,,node/14189151501,yes,,1,,,,,,Kongresshaus-Stiftung Zürich,+41 79 803 60 65,,,,,,,,
 14189465301,node,47.3701732,8.54921,permissive,,,,,,,,,"Schauspielhaus Pfauen, im Foyer, Garderobe links",,,,facility.management@schauspielhaus.ch,defibrillator,144,,,node/14189465301,yes,,0,,,,,11:00 - 19:00,Schauspielhaus Zürich AG,+41 44 258 70 22,,,,,,,,
 14189469001,node,47.3889838,8.5188069,permissive,,,,,,,,,Sch,,,,facility.management@schauspielhaus.ch,defibrillator,144,,,node/14189469001,yes,,0,,,,,10:00 - 22:00,Schauspielhaus Zürich AG,+41 44 258 70 22,,,,,,,,
+14211739501,node,47.362634,8.5156991,customers,,,,,,,,,AED im 1. Stock,,,,,defibrillator,,,,node/14211739501,yes,,,,,,,"Mo-Fr 08:00-12:00,13:00-17:00",II-VI Laser Enterprise,044 455 85 85,,,,,,,,
+14212315643,node,47.3986134,8.5190199,yes,,,,,,,,,Im Durchgang zwischen Gebäude A und Gebäude B,,,,,defibrillator,,,,node/14212315643,yes,,,,,,,,,,,,,,,,,
+14212315644,node,47.398881,8.5204326,yes,,,,,,,,,"Im Eingangsbereich auf der Rückseite einer grossen, weissen Säule",,,,,defibrillator,,,,node/14212315644,yes,,,,,,,,,,,,,,,,,
