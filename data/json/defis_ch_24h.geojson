@@ -59184,8 +59184,9 @@
   "id": "node/9075763717",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-25",
     "defibrillator:location": "Schulhaus Diegten",
-    "description": "Treppe hoch, aussen im 1.OG. \nSichtbar von der Strasse aus. ",
+    "description": "Treppe hoch, aussen im 1.OG. \nSichtbar von der Strasse aus.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
