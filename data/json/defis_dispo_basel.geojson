@@ -15306,6 +15306,28 @@
       47.5643697
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14213045502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grabenackerstrasse 11",
+    "email": "gruppenpraxis.muenchenstein@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "phone": "+41614115252",
+    "id": "node/14213045502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6054635,
+      47.5217486
+    ]
+  }
 }
 ]
 }
