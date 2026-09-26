@@ -31783,6 +31783,24 @@
       47.4958208
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14219579202",
+  "properties": {
+    "defibrillator:location": "Lenzburg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14219579202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2327817,
+      47.5437018
+    ]
+  }
 }
 ]
 }
