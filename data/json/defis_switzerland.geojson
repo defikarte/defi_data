@@ -384123,6 +384123,29 @@
       47.5437018
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14220308702",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Primarschule Grüsch",
+    "description": "beim Singsaal",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Grüsch",
+    "phone": "+41813001200",
+    "id": "node/14220308702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.6480977,
+      46.9822778
+    ]
+  }
 }
 ]
 }
