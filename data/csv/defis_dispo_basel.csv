@@ -77,8 +77,8 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:floor,addr:housenumbe
 9056666517,node,47.4272261,7.7611904,yes,,,,,,,,MZH,,,,defibrillator,144,,node/9056666517,no,,,,,,24/7,,,,,,,,
 9064091917,node,47.5521859,7.6006442,yes,,,,,,,,Unmittelbar vor dem Gebäudeeingang,,,,defibrillator,144,,node/9064091917,no,,,,,,24/7,Rebecca Santschi,+41 79 544 95 21,,,,,,
 9074140817,node,47.4266745,7.8983655,yes,,,,,,,,Gemeindehaus,,,,defibrillator,144,,node/9074140817,no,,,,,,24/7,,,,,,,,
-9075763717,node,47.4129594,7.8121007,yes,,,,,,,,Schulhaus Diegten,,"Treppe hoch, aussen im 1.OG. 
-Sichtbar von der Strasse aus. ",,defibrillator,144,,node/9075763717,no,,,,,,24/7,Gemeinde Diegten,,,,,,,
+9075763717,node,47.4129594,7.8121007,yes,,,,,,,2026-09-25,Schulhaus Diegten,,"Treppe hoch, aussen im 1.OG. 
+Sichtbar von der Strasse aus.",,defibrillator,144,,node/9075763717,no,,,,,,24/7,Gemeinde Diegten,,,,,,,
 9076913317,node,47.5261742,7.6968665,yes,,,,,,,,Prodega Pratteln,,Beim Bistro,,defibrillator,144,,node/9076913317,yes,,,,,,Mo-We 07:00-18:00; Th 07:00-20:00; Sa 07:00-16:00,Prodega Pratteln,,,,,,,
 9088936117,node,47.5631111,7.5798301,permissive,,,,,,,,LZM Unibasel 3. Stock,,"von Treppen aus, gerade aus.",,defibrillator,144,,node/9088936117,yes,,,,,,Mo-Fr 08:00-19:00,Universität Basel,,,,,,,
 9097131507,node,47.4461988,7.6952013,permissive,,,,,,,,Am Gemeindehaus,,07:00-16:30,,defibrillator,144,,node/9097131507,yes,,,,,,24/7,Gemeinde Lupsingen,+41 61 915 90 50,,,,,,
