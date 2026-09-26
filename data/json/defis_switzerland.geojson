@@ -384086,6 +384086,25 @@
       45.9930388
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14219320702",
+  "properties": {
+    "defibrillator:location": "Mülinenstrasse 25",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/14219320702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.644105,
+      46.7473969
+    ]
+  }
 }
 ]
 }
