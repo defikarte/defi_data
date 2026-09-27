@@ -102766,8 +102766,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7708129,
-      46.1560129
+      8.7708437,
+      46.1559713
     ]
   }
 },
@@ -141346,30 +141346,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12986455902",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Vereinshaus Pontoniere Rheinfelden, links neben Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Pontoniere Rheinfelden",
-    "phone": "+41 76 209 18 96",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12986455902"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8034687,
-      47.5636482
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12987200001",
   "properties": {
     "access": "yes",
@@ -163210,6 +163186,69 @@
     "coordinates": [
       9.6480977,
       46.9822778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14222261001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang, gut sichtbar zugänglich",
+    "description": "Defibrillator gut sichtbar beim Eingang.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14222261001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3025105,
+      47.4793864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14223721198",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14223721198"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7794625,
+      46.1481834
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14224319301",
+  "properties": {
+    "defibrillator:location": "Porto Patriziale Ascona",
+    "description": "neben dem Büro des Capitano",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "?",
+    "id": "node/14224319301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7918361,
+      46.1475472
     ]
   }
 }

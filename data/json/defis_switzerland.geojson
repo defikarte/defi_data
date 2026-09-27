@@ -167767,6 +167767,7 @@
   "id": "node/9917843279",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-26",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -242460,8 +242461,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7708129,
-      46.1560129
+      8.7708437,
+      46.1559713
     ]
   }
 },
@@ -275470,7 +275471,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "name": "GEBLOG Med AG",
+    "name": "Geblog Med AG",
     "opening_hours": "\"Nur zu Geschäftszeiten\"",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -331204,11 +331205,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Vereinshaus Pontoniere Rheinfelden, links neben Eingang",
+    "description": "NICHT VERFÜGBAR - WARTUNG/REPARATUR",
+    "email": "info@pfvr.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
+    "opening_hours": "off",
     "operator": "Pontoniere Rheinfelden",
     "phone": "+41 76 209 18 96",
     "source": "local_knowledge, defikarte.ch",
@@ -384144,6 +384147,69 @@
     "coordinates": [
       9.6480977,
       46.9822778
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14222261001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang, gut sichtbar zugänglich",
+    "description": "Defibrillator gut sichtbar beim Eingang.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14222261001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3025105,
+      47.4793864
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14223721198",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14223721198"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7794625,
+      46.1481834
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14224319301",
+  "properties": {
+    "defibrillator:location": "Porto Patriziale Ascona",
+    "description": "neben dem Büro des Capitano",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "?",
+    "id": "node/14224319301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7918361,
+      46.1475472
     ]
   }
 }

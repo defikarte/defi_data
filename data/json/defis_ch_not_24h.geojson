@@ -88598,6 +88598,7 @@
   "id": "node/9917843279",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-26",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -158214,7 +158215,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "name": "GEBLOG Med AG",
+    "name": "Geblog Med AG",
     "opening_hours": "\"Nur zu Geschäftszeiten\"",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
@@ -189852,6 +189853,32 @@
     "coordinates": [
       6.8338652,
       46.3439847
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12986455902",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vereinshaus Pontoniere Rheinfelden, links neben Eingang",
+    "description": "NICHT VERFÜGBAR - WARTUNG/REPARATUR",
+    "email": "info@pfvr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "off",
+    "operator": "Pontoniere Rheinfelden",
+    "phone": "+41 76 209 18 96",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12986455902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8034687,
+      47.5636482
     ]
   }
 },

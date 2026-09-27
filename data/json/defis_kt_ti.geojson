@@ -5209,8 +5209,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7708129,
-      46.1560129
+      8.7708437,
+      46.1559713
     ]
   }
 },
@@ -7282,6 +7282,47 @@
     "coordinates": [
       8.9466561,
       45.9930388
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14223721198",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14223721198"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7794625,
+      46.1481834
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14224319301",
+  "properties": {
+    "defibrillator:location": "Porto Patriziale Ascona",
+    "description": "neben dem Büro des Capitano",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "?",
+    "id": "node/14224319301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7918361,
+      46.1475472
     ]
   }
 }

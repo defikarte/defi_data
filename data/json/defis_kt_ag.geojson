@@ -12523,6 +12523,7 @@
   "id": "node/9917843279",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-26",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -28119,11 +28120,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Vereinshaus Pontoniere Rheinfelden, links neben Eingang",
+    "description": "NICHT VERFÜGBAR - WARTUNG/REPARATUR",
+    "email": "info@pfvr.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
+    "opening_hours": "off",
     "operator": "Pontoniere Rheinfelden",
     "phone": "+41 76 209 18 96",
     "source": "local_knowledge, defikarte.ch",
@@ -31799,6 +31802,28 @@
     "coordinates": [
       8.2327817,
       47.5437018
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14222261001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Eingang, gut sichtbar zugänglich",
+    "description": "Defibrillator gut sichtbar beim Eingang.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14222261001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3025105,
+      47.4793864
     ]
   }
 }
