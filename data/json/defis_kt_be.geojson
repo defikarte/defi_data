@@ -66175,6 +66175,26 @@
       46.7473969
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14226241401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bremgartenfriedhof, Nordostseite des Verwaltungsgebäudes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/14226241401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4238693,
+      46.9500444
+    ]
+  }
 }
 ]
 }

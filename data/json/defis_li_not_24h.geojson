@@ -2230,6 +2230,25 @@
       47.1773515
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14226211201",
+  "properties": {
+    "defibrillator:location": "Unterm Schloss 68",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14226211201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.497388,
+      47.0647605
+    ]
+  }
 }
 ]
 }

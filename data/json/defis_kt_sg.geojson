@@ -33031,6 +33031,29 @@
       47.4083245
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14226396801",
+  "properties": {
+    "defibrillator:location": "Sporthalle Seeblick",
+    "description": "Im Sanitätszimmer",
+    "email": "sekretariat@schulemoerschwil.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Schulgemeinde",
+    "phone": "+41 71 868 99 99",
+    "id": "node/14226396801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4253341,
+      47.4693332
+    ]
+  }
 }
 ]
 }

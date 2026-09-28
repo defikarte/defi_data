@@ -384212,6 +384212,49 @@
       46.1475472
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14226241401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bremgartenfriedhof, Nordostseite des Verwaltungsgebäudes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/14226241401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4238693,
+      46.9500444
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14226396801",
+  "properties": {
+    "defibrillator:location": "Sporthalle Seeblick",
+    "description": "Im Sanitätszimmer",
+    "email": "sekretariat@schulemoerschwil.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Schulgemeinde",
+    "phone": "+41 71 868 99 99",
+    "id": "node/14226396801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4253341,
+      47.4693332
+    ]
+  }
 }
 ]
 }
