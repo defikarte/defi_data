@@ -9,6 +9,7 @@ Verwendung:
 import json
 import html
 import sys
+import re
 from datetime import datetime, timezone
 
 DEFIKARTE_LOGO_URL = "https://assets.defikarte.ch/logo/logo_gruen.jpg"
@@ -22,6 +23,31 @@ BG          = "#FFFFFF"
 COLOR_GEAENDERT = "#E8A33D"
 
 FONT = "'Poppins', Arial, Helvetica, sans-serif"
+
+
+FIELD_LABELS = {
+    "name": "Name", "status": "Status", "operator": "Betreiber", "phone": "Telefon",
+    "access": "Zugang", "opening_hours": "Öffnungszeiten",
+    "defibrillator:location": "Standortbeschreibung", "description": "Beschreibung",
+    "level": "Stockwerk", "addr:street": "Strasse", "addr:housenumber": "Hausnummer",
+    "addr:postcode": "PLZ", "addr:city": "Ort", "indoor": "Innenbereich",
+}
+
+_OLD_FORMAT = re.compile(r"^(.*?): '(.*)' \u2192 '(.*)'$", re.DOTALL)
+
+
+def normalize_change(c):
+    """Akzeptiert neues Format (dict) und altes Format (Textzeile).
+    Gibt immer ein dict zurück: {label, old, new} oder {raw} falls unlesbar."""
+    if isinstance(c, dict):
+        return c
+    text = str(c)
+    m = _OLD_FORMAT.match(text)
+    if not m:
+        return {"raw": text}
+    key, old_v, new_v = m.groups()
+    to_val = lambda v: None if v == "None" else v
+    return {"label": FIELD_LABELS.get(key, key), "old": to_val(old_v), "new": to_val(new_v)}
 
 
 def maps_link(lon, lat, key=None):
@@ -48,6 +74,9 @@ def render_changes(changes, size=13):
         return ""
     parts = []
     for c in changes:
+        if "raw" in c:
+            parts.append(f'<div style="color:{MUTED};font-size:{size}px;margin-top:2px;">{html.escape(c["raw"])}</div>')
+            continue
         label, old_v, new_v = c.get("label", ""), c.get("old"), c.get("new")
         gain_247 = (label == "Öffnungszeiten" and str(new_v) == "24/7")
         loss_247 = (label == "Öffnungszeiten" and str(old_v) == "24/7" and str(new_v) != "24/7")
@@ -82,6 +111,9 @@ def main():
 
     with open(pending_file, encoding="utf-8") as f:
         entries = json.load(f)
+
+    for e in entries:
+        e["changes"] = [normalize_change(c) for c in e.get("changes", [])]
 
     rows = []
     for e in entries:
