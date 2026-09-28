@@ -24664,6 +24664,31 @@
       46.9386698
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14227243101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Carport vor dem Pfarrhaus",
+    "description": "Immer verfügbar",
+    "email": "sekretariat.sursee@reflu.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Reformierte Kirchgemeinde Sursee",
+    "phone": "+41 41 921 11 19",
+    "id": "node/14227243101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1073948,
+      47.1707955
+    ]
+  }
 }
 ]
 }

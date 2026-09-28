@@ -14033,9 +14033,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang Friedhof WC",
+    "description": "Eingang zwischen Pfarrei Gebäude & Kirche. Weg beim Pfarrei Briefkasten zur Kirche, dann links Weg hinunter bei \"Hunde an der Leine führen\"-Schild",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
     "opening_hours": "Mo-Fr 08:00-20:00",
     "operator": "Sekretariat Pfarrei Zufikon",
     "phone": "+41 56 633 14 85",
@@ -14044,8 +14046,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3607221,
-      47.3446572
+      8.3608274,
+      47.3445963
     ]
   }
 },
@@ -28078,11 +28080,13 @@
   "id": "node/12965801201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Tiefgarageneinfahrt rechts",
+    "defibrillator:location": "In Tiefgarageneinfahrt rechts",
+    "description": "In Tiefgarageneinfahrt vor Tor rechts im Ecken",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "-1",
+    "opening_hours": "24/7",
     "operator": "Miteigentümergemeinschaft Lindenpark",
     "phone": "+41565526161",
     "source": "aed-source",
@@ -28091,8 +28095,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3552527,
-      47.3492767
+      8.3552442,
+      47.3492548
     ]
   }
 },
