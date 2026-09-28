@@ -15032,6 +15032,30 @@
       46.4188181
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14229028001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Local du sauvetage de Clarens",
+    "description": "Disponible lors de la présence des sauveteurs",
+    "email": "formation@sauvetage-clarens.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Société de sauvetage de Clarens",
+    "phone": "+41 79 324 53 88",
+    "id": "node/14229028001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8892106,
+      46.4396971
+    ]
+  }
 }
 ]
 }
