@@ -263,7 +263,7 @@ en: Please survey on site. Location looks unreasonable on aerial imagenery.",nod
 11038063805,node,45.9810263,8.9075445,yes,,,,,,,Bushaltestelle,,,,,defibrillator,144,,node/11038063805,,no,,,,,24/7,Gemeinde,,,,,
 11055649010,node,46.0029615,8.9619867,yes,,,,,,,"Outside on the wooden wall, in a green metal box.",,,,,defibrillator,144,,node/11055649010,,,0,,,,24/7,,,,,,yes
 11071977109,node,46.1513696,8.9414169,,,,,,,,,,,,,defibrillator,144,,node/11071977109,,yes,,,,,,,,,,,
-11089066905,node,46.1560129,8.7708129,yes,,,,,,,Eingang Parkhaus,,,,,defibrillator,144,,node/11089066905,,no,0,,,,24/7,,,,,,
+11089066905,node,46.1559713,8.7708437,yes,,,,,,,Eingang Parkhaus,,,,,defibrillator,144,,node/11089066905,,no,0,,,,24/7,,,,,,
 11090331086,node,46.156143,8.6547033,yes,,,,,,,,,,,,defibrillator,144,,node/11090331086,,no,,,,,24/7,,,,,,
 11107544505,node,46.0476245,8.9864731,yes,,,,,,,Entrata principale c/o Casa per Anziani - Fondazione Bianca Maria,,,,,defibrillator,144,,node/11107544505,,no,,,,,24/7,Fondazione Ticino Cuore,+41 91 611 47 97,,"local_knowledge, defikarte.ch",,
 11107546305,node,46.0538531,8.9945519,yes,,,,,,,Ex cabina telefonica - Villa Luganese,,,,,defibrillator,144,,node/11107546305,,no,,,,,24/7,Fondazione Ticino Cuore,+41 91 611 47 97,,"local_knowledge, defikarte.ch",,
@@ -364,3 +364,5 @@ en: Please survey on site. Location looks unreasonable on aerial imagenery.",nod
 14102606801,node,46.1691246,8.800738,yes,,,,,,,SWICA Agentur Locarno - Corridoio,,,während Öffnungszeiten verfügbar,fm@swica.ch,defibrillator,144,,node/14102606801,,yes,0,,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,+41 52 244 22 33,,,,
 14140603770,node,46.1327691,8.7358437,,,,,,,,,,,,,defibrillator,,,node/14140603770,,yes,,,,,,,,,,,
 14214632101,node,45.9930388,8.9466561,,,113,,Riva Paradiso,2026-09-25,,,,,,,defibrillator,,,node/14214632101,,,,,,,,,,,,,
+14223721198,node,46.1481834,8.7794625,yes,,,,,,,,,,,,defibrillator,144,,node/14223721198,,no,0,,,,24/7,,,,,,
+14224319301,node,46.1475472,8.7918361,,,,,,,,Porto Patriziale Ascona,,,neben dem Büro des Capitano,,defibrillator,144,,node/14224319301,,no,,,,,24/7,?,,,,,
