@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "key": "node/6518669550",
+    "name": "Hector Egger Holzbau AG – Hector Egger Holzbau AG",
+    "has_name": false,
+    "address": "Steinackerweg 18, 4901 Langenthal",
+    "lon": 7.78784,
+    "lat": 47.2268779,
+    "changes": [
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-09-29T17:42:49.998976+00:00"
+  }
+]
