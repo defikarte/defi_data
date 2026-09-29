@@ -62,7 +62,7 @@ osm_id,osm_type,lat,lon,access,check_date,defibrillator:location,description,ema
 8752763721,node,46.8915775,8.2481265,,,im Haus Looschä im Eingangsbereich,,,defibrillator,144,node/8752763721,yes,,,24/7,Sandra Schallberger,+41 79 961 62 41,,
 8752788917,node,46.8572981,8.2196808,yes,,Ausserhalb der Firma Rollende Werkstatt Kran AG,,,defibrillator,144,node/8752788917,no,,,24/7,Rollende Werkstatt Kran AG,+41796595349,,
 8803549250,node,46.8865562,8.2119812,yes,,Eingang ehemaliges Hotel Schwanderhof,,,defibrillator,144,node/8803549250,no,,,24/7,Gemeinde Sarnen,,,
-8839390917,node,46.8875589,8.243588,yes,2026-06-23,WC Minigolfanlage,,,defibrillator,144,node/8839390917,no,,,24/7,Gemeinde Sarnen,,,
+8839390917,node,46.8875454,8.243651,yes,2026-06-23,WC Minigolfanlage,,,defibrillator,144,node/8839390917,no,,,24/7,Gemeinde Sarnen,,,
 8883892418,node,46.8976654,8.2331156,yes,,Postfächer,,,defibrillator,144,node/8883892418,no,,,24/7,Gemeinde Sarnen,+41799616241,,
 8883909317,node,46.8810942,8.224794,yes,,Haltestelle,,,defibrillator,144,node/8883909317,no,,,24/7,Gemeinde Sarnen,+41799616241,,
 8890548217,node,46.7757086,8.2689345,no,,SOS Pistenrettung,während Bahnbetrieb,,defibrillator,144,node/8890548217,yes,,,,Frutt Bahnen,,,
