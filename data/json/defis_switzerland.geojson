@@ -10711,6 +10711,7 @@
     "defibrillator:location": "Hector Egger Holzbau AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-11:45,13:00-17:15",
     "operator": "Hector Egger Holzbau AG",
     "phone": "+41 62 919 07 07",
@@ -268724,13 +268725,13 @@
   "id": "node/11733894909",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Im Eingangsbereich (Vorraum) Turnhalle\n\n1252LTM",
+    "defibrillator:location": "Im Eingangsbereich (Vorraum) Turnhalle 1252LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Gemeinde Thusis",
-    "opening_hours": "Während Schulzeit",
+    "opening_hours": "\"Während Schulzeit\"",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11733894909"
@@ -268771,13 +268772,13 @@
   "id": "node/11733915483",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Im Eingangsbereich, Turnhalle Dorf\n\n1253TM",
+    "defibrillator:location": "Im Eingangsbereich, Turnhalle Dorf 1253TM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Gemeinde Thusis",
-    "opening_hours": "Während der Schulzeit",
+    "opening_hours": "\"Während der Schulzeit\"",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11733915483"
@@ -268795,14 +268796,14 @@
   "id": "node/11733939695",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Erdgeschoss im Schulhaus ( von Sicht Parkplatz her linkes Gebäude)  1254LTM",
+    "defibrillator:location": "Erdgeschoss im Schulhaus ( von Sicht Parkplatz her linkes Gebäude) 1254LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "name": "Gemeinde Thusis",
-    "opening_hours": "Während der Schulzeit",
+    "opening_hours": "\"Während der Schulzeit\"",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11733939695"
@@ -384306,6 +384307,49 @@
     "coordinates": [
       6.8892106,
       46.4396971
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14231613801",
+  "properties": {
+    "defibrillator:location": "Sportzentrum Bechburg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/14231613801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7227843,
+      47.285673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14231623901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Physiotherapie Anita Egeter GmbH",
+    "description": "zugänglich während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:00",
+    "operator": "Physiotherapie Anita Egeter",
+    "phone": "+41763230225",
+    "id": "node/14231623901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5456926,
+      47.3002953
     ]
   }
 }

@@ -3511,6 +3511,7 @@
     "defibrillator:location": "Hector Egger Holzbau AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-11:45,13:00-17:15",
     "operator": "Hector Egger Holzbau AG",
     "phone": "+41 62 919 07 07",

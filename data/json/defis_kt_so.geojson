@@ -11142,6 +11142,25 @@
       47.207346
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14231613801",
+  "properties": {
+    "defibrillator:location": "Sportzentrum Bechburg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/14231613801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7227843,
+      47.285673
+    ]
+  }
 }
 ]
 }

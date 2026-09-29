@@ -12230,13 +12230,13 @@
   "id": "node/11733894909",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Im Eingangsbereich (Vorraum) Turnhalle\n\n1252LTM",
+    "defibrillator:location": "Im Eingangsbereich (Vorraum) Turnhalle 1252LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Gemeinde Thusis",
-    "opening_hours": "Während Schulzeit",
+    "opening_hours": "\"Während Schulzeit\"",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11733894909"
@@ -12254,13 +12254,13 @@
   "id": "node/11733915483",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Im Eingangsbereich, Turnhalle Dorf\n\n1253TM",
+    "defibrillator:location": "Im Eingangsbereich, Turnhalle Dorf 1253TM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Gemeinde Thusis",
-    "opening_hours": "Während der Schulzeit",
+    "opening_hours": "\"Während der Schulzeit\"",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11733915483"
@@ -12278,14 +12278,14 @@
   "id": "node/11733939695",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Erdgeschoss im Schulhaus ( von Sicht Parkplatz her linkes Gebäude)  1254LTM",
+    "defibrillator:location": "Erdgeschoss im Schulhaus ( von Sicht Parkplatz her linkes Gebäude) 1254LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "name": "Gemeinde Thusis",
-    "opening_hours": "Während der Schulzeit",
+    "opening_hours": "\"Während der Schulzeit\"",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11733939695"

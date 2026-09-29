@@ -39166,6 +39166,30 @@
       47.4693332
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14231623901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Physiotherapie Anita Egeter GmbH",
+    "description": "zugänglich während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-18:00",
+    "operator": "Physiotherapie Anita Egeter",
+    "phone": "+41763230225",
+    "id": "node/14231623901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5456926,
+      47.3002953
+    ]
+  }
 }
 ]
 }
