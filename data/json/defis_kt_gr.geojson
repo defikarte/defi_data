@@ -10557,8 +10557,8 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-02-13",
-    "defibrillator:location": "Via da l'Alp 6\nneben Hoteleingang Hotel Bellavista\n1259LTS",
-    "description": "Grüner Kasten /  Koffer Orange",
+    "defibrillator:location": "Via da l'Alp 6 neben Hoteleingang Hotel Bellavista 1259LTS",
+    "description": "Grüner Kasten / Koffer Orange",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -10572,8 +10572,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.810302,
-      46.4580954
+      9.8103657,
+      46.4580659
     ]
   }
 },

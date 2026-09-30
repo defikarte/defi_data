@@ -4112,6 +4112,75 @@
       47.6779854
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14233144301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bibliotheke thayngen",
+    "description": "vor unterem eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "bibliotheke gemeinde",
+    "id": "node/14233144301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7073971,
+      47.7474873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14233144401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bibliotheke thayngen",
+    "description": "vor unterem eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "bibliotheke gemeinde",
+    "id": "node/14233144401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7073971,
+      47.7474873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14233145401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bibliotheke thayngen",
+    "description": "vor unterem eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "bibliotheke gemeinde",
+    "id": "node/14233145401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7073971,
+      47.7474873
+    ]
+  }
 }
 ]
 }
