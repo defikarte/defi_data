@@ -2,218 +2,77 @@
 Erzeugt das HTML für den wöchentlichen Änderungs-Report aus einer
 pending_changes_<id>.json Datei (geschrieben von geojson_diff_be.py).
 
+Versteht auch Einträge im alten Format (Änderungen als Textzeile
+"feld: 'alt' → 'neu'", Name "(ohne Name)").
+
 Verwendung:
     python build_weekly_report.py <pending_file> <kanton_name> <output_html>
 """
 
 import json
-import html
-import sys
 import re
+import sys
 from datetime import datetime, timezone
 
-DEFIKARTE_LOGO_URL = "https://assets.defikarte.ch/logo/logo_gruen.jpg"
-
-GREEN_LIGHT = "#97C568"
-GREEN_DARK  = "#144430"
-INK         = "#1F2937"
-MUTED       = "#6B7280"
-RULE        = "#E5E7EB"
-BG          = "#FFFFFF"
-COLOR_GEAENDERT = "#E8A33D"
-
-FONT = "'Poppins', Arial, Helvetica, sans-serif"
-
-
-FIELD_LABELS = {
-    "name": "Name", "status": "Status", "operator": "Betreiber", "phone": "Telefon",
-    "access": "Zugang", "opening_hours": "Öffnungszeiten",
-    "defibrillator:location": "Standortbeschreibung", "description": "Beschreibung",
-    "level": "Stockwerk", "addr:street": "Strasse", "addr:housenumber": "Hausnummer",
-    "addr:postcode": "PLZ", "addr:city": "Ort", "indoor": "Innenbereich",
-}
+from mail_common import FIELD_LABELS, map_url, page, summary_html
 
 _OLD_FORMAT = re.compile(r"^(.*?): '(.*)' \u2192 '(.*)'$", re.DOTALL)
 
 
 def normalize_change(c):
-    """Akzeptiert neues Format (dict) und altes Format (Textzeile).
-    Gibt immer ein dict zurück: {label, old, new} oder {raw} falls unlesbar."""
+    """Neues Format (dict) oder altes Format (Text) -> (label, alt, neu) bzw. ("__raw__", text)."""
     if isinstance(c, dict):
-        return c
-    text = str(c)
-    m = _OLD_FORMAT.match(text)
+        return (c.get("label", ""), c.get("old"), c.get("new"))
+    m = _OLD_FORMAT.match(str(c))
     if not m:
-        return {"raw": text}
+        return ("__raw__", str(c))
     key, old_v, new_v = m.groups()
     to_val = lambda v: None if v == "None" else v
-    return {"label": FIELD_LABELS.get(key, key), "old": to_val(old_v), "new": to_val(new_v)}
+    return (FIELD_LABELS.get(key, key), to_val(old_v), to_val(new_v))
 
 
-def maps_link(lon, lat, key=None):
-    if key and key.startswith(("node/", "way/", "relation/")):
-        return f'<a href="https://www.openstreetmap.org/{key}" style="color:{GREEN_DARK};">Karte</a>'
-    if lon is not None and lat is not None:
-        return f'<a href="https://www.google.com/maps?q={lat},{lon}" style="color:{GREEN_DARK};">Karte</a>'
-    return ""
-
-
-def badge_247():
-    return (f'<span style="display:inline-block;background-color:{GREEN_DARK};color:#ffffff;'
-            f'font-size:10px;font-weight:700;letter-spacing:0.3px;padding:2px 7px;'
-            f'border-radius:3px;margin-left:8px;vertical-align:middle;">24/7</span>')
-
-
-def dot(color):
-    return (f'<span style="display:inline-block;width:9px;height:9px;border-radius:50%;'
-            f'background-color:{color};margin-right:7px;"></span>')
-
-
-def render_changes(changes, size=13):
-    if not changes:
-        return ""
-    parts = []
-    for c in changes:
-        if "raw" in c:
-            parts.append(f'<div style="color:{MUTED};font-size:{size}px;margin-top:2px;">{html.escape(c["raw"])}</div>')
-            continue
-        label, old_v, new_v = c.get("label", ""), c.get("old"), c.get("new")
-        gain_247 = (label == "Öffnungszeiten" and str(new_v) == "24/7")
-        loss_247 = (label == "Öffnungszeiten" and str(old_v) == "24/7" and str(new_v) != "24/7")
-        if gain_247:
-            parts.append(
-                f'<div style="font-size:{size}px;margin-top:2px;">'
-                f'<span style="color:{GREEN_DARK};font-weight:700;">{html.escape(label)}: neu {html.escape(str(new_v))}</span>'
-                f'{badge_247()}</div>'
-            )
-        elif loss_247:
-            parts.append(
-                f'<div style="font-size:{size}px;margin-top:2px;">'
-                f'<span style="color:{COLOR_GEAENDERT};font-weight:700;">{html.escape(label)}: nicht mehr 24/7 '
-                f'({html.escape(str(old_v))} \u2192 {html.escape(str(new_v))})</span></div>'
-            )
+def to_entry(e):
+    lon, lat = e.get("lon"), e.get("lat")
+    name = str(e.get("name") or "").strip()
+    addr = e.get("address") or None
+    has_name = e.get("has_name", True)
+    if not name or name == "(ohne Name)":
+        has_name = False
+        if addr:
+            name, addr = addr, None
+        elif lat is not None and lon is not None:
+            name = f"Standort {lat:.5f}, {lon:.5f}"
         else:
-            parts.append(
-                f'<div style="color:{MUTED};font-size:{size}px;margin-top:2px;">'
-                f'{html.escape(label)} {html.escape(str(old_v))} \u2192 {html.escape(str(new_v))}</div>'
-            )
-    return "".join(parts)
-
-
-def has_247_gain(changes):
-    return any(c.get("label") == "Öffnungszeiten" and str(c.get("new")) == "24/7" for c in changes)
+            name = "Unbenannter Defi"
+    return {
+        "status": "Geändert",
+        "name": name,
+        "has_name": has_name,
+        "addr": addr,
+        "url": map_url(lon, lat, e.get("key")),
+        "new_247": False,
+        "changes": [normalize_change(c) for c in e.get("changes", [])],
+    }
 
 
 def main():
-    pending_file = sys.argv[1]
-    kanton_name = sys.argv[2]
-    output_file = sys.argv[3]
+    pending_file, kanton_name, output_file = sys.argv[1], sys.argv[2], sys.argv[3]
 
     with open(pending_file, encoding="utf-8") as f:
-        entries = json.load(f)
-
-    for e in entries:
-        e["changes"] = [normalize_change(c) for c in e.get("changes", [])]
-
-    rows = []
-    for e in entries:
-        lon, lat = e.get("lon"), e.get("lat")
-        key = e.get("key", "")
-        addr = e.get("address") or ""
-        name = str(e.get("name") or "").strip()
-        has_name = e.get("has_name", True)
-        # Altbestand aus früherem Format ("(ohne Name)") sinnvoll ersetzen
-        if not name or name == "(ohne Name)":
-            has_name = False
-            if addr:
-                name, addr = addr, ""
-            elif lat is not None and lon is not None:
-                name = f"Standort {lat:.5f}, {lon:.5f}"
-            else:
-                name = "Unbenannter Defi"
-        hint = "" if has_name else (f'<span style="color:{MUTED};font-size:12px;font-weight:400;"> '
-                                    f'(kein Name in OSM)</span>')
-        changes = e.get("changes", [])
-        link = maps_link(lon, lat, key)
-
-        addr_part = f'<span style="color:{MUTED};"> · {html.escape(addr)}</span>' if addr else ""
-        changes_html = render_changes(changes)
-
-        rows.append(f'''
-        <table role="presentation" width="100%" style="border-collapse:collapse;">
-          <tr>
-            <td style="padding:12px 0;border-bottom:1px solid {RULE};">
-              <span style="font-size:12px;color:{COLOR_GEAENDERT};font-weight:600;">{dot(COLOR_GEAENDERT)}Geändert</span><br>
-              <span style="font-size:15px;font-weight:600;color:{INK};margin-top:4px;display:inline-block;">{html.escape(name)}</span>{hint}{addr_part}
-              {changes_html}
-              <div style="font-size:13px;margin-top:4px;">{link}</div>
-            </td>
-          </tr>
-        </table>
-        ''')
+        entries = [to_entry(e) for e in json.load(f)]
 
     today = datetime.now(timezone.utc).strftime("%d.%m.%Y")
+    n = len(entries)
+    subtitle = f"Stand {today} · {n} Eintrag{'e' if n != 1 else ''} geändert diese Woche"
 
-    gains = sum(1 for e in entries if any(
-        c.get("label") == "Öffnungszeiten" and str(c.get("new")) == "24/7" for c in e.get("changes", [])))
-    losses = sum(1 for e in entries if any(
-        c.get("label") == "Öffnungszeiten" and str(c.get("old")) == "24/7" and str(c.get("new")) != "24/7"
-        for c in e.get("changes", [])))
-    summary_block = ""
-    if len(entries) > 1 and (gains or losses):
-        cells = []
-        if gains:
-            cells.append(f'<td style="padding-right:18px;"><strong style="color:{GREEN_DARK};">{gains}</strong> neu 24/7</td>')
-        if losses:
-            cells.append(f'<td><strong style="color:{COLOR_GEAENDERT};">{losses}</strong> nicht mehr 24/7</td>')
-        summary_block = (f'<table role="presentation" style="margin:14px 0 0 0;border-collapse:collapse;">'
-                         f'<tr style="font-family:{FONT};font-size:14px;color:{MUTED};">{"".join(cells)}</tr></table>')
-    body_html = "".join(rows)
+    # Anzahl steht bereits im Untertitel -> Zusammenfassung zeigt nur 24/7-Infos
+    summary = summary_html(entries, statuses=())
 
-    output = f"""
-<html>
-<head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-</head>
-<body style="margin:0;padding:0;background-color:#F9FAFB;font-family:{FONT};">
-<table role="presentation" width="100%" style="background-color:#F9FAFB;border-collapse:collapse;">
-<tr><td align="center">
-<table role="presentation" width="600" style="max-width:600px;background-color:{BG};border-collapse:collapse;">
-<tr><td style="padding:32px 28px;">
-
-<img src="{DEFIKARTE_LOGO_URL}" alt="defikarte.ch" style="height:34px;"/>
-
-<h1 style="font-family:{FONT};font-weight:700;font-size:20px;line-height:1.35;color:{GREEN_DARK};margin:24px 0 6px 0;">
-Wöchentlicher Änderungs-Report – {html.escape(kanton_name)}
-</h1>
-
-<p style="font-family:{FONT};font-size:13px;color:{MUTED};margin:0;">
-Stand {today} · {len(entries)} Eintrag{"e" if len(entries) != 1 else ""} geändert diese Woche
-</p>
-
-{summary_block}
-
-<div style="font-family:{FONT};margin-top:16px;">
-{body_html}
-</div>
-
-<p style="font-family:{FONT};font-size:11px;color:{MUTED};margin-top:32px;padding-top:14px;border-top:1px solid {RULE};">
-Automatisch generiert von defikarte.ch
-</p>
-
-</td></tr>
-</table>
-</td></tr>
-</table>
-</body>
-</html>
-"""
-
+    html_mail = page(f"Wöchentlicher Änderungs-Report – {kanton_name}", subtitle, entries, summary)
     with open(output_file, "w", encoding="utf-8") as f:
-        f.write(output)
+        f.write(html_mail)
 
-    print(f"{output_file} geschrieben mit {len(entries)} Einträgen.")
+    print(f"{output_file} geschrieben mit {n} Einträgen.")
 
 
 if __name__ == "__main__":

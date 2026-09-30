@@ -212,6 +212,8 @@ kantone_config.json          ← einzige Konfigurationsquelle (Kantone, Secrets,
 generate_workflows.py        ← generiert die Workflow-YMLs daraus
 scripts/
   process_all_kantone.py     ← Kernlogik: läuft bei JEDEM Overpass-Run
+  mail_common.py             ← gemeinsames Mail-Design (CI-Farben, Karten, Seitenrahmen)
+                               Design-Änderungen nur hier vornehmen!
   geojson_diff.py            ← Diff-Rendering für "immediate"-Kantone
   geojson_diff_be.py         ← Diff-Rendering für BE (sofort + pending)
   build_weekly_report.py     ← Rendering für den wöchentlichen BE-Report
@@ -363,5 +365,5 @@ Der Orchestrator hat einen `workflow_dispatch`-Input `dry_run`:
 
 ## Status
 ![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
-[![Reporting – alle Kantone](https://github.com/defikarte/defi_data/actions/workflows/geojson-reporting-all.yml/badge.svg)](https://github.com/defikarte/defi_data/actions/workflows/geojson-reporting-all.yml)
-[![Wöchentlicher Report BE](https://github.com/defikarte/defi_data/actions/workflows/geojson-weekly-changes-be.yml/badge.svg)](https://github.com/defikarte/defi_data/actions/workflows/geojson-weekly-changes-be.yml)
+[![Reporting – alle Kantone](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml)
+[![Wöchentlicher Report BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml)
