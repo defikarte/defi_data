@@ -4604,9 +4604,7 @@ Signalisiert",,,,,defibrillator,,144,,,,,node/10790840306,,,,,no,,,,,,,,,,,,,,,,
 11107863005,node,46.4580749,9.7938716,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Via vers Mulin 41
 an Hausfassade Gewerbehaus K+M Haustechnik AG
 1262 LTS",,,,Grüner Kasten /  Koffer Orange,,,,,defibrillator,,144,,,,,node/11107863005,,,,,no,,,,,,,,,,,,,,Gemeinde Silvaplana,,24/7,Lifetec AG Schweiz,,,,,,+41 81 838 70 80,,,,,"local_knowledge, defikarte.ch",,,,,,,,,,
-11107924405,node,46.4580954,9.810302,yes,,,,,,,,,,,,,,,,,,,2026-02-13,,,,,,,,,"Via da l'Alp 6
-neben Hoteleingang Hotel Bellavista
-1259LTS",,,,Grüner Kasten /  Koffer Orange,,,,,defibrillator,,144,,,,,node/11107924405,,,,,no,,,,,,,,,,,,,,Gemeinde Silvaplana,,24/7,Lifetec AG Schweiz,,,,,,+41818387080,,,,,"local_knowledge, defikarte.ch",,,,,,,,,,
+11107924405,node,46.4580659,9.8103657,yes,,,,,,,,,,,,,,,,,,,2026-02-13,,,,,,,,,Via da l'Alp 6 neben Hoteleingang Hotel Bellavista 1259LTS,,,,Grüner Kasten / Koffer Orange,,,,,defibrillator,,144,,,,,node/11107924405,,,,,no,,,,,,,,,,,,,,Gemeinde Silvaplana,,24/7,Lifetec AG Schweiz,,,,,,+41818387080,,,,,"local_knowledge, defikarte.ch",,,,,,,,,,
 11107933505,node,46.4617185,9.796688,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Via Maistra 24
 Neben Eingang Gemeindeverwaltung
 1260lts",,,,Grüner Kasten /  Koffer Orange,,,,,defibrillator,,144,,,,,node/11107933505,,,,,no,,,,,,,,,,,,,,Gemeinde Silvaplana,,24/7,Lifetec AG Schweiz,,,,,,+41818387080,,,,,"local_knowledge, defikarte.ch",,,,,,,,,,
@@ -7245,3 +7243,6 @@ Aussen links neben den Garagentoren im Eingangsbereich",,,,,,,,,defibrillator,,1
 14223721198,node,46.1481834,8.7794625,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,defibrillator,,144,,,,,node/14223721198,,,,,no,,,,,,0,,,,,,,,,,24/7,,,,,,,,,,,,,,,,,,,,,,
 14224319301,node,46.1475472,8.7918361,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Porto Patriziale Ascona,,,,neben dem Büro des Capitano,,,,,defibrillator,,144,,,,,node/14224319301,,,,,no,,,,,,,,,,,,,,,,24/7,?,,,,,,,,,,,,,,,,,,,,,
 14227243101,node,47.1707955,8.1073948,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,Carport vor dem Pfarrhaus,,,,Immer verfügbar,,,,sekretariat.sursee@reflu.ch,defibrillator,,144,,,,,node/14227243101,,,,,no,,,,,,0,,,,,,,,,,24/7,Reformierte Kirchgemeinde Sursee,,,,,,+41 41 921 11 19,,,,,,,,,,,,,,,
+14233144301,node,47.7474873,8.7073971,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,bibliotheke thayngen,,,,vor unterem eingang,,,,,defibrillator,,144,,,,,node/14233144301,,,,,no,,,,,,0,,,,,,,,,,24/7,bibliotheke gemeinde,,,,,,,,,,,,,,,,,,,,,
+14233144401,node,47.7474873,8.7073971,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,bibliotheke thayngen,,,,vor unterem eingang,,,,,defibrillator,,144,,,,,node/14233144401,,,,,no,,,,,,0,,,,,,,,,,24/7,bibliotheke gemeinde,,,,,,,,,,,,,,,,,,,,,
+14233145401,node,47.7474873,8.7073971,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,bibliotheke thayngen,,,,vor unterem eingang,,,,,defibrillator,,144,,,,,node/14233145401,,,,,no,,,,,,0,,,,,,,,,,24/7,bibliotheke gemeinde,,,,,,,,,,,,,,,,,,,,,

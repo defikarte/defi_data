@@ -496,9 +496,7 @@ Grüner Kasten /  Koffer Orange",,defibrillator,,144,,,,node/10167638017,,,yes,,
 an Hausfassade Gewerbehaus K+M Haustechnik AG
 1262 LTS",,,Grüner Kasten /  Koffer Orange,,defibrillator,,144,,,,node/11107863005,,,no,,,,,Gemeinde Silvaplana,24/7,Lifetec AG Schweiz,,,+41 81 838 70 80,,,"local_knowledge, defikarte.ch",,
 11107885709,node,46.4569145,9.8121107,,,,,,,,,,,,,Schweizer Skischule Corvatsch,,,Mitte November bis Mitte April,,defibrillator,,144,,,,node/11107885709,,,yes,,,,,,09:00-16:00,Gemeinde Silvaplana,,,+41818387080,,,"local_knowledge, defikarte.ch",,
-11107924405,node,46.4580954,9.810302,yes,,,,,,,,,2026-02-13,,,"Via da l'Alp 6
-neben Hoteleingang Hotel Bellavista
-1259LTS",,,Grüner Kasten /  Koffer Orange,,defibrillator,,144,,,,node/11107924405,,,no,,,,,Gemeinde Silvaplana,24/7,Lifetec AG Schweiz,,,+41818387080,,,"local_knowledge, defikarte.ch",,
+11107924405,node,46.4580659,9.8103657,yes,,,,,,,,,2026-02-13,,,Via da l'Alp 6 neben Hoteleingang Hotel Bellavista 1259LTS,,,Grüner Kasten / Koffer Orange,,defibrillator,,144,,,,node/11107924405,,,no,,,,,Gemeinde Silvaplana,24/7,Lifetec AG Schweiz,,,+41818387080,,,"local_knowledge, defikarte.ch",,
 11107933505,node,46.4617185,9.796688,yes,,,,,,,,,,,,"Via Maistra 24
 Neben Eingang Gemeindeverwaltung
 1260lts",,,Grüner Kasten /  Koffer Orange,,defibrillator,,144,,,,node/11107933505,,,no,,,,,Gemeinde Silvaplana,24/7,Lifetec AG Schweiz,,,+41818387080,,,"local_knowledge, defikarte.ch",,
@@ -575,13 +573,9 @@ Neben Eingang Gemeindeverwaltung
 11730977969,node,46.8543291,9.5089781,,,,,,,,,,,,,"FHGR, Pulvermühlestrasse 80",,,Während Öffnungszeiten verfügbar,,defibrillator,,144,,,,node/11730977969,,,yes,,,1,,,Mo-Fr 07:00 - 20:30,FHGR,,,+41812862424,,,"local_knowledge, defikarte.ch",,
 11730979669,node,46.8475617,9.5097808,,,,,,,,,,,,,"FHGR, Comercialstrasse 22",,,Während Öffnungszeiten verfügbar,,defibrillator,,144,,,,node/11730979669,,,yes,,,1,,,Mo-Fr 07:00 - 20:30,FHGR,,,+41 81 286 24 24,,,"local_knowledge, defikarte.ch",,
 11730981169,node,46.8470245,9.5099872,,,,,,,,,,,,,"FHGR, Comercialstrasse 19",,,Während Öffnungszeiten verfügbar,,defibrillator,,144,,,,node/11730981169,,,yes,,,1,,,Mo-Fr 07:00 - 20:30,FHGR,,,+41812862424,,,"local_knowledge, defikarte.ch",,
-11733894909,node,46.6951794,9.4368186,private,,,,,,,,,,,,"Im Eingangsbereich (Vorraum) Turnhalle
-
-1252LTM",,,Oranger Koffer,,defibrillator,,144,,,,node/11733894909,,,yes,,,,,Gemeinde Thusis,Während Schulzeit,Lifetec AG Schweiz,,,+41 800 122 144,,,,,
-11733915483,node,46.695741,9.43741,private,,,,,,,,,,,,"Im Eingangsbereich, Turnhalle Dorf
-
-1253TM",,,Oranger Koffer,,defibrillator,,144,,,,node/11733915483,,,yes,,,,,Gemeinde Thusis,Während der Schulzeit,Lifetec AG Schweiz,,,+41 800 122 144,,,,,
-11733939695,node,46.7002841,9.4430981,private,,,,,,,,,,,,Erdgeschoss im Schulhaus ( von Sicht Parkplatz her linkes Gebäude)  1254LTM,,,Oranger Koffer,,defibrillator,,144,,,,node/11733939695,,,yes,,,0,,Gemeinde Thusis,Während der Schulzeit,Lifetec AG Schweiz,,,+41 800 122 144,,,,,
+11733894909,node,46.6951794,9.4368186,private,,,,,,,,,,,,Im Eingangsbereich (Vorraum) Turnhalle 1252LTM,,,Oranger Koffer,,defibrillator,,144,,,,node/11733894909,,,yes,,,,,Gemeinde Thusis,"""Während Schulzeit""",Lifetec AG Schweiz,,,+41 800 122 144,,,,,
+11733915483,node,46.695741,9.43741,private,,,,,,,,,,,,"Im Eingangsbereich, Turnhalle Dorf 1253TM",,,Oranger Koffer,,defibrillator,,144,,,,node/11733915483,,,yes,,,,,Gemeinde Thusis,"""Während der Schulzeit""",Lifetec AG Schweiz,,,+41 800 122 144,,,,,
+11733939695,node,46.7002841,9.4430981,private,,,,,,,,,,,,Erdgeschoss im Schulhaus ( von Sicht Parkplatz her linkes Gebäude) 1254LTM,,,Oranger Koffer,,defibrillator,,144,,,,node/11733939695,,,yes,,,0,,Gemeinde Thusis,"""Während der Schulzeit""",Lifetec AG Schweiz,,,+41 800 122 144,,,,,
 11740704190,node,46.687308,9.5632652,yes,,,,,,,,,,,,Gemeinde Lantsch/Lenz GR Verwaltung Voia Principala 90  7083 Lantsch/Lenz Verwaltungsgebäude  1288LTS,,,Grüner Kasten /  Koffer Orange,,defibrillator,,144,,,,node/11740704190,,,no,,,0,,,24/7,Lifetec AG Schweiz,,,+41 800 122 144,,,,,
 11741306696,node,46.8149669,9.8520321,yes,,,,,,,,,,,,"Gemeinde Davos, Strandbad, 1294LTS",,,Grüner Kasten / Koffer Gelb,,defibrillator,,144,,,,node/11741306696,,,no,,,0,,,24/7,Lifetec AG Schweiz,,,+41 800 122 144,,,,,
 11742050860,node,46.3012399,9.1235061,yes,,,,,,,,,,,,"Via Braggio, station arrivée téléphérique",,,,,defibrillator,,144,,,,node/11742050860,,,yes,,,0,,,24/7,,,,,,,,,
