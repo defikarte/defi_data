@@ -8658,6 +8658,31 @@
       46.7512573
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14234266301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AC Hotel Marriott Bulle",
+    "description": "Disponible a la reception de l'hôtel",
+    "email": "technique@acbulle.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "AC Hotel Marriott Bulle",
+    "phone": "+41 26 563 11 11",
+    "id": "node/14234266301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0380928,
+      46.61469
+    ]
+  }
 }
 ]
 }

@@ -28827,6 +28827,7 @@
   "type": "Feature",
   "id": "node/8895296417",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Bahnhofstrasse 39",
     "description": "4. Stock Bürogebäude",
     "emergency": "defibrillator",
@@ -28839,7 +28840,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5384222,
+      8.5384221,
       47.3714924
     ]
   }
@@ -105343,6 +105344,31 @@
     "coordinates": [
       8.7073971,
       47.7474873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14234957701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "zahnarztzentrum.ch Uster",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "uster@zahnarztzentrum.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Firms",
+    "phone": "+41 43 366 40 90",
+    "id": "node/14234957701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7161367,
+      47.3489195
     ]
   }
 }

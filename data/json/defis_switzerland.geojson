@@ -16623,23 +16623,24 @@
   "type": "Feature",
   "id": "node/6633357547",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "addr:city": "Beatenberg",
     "addr:postcode": "3803",
     "addr:street": "Schmockenstrasse",
     "defibrillator:location": "im Betriebsbüro melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "08:00-18:00",
-    "operator": "Niederhornbahn, Station Beatenberg",
+    "operator": "Niederhornbahn AG",
     "phone": "+41 33 841 08 41",
     "id": "node/6633357547"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7654594,
-      46.69055
+      7.7654591,
+      46.6905499
     ]
   }
 },
@@ -16647,25 +16648,25 @@
   "type": "Feature",
   "id": "node/6633357548",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "addr:city": "Beatenberg",
     "addr:housenumber": "5a",
     "addr:place": "Niederhorn",
     "addr:postcode": "3803",
-    "defibrillator:location": "im Betriebsbüro melden",
+    "defibrillator:location": "in der Bergstation melden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08:40-17:40",
-    "operator": "Niederhornbahn, Station Niederhorn",
+    "opening_hours": "09:00-17:30",
+    "operator": "Niederhornbahn AG",
     "phone": "+41 33 841 08 41",
     "id": "node/6633357548"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7751694,
-      46.7105384
+      7.7751687,
+      46.7105378
     ]
   }
 },
@@ -56614,17 +56615,19 @@
   "type": "Feature",
   "id": "node/7637818908",
   "properties": {
-    "description": "Cafeteria",
+    "defibrillator:location": "Bachmann Forming AG",
+    "description": "Haupteingang vor Aufgang Cafeteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Bachmann Forming AG",
     "id": "node/7637818908"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2804201,
-      47.1620657
+      8.2804198,
+      47.1620659
     ]
   }
 },
@@ -111875,6 +111878,7 @@
   "type": "Feature",
   "id": "node/8895296417",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Bahnhofstrasse 39",
     "description": "4. Stock Bürogebäude",
     "emergency": "defibrillator",
@@ -111887,7 +111891,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5384222,
+      8.5384221,
       47.3714924
     ]
   }
@@ -239446,12 +239450,12 @@
   "id": "node/11038063809",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Côtière ",
+    "addr:housenumber": "13",
+    "defibrillator:location": "Côtière",
     "description": "en face du bancomat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "13",
     "opening_hours": "24/7",
     "operator": "Commune de Val-de-Ruz - Vilars",
     "phone": "+41 32 886 56 31",
@@ -316863,8 +316867,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6135452,
-      47.1303701
+      7.6136112,
+      47.1303837
     ]
   }
 },
@@ -384419,6 +384423,100 @@
     "coordinates": [
       8.7073971,
       47.7474873
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14233973201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "bei der Station melden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "10:00-17:00",
+    "operator": "Niederhornbahn AG",
+    "phone": "+41 33 841 08 41",
+    "id": "node/14233973201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7704081,
+      46.7007178
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14234266301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AC Hotel Marriott Bulle",
+    "description": "Disponible a la reception de l'hôtel",
+    "email": "technique@acbulle.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "AC Hotel Marriott Bulle",
+    "phone": "+41 26 563 11 11",
+    "id": "node/14234266301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0380928,
+      46.61469
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14234776101",
+  "properties": {
+    "defibrillator:location": "Clubhaus SV Kaufdorf",
+    "description": "Im WC",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 09:00-19:00",
+    "operator": "SV Kaufdorf",
+    "id": "node/14234776101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5019638,
+      46.840645
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14234957701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "zahnarztzentrum.ch Uster",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "uster@zahnarztzentrum.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-20:00",
+    "operator": "Firms",
+    "phone": "+41 43 366 40 90",
+    "id": "node/14234957701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7161367,
+      47.3489195
     ]
   }
 }

@@ -3454,6 +3454,7 @@
   "type": "Feature",
   "id": "node/8895296417",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Bahnhofstrasse 39",
     "description": "4. Stock Bürogebäude",
     "emergency": "defibrillator",
@@ -3466,7 +3467,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5384222,
+      8.5384221,
       47.3714924
     ]
   }

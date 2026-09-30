@@ -9742,17 +9742,19 @@
   "type": "Feature",
   "id": "node/7637818908",
   "properties": {
-    "description": "Cafeteria",
+    "defibrillator:location": "Bachmann Forming AG",
+    "description": "Haupteingang vor Aufgang Cafeteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Bachmann Forming AG",
     "id": "node/7637818908"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2804201,
-      47.1620657
+      8.2804198,
+      47.1620659
     ]
   }
 },
