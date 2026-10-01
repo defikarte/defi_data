@@ -163396,6 +163396,30 @@
       46.61469
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14238346101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Mörschwil (Schulstrasse 3)",
+    "description": "rechts vom Haupteingang beim Gemeindehaus Mörschwil in der alten Telefonkabine (heute Bücherschrank)",
+    "email": "info@moerschwil.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mörschwil",
+    "phone": "+41 71 868 78 78",
+    "id": "node/14238346101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4244128,
+      47.4684492
+    ]
+  }
 }
 ]
 }

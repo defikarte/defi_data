@@ -384534,6 +384534,55 @@
       47.4200277
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14238120801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "SOTAX AG",
+    "description": "während Bürozeiten verfügbar",
+    "email": "quality@sotax.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 - 16:30",
+    "operator": "SOTAX AG",
+    "phone": "+41 61 487 54 54",
+    "id": "node/14238120801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5892096,
+      47.4791189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14238346101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Mörschwil (Schulstrasse 3)",
+    "description": "rechts vom Haupteingang beim Gemeindehaus Mörschwil in der alten Telefonkabine (heute Bücherschrank)",
+    "email": "info@moerschwil.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mörschwil",
+    "phone": "+41 71 868 78 78",
+    "id": "node/14238346101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4244128,
+      47.4684492
+    ]
+  }
 }
 ]
 }
