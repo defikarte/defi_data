@@ -158,7 +158,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:flo
 8869389117,node,47.4067667,8.5515029,no,,,,,,,,,Foyer Pfarreizentrum,,,Nur bei einer Veranstaltung im Zentrum zugänglich ,,defibrillator,144,,,node/8869389117,yes,,,,,,,,Röm. Kath. Kirchgemeinde Herz Jesu Oerlikon,+41 44 315 65 65,,,,,,,,
 8882971239,node,47.3530982,8.5506345,yes,,,,,,,,,"Restaurant Fischerstube, Hauptgebäude, nach Windfang des Haupteingangs links in der Wand",,,,,defibrillator,144,,,node/8882971239,yes,,0,,,,,Mo-Su 11:30-23:00,Restaurant Fischerstube,+41 44 250 59 50,,,,,,,yes,
 8887207417,node,47.3583982,8.5176804,,,,,,,,,,Migros Brunaupark 8045 Zürich,,,,,defibrillator,144,,,node/8887207417,yes,,,,,,,Mo-Sa 08:00-20:00,,,,,,,,,,
-8895296417,node,47.3714924,8.5384222,,,,,,,,,,Bahnhofstrasse 39,,,4. Stock Bürogebäude,,defibrillator,144,,,node/8895296417,yes,,,,,,,24/7,BlackRock,,,,,,,,,
+8895296417,node,47.3714924,8.5384221,private,,,,,,,,,Bahnhofstrasse 39,,,4. Stock Bürogebäude,,defibrillator,144,,,node/8895296417,yes,,,,,,,24/7,BlackRock,,,,,,,,,
 8912885217,node,47.3530108,8.5070622,yes,,,,,,,,,tennisclub engematt,,,in den sommermonaten bei gutem wetter von 10 bis 22 Uhr,,defibrillator,144,,,node/8912885217,yes,,,,,,,,tennisclub engematt,,,,,,,,,
 8913469331,node,47.3371253,8.5397202,,,,,,,,,,1. Stock linker Flügel - Grünes Symbol gut sichtbar,,,während Öffnungszeiten verfügbar,,defibrillator,144,,,node/8913469331,yes,,,,,,,,Filipe Sampaio,+41764007644,,,,,,,,
 8920427417,node,47.4257824,8.5373219,yes,,,,,,,,,"Hauseingang, Köschenrütistrasse 74, 8052 Zürich",,,,,defibrillator,144,,,node/8920427417,yes,,,,,,,24/7,Baugenossenschaft Schönau,,,,,,,,,

@@ -594,7 +594,7 @@ Korridor rechts",,während Öffnungszeiten verfügbar,,defibrillator,144,,,,node
 7637818905,node,47.0592576,7.9153312,yes,,,,,,,,,,,,,,im Behinderten-WC,,,,defibrillator,144,,,,node/7637818905,yes,,,,,,,Samariterverein Luthern,,,24/7,,,,,,,,,
 7637818906,node,47.1616046,8.2941553,,,,,,,,,,,,,,,,,Eingangsbereich,,defibrillator,144,,,,node/7637818906,,,,,,,,APH Hochdorf Rosenhügel,,,,,,,,,,,,
 7637818907,node,47.1662573,8.2938604,,,,,,,,,,,,,,,,,Haupteingang re,,defibrillator,144,,,,node/7637818907,,,,,,,,Alters- und Pflegeheim Residio Sonnmatt,,,,,,,,,,,,
-7637818908,node,47.1620657,8.2804201,,,,,,,,,,,,,,,,,Cafeteria,,defibrillator,144,,,,node/7637818908,,,,,,,,Bachmann Forming AG,,,,,,,,,,,,
+7637818908,node,47.1620659,8.2804198,,,,,,,,,,,,,,,Bachmann Forming AG,,Haupteingang vor Aufgang Cafeteria,,defibrillator,144,,,,node/7637818908,yes,,,,,,,Bachmann Forming AG,,,,,,,,,,,,
 7637818909,node,47.1671927,8.2901458,yes,,,,,,,,,,,,,,"Aussen, links neben dem Eingang an der Wand",,Eingang,,defibrillator,144,,,,node/7637818909,no,,,,,,,Bibliothek,,,24/7,,,,,,,,,
 7637818910,node,47.1662047,8.2912612,,,,,,,,,,,,,,,,,Kundendienst,,defibrillator,144,,,,node/7637818910,,,,,,,,Migros Seetal Center,,,,,,,,,,,,
 7637818911,node,47.1664607,8.2954263,,,,,,,,,,,,,,,Im Erdgeschoss,,,,defibrillator,144,,,,node/7637818911,yes,,,,,,,,,,,LuPo,,,,,,,,
