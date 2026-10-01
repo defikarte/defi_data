@@ -264,10 +264,11 @@ def summary_html(entries, statuses=("Neu", "Geändert", "Gelöscht")):
             f'<tr style="font-family:{FONT};font-size:14px;color:{MUTED};">{"".join(cells)}</tr></table>')
 
 
-def page(title, subtitle, entries, summary_block=None):
+def page(title, subtitle, entries, summary_block=None, body_html=None):
+    """Seitenrahmen. body_html ersetzt die einfache Kartenliste (z.B. für Sektionen)."""
     if summary_block is None:
         summary_block = summary_html(entries)
-    cards_html = "".join(card(e) for e in entries)
+    cards_html = body_html if body_html is not None else "".join(card(e) for e in entries)
     return f'''<html>
 <head>
 <meta charset="utf-8"/>

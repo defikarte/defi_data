@@ -217,9 +217,11 @@ scripts/
   geojson_diff.py            ← Diff-Rendering für "immediate"-Kantone
   geojson_diff_be.py         ← Diff-Rendering für BE (sofort + pending)
   build_weekly_report.py     ← Rendering für den wöchentlichen BE-Report
+  build_ch_qs_report.py      ← täglicher schweizweiter QS-Report (intern)
 .github/workflows/
   geojson-reporting-all.yml       ← DER EINE Workflow für alle Kantone
   geojson-weekly-changes-be.yml   ← separater Cron-Workflow, nur BE, 1×/Woche
+  geojson-qs-daily.yml            ← täglicher QS-Report Schweiz + Liechtenstein
 ```
 
 **Wichtig:** Es gibt nur noch **einen** Workflow (`geojson-reporting-all.yml`),
@@ -299,6 +301,24 @@ Bern hat `reporting_mode: "immediate_new_deleted_weekly_changed"`:
   (eigener Cron-Trigger), verschickt alle gesammelten Änderungen als eine
   Sammel-Mail und leert die pending-Datei danach
 
+### Täglicher QS-Report (intern)
+
+Zusätzlich zu den Kantonsreports gibt es einen internen Qualitätssicherungs-Report über
+die ganze Schweiz und Liechtenstein (`geojson-qs-daily.yml`, täglich 05:00 UTC, an
+`MAIL_RECIPIENT_QS`).
+
+- **Datenbasis:** `defis_switzerland.geojson` und `defis_liechtenstein.geojson`
+- **Zeitraum:** Vergleicht den Stand beim letzten erfolgreichen Report mit dem aktuellen
+  Stand (gespeichert in `.reporting/last_processed_sha_ch_qs.txt`). Schlägt ein Versand
+  fehl, umfasst der nächste Report automatisch den ganzen Zeitraum seit dem letzten Erfolg.
+- **Kantonszuordnung:** Ein Defi gehört zu dem Kanton, in dessen `defis_kt_<kürzel>.geojson`
+  er vorkommt – also dieselbe Zuordnung wie in den Kantonsreports. Gelöschte Defis werden
+  über die Kantonsfiles vom alten Stand zugeordnet.
+- **QS-Sektionen:** „Nicht zuordenbar“ (im Schweiz-File, aber in keinem Kantonsfile) und
+  „Mehreren Kantonen zugeordnet“ (in mehr als einem Kantonsfile) zeigen Unstimmigkeiten
+  zwischen Schweiz- und Kantonsabfragen.
+- **Erster Lauf:** Initialisiert nur den Stand, der erste Report kommt am Folgetag.
+
 ### Inhalt der E-Mail
 
 Die E-Mail enthält eine HTML-Tabelle mit allen Änderungen an der jeweiligen
@@ -327,6 +347,7 @@ GeoJSON-Datei seit dem letzten verarbeiteten Commit:
 | `MAIL_USER` | SMTP-Login (Hostpoint) |
 | `MAIL_PASS` | SMTP-Passwort |
 | `MAIL_COPY` | CC-Adresse für Kantone mit `use_cc: true` |
+| `MAIL_RECIPIENT_QS` | Empfänger des täglichen internen QS-Reports |
 | `MAIL_RECIPIENT_<ID>` | Ein Secret pro Kanton, Name muss exakt mit `mail_recipient_secret` in der Config übereinstimmen |
 
 ### Manuelles Testen
@@ -367,3 +388,4 @@ Der Orchestrator hat einen `workflow_dispatch`-Input `dry_run`:
 ![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
 [![Reporting – alle Kantone](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml)
 [![Wöchentlicher Report BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml)
+[![QS-Report Schweiz](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-qs-daily.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-qs-daily.yml)

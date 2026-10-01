@@ -1,0 +1,56 @@
+name: Täglicher QS-Report Schweiz
+on:
+  schedule:
+    - cron: "0 5 * * *"   # täglich 05:00 UTC (07:00 Sommerzeit / 06:00 Winterzeit)
+  workflow_dispatch:
+
+jobs:
+  qs-report:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout latest main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: QS-Report erstellen
+        run: python3 scripts/build_ch_qs_report.py
+
+      - name: QS-Mail versenden
+        if: env.HAS_REPORT == 'true'
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: asmtp.mail.hostpoint.ch
+          server_port: 587
+          secure: false
+          username: ${{ secrets.MAIL_USER }}
+          password: ${{ secrets.MAIL_PASS }}
+          subject: ${{ env.QS_SUBJECT }}
+          html_body: file://qs_report.html
+          to: ${{ secrets.MAIL_RECIPIENT_QS }}
+          from: defikarte.ch Reports
+
+      # Läuft nur, wenn alle vorherigen Schritte erfolgreich waren. Schlägt der
+      # Mailversand fehl, bleibt der alte Stand gespeichert und der nächste
+      # Report umfasst automatisch den ganzen Zeitraum seit dem letzten Erfolg.
+      - name: Report-Stand speichern
+        run: |
+          set -euo pipefail
+          rm -f qs_report.html
+          git config user.name "defikarte.ch Reporting Bot"
+          git config user.email "chrigi@chnuessli.ch"
+          git add .reporting/last_processed_sha_ch_qs.txt
+          git commit -m "update QS report state" || exit 0
+          for i in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && break
+            echo "Push failed, retry $i..."
+            sleep 2
+          done
