@@ -176493,25 +176493,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12453065801",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Green SOS post next to the path",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/12453065801"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8226565,
-      46.1748785
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12460506801",
   "properties": {
     "defibrillator:location": "sporthalle Ebni Neftenbach",
@@ -221207,6 +221188,24 @@
     "coordinates": [
       8.6093808,
       47.4470996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14240772501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Cavagne",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14240772501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9306334,
+      46.2398353
     ]
   }
 }

@@ -308504,6 +308504,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/12453065801"
   },
   "geometry": {
@@ -384610,132 +384611,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14239581902",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "vela Giovane Minusio nebendran",
-    "description": "draussen, beleuchtet",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/14239581902"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8225856,
-      46.1747403
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14239587101",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "vela Giovane Minusio nebendran",
-    "description": "draussen, beleuchtet",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/14239587101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8225856,
-      46.1747403
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14239587201",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "vela Giovane Minusio nebendran",
-    "description": "draussen, beleuchtet",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/14239587201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8225856,
-      46.1747403
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14239587301",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "vela Giovane Minusio nebendran",
-    "description": "draussen, beleuchtet",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/14239587301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8225856,
-      46.1747403
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14239587401",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "vela Giovane Minusio nebendran",
-    "description": "draussen, beleuchtet",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/14239587401"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8225856,
-      46.1747403
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14239587501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "vela Giovane Minusio nebendran",
-    "description": "draussen, beleuchtet",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/14239587501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8225856,
-      46.1747403
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14239851401",
   "properties": {
     "defibrillator:location": "UniQservice AG",
@@ -384754,6 +384629,24 @@
     "coordinates": [
       8.6093808,
       47.4470996
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14240772501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Cavagne",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14240772501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9306334,
+      46.2398353
     ]
   }
 }

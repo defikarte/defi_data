@@ -7302,6 +7302,24 @@
       46.1889689
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14240772501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Cavagne",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14240772501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9306334,
+      46.2398353
+    ]
+  }
 }
 ]
 }
