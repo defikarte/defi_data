@@ -131924,13 +131924,12 @@
   "type": "Feature",
   "id": "node/10896638505",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingang Frossmatte 4",
+    "defibrillator:location": "Eingang Grossmatte 4",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Privat",
+    "operator": "SSPI GmbH",
     "phone": "+41 41 259 43 00",
     "id": "node/10896638505"
   },
@@ -221161,6 +221160,53 @@
     "coordinates": [
       7.5892096,
       47.4791189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239126501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich an der Rezeption der Residenz Bener Park. Er ist in einem Side-Board frei zugängig und mit einem Schild kennzeichnet.",
+    "email": "direktion@benerpark.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-Su 10:00-17:30",
+    "operator": "Bener-Park Betriebs-AG",
+    "phone": "+41 79 363 13 11",
+    "id": "node/14239126501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5243572,
+      46.8506034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239851401",
+  "properties": {
+    "defibrillator:location": "UniQservice AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "UniQservice AG",
+    "phone": "+4144 838 63 63",
+    "id": "node/14239851401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6093808,
+      47.4470996
     ]
   }
 }

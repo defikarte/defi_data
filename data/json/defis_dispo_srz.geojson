@@ -105386,6 +105386,29 @@
       47.4200277
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14239851401",
+  "properties": {
+    "defibrillator:location": "UniQservice AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "UniQservice AG",
+    "phone": "+4144 838 63 63",
+    "id": "node/14239851401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6093808,
+      47.4470996
+    ]
+  }
 }
 ]
 }

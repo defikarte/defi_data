@@ -24551,13 +24551,12 @@
   "type": "Feature",
   "id": "node/10896638505",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingang Frossmatte 4",
+    "defibrillator:location": "Eingang Grossmatte 4",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Privat",
+    "operator": "SSPI GmbH",
     "phone": "+41 41 259 43 00",
     "id": "node/10896638505"
   },

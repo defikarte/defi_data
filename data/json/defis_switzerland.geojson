@@ -55,6 +55,7 @@
     "planned:tourism": "hotel",
     "tourism": "hotel",
     "website": "https://all.accor.com/hotel/9662/index.de.shtml",
+    "wheelchair": "yes",
     "id": "node/286879700"
   },
   "geometry": {
@@ -161624,8 +161625,8 @@
   "id": "node/9791648271",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Via dal Farrer 6\nVolg-Eingang ab Via dal Farrer zum Parkhaus Munterots, Der Defi befindet sich im Vorraum zum Lift, an der Glaswand montiert\n1261LTS",
-    "description": "Grüner Kasten /  Koffer Orange",
+    "defibrillator:location": "Via dal Farrer 6 Volg-Eingang ab Via dal Farrer zum Parkhaus Munterots, Der Defi befindet sich im Vorraum zum Lift, an der Glaswand montiert 1261LTS",
+    "description": "Grüner Kasten / Koffer Orange",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -161638,8 +161639,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7961896,
-      46.4601457
+      9.7961877,
+      46.4601556
     ]
   }
 },
@@ -230210,13 +230211,12 @@
   "type": "Feature",
   "id": "node/10896638505",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Eingang Frossmatte 4",
+    "defibrillator:location": "Eingang Grossmatte 4",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Privat",
+    "operator": "SSPI GmbH",
     "phone": "+41 41 259 43 00",
     "id": "node/10896638505"
   },
@@ -384581,6 +384581,179 @@
     "coordinates": [
       9.4244128,
       47.4684492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239126501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Der Defibrillator befindet sich an der Rezeption der Residenz Bener Park. Er ist in einem Side-Board frei zugängig und mit einem Schild kennzeichnet.",
+    "email": "direktion@benerpark.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo-Su 10:00-17:30",
+    "operator": "Bener-Park Betriebs-AG",
+    "phone": "+41 79 363 13 11",
+    "id": "node/14239126501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5243572,
+      46.8506034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239581902",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vela Giovane Minusio nebendran",
+    "description": "draussen, beleuchtet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14239581902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8225856,
+      46.1747403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239587101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vela Giovane Minusio nebendran",
+    "description": "draussen, beleuchtet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14239587101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8225856,
+      46.1747403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239587201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vela Giovane Minusio nebendran",
+    "description": "draussen, beleuchtet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14239587201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8225856,
+      46.1747403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239587301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vela Giovane Minusio nebendran",
+    "description": "draussen, beleuchtet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14239587301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8225856,
+      46.1747403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239587401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vela Giovane Minusio nebendran",
+    "description": "draussen, beleuchtet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14239587401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8225856,
+      46.1747403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239587501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vela Giovane Minusio nebendran",
+    "description": "draussen, beleuchtet",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14239587501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8225856,
+      46.1747403
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14239851401",
+  "properties": {
+    "defibrillator:location": "UniQservice AG",
+    "description": "während Öffnungszeiten",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "UniQservice AG",
+    "phone": "+4144 838 63 63",
+    "id": "node/14239851401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6093808,
+      47.4470996
     ]
   }
 }
