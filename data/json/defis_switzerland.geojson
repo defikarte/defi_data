@@ -7662,31 +7662,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/5858912417",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Sportanlage Mulets, Via Mulets 9\nbeim Eingang UG (Sportplätze) an der Wand montiert\n1263LTM",
-    "description": "Oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "entrance": "yes",
-    "indoor": "yes",
-    "layer": "0",
-    "name": "Gemeinde Silvaplana",
-    "operator": "lifetec AG Schweiz",
-    "phone": "+41 81 838 70 80",
-    "id": "node/5858912417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.7953022,
-      46.4565727
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5859259865",
   "properties": {
     "emergency": "defibrillator",
