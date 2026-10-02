@@ -1,7 +1,7 @@
 name: Wöchentlicher Änderungs-Report Bern
 on:
   schedule:
-    - cron: "0 7 * * 1"   # jeden Montag um 07:00 UTC
+    - cron: "16 7 * * 1"   # jeden Montag um 07:00 UTC
   workflow_dispatch:
 
 jobs:
