@@ -31830,6 +31830,26 @@
       47.4793864
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14244512701",
+  "properties": {
+    "defibrillator:location": "Treppenaufgang",
+    "description": "Zutritt nur mit Mitarbeiterkarte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14244512701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3003881,
+      47.4794193
+    ]
+  }
 }
 ]
 }

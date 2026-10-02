@@ -39011,29 +39011,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763309934",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "2. Stock im Sitzungszimmer",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Minira AG",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763309934"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.55014,
-      47.4124
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763309936",
   "properties": {
     "access": "no",
