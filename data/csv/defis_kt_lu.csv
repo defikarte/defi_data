@@ -912,7 +912,7 @@ Zufahrt zwischen Gebäude 5 und 6",,Grüner Koffer,,defibrillator,144,,,,node/10
 10880815305,node,47.1911342,7.977308,yes,,,,,,,,,,,,,,"Bahnhofstrasse 20, 6244 Nebikon",,Öffentlich zugänglich beim Treppenaufgang Zentro Erica,,defibrillator,144,,,,node/10880815305,no,,0,,,,24/7,Stiftung Villa Erica,,+41 62 836 97 02,,"local_knowledge, defikarte.ch",,,
 10880913205,node,47.1831203,8.0281587,yes,,,,,,,,,,,,,,"Axpo Kompogas Wauwil AG, Ettiswilerstr.3, 6242 Wauwil",,Nur während Öffnungszeiten verfügbar.,,defibrillator,144,,,,node/10880913205,no,,0,,,,Mo-Fr 07:00-17:00,Axpo Kompogas Wauwil AG,,+41419805380,,,,,
 10894056206,node,47.0112762,8.3104995,,,,,,,,,,,,,,,TCS Campingplatz,,Sanitätergebeude,,defibrillator,144,,,,node/10894056206,no,,,,,,24/7,TCs,,,,,,,
-10896638505,node,47.0480428,8.2630206,no,,,,,,,,,,,,,,Eingang Frossmatte 4,,,,defibrillator,144,,,,node/10896638505,yes,,0,,,,,Privat,,+41 41 259 43 00,,,,,
+10896638505,node,47.0480428,8.2630206,,,,,,,,,,,,,,,Eingang Grossmatte 4,,,,defibrillator,144,,,,node/10896638505,yes,,0,,,,,SSPI GmbH,,+41 41 259 43 00,,,,,
 10914429205,node,47.1854142,8.0189681,yes,,,,,,,,,,,,,,Merzweckhalle Zentrum Linde,,Eingang Zentrum Linde links,,defibrillator,144,,,,node/10914429205,no,,0,,,,24/7,"Gemeinde Wauwil, Dorfstrasse 5, 6242 Wauwil",,+41 41 984 11 11,,"local_knowledge, defikarte.ch",,,
 10925679707,node,47.2125955,7.9811357,yes,,,,,,,,,,,,,,Industriestrasse 17,,Aussenfassade Haupteingang,,defibrillator,144,,,,node/10925679707,no,,0,,,,24/7,Galliker Transport AG,,+41 62 748 82 06,,"local_knowledge, defikarte.ch",,,
 10967650305,node,47.1938079,8.1115058,yes,,,,,,,,,,,,,,Eingang Schreinerei,,,,defibrillator,144,,,,node/10967650305,no,,0,,,,24/7,"Albisser AG, Holzbau und Schreinerei",,,,,,,
