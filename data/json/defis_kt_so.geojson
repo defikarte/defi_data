@@ -696,6 +696,7 @@
   "id": "node/8455386840",
   "properties": {
     "check_date": "2024-09-17",
+    "defibrillator:location": "neben dem Selecta-Automat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -11159,6 +11160,25 @@
     "coordinates": [
       7.7227843,
       47.285673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14245282501",
+  "properties": {
+    "defibrillator:location": "Westbahnhofstrasse 13",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "id": "node/14245282501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5551813,
+      47.1860071
     ]
   }
 }
