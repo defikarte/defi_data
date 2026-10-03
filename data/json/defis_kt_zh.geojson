@@ -81999,6 +81999,28 @@
       47.4470996
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14246153901",
+  "properties": {
+    "defibrillator:location": "Landbank Vorraum Bankomat linke Seite",
+    "description": "Zoll Defi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Zürcher Landbank",
+    "id": "node/14246153901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.668605,
+      47.5267922
+    ]
+  }
 }
 ]
 }
