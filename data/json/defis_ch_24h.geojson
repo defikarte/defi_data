@@ -163463,6 +163463,26 @@
       47.5267922
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14246589903",
+  "properties": {
+    "defibrillator:location": "Devant la coop, mur tout au fond apres les chariots",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14246589903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3965966,
+      46.2964881
+    ]
+  }
 }
 ]
 }
