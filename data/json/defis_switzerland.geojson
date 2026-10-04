@@ -41313,6 +41313,7 @@
   "id": "node/7559459419",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-04",
     "defibrillator:location": "Gemeindeschürli Wiezikon, Weingartenstrasse 3a, 8372 Wiezikon, unter dem kleinen Vordach beim Gemeindeschürli",
     "emergency": "defibrillator",
     "emergency:phone": "144",
