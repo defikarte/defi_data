@@ -31,7 +31,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 8327384164,node,47.3163325,7.6931437,yes,,,,,,,,,,,,EG vis à vis Sekretariat im Altersheim,24h über Nachtklingel verfügbar,,,,defibrillator,144,,node/8327384164,yes,,,,,,24/7,Altersheim Inseli,,,,,,,
 8376504166,node,47.2062953,7.4529922,yes,,,,,,,,,,,,Haupteingang zur Pfarrei (vis-a-vis Kirche).,,,,,defibrillator,144,,node/8376504166,no,,,,,,24/7,,,,,,,,
 8376533542,node,47.3968085,7.5811502,yes,,,,,,,,,,,,neben dem Eingang des Gemeindesaals,,,,,defibrillator,144,,node/8376533542,no,,,,,,24/7,Einwohnergemeinde Fehren,,,+41 61 791 91 11,,,,
-8455386840,node,47.3499199,7.9063963,,,,,,,,2024-09-17,,,,,,,,,,defibrillator,144,,node/8455386840,no,,,,,,,,,,,,,,
+8455386840,node,47.3499199,7.9063963,,,,,,,,2024-09-17,,,,,neben dem Selecta-Automat,,,,,defibrillator,144,,node/8455386840,no,,,,,,,,,,,,,,
 8481830237,node,47.3508555,7.901254,yes,,,,,,,,,,,,Aussen beim Haupteingang,,,,,defibrillator,144,,node/8481830237,no,,,,,,24/7,,,,,,,,
 8521981892,node,47.1611994,7.6870491,yes,,,,,,,,,,,,Unter dem Vordach. Von aussen sichtbar.,,,,,defibrillator,144,,node/8521981892,no,,,,,,,,,,,,,,
 8540385917,node,47.348489,7.9268927,yes,,,,,,,,,,,,"Gemeindeverwaltung Starrkirch-Wil, Eingang",durchgehend erreichbar,,,,defibrillator,144,,node/8540385917,no,,,,,,24/7,Gemeinde,,,,,,,
@@ -503,3 +503,4 @@ AED nur mit Kevin Cotting erhältlich",,,,defibrillator,144,,node/12883688801,ye
 14102522501,node,47.2064796,7.5336035,private,,,,,,,,,,,,SWICA Agentur Solothurn - Korridor,während Öffnungszeiten verfügbar,,,fm@swica.ch,defibrillator,144,,node/14102522501,yes,,2,,,,"Mo-Th 08:00-12:00,13:30-17:00, Fr 08:00-12:00,13:30-16:00",SWICA Krankenversicherung AG,,,+41 52 244 22 33,,,,
 14159412801,node,47.207346,7.554098,permissive,,,,,,,,,,,,Im AKSO / IVSO Gebäude,,,,eliane.jaeggi@akso.ch,defibrillator,144,,node/14159412801,yes,,0,,,,"Mo-Fr 08:30 - 11:30, 13:30-16:30",AKSO / IVSO,,,,,,,
 14231613801,node,47.285673,7.7227843,,,,,,,,,,,,,Sportzentrum Bechburg,,,,,defibrillator,144,,node/14231613801,no,,0,,,,,,,,,,,,
+14245282501,node,47.1860071,7.5551813,,,,,,,,,,,,,Westbahnhofstrasse 13,,,,,defibrillator,144,,node/14245282501,no,,1,,,,,,,,,,,,
