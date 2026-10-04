@@ -33277,6 +33277,30 @@
       47.1707955
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14247400801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Posthüsli Schwändi",
+    "description": "Posthüsli Schwändi, rechts direkt beim Eingang des offenen Gebäudes",
+    "email": "stadelmann.melanie@bluewin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Strassenwassergenossenschaft Feldli- Schwändi, Ansprechsperson Defibrillator Melanie Stadelmann",
+    "phone": "+41 79 414 94 87",
+    "id": "node/14247400801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0856108,
+      46.9959569
+    ]
+  }
 }
 ]
 }
