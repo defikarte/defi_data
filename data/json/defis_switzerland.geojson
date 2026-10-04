@@ -23810,11 +23810,13 @@
   "id": "node/6641800651",
   "properties": {
     "addr:housenumber": "130",
+    "addr:street": "Papiermühlestrasse",
     "contact:addr": "Papiermühlestrasse 130, 3063 Ittigen",
     "contact:phone": "+41 31 9251501",
     "defibrillator:location": "Hauptsitz Gebäudeversicherung Bern GVB",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 06:30-19:00",
     "operator": "Gebäudeversicherung Bern GVB",
     "id": "node/6641800651"
@@ -251182,8 +251184,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7548,
-      46.6737975
+      8.7547222,
+      46.6738052
     ]
   }
 },

@@ -2673,30 +2673,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13732131101",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Zollhaus Binza Mauren",
-    "description": "Direkt an der Strasse beim Zollhaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Mauren",
-    "phone": "+4232220135",
-    "id": "node/13732131101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5519884,
-      47.2236705
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13732168801",
   "properties": {
     "access": "yes",
