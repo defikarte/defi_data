@@ -71,5 +71,26 @@
       }
     ],
     "detected_at": "2026-09-30T14:48:28.203260+00:00"
+  },
+  {
+    "key": "node/6641800651",
+    "name": "Gebäudeversicherung Bern GVB – Hauptsitz Gebäudeversicherun…",
+    "has_name": false,
+    "address": "Papiermühlestrasse 130",
+    "lon": 7.472295,
+    "lat": 46.9704805,
+    "changes": [
+      {
+        "label": "Strasse",
+        "old": null,
+        "new": "Papiermühlestrasse"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-10-04T15:03:06.534524+00:00"
   }
 ]
