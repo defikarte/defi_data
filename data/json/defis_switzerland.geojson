@@ -352343,7 +352343,7 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-01-29",
-    "defibrillator:location:de": "Beim Eingang Reception, neben dem Gepäckraum.",
+    "defibrillator:location": "Beim Eingang Reception, neben dem Gepäckraum.",
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "1",
@@ -384708,6 +384708,31 @@
     "coordinates": [
       8.0856108,
       46.9959569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14251148701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zeughaus Basel, Zeughausstrasse 2, Trottoir",
+    "description": "24/7 verfügbar",
+    "email": "sanitaet@jsd.bs.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Rettung Basel-Stadt, Sanität",
+    "phone": "+41 61 268 12 19",
+    "id": "node/14251148701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6106286,
+      47.5444012
     ]
   }
 }

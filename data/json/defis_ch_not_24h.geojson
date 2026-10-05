@@ -202172,7 +202172,7 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-01-29",
-    "defibrillator:location:de": "Beim Eingang Reception, neben dem Gepäckraum.",
+    "defibrillator:location": "Beim Eingang Reception, neben dem Gepäckraum.",
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "1",
