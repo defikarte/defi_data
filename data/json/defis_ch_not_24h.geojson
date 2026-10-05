@@ -46111,11 +46111,11 @@
   "type": "Feature",
   "id": "node/8556472951",
   "properties": {
-    "defibrillator:location": "Gemeindehaus 1. Stock vor Einwohnerkontrolle",
+    "defibrillator:location": "Gemeindehaus 1. Stock Druckerraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "level": "1",
     "operator": "Gemeinde Küsnacht",
     "phone": "+41 44 913 12 48",
     "id": "node/8556472951"
@@ -46123,7 +46123,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5841495,
+      8.5841494,
       47.3174961
     ]
   }
@@ -192001,10 +192001,6 @@
   "id": "node/13070524834",
   "properties": {
     "access": "yes",
-    "addr:city": "St. Moritz",
-    "addr:housenumber": "33",
-    "addr:postcode": "7500",
-    "addr:street": "Via Somplaz",
     "defibrillator:location": "Werkstatt - Auto Mathis",
     "description": "Gelber Koffer - Werkstatt",
     "emergency": "defibrillator",

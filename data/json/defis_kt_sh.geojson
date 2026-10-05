@@ -4181,6 +4181,28 @@
       47.7474873
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14251862001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vor Turnhalle Silberberg",
+    "description": "vor Eingang der Turnhalle, draussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14251862001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6999508,
+      47.7492496
+    ]
+  }
 }
 ]
 }

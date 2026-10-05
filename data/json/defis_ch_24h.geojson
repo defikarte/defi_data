@@ -123900,14 +123900,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Filiale Landi Surb Weiach",
-    "description": "an der Aussenfassade befestigt",
+    "description": "aktuell AUSSER BETRIEB !!! (an der Aussenfassade befestigt)",
+    "email": "info@weiach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Weiach",
     "phone": "+41 44 554 41 64",
-    "source": "local_knowledge, defikarte.ch",
+    "source": "aed-source",
     "id": "node/12121932601"
   },
   "geometry": {
@@ -163531,6 +163532,50 @@
     "coordinates": [
       7.6106286,
       47.5444012
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14251862001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vor Turnhalle Silberberg",
+    "description": "vor Eingang der Turnhalle, draussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14251862001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6999508,
+      47.7492496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14252323502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pradas Resort: Hintereingang Intersport beim Badesee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Pradas Resort",
+    "id": "node/14252323502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0674723,
+      46.7701799
     ]
   }
 }

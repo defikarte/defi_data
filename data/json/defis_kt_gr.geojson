@@ -15657,10 +15657,6 @@
   "id": "node/13070524834",
   "properties": {
     "access": "yes",
-    "addr:city": "St. Moritz",
-    "addr:housenumber": "33",
-    "addr:postcode": "7500",
-    "addr:street": "Via Somplaz",
     "defibrillator:location": "Werkstatt - Auto Mathis",
     "description": "Gelber Koffer - Werkstatt",
     "emergency": "defibrillator",
@@ -17532,6 +17528,28 @@
     "coordinates": [
       9.5243572,
       46.8506034
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14252323502",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Pradas Resort: Hintereingang Intersport beim Badesee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Pradas Resort",
+    "id": "node/14252323502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0674723,
+      46.7701799
     ]
   }
 }

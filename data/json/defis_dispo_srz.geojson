@@ -20301,11 +20301,11 @@
   "type": "Feature",
   "id": "node/8556472951",
   "properties": {
-    "defibrillator:location": "Gemeindehaus 1. Stock vor Einwohnerkontrolle",
+    "defibrillator:location": "Gemeindehaus 1. Stock Druckerraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:00",
+    "level": "1",
     "operator": "Gemeinde Küsnacht",
     "phone": "+41 44 913 12 48",
     "id": "node/8556472951"
@@ -20313,7 +20313,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5841495,
+      8.5841494,
       47.3174961
     ]
   }
@@ -77857,14 +77857,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Filiale Landi Surb Weiach",
-    "description": "an der Aussenfassade befestigt",
+    "description": "aktuell AUSSER BETRIEB !!! (an der Aussenfassade befestigt)",
+    "email": "info@weiach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Weiach",
     "phone": "+41 44 554 41 64",
-    "source": "local_knowledge, defikarte.ch",
+    "source": "aed-source",
     "id": "node/12121932601"
   },
   "geometry": {
@@ -105406,6 +105407,28 @@
     "coordinates": [
       8.668605,
       47.5267922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14251862001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "vor Turnhalle Silberberg",
+    "description": "vor Eingang der Turnhalle, draussen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14251862001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6999508,
+      47.7492496
     ]
   }
 }
