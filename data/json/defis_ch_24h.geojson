@@ -163578,6 +163578,31 @@
       46.7701799
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14252580301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor der Pfarrwohnung",
+    "description": "Jederzeit zugänglich",
+    "email": "sekretariat.sursee@reflu.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Reformierte Kirche Sursee",
+    "phone": "+41 41 921 11 19",
+    "id": "node/14252580301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1929067,
+      47.137566
+    ]
+  }
 }
 ]
 }

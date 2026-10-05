@@ -19626,6 +19626,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 08:00-20:00",
     "id": "node/8871980818"
   },
@@ -82020,6 +82021,28 @@
     "coordinates": [
       8.668605,
       47.5267922
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14253283302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "OBI im Erdgeschoss gegenüber der Kassen links vom Aufzug",
+    "description": "währen Öffnungszeit von Obi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 08:00-20:00",
+    "id": "node/14253283302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6750887,
+      47.3802401
     ]
   }
 }

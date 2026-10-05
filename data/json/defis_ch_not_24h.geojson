@@ -55951,6 +55951,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 08:00-20:00",
     "id": "node/8871980818"
   },
@@ -172133,13 +172134,13 @@
   "id": "node/12306615001",
   "properties": {
     "access": "permissive",
+    "contact:emergency:phone": "144",
+    "contact:phone": "+41 41 725 31 50",
     "defibrillator:location": "Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",
     "emergency": "defibrillator",
-    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Kunsteisbahn Zug AG",
-    "phone": "+41417253150",
     "id": "node/12306615001"
   },
   "geometry": {
@@ -178293,13 +178294,13 @@
   "type": "Feature",
   "id": "node/12538752301",
   "properties": {
+    "contact:phone": "+41 41 725 31 50",
     "defibrillator:location": "Trainingshalle, Haupteingang, im Gang rechts an Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Kunsteisbahn Zug AG",
-    "phone": "+41417253150",
     "id": "node/12538752301"
   },
   "geometry": {
@@ -221196,6 +221197,28 @@
     "coordinates": [
       7.5551813,
       47.1860071
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14253283302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "OBI im Erdgeschoss gegenüber der Kassen links vom Aufzug",
+    "description": "währen Öffnungszeit von Obi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 08:00-20:00",
+    "id": "node/14253283302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6750887,
+      47.3802401
     ]
   }
 }

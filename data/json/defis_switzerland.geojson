@@ -110480,6 +110480,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo-Fr 09:00-20:00; Sa 08:00-20:00",
     "id": "node/8871980818"
   },
@@ -299775,13 +299776,13 @@
   "id": "node/12306615001",
   "properties": {
     "access": "permissive",
+    "contact:emergency:phone": "144",
+    "contact:phone": "+41 41 725 31 50",
     "defibrillator:location": "Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",
     "emergency": "defibrillator",
-    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Kunsteisbahn Zug AG",
-    "phone": "+41417253150",
     "id": "node/12306615001"
   },
   "geometry": {
@@ -311966,13 +311967,13 @@
   "type": "Feature",
   "id": "node/12538752301",
   "properties": {
+    "contact:phone": "+41 41 725 31 50",
     "defibrillator:location": "Trainingshalle, Haupteingang, im Gang rechts an Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Kunsteisbahn Zug AG",
-    "phone": "+41417253150",
     "id": "node/12538752301"
   },
   "geometry": {
@@ -384774,6 +384775,53 @@
     "coordinates": [
       9.0674723,
       46.7701799
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14252580301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Vor der Pfarrwohnung",
+    "description": "Jederzeit zugänglich",
+    "email": "sekretariat.sursee@reflu.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Reformierte Kirche Sursee",
+    "phone": "+41 41 921 11 19",
+    "id": "node/14252580301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1929067,
+      47.137566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14253283302",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "OBI im Erdgeschoss gegenüber der Kassen links vom Aufzug",
+    "description": "währen Öffnungszeit von Obi",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-20:00; Sa 08:00-20:00",
+    "id": "node/14253283302"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6750887,
+      47.3802401
     ]
   }
 }
