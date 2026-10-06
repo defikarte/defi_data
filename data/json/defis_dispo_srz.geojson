@@ -105454,6 +105454,43 @@
       47.3802401
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14255155501",
+  "properties": {
+    "defibrillator:location": "Hofwisenstrasse 21. 8260 Stein am Rhein",
+    "description": "Mo-Fr 7:00 - 12:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14255155501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.85416,
+      47.6514405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14255762839",
+  "properties": {
+    "defibrillator:location": "in der Wartezone B",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14255762839"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5309174,
+      47.3795569
+    ]
+  }
 }
 ]
 }

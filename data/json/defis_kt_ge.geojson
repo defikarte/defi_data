@@ -443,6 +443,7 @@
   "id": "node/9439777753",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-06",
     "defibrillator:location": "abri ALST",
     "description": "für Benützer des Übungsdorfes",
     "emergency": "defibrillator",

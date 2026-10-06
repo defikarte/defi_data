@@ -14039,8 +14039,6 @@
   "id": "node/12354204548",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "33",
-    "addr:street": "Via Mezdi",
     "defibrillator:location": "Billionaire Club-Kempinski Club",
     "emergency": "defibrillator",
     "emergency:phone": "144",

@@ -82045,6 +82045,23 @@
       47.3802401
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14255762839",
+  "properties": {
+    "defibrillator:location": "in der Wartezone B",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14255762839"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5309174,
+      47.3795569
+    ]
+  }
 }
 ]
 }

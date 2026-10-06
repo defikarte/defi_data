@@ -1419,10 +1419,12 @@
   "id": "node/7574849957",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-20",
     "defibrillator:location": "Der Defibrillator hängt an der Wand zwischen dem Eingang zur Post und den Postfächern.",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/7574849957"
   },
@@ -5850,6 +5852,7 @@
   "id": "node/8038988150",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-06",
     "defibrillator:location": "SGKB Wattwil",
     "description": "unbekannt wann verfügbar",
     "emergency": "defibrillator",

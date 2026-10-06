@@ -5827,6 +5827,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/9016742036"
   },
   "geometry": {
@@ -31848,6 +31849,31 @@
     "coordinates": [
       8.3003881,
       47.4794193
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14255360201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Coop Vitality Apotheke",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "apotheke.muri@coop-vitality.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "operator": "Coop EKZ",
+    "phone": "+41 58 878 83 40",
+    "id": "node/14255360201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3414682,
+      47.2732436
     ]
   }
 }

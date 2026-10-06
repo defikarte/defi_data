@@ -44007,10 +44007,12 @@
   "id": "node/7574849957",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-20",
     "defibrillator:location": "Der Defibrillator hängt an der Wand zwischen dem Eingang zur Post und den Postfächern.",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/7574849957"
   },
@@ -76758,6 +76760,7 @@
   "id": "node/8038988150",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-06",
     "defibrillator:location": "SGKB Wattwil",
     "description": "unbekannt wann verfügbar",
     "emergency": "defibrillator",
@@ -117749,6 +117752,7 @@
   "properties": {
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/9016742036"
   },
   "geometry": {
@@ -144544,6 +144548,7 @@
   "id": "node/9439777753",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-06",
     "defibrillator:location": "abri ALST",
     "description": "für Benützer des Übungsdorfes",
     "emergency": "defibrillator",
@@ -302397,8 +302402,6 @@
   "id": "node/12354204548",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "33",
-    "addr:street": "Via Mezdi",
     "defibrillator:location": "Billionaire Club-Kempinski Club",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -384822,6 +384825,91 @@
     "coordinates": [
       8.6750887,
       47.3802401
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14255155501",
+  "properties": {
+    "defibrillator:location": "Hofwisenstrasse 21. 8260 Stein am Rhein",
+    "description": "Mo-Fr 7:00 - 12:00",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14255155501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.85416,
+      47.6514405
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14255360201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Coop Vitality Apotheke",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "apotheke.muri@coop-vitality.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 08:00-20:00",
+    "operator": "Coop EKZ",
+    "phone": "+41 58 878 83 40",
+    "id": "node/14255360201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3414682,
+      47.2732436
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14255762839",
+  "properties": {
+    "defibrillator:location": "in der Wartezone B",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14255762839"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5309174,
+      47.3795569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14255772201",
+  "properties": {
+    "defibrillator:location": "Sportplatz Hunzige",
+    "email": "info@rubigen.swiss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Roland Schüpbach",
+    "phone": "+41 31 720 41 41",
+    "id": "node/14255772201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.538246,
+      46.893554
     ]
   }
 }

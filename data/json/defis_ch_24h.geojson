@@ -24150,10 +24150,12 @@
   "id": "node/7574849957",
   "properties": {
     "access": "yes",
+    "check_date": "2026-09-20",
     "defibrillator:location": "Der Defibrillator hängt an der Wand zwischen dem Eingang zur Post und den Postfächern.",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/7574849957"
   },
@@ -163601,6 +163603,29 @@
     "coordinates": [
       8.1929067,
       47.137566
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14255772201",
+  "properties": {
+    "defibrillator:location": "Sportplatz Hunzige",
+    "email": "info@rubigen.swiss",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Roland Schüpbach",
+    "phone": "+41 31 720 41 41",
+    "id": "node/14255772201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.538246,
+      46.893554
     ]
   }
 }
