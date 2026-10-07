@@ -384726,7 +384726,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Rettung Basel-Stadt, Sanität",
-    "phone": "+41 61 268 12 19",
+    "phone": "+41 61 268 11 44",
     "id": "node/14251148701"
   },
   "geometry": {
@@ -384910,6 +384910,47 @@
     "coordinates": [
       7.538246,
       46.893554
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14257567201",
+  "properties": {
+    "defibrillator:location": "Aussenfasade",
+    "description": "24/ 7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Stampfli Medical AG",
+    "phone": "+41566679333",
+    "id": "node/14257567201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1991559,
+      47.3245017
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14257678078",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Next to the elevator",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14257678078"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5299419,
+      46.8527671
     ]
   }
 }

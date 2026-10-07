@@ -31876,6 +31876,28 @@
       47.2732436
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14257567201",
+  "properties": {
+    "defibrillator:location": "Aussenfasade",
+    "description": "24/ 7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Stampfli Medical AG",
+    "phone": "+41566679333",
+    "id": "node/14257567201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1991559,
+      47.3245017
+    ]
+  }
 }
 ]
 }

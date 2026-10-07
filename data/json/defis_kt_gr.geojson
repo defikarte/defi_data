@@ -17550,6 +17550,25 @@
       46.7701799
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14257678078",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Next to the elevator",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14257678078"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5299419,
+      46.8527671
+    ]
+  }
 }
 ]
 }
