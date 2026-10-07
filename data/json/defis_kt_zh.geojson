@@ -82062,6 +82062,27 @@
       47.3795569
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14258024201",
+  "properties": {
+    "defibrillator:location": "Im Buchenegg 25 8406 Winterthur",
+    "description": "Im Fahrzeug, könnte unterwegs sein",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Privat",
+    "phone": "+41794751391",
+    "id": "node/14258024201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7010808,
+      47.4810905
+    ]
+  }
 }
 ]
 }

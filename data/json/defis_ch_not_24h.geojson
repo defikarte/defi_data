@@ -208847,20 +208847,19 @@
 },
 {
   "type": "Feature",
-  "id": "node/13766084101",
+  "id": "node/13765756001",
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Zentrum für Bilddiagnostik AG, beim MRI 2 im Schrank",
-    "description": "während Öffnungszeiten verfügbar",
     "email": "frontdesk@bilddiagnostik.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 07:00-20:00",
-    "operator": "Unternehmen, Zentrum für Bilddiagnostik AG",
+    "operator": "Zentrum für Bilddiagnostik AG",
     "phone": "+41 61 281 69 69",
-    "id": "node/13766084101"
+    "id": "node/13765756001"
   },
   "geometry": {
     "type": "Point",
@@ -221287,28 +221286,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14257567201",
-  "properties": {
-    "defibrillator:location": "Aussenfasade",
-    "description": "24/ 7",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Stampfli Medical AG",
-    "phone": "+41566679333",
-    "id": "node/14257567201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1991559,
-      47.3245017
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14257678078",
   "properties": {
     "access": "yes",
@@ -221323,6 +221300,27 @@
     "coordinates": [
       9.5299419,
       46.8527671
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14258024201",
+  "properties": {
+    "defibrillator:location": "Im Buchenegg 25 8406 Winterthur",
+    "description": "Im Fahrzeug, könnte unterwegs sein",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Privat",
+    "phone": "+41794751391",
+    "id": "node/14258024201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7010808,
+      47.4810905
     ]
   }
 }

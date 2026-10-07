@@ -163628,6 +163628,56 @@
       46.893554
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14257567201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Fankhauser Holzbau AG Boniswilerstrasse 32, 5707 Seengen",
+    "description": "Am Gebäude Aussenfassade Richtung Hauptstrasse",
+    "email": "info@stampflimedical.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stampfli Medical AG",
+    "phone": "+41566679333",
+    "id": "node/14257567201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1994003,
+      47.3245824
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14258921901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Administration communale",
+    "description": "Avec appel au 144",
+    "email": "info@sevaz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Sévaz",
+    "phone": "+41 26 663 29 45",
+    "id": "node/14258921901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.875036,
+      46.8381277
+    ]
+  }
 }
 ]
 }
