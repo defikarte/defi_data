@@ -69,7 +69,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 7572693313,node,47.1229923,9.314239,yes,,,,,,,,,,Gemeindeverwaltung,,,,,,defibrillator,144,node/7572693313,,,,,,,,,,,24/7,Feuerwehr Walenstadt,,,,,,,,,
 7572693314,node,47.1259713,9.3028387,yes,,,,,,,,,,Am Badegebäude neben dem Kiosk an der seeseitigen Wand im grünen Kasten.,,,,,,defibrillator,144,node/7572693314,,,no,,,,0,,,,24/7,Feuerwehr Walenstadt,,,,,,,,,yes
 7573035048,node,47.1925832,9.062385,,,,,,,,,,,Am Containerhaus,,,24/7,,,defibrillator,144,node/7573035048,,,no,,,,0,,,,,Privatperson,,,,,,,,,
-7574849957,node,47.13431,9.0964973,yes,,,,,,,,,,Der Defibrillator hängt an der Wand zwischen dem Eingang zur Post und den Postfächern.,,,Öffentlich zugänglich,,,defibrillator,144,node/7574849957,,,,,,,,,,,24/7,,,,,,,,,,
+7574849957,node,47.13431,9.0964973,yes,,,,,,,,2026-09-20,,Der Defibrillator hängt an der Wand zwischen dem Eingang zur Post und den Postfächern.,,,Öffentlich zugänglich,,,defibrillator,144,node/7574849957,,,,,,,0,,,,24/7,,,,,,,,,,
 7577581316,node,47.1489482,9.1419151,yes,,,,,,,,,,Eingang bei den Bancomaten,,,,,,defibrillator,144,node/7577581316,,,yes,,,,,,,,24/7,,,,,,,,,,
 7595651363,node,47.2241641,8.8635635,private,,,,,,,,,,Im Gebäude auf Löschposten montiert,,,Nur während Betriebszeiten verfügbar,,,defibrillator,144,node/7595651363,,,yes,,,,,,,,"Mo-Th 08:00-12:00, 13:30-17:00",,,,,,,,,,
 7667048295,node,47.2711781,9.0139228,yes,,,,,,,,,,Hauseingang,,,immer zugänglich,,,defibrillator,144,node/7667048295,,,,,,,,,,,24/7,,,,,,,,,,
@@ -286,7 +286,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 8038988147,node,47.2949946,9.0919274,yes,,,,,,,,,,öffentlich,,,24h,,,defibrillator,144,node/8038988147,,,no,,,,,,,,,,,,,,,,,,
 8038988148,node,47.2967605,9.0929769,yes,,,,,,,,,,zwischen 3. und 4. OG links an der Wand,,,unbekannt wann verfügbar,,,defibrillator,144,node/8038988148,,,yes,,,,,,,,,,,,,,,,,,
 8038988149,node,47.2994445,9.09063,yes,,,,,,,,,,"im EG der Turnhalle, rechts an der Wand",,,während Öffnungszeiten verfügbar,,,defibrillator,144,node/8038988149,,,yes,,,,,,,,,,,,,,,,,,
-8038988150,node,47.3013843,9.0859749,yes,,,,,,,,,,SGKB Wattwil,,,unbekannt wann verfügbar,,,defibrillator,144,node/8038988150,,,yes,,,,,,,,,,,,,,,,,,
+8038988150,node,47.3013843,9.0859749,yes,,,,,,,,2026-10-06,,SGKB Wattwil,,,unbekannt wann verfügbar,,,defibrillator,144,node/8038988150,,,yes,,,,,,,,,,,,,,,,,,
 8038988151,node,47.3042364,9.0883192,yes,,,,,,,,,,Ref. Kirche Wattwil,,,während Öffnungszeiten verfügbar,,,defibrillator,144,node/8038988151,,,yes,,,,,,,,,,,,,,,,,,
 8038988152,node,47.3026542,9.0868456,yes,,,,,,,,,,Im Vorraum der Bankomaten,,,,,,defibrillator,144,node/8038988152,,,yes,,,,,,,,24/7,,,,,,,,,,
 8038988153,node,47.3033125,9.0867045,yes,,,,,,,,,,Beim Haupteingang vis a vis von Blumenverkauf an Säule,,,,,,defibrillator,144,node/8038988153,,,yes,,,,,,,,Mo-Th 07:30-19:00; Fr 07:30-20:00; Sa 07:30-17:00,,,,,,,,,,
