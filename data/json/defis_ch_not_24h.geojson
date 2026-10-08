@@ -70788,8 +70788,8 @@
   "type": "Feature",
   "id": "node/9349791817",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Klixa AG, Empfang 2. OG",
+    "access": "private",
+    "defibrillator:location": "Klixa AG, Empfang 1. OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -70801,8 +70801,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6532243,
-      47.5280701
+      7.6532248,
+      47.5280703
     ]
   }
 },
@@ -206776,6 +206776,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/13678589201",
+  "properties": {
+    "defibrillator:location": "Im Vorraum der Saanen Bank",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 06:00-23:30",
+    "operator": "Gemeindeverwaltung Lauenen",
+    "phone": "+41 33 765 30 15",
+    "id": "node/13678589201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3224387,
+      46.4247269
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13680958301",
   "properties": {
     "access": "permissive",
@@ -221321,6 +221342,29 @@
     "coordinates": [
       8.7010808,
       47.4810905
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14263428603",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenfassade unter dem Vordach",
+    "email": "info@mobilcentergmbh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "mobilcenter von rotz gmbh",
+    "phone": "+41 71 977 21 19",
+    "id": "node/14263428603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.974219,
+      47.4314738
     ]
   }
 }

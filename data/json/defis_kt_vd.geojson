@@ -15056,6 +15056,23 @@
       46.4396971
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14262978974",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/14262978974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8653246,
+      46.474074
+    ]
+  }
 }
 ]
 }

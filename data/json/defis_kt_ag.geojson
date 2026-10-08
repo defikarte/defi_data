@@ -31901,6 +31901,26 @@
       47.3245824
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14263405901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kapelle Rottenschwil neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14263405901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3624036,
+      47.3139255
+    ]
+  }
 }
 ]
 }

@@ -2824,8 +2824,8 @@
   "type": "Feature",
   "id": "node/9349791817",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Klixa AG, Empfang 2. OG",
+    "access": "private",
+    "defibrillator:location": "Klixa AG, Empfang 1. OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2837,8 +2837,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6532243,
-      47.5280701
+      7.6532248,
+      47.5280703
     ]
   }
 },

@@ -16513,6 +16513,29 @@
       47.5922189
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14263428603",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenfassade unter dem Vordach",
+    "email": "info@mobilcentergmbh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "mobilcenter von rotz gmbh",
+    "phone": "+41 71 977 21 19",
+    "id": "node/14263428603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.974219,
+      47.4314738
+    ]
+  }
 }
 ]
 }

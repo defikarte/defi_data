@@ -62910,7 +62910,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
+    "opening_hours": "Mo-Su 06:00-23:30",
     "operator": "Gemeindeverwaltung Lauenen",
     "phone": "+41 33 765 30 15",
     "id": "node/13678589201"
@@ -62918,8 +62918,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.322438,
-      46.424727
+      7.3224387,
+      46.4247269
     ]
   }
 },

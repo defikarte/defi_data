@@ -152849,27 +152849,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13678589201",
-  "properties": {
-    "defibrillator:location": "Im Vorraum der Saanen Bank",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Gemeindeverwaltung Lauenen",
-    "phone": "+41 33 765 30 15",
-    "id": "node/13678589201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.322438,
-      46.424727
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13679233502",
   "properties": {
     "access": "yes",
@@ -163676,6 +163655,91 @@
     "coordinates": [
       6.875036,
       46.8381277
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14262978974",
+  "properties": {
+    "access": "yes",
+    "emergency": "defibrillator",
+    "opening_hours": "24/7",
+    "id": "node/14262978974"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8653246,
+      46.474074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14263405901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kapelle Rottenschwil neben Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14263405901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3624036,
+      47.3139255
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14263784001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhotel Zug, Industriestrasse 14, 6300 Zug, Fassade neben Eingang (Unterstand)",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14263784001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5187995,
+      47.1721413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14263825501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Riedmatt 3, 6300 Zug, Beim Eingang an Fassade zur Kinderbetreuung",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14263825501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.492649,
+      47.1834535
     ]
   }
 }

@@ -2786,6 +2786,54 @@
       47.1815013
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14263784001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkhotel Zug, Industriestrasse 14, 6300 Zug, Fassade neben Eingang (Unterstand)",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14263784001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5187995,
+      47.1721413
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14263825501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Riedmatt 3, 6300 Zug, Beim Eingang an Fassade zur Kinderbetreuung",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14263825501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.492649,
+      47.1834535
+    ]
+  }
 }
 ]
 }
