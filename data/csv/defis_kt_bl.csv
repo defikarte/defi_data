@@ -98,7 +98,7 @@ Sichtbar von der Strasse aus.",,defibrillator,144,,node/9075763717,no,,,,24/7,Ge
 9302015617,node,47.4865086,7.7419083,no,,,,,,,,Eingang Cafe,,,,defibrillator,144,,node/9302015617,yes,,,,,Pflegheim,,,,,,,
 9310731916,node,47.5507277,7.5361852,yes,,,,,,,,Im Hotel Rössli unter der Brandmeldeanlage im Eingang.,,während den Öffnungszeiten/ Mittwoch geschlossen,,defibrillator,144,,node/9310731916,yes,0,,,,Hotel Rössli Allschwil,+41 61 486 96 96,,,,,,
 9310885217,node,47.4602191,7.7184608,,,,,,,,,Schulhaus,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9310885217,yes,,,,,Gemeinde,,,,,,,
-9349791817,node,47.5280701,7.6532243,yes,,,,,,,,"Klixa AG, Empfang 2. OG",,,,defibrillator,144,,node/9349791817,yes,,,,Mo-Fr 08:00-18:00,Klixa AG,+41615112555,,,,,,
+9349791817,node,47.5280703,7.6532248,private,,,,,,,,"Klixa AG, Empfang 1. OG",,,,defibrillator,144,,node/9349791817,yes,,,,Mo-Fr 08:00-18:00,Klixa AG,+41615112555,,,,,,
 9391488815,node,47.5362695,7.6372789,yes,,,,,,,,"EG, Zentrum JETZ",,24h verfügbar(Nachts über SMS Türöffnung),,defibrillator,144,,node/9391488815,yes,,,,24/7,JETZ - Youth Technology Lab / Reto Strub,+41 61 511 90 90,,,,,,
 9396964617,node,47.4679672,7.7989524,yes,,,,,,,,NSNW AG/Polizei,,Öffentlich zugänglich,,defibrillator,144,,node/9396964617,no,,,,24/7,NSNW AG Netzenstr.1 4450 Sissach,+41619754545,,,,,,
 9410272417,node,47.4671372,7.801047,yes,,,,,,,,Garage Wirz Sißach,,,,defibrillator,144,,node/9410272417,no,,,,24/7,Garage Wirz Sissach,,,,,,,

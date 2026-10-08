@@ -1447,4 +1447,5 @@ Im Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. gesch
 14222261001,node,47.4793864,8.3025105,yes,,,,,,,,,"Beim Eingang, gut sichtbar zugänglich",,Defibrillator gut sichtbar beim Eingang.,,defibrillator,144,,node/14222261001,,yes,,,0,,,,24/7,,,,,,,,,,
 14244512701,node,47.4794193,8.3003881,,,,,,,,,,Treppenaufgang,,Zutritt nur mit Mitarbeiterkarte,,defibrillator,144,,node/14244512701,,yes,,,0,,,,,,,,,,,,,,
 14255360201,node,47.2732436,8.3414682,private,,,,,,,,,Coop Vitality Apotheke,,Während Öffnungszeiten verfügbar,apotheke.muri@coop-vitality.ch,defibrillator,144,,node/14255360201,,yes,,,0,,,,Mo-Sa 08:00-20:00,Coop EKZ,,,+41 58 878 83 40,,,,,,
-14257567201,node,47.3245017,8.1991559,,,,,,,,,,Aussenfasade,,24/ 7,,defibrillator,144,,node/14257567201,,no,,,0,,,,,Stampfli Medical AG,,,+41566679333,,,,,,
+14257567201,node,47.3245824,8.1994003,yes,,,,,,,,,"Fankhauser Holzbau AG Boniswilerstrasse 32, 5707 Seengen",,Am Gebäude Aussenfassade Richtung Hauptstrasse,info@stampflimedical.ch,defibrillator,144,,node/14257567201,,no,,,0,,,,24/7,Stampfli Medical AG,,,+41566679333,,,,,,
+14263405901,node,47.3139255,8.3624036,yes,,,,,,,,,Kapelle Rottenschwil neben Eingang,,,,defibrillator,144,,node/14263405901,,no,,,,,,,24/7,,,,,,,,,,
