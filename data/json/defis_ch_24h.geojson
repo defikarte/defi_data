@@ -53265,6 +53265,7 @@
     "access": "yes",
     "defibrillator:location": "Baur au Lac Haupteingang",
     "description": "Lobby bei Telefonzentrale",
+    "email": "sibe@bauraulac.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -163664,6 +163665,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/14262978974"
   },
@@ -163740,6 +163742,30 @@
     "coordinates": [
       8.492649,
       47.1834535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14263836501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wasserspielplatz am Arbach, an der Fassade der Quartierbox (Göblistrasse/Lauridenhofweg)",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14263836501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5235125,
+      47.1781393
     ]
   }
 }

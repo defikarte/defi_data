@@ -2030,6 +2030,31 @@
       47.1284429
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14264036601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Walhalladrink AG Personaleingang",
+    "description": "Personaleingang / Während Bürozeiten",
+    "email": "sibe@bauraulac.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00; Sa 08:00-17:00",
+    "operator": "Walhalladrink AG (HKEAG)",
+    "phone": "+41 55 646 80 80",
+    "id": "node/14264036601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0583157,
+      47.068887
+    ]
+  }
 }
 ]
 }

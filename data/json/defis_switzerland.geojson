@@ -106947,6 +106947,7 @@
     "access": "permissive",
     "defibrillator:location": "Baur au Lac Garage",
     "description": "Während Öffnungszeiten verfügbar",
+    "email": "sibe@bauraulac.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -106993,6 +106994,7 @@
     "access": "permissive",
     "defibrillator:location": "Baur au Lac",
     "description": "Bei Warenanlieferung, eingeschränkt zugänglich",
+    "email": "sibe@bauraulac.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -107036,6 +107038,7 @@
     "access": "yes",
     "defibrillator:location": "Baur au Lac Haupteingang",
     "description": "Lobby bei Telefonzentrale",
+    "email": "sibe@bauraulac.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -107896,6 +107899,7 @@
     "access": "permissive",
     "defibrillator:location": "Baur au Lac Vins",
     "description": "Bei Verkaufsladen oder Spedition melden",
+    "email": "sibe@bauraulac.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -290082,15 +290086,15 @@
   "id": "node/12106194401",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Haupteingang im Sanitätszimmer",
+    "check_date": "2026-10-08",
+    "defibrillator:location": "Haupteingang, gegenüber Empfangstresen, im Schränkchen unter dem Wasserhahn",
     "description": "Während Bürozeiten erreichbar.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-17:00",
+    "opening_hours": "Mo-Fr 07:00-17:30; PH closed",
     "operator": "SBB",
-    "source": "local_knowledge, defikarte.ch",
     "id": "node/12106194401"
   },
   "geometry": {
@@ -385008,6 +385012,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/14262978974"
   },
@@ -385107,6 +385112,55 @@
     "coordinates": [
       8.492649,
       47.1834535
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14263836501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wasserspielplatz am Arbach, an der Fassade der Quartierbox (Göblistrasse/Lauridenhofweg)",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
+    "phone": "+41 58 728 99 00",
+    "id": "node/14263836501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5235125,
+      47.1781393
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14264036601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Walhalladrink AG Personaleingang",
+    "description": "Personaleingang / Während Bürozeiten",
+    "email": "sibe@bauraulac.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00; Sa 08:00-17:00",
+    "operator": "Walhalladrink AG (HKEAG)",
+    "phone": "+41 55 646 80 80",
+    "id": "node/14264036601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0583157,
+      47.068887
     ]
   }
 }

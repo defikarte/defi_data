@@ -15063,6 +15063,7 @@
   "properties": {
     "access": "yes",
     "emergency": "defibrillator",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/14262978974"
   },
