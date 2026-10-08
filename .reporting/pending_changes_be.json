@@ -1,1 +1,18 @@
-[]
+[
+  {
+    "key": "node/13678589201",
+    "name": "Gemeindeverwaltung Lauenen – Im Vorraum der Saanen Bank",
+    "has_name": false,
+    "address": null,
+    "lon": 7.3224387,
+    "lat": 46.4247269,
+    "changes": [
+      {
+        "label": "Öffnungszeiten",
+        "old": "24/7",
+        "new": "Mo-Su 06:00-23:30"
+      }
+    ],
+    "detected_at": "2026-10-08T09:31:55.093570+00:00"
+  }
+]
