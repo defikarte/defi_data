@@ -153767,7 +153767,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Christinger AG",
-    "opening_hours": "Mo-Th 07:30-12:00 13:00-17:00 Fr 07:30-12:00 13:00-16:30",
+    "opening_hours": "Mo-Th 07:30-12:00,13:00-17:00; Fr 07:30-12:00, 13:00-16:30",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11733701453"
@@ -153814,7 +153814,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Kaltband AG",
-    "opening_hours": "Mo-Fr 07:30-11:45 13:15-17:00",
+    "opening_hours": "Mo-Fr 07:30-11:45, 13:15-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/11733746509"
@@ -158356,7 +158356,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Dobi-Inter AG",
-    "opening_hours": "Mo - Fr 09:00-18:00 Sa 09:00-17:00",
+    "opening_hours": "Mo - Fr 09:00-18:00; Sa 09:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "ref": "1361LTM",
@@ -220319,7 +220319,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "7:30-17:00",
+    "opening_hours": "07:30-17:00",
     "operator": "Frepa AG",
     "id": "node/14188812903"
   },
@@ -220361,7 +220361,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "1",
-    "opening_hours": "7:30-17:30",
+    "opening_hours": "07:30-17:30",
     "operator": "Therapie auf Augenhöhe GmbH",
     "phone": "+41794000704",
     "id": "node/14188869001"

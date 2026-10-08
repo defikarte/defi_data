@@ -1188,6 +1188,7 @@
   "id": "node/8779635517",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-08",
     "defibrillator:location": "Beim Bankomat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
