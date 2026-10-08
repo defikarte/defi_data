@@ -14,5 +14,26 @@
       }
     ],
     "detected_at": "2026-10-08T09:31:55.093570+00:00"
+  },
+  {
+    "key": "node/12106194401",
+    "name": "SBB – Haupteingang, gegenüber Empfangstresen, im Schränkche…",
+    "has_name": false,
+    "address": null,
+    "lon": 7.4635309,
+    "lat": 46.967811,
+    "changes": [
+      {
+        "label": "Öffnungszeiten",
+        "old": "Mo-Fr 07:00-17:00",
+        "new": "Mo-Fr 07:00-17:30; PH closed"
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": "Haupteingang im Sanitätszimmer",
+        "new": "Haupteingang, gegenüber Empfangstresen, im Schränkchen unter dem Wasserhahn"
+      }
+    ],
+    "detected_at": "2026-10-08T17:00:53.587021+00:00"
   }
 ]
