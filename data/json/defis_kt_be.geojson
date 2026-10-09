@@ -66267,6 +66267,28 @@
       46.893554
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14266781201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ostfassade Bauernhaus, Fahrradunterstand",
+    "email": "saurenhorn@terra-vecchia.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "phone": "+41 31 879 21 01",
+    "id": "node/14266781201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3408676,
+      47.030372
+    ]
+  }
 }
 ]
 }

@@ -163747,6 +163747,30 @@
       47.1781393
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14266976301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Dienstgebäude KWM",
+    "description": "Im Eingangsbereich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kraftwerke Mattmark AG",
+    "phone": "+41279530000",
+    "id": "node/14266976301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.875594,
+      46.2380573
+    ]
+  }
 }
 ]
 }
