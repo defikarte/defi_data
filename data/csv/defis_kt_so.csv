@@ -54,7 +54,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 8699607518,node,47.1143696,7.4625506,yes,,,,,,,,,,,,"Draussen, neben Garagentor.",,,,,defibrillator,144,,node/8699607518,no,,,,,,24/7,Regionalfeuerwehr Limpachtal,,,,,,,
 8742684117,node,47.3176356,7.6942168,yes,,,,,,,,,,,,"Eingamg Pfarreiheim, neben dem IV WC",während der Öffnungszeit der Kirche,,,,defibrillator,144,,node/8742684117,yes,,,,,,Mo-Su 07:00-19:00,röm. kath. Kirchgemeinde Balsthal,,,+41623919191,,,,
 8764958917,node,47.3080058,7.7849898,yes,,,,,,,,,,,,"Migros Verteilbetriebe, Velounterstand",,,,,defibrillator,144,,node/8764958917,no,,,,,,24/7,Migros Verteilbetriebe,,,+41623887111,,,,
-8779635517,node,47.1749139,7.5977311,yes,,,,,,,,,,,,Beim Bankomat,,,,,defibrillator,144,,node/8779635517,no,,,,,,24/7,,,,,,,,
+8779635517,node,47.1749139,7.5977311,yes,,,,,,,2026-10-08,,,,,Beim Bankomat,,,,,defibrillator,144,,node/8779635517,no,,,,,,24/7,,,,,,,,
 8811198766,node,47.4346437,7.6582673,yes,,,,,,,,,,,,Gemeindeverwaltung,,,,,defibrillator,144,,node/8811198766,yes,,,,,,24/7,Gemeinde Seewen,,,+41 77 466 55 44,,,,
 8832574027,node,47.3743293,7.9925024,yes,,,,,,,,,,,,Schulhaus Niedergösgen ,24\7 Erreichbarkeit unter Pausenhalle ,,,,defibrillator,144,,node/8832574027,no,,,,,,24/7,Einwohnergemeinde ,,,+41793663412,,,,
 8844029846,node,47.3093871,7.6932701,yes,,,,,,,,,,,,Neben Haupteingang Allenspach Medical AG,,,,,defibrillator,144,,node/8844029846,no,,,,,,24/7,Allenspach Medical AG,,,+41 62 386 60 06,,,,

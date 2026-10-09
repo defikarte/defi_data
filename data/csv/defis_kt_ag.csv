@@ -1065,10 +1065,10 @@ Im Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. gesch
 11725464469,node,47.5617659,8.4085858,no,,,,,,,,,Gemeindeverwaltung Fisibach ,,Wären den Öffnungszeiten der Kanzlei,,defibrillator,144,,node/11725464469,,yes,,,0,,,,,Gemeinde,,,+41434331080,,,"local_knowledge, defikarte.ch",,,
 11733701453,node,47.4685093,8.1812193,private,,,,,,,,,"Spedition
 
-1247LTM",,Oranger Koffer,,defibrillator,144,,node/11733701453,,yes,,,,,Christinger AG,,Mo-Th 07:30-12:00 13:00-17:00 Fr 07:30-12:00 13:00-16:30,Lifetec AG Schweiz,,,+41 800 122 144,,,,,,
+1247LTM",,Oranger Koffer,,defibrillator,144,,node/11733701453,,yes,,,,,Christinger AG,,"Mo-Th 07:30-12:00,13:00-17:00; Fr 07:30-12:00, 13:00-16:30",Lifetec AG Schweiz,,,+41 800 122 144,,,,,,
 11733746509,node,47.2571695,8.1726458,private,,,,,,,,,"Werkhalle
 
-1248LTB",,FOPPA Blauer Rucksack,,defibrillator,144,,node/11733746509,,yes,,,,,Kaltband AG,,Mo-Fr 07:30-11:45 13:15-17:00,Lifetec AG Schweiz,,,+41 800 122 144,,,,,,
+1248LTB",,FOPPA Blauer Rucksack,,defibrillator,144,,node/11733746509,,yes,,,,,Kaltband AG,,"Mo-Fr 07:30-11:45, 13:15-17:00",Lifetec AG Schweiz,,,+41 800 122 144,,,,,,
 11733758824,node,47.2570784,8.1725043,private,,,,,,,,,Sanitätszimmer 1249LTB,,Foppa Blauer Rucksack,,defibrillator,144,,node/11733758824,,yes,,,,,Kaltband AG,,"Mo-Fr 07:30-11:45,13:15-17:00",Lifetec AG Schweiz,,,+41 800 122 144,,,,,,
 11733909169,node,47.4663713,8.3311085,,,,,,,,,,arwo Stiftung,,Wärebd den Öffnungszeiten,,defibrillator,144,,node/11733909169,,yes,,,0,,,,07:30 - 17:00,Stiftung,,,+41564374848,,,,,,
 11738261969,node,47.3830265,8.0882382,yes,,,,,,,,,"Migros Verteilbetrieb, Empfang",,Immer Verfügbar,,defibrillator,144,,node/11738261969,,yes,,,0,,,,24/7,Migros Verteilbetrieb AG,,,+41797402065,,,,,,
@@ -1097,7 +1097,7 @@ Im Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. gesch
 11843377669,node,47.3510532,8.103855,yes,,,,,,,,,TB Graenichen AG,,Während den Öffnongszeiten Verfügbar,,defibrillator,144,,node/11843377669,,yes,,,0,,,,,TB Graenichen AG,,,+41628558888,,,,,,
 11844002045,node,47.4794642,8.3063864,private,Baden,CH,4,5400,Brown Boveri Platz,,,,Briefkastenraum EG 1360LTM,,Oranger Koffer,,defibrillator,144,,node/11844002045,,yes,,,0,,Swiss Prime Site Solutions AG / Akara Property,,,Lifetec AG Schweiz,,,+41 800 122 144,,1360LTM,,,,
 11844052769,node,47.4503254,8.3324379,yes,,,,,,,,,"Sonnmatt Neuenhof, neben Tür Damentoilette",,nur während der Öffnungszeiten verfügbar,,defibrillator,144,,node/11844052769,,yes,,,,,,,Mo-Su 07:00-20:00,Stiftung Sonnmatt Neuenhof,,,+41 56 406 38 80,,,"local_knowledge, defikarte.ch",,,
-11844242720,node,47.3689874,8.0783337,yes,,,64,,Bernstrasse West,,,,EG Foyer 1361 LTM,,Oranger Koffer,,defibrillator,144,,node/11844242720,,yes,,,,,Dobi-Inter AG,,Mo - Fr 09:00-18:00 Sa 09:00-17:00,Lifetec AG Schweiz,,,+41 800 122 144,,1361LTM,,,,
+11844242720,node,47.3689874,8.0783337,yes,,,64,,Bernstrasse West,,,,EG Foyer 1361 LTM,,Oranger Koffer,,defibrillator,144,,node/11844242720,,yes,,,,,Dobi-Inter AG,,Mo - Fr 09:00-18:00; Sa 09:00-17:00,Lifetec AG Schweiz,,,+41 800 122 144,,1361LTM,,,,
 11844338754,node,47.449468,8.2925738,private,,,,,,,,,4.OG Im Eingangsbereich vom Büro 1364LTM,,Oranger Koffer,,defibrillator,144,,node/11844338754,,yes,,,,,aXenta AG,,,Lifetec AG Schweiz,,,+41 800 122 144,,1364LTM,,,,
 11846398671,node,47.3338131,8.3059859,permissive,,,,,,,,,Arztpraxis im EG,,,,defibrillator,144,,node/11846398671,,yes,,,,,,,08:00-12:00,Arztpraxis Waltenschwil,,,+41 56 622 55 44,,,"local_knowledge, defikarte.ch",,,
 11847278370,node,47.3104673,8.3917952,yes,,,,,,,,,"Fassade Mehrzweckgebäude, Schulanlage Oberlunkhofen",,Bei Eingang Tagesstrukturen (bei Unterstand),gemeindekanzlei@oberlunkhofen.ch,defibrillator,144,,node/11847278370,,no,,,0,,,,,Gemeinde,,,+41 56 649 99 80,,,"local_knowledge, defikarte.ch",,,
