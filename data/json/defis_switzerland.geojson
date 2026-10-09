@@ -87686,23 +87686,24 @@
   "type": "Feature",
   "id": "node/8461565646",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Höhere Fachschule für Rettungsberufe (HFRB)",
-    "description": "Beim Eingang 1.OG",
+    "access": "permissive",
+    "defibrillator:location": "Sporthalle Auzelg",
+    "description": "Vorraum 1.OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 07:30-13:30",
-    "operator": "Schutz & Rettung, Zürich",
+    "opening_hours": "Mo-Fr 07:00-22:00",
+    "operator": "Stadt Zürich",
+    "phone": "+41 44 413 59 65",
     "wheelchair": "yes",
     "id": "node/8461565646"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5633227,
-      47.4151496
+      8.5655689,
+      47.4185855
     ]
   }
 },
@@ -197979,50 +197980,6 @@
     "coordinates": [
       9.3434915,
       47.4120442
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10610400261",
-  "properties": {
-    "defibrillator:location": "Barit Baubedarf Shop",
-    "description": "Während éffnungszeiten zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 07:15-17:00",
-    "operator": "Geschäft",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10610400261"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8393432,
-      46.6935193
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10610403531",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Barit Baubedarf Shop",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10610403531"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8393217,
-      46.693523
     ]
   }
 },
@@ -384814,12 +384771,17 @@
   "type": "Feature",
   "id": "node/14255155501",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Hofwisenstrasse 21. 8260 Stein am Rhein",
     "description": "Mo-Fr 7:00 - 12:00",
+    "email": "marcel.stiefel@wenger-wirz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00",
+    "operator": "Wenger+Wirz AG",
+    "phone": "+41 52 742 05 50",
     "id": "node/14255155501"
   },
   "geometry": {
@@ -385186,6 +385148,31 @@
     "coordinates": [
       7.875594,
       46.2380573
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14267578401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Pächterried",
+    "description": "Der Defibrillator befindet sich links neben dem Eingang der Hausnummer 77.",
+    "email": "hwpr@regensdorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensdorf",
+    "phone": "+41 44 620 61 04",
+    "id": "node/14267578401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4704866,
+      47.4475922
     ]
   }
 }

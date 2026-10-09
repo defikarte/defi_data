@@ -2184,30 +2184,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8461565646",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Höhere Fachschule für Rettungsberufe (HFRB)",
-    "description": "Beim Eingang 1.OG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "opening_hours": "Mo-Fr 07:30-13:30",
-    "operator": "Schutz & Rettung, Zürich",
-    "wheelchair": "yes",
-    "id": "node/8461565646"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5633227,
-      47.4151496
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8461610909",
   "properties": {
     "access": "yes",

@@ -163771,6 +163771,31 @@
       46.2380573
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14267578401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Pächterried",
+    "description": "Der Defibrillator befindet sich links neben dem Eingang der Hausnummer 77.",
+    "email": "hwpr@regensdorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensdorf",
+    "phone": "+41 44 620 61 04",
+    "id": "node/14267578401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4704866,
+      47.4475922
+    ]
+  }
 }
 ]
 }

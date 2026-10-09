@@ -4208,12 +4208,17 @@
   "type": "Feature",
   "id": "node/14255155501",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Hofwisenstrasse 21. 8260 Stein am Rhein",
     "description": "Mo-Fr 7:00 - 12:00",
+    "email": "marcel.stiefel@wenger-wirz.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00",
+    "operator": "Wenger+Wirz AG",
+    "phone": "+41 52 742 05 50",
     "id": "node/14255155501"
   },
   "geometry": {
