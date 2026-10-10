@@ -2601,6 +2601,31 @@
       46.865786
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14269923301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Local technique ouvert",
+    "description": "Local accessible en permanence",
+    "email": "info@campingbellerive.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Camping Bellerive Le Landeron",
+    "phone": "+41796282710",
+    "id": "node/14269923301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0821002,
+      47.0598234
+    ]
+  }
 }
 ]
 }
