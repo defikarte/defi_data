@@ -268,7 +268,8 @@ mehrere Workflows gleichzeitig ihren Verarbeitungsstand committen wollten.
   "geojson_file": "defis_kt_so.geojson",
   "mail_recipient_secret": "MAIL_RECIPIENT_SO",
   "use_cc": true,
-  "reporting_mode": "immediate"
+  "reporting_mode": "immediate",
+  "language": "de"
 }
 ```
 
@@ -280,6 +281,7 @@ mehrere Workflows gleichzeitig ihren Verarbeitungsstand committen wollten.
 | `mail_recipient_secret` | Name des GitHub Secrets mit der Empfänger-Adresse |
 | `use_cc` | ob `MAIL_COPY`-Secret als CC angehängt wird |
 | `reporting_mode` | `"immediate"` oder `"immediate_new_deleted_weekly_changed"` (aktuell nur BE) |
+| `language` | Sprache der Mail: `"de"` (Standard, wenn das Feld fehlt) oder `"fr"`. Steuert Betreff, Titel, Statusbezeichnungen, Feldnamen und Fusszeile. Die Texte stehen zentral in `scripts/mail_common.py` (`TEXTS`, `FIELD_LABELS_FR`) und im Orchestrator (`SUBJECTS`). |
 
 #### Neuen Kanton hinzufügen
 
@@ -289,6 +291,28 @@ mehrere Workflows gleichzeitig ihren Verarbeitungsstand committen wollten.
    Secrets-Env-Block im Orchestrator-Workflow – die Verarbeitungslogik selbst
    liest die Config direkt zur Laufzeit, braucht also keine Code-Änderung)
 4. Generierte `geojson-reporting-all.yml` committen
+
+Ein neu aufgenommener Kanton wird beim ersten Lauf nur initialisiert (Stand gespeichert,
+keine Mail). Die erste Mail kommt bei der ersten Änderung danach.
+
+#### Kanton entfernen
+
+Eintrag aus `kantone_config.json` löschen, `python generate_workflows.py` ausführen und die
+generierte `geojson-reporting-all.yml` committen. Danach können das Secret
+`MAIL_RECIPIENT_<ID>` und die Datei `.reporting/last_processed_sha_<id>.txt` gelöscht werden.
+
+**Achtung:** `generate_workflows.py` erzeugt auch `geojson-weekly-changes-be.yml` neu, mit dem
+Zeitplan aus dem Script. Wurde der Zeitplan in der Workflow-Datei von Hand geändert, diese
+Datei nach dem Generieren nicht committen (oder den Zeitplan im Script nachziehen).
+
+#### Verpasste Läufe (Schalter `COMPARE_TO_LAST_STATE`)
+
+Standardmässig vergleicht der Orchestrator den letzten Commit einer Kantonsdatei mit dessen
+direktem Vorgänger. Fällt ein Lauf aus (z.B. Mailversand fehlgeschlagen) und ändert sich die
+Datei bis zum nächsten erfolgreichen Lauf erneut, geht die frühere Änderung im Kantonsreport
+verloren (der tägliche QS-Report zeigt sie trotzdem). Mit `COMPARE_TO_LAST_STATE = True` in
+`scripts/process_all_kantone.py` wird stattdessen gegen den zuletzt verarbeiteten Stand
+verglichen. Im Normalfall (ein Commit zwischen zwei Läufen) ist das Ergebnis identisch.
 
 ### BE-Sonderfall: sofort + wöchentlich
 

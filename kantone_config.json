@@ -2,100 +2,121 @@
   "kantone": [
     {
       "id": "zh",
-      "name": "Kanton Zürich",
+      "name": "Zürich",
       "geojson_file": "defis_kt_zh.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_ZH",
       "use_cc": false,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
     },
     {
       "id": "bl",
-      "name": "Dispo Basel",
+      "name": "Basel",
       "geojson_file": "defis_dispo_basel.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_BL",
       "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
     },
     {
       "id": "zg_city",
-      "name": "Stadt Zug",
+      "name": "die Stadt Zug",
       "geojson_file": "defis_stadt_zug.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_ZG",
       "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
     },
     {
       "id": "luks",
-      "name": "Dispo LUKS",
+      "name": "KNZ LU",
       "geojson_file": "defis_dispo_luks.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_LUKS",
       "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
     },
     {
       "id": "so",
-      "name": "Kanton Solothurn",
+      "name": "Solothurn",
       "geojson_file": "defis_kt_so.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_SO",
       "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
     },
     {
       "id": "be",
-      "name": "Kanton Bern",
+      "name": "Bern",
       "geojson_file": "defis_kt_be.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_BE",
       "use_cc": true,
-      "reporting_mode": "immediate_new_deleted_weekly_changed"
-    },
-    {
-      "id": "gr",
-      "name": "Kanton Graubünden",
-      "geojson_file": "defis_kt_gr.geojson",
-      "mail_recipient_secret": "MAIL_RECIPIENT_GR",
-      "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate_new_deleted_weekly_changed",
+      "language": "de"
     },
     {
       "id": "gl",
-      "name": "Kanton Glarus",
+      "name": "Glarus",
       "geojson_file": "defis_kt_gl.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_GL",
       "use_cc": true,
-      "reporting_mode": "immediate"
-    },
-    {
-      "id": "ai",
-      "name": "Kanton Appenzell Innerrhoden",
-      "geojson_file": "defis_kt_ai.geojson",
-      "mail_recipient_secret": "MAIL_RECIPIENT_AI",
-      "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
     },
     {
       "id": "ti",
-      "name": "Kanton Tessin",
+      "name": "Tessin",
       "geojson_file": "defis_kt_ti.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_TI",
       "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
     },
     {
       "id": "vs",
-      "name": "Kanton Wallis",
+      "name": "Wallis",
       "geojson_file": "defis_kt_vs.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_VS",
       "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
     },
     {
       "id": "ju",
-      "name": "Kanton Jura",
+      "name": "Jura",
       "geojson_file": "defis_kt_ju.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_JU",
       "use_cc": true,
-      "reporting_mode": "immediate"
+      "reporting_mode": "immediate",
+      "language": "de"
+    },
+    {
+      "id": "ge",
+      "name": "Genève",
+      "geojson_file": "defis_kt_ge.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_GE",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "language": "fr"
+    },
+    {
+      "id": "ne",
+      "name": "Neuchâtel",
+      "geojson_file": "defis_kt_ne.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_NE",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "language": "fr"
+    },
+    {
+      "id": "vd",
+      "name": "Vaud",
+      "geojson_file": "defis_kt_vd.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_VD",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "language": "fr"
     }
   ],
-  "defikarte_logo_url": "https://github.com/defikarte/defi_data/raw/main/img/logo.png"
+  "defikarte_logo_url": "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
 }

@@ -10,7 +10,7 @@ import json
 import sys
 from datetime import datetime, timezone
 
-from mail_common import index, props, feature_entry, compute_changes, page
+from mail_common import index, props, feature_entry, compute_changes, page, T
 
 
 def load(path):
@@ -36,7 +36,7 @@ if not entries:
     sys.exit(0)
 
 now_str = datetime.now(timezone.utc).strftime("%d.%m.%Y, %H:%M UTC")
-html_mail = page("Änderungen an Defibrillatoren im Einzugsgebiet", f"Stand {now_str}", entries)
+html_mail = page(T("title"), T("as_of", now=now_str), entries)
 
 with open("diff.html", "w", encoding="utf-8") as f:
     f.write(html_mail)

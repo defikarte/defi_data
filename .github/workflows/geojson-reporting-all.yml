@@ -40,12 +40,13 @@ jobs:
           MAIL_RECIPIENT_LUKS: ${{ secrets.MAIL_RECIPIENT_LUKS }}
           MAIL_RECIPIENT_SO: ${{ secrets.MAIL_RECIPIENT_SO }}
           MAIL_RECIPIENT_BE: ${{ secrets.MAIL_RECIPIENT_BE }}
-          MAIL_RECIPIENT_GR: ${{ secrets.MAIL_RECIPIENT_GR }}
           MAIL_RECIPIENT_GL: ${{ secrets.MAIL_RECIPIENT_GL }}
-          MAIL_RECIPIENT_AI: ${{ secrets.MAIL_RECIPIENT_AI }}
           MAIL_RECIPIENT_TI: ${{ secrets.MAIL_RECIPIENT_TI }}
           MAIL_RECIPIENT_VS: ${{ secrets.MAIL_RECIPIENT_VS }}
           MAIL_RECIPIENT_JU: ${{ secrets.MAIL_RECIPIENT_JU }}
+          MAIL_RECIPIENT_GE: ${{ secrets.MAIL_RECIPIENT_GE }}
+          MAIL_RECIPIENT_NE: ${{ secrets.MAIL_RECIPIENT_NE }}
+          MAIL_RECIPIENT_VD: ${{ secrets.MAIL_RECIPIENT_VD }}
         run: |
           python3 scripts/process_all_kantone.py
 
