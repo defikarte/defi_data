@@ -55,33 +55,6 @@
       "language": "de"
     },
     {
-      "id": "gl",
-      "name": "Glarus",
-      "geojson_file": "defis_kt_gl.geojson",
-      "mail_recipient_secret": "MAIL_RECIPIENT_GL",
-      "use_cc": true,
-      "reporting_mode": "immediate",
-      "language": "de"
-    },
-    {
-      "id": "ti",
-      "name": "Tessin",
-      "geojson_file": "defis_kt_ti.geojson",
-      "mail_recipient_secret": "MAIL_RECIPIENT_TI",
-      "use_cc": true,
-      "reporting_mode": "immediate",
-      "language": "de"
-    },
-    {
-      "id": "vs",
-      "name": "Wallis",
-      "geojson_file": "defis_kt_vs.geojson",
-      "mail_recipient_secret": "MAIL_RECIPIENT_VS",
-      "use_cc": true,
-      "reporting_mode": "immediate",
-      "language": "de"
-    },
-    {
       "id": "ju",
       "name": "Jura",
       "geojson_file": "defis_kt_ju.geojson",
