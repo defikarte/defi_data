@@ -59693,29 +59693,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9097131507",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Am Gemeindehaus",
-    "description": "07:00-16:30",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Lupsingen",
-    "phone": "+41 61 915 90 50",
-    "id": "node/9097131507"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6952013,
-      47.4461988
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9097410039",
   "properties": {
     "access": "yes",
@@ -75462,6 +75439,28 @@
     "coordinates": [
       6.3790417,
       46.5944374
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9723435317",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im 1. OG direkt neben dem Eingang zur Turnhalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Schule Bauma",
+    "id": "node/9723435317"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8716249,
+      47.3708363
     ]
   }
 },

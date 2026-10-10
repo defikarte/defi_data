@@ -62682,10 +62682,11 @@
   "id": "node/9078511741",
   "properties": {
     "defibrillator:location": "Beim Eingang des Bildungszentrums Erste Hilfe im 2. Stock",
+    "email": "britta.kuratli@bzeh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-17:15, Sa-Su 08:00-17:00",
+    "level": "2",
     "operator": "Bildungszentrum Erste Hilfe",
     "phone": "+41 43 817 69 49",
     "id": "node/9078511741"
@@ -63210,6 +63211,28 @@
     "coordinates": [
       7.6241216,
       47.052246
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9097131507",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Am Gemeindehaus",
+    "description": "Derzeit ausser Betrieb",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Gemeinde Lupsingen",
+    "phone": "+41 61 915 90 50",
+    "id": "node/9097131507"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6952013,
+      47.4461988
     ]
   }
 },
@@ -82819,27 +82842,6 @@
     "coordinates": [
       6.4890537,
       46.5042807
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9723435317",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im 1. OG direkt neben dem Eingang zur Turnhalle",
-    "description": "während Hallenöffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Schule Bauma",
-    "id": "node/9723435317"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.871625,
-      47.3708363
     ]
   }
 },
@@ -161795,11 +161797,13 @@
   "type": "Feature",
   "id": "node/11940501369",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Polizeistation Wald (nicht öffentlich zugänglich)",
+    "description": "Während der Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
+    "level": "2",
     "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
     "operator": "Kantonspolizei Zürich",
     "phone": "+41586486420",
@@ -161808,8 +161812,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9128568,
-      47.276608
+      8.9119484,
+      47.2726636
     ]
   }
 },
@@ -168474,11 +168478,12 @@
     "access": "private",
     "defibrillator:location": "Haupteingang links",
     "description": "Während Öffnungszeiten verfügbar",
+    "email": "info@hustech.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00",
-    "operator": "Unternehmung",
+    "operator": "Hustech Installations AG",
     "phone": "+41 44 936 64 64",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12167752401"
@@ -221377,6 +221382,24 @@
     "coordinates": [
       7.3408676,
       47.030372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14270461001",
+  "properties": {
+    "defibrillator:location": "Petinescastrasse 6",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14270461001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.3031298,
+      47.1100348
     ]
   }
 }

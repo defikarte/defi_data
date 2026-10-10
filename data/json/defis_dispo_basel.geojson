@@ -1743,13 +1743,12 @@
   "type": "Feature",
   "id": "node/9097131507",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Am Gemeindehaus",
-    "description": "07:00-16:30",
+    "description": "Derzeit ausser Betrieb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Gemeinde Lupsingen",
     "phone": "+41 61 915 90 50",
     "id": "node/9097131507"

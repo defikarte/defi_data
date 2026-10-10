@@ -21739,10 +21739,11 @@
   "id": "node/9078511741",
   "properties": {
     "defibrillator:location": "Beim Eingang des Bildungszentrums Erste Hilfe im 2. Stock",
+    "email": "britta.kuratli@bzeh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-17:15, Sa-Su 08:00-17:00",
+    "level": "2",
     "operator": "Bildungszentrum Erste Hilfe",
     "phone": "+41 43 817 69 49",
     "id": "node/9078511741"
@@ -27258,17 +27259,18 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Im 1. OG direkt neben dem Eingang zur Turnhalle",
-    "description": "während Hallenöffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
     "operator": "Schule Bauma",
     "id": "node/9723435317"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.871625,
+      8.8716249,
       47.3708363
     ]
   }
@@ -56657,11 +56659,13 @@
   "type": "Feature",
   "id": "node/11940501369",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Polizeistation Wald (nicht öffentlich zugänglich)",
+    "description": "Während der Öffnungszeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
+    "level": "2",
     "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
     "operator": "Kantonspolizei Zürich",
     "phone": "+41586486420",
@@ -56670,8 +56674,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9128568,
-      47.276608
+      8.9119484,
+      47.2726636
     ]
   }
 },
@@ -60323,11 +60327,12 @@
     "access": "private",
     "defibrillator:location": "Haupteingang links",
     "description": "Während Öffnungszeiten verfügbar",
+    "email": "info@hustech.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 07:00-12:00,13:00-17:00",
-    "operator": "Unternehmung",
+    "operator": "Hustech Installations AG",
     "phone": "+41 44 936 64 64",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12167752401"

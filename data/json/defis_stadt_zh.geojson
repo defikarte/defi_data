@@ -4192,10 +4192,11 @@
   "id": "node/9078511741",
   "properties": {
     "defibrillator:location": "Beim Eingang des Bildungszentrums Erste Hilfe im 2. Stock",
+    "email": "britta.kuratli@bzeh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-17:15, Sa-Su 08:00-17:00",
+    "level": "2",
     "operator": "Bildungszentrum Erste Hilfe",
     "phone": "+41 43 817 69 49",
     "id": "node/9078511741"
