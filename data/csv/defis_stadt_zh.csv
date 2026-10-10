@@ -100,7 +100,6 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:flo
 8445584053,node,47.3902248,8.5146016,yes,,,,,,,,2025-08-28,Im Eingangsbereich Pfingstweidstrasse 60b,,,,,defibrillator,144,,,node/8445584053,yes,,0,,,,,,,,,,,,,,yes,
 8448182917,node,47.386347,8.5198691,,,,,,,,,,neue Hard 9 bei der Loge 7/24h,,,rund um die Uhr,,defibrillator,144,,,node/8448182917,yes,,,,,,,24/7,Zürcher Kantonalbank,,,,,,,,,
 8461458032,node,47.4105926,8.5431598,yes,,,,,,,,2025-10-23,Neben dem Kundendienst,,,,,defibrillator,144,,,node/8461458032,yes,,1,,,,,Mo-Sa 08:00-20:00; PH off,Genossenschaft Migros Zürich,+41 58 543 98 00,,,,,,,yes,
-8461565646,node,47.4151496,8.5633227,yes,,,,,,,,,Höhere Fachschule für Rettungsberufe (HFRB),,,Beim Eingang 1.OG,,defibrillator,144,,,node/8461565646,yes,,1,,,,,Mo-Fr 07:30-13:30,"Schutz & Rettung, Zürich",,,,,,,,yes,
 8461610909,node,47.3920476,8.4838519,yes,,,,,,,,,Eingangshalle an Säule,,,,,defibrillator,144,,,node/8461610909,yes,,,,,,,Mo-Fr 07:00-17:00,Helbling AG,+41 44 438 17 11,,,,,,,,
 8467137519,node,47.4155852,8.5076112,yes,,,,,,,,2026-03-05,"Lerchenhalde 67. Ecke vom Gebäude, links von de Treppen",,,,,defibrillator,144,,,node/8467137519,no,,,,,,,24/7,,,,,,,,,,
 8480125218,node,47.409306,8.5525268,yes,,,,,,,,,An der Wand,,,,,defibrillator,144,,,node/8480125218,no,,0,,,,,24/7,,,,,,,,,limited,
