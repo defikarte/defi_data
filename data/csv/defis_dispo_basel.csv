@@ -81,7 +81,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:floor,addr:housenumbe
 Sichtbar von der Strasse aus.",,defibrillator,144,,node/9075763717,no,,,,,,24/7,Gemeinde Diegten,,,,,,,
 9076913317,node,47.5261742,7.6968665,yes,,,,,,,,Prodega Pratteln,,Beim Bistro,,defibrillator,144,,node/9076913317,yes,,,,,,Mo-We 07:00-18:00; Th 07:00-20:00; Sa 07:00-16:00,Prodega Pratteln,,,,,,,
 9088936117,node,47.5631111,7.5798301,permissive,,,,,,,,LZM Unibasel 3. Stock,,"von Treppen aus, gerade aus.",,defibrillator,144,,node/9088936117,yes,,,,,,Mo-Fr 08:00-19:00,Universität Basel,,,,,,,
-9097131507,node,47.4461988,7.6952013,permissive,,,,,,,,Am Gemeindehaus,,07:00-16:30,,defibrillator,144,,node/9097131507,yes,,,,,,24/7,Gemeinde Lupsingen,+41 61 915 90 50,,,,,,
+9097131507,node,47.4461988,7.6952013,private,,,,,,,,Am Gemeindehaus,,Derzeit ausser Betrieb,,defibrillator,144,,node/9097131507,yes,,,,,,,Gemeinde Lupsingen,+41 61 915 90 50,,,,,,
 9099924345,node,47.4342506,7.7181777,,,,,,,,,"Im Eingangsbereich (Haupteingang Bürotrakt der Thommen-Furler AG), auf der rechten Seite.",,,,defibrillator,144,,node/9099924345,yes,,,,,,Mo-Fr 06:00-16:30,Sonja Hauenstein und Esat Toraman,+41 61 935 90 50,,,,,,
 9107013776,node,47.5574609,7.5828557,yes,,,,,,,,Im Hauseingeng Rechts an der Wand.,,,,defibrillator,144,,node/9107013776,yes,,,,,,Mo-Fr 06:00-18:00,"ED Basel-Stadt, Digitalisierung und Informatik DIG-IT, Basel-Stadt",+41 61 267 42 22,,,,,,
 9107124551,node,47.542233,7.5748436,,,,,,,,,Am Patientenempfang Haupteingang,,,,defibrillator,144,,node/9107124551,yes,,,,,,Mo-Fr 08:00-18:00,"Vista Klinik Binningen, Heike Müller",+41 61 426 60 00,,,,,,

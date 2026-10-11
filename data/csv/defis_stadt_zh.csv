@@ -191,7 +191,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:flo
 9028142165,node,47.3594815,8.5240254,,,,,,,,,,"Im Kieser Training, im 1. Stock im Schrank in der Mitte des Studios",,,,zuerich1@kieser-training.com,defibrillator,144,,,node/9028142165,yes,,1,,,,,Mo-Fr 06:30-21:00; Sa-Su 09:00-18:00,"Kieser Training Schweiz AG, Studio Zürich Enge",+41 44 250 20 50,,,,,,,,
 9036239617,node,47.3740262,8.5413585,yes,,,,,,,,,Urania Parkhaus bei den Kassen,,,,,defibrillator,144,,,node/9036239617,yes,,0,,,,,24/7,,,,,,,,,,
 9047970539,node,47.3688096,8.5530505,,,,,,,,,,,,,,,defibrillator,144,,,node/9047970539,yes,,,,,,,,,,,,,,,,,
-9078511741,node,47.3422506,8.5204285,,,,,,,,,,Beim Eingang des Bildungszentrums Erste Hilfe im 2. Stock,,,,,defibrillator,144,,,node/9078511741,yes,,,,,,,"Mo-Fr 07:00-17:15, Sa-Su 08:00-17:00",Bildungszentrum Erste Hilfe,+41 43 817 69 49,,,,,,,,
+9078511741,node,47.3422506,8.5204285,,,,,,,,,,Beim Eingang des Bildungszentrums Erste Hilfe im 2. Stock,,,,britta.kuratli@bzeh.ch,defibrillator,144,,,node/9078511741,yes,,2,,,,,,Bildungszentrum Erste Hilfe,+41 43 817 69 49,,,,,,,,
 9078630877,node,47.4102321,8.5567342,customers,,,,,,,,,Inside lifeguard office / Im Badmeisterbüro,,,,,defibrillator,144,,,node/9078630877,yes,,0,,,,,,Hallenbad Oerlikon,,,,,,,,no,
 9094570217,node,47.4038265,8.5559138,,,,,,,,,,im Büro bei Held & Partner GmbH,,,während der Öffnungszeiten,,defibrillator,144,,,node/9094570217,yes,,,,,,,Mo-Fr 07:30-16:30,Held & Partner GmbH - Sanitäre Reparaturen,+41443504070,,,,,,,,
 9115252217,node,47.3879521,8.4935273,no,,,,,,,,,Colt Technology services AG,,,nur zu Bürozeiten,,defibrillator,144,,,node/9115252217,yes,,,,,,,,Colt Technology Services AG,+41585601600,,,,,,,,
