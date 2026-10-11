@@ -16112,28 +16112,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8602157938",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Ost Eingang Richtung Stadt",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Berufsbildungsschule Winterthur",
-    "phone": "+41 52 267 82 00",
-    "id": "node/8602157938"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.7137366,
-      47.5027156
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8602157939",
   "properties": {
     "access": "permissive",
