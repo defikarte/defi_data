@@ -9394,6 +9394,7 @@
   "id": "node/8682544717",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-11",
     "defibrillator:location": "Privat Besucherparkplätze BERGTALSTRASSE",
     "description": "In frei zugänglicher Einfahrt ",
     "emergency": "defibrillator",

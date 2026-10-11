@@ -51025,7 +51025,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Landgasthof zum Schwert",
-    "description": "Direkt bei der Bushaltestelle",
+    "description": "Direkt bei der Bushaltestelle, grüner Metallkasten an Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -51038,8 +51038,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7950975,
-      47.6341316
+      8.7950679,
+      47.6341352
     ]
   }
 },

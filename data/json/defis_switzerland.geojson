@@ -8192,6 +8192,7 @@
   "id": "node/6082068638",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-11",
     "defibrillator:location": "Between femal and male toilets, at the wall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -100130,6 +100131,7 @@
   "id": "node/8682544717",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-11",
     "defibrillator:location": "Privat Besucherparkplätze BERGTALSTRASSE",
     "description": "In frei zugänglicher Einfahrt ",
     "emergency": "defibrillator",
@@ -166506,7 +166508,7 @@
   "id": "node/9907432517",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeinde Haus S-chanf",
+    "defibrillator:location": "Gemeinde Haus S-chanf, mittlere Ebene. über Treppe erreichbar. Im überdeckten bereich",
     "description": "Beim Unteren Eingang der Gemeindeverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -166514,7 +166516,8 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde S-chanf",
-    "phone": "+41797293967",
+    "phone": "+41 79 729 39 67",
+    "wheelchair": "no",
     "id": "node/9907432517"
   },
   "geometry": {
@@ -205337,7 +205340,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Landgasthof zum Schwert",
-    "description": "Direkt bei der Bushaltestelle",
+    "description": "Direkt bei der Bushaltestelle, grüner Metallkasten an Hauswand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -205350,8 +205353,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7950975,
-      47.6341316
+      8.7950679,
+      47.6341352
     ]
   }
 },

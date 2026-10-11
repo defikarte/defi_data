@@ -4349,6 +4349,7 @@
   "id": "node/6082068638",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-11",
     "defibrillator:location": "Between femal and male toilets, at the wall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
