@@ -395,7 +395,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 8644225557,node,47.4616132,9.0407132,,,,,,,,,,,Beim Empfang der Helbling Technik Wil AG,,,,,,defibrillator,144,node/8644225557,,,yes,,,,,,,,"Mo-Fr 08:00-12:00, 13:00-17:00",Helbling Technik Wil AG,,,+41 79 450 18 29,,,,,,
 8644276787,node,47.0407206,9.4350083,yes,,,,,,,,,,"Auf der ersten Etage direkt bei den Liften, vis-a-vis Kiosk",,,während Öffnungszeiten verfügbar,,,defibrillator,144,node/8644276787,,,yes,,,,,,,,,Coop,,,,,,,,,
 8678283076,node,47.4180754,9.1687071,yes,,,,,,,,,,Im Durchgang zum Tennisplatz rechts an der Wand,,,,,,defibrillator,144,node/8678283076,,,no,,,,,,,,24/7,Baumann Albert,,,+41 79 518 43 97,,,,,,
-8682544717,node,47.472883,9.0493744,yes,,,,,,,,,,Privat Besucherparkplätze BERGTALSTRASSE,,,In frei zugänglicher Einfahrt ,,,defibrillator,144,node/8682544717,,,yes,,,,,,,,24/7,"Privat, Wohneigentümer:innen",,,,,,,,,
+8682544717,node,47.472883,9.0493744,yes,,,,,,,,2026-10-11,,Privat Besucherparkplätze BERGTALSTRASSE,,,In frei zugänglicher Einfahrt ,,,defibrillator,144,node/8682544717,,,yes,,,,,,,,24/7,"Privat, Wohneigentümer:innen",,,,,,,,,
 8695911250,node,47.4079772,9.6489733,yes,,,,,,,,,,Haupteingang aussen,,,,,esther.naef@schule-widnau.ch,defibrillator,144,node/8695911250,,,no,,,,0,,,,24/7,Gemeinde,,,+41 71 595 96 40,,,,,,
 8695911251,node,47.4033345,9.6399423,yes,,,,,,,,,,Fassade beim Haupteingang,,,,,esther.naef@schule-widnau.ch,defibrillator,144,node/8695911251,,,no,,,,0,,,,24/7,Gemeinde,,,+41 71 595 96 40,,,,,,
 8695911253,node,47.4065223,9.6389204,yes,,,,,,,,,,Haupteingang Pausenhalle,,,jederzeit verfügbar,,,defibrillator,144,node/8695911253,,,no,,,,0,,,,24/7,Gemeinde Widnau,,,,,,,,,

@@ -108,7 +108,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:cit
 5859596670,node,47.2356846,7.6881575,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Alterszentrum Jurablick,,,,,,defibrillator,144,,,,,,node/5859596670,,,,,,,,,,,,,,24/7,Gemeinde Wangen an der Aare,,,+41 32 631 50 70,,,,,,,,,,,,
 5862265757,node,47.2329375,7.6526662,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,,,node/5862265757,,,,,yes,,,,,,,,,,,,,,,,,,,,,,,,,
 5912476336,node,46.7180382,7.9297418,yes,,,Niederried,,,,,,,19,,3853,Hauptstrasse,,,,,,,,,,,,,,,,,,,,,,"Seite Hauptstrasse neben Feuerwehrmagazin, 24h zugänglich -",,,,,,defibrillator,144,,,,,,node/5912476336,,,,,no,,,,,,,,,24/7,Gemeinde Niederried,,,+41 79 600 84 70,,,,,,,,,,,yes,
-6082068638,node,46.9344327,7.4496007,yes,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,"Between femal and male toilets, at the wall",,,,,,defibrillator,144,,,,,,node/6082068638,,,,,yes,,,0,,,,,,,,,,,,,,,,,,,,,,
+6082068638,node,46.9344327,7.4496007,yes,,,,,,,,,,,,,,,,,,,,,,,2026-10-11,,,,,,,,,,,,"Between femal and male toilets, at the wall",,,,,,defibrillator,144,,,,,,node/6082068638,,,,,yes,,,0,,,,,,,,,,,,,,,,,,,,,,
 6088233883,node,46.9420896,7.434127,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,An der Wand gegen das Musig-Bistro,,,,,,defibrillator,144,,,,,,node/6088233883,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
 6126286498,node,46.9285044,7.5594315,yes,,,Worb,,,,,,,16,,3076,Bernstrasse,,,,,,,,,,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,,,node/6126286498,,,,,no,,,,,,,,,24/7,Katholische Kirche St. Martin,,,+41 31 839 55 75,,,,,,,,,,,,
 6143276084,node,46.9532776,7.4737994,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,Links der Eingangstür,,,,,,defibrillator,144,,,,,,node/6143276084,,,,,,,,0,,,,,,,,,,,,,,,,,,,,,,
