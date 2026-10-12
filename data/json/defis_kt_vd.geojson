@@ -12226,8 +12226,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6438362,
-      46.5820081
+      6.6438644,
+      46.5820374
     ]
   }
 },
@@ -12251,21 +12251,6 @@
     "coordinates": [
       6.6435252,
       46.5750579
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12977818011",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/12977818011"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6438684,
-      46.5820464
     ]
   }
 },

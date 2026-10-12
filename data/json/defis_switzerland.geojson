@@ -330634,8 +330634,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.6438362,
-      46.5820081
+      6.6438644,
+      46.5820374
     ]
   }
 },
@@ -330883,21 +330883,6 @@
     "coordinates": [
       8.3010212,
       47.0508534
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12977818011",
-  "properties": {
-    "emergency": "defibrillator",
-    "id": "node/12977818011"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.6438684,
-      46.5820464
     ]
   }
 },
@@ -385229,6 +385214,26 @@
     "coordinates": [
       7.5967479,
       46.7448333
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14277364654",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A droite en entrant",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14277364654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0604718,
+      46.1267872
     ]
   }
 }

@@ -7364,6 +7364,26 @@
       46.2380573
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14277364654",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A droite en entrant",
+    "description": "Pendant les heures d'ouverture",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14277364654"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0604718,
+      46.1267872
+    ]
+  }
 }
 ]
 }
