@@ -66308,6 +66308,36 @@
       47.1100348
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14277091505",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Thun",
+    "addr:housenumber": "1",
+    "addr:postcode": "3608",
+    "addr:street": "Tempelstrasse",
+    "defibrillator:location": "Werkstatt - Kurt Schneider AG",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Kurt Schneider",
+    "opening_hours": "Mo-Fr 8:00-16:30",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1694LTM",
+    "id": "node/14277091505"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5967479,
+      46.7448333
+    ]
+  }
 }
 ]
 }

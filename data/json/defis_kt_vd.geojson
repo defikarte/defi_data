@@ -12258,7 +12258,6 @@
   "type": "Feature",
   "id": "node/12977818011",
   "properties": {
-    "amenity": "defibrillator",
     "emergency": "defibrillator",
     "id": "node/12977818011"
   },
