@@ -105,6 +105,12 @@ jobs:
             echo "Push failed, retry $i..."
             sleep 2
           done
+
+      - name: Lauf als fehlgeschlagen markieren, falls ein Kanton Fehler hatte
+        if: env.REPORTING_ERRORS != '0'
+        run: |
+          echo "::error::$REPORTING_ERRORS Kanton(e) mit Fehler - Details in der Zusammenfassung dieses Laufs."
+          exit 1
 """
 
 
