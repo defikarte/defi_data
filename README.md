@@ -307,12 +307,32 @@ Datei nach dem Generieren nicht committen (oder den Zeitplan im Script nachziehe
 
 #### Verpasste Läufe (Schalter `COMPARE_TO_LAST_STATE`)
 
-Standardmässig vergleicht der Orchestrator den letzten Commit einer Kantonsdatei mit dessen
-direktem Vorgänger. Fällt ein Lauf aus (z.B. Mailversand fehlgeschlagen) und ändert sich die
-Datei bis zum nächsten erfolgreichen Lauf erneut, geht die frühere Änderung im Kantonsreport
-verloren (der tägliche QS-Report zeigt sie trotzdem). Mit `COMPARE_TO_LAST_STATE = True` in
-`scripts/process_all_kantone.py` wird stattdessen gegen den zuletzt verarbeiteten Stand
-verglichen. Im Normalfall (ein Commit zwischen zwei Läufen) ist das Ergebnis identisch.
+Der Orchestrator vergleicht gegen den zuletzt verarbeiteten Stand eines Kantons
+(`COMPARE_TO_LAST_STATE = True` in `scripts/process_all_kantone.py`, aktiv seit 13.10.2026).
+Fällt ein Lauf für einen Kanton aus, kommen beim nächsten erfolgreichen Lauf alle verpassten
+Änderungen gesammelt in einer Mail. Im Normalfall (ein Commit zwischen zwei Läufen) ist das
+Ergebnis identisch mit dem Vergleich `sha^..sha`. Mit `False` wird nur der letzte Commit
+mit seinem direkten Vorgänger verglichen, frühere Änderungen gingen dann verloren.
+
+#### Fehler finden
+
+Fehler bei einem Kanton stoppen die anderen Kantone nicht. Der betroffene Kanton bekommt keine
+Mail, sein Stand wird nicht gespeichert, und der nächste Lauf versucht es automatisch erneut.
+Am Ende wird der Workflow-Lauf **rot**, damit der Fehler auffällt.
+
+Die Ursache steht direkt auf der Übersichtsseite des Laufs (Actions → Lauf anklicken):
+
+- **Annotations:** eine Zeile pro Kanton, z.B. „Kanton Vaud: Mailversand fehlgeschlagen: …“
+- **Zusammenfassung** (weiter unten): Tabelle „Reporting-Fehler“ mit Kanton, Ursache, Details
+
+Häufige Ursachen:
+
+| Ursache | Bedeutung / Lösung |
+|---|---|
+| `geojson_diff.py ist abgestürzt` | Fehler im Script, oft ein unvollständiger Deploy (z.B. `ImportError`: zusammengehörende Dateien nicht alle hochgeladen) |
+| `Mailversand fehlgeschlagen` | SMTP-Fehler, z.B. Runner-IP auf einer Blacklist (550). Meist beim nächsten Lauf wieder ok |
+| `Kein Empfänger: Secret fehlt …` | Secret `MAIL_RECIPIENT_XX` nicht angelegt oder nicht im Workflow eingetragen (`generate_workflows.py` ausführen) |
+| `Unerwarteter Fehler` | Sonstiger Fehler, Details im Log des Steps „Alle Kantone verarbeiten …“ |
 
 ### BE-Sonderfall: sofort + wöchentlich
 
@@ -390,6 +410,10 @@ Der Orchestrator hat einen `workflow_dispatch`-Input `dry_run`:
   selben Repo nicht zuverlässig, da dazwischen beliebig viele fremde
   Bot-Commits liegen können. Immer `git log -1 --format=%H -- <datei>` für den
   jeweiligen GeoJSON-Pfad verwenden, dann `GEOJSON_SHA^..GEOJSON_SHA`.
+- **Unvollständiger Deploy:** `geojson_diff.py`, `mail_common.py` und
+  `process_all_kantone.py` hängen voneinander ab und müssen immer zusammen
+  hochgeladen werden (Vorfall 10.–13.10.2026: nur `geojson_diff.py` neu → alle
+  Sofort-Kantone ohne Mail, Workflow trotzdem grün).
 - **`exit 0` in einem GitHub-Actions-Step** beendet nur diesen Step, nicht den
   gesamten Job. Ein „Stop early if already processed"-Step mit `exit 0` allein
   verhindert nicht, dass nachfolgende Steps trotzdem laufen und ggf. erneut

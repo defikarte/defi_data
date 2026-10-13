@@ -37,6 +37,32 @@ SEND_DELAY_SECONDS = 8
 
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 
+# Fehler pro Kanton. Werden am Ende in der Zusammenfassung des Workflow-Laufs
+# angezeigt und machen den Lauf rot (die anderen Kantone laufen trotzdem durch).
+ERRORS = []
+
+
+class KantonError(Exception):
+    """Fehler bei einem Kanton: reason = kurze Ursache, detail = technische Meldung."""
+    def __init__(self, reason, detail=""):
+        super().__init__(reason)
+        self.reason = reason
+        self.detail = detail
+
+
+def run_script(cmd, kanton):
+    """Startet ein Diff-Script. Bei Fehler: KantonError mit der letzten
+    Fehlerzeile (z.B. 'ImportError: ...') statt nur 'exit status 1'."""
+    result = subprocess.run(cmd, env=script_env(kanton), capture_output=True, text=True)
+    if result.stdout:
+        print(result.stdout, end="")
+    if result.stderr:
+        print(result.stderr, end="")
+    if result.returncode != 0:
+        lines = [l for l in result.stderr.strip().splitlines() if l.strip()]
+        last = lines[-1].strip() if lines else f"Exit-Code {result.returncode}"
+        raise KantonError(f"{os.path.basename(cmd[1])} ist abgestürzt", last)
+
 # Vergleich gegen den zuletzt verarbeiteten Stand statt nur gegen den direkten
 # Vorgänger-Commit. Schliesst die Lücke bei verpassten Läufen (siehe README).
 # False = bisheriges Verhalten (Vergleich sha^..sha).
@@ -205,10 +231,7 @@ def process_immediate(kanton):
         old_tmp = f"/tmp/old_{kid}.geojson"
         show_old_version(base, geojson_path, old_tmp)
 
-        subprocess.run(
-            ["python3", "scripts/geojson_diff.py", old_tmp, geojson_path],
-            check=True, env=script_env(kanton),
-        )
+        run_script(["python3", "scripts/geojson_diff.py", old_tmp, geojson_path], kanton)
 
         if os.path.exists("diff.html"):
             with open("diff.html", encoding="utf-8") as f:
@@ -227,14 +250,13 @@ def process_immediate(kanton):
                     )
                     time.sleep(SEND_DELAY_SECONDS)
                 except Exception as e:
-                    print(f"[{kid}] FEHLER beim Mailversand: {e}")
-                    print(f"[{kid}] SHA wird NICHT gespeichert - wird beim "
-                          f"nächsten Lauf automatisch erneut versucht.")
                     os.remove("diff.html")
-                    return False
+                    raise KantonError("Mailversand fehlgeschlagen", str(e))
             else:
-                print(f"[{kid}] WARNUNG: kein Empfänger-Secret gefunden "
-                      f"({kanton['mail_recipient_secret']})")
+                os.remove("diff.html")
+                raise KantonError(
+                    "Kein Empfänger: Secret fehlt oder ist nicht im Workflow eingetragen",
+                    kanton["mail_recipient_secret"])
 
             os.remove("diff.html")
         else:
@@ -289,10 +311,8 @@ def process_be_style(kanton):
         old_tmp = f"/tmp/old_{kid}.geojson"
         show_old_version(base, geojson_path, old_tmp)
 
-        subprocess.run(
-            ["python3", "scripts/geojson_diff_be.py", old_tmp, geojson_path, pending_file],
-            check=True, env=script_env(kanton),
-        )
+        run_script(["python3", "scripts/geojson_diff_be.py", old_tmp, geojson_path,
+                    pending_file], kanton)
 
         if os.path.exists("diff_immediate.html"):
             with open("diff_immediate.html", encoding="utf-8") as f:
@@ -311,14 +331,13 @@ def process_be_style(kanton):
                     )
                     time.sleep(SEND_DELAY_SECONDS)
                 except Exception as e:
-                    print(f"[{kid}] FEHLER beim Mailversand: {e}")
-                    print(f"[{kid}] SHA wird NICHT gespeichert - wird beim "
-                          f"nächsten Lauf automatisch erneut versucht.")
                     os.remove("diff_immediate.html")
-                    return False
+                    raise KantonError("Mailversand fehlgeschlagen", str(e))
             else:
-                print(f"[{kid}] WARNUNG: kein Empfänger-Secret gefunden "
-                      f"({kanton['mail_recipient_secret']})")
+                os.remove("diff_immediate.html")
+                raise KantonError(
+                    "Kein Empfänger: Secret fehlt oder ist nicht im Workflow eingetragen",
+                    kanton["mail_recipient_secret"])
 
             os.remove("diff_immediate.html")
         else:
@@ -347,8 +366,12 @@ def main():
             else:
                 print(f"WARNUNG: Unbekannter reporting_mode '{mode}' für {kanton['id']}")
                 changed = False
-        except subprocess.CalledProcessError as e:
-            print(f"FEHLER bei Kanton {kanton['id']}: {e}")
+        except KantonError as e:
+            ERRORS.append((kanton, e.reason, e.detail))
+            changed = False
+        except Exception as e:
+            # Unerwarteter Fehler: nur diesen Kanton überspringen.
+            ERRORS.append((kanton, "Unerwarteter Fehler", f"{type(e).__name__}: {e}"))
             changed = False
 
         state_changed = state_changed or changed
@@ -357,8 +380,35 @@ def main():
     if github_env:
         with open(github_env, "a", encoding="utf-8") as f:
             f.write(f"STATE_CHANGED={'true' if state_changed else 'false'}\n")
+            f.write(f"REPORTING_ERRORS={len(ERRORS)}\n")
 
-    print(f"\nFertig. STATE_CHANGED={state_changed}")
+    report_errors()
+    print(f"\nFertig. STATE_CHANGED={state_changed}, Fehler: {len(ERRORS)}")
+
+
+def report_errors():
+    """Fehler sichtbar machen: als Annotation und als Tabelle auf der
+    Übersichtsseite des Workflow-Laufs (Job Summary)."""
+    if not ERRORS:
+        return
+    print("\n=== FEHLER ===")
+    for kanton, reason, detail in ERRORS:
+        msg = f"{reason}: {detail}" if detail else reason
+        print(f"[{kanton['id']}] {msg}")
+        print(f"::error title=Kanton {kanton['name']}::{msg} "
+              f"(Stand nicht gespeichert, nächster Lauf versucht es erneut)")
+
+    summary = os.environ.get("GITHUB_STEP_SUMMARY")
+    if summary:
+        with open(summary, "a", encoding="utf-8") as f:
+            f.write("## ⚠️ Reporting-Fehler\n\n")
+            f.write("Diese Kantone haben in diesem Lauf **keine Mail** bekommen. "
+                    "Ihr Stand wurde nicht gespeichert, der nächste Lauf versucht "
+                    "es automatisch erneut.\n\n")
+            f.write("| Kanton | Ursache | Details |\n|---|---|---|\n")
+            for kanton, reason, detail in ERRORS:
+                d = (detail or "").replace("|", "\\|").replace("\n", " ")
+                f.write(f"| {kanton['name']} ({kanton['id']}) | {reason} | `{d}` |\n")
 
 
 if __name__ == "__main__":
