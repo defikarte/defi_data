@@ -1442,6 +1442,7 @@
   "id": "node/7720904274",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-13",
     "defibrillator:location": "Eingang Familienbad",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",

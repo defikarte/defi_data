@@ -1745,10 +1745,11 @@
     "addr:postcode": "3854",
     "addr:street": "Hauptstrasse",
     "defibrillator:location": "Bahnhof Oberried;Vis a Vis Billett Automat",
+    "description": "NICHT VERFÜGBAR",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
     "operator": "Genossenschaft Dorfladen Oberried",
     "phone": "+41 33 849 15 50",
     "id": "node/5490281070"
@@ -1756,7 +1757,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9588765,
+      7.9588766,
       46.7365172
     ]
   }

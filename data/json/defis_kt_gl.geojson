@@ -121,12 +121,12 @@
   "type": "Feature",
   "id": "node/8713922717",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Grotzenbüehl",
-    "description": "während Öffnungszeiten verfügbar.",
+    "description": "24/7.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Sportbahnen Braunwald AG",
     "phone": "+41556433702",
     "id": "node/8713922717"
