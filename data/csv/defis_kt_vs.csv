@@ -208,7 +208,6 @@ Achtung: Betriebszeiten beachten (saisonal unterschiedlich!)",,defibrillator,144
 11523012509,node,46.1280434,7.9385958,,,,,,,,,,,,Next to entrance of cable car office,,,,defibrillator,144,,node/11523012509,no,,,,,,,,,,,,,,,,,,,,,,,
 11536529969,node,46.1819948,7.2922576,,,,,,,,,,,,Migros Haute-Nendaz im Eingangsbereich,,während Öffnungszeiten,,defibrillator,144,,node/11536529969,yes,0,,,,,Mo-Su 07:00-20:00,Migros,,,,+41277206595,,,,,,,,,,,,
 11536664783,node,46.0949971,7.0433193,,,,,,,,,,,,,,,,defibrillator,144,,node/11536664783,,,,,,,,,,,,,,,,,,,,,,,,
-11589037669,node,46.2877572,7.5208912,yes,,,,,,,,,,,Im Eingang vom Ibis Style,,während den Öffnungszeiten,,defibrillator,144,,node/11589037669,yes,0,,,,,,Ibis Style,,,,,,,,,,,,,,,,
 11594246983,node,46.1236302,7.9365116,yes,,,,,,,,,,,Postgebäude Eingang,,,,defibrillator,144,,node/11594246983,no,,,,,,24/7,Gemeinde,,,,+41 27 957 24 31,,,,,,,,,,"local_knowledge, defikarte.ch",,
 11595151169,node,46.3906383,8.0706572,no,,,,,,,,,,,Berghaus Möriken-Wildegg,,Verfügbar wenn Lagerhaus offen,,defibrillator,144,,node/11595151169,yes,0,,,,,,,,,,,,,,,,,,,,,,
 11648692970,node,46.3372502,6.8894333,yes,,,,,,,,,,,"Maison de la santé du Haut-Lac, rez-de-chaussée",,"À droite devant l’entrée, dans l’angle",,defibrillator,144,,node/11648692970,no,0,,,,,24/7,,,,,+41244820090,,,,,,,,,,,,
@@ -362,3 +361,4 @@ Achtung: Betriebszeiten beachten (saisonal unterschiedlich!)",,defibrillator,144
 14240772501,node,46.2398353,6.9306334,yes,,,,,,,,,,,Cavagne,,,,defibrillator,,,node/14240772501,no,,,,,,,,,,,,,,,,,,,,,,,
 14246589903,node,46.2964881,7.3965966,,,,,,,,,,,,"Devant la coop, mur tout au fond apres les chariots",,,,defibrillator,144,,node/14246589903,no,0,,,,,24/7,,,,,,,,,,,,,,,,,
 14266976301,node,46.2380573,7.875594,yes,,,,,,,,,,,Haupteingang Dienstgebäude KWM,,Im Eingangsbereich,,defibrillator,144,,node/14266976301,yes,0,,,,,24/7,Kraftwerke Mattmark AG,,,,+41279530000,,,,,,,,,,,,
+14277364654,node,46.1267872,7.0604718,yes,,,,,,,,,,,A droite en entrant,,Pendant les heures d'ouverture,,defibrillator,,,node/14277364654,yes,0,,,,,,,,,,,,,,,,,,,,,,
