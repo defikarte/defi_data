@@ -105602,6 +105602,46 @@
       47.4475922
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14280781201",
+  "properties": {
+    "defibrillator:location": "Migros Roospark",
+    "description": "Während Öffnungszeiten Migros verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 07:30-20:00",
+    "id": "node/14280781201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7216871,
+      47.1916725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14280797001",
+  "properties": {
+    "defibrillator:location": "Sonnenhof Center, Erdgeschoss (EG), links neben dem Lift beim Nagelstudio",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo- SA 08:00 - 20:00",
+    "id": "node/14280797001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5404787,
+      47.5210056
+    ]
+  }
 }
 ]
 }

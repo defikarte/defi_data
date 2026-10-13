@@ -191,8 +191,8 @@
     "access": "yes",
     "addr:city": "Grub AR",
     "addr:housenumber": "315",
+    "addr:place": "Dorf",
     "addr:postcode": "9035",
-    "addr:street": "Dorf",
     "amenity": "school",
     "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
     "emergency": "defibrillator",
@@ -7670,15 +7670,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Schulgemeinde Neckertal Herrn Christian Roth",
-    "phone": "+41 71 372 50 20",
+    "operator": "Schule Neckertal",
     "id": "node/8341587426"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.1306794,
-      47.3499427
+      47.3499418
     ]
   }
 },
@@ -9646,12 +9645,12 @@
   "type": "Feature",
   "id": "node/8713922717",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Grotzenbüehl",
-    "description": "während Öffnungszeiten verfügbar.",
+    "description": "24/7.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Sportbahnen Braunwald AG",
     "phone": "+41556433702",
     "id": "node/8713922717"
@@ -39241,6 +39240,25 @@
     "coordinates": [
       9.0583157,
       47.068887
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14280975201",
+  "properties": {
+    "defibrillator:location": "Ochsenweg 2, 9122 Mogelsberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14280975201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1347281,
+      47.3616027
     ]
   }
 }

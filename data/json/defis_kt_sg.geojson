@@ -6595,15 +6595,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Schulgemeinde Neckertal Herrn Christian Roth",
-    "phone": "+41 71 372 50 20",
+    "operator": "Schule Neckertal",
     "id": "node/8341587426"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.1306794,
-      47.3499427
+      47.3499418
     ]
   }
 },
@@ -33104,6 +33103,25 @@
     "coordinates": [
       9.4244128,
       47.4684492
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14280975201",
+  "properties": {
+    "defibrillator:location": "Ochsenweg 2, 9122 Mogelsberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14280975201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1347281,
+      47.3616027
     ]
   }
 }

@@ -5408,8 +5408,8 @@
     "access": "yes",
     "addr:city": "Grub AR",
     "addr:housenumber": "315",
+    "addr:place": "Dorf",
     "addr:postcode": "9035",
-    "addr:street": "Dorf",
     "amenity": "school",
     "defibrillator:location": "Beim Schulhauseingang / an der Hauptstrasse",
     "emergency": "defibrillator",
@@ -6646,10 +6646,11 @@
     "addr:postcode": "3854",
     "addr:street": "Hauptstrasse",
     "defibrillator:location": "Bahnhof Oberried;Vis a Vis Billett Automat",
+    "description": "NICHT VERFÜGBAR",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
     "operator": "Genossenschaft Dorfladen Oberried",
     "phone": "+41 33 849 15 50",
     "id": "node/5490281070"
@@ -6657,7 +6658,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9588765,
+      7.9588766,
       46.7365172
     ]
   }
@@ -64300,6 +64301,7 @@
   "id": "node/7720904274",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-13",
     "defibrillator:location": "Eingang Familienbad",
     "description": "Öffentlich zugänglich",
     "emergency": "defibrillator",
@@ -83268,15 +83270,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Schulgemeinde Neckertal Herrn Christian Roth",
-    "phone": "+41 71 372 50 20",
+    "operator": "Schule Neckertal",
     "id": "node/8341587426"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.1306794,
-      47.3499427
+      47.3499418
     ]
   }
 },
@@ -100981,12 +100982,12 @@
   "type": "Feature",
   "id": "node/8713922717",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Grotzenbüehl",
-    "description": "während Öffnungszeiten verfügbar.",
+    "description": "24/7.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "operator": "Sportbahnen Braunwald AG",
     "phone": "+41556433702",
     "id": "node/8713922717"
@@ -385219,6 +385220,7 @@
   "type": "Feature",
   "id": "node/14279906421",
   "properties": {
+    "defibrillator:location": "Eintreten durch Haupteingang (Zugang durch Fussgängerpassage), dann rechts durch zweite Schiebetüre. Dann nach links drehen, der AED ist in einem grünen Kasten an der Wand.",
     "emergency": "defibrillator",
     "indoor": "yes",
     "id": "node/14279906421"
@@ -385228,6 +385230,65 @@
     "coordinates": [
       7.4346116,
       46.9469499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14280781201",
+  "properties": {
+    "defibrillator:location": "Migros Roospark",
+    "description": "Während Öffnungszeiten Migros verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 07:30-20:00",
+    "id": "node/14280781201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7216871,
+      47.1916725
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14280797001",
+  "properties": {
+    "defibrillator:location": "Sonnenhof Center, Erdgeschoss (EG), links neben dem Lift beim Nagelstudio",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo- SA 08:00 - 20:00",
+    "id": "node/14280797001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5404787,
+      47.5210056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14280975201",
+  "properties": {
+    "defibrillator:location": "Ochsenweg 2, 9122 Mogelsberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14280975201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1347281,
+      47.3616027
     ]
   }
 }
