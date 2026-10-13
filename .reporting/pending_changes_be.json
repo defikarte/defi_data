@@ -1,1 +1,28 @@
-[]
+[
+  {
+    "key": "node/5490281070",
+    "name": "Genossenschaft Dorfladen Oberried – Bahnhof Oberried;Vis a…",
+    "has_name": false,
+    "address": "Hauptstrasse 19, 3854 Oberried am Brienzersee",
+    "lon": 7.9588766,
+    "lat": 46.7365172,
+    "changes": [
+      {
+        "label": "Öffnungszeiten",
+        "old": "24/7",
+        "new": null
+      },
+      {
+        "label": "Beschreibung",
+        "old": null,
+        "new": "NICHT VERFÜGBAR"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "no"
+      }
+    ],
+    "detected_at": "2026-10-13T19:36:42.276874+00:00"
+  }
+]
