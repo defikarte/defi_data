@@ -3,9 +3,15 @@ Gemeinsame Bausteine für alle Report-Mails (geojson_diff.py,
 geojson_diff_be.py, build_weekly_report.py).
 
 Design-Änderungen (Farben, Karten, Seitenrahmen) nur hier vornehmen.
+
+Sprache: über die Umgebungsvariable REPORT_LANG ("de" oder "fr"), die
+process_all_kantone.py pro Kanton aus kantone_config.json ("language") setzt.
+Ohne Angabe wird Deutsch verwendet. Intern bleiben Status-Schlüssel und
+Feldnamen deutsch; übersetzt wird nur bei der Ausgabe.
 """
 
 import html
+import os
 import re
 
 # ── defikarte.ch CI ──────────────────────────────────────────────────────────
@@ -36,6 +42,76 @@ FIELD_LABELS = {
 }
 RELEVANT_FIELDS = list(FIELD_LABELS.keys())
 OPENING_LABEL = FIELD_LABELS["opening_hours"]
+
+
+# ── Sprache ──────────────────────────────────────────────────────────────────
+LANG = os.environ.get("REPORT_LANG", "de").strip().lower()
+if LANG not in ("de", "fr"):
+    LANG = "de"
+
+TEXTS = {
+    "de": {
+        "title": "Änderungen an Defibrillatoren im Einzugsgebiet",
+        "as_of": "Stand {now}",
+        "Neu": "Neu", "Geändert": "Geändert", "Gelöscht": "Gelöscht",
+        "sum_Neu": ("neu", "neu"),
+        "sum_Geändert": ("geändert", "geändert"),
+        "sum_Gelöscht": ("gelöscht", "gelöscht"),
+        "sum_gain_247": "neu 24/7",
+        "sum_loss_247": "nicht mehr 24/7",
+        "map_link": "Auf Karte ansehen",
+        "no_name_hint": "(kein Name in OSM)",
+        "location": "Standort",
+        "unnamed": "Unbenannter Defi",
+        "empty": "(leer)",
+        "gain_247": "Öffnungszeiten: neu 24/7",
+        "loss_247": "Öffnungszeiten: nicht mehr 24/7",
+        "no_info": "keine Angabe mehr",
+        "footer": "Automatisch generiert von defikarte.ch",
+    },
+    "fr": {
+        "title": "Modifications des défibrillateurs dans votre secteur",
+        "as_of": "État au {now}",
+        "Neu": "Nouveau", "Geändert": "Modifié", "Gelöscht": "Supprimé",
+        "sum_Neu": ("nouveau", "nouveaux"),
+        "sum_Geändert": ("modifié", "modifiés"),
+        "sum_Gelöscht": ("supprimé", "supprimés"),
+        "sum_gain_247": "désormais 24/7",
+        "sum_loss_247": "plus en 24/7",
+        "map_link": "Voir sur la carte",
+        "no_name_hint": "(sans nom dans OSM)",
+        "location": "Emplacement",
+        "unnamed": "Défibrillateur sans nom",
+        "empty": "(vide)",
+        "gain_247": "Horaires d\u2019ouverture\u00a0: désormais 24/7",
+        "loss_247": "Horaires d\u2019ouverture\u00a0: plus en 24/7",
+        "no_info": "plus aucune indication",
+        "footer": "Généré automatiquement par defikarte.ch",
+    },
+}
+
+FIELD_LABELS_FR = {
+    "Name": "Nom", "Status": "Statut", "Betreiber": "Exploitant", "Telefon": "Téléphone",
+    "Zugang": "Accès", "Öffnungszeiten": "Horaires d\u2019ouverture",
+    "Standortbeschreibung": "Description de l\u2019emplacement", "Beschreibung": "Description",
+    "Stockwerk": "Étage", "Strasse": "Rue", "Hausnummer": "Numéro",
+    "PLZ": "NPA", "Ort": "Localité", "Innenbereich": "À l\u2019intérieur",
+}
+
+
+def T(key, **kw):
+    text = TEXTS[LANG].get(key, TEXTS["de"].get(key, key))
+    return text.format(**kw) if kw else text
+
+
+def label_out(label):
+    """Interner (deutscher) Feldname -> Anzeige in der Report-Sprache."""
+    return FIELD_LABELS_FR.get(label, label) if LANG == "fr" else label
+
+
+def colon():
+    """Doppelpunkt nach Typografie der Sprache (fr: geschütztes Leerzeichen davor)."""
+    return "\u00a0:" if LANG == "fr" else ":"
 
 
 # ── GeoJSON-Hilfsfunktionen ──────────────────────────────────────────────────
@@ -128,8 +204,8 @@ def display_name(p, lon, lat):
     if addr:
         return addr, False, True
     if lat is not None and lon is not None:
-        return f"Standort {lat:.5f}, {lon:.5f}", False, False
-    return "Unbenannter Defi", False, False
+        return f"{T('location')} {lat:.5f}, {lon:.5f}", False, False
+    return T("unnamed"), False, False
 
 
 def feature_entry(status, feature, changes=None):
@@ -176,8 +252,12 @@ def _e(s):
     return html.escape(str(s))
 
 
+def is_empty(v):
+    return v in (None, "None", "")
+
+
 def val(v):
-    return "(leer)" if v in (None, "None", "") else str(v)
+    return T("empty") if is_empty(v) else str(v)
 
 
 def dot(color):
@@ -198,13 +278,13 @@ def change_line(change):
     label, old, new = change
     if is_gain_247(label, old, new):
         return (f'<div style="margin:3px 0;font-size:13px;"><span style="color:{GREEN_DARK};font-weight:700;">'
-                f'Öffnungszeiten: neu 24/7</span>{badge_247()}</div>')
+                f'{_e(T("gain_247"))}</span>{badge_247()}</div>')
     if is_loss_247(label, old, new):
-        detail = "keine Angabe mehr" if val(new) == "(leer)" else val(new)
+        detail = T("no_info") if is_empty(new) else str(new)
         return (f'<div style="margin:3px 0;font-size:13px;color:{COLOR_GEAENDERT};font-weight:700;">'
-                f'Öffnungszeiten: nicht mehr 24/7 <span style="font-weight:400;">({_e(detail)})</span></div>')
+                f'{_e(T("loss_247"))} <span style="font-weight:400;">({_e(detail)})</span></div>')
     return (f'<div style="margin:3px 0;font-size:13px;color:{INK};">'
-            f'<span style="color:{MUTED};">{_e(label)}:</span> '
+            f'<span style="color:{MUTED};">{_e(label_out(label))}{colon()}</span> '
             f'<span style="color:#9CA3AF;text-decoration:line-through;">{_e(val(old))}</span>'
             f' &rarr; <strong style="font-weight:600;">{_e(val(new))}</strong></div>')
 
@@ -212,8 +292,8 @@ def change_line(change):
 def card(entry):
     color = STATUS_COLORS[entry["status"]]
     link = (f'<a href="{_e(entry["url"])}" style="color:{GREEN_DARK};text-decoration:none;font-weight:600;">'
-            f'Auf Karte ansehen &rarr;</a>') if entry.get("url") else ""
-    hint = (f' <span style="color:{MUTED};font-size:12px;font-weight:400;">(kein Name in OSM)</span>'
+            f'{_e(T("map_link"))} &rarr;</a>') if entry.get("url") else ""
+    hint = (f' <span style="color:{MUTED};font-size:12px;font-weight:400;">{_e(T("no_name_hint"))}</span>'
             if SHOW_NO_NAME_HINT and not entry.get("has_name", True) else "")
     badge = badge_247() if entry.get("new_247") else ""
     addr = (f'<div style="font-size:13px;color:{MUTED};margin-top:2px;">{_e(entry["addr"])}</div>'
@@ -230,7 +310,7 @@ def card(entry):
                  border-radius:8px;padding:14px 18px;font-family:{FONT};">
     <table role="presentation" width="100%" style="border-collapse:collapse;">
       <tr>
-        <td style="font-size:12px;font-weight:600;color:{color};">{dot(color)}{_e(entry["status"])}</td>
+        <td style="font-size:12px;font-weight:600;color:{color};">{dot(color)}{_e(T(entry["status"]))}</td>
         <td align="right" style="font-size:12px;">{link}</td>
       </tr>
     </table>
@@ -250,14 +330,14 @@ def summary_html(entries, statuses=("Neu", "Geändert", "Gelöscht")):
         n = sum(1 for e in entries if e["status"] == s)
         if n:
             cells.append(f'<td style="padding-right:18px;white-space:nowrap;">{dot(STATUS_COLORS[s])}'
-                         f'<strong style="color:{INK};">{n}</strong> {s.lower()}</td>')
+                         f'<strong style="color:{INK};">{n}</strong> {T("sum_" + s)[0 if n == 1 else 1]}</td>')
     gains, losses = count_247(entries)
     if gains:
         cells.append(f'<td style="padding-right:18px;white-space:nowrap;">'
-                     f'<strong style="color:{GREEN_DARK};">{gains}</strong> neu 24/7</td>')
+                     f'<strong style="color:{GREEN_DARK};">{gains}</strong> {T("sum_gain_247")}</td>')
     if losses:
         cells.append(f'<td style="white-space:nowrap;">'
-                     f'<strong style="color:{COLOR_GEAENDERT};">{losses}</strong> nicht mehr 24/7</td>')
+                     f'<strong style="color:{COLOR_GEAENDERT};">{losses}</strong> {T("sum_loss_247")}</td>')
     if not cells:
         return ""
     return (f'<table role="presentation" style="margin:14px 0 4px 0;border-collapse:collapse;">'
@@ -269,7 +349,7 @@ def page(title, subtitle, entries, summary_block=None, body_html=None):
     if summary_block is None:
         summary_block = summary_html(entries)
     cards_html = body_html if body_html is not None else "".join(card(e) for e in entries)
-    return f'''<html>
+    return f'''<html lang="{LANG}">
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -284,7 +364,7 @@ def page(title, subtitle, entries, summary_block=None, body_html=None):
 <div style="margin-top:14px;">
 {cards_html}
 </div>
-<p style="font-family:{FONT};font-size:11px;color:{MUTED};margin-top:24px;">Automatisch generiert von defikarte.ch</p>
+<p style="font-family:{FONT};font-size:11px;color:{MUTED};margin-top:24px;">{_e(T("footer"))}</p>
 </td></tr></table>
 </td></tr></table>
 </body>

@@ -37,6 +37,37 @@ SEND_DELAY_SECONDS = 8
 
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
 
+# Vergleich gegen den zuletzt verarbeiteten Stand statt nur gegen den direkten
+# Vorgänger-Commit. Schliesst die Lücke bei verpassten Läufen (siehe README).
+# False = bisheriges Verhalten (Vergleich sha^..sha).
+COMPARE_TO_LAST_STATE = True
+
+# Betreffzeilen pro Sprache ("language" in kantone_config.json, Standard "de")
+SUBJECTS = {
+    "de": {
+        "immediate": "Änderungen an Defis Kanton {name}",
+        "be_style": "Neue/gelöschte Defis – {name}",
+    },
+    "fr": {
+        "immediate": "Défibrillateurs\u00a0: modifications – {name}",
+        "be_style": "Défibrillateurs nouveaux/supprimés – {name}",
+    },
+}
+
+
+def lang_of(kanton):
+    lang = str(kanton.get("language", "de")).strip().lower()
+    return lang if lang in SUBJECTS else "de"
+
+
+def subject_for(kanton, kind):
+    return SUBJECTS[lang_of(kanton)][kind].format(name=kanton["name"])
+
+
+def script_env(kanton):
+    """Umgebung für die Diff-Scripts: Report-Sprache mitgeben."""
+    return {**os.environ, "REPORT_LANG": lang_of(kanton)}
+
 
 def load_config():
     with open(CONFIG_FILE, encoding="utf-8") as f:
@@ -51,14 +82,42 @@ def get_geojson_sha(path):
     return result.stdout.strip()
 
 
-def has_changed(sha, path):
-    result = subprocess.run(["git", "diff", "--quiet", f"{sha}^..{sha}", "--", path])
+def diff_base(last, sha):
+    """Vergleichsbasis für den Diff.
+
+    Normalfall: der zuletzt verarbeitete Stand (last). So werden auch Änderungen
+    aus Overpass-Commits erfasst, die zwischen zwei erfolgreichen Läufen lagen
+    (z.B. nach einem fehlgeschlagenen Mailversand). Liegt nur ein Commit
+    dazwischen, ist das Ergebnis identisch mit dem früheren Vergleich sha^..sha.
+
+    Fallback: der direkte Vorgänger (sha^), falls kein gültiger Stand vorliegt
+    oder COMPARE_TO_LAST_STATE ausgeschaltet ist.
+    """
+    if last and COMPARE_TO_LAST_STATE:
+        is_ancestor = subprocess.run(
+            ["git", "merge-base", "--is-ancestor", last, sha],
+            capture_output=True,
+        ).returncode == 0
+        if is_ancestor:
+            return last
+        print(f"Hinweis: gespeicherter Stand {last[:8]} ist kein Vorgänger von "
+              f"{sha[:8]} - verwende {sha[:8]}^ als Vergleichsbasis.")
+    return f"{sha}^"
+
+
+def exists_at(base, path):
+    return subprocess.run(["git", "cat-file", "-e", f"{base}:{path}"],
+                          capture_output=True).returncode == 0
+
+
+def has_changed(base, sha, path):
+    result = subprocess.run(["git", "diff", "--quiet", f"{base}..{sha}", "--", path])
     return result.returncode != 0
 
 
-def show_old_version(sha, path, out_path):
+def show_old_version(base, path, out_path):
     with open(out_path, "wb") as f:
-        subprocess.run(["git", "show", f"{sha}^:{path}"], stdout=f, check=True)
+        subprocess.run(["git", "show", f"{base}:{path}"], stdout=f, check=True)
 
 
 def send_mail(subject, html_body, to_addr, cc_addr=None):
@@ -123,13 +182,32 @@ def process_immediate(kanton):
         print(f"[{kid}] bereits verarbeitet ({geojson_sha[:8]})")
         return False
 
-    if has_changed(geojson_sha, geojson_path):
+    if not last:
+        # Noch nie verarbeitet (neu aufgenommener Kanton): nur initialisieren.
+        # Sonst bekäme der Empfänger als erste Mail eine beliebig alte Änderung.
+        print(f"[{kid}] Initialisiert auf {geojson_sha[:8]} (neu im Reporting, kein Report).")
+        os.makedirs(".reporting", exist_ok=True)
+        with open(sha_file, "w", encoding="utf-8") as f:
+            f.write(geojson_sha)
+        return True
+
+    base = diff_base(last, geojson_sha)
+    if not exists_at(base, geojson_path):
+        # Datei existierte beim Vergleichsstand noch nicht (neuer Kanton):
+        # nur initialisieren, sonst käme der ganze Bestand als "neu".
+        print(f"[{kid}] Initialisiert auf {geojson_sha[:8]} (Datei neu, kein Report).")
+        os.makedirs(".reporting", exist_ok=True)
+        with open(sha_file, "w", encoding="utf-8") as f:
+            f.write(geojson_sha)
+        return True
+
+    if has_changed(base, geojson_sha, geojson_path):
         old_tmp = f"/tmp/old_{kid}.geojson"
-        show_old_version(geojson_sha, geojson_path, old_tmp)
+        show_old_version(base, geojson_path, old_tmp)
 
         subprocess.run(
             ["python3", "scripts/geojson_diff.py", old_tmp, geojson_path],
-            check=True,
+            check=True, env=script_env(kanton),
         )
 
         if os.path.exists("diff.html"):
@@ -142,7 +220,7 @@ def process_immediate(kanton):
             if recipient:
                 try:
                     send_mail(
-                        subject=f"Änderungen an Defis {kanton['name']}",
+                        subject=subject_for(kanton, "immediate"),
                         html_body=html_body,
                         to_addr=recipient,
                         cc_addr=cc,
@@ -188,13 +266,32 @@ def process_be_style(kanton):
         print(f"[{kid}] bereits verarbeitet ({geojson_sha[:8]})")
         return False
 
-    if has_changed(geojson_sha, geojson_path):
+    if not last:
+        # Noch nie verarbeitet (neu aufgenommener Kanton): nur initialisieren.
+        # Sonst bekäme der Empfänger als erste Mail eine beliebig alte Änderung.
+        print(f"[{kid}] Initialisiert auf {geojson_sha[:8]} (neu im Reporting, kein Report).")
+        os.makedirs(".reporting", exist_ok=True)
+        with open(sha_file, "w", encoding="utf-8") as f:
+            f.write(geojson_sha)
+        return True
+
+    base = diff_base(last, geojson_sha)
+    if not exists_at(base, geojson_path):
+        # Datei existierte beim Vergleichsstand noch nicht (neuer Kanton):
+        # nur initialisieren, sonst käme der ganze Bestand als "neu".
+        print(f"[{kid}] Initialisiert auf {geojson_sha[:8]} (Datei neu, kein Report).")
+        os.makedirs(".reporting", exist_ok=True)
+        with open(sha_file, "w", encoding="utf-8") as f:
+            f.write(geojson_sha)
+        return True
+
+    if has_changed(base, geojson_sha, geojson_path):
         old_tmp = f"/tmp/old_{kid}.geojson"
-        show_old_version(geojson_sha, geojson_path, old_tmp)
+        show_old_version(base, geojson_path, old_tmp)
 
         subprocess.run(
             ["python3", "scripts/geojson_diff_be.py", old_tmp, geojson_path, pending_file],
-            check=True,
+            check=True, env=script_env(kanton),
         )
 
         if os.path.exists("diff_immediate.html"):
@@ -207,7 +304,7 @@ def process_be_style(kanton):
             if recipient:
                 try:
                     send_mail(
-                        subject=f"Neue/gelöschte Defis – {kanton['name']}",
+                        subject=subject_for(kanton, "be_style"),
                         html_body=html_body,
                         to_addr=recipient,
                         cc_addr=cc,
