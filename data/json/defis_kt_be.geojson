@@ -66338,6 +66338,23 @@
       46.7448333
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14279906421",
+  "properties": {
+    "defibrillator:location": "Eintreten durch Haupteingang (Zugang durch Fussgängerpassage), dann rechts durch zweite Schiebetüre. Dann nach links drehen, der AED ist in einem grünen Kasten an der Wand.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14279906421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4346116,
+      46.9469499
+    ]
+  }
 }
 ]
 }

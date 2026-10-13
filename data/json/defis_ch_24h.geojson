@@ -123905,7 +123905,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Filiale Landi Surb Weiach",
-    "description": "aktuell AUSSER BETRIEB !!! (an der Aussenfassade befestigt)",
+    "description": "an der Aussenfassade befestigt",
     "email": "info@weiach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",

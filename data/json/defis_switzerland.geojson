@@ -263169,28 +263169,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11589037669",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Eingang vom Ibis Style",
-    "description": "während den Öffnungszeiten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "operator": "Ibis Style",
-    "id": "node/11589037669"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5208912,
-      46.2877572
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11591030469",
   "properties": {
     "defibrillator:location": "Büro bei Anmeldeschalter",
@@ -290813,7 +290791,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Filiale Landi Surb Weiach",
-    "description": "aktuell AUSSER BETRIEB !!! (an der Aussenfassade befestigt)",
+    "description": "an der Aussenfassade befestigt",
     "email": "info@weiach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -385234,6 +385212,22 @@
     "coordinates": [
       7.0604718,
       46.1267872
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14279906421",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14279906421"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4346116,
+      46.9469499
     ]
   }
 }
