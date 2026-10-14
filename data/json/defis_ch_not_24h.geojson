@@ -24685,16 +24685,25 @@
   "type": "Feature",
   "id": "node/7637818604",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stockwerk 1, Druckerraum | BRITA Wasser-Filter-Systeme AG, Gassmatt 6, 6025 Neudorf",
+    "description": "während der Öffnungszeiten verfügbar",
+    "email": "info-ch@brita.net",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
     "name": "Brita Wasser-Filter-Systems AG",
+    "opening_hours": "Mo-Th 08:00-12:00, 13:30-17:00; Fr 08:00-12:00, 13:30-16:00",
+    "operator": "BRITA Wasser-Filter-Systeme AG",
+    "phone": "+41 41 932 42 00",
     "id": "node/7637818604"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.207065,
-      47.1794989
+      8.2070647,
+      47.179499
     ]
   }
 },
@@ -221475,6 +221484,29 @@
     "coordinates": [
       8.5404787,
       47.5210056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14282750301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Hautgebäude, Eingang Verwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 7:00 - 17:30",
+    "operator": "Kompass Arbeitsintegration",
+    "phone": "+41 71 424 00 20",
+    "id": "node/14282750301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2347544,
+      47.4934602
     ]
   }
 }

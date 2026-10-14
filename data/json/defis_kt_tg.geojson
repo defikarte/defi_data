@@ -16536,6 +16536,29 @@
       47.4314738
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14282750301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Hautgebäude, Eingang Verwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 7:00 - 17:30",
+    "operator": "Kompass Arbeitsintegration",
+    "phone": "+41 71 424 00 20",
+    "id": "node/14282750301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2347544,
+      47.4934602
+    ]
+  }
 }
 ]
 }
