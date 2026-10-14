@@ -8708,6 +8708,27 @@
       46.8381277
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14284618401",
+  "properties": {
+    "addr:housenumber": "1",
+    "addr:street": "Route des Fluides",
+    "check_date": "2026-10-14",
+    "check_date:opening_hours": "2026-10-14",
+    "emergency": "defibrillator",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "id": "node/14284618401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1142935,
+      46.8129496
+    ]
+  }
 }
 ]
 }
