@@ -17505,6 +17505,23 @@
       46.8527671
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14282925137",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich zum Hotel Restaurant Süsom Givè, untem beim Treppenabsatz.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14282925137"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.2925208,
+      46.6395758
+    ]
+  }
 }
 ]
 }

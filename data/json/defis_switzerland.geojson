@@ -16304,22 +16304,22 @@
   "type": "Feature",
   "id": "node/6633263844",
   "properties": {
-    "access": "yes",
     "addr:city": "Burgdorf",
     "addr:housenumber": "4",
     "addr:postcode": "3400",
     "addr:street": "Kornhausgasse",
+    "defibrillator:location": "Aufgehoben",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bernerlandbank",
+    "indoor": "no",
+    "operator": "Bernerland Bank AG",
     "id": "node/6633263844"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6275912,
-      47.0577249
+      7.6275909,
+      47.0577247
     ]
   }
 },
@@ -26476,9 +26476,11 @@
     "addr:housenumber": "2",
     "addr:postcode": "3132",
     "addr:street": "Eyweg",
+    "check_date": "2026-10-14",
     "defibrillator:location": "6.00 - 19.30. Nachts via Türklingel Empfang Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Spital Riggisberg Inselgruppe AG",
     "phone": "+41 31 808 71 71",
@@ -51495,7 +51497,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Stockwerk 1, Druckerraum | BRITA Wasser-Filter-Systeme AG, Gassmatt 6, 6025 Neudorf",
-    "description": "während der Öffnungszeiten verfügbar",
+    "description": "siehe Öffnungszeiten, Eingangstüre: BRITA-Mitarbeiter muss die Türe öffnen // rechts die Treppe hoch und beim Eingang auf Display 'Empfang' oder auch 'Facility' anwählen",
     "email": "info-ch@brita.net",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -51510,8 +51512,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2070647,
-      47.179499
+      8.2074128,
+      47.1794892
     ]
   }
 },
@@ -218784,29 +218786,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310475",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Produktion, EG",
-    "description": "gelber Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "IMA Automation Switzerland SA",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310475"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.04468,
-      47.02277
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310476",
   "properties": {
     "access": "yes",
@@ -385321,6 +385300,148 @@
     "coordinates": [
       9.2347544,
       47.4934602
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14282887001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung, Oberdorf 12, 3303 Zuzwil,, linke Gebäudeecke neben Verwaltungseingang",
+    "description": "Immer Verfügbar",
+    "email": "gemeinde@zuzwil-be.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Zuzwil",
+    "phone": "+41 31 761 02 23",
+    "id": "node/14282887001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4694868,
+      47.0521273
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14282897846",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Villmergen",
+    "addr:housenumber": "18",
+    "addr:postcode": "5612",
+    "addr:street": "Wohlerstrasse",
+    "defibrillator:location": "Holliger Paletten Logistik AG Produktionshalle",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Holliger Paletten Logistik AG",
+    "opening_hours": "Mo-Fr 05.00-23.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0725LTM",
+    "id": "node/14282897846"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.24944,
+      47.3439074
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14282925137",
+  "properties": {
+    "defibrillator:location": "Im Eingangsbereich zum Hotel Restaurant Süsom Givè, untem beim Treppenabsatz.",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14282925137"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.2925208,
+      46.6395758
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14283406501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eishalle, nach Eingang links",
+    "email": "eishalle@localnet-arena.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "operator": "Lacalnet Arena",
+    "phone": "+41 79 732 08 92",
+    "id": "node/14283406501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6032546,
+      47.0695089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14283433101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eishalle, nach Eingang links",
+    "email": "eishalle@localnet-arena.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "operator": "Lacalnet Arena",
+    "phone": "+41 79 732 08 92",
+    "id": "node/14283433101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6032546,
+      47.0695089
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14283443601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Localnet Arena Sani Zimmer",
+    "email": "eishalle@localnet-arena.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Su 10:00-23:00",
+    "operator": "Localnet Arena",
+    "phone": "+41 79 732 08 92",
+    "id": "node/14283443601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.603732,
+      47.0691718
     ]
   }
 }

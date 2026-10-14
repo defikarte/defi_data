@@ -5060,7 +5060,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Stockwerk 1, Druckerraum | BRITA Wasser-Filter-Systeme AG, Gassmatt 6, 6025 Neudorf",
-    "description": "während der Öffnungszeiten verfügbar",
+    "description": "siehe Öffnungszeiten, Eingangstüre: BRITA-Mitarbeiter muss die Türe öffnen // rechts die Treppe hoch und beim Eingang auf Display 'Empfang' oder auch 'Facility' anwählen",
     "email": "info-ch@brita.net",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -5075,8 +5075,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2070647,
-      47.179499
+      8.2074128,
+      47.1794892
     ]
   }
 },

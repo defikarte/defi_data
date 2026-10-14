@@ -7627,29 +7627,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6633263844",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Burgdorf",
-    "addr:housenumber": "4",
-    "addr:postcode": "3400",
-    "addr:street": "Kornhausgasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Bernerlandbank",
-    "id": "node/6633263844"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6275912,
-      47.0577249
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6633263845",
   "properties": {
     "access": "yes",
@@ -12403,9 +12380,11 @@
     "addr:housenumber": "2",
     "addr:postcode": "3132",
     "addr:street": "Eyweg",
+    "check_date": "2026-10-14",
     "defibrillator:location": "6.00 - 19.30. Nachts via Türklingel Empfang Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Spital Riggisberg Inselgruppe AG",
     "phone": "+41 31 808 71 71",

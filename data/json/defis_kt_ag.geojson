@@ -31921,6 +31921,36 @@
       47.3139255
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14282897846",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Villmergen",
+    "addr:housenumber": "18",
+    "addr:postcode": "5612",
+    "addr:street": "Wohlerstrasse",
+    "defibrillator:location": "Holliger Paletten Logistik AG Produktionshalle",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Holliger Paletten Logistik AG",
+    "opening_hours": "Mo-Fr 05.00-23.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0725LTM",
+    "id": "node/14282897846"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.24944,
+      47.3439074
+    ]
+  }
 }
 ]
 }
