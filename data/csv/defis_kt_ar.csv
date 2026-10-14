@@ -1,5 +1,5 @@
-osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:street,amenity,defibrillator:location,description,email,emergency,emergency:phone,id,indoor,latitude,level,longitude,name,note,opening_hours,opening_hours:note,operator,phone,source,website,wheelchair
-5036047322,node,47.4475817,9.5087004,yes,Grub AR,315,9035,Dorf,school,Beim Schulhauseingang / an der Hauptstrasse,,,defibrillator,144,node/5036047322,no,,,,Schule Grub AR,,24/7,,Gemeinde Grub AR,+41 71 891 17 50,,https://schule.grub.ch/,
+osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:place,addr:postcode,amenity,defibrillator:location,description,email,emergency,emergency:phone,id,indoor,latitude,level,longitude,name,note,opening_hours,opening_hours:note,operator,phone,source,website,wheelchair
+5036047322,node,47.4475817,9.5087004,yes,Grub AR,315,Dorf,9035,school,Beim Schulhauseingang / an der Hauptstrasse,,,defibrillator,144,node/5036047322,no,,,,Schule Grub AR,,24/7,,Gemeinde Grub AR,+41 71 891 17 50,,https://schule.grub.ch/,
 7721321841,node,47.3275612,9.2276502,yes,,,,,,Haupteingang MZA,,,defibrillator,144,node/7721321841,no,,,,,,24/7,,Gemeinde Schönengrund,+41 71 361 18 18,,,
 7724074016,node,47.2561768,9.3082778,yes,,,,,,"Kleines Holzgebäude gegenüber Passhöhe Kreuzung, Rechts unter Vordach",Öffentlich zugänglich,,defibrillator,144,node/7724074016,,,,,,,24/7,,,,,,
 7727095743,node,47.3542957,9.2470872,yes,,,,,,Gemeindeverwaltung,,,defibrillator,144,node/7727095743,,,,,,,,,,,,,

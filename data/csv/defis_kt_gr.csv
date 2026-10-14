@@ -67,7 +67,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:cou
 7720904270,node,46.7756541,10.1513246,yes,,,,,,,,,,,,Beim Schulhaus,,,Öffentlich zugänglich,,defibrillator,,144,,,node/7720904270,,,,,,,,24/7,,,,,,,,,
 7720904271,node,46.763624,10.0966823,yes,,,,,,,,,,,,"Autoverlad Ende Galerie, bei der Waage",,,,,defibrillator,,144,,,node/7720904271,,,no,,,,,24/7,Rhätische Bahn AG,,,+41 81 288 65 65,,,,,
 7720904272,node,46.7493088,10.0791863,yes,,,,,,,,,,,,Clinica Holistica Engiadina,,,während Öffnungszeiten verfügbar,,defibrillator,,144,,,node/7720904272,https://openaedmap.org/api/v1/photos/view/lDl16_35MqsDjgz1g-NlkQ.webp,CC0,yes,,,,,Mo - Fr 08:00 - 17:00,Clinica Holistica Engiadina,,,,,,,,
-7720904274,node,46.6990653,10.0951846,yes,,,,,,,,,,,,Eingang Familienbad,,,Öffentlich zugänglich,,defibrillator,,144,,,node/7720904274,,,no,,,,,24/7,,,,,,,,,
+7720904274,node,46.6990653,10.0951846,yes,,,,,,,,,2026-10-13,,,Eingang Familienbad,,,Öffentlich zugänglich,,defibrillator,,144,,,node/7720904274,,,no,,,,,24/7,,,,,,,,,
 7720904275,node,46.6983859,10.0963689,yes,,,,,,,,,,,,Garage Ambulanz,,,Öffentlich zugänglich,,defibrillator,,144,,,node/7720904275,,,yes,,,,,24/7,,,,,,,,,
 7720904276,node,46.6982739,10.0923626,yes,,,,,,,,,,,,Am Gebäude angebracht,,,Öffentlich zugänglich,,defibrillator,,144,,,node/7720904276,,,,,,,,24/7,,,,,,,,,
 7720904277,node,46.6973763,10.0911054,yes,,,,,,,,,,,,Am Gebäude angebracht,,,Öffentlich zugänglich,,defibrillator,,144,,,node/7720904277,,,,,,,,24/7,,,,,,,,,
