@@ -24,5 +24,57 @@
       }
     ],
     "detected_at": "2026-10-13T19:36:42.276874+00:00"
+  },
+  {
+    "key": "node/6633263844",
+    "name": "Bernerland Bank AG – Aufgehoben",
+    "has_name": false,
+    "address": "Kornhausgasse 4, 3400 Burgdorf",
+    "lon": 7.6275909,
+    "lat": 47.0577247,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": "Bernerlandbank",
+        "new": "Bernerland Bank AG"
+      },
+      {
+        "label": "Zugang",
+        "old": "yes",
+        "new": null
+      },
+      {
+        "label": "Öffnungszeiten",
+        "old": "24/7",
+        "new": null
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": null,
+        "new": "Aufgehoben"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "no"
+      }
+    ],
+    "detected_at": "2026-10-14T14:04:40.201816+00:00"
+  },
+  {
+    "key": "node/6658344646",
+    "name": "Spital Riggisberg Inselgruppe AG – 6.00 - 19.30. Nachts via…",
+    "has_name": false,
+    "address": "Eyweg 2, 3132 Riggisberg",
+    "lon": 7.4777494,
+    "lat": 46.81381,
+    "changes": [
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "no"
+      }
+    ],
+    "detected_at": "2026-10-14T14:04:40.201816+00:00"
   }
 ]
