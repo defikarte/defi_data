@@ -66430,6 +66430,27 @@
       47.0691718
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14283787701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Busswil 240, Heimiswil / ZSA",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Heimiswil",
+    "id": "node/14283787701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6554939,
+      47.0413629
+    ]
+  }
 }
 ]
 }

@@ -382375,6 +382375,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 06:30-20:00",
     "operator": "STWEG Bachweid 3, Baar",
     "phone": "+41 41 761 41 70",
     "id": "node/14169618803"
@@ -385442,6 +385443,52 @@
     "coordinates": [
       7.603732,
       47.0691718
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14283787701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Busswil 240, Heimiswil / ZSA",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Heimiswil",
+    "id": "node/14283787701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6554939,
+      47.0413629
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14284400401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neuhof, Innenhof, vor Durchgang Wiedenstrasse 50",
+    "description": "Grüner Kasten, 24h zugänglich",
+    "email": "info@neuhof.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Neuhof AG",
+    "phone": "+41 77 495 74 63",
+    "id": "node/14284400401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4692437,
+      47.166932
     ]
   }
 }

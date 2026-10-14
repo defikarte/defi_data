@@ -9985,6 +9985,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 06:30-20:00",
     "operator": "STWEG Bachweid 3, Baar",
     "phone": "+41 41 761 41 70",
     "id": "node/14169618803"

@@ -39261,6 +39261,31 @@
       47.3616027
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14284400401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neuhof, Innenhof, vor Durchgang Wiedenstrasse 50",
+    "description": "Grüner Kasten, 24h zugänglich",
+    "email": "info@neuhof.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Neuhof AG",
+    "phone": "+41 77 495 74 63",
+    "id": "node/14284400401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4692437,
+      47.166932
+    ]
+  }
 }
 ]
 }
