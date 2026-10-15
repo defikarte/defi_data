@@ -342,7 +342,7 @@
   "id": "node/7644008592",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Bibliothek Agnesenschütte",
+    "defibrillator:location": "Bibliothek Kammgarn West",
     "description": "Hinter Kasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -355,8 +355,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6368512,
-      47.6979612
+      8.6355205,
+      47.6943945
     ]
   }
 },

@@ -66451,6 +66451,25 @@
       47.0413629
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14287138101",
+  "properties": {
+    "defibrillator:location": "Kirchgemeindehaus",
+    "description": "Wärend Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14287138101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4876666,
+      46.9565908
+    ]
+  }
 }
 ]
 }

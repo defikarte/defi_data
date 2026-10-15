@@ -61379,7 +61379,7 @@
   "id": "node/7644008592",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Bibliothek Agnesenschütte",
+    "defibrillator:location": "Bibliothek Kammgarn West",
     "description": "Hinter Kasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -61392,8 +61392,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6368512,
-      47.6979612
+      8.6355205,
+      47.6943945
     ]
   }
 },
@@ -163273,12 +163273,12 @@
   "id": "node/9843957619",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei PAWI Verpackung",
-    "description": "während Bürozeiten",
+    "check_date": "2026-10-15",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "PAWI Verpackungen",
+    "operator": "PAWI Packaging Schweiz AG",
+    "phone": "+41 52 234 42 42",
     "id": "node/9843957619"
   },
   "geometry": {
@@ -273251,20 +273251,20 @@
   "type": "Feature",
   "id": "node/11809608272",
   "properties": {
-    "defibrillator:location": "Schulhaus Chrüzächer, Turnhalle, Eingangsbereich",
+    "defibrillator:location": "Schulhaus Chrüzächer, Turnhalleneingang unten, bedachter Bereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-22:00",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/11809608272"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4732919,
-      47.4284123
+      8.4733924,
+      47.4285112
     ]
   }
 },
@@ -384360,6 +384360,7 @@
   "id": "node/14235358201",
   "properties": {
     "emergency": "defibrillator",
+    "indoor": "no",
     "id": "node/14235358201"
   },
   "geometry": {
@@ -385560,6 +385561,50 @@
     "coordinates": [
       8.651634,
       47.710839
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14286707301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Schulhaus, Treppe hoch, befindet sich auf der Rechte Seite",
+    "email": "hwpr@regensdorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/MSJVcZXDzmZ64qftLCdlvw.webp",
+    "image:license": "CC0",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensdorf",
+    "id": "node/14286707301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4783598,
+      47.4438738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14287138101",
+  "properties": {
+    "defibrillator:location": "Kirchgemeindehaus",
+    "description": "Wärend Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14287138101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4876666,
+      46.9565908
     ]
   }
 }

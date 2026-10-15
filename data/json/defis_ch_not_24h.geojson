@@ -31837,7 +31837,7 @@
   "id": "node/7644008592",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Bibliothek Agnesenschütte",
+    "defibrillator:location": "Bibliothek Kammgarn West",
     "description": "Hinter Kasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -31850,8 +31850,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6368512,
-      47.6979612
+      8.6355205,
+      47.6943945
     ]
   }
 },
@@ -85836,12 +85836,12 @@
   "id": "node/9843957619",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bei PAWI Verpackung",
-    "description": "während Bürozeiten",
+    "check_date": "2026-10-15",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "PAWI Verpackungen",
+    "operator": "PAWI Packaging Schweiz AG",
+    "phone": "+41 52 234 42 42",
     "id": "node/9843957619"
   },
   "geometry": {
@@ -156829,27 +156829,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11809608272",
-  "properties": {
-    "defibrillator:location": "Schulhaus Chrüzächer, Turnhalle, Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 07:00-22:00",
-    "operator": "Gemeinde",
-    "id": "node/11809608272"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4732919,
-      47.4284123
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11809641172",
   "properties": {
     "defibrillator:location": "Schulhaus Ruggenacher 1, Lehrerzimmer",
@@ -221026,6 +221005,7 @@
   "id": "node/14235358201",
   "properties": {
     "emergency": "defibrillator",
+    "indoor": "no",
     "id": "node/14235358201"
   },
   "geometry": {
@@ -221720,6 +221700,25 @@
     "coordinates": [
       8.651634,
       47.710839
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14287138101",
+  "properties": {
+    "defibrillator:location": "Kirchgemeindehaus",
+    "description": "Wärend Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/14287138101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4876666,
+      46.9565908
     ]
   }
 }
