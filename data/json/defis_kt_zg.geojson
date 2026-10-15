@@ -7643,6 +7643,7 @@
     "contact:phone": "+41 41 725 31 50",
     "defibrillator:location": "Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Kunsteisbahn Zug AG",

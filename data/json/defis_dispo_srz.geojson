@@ -80384,6 +80384,7 @@
     "contact:phone": "+41 41 725 31 50",
     "defibrillator:location": "Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "operator": "Kunsteisbahn Zug AG",
@@ -105641,6 +105642,54 @@
     "coordinates": [
       8.5404787,
       47.5210056
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14286485701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ebnatstrasse 127 8200 Schaffhausen",
+    "email": "info@wenger-wirz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 -17:00",
+    "operator": "Privat",
+    "phone": "+41 52 634 06 60",
+    "id": "node/14286485701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.651634,
+      47.710839
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14286485801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Ebnatstrasse 127 8200 Schaffhausen",
+    "email": "info@wenger-wirz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 -17:00",
+    "operator": "Privat",
+    "phone": "+41 52 634 06 60",
+    "id": "node/14286485801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.651634,
+      47.710839
     ]
   }
 }
