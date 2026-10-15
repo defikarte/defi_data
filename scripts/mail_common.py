@@ -15,15 +15,20 @@ import os
 import re
 
 # ── defikarte.ch CI ──────────────────────────────────────────────────────────
-LOGO_URL = "https://assets.defikarte.ch/logo/logo_gruen.jpg"
-GREEN_LIGHT = "#97C568"
-GREEN_DARK = "#144430"
-INK = "#1F2937"
-MUTED = "#6B7280"
-RULE = "#E5E7EB"
-PAGE_BG = "#FFFFFF"
+# Farben aus den Design-Tokens der Website (Figma: primary-*, graustufen-*).
+# Logo: Negativ-Version (weiss/hellgrün) für den dunkelgrünen Kopfbalken.
+LOGO_URL = "https://assets.defikarte.ch/logo/logo_negativ.png"
+LOGO_WIDTH = 188                # Seitenverhältnis 765×139 -> ca. 34px hoch
+GREEN_LIGHT = "#98C867"         # primary-100-green-02
+GREEN_MID = "#30805D"           # primary-100-green-03
+GREEN_DARK = "#154430"          # primary-100-green-04
+INK = "#333333"                 # graustufen-grau-e
+MUTED = "#666666"               # graustufen-grau-d
+RULE = "#E5E5E5"                # graustufen-grau-a
+PAGE_BG = "#F5F7F6"             # green-custom
 CARD_BG = "#FFFFFF"
-CHANGE_BG = "#F9FAFB"
+CHANGE_BG = "#F5F7F6"
+SITE_URL = "https://defikarte.ch"
 FONT = "'Poppins', Arial, Helvetica, sans-serif"
 
 # ── Partner-Logo oben rechts ─────────────────────────────────────────────────
@@ -31,16 +36,20 @@ FONT = "'Poppins', Arial, Helvetica, sans-serif"
 # PARTNER_SHOW_LABEL = True zeigt "in Zusammenarbeit mit" über dem Logo
 # (dann wird "label_width" statt "width" verwendet).
 PARTNER_LOGOS = {
-    "surevive": {"url": "https://assets.defikarte.ch/logo/surevive.png", "alt": "sureVIVE",
-                 "width": 130, "label_width": 110},
+    "surevive": {"url": "https://assets.defikarte.ch/logo/surevive_negativ.png", "alt": "sureVIVE",
+                 "width": 120, "label_width": 100},
 }
 PARTNER_SHOW_LABEL = False
 PARTNER = PARTNER_LOGOS.get(os.environ.get("REPORT_PARTNER", "").strip().lower())
 
 COLOR_NEU = GREEN_LIGHT
-COLOR_GEAENDERT = "#E8A33D"
+COLOR_GEAENDERT = "#FFA52F"     # secondary-orange-03
 COLOR_GELOESCHT = "#DC2626"
 STATUS_COLORS = {"Neu": COLOR_NEU, "Geändert": COLOR_GEAENDERT, "Gelöscht": COLOR_GELOESCHT}
+# Status-Pills: (Hintergrund, Text) – Text dunkler für Lesbarkeit auf hellem Grund
+STATUS_PILL = {"Neu": ("#EAF4E1", "#1C593F"), "Geändert": ("#FFF0DB", "#8A4B00"),
+               "Gelöscht": ("#FDE4E4", "#B91C1C")}
+COLOR_WARN_TEXT = STATUS_PILL["Geändert"][1]
 
 SHOW_NO_NAME_HINT = True  # "(kein Name in OSM)" bei Einträgen ohne name-Tag
 
@@ -278,9 +287,15 @@ def dot(color):
             f'background-color:{color};margin-right:6px;vertical-align:middle;"></span>')
 
 
+def pill(text, bg, fg, size=11):
+    return (f'<span style="display:inline-block;background-color:{bg};color:{fg};font-size:{size}px;'
+            f'font-weight:600;line-height:1.4;padding:3px 10px;border-radius:50px;vertical-align:middle;">'
+            f'{_e(text)}</span>')
+
+
 def badge_247():
     return (f'<span style="display:inline-block;background-color:{GREEN_DARK};color:#ffffff;'
-            f'font-size:10px;font-weight:700;letter-spacing:0.3px;padding:2px 7px;border-radius:3px;'
+            f'font-size:10px;font-weight:600;letter-spacing:0.3px;padding:2px 8px;border-radius:50px;'
             f'margin-left:8px;vertical-align:middle;">24/7</span>')
 
 
@@ -290,22 +305,23 @@ def change_line(change):
         return f'<div style="margin:3px 0;font-size:13px;color:{MUTED};">{_e(change[1])}</div>'
     label, old, new = change
     if is_gain_247(label, old, new):
-        return (f'<div style="margin:3px 0;font-size:13px;"><span style="color:{GREEN_DARK};font-weight:700;">'
+        return (f'<div style="margin:3px 0;font-size:13px;"><span style="color:{GREEN_DARK};font-weight:600;">'
                 f'{_e(T("gain_247"))}</span>{badge_247()}</div>')
     if is_loss_247(label, old, new):
         detail = T("no_info") if is_empty(new) else str(new)
-        return (f'<div style="margin:3px 0;font-size:13px;color:{COLOR_GEAENDERT};font-weight:700;">'
+        return (f'<div style="margin:3px 0;font-size:13px;color:{COLOR_WARN_TEXT};font-weight:600;">'
                 f'{_e(T("loss_247"))} <span style="font-weight:400;">({_e(detail)})</span></div>')
     return (f'<div style="margin:3px 0;font-size:13px;color:{INK};">'
             f'<span style="color:{MUTED};">{_e(label_out(label))}{colon()}</span> '
-            f'<span style="color:#9CA3AF;text-decoration:line-through;">{_e(val(old))}</span>'
+            f'<span style="color:#999999;text-decoration:line-through;">{_e(val(old))}</span>'
             f' &rarr; <strong style="font-weight:600;">{_e(val(new))}</strong></div>')
 
 
 def card(entry):
-    color = STATUS_COLORS[entry["status"]]
-    link = (f'<a href="{_e(entry["url"])}" style="color:{GREEN_DARK};text-decoration:none;font-weight:600;">'
-            f'{_e(T("map_link"))} &rarr;</a>') if entry.get("url") else ""
+    bg, fg = STATUS_PILL[entry["status"]]
+    link = (f'<a href="{_e(entry["url"])}" style="display:inline-block;border:1px solid {GREEN_DARK};'
+            f'border-radius:50px;padding:3px 12px;color:{GREEN_DARK};text-decoration:none;font-weight:500;'
+            f'font-size:12px;line-height:1.4;">{_e(T("map_link"))} &rarr;</a>') if entry.get("url") else ""
     hint = (f' <span style="color:{MUTED};font-size:12px;font-weight:400;">{_e(T("no_name_hint"))}</span>'
             if SHOW_NO_NAME_HINT and not entry.get("has_name", True) else "")
     badge = badge_247() if entry.get("new_247") else ""
@@ -314,20 +330,19 @@ def card(entry):
     changes = ""
     if entry.get("changes"):
         lines = "".join(change_line(c) for c in entry["changes"])
-        changes = (f'<table role="presentation" width="100%" style="border-collapse:collapse;margin-top:10px;">'
-                   f'<tr><td style="background-color:{CHANGE_BG};border-radius:6px;padding:8px 12px;">'
+        changes = (f'<table role="presentation" width="100%" style="border-collapse:collapse;margin-top:12px;">'
+                   f'<tr><td style="background-color:{CHANGE_BG};border-radius:12px;padding:10px 14px;">'
                    f'{lines}</td></tr></table>')
     return f'''
 <table role="presentation" width="100%" style="border-collapse:separate;margin:0 0 12px 0;">
-  <tr><td style="background-color:{CARD_BG};border:1px solid {RULE};border-left:4px solid {color};
-                 border-radius:8px;padding:14px 18px;font-family:{FONT};">
+  <tr><td style="background-color:{CARD_BG};border:1px solid {RULE};border-radius:16px;padding:16px 20px;font-family:{FONT};">
     <table role="presentation" width="100%" style="border-collapse:collapse;">
       <tr>
-        <td style="font-size:12px;font-weight:600;color:{color};">{dot(color)}{_e(T(entry["status"]))}</td>
-        <td align="right" style="font-size:12px;">{link}</td>
+        <td valign="middle">{pill(T(entry["status"]), bg, fg)}</td>
+        <td align="right" valign="middle">{link}</td>
       </tr>
     </table>
-    <div style="font-size:16px;font-weight:600;color:{INK};margin-top:8px;">{_e(entry["name"])}{hint}{badge}</div>
+    <div style="font-size:16px;font-weight:600;color:{INK};margin-top:10px;">{_e(entry["name"])}{hint}{badge}</div>
     {addr}
     {changes}
   </td></tr>
@@ -350,7 +365,7 @@ def summary_html(entries, statuses=("Neu", "Geändert", "Gelöscht")):
                      f'<strong style="color:{GREEN_DARK};">{gains}</strong> {T("sum_gain_247")}</td>')
     if losses:
         cells.append(f'<td style="white-space:nowrap;">'
-                     f'<strong style="color:{COLOR_GEAENDERT};">{losses}</strong> {T("sum_loss_247")}</td>')
+                     f'<strong style="color:{COLOR_WARN_TEXT};">{losses}</strong> {T("sum_loss_247")}</td>')
     if not cells:
         return ""
     return (f'<table role="presentation" style="margin:14px 0 4px 0;border-collapse:collapse;">'
@@ -358,22 +373,35 @@ def summary_html(entries, statuses=("Neu", "Geändert", "Gelöscht")):
 
 
 def header_html():
-    """Logo-Zeile: defikarte.ch links, optional Partner-Logo rechts."""
-    logo = f'<img src="{LOGO_URL}" alt="defikarte.ch" height="34" style="height:34px;display:block;border:0;"/>'
-    if not PARTNER:
-        return logo
-    if PARTNER_SHOW_LABEL:
+    """Kopfbalken (dunkelgrün wie auf der Website): defikarte.ch links, optional Partner-Logo rechts."""
+    logo = (f'<a href="{SITE_URL}" style="text-decoration:none;"><img src="{LOGO_URL}" alt="defikarte.ch" '
+            f'width="{LOGO_WIDTH}" style="width:{LOGO_WIDTH}px;height:auto;display:block;border:0;"/></a>')
+    right = ""
+    if PARTNER and PARTNER_SHOW_LABEL:
         w = PARTNER["label_width"]
-        right = (f'<td align="right" valign="middle" style="font-family:{FONT};font-size:10px;color:{MUTED};line-height:1;">'
-                 f'<div style="margin-bottom:5px;">{_e(T("partner_label"))}</div>'
+        right = (f'<td align="right" valign="middle" style="font-family:{FONT};font-size:10px;color:#C9DCB7;line-height:1;">'
+                 f'<div style="margin-bottom:6px;">{_e(T("partner_label"))}</div>'
                  f'<img src="{PARTNER["url"]}" alt="{_e(PARTNER["alt"])}" width="{w}" '
                  f'style="width:{w}px;height:auto;display:inline-block;border:0;"/></td>')
-    else:
+    elif PARTNER:
         w = PARTNER["width"]
         right = (f'<td align="right" valign="middle"><img src="{PARTNER["url"]}" alt="{_e(PARTNER["alt"])}" '
                  f'width="{w}" style="width:{w}px;height:auto;display:block;border:0;"/></td>')
     return (f'<table role="presentation" width="100%" style="border-collapse:collapse;"><tr>'
-            f'<td align="left" valign="middle">{logo}</td>{right}</tr></table>')
+            f'<td style="background-color:{GREEN_DARK};border-radius:16px 16px 0 0;padding:20px 24px;">'
+            f'<table role="presentation" width="100%" style="border-collapse:collapse;"><tr>'
+            f'<td align="left" valign="middle">{logo}</td>{right}</tr></table></td></tr>'
+            # Verlaufsleiste wie die Website-Buttons (green-03 -> green-02), Fallback einfarbig
+            f'<tr><td height="4" style="height:4px;line-height:4px;font-size:0;background-color:{GREEN_LIGHT};'
+            f'background-image:linear-gradient(90deg,{GREEN_MID},{GREEN_LIGHT});">&nbsp;</td></tr></table>')
+
+
+def footer_html():
+    link = f'<a href="{SITE_URL}" style="color:#ffffff;text-decoration:none;font-weight:500;">defikarte.ch</a>'
+    text = _e(T("footer")).replace("defikarte.ch", link)
+    return (f'<table role="presentation" width="100%" style="border-collapse:collapse;margin-top:12px;"><tr>'
+            f'<td style="background-color:{GREEN_DARK};border-radius:0 0 16px 16px;padding:16px 24px;'
+            f'font-family:{FONT};font-size:12px;color:#C9DCB7;">{text}</td></tr></table>')
 
 
 def page(title, subtitle, entries, summary_block=None, body_html=None):
@@ -385,18 +413,21 @@ def page(title, subtitle, entries, summary_block=None, body_html=None):
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
 </head>
 <body style="margin:0;padding:0;background-color:{PAGE_BG};">
-<table role="presentation" width="100%" style="background-color:{PAGE_BG};border-collapse:collapse;"><tr><td align="center">
-<table role="presentation" width="600" style="max-width:600px;border-collapse:collapse;"><tr><td style="padding:32px 20px;font-family:{FONT};">
+<table role="presentation" width="100%" style="background-color:{PAGE_BG};border-collapse:collapse;"><tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="600" style="max-width:600px;width:100%;border-collapse:collapse;"><tr><td style="font-family:{FONT};">
 {header_html()}
-<h1 style="font-family:{FONT};font-weight:700;font-size:20px;line-height:1.35;color:{GREEN_DARK};margin:24px 0 6px 0;">{_e(title)}</h1>
+<div style="padding:24px 4px 0 4px;">
+<h1 style="font-family:{FONT};font-weight:600;font-size:22px;line-height:1.35;color:{GREEN_DARK};margin:0 0 6px 0;">{_e(title)}</h1>
 <p style="font-family:{FONT};font-size:13px;color:{MUTED};margin:0;">{_e(subtitle)}</p>
 {summary_block}
-<div style="margin-top:14px;">
+<div style="margin-top:16px;">
 {cards_html}
 </div>
-<p style="font-family:{FONT};font-size:11px;color:{MUTED};margin-top:24px;">{_e(T("footer"))}</p>
+</div>
+{footer_html()}
 </td></tr></table>
 </td></tr></table>
 </body>

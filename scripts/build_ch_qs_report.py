@@ -27,7 +27,7 @@ from datetime import datetime, timezone
 
 from mail_common import (index, props, feature_entry, compute_changes, page, card,
                          summary_html, dot, STATUS_COLORS, FONT, INK, MUTED, RULE,
-                         GREEN_DARK, GREEN_LIGHT, COLOR_GEAENDERT, _e)
+                         GREEN_DARK, GREEN_LIGHT, COLOR_WARN_TEXT, _e)
 
 CH_FILE = "data/json/defis_switzerland.geojson"
 LI_FILE = "data/json/defis_liechtenstein.geojson"
@@ -125,7 +125,7 @@ def overview(rows):
 
 def section(title, ents, warn=None):
     ents = sorted(ents, key=lambda x: (ORDER[x["status"]], x["name"].lower()))
-    note = (f'<p style="font-family:{FONT};font-size:13px;color:{COLOR_GEAENDERT};margin:4px 0 10px 0;">'
+    note = (f'<p style="font-family:{FONT};font-size:13px;color:{COLOR_WARN_TEXT};margin:4px 0 10px 0;">'
             f'{_e(warn)}</p>') if warn else ""
     return (f'<div style="margin-top:28px;padding-top:16px;border-top:2px solid {GREEN_LIGHT};">'
             f'<div style="font-family:{FONT};font-size:17px;font-weight:700;color:{GREEN_DARK};">{_e(title)}</div>'
