@@ -91,8 +91,9 @@ def subject_for(kanton, kind):
 
 
 def script_env(kanton):
-    """Umgebung für die Diff-Scripts: Report-Sprache mitgeben."""
-    return {**os.environ, "REPORT_LANG": lang_of(kanton)}
+    """Umgebung für die Diff-Scripts: Report-Sprache und Partner-Logo mitgeben."""
+    return {**os.environ, "REPORT_LANG": lang_of(kanton),
+            "REPORT_PARTNER": str(kanton.get("partner_logo", "")).strip().lower()}
 
 
 def load_config():

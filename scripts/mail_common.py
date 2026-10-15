@@ -26,6 +26,17 @@ CARD_BG = "#FFFFFF"
 CHANGE_BG = "#F9FAFB"
 FONT = "'Poppins', Arial, Helvetica, sans-serif"
 
+# ── Partner-Logo oben rechts ─────────────────────────────────────────────────
+# Pro Kanton über "partner_logo" in kantone_config.json (-> REPORT_PARTNER).
+# PARTNER_SHOW_LABEL = True zeigt "in Zusammenarbeit mit" über dem Logo
+# (dann wird "label_width" statt "width" verwendet).
+PARTNER_LOGOS = {
+    "surevive": {"url": "https://assets.defikarte.ch/logo/surevive.png", "alt": "sureVIVE",
+                 "width": 130, "label_width": 110},
+}
+PARTNER_SHOW_LABEL = False
+PARTNER = PARTNER_LOGOS.get(os.environ.get("REPORT_PARTNER", "").strip().lower())
+
 COLOR_NEU = GREEN_LIGHT
 COLOR_GEAENDERT = "#E8A33D"
 COLOR_GELOESCHT = "#DC2626"
@@ -68,6 +79,7 @@ TEXTS = {
         "loss_247": "Öffnungszeiten: nicht mehr 24/7",
         "no_info": "keine Angabe mehr",
         "footer": "Automatisch generiert von defikarte.ch",
+        "partner_label": "in Zusammenarbeit mit",
     },
     "fr": {
         "title": "Modifications des défibrillateurs dans votre secteur",
@@ -87,6 +99,7 @@ TEXTS = {
         "loss_247": "Horaires d\u2019ouverture\u00a0: plus en 24/7",
         "no_info": "plus aucune indication",
         "footer": "Généré automatiquement par defikarte.ch",
+        "partner_label": "en collaboration avec",
     },
 }
 
@@ -344,6 +357,25 @@ def summary_html(entries, statuses=("Neu", "Geändert", "Gelöscht")):
             f'<tr style="font-family:{FONT};font-size:14px;color:{MUTED};">{"".join(cells)}</tr></table>')
 
 
+def header_html():
+    """Logo-Zeile: defikarte.ch links, optional Partner-Logo rechts."""
+    logo = f'<img src="{LOGO_URL}" alt="defikarte.ch" height="34" style="height:34px;display:block;border:0;"/>'
+    if not PARTNER:
+        return logo
+    if PARTNER_SHOW_LABEL:
+        w = PARTNER["label_width"]
+        right = (f'<td align="right" valign="middle" style="font-family:{FONT};font-size:10px;color:{MUTED};line-height:1;">'
+                 f'<div style="margin-bottom:5px;">{_e(T("partner_label"))}</div>'
+                 f'<img src="{PARTNER["url"]}" alt="{_e(PARTNER["alt"])}" width="{w}" '
+                 f'style="width:{w}px;height:auto;display:inline-block;border:0;"/></td>')
+    else:
+        w = PARTNER["width"]
+        right = (f'<td align="right" valign="middle"><img src="{PARTNER["url"]}" alt="{_e(PARTNER["alt"])}" '
+                 f'width="{w}" style="width:{w}px;height:auto;display:block;border:0;"/></td>')
+    return (f'<table role="presentation" width="100%" style="border-collapse:collapse;"><tr>'
+            f'<td align="left" valign="middle">{logo}</td>{right}</tr></table>')
+
+
 def page(title, subtitle, entries, summary_block=None, body_html=None):
     """Seitenrahmen. body_html ersetzt die einfache Kartenliste (z.B. für Sektionen)."""
     if summary_block is None:
@@ -357,7 +389,7 @@ def page(title, subtitle, entries, summary_block=None, body_html=None):
 <body style="margin:0;padding:0;background-color:{PAGE_BG};">
 <table role="presentation" width="100%" style="background-color:{PAGE_BG};border-collapse:collapse;"><tr><td align="center">
 <table role="presentation" width="600" style="max-width:600px;border-collapse:collapse;"><tr><td style="padding:32px 20px;font-family:{FONT};">
-<img src="{LOGO_URL}" alt="defikarte.ch" style="height:34px;"/>
+{header_html()}
 <h1 style="font-family:{FONT};font-weight:700;font-size:20px;line-height:1.35;color:{GREEN_DARK};margin:24px 0 6px 0;">{_e(title)}</h1>
 <p style="font-family:{FONT};font-size:13px;color:{MUTED};margin:0;">{_e(subtitle)}</p>
 {summary_block}

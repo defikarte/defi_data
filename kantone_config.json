@@ -14,9 +14,10 @@
       "name": "Basel",
       "geojson_file": "defis_dispo_basel.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_BL",
-      "use_cc": false,
+      "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de"
+      "language": "de",
+      "partner_logo": "surevive"
     },
     {
       "id": "zg_city",
@@ -32,27 +33,30 @@
       "name": "KNZ LU",
       "geojson_file": "defis_dispo_luks.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_LUKS",
-      "use_cc": false,
+      "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de"
+      "language": "de",
+      "partner_logo": "surevive"
     },
     {
       "id": "so",
       "name": "Solothurn",
       "geojson_file": "defis_kt_so.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_SO",
-      "use_cc": false,
+      "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de"
+      "language": "de",
+      "partner_logo": "surevive"
     },
     {
       "id": "be",
       "name": "Bern",
       "geojson_file": "defis_kt_be.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_BE",
-      "use_cc": false,
+      "use_cc": true,
       "reporting_mode": "immediate_new_deleted_weekly_changed",
-      "language": "de"
+      "language": "de",
+      "partner_logo": "surevive"
     },
     {
       "id": "ju",
@@ -61,7 +65,8 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_JU",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de"
+      "language": "de",
+      "partner_logo": "surevive"
     },
     {
       "id": "ge",
@@ -70,7 +75,8 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_GE",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "fr"
+      "language": "fr",
+      "partner_logo": "surevive"
     },
     {
       "id": "ne",
@@ -79,7 +85,8 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_NE",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "fr"
+      "language": "fr",
+      "partner_logo": "surevive"
     },
     {
       "id": "vd",
@@ -88,7 +95,8 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_VD",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "fr"
+      "language": "fr",
+      "partner_logo": "surevive"
     }
   ],
   "defikarte_logo_url": "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
