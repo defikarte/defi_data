@@ -76,5 +76,21 @@
       }
     ],
     "detected_at": "2026-10-14T14:04:40.201816+00:00"
+  },
+  {
+    "key": "node/14283406501",
+    "name": "Localnet Arena – Eishalle, nach Eingang links",
+    "has_name": false,
+    "address": null,
+    "lon": 7.6032637,
+    "lat": 47.0695096,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": "Lacalnet Arena",
+        "new": "Localnet Arena"
+      }
+    ],
+    "detected_at": "2026-10-15T20:25:01.165724+00:00"
   }
 ]
