@@ -93,6 +93,46 @@
       "reporting_mode": "immediate",
       "language": "fr",
       "partner_logo": "surevive"
+    },
+    {
+      "id": "gr",
+      "name": "Graubünden",
+      "geojson_file": "defis_kt_gr.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_GR",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "language": "de",
+      "partner_logo": "surevive"
+    },
+    {
+      "id": "gl",
+      "name": "Glarus",
+      "geojson_file": "defis_kt_gl.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_GL",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "language": "de",
+      "partner_logo": "surevive"
+    },
+    {
+      "id": "ar",
+      "name": "Appenzell Ausserrhoden",
+      "geojson_file": "defis_kt_ar.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_AR",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "language": "de",
+      "partner_logo": "surevive"
+    },
+    {
+      "id": "ai",
+      "name": "Appenzell Innerrhoden",
+      "geojson_file": "defis_kt_ai.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_AI",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "language": "de",
+      "partner_logo": "surevive"
     }
   ],
   "defikarte_logo_url": "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
