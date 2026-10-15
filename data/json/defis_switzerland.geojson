@@ -365030,14 +365030,16 @@
     "access": "yes",
     "defibrillator:location": "Lignon cité",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13782738401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       6.0979298,
-      46.2049355
+      46.2049353
     ]
   }
 },

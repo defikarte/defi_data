@@ -208998,24 +208998,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13782738401",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Lignon cité",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/13782738401"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.0979298,
-      46.2049355
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13783069101",
   "properties": {
     "defibrillator:location": "Carrosserie Hess AG",
