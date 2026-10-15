@@ -26,6 +26,7 @@ INK = "#333333"                 # graustufen-grau-e
 MUTED = "#666666"               # graustufen-grau-d
 RULE = "#E5E5E5"                # graustufen-grau-a
 PAGE_BG = "#F5F7F6"             # green-custom
+CONTENT_BG = "#FFFFFF"          # Inhaltsfläche zwischen Kopf- und Fussbalken
 CARD_BG = "#FFFFFF"
 CHANGE_BG = "#F5F7F6"
 SITE_URL = "https://defikarte.ch"
@@ -399,7 +400,7 @@ def header_html():
 def footer_html():
     link = f'<a href="{SITE_URL}" style="color:#ffffff;text-decoration:none;font-weight:500;">defikarte.ch</a>'
     text = _e(T("footer")).replace("defikarte.ch", link)
-    return (f'<table role="presentation" width="100%" style="border-collapse:collapse;margin-top:12px;"><tr>'
+    return (f'<table role="presentation" width="100%" style="border-collapse:collapse;"><tr>'
             f'<td style="background-color:{GREEN_DARK};border-radius:0 0 16px 16px;padding:16px 24px;'
             f'font-family:{FONT};font-size:12px;color:#C9DCB7;">{text}</td></tr></table>')
 
@@ -419,7 +420,7 @@ def page(title, subtitle, entries, summary_block=None, body_html=None):
 <table role="presentation" width="100%" style="background-color:{PAGE_BG};border-collapse:collapse;"><tr><td align="center" style="padding:24px 12px;">
 <table role="presentation" width="600" style="max-width:600px;width:100%;border-collapse:collapse;"><tr><td style="font-family:{FONT};">
 {header_html()}
-<div style="padding:24px 4px 0 4px;">
+<div style="background-color:{CONTENT_BG};border-left:1px solid {RULE};border-right:1px solid {RULE};padding:24px 24px 12px 24px;">
 <h1 style="font-family:{FONT};font-weight:600;font-size:22px;line-height:1.35;color:{GREEN_DARK};margin:0 0 6px 0;">{_e(title)}</h1>
 <p style="font-family:{FONT};font-size:13px;color:{MUTED};margin:0;">{_e(subtitle)}</p>
 {summary_block}
