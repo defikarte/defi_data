@@ -14,7 +14,7 @@ import re
 import sys
 from datetime import datetime, timezone
 
-from mail_common import FIELD_LABELS, map_url, page, summary_html
+from mail_common import FIELD_LABELS, map_url, page, summary_html, coords_line, T
 
 _OLD_FORMAT = re.compile(r"^(.*?): '(.*)' \u2192 '(.*)'$", re.DOTALL)
 
@@ -40,14 +40,13 @@ def to_entry(e):
         has_name = False
         if addr:
             name, addr = addr, None
-        elif lat is not None and lon is not None:
-            name = f"Standort {lat:.5f}, {lon:.5f}"
         else:
-            name = "Unbenannter Defi"
+            name, addr = T("unnamed"), coords_line(lon, lat)
     return {
         "status": "Geändert",
         "name": name,
         "has_name": has_name,
+        "detail": e.get("detail"),
         "addr": addr,
         "url": map_url(lon, lat, e.get("key")),
         "new_247": False,

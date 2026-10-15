@@ -52,7 +52,7 @@ STATUS_PILL = {"Neu": ("#EAF4E1", "#1C593F"), "Geändert": ("#FFF0DB", "#8A4B00"
                "Gelöscht": ("#FDE4E4", "#B91C1C")}
 COLOR_WARN_TEXT = STATUS_PILL["Geändert"][1]
 
-SHOW_NO_NAME_HINT = True  # "(kein Name in OSM)" bei Einträgen ohne name-Tag
+SHOW_NO_NAME_HINT = False  # "(kein Name in OSM)" bei Einträgen ohne name-Tag
 
 FIELD_LABELS = {
     "name": "Name", "status": "Status", "operator": "Betreiber", "phone": "Telefon",
@@ -83,8 +83,10 @@ TEXTS = {
         "map_link": "Auf Karte ansehen",
         "no_name_hint": "(kein Name in OSM)",
         "location": "Standort",
-        "unnamed": "Unbenannter Defi",
+        "unnamed": "Defi ohne Bezeichnung",
         "empty": "(leer)",
+        "added": "ergänzt",
+        "removed": "entfernt",
         "gain_247": "Öffnungszeiten: neu 24/7",
         "loss_247": "Öffnungszeiten: nicht mehr 24/7",
         "no_info": "keine Angabe mehr",
@@ -103,8 +105,10 @@ TEXTS = {
         "map_link": "Voir sur la carte",
         "no_name_hint": "(sans nom dans OSM)",
         "location": "Emplacement",
-        "unnamed": "Défibrillateur sans nom",
+        "unnamed": "Défibrillateur sans désignation",
         "empty": "(vide)",
+        "added": "ajouté",
+        "removed": "supprimé",
         "gain_247": "Horaires d\u2019ouverture\u00a0: désormais 24/7",
         "loss_247": "Horaires d\u2019ouverture\u00a0: plus en 24/7",
         "no_info": "plus aucune indication",
@@ -119,6 +123,23 @@ FIELD_LABELS_FR = {
     "Standortbeschreibung": "Description de l\u2019emplacement", "Beschreibung": "Description",
     "Stockwerk": "Étage", "Strasse": "Rue", "Hausnummer": "Numéro",
     "PLZ": "NPA", "Ort": "Localité", "Innenbereich": "À l\u2019intérieur",
+}
+
+
+# Lesbare Anzeige für OSM-Werte (Feld -> Wert -> Text); unbekannte Werte bleiben roh.
+VALUE_LABELS = {
+    "de": {
+        "Innenbereich": {"yes": "ja", "no": "nein"},
+        "Zugang": {"yes": "öffentlich", "public": "öffentlich", "permissive": "öffentlich (geduldet)",
+                   "customers": "nur Kundschaft", "private": "privat", "permit": "mit Bewilligung",
+                   "no": "nicht zugänglich"},
+    },
+    "fr": {
+        "Innenbereich": {"yes": "oui", "no": "non"},
+        "Zugang": {"yes": "public", "public": "public", "permissive": "public (toléré)",
+                   "customers": "clientèle uniquement", "private": "privé", "permit": "sur autorisation",
+                   "no": "non accessible"},
+    },
 }
 
 
@@ -203,7 +224,7 @@ def map_url(lon, lat, key=None):
     return None
 
 
-def truncate(s, n=60):
+def truncate(s, n=140):
     s = " ".join(str(s).split())
     return s if len(s) <= n else s[:n - 1].rstrip() + "\u2026"
 
@@ -214,21 +235,31 @@ def display_name(p, lon, lat):
     if name:
         return name, True, False
     operator = str(p.get("operator") or "").strip()
-    location = str(p.get("defibrillator:location")
-                   or p.get("defibrillator:location:de")
-                   or p.get("description") or "").strip()
-    if operator and location:
-        return truncate(f"{operator} \u2013 {location}"), False, False
     if operator:
-        return truncate(operator), False, False
+        return truncate(operator, 80), False, False
+    location = location_text(p)
     if location:
-        return truncate(location), False, False
+        return truncate(location, 80), False, False
     addr = address(p)
     if addr:
         return addr, False, True
-    if lat is not None and lon is not None:
-        return f"{T('location')} {lat:.5f}, {lon:.5f}", False, False
     return T("unnamed"), False, False
+
+
+def location_text(p):
+    return str(p.get("defibrillator:location")
+               or p.get("defibrillator:location:de")
+               or p.get("description") or "").strip()
+
+
+def detail_line(p, title):
+    """Standortbeschreibung als eigene Zeile unter dem Titel (falls nicht schon Titel)."""
+    location = location_text(p)
+    return truncate(location) if location and truncate(location, 80) != title else None
+
+
+def coords_line(lon, lat):
+    return f"{T('location')} {lat:.5f}, {lon:.5f}" if lat is not None and lon is not None else None
 
 
 def feature_entry(status, feature, changes=None):
@@ -236,11 +267,15 @@ def feature_entry(status, feature, changes=None):
     p = props(feature)
     lon, lat = coords(feature)
     name, has_name, name_is_addr = display_name(p, lon, lat)
+    detail = detail_line(p, name)
+    # Koordinaten nur, wenn sonst gar nichts den Defi beschreibt
+    fallback = coords_line(lon, lat) if name == T("unnamed") and not detail else None
     return {
         "status": status,
         "name": name,
         "has_name": has_name,
-        "addr": None if name_is_addr else address(p),
+        "detail": detail,
+        "addr": None if name_is_addr else (address(p) or fallback),
         "url": map_url(lon, lat, get_key(feature)),
         "new_247": status == "Neu" and p.get("opening_hours") == "24/7",
         "changes": changes or [],
@@ -279,8 +314,10 @@ def is_empty(v):
     return v in (None, "None", "")
 
 
-def val(v):
-    return T("empty") if is_empty(v) else str(v)
+def val(v, label=None):
+    if is_empty(v):
+        return T("empty")
+    return VALUE_LABELS.get(LANG, {}).get(label, {}).get(str(v), str(v))
 
 
 def dot(color):
@@ -312,10 +349,19 @@ def change_line(change):
         detail = T("no_info") if is_empty(new) else str(new)
         return (f'<div style="margin:3px 0;font-size:13px;color:{COLOR_WARN_TEXT};font-weight:600;">'
                 f'{_e(T("loss_247"))} <span style="font-weight:400;">({_e(detail)})</span></div>')
-    return (f'<div style="margin:3px 0;font-size:13px;color:{INK};">'
-            f'<span style="color:{MUTED};">{_e(label_out(label))}{colon()}</span> '
-            f'<span style="color:#999999;text-decoration:line-through;">{_e(val(old))}</span>'
-            f' &rarr; <strong style="font-weight:600;">{_e(val(new))}</strong></div>')
+    head = f'<span style="color:{MUTED};">{_e(label_out(label))}{colon()}</span> '
+    note = lambda key: f' <span style="color:{MUTED};font-size:12px;">({_e(T(key))})</span>'
+    old_html = f'<span style="color:#999999;text-decoration:line-through;">{_e(val(old, label))}</span>'
+    new_html = f'<strong style="font-weight:600;">{_e(val(new, label))}</strong>'
+    if is_empty(new):
+        body = old_html + note("removed")
+    elif is_empty(old):
+        body = new_html + note("added")
+    else:
+        body = f'{old_html} &rarr; {new_html}'
+    return f'<div style="margin:3px 0;font-size:13px;color:{INK};">{head}{body}</div>'
+
+
 
 
 def card(entry):
@@ -326,6 +372,8 @@ def card(entry):
     hint = (f' <span style="color:{MUTED};font-size:12px;font-weight:400;">{_e(T("no_name_hint"))}</span>'
             if SHOW_NO_NAME_HINT and not entry.get("has_name", True) else "")
     badge = badge_247() if entry.get("new_247") else ""
+    detail = (f'<div style="font-size:13px;color:{INK};margin-top:2px;">{_e(entry["detail"])}</div>'
+              if entry.get("detail") else "")
     addr = (f'<div style="font-size:13px;color:{MUTED};margin-top:2px;">{_e(entry["addr"])}</div>'
             if entry.get("addr") else "")
     changes = ""
@@ -344,6 +392,7 @@ def card(entry):
       </tr>
     </table>
     <div style="font-size:16px;font-weight:600;color:{INK};margin-top:10px;">{_e(entry["name"])}{hint}{badge}</div>
+    {detail}
     {addr}
     {changes}
   </td></tr>

@@ -11,7 +11,7 @@ import os
 import sys
 from datetime import datetime, timezone
 
-from mail_common import (index, props, coords, address, display_name,
+from mail_common import (index, props, coords, address, display_name, detail_line,
                          feature_entry, compute_changes, page)
 
 pending_file = sys.argv[3] if len(sys.argv) > 3 else ".reporting/pending_changes_be.json"
@@ -43,6 +43,7 @@ for k in common:
         "key": k,
         "name": name,
         "has_name": has_name,
+        "detail": detail_line(np_, name),
         "address": None if name_is_addr else address(np_),
         "lon": lon,
         "lat": lat,
