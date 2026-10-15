@@ -66371,39 +66371,15 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Su 10:00-23:00",
-    "operator": "Lacalnet Arena",
+    "operator": "Localnet Arena",
     "phone": "+41 79 732 08 92",
     "id": "node/14283406501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6032546,
-      47.0695089
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14283433101",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Eishalle, nach Eingang links",
-    "email": "eishalle@localnet-arena.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Su 10:00-23:00",
-    "operator": "Lacalnet Arena",
-    "phone": "+41 79 732 08 92",
-    "id": "node/14283433101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6032546,
-      47.0695089
+      7.6032637,
+      47.0695096
     ]
   }
 },

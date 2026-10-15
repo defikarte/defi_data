@@ -385389,39 +385389,15 @@
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Su 10:00-23:00",
-    "operator": "Lacalnet Arena",
+    "operator": "Localnet Arena",
     "phone": "+41 79 732 08 92",
     "id": "node/14283406501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6032546,
-      47.0695089
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14283433101",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Eishalle, nach Eingang links",
-    "email": "eishalle@localnet-arena.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Su 10:00-23:00",
-    "operator": "Lacalnet Arena",
-    "phone": "+41 79 732 08 92",
-    "id": "node/14283433101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6032546,
-      47.0695089
+      7.6032637,
+      47.0695096
     ]
   }
 },
@@ -385605,6 +385581,31 @@
     "coordinates": [
       7.4876666,
       46.9565908
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14287658801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verkauf Appenzeller Bahnen",
+    "email": "urs.weder@appenzellerbahnen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-18:00; Sa-Su 08:00-12:15, 13:15-17:00; PH 08:00-12:15, 13:15-17:00",
+    "operator": "Appenzeller Bahnen",
+    "phone": "+41 76 326 42 15",
+    "wikimedia_commons": "File:Defi_Appenzeller_Bahnen.jpg",
+    "id": "node/14287658801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4093859,
+      47.3285943
     ]
   }
 }

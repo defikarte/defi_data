@@ -39286,6 +39286,31 @@
       47.166932
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14287658801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Verkauf Appenzeller Bahnen",
+    "email": "urs.weder@appenzellerbahnen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-18:00; Sa-Su 08:00-12:15, 13:15-17:00; PH 08:00-12:15, 13:15-17:00",
+    "operator": "Appenzeller Bahnen",
+    "phone": "+41 76 326 42 15",
+    "wikimedia_commons": "File:Defi_Appenzeller_Bahnen.jpg",
+    "id": "node/14287658801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4093859,
+      47.3285943
+    ]
+  }
 }
 ]
 }
