@@ -61,7 +61,8 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_JU",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de"
+      "language": "de",
+      "partner_logo": "surevive"
     },
     {
       "id": "ge",
