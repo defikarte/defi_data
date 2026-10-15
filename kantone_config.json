@@ -16,8 +16,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_BL",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de",
-      "partner_logo": "surevive"
+      "language": "de"
     },
     {
       "id": "zg_city",
@@ -35,8 +34,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_LUKS",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de",
-      "partner_logo": "surevive"
+      "language": "de"
     },
     {
       "id": "so",
@@ -45,8 +43,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_SO",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de",
-      "partner_logo": "surevive"
+      "language": "de"
     },
     {
       "id": "be",
@@ -55,8 +52,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_BE",
       "use_cc": true,
       "reporting_mode": "immediate_new_deleted_weekly_changed",
-      "language": "de",
-      "partner_logo": "surevive"
+      "language": "de"
     },
     {
       "id": "ju",
@@ -65,8 +61,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_JU",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de",
-      "partner_logo": "surevive"
+      "language": "de"
     },
     {
       "id": "ge",
