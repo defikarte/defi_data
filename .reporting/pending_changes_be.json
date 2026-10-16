@@ -92,5 +92,22 @@
       }
     ],
     "detected_at": "2026-10-15T20:25:01.165724+00:00"
+  },
+  {
+    "key": "node/6635192986",
+    "name": "Commune de Corgémont",
+    "has_name": false,
+    "detail": "Façade EST (côté fontaine)",
+    "address": "Grand-Rue 15, 2606 Corgémont",
+    "lon": 7.1449111,
+    "lat": 47.1944272,
+    "changes": [
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "no"
+      }
+    ],
+    "detected_at": "2026-10-16T17:02:07.162464+00:00"
   }
 ]
