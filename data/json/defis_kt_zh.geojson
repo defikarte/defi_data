@@ -82141,6 +82141,27 @@
       47.4438738
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14289693801",
+  "properties": {
+    "defibrillator:location": "Mehrzweckhalle",
+    "description": "Nicht verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Regensdorf",
+    "id": "node/14289693801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4709224,
+      47.4471764
+    ]
+  }
 }
 ]
 }

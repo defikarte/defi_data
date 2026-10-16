@@ -2626,6 +2626,30 @@
       47.0598234
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14289480801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "CONCEPTOOLS hall d'entrée entreprise",
+    "email": "qualite@conceptools.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "accueil",
+    "phone": "+41 32 933 97 33",
+    "id": "node/14289480801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7030473,
+      47.0658119
+    ]
+  }
 }
 ]
 }
