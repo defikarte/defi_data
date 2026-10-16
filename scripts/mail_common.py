@@ -16,8 +16,9 @@ import re
 
 # ── defikarte.ch CI ──────────────────────────────────────────────────────────
 # Farben aus den Design-Tokens der Website (Figma: primary-*, graustufen-*).
-# Logo: Negativ-Version (weiss/hellgrün) für den dunkelgrünen Kopfbalken.
-LOGO_URL = "https://assets.defikarte.ch/logo/logo_negativ.png"
+# Logo: Positiv-Version (dunkelgrün) auf weissem Grund – offenes Layout ohne
+# farbige Kopf-/Fussbalken, damit Partner-Logos im Original stehen können.
+LOGO_URL = "https://assets.defikarte.ch/logo/logo_positiv.png"
 LOGO_WIDTH = 188                # Seitenverhältnis 765×139 -> ca. 34px hoch
 GREEN_LIGHT = "#98C867"         # primary-100-green-02
 GREEN_MID = "#30805D"           # primary-100-green-03
@@ -25,8 +26,7 @@ GREEN_DARK = "#154430"          # primary-100-green-04
 INK = "#333333"                 # graustufen-grau-e
 MUTED = "#666666"               # graustufen-grau-d
 RULE = "#E5E5E5"                # graustufen-grau-a
-PAGE_BG = "#F5F7F6"             # green-custom
-CONTENT_BG = "#FFFFFF"          # Inhaltsfläche zwischen Kopf- und Fussbalken
+PAGE_BG = "#FFFFFF"
 CARD_BG = "#FFFFFF"
 CHANGE_BG = "#F5F7F6"
 SITE_URL = "https://defikarte.ch"
@@ -37,10 +37,10 @@ FONT = "'Poppins', Arial, Helvetica, sans-serif"
 # PARTNER_SHOW_LABEL = True zeigt "in Zusammenarbeit mit" über dem Logo
 # (dann wird "label_width" statt "width" verwendet).
 PARTNER_LOGOS = {
-    "surevive": {"url": "https://assets.defikarte.ch/logo/surevive_negativ.png", "alt": "sureVIVE",
+    "surevive": {"url": "https://assets.defikarte.ch/logo/surevive.png", "alt": "sureVIVE",
                  "width": 120, "label_width": 100},
 }
-PARTNER_SHOW_LABEL = False
+PARTNER_SHOW_LABEL = True
 PARTNER = PARTNER_LOGOS.get(os.environ.get("REPORT_PARTNER", "").strip().lower())
 
 COLOR_NEU = GREEN_LIGHT
@@ -423,13 +423,14 @@ def summary_html(entries, statuses=("Neu", "Geändert", "Gelöscht")):
 
 
 def header_html():
-    """Kopfbalken (dunkelgrün wie auf der Website): defikarte.ch links, optional Partner-Logo rechts."""
+    """Kopfzeile auf Weiss: defikarte.ch links, optional Partner-Logo (Original) rechts,
+    darunter die Verlaufslinie wie die Website-Buttons (green-03 -> green-02)."""
     logo = (f'<a href="{SITE_URL}" style="text-decoration:none;"><img src="{LOGO_URL}" alt="defikarte.ch" '
             f'width="{LOGO_WIDTH}" style="width:{LOGO_WIDTH}px;height:auto;display:block;border:0;"/></a>')
     right = ""
     if PARTNER and PARTNER_SHOW_LABEL:
         w = PARTNER["label_width"]
-        right = (f'<td align="right" valign="middle" style="font-family:{FONT};font-size:10px;color:#C9DCB7;line-height:1;">'
+        right = (f'<td align="right" valign="middle" style="font-family:{FONT};font-size:10px;color:{MUTED};line-height:1;">'
                  f'<div style="margin-bottom:6px;">{_e(T("partner_label"))}</div>'
                  f'<img src="{PARTNER["url"]}" alt="{_e(PARTNER["alt"])}" width="{w}" '
                  f'style="width:{w}px;height:auto;display:inline-block;border:0;"/></td>')
@@ -438,20 +439,19 @@ def header_html():
         right = (f'<td align="right" valign="middle"><img src="{PARTNER["url"]}" alt="{_e(PARTNER["alt"])}" '
                  f'width="{w}" style="width:{w}px;height:auto;display:block;border:0;"/></td>')
     return (f'<table role="presentation" width="100%" style="border-collapse:collapse;"><tr>'
-            f'<td style="background-color:{GREEN_DARK};border-radius:16px 16px 0 0;padding:20px 24px;">'
+            f'<td style="padding:4px 0 18px 0;">'
             f'<table role="presentation" width="100%" style="border-collapse:collapse;"><tr>'
             f'<td align="left" valign="middle">{logo}</td>{right}</tr></table></td></tr>'
-            # Verlaufsleiste wie die Website-Buttons (green-03 -> green-02), Fallback einfarbig
-            f'<tr><td height="4" style="height:4px;line-height:4px;font-size:0;background-color:{GREEN_LIGHT};'
+            f'<tr><td height="3" style="height:3px;line-height:3px;font-size:0;background-color:{GREEN_LIGHT};'
             f'background-image:linear-gradient(90deg,{GREEN_MID},{GREEN_LIGHT});">&nbsp;</td></tr></table>')
 
 
 def footer_html():
-    link = f'<a href="{SITE_URL}" style="color:#ffffff;text-decoration:none;font-weight:500;">defikarte.ch</a>'
+    link = f'<a href="{SITE_URL}" style="color:{GREEN_MID};text-decoration:none;font-weight:500;">defikarte.ch</a>'
     text = _e(T("footer")).replace("defikarte.ch", link)
     return (f'<table role="presentation" width="100%" style="border-collapse:collapse;"><tr>'
-            f'<td style="background-color:{GREEN_DARK};border-radius:0 0 16px 16px;padding:16px 24px;'
-            f'font-family:{FONT};font-size:12px;color:#C9DCB7;">{text}</td></tr></table>')
+            f'<td style="border-top:1px solid {RULE};padding:16px 0 4px 0;'
+            f'font-family:{FONT};font-size:12px;color:{MUTED};">{text}</td></tr></table>')
 
 
 def page(title, subtitle, entries, summary_block=None, body_html=None):
@@ -466,10 +466,10 @@ def page(title, subtitle, entries, summary_block=None, body_html=None):
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet"/>
 </head>
 <body style="margin:0;padding:0;background-color:{PAGE_BG};">
-<table role="presentation" width="100%" style="background-color:{PAGE_BG};border-collapse:collapse;"><tr><td align="center" style="padding:24px 12px;">
+<table role="presentation" width="100%" style="background-color:{PAGE_BG};border-collapse:collapse;"><tr><td align="center" style="padding:24px 16px;">
 <table role="presentation" width="600" style="max-width:600px;width:100%;border-collapse:collapse;"><tr><td style="font-family:{FONT};">
 {header_html()}
-<div style="background-color:{CONTENT_BG};border-left:1px solid {RULE};border-right:1px solid {RULE};padding:24px 24px 12px 24px;">
+<div style="padding:24px 0 16px 0;">
 <h1 style="font-family:{FONT};font-weight:600;font-size:22px;line-height:1.35;color:{GREEN_DARK};margin:0 0 6px 0;">{_e(title)}</h1>
 <p style="font-family:{FONT};font-size:13px;color:{MUTED};margin:0;">{_e(subtitle)}</p>
 {summary_block}
