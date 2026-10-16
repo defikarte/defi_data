@@ -356,7 +356,7 @@ EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",,defibrillator,144,node/7568
 1484LTM",,,defibrillator,144,node/12273444649,,,yes,,0,,Partners Group AG,,Mo-Fr 07:00 -18:00,Lifetec AG,,+41 800 122 144,1484LTM,,,,
 12273449627,node,47.1857749,8.5156773,yes,,3,,Unternehmer-Park,,,,,"Foundary EG
 1488LTM",,,defibrillator,144,node/12273449627,,,yes,,0,,Partners Group AG,,Mo-Fr 07:00 -18:00,Lifetec AG,,+41 800 122 144,1488LTM,,,,
-12306615001,node,47.176515,8.5075432,permissive,,,,,,,144,+41 41 725 31 50,"Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",,,defibrillator,,node/12306615001,,,yes,,0,,,,,Kunsteisbahn Zug AG,,,,,,,
+12306615001,node,47.176515,8.5075432,permissive,,,,,,,144,+41 41 725 31 50,"Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",,,defibrillator,144,node/12306615001,,,yes,,0,,,,,Kunsteisbahn Zug AG,,,,,,,
 12318739101,node,47.198191,8.4840483,private,,,,,,,,,"Privater AED im Fzg, Firstresponder hier wohnhaft","Zoll AED 3, mit Kindertaste und CPR Feedback. Inkl. Notfallset: Schere, Rasierer, Beatmungs-Folie, Taschenmaske in Hartbox mit Filter, Gummizug, Handschuhe und Alkoholpads.",,defibrillator,144,node/12318739101,,,yes,,,,,,Mo-Su 09:00-21:00,Claudio Granja (First Responder),,+41 76 513 14 15,,"local_knowledge, defikarte.ch",,,
 12335513801,node,47.1425988,8.4251028,yes,,,,,,,,,Kindergarten ,,,defibrillator,144,node/12335513801,,,no,,,,,,24/7,,,,,"local_knowledge, defikarte.ch",,,
 12339677301,node,47.1813855,8.485136,,,,,,,,,,"Merck (Schweiz) AG, Chamerstrasse 174, 6300 Zug",während Öffnungszeiten,,defibrillator,144,node/12339677301,,,yes,,1,,,,"Mo-Th 08:00-16:00, Fr 08:00-12:00",,,+41 41 729 22 22,,"local_knowledge, defikarte.ch",,,

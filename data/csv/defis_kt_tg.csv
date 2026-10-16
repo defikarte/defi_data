@@ -113,7 +113,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,addr:city,addr:housenumber,add
 8722645217,node,47.4801844,9.0001621,no,,,,,,,,,Feuerwehrdepot Münchwilen,,,,defibrillator,144,,node/8722645217,,,yes,,,,,,,,Gemeinde Münchwilen,+41719663836,,,,,,,
 8775887217,node,47.5480389,9.2782074,,,,,,,,,,"Eingang Strassenverkehrsamt Amriswil, Geradeaus im grossen Schrank, auf Kniehöhe",während der Öffnungszeiten verfügbar,,,defibrillator,144,,node/8775887217,,,yes,,,,,,,,Kanton Thurgau,+41 58 345 36 36,,,,,,,
 8809227917,node,47.6037256,8.7776708,yes,,,,,,,,,Schulhaus Rietacker,Eingang Wohnung Hauswart,,,defibrillator,144,,node/8809227917,,,no,,,,,,,24/7,VSG Neunforn,,,,,,,,
-8809232717,node,47.5946751,8.7869033,yes,,,,,,,,,Garage Fiederle Tankstelle,,,,defibrillator,144,,node/8809232717,,,no,,,,,,,24/7,,,,,,,,,
+8809232717,node,47.5946751,8.7869033,yes,,,,,,,2026-10-15,,Garage Fiederle Tankstelle,,,,defibrillator,144,,node/8809232717,,,no,,,,,,,24/7,,,,,,,,,
 8828132917,node,47.5213102,8.9324871,yes,,,,,,,,,Schulhaus Chatzenbuggel,,,,defibrillator,144,,node/8828132917,,,no,,,,,,,24/7,Primarschule Matzingen,+41763362007,,,,,,,
 8835033821,node,47.5679682,8.912656,,,,,,,,,,"Der Standort des AEDs ist im 2. OG, Halle, Türe Süd.",,,,defibrillator,144,,node/8835033821,,,yes,,,,,,,Mo-Fr 08:00-17:00,"B&R Industrie-Automation AG, Safety Officer",+41 52 728 56 00,,,,,,,
 8841478117,node,47.5686623,9.1096087,yes,,,,,,,,,Rathaus Weinfelden,Während der Öffnungszeiten,,,defibrillator,144,,node/8841478117,,,yes,,,,,,,Mo-Fr 08:00-18:00,Gemeinde,,,,,,,,

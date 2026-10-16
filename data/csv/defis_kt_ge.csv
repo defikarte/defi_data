@@ -125,7 +125,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 13521737201,node,46.2566035,6.1407885,yes,,,,,,centre sportif vigne blanche,,,,,defibrillator,144,,node/13521737201,no,,0,,,,Bellevue,,,,,,
 13638964101,node,46.1938158,6.1516325,customers,,,,,,au 3 ème étage=niveau du sol côté Champel ,,,,,defibrillator,,,node/13638964101,yes,,,,,,unige,,,,,,
 13647457245,node,46.2317742,6.1051073,,,,,,,,,,,,defibrillator,,,node/13647457245,yes,,0,,,,,,,,,,
-13782738401,node,46.2049355,6.0979298,yes,,,,,,Lignon cité,,,,,defibrillator,,,node/13782738401,no,,,,,,,,,,,,
+13782738401,node,46.2049353,6.0979298,yes,,,,,,Lignon cité,,,,,defibrillator,144,,node/13782738401,no,,,,,24/7,,,,,,,
 13784364301,node,46.1841123,6.13064,permissive,,,,,,Route des jeunes 29,,,Disponible pendant les heures d'ouvertures,raphael.panzano@bmsuisse.ch,defibrillator,144,,node/13784364301,yes,,0,,,"Mo-Fr 06:45-12:00,13:00-16:00",Getaz Miauton SA,+41 22 309 44 09,,,,,
 13801433101,node,46.1841765,6.1292613,,,,,,,15/17 route des jeunes,,,disponible du lundi au vendredi (fermé entre 12h et 13h),florine.antunes@bmsuisse.ch,defibrillator,144,,node/13801433101,yes,,1,,,06:45-16:00,,+41 22 918 16 11,,,,,
 13865626465,node,46.2057602,6.1576132,yes,,,,,,,,,,,defibrillator,,,node/13865626465,,,,,,24/7,,,,,,,
