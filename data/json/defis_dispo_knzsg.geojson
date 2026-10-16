@@ -30568,13 +30568,12 @@
   "type": "Feature",
   "id": "node/12485986722",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang",
+    "access": "permissive",
+    "defibrillator:location": "Derzeit nicht verfügbar!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
     "operator": "Raiffeisenbank am Ricken",
     "phone": "+41552862400",
     "id": "node/12485986722"
@@ -30582,7 +30581,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9208982,
+      8.9208984,
       47.2411226
     ]
   }

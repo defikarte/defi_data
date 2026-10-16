@@ -13659,17 +13659,21 @@
   "type": "Feature",
   "id": "node/7637819038",
   "properties": {
-    "description": "Eingang Turnhalle",
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle im UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
     "name": "Turnhalle Erlenschulhaus",
+    "operator": "Sekundarschule Erlen",
     "id": "node/7637819038"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2609445,
-      47.0756078
+      8.2601009,
+      47.0759969
     ]
   }
 },

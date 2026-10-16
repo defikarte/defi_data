@@ -17967,9 +17967,11 @@
     "addr:housenumber": "15",
     "addr:postcode": "2606",
     "addr:street": "Grand-Rue",
+    "check_date": "2026-10-16",
     "defibrillator:location": "Façade EST (côté fontaine)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Commune de Corgémont",
     "id": "node/6635192986"
@@ -58770,17 +58772,21 @@
   "type": "Feature",
   "id": "node/7637819038",
   "properties": {
-    "description": "Eingang Turnhalle",
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle im UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
     "name": "Turnhalle Erlenschulhaus",
+    "operator": "Sekundarschule Erlen",
     "id": "node/7637819038"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2609445,
-      47.0756078
+      8.2601009,
+      47.0759969
     ]
   }
 },
@@ -163272,8 +163278,9 @@
   "type": "Feature",
   "id": "node/9843957619",
   "properties": {
-    "access": "yes",
-    "check_date": "2026-10-15",
+    "access": "permit",
+    "check_date": "2026-10-16",
+    "defibrillator:location:de": "An der Wand beim Eingang zur Produktion im EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -254312,8 +254319,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5334167,
-      47.2068946
+      7.5332823,
+      47.2067804
     ]
   }
 },
@@ -309105,13 +309112,12 @@
   "type": "Feature",
   "id": "node/12485986722",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang",
+    "access": "permissive",
+    "defibrillator:location": "Derzeit nicht verfügbar!",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
     "operator": "Raiffeisenbank am Ricken",
     "phone": "+41552862400",
     "id": "node/12485986722"
@@ -309119,7 +309125,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9208982,
+      8.9208984,
       47.2411226
     ]
   }
@@ -385097,8 +385103,8 @@
   "id": "node/14267578401",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schulhaus Pächterried",
-    "description": "Der Defibrillator befindet sich links neben dem Eingang der Hausnummer 77.",
+    "defibrillator:location": "Der Defibrillator befindet sich links neben dem Eingang der Hausnummer 77.",
+    "description": "Öffentlich zugänglich",
     "email": "hwpr@regensdorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -385112,8 +385118,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4704866,
-      47.4475922
+      8.4704865,
+      47.4475924
     ]
   }
 },
@@ -385548,6 +385554,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang Schulhaus, Treppe hoch, befindet sich auf der Rechte Seite",
+    "description": "Öffentlich zugänglich",
     "email": "hwpr@regensdorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -385557,13 +385564,14 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Regensdorf",
+    "phone": "+41 44 620 61 04",
     "id": "node/14286707301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4783598,
-      47.4438738
+      8.4782857,
+      47.4439677
     ]
   }
 },
@@ -385639,8 +385647,10 @@
   "type": "Feature",
   "id": "node/14289693801",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Mehrzweckhalle",
-    "description": "Nicht verfügbar",
+    "description": "In der Mehrzweckhalle",
+    "email": "hwpr@regensdorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -385651,8 +385661,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4709224,
-      47.4471764
+      8.4709223,
+      47.4471763
     ]
   }
 }

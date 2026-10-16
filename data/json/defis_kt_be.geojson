@@ -10236,9 +10236,11 @@
     "addr:housenumber": "15",
     "addr:postcode": "2606",
     "addr:street": "Grand-Rue",
+    "check_date": "2026-10-16",
     "defibrillator:location": "Façade EST (côté fontaine)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Commune de Corgémont",
     "id": "node/6635192986"

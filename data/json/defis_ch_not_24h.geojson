@@ -30086,17 +30086,21 @@
   "type": "Feature",
   "id": "node/7637819038",
   "properties": {
-    "description": "Eingang Turnhalle",
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle im UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
     "name": "Turnhalle Erlenschulhaus",
+    "operator": "Sekundarschule Erlen",
     "id": "node/7637819038"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2609445,
-      47.0756078
+      8.2601009,
+      47.0759969
     ]
   }
 },
@@ -85835,8 +85839,9 @@
   "type": "Feature",
   "id": "node/9843957619",
   "properties": {
-    "access": "yes",
-    "check_date": "2026-10-15",
+    "access": "permit",
+    "check_date": "2026-10-16",
+    "defibrillator:location:de": "An der Wand beim Eingang zur Produktion im EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -145830,8 +145835,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5334167,
-      47.2068946
+      7.5332823,
+      47.2067804
     ]
   }
 },
@@ -176795,6 +176800,28 @@
     "coordinates": [
       8.946505,
       47.2439078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12485986722",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Derzeit nicht verfügbar!",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Raiffeisenbank am Ricken",
+    "phone": "+41552862400",
+    "id": "node/12485986722"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9208984,
+      47.2411226
     ]
   }
 },
@@ -221733,8 +221760,10 @@
   "type": "Feature",
   "id": "node/14289693801",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Mehrzweckhalle",
-    "description": "Nicht verfügbar",
+    "description": "In der Mehrzweckhalle",
+    "email": "hwpr@regensdorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -221745,8 +221774,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4709224,
-      47.4471764
+      8.4709223,
+      47.4471763
     ]
   }
 }
