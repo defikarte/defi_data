@@ -566,7 +566,7 @@ Zugang: 24/7",,defibrillator,144,,,,node/7637818917,no,,,,,Campus Polizeischule 
 7637819034,node,47.0799331,8.2798021,,,,,,,,,,,,,,,,,1.OG Büro Polizeiposten,,defibrillator,144,,,,node/7637819034,,,,,,Polizeiposten,,,,,,,,,
 7637819035,node,47.0703661,8.2804552,,,,,,,,,,,,,,,,,Empfang / 2. OG,,defibrillator,144,,,,node/7637819035,,,,,,RAV,,,,,,,,,
 7637819036,node,47.0680298,8.2850001,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/7637819036,,,,,,SBB Fahrleitungsdienst,,,,,,,,,
-7637819038,node,47.0756078,8.2609445,,,,,,,,,,,,,,,,,Eingang Turnhalle,,defibrillator,144,,,,node/7637819038,,,,,,Turnhalle Erlenschulhaus,,,,,,,,,
+7637819038,node,47.0759969,8.2601009,permissive,,,,,,,,,,,,,,Turnhalle im UG,,,,defibrillator,144,,,,node/7637819038,yes,,-1,,,Turnhalle Erlenschulhaus,,Sekundarschule Erlen,,,,,,,
 7637819039,node,47.0761152,8.2741592,,,,,,,,,,,,,,,,,Eingang neue Turnhalle,,defibrillator,144,,,,node/7637819039,,,,,,Turnhalle Krauerschulhaus,,,,,,,,,
 7637819040,node,47.0721495,8.2911217,,,,,,,,,,,,,,,,,Während Schulbetrieb / Abend-Trainings zugänglich,,defibrillator,144,,,,node/7637819040,,,,,,Turnhalle Meierhöfli,,,,,,,,,
 7637819041,node,47.0791635,8.2681098,,,,,,,,,,,,,,,,,Eingang Turnhalle,,defibrillator,144,,,,node/7637819041,,,,,,Turnhalle Riffigschulhaus,,,,,,,,,
