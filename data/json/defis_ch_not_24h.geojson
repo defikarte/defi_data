@@ -90884,6 +90884,7 @@
   "id": "node/9917845083",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-17",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
