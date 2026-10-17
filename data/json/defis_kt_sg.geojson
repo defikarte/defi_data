@@ -33148,6 +33148,26 @@
       47.166932
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14293099402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Links neben Vero Moda beim Notausgang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14293099402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3057431,
+      47.4082086
+    ]
+  }
 }
 ]
 }

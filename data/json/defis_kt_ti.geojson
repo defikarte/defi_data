@@ -7326,6 +7326,27 @@
       46.1475472
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14292560101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "6614 Porta",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/14292560101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7088564,
+      46.1249938
+    ]
+  }
 }
 ]
 }

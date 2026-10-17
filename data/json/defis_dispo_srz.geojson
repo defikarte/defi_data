@@ -100971,6 +100971,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/13859955605",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Kuttelgasse 1, 8001 Zürich",
+    "description": "während Öffnungszeiten verfügbar",
+    "email": "hunziker@ntp.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "6",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Novak, Thurnheer und Partner AG, Vermögensverwaltung",
+    "phone": "+41 44 211 66 26",
+    "id": "node/13859955605"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5393941,
+      47.3729276
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13860440701",
   "properties": {
     "defibrillator:location": "Claridenstrasse 20, 8002 Zürich",

@@ -229643,11 +229643,14 @@
   "type": "Feature",
   "id": "node/10885852205",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Deponie, Waldau",
     "description": "24/7 Zugänglich",
+    "email": "ak.landquart@bluewin.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Axpo Biomasse AG",
     "phone": "+41813229222",
@@ -367794,8 +367797,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.12,
-      46.75
+      8.5393941,
+      47.3729276
     ]
   }
 },
@@ -377117,30 +377120,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14087114201",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Deponie Waldau",
-    "description": "24/7 zugänglich",
-    "email": "ak.landquart@bluewin.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Axpo Biomasse Landquart",
-    "phone": "+41 81 322 92 22",
-    "id": "node/14087114201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.12,
-      46.75
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14087175062",
   "properties": {
     "access": "yes",
@@ -385663,6 +385642,47 @@
     "coordinates": [
       8.4709223,
       47.4471763
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14292560101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "6614 Porta",
+    "description": "Öffentlich zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "id": "node/14292560101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7088564,
+      46.1249938
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14293099402",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Links neben Vero Moda beim Notausgang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14293099402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3057431,
+      47.4082086
     ]
   }
 }
