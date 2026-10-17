@@ -42723,25 +42723,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7568207583",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gebäude 209 MoMö",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7568207583"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.412086,
-      47.5070989
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7568236638",
   "properties": {
     "access": "yes",
