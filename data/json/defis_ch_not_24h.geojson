@@ -208426,29 +208426,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13736861201",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Trottenstrasse 25",
-    "description": "In der Wohnung.",
-    "email": "t.dittmann@gmx.net",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "4",
-    "operator": "Privatperson",
-    "id": "node/13736861201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5468751,
-      47.524466
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13739985701",
   "properties": {
     "access": "permissive",
@@ -221794,6 +221771,24 @@
     "coordinates": [
       9.3057431,
       47.4082086
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14294008802",
+  "properties": {
+    "defibrillator:location": "Test Location",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14294008802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.12,
+      46.75
     ]
   }
 }
