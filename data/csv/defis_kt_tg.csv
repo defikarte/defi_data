@@ -21,7 +21,6 @@ osm_id,osm_type,lat,lon,access,access:conditional,addr:city,addr:housenumber,add
 7559459424,node,47.4647049,8.9963222,yes,,,,,,,,,"Schulhaus Grünau, Grünaustrasse 18, 8370 Sirnach, beim Eingang der Sekundarschule, an einer Säule links vor dem Eingang",,,,defibrillator,144,,node/7559459424,,,no,,,,,,,24/7,Gemeinde Sirnach,,,,,,,,
 7559459425,node,47.4662589,8.991411,yes,,,,,,,,,"Mehrzweckgebäude Kett, Kettstrasse 28, 8370 Sirnach, beim Feuerwehrdepot, in der Mitte beim roten Bereich rechts",,,,defibrillator,144,,node/7559459425,C:\Users\SA0JSCHL\Desktop\Foto Defibrillator Kett.JPG,,no,,,,,,,24/7,Gemeinde Sirnach,,,,,,,,
 7559459426,node,47.4705906,8.9999458,yes,,,,,,,,,"EW Sirnach AG, Mattenrainstrasse 9, 8370 Sirnach, bei der EW-Sirnach AG, rechts um die Ecke neben den E-Tankstellen, an der Wand rechts neben der Türe",,,,defibrillator,144,,node/7559459426,,,no,,,,,,,24/7,,,,,,,,,
-7568207583,node,47.5070989,9.412086,yes,,,,,,,,,Gebäude 209 MoMö,,,,defibrillator,144,,node/7568207583,,,,,,,,,,24/7,,,,,,,,,
 7592934224,node,47.5433357,9.3000153,yes,,,,,,,,,Beim Bademeister,,,,defibrillator,144,,node/7592934224,,,,,,,,,,24/7,,,,,,,,,
 7592934225,node,47.5891649,9.3330735,yes,,,,,,,,,Bei der Rezeption des Campings,,,,defibrillator,144,,node/7592934225,,,,,,,,,,24/7,,,,,,,,,
 7650062375,node,47.5123385,9.422729,yes,,,,,,,,,Einsatzfahrzeuge (3 mobile Defis),"Kommandofahrzeug 1x, TLF 1x, Sani-Fz 1x",,,defibrillator,144,,node/7650062375,,,,,,,,,,,,,,,,,,,

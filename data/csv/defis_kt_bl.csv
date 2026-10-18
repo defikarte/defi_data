@@ -465,7 +465,7 @@ Sichtbar von der Strasse aus.",,defibrillator,144,,node/9075763717,no,,,,24/7,Ge
 13999657201,node,47.5554394,7.6383618,permissive,,,,,,,,"Develco Pharma Schweiz AG, Rührbergstrasse 21, Bau 1, 1. OG",,"während Bürozeiten verfügbar, nur in Anwesenheit von Mitarbeitenden zugänglich",k.schmid@develco.ch,defibrillator,144,,node/13999657201,yes,1,,,Mo-Fr 08:00-17:00,Develco Pharma Schweiz AG,+41 61 425 50 20,,,,,,
 14028736401,node,47.4845497,7.6057332,private,,,,,,,,Gewerbestrasse 7,,Bürozeiten,,defibrillator,144,,node/14028736401,no,2,,,,,,,,,,,
 14078169201,node,47.4700689,7.5966172,,,,,,,,,Fitness Center Select Fit,,während den Öffnungszeiten verfügbar ￼,,defibrillator,144,,node/14078169201,yes,0,,,"Mo-Fr 06:00-22:00, Sa-Su 07:00-21:00",Fitness Center Select Fit,+41 61 511 21 28,,,,,,
-14095166485,node,47.5548048,7.6225548,,,,-1,,,,,"Treppe runter, mittlerer Schrank",,,,defibrillator,,,node/14095166485,yes,,,,,Schwimmhalle Birsfelden,,,,,,,
+14095166485,node,47.5548049,7.622555,private,,,-1,,,,,"Treppe runter, mittlerer Schrank",,Nur durch Lehrpersonen erreichbar,,defibrillator,144,,node/14095166485,yes,,,,Mo - Fr 07:30 - 17:00,Schwimmhalle Birsfelden,,,,,,,
 14124557101,node,47.4254125,7.5108296,yes,,,,,,,,Rettungswache Laufen vom KSBL / im Eingangsbereich,,,info@fwlaufental.ch,defibrillator,144,,node/14124557101,no,,,,24/7,Stützpunktfeuerwehr Laufental,+41 61 761 11 44,,,,,,
 14135503601,node,47.4997262,7.6028334,private,,,,,,,,Camping Waldhort WC Anlage,,,,defibrillator,144,,node/14135503601,yes,0,,,,Camping Waldhort,,,,,,,
 14175177801,node,47.5097141,7.5544043,,,,,,,,,Migros Kundenservice,,,,defibrillator,144,,node/14175177801,yes,0,,,07:00 - 19:00,,,,,,,,
