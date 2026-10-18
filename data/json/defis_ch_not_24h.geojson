@@ -221777,6 +221777,27 @@
       47.4082086
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14295906101",
+  "properties": {
+    "defibrillator:location": "Talent-Campus Bodensee",
+    "description": "Reception, Fitness Center",
+    "email": "r.ammann@sbw.edu",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/14295906101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.178138,
+      47.6544163
+    ]
+  }
 }
 ]
 }
