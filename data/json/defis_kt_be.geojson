@@ -66399,24 +66399,6 @@
       46.9565908
     ]
   }
-},
-{
-  "type": "Feature",
-  "id": "node/14294008802",
-  "properties": {
-    "defibrillator:location": "Test Location",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/14294008802"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.12,
-      46.75
-    ]
-  }
 }
 ]
 }

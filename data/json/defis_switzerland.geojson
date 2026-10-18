@@ -377382,18 +377382,22 @@
   "type": "Feature",
   "id": "node/14095166485",
   "properties": {
+    "access": "private",
     "addr:floor": "-1",
     "defibrillator:location": "Treppe runter, mittlerer Schrank",
+    "description": "Nur durch Lehrpersonen erreichbar",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo - Fr 07:30 - 17:00",
     "operator": "Schwimmhalle Birsfelden",
     "id": "node/14095166485"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6225548,
-      47.5548048
+      7.622555,
+      47.5548049
     ]
   }
 },
@@ -385642,24 +385646,6 @@
     "coordinates": [
       9.3057431,
       47.4082086
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14294008802",
-  "properties": {
-    "defibrillator:location": "Test Location",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/14294008802"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.12,
-      46.75
     ]
   }
 }
