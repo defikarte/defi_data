@@ -30570,6 +30570,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Derzeit nicht verfügbar!",
+    "description": "derzeit ausser Betrieb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -30582,7 +30583,7 @@
     "type": "Point",
     "coordinates": [
       8.9208984,
-      47.2411226
+      47.241123
     ]
   }
 },

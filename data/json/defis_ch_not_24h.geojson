@@ -176810,6 +176810,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Derzeit nicht verfügbar!",
+    "description": "derzeit ausser Betrieb",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -176822,7 +176823,7 @@
     "type": "Point",
     "coordinates": [
       8.9208984,
-      47.2411226
+      47.241123
     ]
   }
 },
@@ -220086,7 +220087,7 @@
   "id": "node/14183254501",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Vorraum von Kirchraum zugänglich",
+    "defibrillator:location": "Vorraum von Kirchenraum her zugänglich",
     "description": "während Öffnungszeiten verfügbar",
     "email": "info@refsteffisburg.ch",
     "emergency": "defibrillator",
@@ -220100,8 +220101,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6337458,
-      46.7818168
+      7.6337459,
+      46.7818166
     ]
   }
 },
@@ -220124,7 +220125,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6324369,
+      7.632437,
       46.7815257
     ]
   }
@@ -220148,8 +220149,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6202777,
-      46.766861
+      7.6202779,
+      46.7668609
     ]
   }
 },
@@ -220172,8 +220173,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6345878,
-      46.7734119
+      7.6345881,
+      46.773412
     ]
   }
 },
@@ -221813,6 +221814,48 @@
     "coordinates": [
       6.9996435,
       46.1848365
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14298339356",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-09-23",
+    "defibrillator:location": "An Wand gegenüber Rezeption",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "\"wenn Hotel geöffnet\"",
+    "operator": "Landgut Bocken",
+    "id": "node/14298339356"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6110295,
+      47.2431473
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14298339361",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-09-23",
+    "defibrillator:location": "Im Eingangsbereich zwischen zwei Schiebetüren, sichtbar von aussen",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "opening_hours": "\"wenn Hotel geöffnet\"",
+    "operator": "Landgut Bocken",
+    "id": "node/14298339361"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6109027,
+      47.2424234
     ]
   }
 }
