@@ -17525,6 +17525,25 @@
       46.6395758
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14300984251",
+  "properties": {
+    "defibrillator:location": "Im 1. Stock im Gang zu den Toiletten links neben den Schliessfächern",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "id": "node/14300984251"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2821123,
+      46.833499
+    ]
+  }
 }
 ]
 }

@@ -385736,6 +385736,48 @@
       47.2424234
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14300984251",
+  "properties": {
+    "defibrillator:location": "Im 1. Stock im Gang zu den Toiletten links neben den Schliessfächern",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Su 07:00-22:00",
+    "id": "node/14300984251"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2821123,
+      46.833499
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14301002701",
+  "properties": {
+    "defibrillator:location": "Rte de Lausanne 4, 1055 Froideville",
+    "description": "Disponible à l’extérieur du bâtiment",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "AED",
+    "phone": "+41 21 881 22 27",
+    "id": "node/14301002701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6813545,
+      46.6005291
+    ]
+  }
 }
 ]
 }
