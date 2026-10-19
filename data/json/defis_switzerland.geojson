@@ -7259,6 +7259,8 @@
     "access": "yes",
     "contact:phone": "+41 44 723 21 11",
     "defibrillator:location": "Eingangsbereich",
+    "description": "während den Öffnungszeiten verfügbar",
+    "email": "info@thalwil.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -7269,8 +7271,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5653767,
-      47.2923429
+      8.565377,
+      47.2923427
     ]
   }
 },
@@ -61970,11 +61972,14 @@
   "type": "Feature",
   "id": "node/7650062375",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Einsatzfahrzeuge (3 mobile Defis)",
     "description": "Kommandofahrzeug 1x, TLF 1x, Sani-Fz 1x",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Feuerwehr Arbon",
     "id": "node/7650062375"
   },
   "geometry": {
@@ -199318,6 +199323,7 @@
   "type": "Feature",
   "id": "node/10633605006",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Im Fahrzeug",
     "description": "Privater AED im Fzg",
     "emergency": "defibrillator",
@@ -199332,7 +199338,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4762888,
+      8.4762901,
       47.4494185
     ]
   }
@@ -298904,13 +298910,14 @@
     "opening_hours": "08:00 - 11:30, 13:00 - 16:00",
     "operator": "Kantonale Heilmittelkontrolle Zürich",
     "phone": "+41432586100",
+    "source": "aed-source",
     "id": "node/12296274501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5481847,
-      47.3801783
+      8.5483615,
+      47.3803001
     ]
   }
 },
@@ -315791,7 +315798,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 07:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Pendt AG",
     "phone": "+41449365100",
     "source": "local_knowledge, defikarte.ch",
@@ -315800,7 +315807,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7511546,
+      8.7511547,
       47.3047323
     ]
   }
@@ -384231,31 +384238,6 @@
     "coordinates": [
       7.7704081,
       46.7007178
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14234266301",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "AC Hotel Marriott Bulle",
-    "description": "Disponible a la reception de l'hôtel",
-    "email": "technique@acbulle.com",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "AC Hotel Marriott Bulle",
-    "phone": "+41 26 563 11 11",
-    "id": "node/14234266301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0380928,
-      46.61469
     ]
   }
 },

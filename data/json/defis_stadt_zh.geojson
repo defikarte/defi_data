@@ -14114,13 +14114,14 @@
     "opening_hours": "08:00 - 11:30, 13:00 - 16:00",
     "operator": "Kantonale Heilmittelkontrolle Zürich",
     "phone": "+41432586100",
+    "source": "aed-source",
     "id": "node/12296274501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5481847,
-      47.3801783
+      8.5483615,
+      47.3803001
     ]
   }
 },

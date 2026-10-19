@@ -502,11 +502,14 @@
   "type": "Feature",
   "id": "node/7650062375",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Einsatzfahrzeuge (3 mobile Defis)",
     "description": "Kommandofahrzeug 1x, TLF 1x, Sani-Fz 1x",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Feuerwehr Arbon",
     "id": "node/7650062375"
   },
   "geometry": {
