@@ -348,20 +348,21 @@
   "id": "node/9004557420",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Haupteingang rechts",
+    "defibrillator:location": "Supergut Hilti Fouindation",
+    "email": "hoi@supergut.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-17:00",
-    "operator": "Anmeldung",
-    "phone": "+423 399 55 11",
+    "operator": "Supergut",
     "id": "node/9004557420"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5215684,
-      47.1093264
+      9.5207399,
+      47.108553
     ]
   }
 },
