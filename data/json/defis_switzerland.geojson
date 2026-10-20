@@ -37705,11 +37705,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A côté des ascenseurs (sortie des caisses Migros)",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
+    "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-20:00; Sa 07:30-17:00",
     "operator": "Migros",
     "id": "node/7056515216"
   },
@@ -99134,19 +99134,21 @@
   "id": "node/8644298814",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "1x am Empfang der Belvoirpark Hotelfachschule, rechts nach dem Eingang (Signalisiert mit einem Aufkleber)",
+    "defibrillator:location": "1x am Empfang der Hotelfachschule Zürich, rechts nach dem Eingang (Signalisiert mit einem Aufkleber)",
+    "email": "adrian.aeschlimann@hfz.swiss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Tu-Sa 05:30-19:30",
-    "operator": "Adrian Aeschlimann, Belvoirpark Restaurant",
+    "level": "0",
+    "opening_hours": "Mo-Fr 05:30-19:30",
+    "operator": "Adrian Aeschlimann, Hotelfachschule Zürich",
     "phone": "+41 44 286 88 07",
     "id": "node/8644298814"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5325804,
+      8.5325803,
       47.3564966
     ]
   }
@@ -235317,11 +235319,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans le hall d'entrée de l'Hôtel de Ville",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo 07:30-12:00,13:00-16:00; Tu 13:00-17:00; We 07:30-16:00; Th 07:30-12:00,13:00-16:00; Fr 07:30-12:00,13:00-16:00",
     "operator": "Ville de Vevey",
     "id": "node/11009734393"
   },
@@ -235867,11 +235869,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A la réception du service Bâtiments",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
+    "opening_hours": "Mo-Fr 08:00-12:00",
     "operator": "Ville de Vevey",
     "id": "node/11031968927"
   },
@@ -255090,11 +255092,11 @@
     "access": "yes",
     "check_date": "2026-08-01",
     "defibrillator:location": "Vers le vestiaire de Totem",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 10:00-22:30; Sa-Su 13:30-20:00",
     "id": "node/11389708914"
   },
   "geometry": {
@@ -273291,19 +273293,19 @@
   "id": "node/11809670469",
   "properties": {
     "defibrillator:location": "BZ Sonnhalde, EG, Gemeinschaftsraum",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Gemeinde",
+    "operator": "Gemeinde Regensdorf",
     "id": "node/11809670469"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4620663,
-      47.4525817
+      8.4620081,
+      47.4526297
     ]
   }
 },
@@ -293151,11 +293153,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Vers le couloir central, dans une annexe",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Tu-Su 11:00-18:00",
     "operator": "Ville de Vevey",
     "id": "node/12162035649"
   },
@@ -310652,6 +310654,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-18:30; Sa 09:00-17:00",
     "id": "node/12515022601"
   },
   "geometry": {
@@ -341110,8 +341113,7 @@
   "id": "node/13204968601",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Avenue de la Gare 3 - 1020 Renens/VD",
-    "description": "Salle d'attente CFF",
+    "defibrillator:location": "Salle d'attente CFF",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -346330,10 +346332,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans le local à côté de la cabine d'essayage de Decathlon",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "1",
+    "opening_hours": "Mo-Th 08:30-18:30; Fr 08:30-20:00; Sa 08:30-17:00",
     "operator": "Decathlon",
     "id": "node/13340188311"
   },
@@ -379026,6 +379028,7 @@
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "We-Sa 11:00-00:00; Su 11:00-16:00",
     "id": "node/14106170117"
   },
   "geometry": {
@@ -385777,6 +385780,54 @@
     "coordinates": [
       6.6813545,
       46.6005291
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14301890001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kollegium St. Fidelis Stans, beim Eingang West",
+    "email": "stefan.nemitz@kollegistans.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kollegium St. Fidelis, Mürgstrasse 20, 6370 Stans",
+    "phone": "+41 41 618 74 66",
+    "id": "node/14301890001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3709874,
+      46.9545335
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14301903101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang BZ Sonnhalde",
+    "description": "Vor dem Eingang zur BZ Sonnhalde Öffentlich zugänglich",
+    "email": "hwpr@regensdorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensdorf",
+    "phone": "+41 44 620 61 04",
+    "id": "node/14301903101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4621119,
+      47.4525617
     ]
   }
 }

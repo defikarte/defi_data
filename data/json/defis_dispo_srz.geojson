@@ -25230,19 +25230,21 @@
   "id": "node/8644298814",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "1x am Empfang der Belvoirpark Hotelfachschule, rechts nach dem Eingang (Signalisiert mit einem Aufkleber)",
+    "defibrillator:location": "1x am Empfang der Hotelfachschule Zürich, rechts nach dem Eingang (Signalisiert mit einem Aufkleber)",
+    "email": "adrian.aeschlimann@hfz.swiss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Tu-Sa 05:30-19:30",
-    "operator": "Adrian Aeschlimann, Belvoirpark Restaurant",
+    "level": "0",
+    "opening_hours": "Mo-Fr 05:30-19:30",
+    "operator": "Adrian Aeschlimann, Hotelfachschule Zürich",
     "phone": "+41 44 286 88 07",
     "id": "node/8644298814"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5325804,
+      8.5325803,
       47.3564966
     ]
   }
@@ -71159,19 +71161,19 @@
   "id": "node/11809670469",
   "properties": {
     "defibrillator:location": "BZ Sonnhalde, EG, Gemeinschaftsraum",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Gemeinde",
+    "operator": "Gemeinde Regensdorf",
     "id": "node/11809670469"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4620663,
-      47.4525817
+      8.4620081,
+      47.4526297
     ]
   }
 },
@@ -105790,6 +105792,31 @@
     "coordinates": [
       8.6109027,
       47.2424234
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14301903101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang BZ Sonnhalde",
+    "description": "Vor dem Eingang zur BZ Sonnhalde Öffentlich zugänglich",
+    "email": "hwpr@regensdorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensdorf",
+    "phone": "+41 44 620 61 04",
+    "id": "node/14301903101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4621119,
+      47.4525617
     ]
   }
 }

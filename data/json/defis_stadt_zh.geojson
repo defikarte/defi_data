@@ -2868,19 +2868,21 @@
   "id": "node/8644298814",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "1x am Empfang der Belvoirpark Hotelfachschule, rechts nach dem Eingang (Signalisiert mit einem Aufkleber)",
+    "defibrillator:location": "1x am Empfang der Hotelfachschule Zürich, rechts nach dem Eingang (Signalisiert mit einem Aufkleber)",
+    "email": "adrian.aeschlimann@hfz.swiss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Tu-Sa 05:30-19:30",
-    "operator": "Adrian Aeschlimann, Belvoirpark Restaurant",
+    "level": "0",
+    "opening_hours": "Mo-Fr 05:30-19:30",
+    "operator": "Adrian Aeschlimann, Hotelfachschule Zürich",
     "phone": "+41 44 286 88 07",
     "id": "node/8644298814"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5325804,
+      8.5325803,
       47.3564966
     ]
   }

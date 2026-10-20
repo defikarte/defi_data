@@ -1136,11 +1136,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A côté des ascenseurs (sortie des caisses Migros)",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
+    "opening_hours": "Mo-Th 08:00-18:30; Fr 08:00-20:00; Sa 07:30-17:00",
     "operator": "Migros",
     "id": "node/7056515216"
   },
@@ -7358,11 +7358,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans le hall d'entrée de l'Hôtel de Ville",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo 07:30-12:00,13:00-16:00; Tu 13:00-17:00; We 07:30-16:00; Th 07:30-12:00,13:00-16:00; Fr 07:30-12:00,13:00-16:00",
     "operator": "Ville de Vevey",
     "id": "node/11009734393"
   },
@@ -7550,11 +7550,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "A la réception du service Bâtiments",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
+    "opening_hours": "Mo-Fr 08:00-12:00",
     "operator": "Ville de Vevey",
     "id": "node/11031968927"
   },
@@ -8298,11 +8298,11 @@
     "access": "yes",
     "check_date": "2026-08-01",
     "defibrillator:location": "Vers le vestiaire de Totem",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 10:00-22:30; Sa-Su 13:30-20:00",
     "id": "node/11389708914"
   },
   "geometry": {
@@ -10051,11 +10051,11 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Vers le couloir central, dans une annexe",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Tu-Su 11:00-18:00",
     "operator": "Ville de Vevey",
     "id": "node/12162035649"
   },
@@ -10616,9 +10616,9 @@
   "properties": {
     "access": "customers",
     "defibrillator:location": "Dans la déchèterie",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "Mo,We,Fr 13:30-17:30; Tu,Th 09:30-12:00,13:30-17:30; Sa 09:00-16:00",
     "operator": "Ville de Vevey",
     "id": "node/12466601321"
   },
@@ -10783,6 +10783,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00,13:30-18:30; Sa 09:00-17:00",
     "id": "node/12515022601"
   },
   "geometry": {
@@ -12982,8 +12983,7 @@
   "id": "node/13204968601",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Avenue de la Gare 3 - 1020 Renens/VD",
-    "description": "Salle d'attente CFF",
+    "defibrillator:location": "Salle d'attente CFF",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -13218,10 +13218,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans le local à côté de la cabine d'essayage de Decathlon",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "1",
+    "opening_hours": "Mo-Th 08:30-18:30; Fr 08:30-20:00; Sa 08:30-17:00",
     "operator": "Decathlon",
     "id": "node/13340188311"
   },
@@ -14851,10 +14851,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans le hall menant aux toilettes du restaurant",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Tu-Sa 11:00-00:00; Su 11:00-16:00",
     "id": "node/14106170117"
   },
   "geometry": {

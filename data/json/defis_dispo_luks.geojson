@@ -33338,6 +33338,29 @@
       47.137566
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14301890001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kollegium St. Fidelis Stans, beim Eingang West",
+    "email": "stefan.nemitz@kollegistans.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kollegium St. Fidelis, Mürgstrasse 20, 6370 Stans",
+    "phone": "+41 41 618 74 66",
+    "id": "node/14301890001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3709874,
+      46.9545335
+    ]
+  }
 }
 ]
 }

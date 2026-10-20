@@ -163895,6 +163895,54 @@
       46.6005291
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14301890001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kollegium St. Fidelis Stans, beim Eingang West",
+    "email": "stefan.nemitz@kollegistans.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Kollegium St. Fidelis, Mürgstrasse 20, 6370 Stans",
+    "phone": "+41 41 618 74 66",
+    "id": "node/14301890001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3709874,
+      46.9545335
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14301903101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang BZ Sonnhalde",
+    "description": "Vor dem Eingang zur BZ Sonnhalde Öffentlich zugänglich",
+    "email": "hwpr@regensdorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensdorf",
+    "phone": "+41 44 620 61 04",
+    "id": "node/14301903101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4621119,
+      47.4525617
+    ]
+  }
 }
 ]
 }
