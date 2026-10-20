@@ -23,7 +23,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,addr:city,addr:housenumber,add
 7559459426,node,47.4705906,8.9999458,yes,,,,,,,,,"EW Sirnach AG, Mattenrainstrasse 9, 8370 Sirnach, bei der EW-Sirnach AG, rechts um die Ecke neben den E-Tankstellen, an der Wand rechts neben der Türe",,,,defibrillator,144,,node/7559459426,,,no,,,,,,,24/7,,,,,,,,,
 7592934224,node,47.5433357,9.3000153,yes,,,,,,,,,Beim Bademeister,,,,defibrillator,144,,node/7592934224,,,,,,,,,,24/7,,,,,,,,,
 7592934225,node,47.5891649,9.3330735,yes,,,,,,,,,Bei der Rezeption des Campings,,,,defibrillator,144,,node/7592934225,,,,,,,,,,24/7,,,,,,,,,
-7650062375,node,47.5123385,9.422729,yes,,,,,,,,,Einsatzfahrzeuge (3 mobile Defis),"Kommandofahrzeug 1x, TLF 1x, Sani-Fz 1x",,,defibrillator,144,,node/7650062375,,,,,,,,,,,,,,,,,,,
+7650062375,node,47.5123385,9.422729,permissive,,,,,,,,,Einsatzfahrzeuge (3 mobile Defis),"Kommandofahrzeug 1x, TLF 1x, Sani-Fz 1x",,,defibrillator,144,,node/7650062375,,,yes,,0,,,,,,Feuerwehr Arbon,,,,,,,,
 7650062376,node,47.5161518,9.4349653,yes,,,,,,,,,Stadthaus - Haupteingang Parterre rechts vor Büro Abteilung Sicherheitsdienste,während Öffnungszeiten,,fsl@arbon.ch,defibrillator,144,,node/7650062376,,,yes,,0,,,,,"Mo,Tu,Th 08:30-12:00,14:00-17:00 ; We 14:00-17:00 ; Fr 08:30-14:00",Stadt Arbon - FSL,+41 71 447 14 50,,,,,,,
 7650062377,node,47.5194433,9.4333372,yes,,,,,,,,,Seeparksaal - Saal im Schrank,Defi-Signet Kennzeichnung,,fsl@arbon.ch,defibrillator,144,,node/7650062377,,,yes,,0,,,,,,Stadt Arbon - FSL,+41 71 447 14 50,,,,,,,
 7650062378,node,47.5192476,9.4339594,yes,,,,,,,,,Haupteingang rechts an der Wand,Haupteingang rechts an der Wand,,fsl@arbon.ch,defibrillator,144,,node/7650062378,,,no,,0,,,,,24/7,Stadt Arbon - FSL,+41 71 447 14 50,,,,,,,
