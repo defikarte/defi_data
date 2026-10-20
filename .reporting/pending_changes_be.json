@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "key": "node/14277091505",
+    "name": "Kurt Schneider",
+    "has_name": true,
+    "detail": "Werkstatt - Kurt Schneider AG",
+    "address": "Tempelstrasse 1, 3608 Thun",
+    "lon": 7.5967479,
+    "lat": 46.7448333,
+    "changes": [
+      {
+        "label": "Öffnungszeiten",
+        "old": "Mo-Fr 8:00-16:30",
+        "new": "Mo-Fr 08:00-16:30"
+      }
+    ],
+    "detected_at": "2026-10-20T17:35:43.797956+00:00"
+  }
+]
