@@ -2650,6 +2650,25 @@
       47.0658119
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14303658701",
+  "properties": {
+    "defibrillator:location": "Entrée du restaurant la capsule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Commune de la grande béroche",
+    "id": "node/14303658701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7871639,
+      46.9007614
+    ]
+  }
 }
 ]
 }

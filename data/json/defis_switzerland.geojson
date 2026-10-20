@@ -308616,9 +308616,9 @@
   "properties": {
     "access": "customers",
     "defibrillator:location": "Dans la déchèterie",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "opening_hours": "Mo,We,Fr 13:30-17:30; Tu,Th 09:30-12:00,13:30-17:30; Sa 09:00-16:00",
     "operator": "Ville de Vevey",
     "id": "node/12466601321"
   },
@@ -379024,11 +379024,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Dans le hall menant aux toilettes du restaurant",
-    "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "We-Sa 11:00-00:00; Su 11:00-16:00",
+    "opening_hours": "Tu-Sa 11:00-00:00; Su 11:00-16:00",
     "id": "node/14106170117"
   },
   "geometry": {
@@ -385110,7 +385109,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Kurt Schneider",
-    "opening_hours": "Mo-Fr 8:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-16:30",
     "operator": "Lifetec AG",
     "phone": "0800122144",
     "ref": "1694LTM",
@@ -385828,6 +385827,99 @@
     "coordinates": [
       8.4621119,
       47.4525617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14302945601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Länggasse 13",
+    "description": "An der Hausecke Länggasse 13 an der Kreuzung Länggasse/Jungfraustrasse",
+    "email": "gnuss@quartierbeiz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Quartierbeiz 13",
+    "phone": "+41796708787",
+    "wikimedia_commons": "File:Defi_laenggasse_thun.jpg",
+    "id": "node/14302945601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6234382,
+      46.7524546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14303141202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Contre le mur à côté de la porte côté route",
+    "description": "Disponible en tous temps",
+    "email": "contact@atelierz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Atelier Z construction bois SA",
+    "phone": "+41 21 861 15 02",
+    "id": "node/14303141202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4616561,
+      46.5943406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14303646401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Frauenfelderstrasse 10, 8266 Steckborn",
+    "description": "Immer verfügbar",
+    "email": "praesidium@schule-steckborn.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Primarschulgemeinde Steckborn",
+    "phone": "+41 52 761 15 90",
+    "id": "node/14303646401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9783835,
+      47.6643613
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14303658701",
+  "properties": {
+    "defibrillator:location": "Entrée du restaurant la capsule",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Commune de la grande béroche",
+    "id": "node/14303658701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7871639,
+      46.9007614
     ]
   }
 }

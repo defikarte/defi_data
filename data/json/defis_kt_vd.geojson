@@ -15081,6 +15081,31 @@
       46.6005291
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14303141202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Contre le mur à côté de la porte côté route",
+    "description": "Disponible en tous temps",
+    "email": "contact@atelierz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Atelier Z construction bois SA",
+    "phone": "+41 21 861 15 02",
+    "id": "node/14303141202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4616561,
+      46.5943406
+    ]
+  }
 }
 ]
 }

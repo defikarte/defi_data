@@ -16565,6 +16565,29 @@
       47.6544163
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14303646401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Frauenfelderstrasse 10, 8266 Steckborn",
+    "description": "Immer verfügbar",
+    "email": "praesidium@schule-steckborn.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Primarschulgemeinde Steckborn",
+    "phone": "+41 52 761 15 90",
+    "id": "node/14303646401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9783835,
+      47.6643613
+    ]
+  }
 }
 ]
 }

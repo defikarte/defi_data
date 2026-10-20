@@ -163943,6 +163943,57 @@
       47.4525617
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14302945601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Länggasse 13",
+    "description": "An der Hausecke Länggasse 13 an der Kreuzung Länggasse/Jungfraustrasse",
+    "email": "gnuss@quartierbeiz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Quartierbeiz 13",
+    "phone": "+41796708787",
+    "wikimedia_commons": "File:Defi_laenggasse_thun.jpg",
+    "id": "node/14302945601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6234382,
+      46.7524546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14303141202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Contre le mur à côté de la porte côté route",
+    "description": "Disponible en tous temps",
+    "email": "contact@atelierz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Atelier Z construction bois SA",
+    "phone": "+41 21 861 15 02",
+    "id": "node/14303141202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.4616561,
+      46.5943406
+    ]
+  }
 }
 ]
 }

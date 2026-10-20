@@ -2855,9 +2855,10 @@
   "type": "Feature",
   "id": "node/11769835969",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Strassenkreuzung Lawenastrasse / Garnis",
     "description": "Direkt an der Strasse",
+    "email": "mirco.beck@roteskreuz.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2870,8 +2871,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5358453,
-      47.1002091
+      9.5358451,
+      47.100209
     ]
   }
 },

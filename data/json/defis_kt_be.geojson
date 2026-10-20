@@ -66258,7 +66258,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Kurt Schneider",
-    "opening_hours": "Mo-Fr 8:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-16:30",
     "operator": "Lifetec AG",
     "phone": "0800122144",
     "ref": "1694LTM",
@@ -66422,6 +66422,32 @@
     "coordinates": [
       7.3766984,
       46.5699727
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14302945601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Länggasse 13",
+    "description": "An der Hausecke Länggasse 13 an der Kreuzung Länggasse/Jungfraustrasse",
+    "email": "gnuss@quartierbeiz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Quartierbeiz 13",
+    "phone": "+41796708787",
+    "wikimedia_commons": "File:Defi_laenggasse_thun.jpg",
+    "id": "node/14302945601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6234382,
+      46.7524546
     ]
   }
 }
