@@ -17530,6 +17530,7 @@
   "type": "Feature",
   "id": "node/14300984251",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Im 1. Stock im Gang zu den Toiletten links neben den Schliessfächern",
     "emergency": "defibrillator",
     "indoor": "yes",

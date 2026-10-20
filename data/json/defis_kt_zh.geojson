@@ -849,7 +849,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "note": "während der Öffnungszeiten verfügbar",
+    "opening_hours": "Mo 08:00-11:30,13:00-18:00; Tu-Th 08:00-11:30, 14:00-16:30; Fr 08:00-15:00",
     "operator": "Gemeindeverwaltung Thalwil",
     "id": "node/5738599622"
   },
