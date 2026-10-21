@@ -61,7 +61,7 @@ Beim Haupteingang links an der Wand",,,,defibrillator,,node/11531604931,no,,24/7
 11695090769,node,47.1079353,9.5263641,yes,,"Spörry Triesen, Treppenturm",,Beim Treppenturm,,defibrillator,144,node/11695090769,no,0,24/7,Gemeinde Triesen,,,+423 222 01 35,,,
 11698448369,node,47.13898,9.5246114,yes,,"Pförtnerhaus, Schloss-Sicherheit",,Beim Pförtner um Hilfe rufen. ,,defibrillator,144,node/11698448369,no,,24/7,Schloss Vaduz,,,,,,
 11754925369,node,47.243565,9.5230189,yes,,Feuerwehrdepot Garagentore,,,,defibrillator,144,node/11754925369,no,,24/7,Gemeinde Ruggell,,,+423 377 49 20,,,
-11769835969,node,47.1002091,9.5358453,no,,Strassenkreuzung Lawenastrasse / Garnis,,Direkt an der Strasse,,defibrillator,144,node/11769835969,no,0,24/7,Gemeinde Triesen,,,+423 792 36 42,,,
+11769835969,node,47.100209,9.5358451,yes,,Strassenkreuzung Lawenastrasse / Garnis,,Direkt an der Strasse,mirco.beck@roteskreuz.li,defibrillator,144,node/11769835969,no,0,24/7,Gemeinde Triesen,,,+423 792 36 42,,,
 11769839169,node,47.1345827,9.5225524,yes,,Landesspital Eingang Empfang,,Direkt beim Eingangsbereich nähe Empfang,,defibrillator,144,node/11769839169,no,0,24/7,LLS,,,,,,
 11826866284,node,47.2353045,9.524427,yes,,Oberweilerstrasse Verzweigung Geisszipfelstrasse,,Privatgrundstück Hausfassade gut ersichtlich,,defibrillator,144,node/11826866284,no,,24/7,Gemeinde Ruggell,,,+423 377 49 20,,,
 11849557271,node,47.1086364,9.54582,yes,,Wangerberg / Sütigerwis Spielplatz,,An WC Häuschen,,defibrillator,144,node/11849557271,no,,24/7,Gemeinde Triesenberg GePo,,,+423 792 26 61,,,

@@ -362,7 +362,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,addr:city,addr:country,addr:ho
 8101505536,node,47.4306185,9.3842393,yes,,,,,,,,,,,Beim Eingang zur Feuerwache,,,,,,defibrillator,144,,node/8101505536,,,no,,,,,,,,24/7,,FWZS SG,,,,,,,,,,
 8101704629,node,47.2497793,9.4974098,yes,,,,,,,,,,,"Haupteingang, dann rechts",,,,,,defibrillator,144,,node/8101704629,,,no,,,,,,,,24/7,,,,,,,,,,,,
 8101704630,node,47.2574875,9.4962765,yes,,,,,,,,,,,Arztpraxis: Im Sprechzimmer,,,während Öffnungszeiten verfügbar,,,defibrillator,144,,node/8101704630,,,yes,,,,,,,,,,,,,,,,,,,,
-8130699690,node,47.4630851,9.047146,yes,,,,,,,,,,,Beim Veloständer vor der Kreuzkirche direkt an der Toggenburgerstrasse,,,,,,defibrillator,144,,node/8130699690,,,no,,,,,,,,24/7,,"Evangelische Kirchgemeinde Wil, Markus Graf",,,+41 71 555 58 06,,,,,,,
+8130699690,node,47.4630852,9.047146,yes,,,,,,,,,,,Beim Veloständer vor der Kreuzkirche direkt an der Toggenburgerstrasse,,,,,,defibrillator,144,,node/8130699690,,,no,,,,,,,,24/7,,Evangelische Kirchgemeinde Wil,,,+41 71 555 58 06,,,,,,,
 8291730882,node,47.4143539,9.1834763,private,,,,,,,,,,,,,,,,,defibrillator,144,,node/8291730882,,,yes,,,,,,,,,,,,,,,,,,,,
 8300126316,node,47.4431036,9.4247887,yes,,,,,,,,,,,An der Wand draussen gegenüber der Einfahrt,,,,,,defibrillator,144,,node/8300126316,,,no,,,,,,,,24/7,,Max Müller AG,,,+41 71 282 50 82,,,,,,,
 8300132204,node,47.4131926,9.2587854,,,,,,,,,,,,Im 1. OG bei der Verwaltung,,,während Bürozeiten,,,defibrillator,144,,node/8300132204,,,yes,,,,,,,,Mo-Fr 08:00-17:00,,Rettung St. Gallen,,,+41 71 412 74 30,,,,,,,

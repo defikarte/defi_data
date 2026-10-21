@@ -119,3 +119,4 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14169530301,node,46.865786,6.4860034,yes,,,,,,,Collège 1,,Disponible 24h/24h,cote-aux-fees@ne.ch,defibrillator,144,node/14169530301,no,0,,24/7,Commune de La Côte-aux-Fées,+41 32 886 51 80,,,,,,,
 14269923301,node,47.0598234,7.0821002,yes,,,,,,,Local technique ouvert,,Local accessible en permanence,info@campingbellerive.ch,defibrillator,144,node/14269923301,yes,0,,24/7,Camping Bellerive Le Landeron,+41796282710,,,,,,,
 14289480801,node,47.0658119,6.7030473,permissive,,,,,,,CONCEPTOOLS hall d'entrée entreprise,,,qualite@conceptools.ch,defibrillator,144,node/14289480801,yes,0,,Mo-Fr 08:00-17:00,accueil,+41 32 933 97 33,,,,,,,
+14303658701,node,46.9007614,6.7871639,,,,,,,,Entrée du restaurant la capsule,,,,defibrillator,144,node/14303658701,no,,,,Commune de la grande béroche,,,,,,,,
