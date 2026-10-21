@@ -346569,7 +346569,6 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schützenhaus (300 Meter Schiessstand), links von der Eingangstüre",
-    "description": "Öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -346582,8 +346581,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7511929,
-      47.2551787
+      8.7511897,
+      47.2551819
     ]
   }
 },
@@ -351507,17 +351506,18 @@
     "description": "während öffnungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Firma",
+    "operator": "WeibelWeibel AG",
     "phone": "+4156 265 88 88",
     "id": "node/13482784801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2904382,
-      47.5419679
+      8.2904385,
+      47.5419678
     ]
   }
 },

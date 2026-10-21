@@ -147841,7 +147841,6 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Schützenhaus (300 Meter Schiessstand), links von der Eingangstüre",
-    "description": "Öffentlich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -147854,8 +147853,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7511929,
-      47.2551787
+      8.7511897,
+      47.2551819
     ]
   }
 },
