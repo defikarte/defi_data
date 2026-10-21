@@ -221925,6 +221925,29 @@
       46.8337421
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14307240401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Fahrzeug",
+    "email": "info@lewesi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Lebenswege Siefert",
+    "phone": "+41 76 588 43 54",
+    "id": "node/14307240401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3936393,
+      47.4995906
+    ]
+  }
 }
 ]
 }

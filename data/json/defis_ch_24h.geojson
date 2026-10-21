@@ -160696,7 +160696,7 @@
   "id": "node/14057943501",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Milchseilbahn bei Bushaltestelle",
+    "defibrillator:location": "Bei der Bushaltestelle Fidaz Pinut links neben dem Eingang zu den Toiletten an der Wand",
     "email": "dario.gauch@flims.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -160709,8 +160709,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3116423,
-      46.8417055
+      9.3117306,
+      46.8417884
     ]
   }
 },
