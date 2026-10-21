@@ -37226,7 +37226,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Evangelische Kirchgemeinde Wil, Markus Graf",
+    "operator": "Evangelische Kirchgemeinde Wil",
     "phone": "+41 71 555 58 06",
     "id": "node/8130699690"
   },
@@ -37234,7 +37234,7 @@
     "type": "Point",
     "coordinates": [
       9.047146,
-      47.4630851
+      47.4630852
     ]
   }
 },
@@ -163223,6 +163223,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/14226241401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bremgartenfriedhof, Nordostseite des Verwaltungsgebäudes",
+    "description": "frei zugänglich",
+    "email": "stadtgruen@bern.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Bern, Stadtgrün Bern",
+    "phone": "+41 31 321 69 11",
+    "id": "node/14226241401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4238692,
+      46.9500444
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/14227243101",
   "properties": {
     "access": "yes",
@@ -163992,6 +164017,32 @@
     "coordinates": [
       6.4616561,
       46.5943406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305590804",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Déchèterie place du Lion d'Or",
+    "description": "Le défibrilateur se trouve dans la zone de déchèterie ouverte à tous 24/24.",
+    "email": "m.joray@pery-laheutte.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Michel Joray",
+    "phone": "+41 79 533 44 27",
+    "wikimedia_commons": "File:DefiLaHeutte.png",
+    "id": "node/14305590804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2277108,
+      47.1902281
     ]
   }
 }

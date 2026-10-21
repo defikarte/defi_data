@@ -78443,7 +78443,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Evangelische Kirchgemeinde Wil, Markus Graf",
+    "operator": "Evangelische Kirchgemeinde Wil",
     "phone": "+41 71 555 58 06",
     "id": "node/8130699690"
   },
@@ -78451,7 +78451,7 @@
     "type": "Point",
     "coordinates": [
       9.047146,
-      47.4630851
+      47.4630852
     ]
   }
 },
@@ -113914,31 +113914,6 @@
     "coordinates": [
       8.4686851,
       47.1803426
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8952337842",
-  "properties": {
-    "access": "permissive",
-    "addr:housenumber": "28",
-    "addr:street": "Rütistrasse",
-    "defibrillator:location": "Haupteingang bei Lift",
-    "description": "Inside, innen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Sa 07:00-19:30",
-    "operator": "Axians Schweiz",
-    "id": "node/8952337842"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4528852,
-      47.4005496
     ]
   }
 },
@@ -279696,10 +279671,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "im Studio Kieser Bern",
+    "email": "bern@kieser-training.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:30 - 21:30",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30 - 21:30, Sa-Su 9:00 - 18:00",
     "operator": "Kieser Bern",
     "phone": "+41 31 384 60 60",
     "source": "local_knowledge, defikarte.ch",
@@ -384002,16 +383979,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bremgartenfriedhof, Nordostseite des Verwaltungsgebäudes",
+    "description": "frei zugänglich",
+    "email": "stadtgruen@bern.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Bern, Stadtgrün Bern",
+    "phone": "+41 31 321 69 11",
     "id": "node/14226241401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4238693,
+      7.4238692,
       46.9500444
     ]
   }
@@ -385168,7 +385150,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo- SA 08:00 - 20:00",
+    "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "node/14280797001"
   },
   "geometry": {
@@ -385899,6 +385881,77 @@
     "coordinates": [
       6.7871639,
       46.9007614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305362401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Trubenwilerstrasse UNG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "id": "node/14305362401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.72815,
+      47.237877
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305541301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zetzwilerstrasse 763, 5728 Gontenschwil",
+    "description": "während Öffnungszeiten",
+    "email": "klinik@kih.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Klinik im Hasel AG",
+    "phone": "+41 62 738 60 00",
+    "id": "node/14305541301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1457253,
+      47.2813112
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305590804",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Déchèterie place du Lion d'Or",
+    "description": "Le défibrilateur se trouve dans la zone de déchèterie ouverte à tous 24/24.",
+    "email": "m.joray@pery-laheutte.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Michel Joray",
+    "phone": "+41 79 533 44 27",
+    "wikimedia_commons": "File:DefiLaHeutte.png",
+    "id": "node/14305590804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2277108,
+      47.1902281
     ]
   }
 }

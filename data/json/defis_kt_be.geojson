@@ -52355,10 +52355,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "im Studio Kieser Bern",
+    "email": "bern@kieser-training.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:30 - 21:30",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30 - 21:30, Sa-Su 9:00 - 18:00",
     "operator": "Kieser Bern",
     "phone": "+41 31 384 60 60",
     "source": "local_knowledge, defikarte.ch",
@@ -66121,16 +66123,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bremgartenfriedhof, Nordostseite des Verwaltungsgebäudes",
+    "description": "frei zugänglich",
+    "email": "stadtgruen@bern.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Bern, Stadtgrün Bern",
+    "phone": "+41 31 321 69 11",
     "id": "node/14226241401"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4238693,
+      7.4238692,
       46.9500444
     ]
   }
@@ -66448,6 +66455,32 @@
     "coordinates": [
       7.6234382,
       46.7524546
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305590804",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Déchèterie place du Lion d'Or",
+    "description": "Le défibrilateur se trouve dans la zone de déchèterie ouverte à tous 24/24.",
+    "email": "m.joray@pery-laheutte.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Michel Joray",
+    "phone": "+41 79 533 44 27",
+    "wikimedia_commons": "File:DefiLaHeutte.png",
+    "id": "node/14305590804"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2277108,
+      47.1902281
     ]
   }
 }

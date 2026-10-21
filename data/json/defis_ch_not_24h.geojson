@@ -57373,31 +57373,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8952337842",
-  "properties": {
-    "access": "permissive",
-    "addr:housenumber": "28",
-    "addr:street": "Rütistrasse",
-    "defibrillator:location": "Haupteingang bei Lift",
-    "description": "Inside, innen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Sa 07:00-19:30",
-    "operator": "Axians Schweiz",
-    "id": "node/8952337842"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4528852,
-      47.4005496
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8954873797",
   "properties": {
     "defibrillator:location": "in der Apotheke (Coop Vitality)",
@@ -160733,10 +160708,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "im Studio Kieser Bern",
+    "email": "bern@kieser-training.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:30 - 21:30",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:30 - 21:30, Sa-Su 9:00 - 18:00",
     "operator": "Kieser Bern",
     "phone": "+41 31 384 60 60",
     "source": "local_knowledge, defikarte.ch",
@@ -220778,26 +220755,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14226241401",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bremgartenfriedhof, Nordostseite des Verwaltungsgebäudes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "id": "node/14226241401"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4238693,
-      46.9500444
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14226396801",
   "properties": {
     "defibrillator:location": "Sporthalle Seeblick",
@@ -221413,7 +221370,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo- SA 08:00 - 20:00",
+    "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "node/14280797001"
   },
   "geometry": {
@@ -221905,6 +221862,51 @@
     "coordinates": [
       6.7871639,
       46.9007614
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305362401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Trubenwilerstrasse UNG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "id": "node/14305362401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.72815,
+      47.237877
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305541301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zetzwilerstrasse 763, 5728 Gontenschwil",
+    "description": "während Öffnungszeiten",
+    "email": "klinik@kih.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Klinik im Hasel AG",
+    "phone": "+41 62 738 60 00",
+    "id": "node/14305541301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1457253,
+      47.2813112
     ]
   }
 }

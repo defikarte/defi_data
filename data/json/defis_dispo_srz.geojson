@@ -29515,31 +29515,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8952337842",
-  "properties": {
-    "access": "permissive",
-    "addr:housenumber": "28",
-    "addr:street": "Rütistrasse",
-    "defibrillator:location": "Haupteingang bei Lift",
-    "description": "Inside, innen",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Sa 07:00-19:30",
-    "operator": "Axians Schweiz",
-    "id": "node/8952337842"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4528852,
-      47.4005496
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8955157449",
   "properties": {
     "access": "yes",
@@ -105644,7 +105619,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo- SA 08:00 - 20:00",
+    "opening_hours": "Mo-Sa 08:00-20:00",
     "id": "node/14280797001"
   },
   "geometry": {
@@ -105817,6 +105792,26 @@
     "coordinates": [
       8.4621119,
       47.4525617
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14305362401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Trubenwilerstrasse UNG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "id": "node/14305362401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.72815,
+      47.237877
     ]
   }
 }

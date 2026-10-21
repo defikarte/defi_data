@@ -1756,15 +1756,15 @@
     "indoor": "yes",
     "level": "2",
     "opening_hours": "Mo-Fr 07:00-17:30",
-    "operator": "Firma Plan:Ing ",
+    "operator": "Firma Plan:Ing",
     "phone": "+4233779000",
     "id": "node/12372470501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5129422,
-      47.076753
+      9.5129424,
+      47.0767529
     ]
   }
 },

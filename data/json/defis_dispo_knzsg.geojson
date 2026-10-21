@@ -7415,7 +7415,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Evangelische Kirchgemeinde Wil, Markus Graf",
+    "operator": "Evangelische Kirchgemeinde Wil",
     "phone": "+41 71 555 58 06",
     "id": "node/8130699690"
   },
@@ -7423,7 +7423,7 @@
     "type": "Point",
     "coordinates": [
       9.047146,
-      47.4630851
+      47.4630852
     ]
   }
 },

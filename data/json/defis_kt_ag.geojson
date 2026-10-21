@@ -31951,6 +31951,31 @@
       47.3439074
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14305541301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Zetzwilerstrasse 763, 5728 Gontenschwil",
+    "description": "während Öffnungszeiten",
+    "email": "klinik@kih.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 17:00",
+    "operator": "Klinik im Hasel AG",
+    "phone": "+41 62 738 60 00",
+    "id": "node/14305541301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1457253,
+      47.2813112
+    ]
+  }
 }
 ]
 }
