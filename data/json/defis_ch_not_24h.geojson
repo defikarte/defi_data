@@ -221909,6 +221909,21 @@
       47.2813112
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14305868901",
+  "properties": {
+    "emergency": "defibrillator",
+    "id": "node/14305868901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8443562,
+      46.8337421
+    ]
+  }
 }
 ]
 }

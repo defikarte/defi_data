@@ -15381,6 +15381,27 @@
       47.5444012
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14306121601",
+  "properties": {
+    "defibrillator:location": "Im Eingang links an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stationäres wohnen",
+    "id": "node/14306121601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6190737,
+      47.5508438
+    ]
+  }
 }
 ]
 }
