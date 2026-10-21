@@ -204805,14 +204805,15 @@
   "type": "Feature",
   "id": "node/10741248105",
   "properties": {
-    "defibrillator:location": "Bächlihalle, Buregass 3, 8596 Scherzingen, EG nach Windfang",
-    "description": "Während Schulzeit zugänglich",
+    "access": "permissive",
+    "defibrillator:location": "Bächlihalle, Buregass 3, 8596 Scherzingen, EG nach Windfang;Turnhalle",
+    "description": "Während Schulzeit zugänglich;Werend hallen Benutzung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-Fr 07:00-15:15",
-    "operator": "Primarschule Scherzingen",
+    "operator": "Primarschule Scherzingen;Schule",
     "phone": "+41716865110",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/10741248105"
@@ -204820,8 +204821,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2504883,
-      47.6191241
+      9.2247126,
+      47.6297324
     ]
   }
 },
@@ -315488,28 +315489,6 @@
     "coordinates": [
       9.1097367,
       47.6611744
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12615640410",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Turnhalle",
-    "description": "Werend hallen Benutzung",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Schule",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12615640410"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2247126,
-      47.6297324
     ]
   }
 },
