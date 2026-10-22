@@ -51,7 +51,7 @@ def build_secrets_env_block(config):
 def build_orchestrator_workflow(config):
     secrets_env = build_secrets_env_block(config)
 
-    return f"""name: Reporting für alle Kantone
+    return f"""name: Reporting für alle Kunden
 on:
   workflow_run:
     workflows: ["Get data from Overpass"]

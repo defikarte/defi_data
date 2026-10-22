@@ -398,7 +398,7 @@ GeoJSON-Datei seit dem letzten verarbeiteten Commit:
 
 Der Orchestrator hat einen `workflow_dispatch`-Input `dry_run`:
 
-- Im Actions-Tab → „Reporting für alle Kantone" → „Run workflow"
+- Im Actions-Tab → „Reporting für alle Kunden" → „Run workflow"
 - `dry_run: true` setzen
 - Zeigt im Log für jeden Kanton entweder `bereits verarbeitet` oder
   `[DRY RUN] Würde Mail senden: ...` – ohne tatsächlich etwas zu verschicken
