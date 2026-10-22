@@ -31,6 +31,10 @@ PAGE_BG = "#FFFFFF"
 CARD_BG = "#FFFFFF"
 CHANGE_BG = "#F5F7F6"
 SITE_URL = "https://defikarte.ch"
+# "Auf Karte ansehen" führt auf defikarte.ch: Kartenausschnitt über den Hash
+# (#zoom/lat/lon), ?aed=<OSM-Node-ID> öffnet dort den Detailmarker.
+DEFIKARTE_MAP_URL = f"{SITE_URL}/map"
+DEFIKARTE_ZOOM = 19
 FONT = "'Poppins', Arial, Helvetica, sans-serif"
 
 # ── Partner-Logo oben rechts ─────────────────────────────────────────────────
@@ -235,6 +239,15 @@ def map_url(lon, lat, key=None):
     return None
 
 
+def defikarte_url(lon, lat, key=None):
+    """Link auf den Defi auf defikarte.ch; ohne Koordinaten Fallback auf map_url."""
+    if lon is None or lat is None:
+        return map_url(lon, lat, key)
+    m = re.match(r"^node/(\d+)$", key or "")
+    query = f"?aed={m.group(1)}" if m else ""
+    return f"{DEFIKARTE_MAP_URL}{query}#{DEFIKARTE_ZOOM}/{lat:.6f}/{lon:.6f}"
+
+
 def truncate(s, n=140):
     s = " ".join(str(s).split())
     return s if len(s) <= n else s[:n - 1].rstrip() + "\u2026"
@@ -287,7 +300,8 @@ def feature_entry(status, feature, changes=None):
         "has_name": has_name,
         "detail": detail,
         "addr": None if name_is_addr else (address(p) or fallback),
-        "url": map_url(lon, lat, get_key(feature)),
+        # Gelöschte Defis gibt es auf defikarte.ch nicht mehr -> OSM-Link (zeigt auch die Historie)
+        "url": (map_url if status == "Gelöscht" else defikarte_url)(lon, lat, get_key(feature)),
         "new_247": status == "Neu" and p.get("opening_hours") == "24/7",
         "changes": changes or [],
     }

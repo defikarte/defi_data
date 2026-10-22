@@ -14,7 +14,7 @@ import re
 import sys
 from datetime import datetime, timezone
 
-from mail_common import FIELD_LABELS, map_url, page, summary_html, coords_line, T
+from mail_common import FIELD_LABELS, defikarte_url, page, summary_html, coords_line, T
 
 _OLD_FORMAT = re.compile(r"^(.*?): '(.*)' \u2192 '(.*)'$", re.DOTALL)
 
@@ -48,7 +48,7 @@ def to_entry(e):
         "has_name": has_name,
         "detail": e.get("detail"),
         "addr": addr,
-        "url": map_url(lon, lat, e.get("key")),
+        "url": defikarte_url(lon, lat, e.get("key")),
         "new_247": False,
         "changes": [normalize_change(c) for c in e.get("changes", [])],
     }
