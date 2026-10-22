@@ -13471,14 +13471,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa 09:00-10:00",
+    "opening_hours": "Mo-Sa 08:00-22:00",
     "operator": "Wincasa AG",
     "id": "node/8560862939"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4689361,
+      8.4689362,
       47.4313866
     ]
   }
@@ -46056,10 +46056,11 @@
   "id": "node/11038063815",
   "properties": {
     "defibrillator:location": "Feuerwehrdepot Regensdorf",
+    "email": "sicherheit@regensdorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-16:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Feuerwehr Regensdorf",
     "phone": "+41448433312",
     "source": "local_knowledge, defikarte.ch",
@@ -46068,8 +46069,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4637601,
-      47.4385236
+      8.4637602,
+      47.4385235
     ]
   }
 },
@@ -64613,8 +64614,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4769017,
-      47.3362089
+      8.4769563,
+      47.3361723
     ]
   }
 },

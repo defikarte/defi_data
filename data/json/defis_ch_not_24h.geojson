@@ -47183,14 +47183,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Sa 09:00-10:00",
+    "opening_hours": "Mo-Sa 08:00-22:00",
     "operator": "Wincasa AG",
     "id": "node/8560862939"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4689361,
+      8.4689362,
       47.4313866
     ]
   }
@@ -137973,10 +137973,11 @@
   "id": "node/11038063815",
   "properties": {
     "defibrillator:location": "Feuerwehrdepot Regensdorf",
+    "email": "sicherheit@regensdorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-16:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Feuerwehr Regensdorf",
     "phone": "+41448433312",
     "source": "local_knowledge, defikarte.ch",
@@ -137985,8 +137986,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4637601,
-      47.4385236
+      8.4637602,
+      47.4385235
     ]
   }
 },
@@ -172066,7 +172067,6 @@
   "id": "node/12306615001",
   "properties": {
     "access": "permissive",
-    "contact:emergency:phone": "144",
     "contact:phone": "+41 41 725 31 50",
     "defibrillator:location": "Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",
     "emergency": "defibrillator",
@@ -221946,6 +221946,114 @@
     "coordinates": [
       9.3936393,
       47.4995906
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14308390701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingang Auditorium WHGA",
+    "email": "silke.pfinninger@psi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "PSI",
+    "id": "node/14308390701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2225095,
+      47.5380917
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14308413199",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Ostermundigen",
+    "addr:housenumber": "15",
+    "addr:postcode": "3072",
+    "addr:street": "Waldheimstrasse",
+    "defibrillator:location": "Zürcherholz GmbH Korridor Zimmerei-Schreinerei",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Zürcherholz GmbH",
+    "opening_hours": "MO - FR 07.00-12.00 / 13.00-17.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1695ltm",
+    "id": "node/14308413199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4880497,
+      46.9512652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14308418799",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Attiswil",
+    "addr:housenumber": "21",
+    "addr:postcode": "4536",
+    "addr:street": "Solothurnstrasse",
+    "defibrillator:location": "Auto Lemp AG Eingang Werkstatt bei Tankstelle",
+    "description": "koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Auto Lemp",
+    "opening_hours": "Mo-Do 07:30-12:00 13:30-17:45 Fr 07:30-12:00 13:30-17:00 Sa 08:00-11:30",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1693ltm",
+    "id": "node/14308418799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6099246,
+      47.2466923
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14308768401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "e.Luterbach AG",
+    "description": "Hängt im zwischen Gang vor dem Werkstatt Pausenraum",
+    "email": "info@luterbach-ag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "operator": "Firma",
+    "phone": "+41 41 464 35 00",
+    "id": "node/14308768401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2338626,
+      47.1466267
     ]
   }
 }

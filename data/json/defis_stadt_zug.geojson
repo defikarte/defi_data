@@ -2074,7 +2074,6 @@
   "id": "node/12306615001",
   "properties": {
     "access": "permissive",
-    "contact:emergency:phone": "144",
     "contact:phone": "+41 41 725 31 50",
     "defibrillator:location": "Bossard Arena, Haupteingang, im Gang rechts an Wand vor Aussenfeld-Kasse",
     "emergency": "defibrillator",

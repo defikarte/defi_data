@@ -24751,6 +24751,31 @@
       47.137566
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14308768401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "e.Luterbach AG",
+    "description": "Hängt im zwischen Gang vor dem Werkstatt Pausenraum",
+    "email": "info@luterbach-ag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "operator": "Firma",
+    "phone": "+41 41 464 35 00",
+    "id": "node/14308768401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2338626,
+      47.1466267
+    ]
+  }
 }
 ]
 }

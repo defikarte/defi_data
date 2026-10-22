@@ -66483,6 +66483,66 @@
       47.1902281
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14308413199",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Ostermundigen",
+    "addr:housenumber": "15",
+    "addr:postcode": "3072",
+    "addr:street": "Waldheimstrasse",
+    "defibrillator:location": "Zürcherholz GmbH Korridor Zimmerei-Schreinerei",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Zürcherholz GmbH",
+    "opening_hours": "MO - FR 07.00-12.00 / 13.00-17.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1695ltm",
+    "id": "node/14308413199"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4880497,
+      46.9512652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14308418799",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Attiswil",
+    "addr:housenumber": "21",
+    "addr:postcode": "4536",
+    "addr:street": "Solothurnstrasse",
+    "defibrillator:location": "Auto Lemp AG Eingang Werkstatt bei Tankstelle",
+    "description": "koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Auto Lemp",
+    "opening_hours": "Mo-Do 07:30-12:00 13:30-17:45 Fr 07:30-12:00 13:30-17:00 Sa 08:00-11:30",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1693ltm",
+    "id": "node/14308418799"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6099246,
+      47.2466923
+    ]
+  }
 }
 ]
 }

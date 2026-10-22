@@ -31977,6 +31977,29 @@
       47.2813112
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14308390701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingang Auditorium WHGA",
+    "email": "silke.pfinninger@psi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "PSI",
+    "id": "node/14308390701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2225095,
+      47.5380917
+    ]
+  }
 }
 ]
 }

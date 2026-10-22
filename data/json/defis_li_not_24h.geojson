@@ -29,7 +29,7 @@
   "type": "Feature",
   "id": "node/8842630421",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Tennishalle Schaanerstrasse 42",
     "description": "Im Gang zwischen den Eingängen bei den Hallen",
     "emergency": "defibrillator",
@@ -45,7 +45,7 @@
     "type": "Point",
     "coordinates": [
       9.5071502,
-      47.1509125
+      47.1509128
     ]
   }
 },
@@ -76,7 +76,7 @@
   "type": "Feature",
   "id": "node/9004556010",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Hallenbad Balzers Bademeisterkabine",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -302,11 +302,12 @@
   "type": "Feature",
   "id": "node/9004557428",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Bürohaus beim Empfang 2.OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "2",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
     "operator": "Uwe Negele",
     "phone": "+423 236 71 79",
@@ -346,13 +347,14 @@
   "type": "Feature",
   "id": "node/9004557431",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang 1.OG",
+    "access": "private",
+    "defibrillator:location": "House of Blockchain",
+    "description": "Sekretariat Zentrale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Sekretariat Zentrale",
     "phone": "+423 236 64 00",
     "id": "node/9004557431"
   },
@@ -368,11 +370,12 @@
   "type": "Feature",
   "id": "node/9004557433",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Liechtensteinische Musikschule, Haupteingang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
     "operator": "Liecht. Landesverwaltung",
     "phone": "+423 236 69 26",
@@ -391,7 +394,7 @@
   "type": "Feature",
   "id": "node/9004557435",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Regierungsgebäude Haupteingang EG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -436,7 +439,7 @@
   "type": "Feature",
   "id": "node/9004557438",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Amt für Gesundheit",
     "description": "Aeulestr. 51, Haupteingang West",
     "emergency": "defibrillator",
@@ -505,7 +508,7 @@
   "type": "Feature",
   "id": "node/9004557447",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Freibad Mühleholz vor Sanitätsraum",
     "email": "info@freibad.li",
     "emergency": "defibrillator",
@@ -863,6 +866,7 @@
   "type": "Feature",
   "id": "node/10074622164",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Hauptgebäude VP Bank. Bei Personaleingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -884,6 +888,7 @@
   "type": "Feature",
   "id": "node/10074622165",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Haus Giessen VP Bank, Bei Personaleingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -967,7 +972,7 @@
   "type": "Feature",
   "id": "node/10763310410",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Universität, Spörry, Bei Empfang 1. OG",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -1060,7 +1065,7 @@
   "type": "Feature",
   "id": "node/10763310415",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Home of Finance, Zollstr. 32",
     "description": "Empfang im EG, oranger Koffer",
     "emergency": "defibrillator",
@@ -1173,7 +1178,7 @@
   "type": "Feature",
   "id": "node/11037266741",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Haus Amann",
     "description": "Im Büro",
     "emergency": "defibrillator",
@@ -1314,7 +1319,7 @@
   "type": "Feature",
   "id": "node/11457632569",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Roxy Markt",
     "description": "Im Gang zum Migrosmarkt",
     "emergency": "defibrillator",
@@ -1327,8 +1332,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5121218,
-      47.0753508
+      9.5121217,
+      47.075351
     ]
   }
 },
