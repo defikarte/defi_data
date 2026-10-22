@@ -102,6 +102,7 @@ TEXTS = {
         "no_info": "keine Angabe mehr",
         "moved": "verschoben um {dist}",
         "old_location": "alter Standort",
+        "osm_history": "Verlauf in OSM",
         "footer": "Automatisch generiert von defikarte.ch",
         "partner_label": "in Zusammenarbeit mit",
     },
@@ -126,6 +127,7 @@ TEXTS = {
         "no_info": "plus aucune indication",
         "moved": "déplacé de {dist}",
         "old_location": "ancien emplacement",
+        "osm_history": "historique dans OSM",
         "footer": "Généré automatiquement par defikarte.ch",
         "partner_label": "en collaboration avec",
     },
@@ -235,7 +237,7 @@ def map_url(lon, lat, key=None):
     if key and key.startswith(("node/", "way/", "relation/")):
         return f"https://www.openstreetmap.org/{key}"
     if lon is not None and lat is not None:
-        return f"https://www.google.com/maps?q={lat},{lon}"
+        return f"https://www.openstreetmap.org/?mlat={lat:.6f}&mlon={lon:.6f}#map=19/{lat:.6f}/{lon:.6f}"
     return None
 
 
@@ -302,6 +304,7 @@ def feature_entry(status, feature, changes=None):
         "addr": None if name_is_addr else (address(p) or fallback),
         # Gelöschte Defis gibt es auf defikarte.ch nicht mehr -> OSM-Link (zeigt auch die Historie)
         "url": (map_url if status == "Gelöscht" else defikarte_url)(lon, lat, get_key(feature)),
+        "key": get_key(feature),
         "new_247": status == "Neu" and p.get("opening_hours") == "24/7",
         "changes": changes or [],
     }
@@ -394,7 +397,15 @@ def format_distance(m):
     return f"{km.replace('.', ',') if LANG == 'fr' else km} km"
 
 
-def move_line(old, new):
+def old_location_link(lon, lat, key=None):
+    """OSM-History des Nodes (zeigt alle Positionen und wer verschoben hat);
+    ohne Node-ID ein OSM-Marker am alten Standort."""
+    if key and key.startswith(("node/", "way/", "relation/")):
+        return f"https://www.openstreetmap.org/{key}/history", T("osm_history")
+    return map_url(lon, lat), T("old_location")
+
+
+def move_line(old, new, key=None):
     """Zeile für eine Verschiebung; old/new als "lat,lon"."""
     try:
         lat1, lon1 = (float(x) for x in str(old).split(","))
@@ -402,20 +413,20 @@ def move_line(old, new):
     except ValueError:
         return f'<div style="margin:3px 0;font-size:13px;color:{MUTED};">{_e(label_out(MOVE_LABEL))}</div>'
     dist = format_distance(distance_m(lon1, lat1, lon2, lat2))
-    old_link = (f' <a href="{_e(map_url(lon1, lat1))}" style="color:{GREEN_DARK};font-size:12px;">'
-                f'({_e(T("old_location"))})</a>')
+    url, text = old_location_link(lon1, lat1, key)
+    old_link = f' <a href="{_e(url)}" style="color:{GREEN_DARK};font-size:12px;">({_e(text)})</a>'
     return (f'<div style="margin:3px 0;font-size:13px;color:{INK};">'
             f'<span style="color:{MUTED};">{_e(label_out(MOVE_LABEL))}{colon()}</span> '
             f'<strong style="font-weight:600;">{_e(T("moved", dist=dist))}</strong>{old_link}</div>')
 
 
-def change_line(change):
+def change_line(change, key=None):
     """change = (label, alt, neu) oder ("__raw__", text) für unlesbare Altdaten."""
     if len(change) == 2:
         return f'<div style="margin:3px 0;font-size:13px;color:{MUTED};">{_e(change[1])}</div>'
     label, old, new = change
     if label == MOVE_LABEL:
-        return move_line(old, new)
+        return move_line(old, new, key)
     if is_gain_247(label, old, new):
         return (f'<div style="margin:3px 0;font-size:13px;"><span style="color:{GREEN_DARK};font-weight:600;">'
                 f'{_e(T("gain_247"))}</span>{badge_247()}</div>')
@@ -452,7 +463,7 @@ def card(entry):
             if entry.get("addr") else "")
     changes = ""
     if entry.get("changes"):
-        lines = "".join(change_line(c) for c in entry["changes"])
+        lines = "".join(change_line(c, entry.get("key")) for c in entry["changes"])
         changes = (f'<table role="presentation" width="100%" style="border-collapse:collapse;margin-top:12px;">'
                    f'<tr><td style="background-color:{CHANGE_BG};border-radius:12px;padding:10px 14px;">'
                    f'{lines}</td></tr></table>')

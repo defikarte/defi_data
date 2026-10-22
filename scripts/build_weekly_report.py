@@ -49,6 +49,7 @@ def to_entry(e):
         "detail": e.get("detail"),
         "addr": addr,
         "url": defikarte_url(lon, lat, e.get("key")),
+        "key": e.get("key"),
         "new_247": False,
         "changes": [normalize_change(c) for c in e.get("changes", [])],
     }
