@@ -3333,7 +3333,7 @@ Sa 09 - 17 Uhr",,,defibrillator,144,,,,,node/13001515901,,,yes,,0,,,,,,,,Brockit
 13344000101,node,47.3464676,8.6073697,permissive,,,,,,,,,,,,,,,,,,,,,,,,,MedAction Physiotherapie,,,,,,,defibrillator,144,,,,,node/13344000101,,,yes,,-1,,,,,,,Mo-Fr 08:00-18:00,,+41 44 527 88 48,,,,,,,,,,,
 13344258001,node,47.512179,8.544116,,,,,,,,,,,,,,,,,,,,,,,,,,Mettmenriet,,,,,,,defibrillator,144,,,,,node/13344258001,,,yes,,2,,,,,,,,,,,,,,,,,,,,
 13347545501,node,47.447903,8.5960219,permissive,,,,,,,,,,,,,,,,,,,,,,,,,Oberfeldstrasse 2,,,,,,,defibrillator,144,,,,,node/13347545501,,,yes,,0,,,,,,,Mo-Fr 08:00 - 16:00,,+41445647638,,,,,,,,,,,
-13347632801,node,47.2551787,8.7511929,yes,,,,,,,,,,,,,,,,,,,,,,,,,"Schützenhaus (300 Meter Schiessstand), links von der Eingangstüre",,,,Öffentlich,,,defibrillator,144,,,,,node/13347632801,,,no,,0,,,,,,,24/7,Gemeinde Hombrechtikon,+41 55 254 92 62,,,,,,,,,,,
+13347632801,node,47.2551819,8.7511897,yes,,,,,,,,,,,,,,,,,,,,,,,,,"Schützenhaus (300 Meter Schiessstand), links von der Eingangstüre",,,,,,,defibrillator,144,,,,,node/13347632801,,,no,,0,,,,,,,24/7,Gemeinde Hombrechtikon,+41 55 254 92 62,,,,,,,,,,,
 13350849501,node,47.4109105,8.5427048,private,,,,,,,,,,,,,,,,,,,,,,,,,Franklinturm,,,,,,,defibrillator,144,,,,,node/13350849501,,,no,,16,,,,,,,08:00-12:00,,,,,,,,,,,,,
 13351341301,node,47.3768974,8.4311241,permissive,,,,,,,,,,,,,,,,,,,,,,,,,"Tennisclub Weihermatt Urdorf, Herren Garderobe",,,,während der Öffnungszeiten verfügbar,,,defibrillator,144,,,,,node/13351341301,,,yes,,0,,,,,,,,Tennisclub Weihermatt Urdorf,,,,,,,,,,,,
 13351510102,node,47.3815867,8.531149,,,,,,,,,,,,,,,,,,,,,,,,,,Beim Notausgang,,,,Während Öffnungszeiten,,,defibrillator,144,,,,,node/13351510102,,,yes,,0,,,,,,,,Brockenhaus Zürich,,,,,,,,,,,,
