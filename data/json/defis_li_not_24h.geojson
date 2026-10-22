@@ -76,7 +76,7 @@
   "type": "Feature",
   "id": "node/9004556010",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Hallenbad Balzers Bademeisterkabine",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -122,12 +122,15 @@
   "type": "Feature",
   "id": "node/9004556014",
   "properties": {
+    "access": "private",
     "defibrillator:location": "LAK Haus, Sekretariat",
+    "description": "Sekretariat",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 09:00-18:00",
-    "operator": "Sekretariat",
+    "operator": "LAK",
     "phone": "+423 399 15 00",
     "id": "node/9004556014"
   },
@@ -909,11 +912,13 @@
   "type": "Feature",
   "id": "node/10127670618",
   "properties": {
+    "access": "private",
     "defibrillator:location": "INFICON AG, 2.OG im Atrium bei Kantine",
     "description": "während Öffnungszeiten verfügbar 08:00 - 12:00 / 13:30 - 17:00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "2",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "INFICON AG",
     "id": "node/10127670618"
@@ -1204,7 +1209,7 @@
   "type": "Feature",
   "id": "node/11276896069",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Office Building, Landstrasse 105, 9495 Triesen",
     "description": "Office opening hours",
     "emergency": "defibrillator",
@@ -1220,8 +1225,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5239305,
-      47.1155115
+      9.5239301,
+      47.1155118
     ]
   }
 },
@@ -1299,10 +1304,11 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Roxy Markt",
-    "description": "Im Gang zum Migrosmarkt",
+    "description": "Im Gang bei den Geschäften",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-19:00",
     "operator": "Stefan Ospelt",
     "id": "node/11457632569"
@@ -1387,22 +1393,23 @@
   "type": "Feature",
   "id": "node/11698462269",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Realschule, Turnhalle",
     "description": "Bei der Mensa, Eingangshalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-18:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
     "id": "node/11698462269"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5257519,
-      47.1053826
+      9.525752,
+      47.1053827
     ]
   }
 },
@@ -1410,7 +1417,7 @@
   "type": "Feature",
   "id": "node/11698519869",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "WST, Oberschule in Telefonnische",
     "description": "vis a vis Sekretariat",
     "emergency": "defibrillator",
@@ -1419,6 +1426,7 @@
     "level": "0",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
     "id": "node/11698519869"
   },
   "geometry": {
@@ -1710,9 +1718,9 @@
   "type": "Feature",
   "id": "node/12372464101",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Sigma Kreditbank Bürohaus ",
-    "description": "im Büro ",
+    "access": "permissive",
+    "defibrillator:location": "Sigma Kreditbank Bürohaus",
+    "description": "im Büro",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -1725,7 +1733,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5236913,
+      9.5236914,
       47.1127779
     ]
   }
@@ -1830,7 +1838,7 @@
   "type": "Feature",
   "id": "node/12985552402",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "LAK Unterm Schloss 80",
     "description": "beim Haupteingang rechts in einem Sideboard gelagert",
     "emergency": "defibrillator",
@@ -2222,18 +2230,24 @@
   "type": "Feature",
   "id": "node/14226211201",
   "properties": {
-    "defibrillator:location": "Unterm Schloss 68",
+    "access": "permissive",
+    "defibrillator:location": "Arztpraxis Unterm Schloss 68",
+    "description": "Beim Empfang",
+    "email": "praxis@hin.li",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 8:00-12:00,14:00-18:00",
+    "operator": "Dr. Wille",
+    "phone": "+423 384 23 23",
     "id": "node/14226211201"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.497388,
-      47.0647605
+      9.4973883,
+      47.0647606
     ]
   }
 }
