@@ -58,8 +58,6 @@ def maps_links(lon, lat, key=None):
         links.append(f'<a href="https://www.openstreetmap.org/{key}">OSM</a>')
     elif lon is not None and lat is not None:
         links.append(f'<a href="https://www.openstreetmap.org/?mlat={lat}&mlon={lon}#map=19/{lat}/{lon}">OSM</a>')
-    if lon is not None and lat is not None:
-        links.append(f'<a href="https://www.google.com/maps?q={lat},{lon}">Google Maps</a>')
     return " | ".join(links)
 
 def is_valid(lon, lat):
