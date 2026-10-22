@@ -1501,21 +1501,22 @@
   "type": "Feature",
   "id": "node/11834901471",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Sareis Bergrestaurant, Eingangsbereich",
-    "description": "Wärend Öffnungszeiten und Bahnbetrieb verfügbar",
+    "description": "Auch nur wenn Bahn fährt ist das Restaurant geöffnet.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Su 08:30-17:00",
     "operator": "Bergbahnen Malbun",
     "id": "node/11834901471"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.6202875,
-      47.1026378
+      9.6202871,
+      47.1026373
     ]
   }
 },

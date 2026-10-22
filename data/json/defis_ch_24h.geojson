@@ -21045,18 +21045,21 @@
   "id": "node/7476164252",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hintereingang rechts vom Gemeindehaus",
+    "defibrillator:location": "Gemeindehaus, Hintereingang",
+    "description": "Hintereingang Gemeindehaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Hunzenschwil",
     "wheelchair": "yes",
     "id": "node/7476164252"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1232486,
-      47.3843906
+      8.1232484,
+      47.3843905
     ]
   }
 },
@@ -48882,7 +48885,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Gemeindeverwaltung Hausdienst Beat Huber",
+    "operator": "Einwohnergemeinde Hunzenschwil",
     "phone": "+41 62 889 02 85",
     "id": "node/8678277063"
   },
