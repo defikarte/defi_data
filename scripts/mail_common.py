@@ -11,6 +11,7 @@ Feldnamen deutsch; übersetzt wird nur bei der Ausgabe.
 """
 
 import html
+import math
 import os
 import re
 
@@ -64,6 +65,11 @@ FIELD_LABELS = {
 RELEVANT_FIELDS = list(FIELD_LABELS.keys())
 OPENING_LABEL = FIELD_LABELS["opening_hours"]
 
+# Verschiebung: wird gemeldet, wenn der Defi mindestens so weit versetzt wurde.
+# Pro Kanton über "move_threshold_m" in kantone_config.json (-> REPORT_MOVE_THRESHOLD_M).
+MOVE_LABEL = "Standort"
+MOVE_THRESHOLD_M = float(os.environ.get("REPORT_MOVE_THRESHOLD_M") or 25)
+
 
 # ── Sprache ──────────────────────────────────────────────────────────────────
 LANG = os.environ.get("REPORT_LANG", "de").strip().lower()
@@ -90,6 +96,8 @@ TEXTS = {
         "gain_247": "Öffnungszeiten: neu 24/7",
         "loss_247": "Öffnungszeiten: nicht mehr 24/7",
         "no_info": "keine Angabe mehr",
+        "moved": "verschoben um {dist}",
+        "old_location": "alter Standort",
         "footer": "Automatisch generiert von defikarte.ch",
         "partner_label": "in Zusammenarbeit mit",
     },
@@ -112,6 +120,8 @@ TEXTS = {
         "gain_247": "Horaires d\u2019ouverture\u00a0: désormais 24/7",
         "loss_247": "Horaires d\u2019ouverture\u00a0: plus en 24/7",
         "no_info": "plus aucune indication",
+        "moved": "déplacé de {dist}",
+        "old_location": "ancien emplacement",
         "footer": "Généré automatiquement par defikarte.ch",
         "partner_label": "en collaboration avec",
     },
@@ -123,6 +133,7 @@ FIELD_LABELS_FR = {
     "Standortbeschreibung": "Description de l\u2019emplacement", "Beschreibung": "Description",
     "Stockwerk": "Étage", "Strasse": "Rue", "Hausnummer": "Numéro",
     "PLZ": "NPA", "Ort": "Localité", "Innenbereich": "À l\u2019intérieur",
+    "Standort": "Emplacement",
 }
 
 
@@ -288,6 +299,31 @@ def compute_changes(old_p, new_p):
             for f in RELEVANT_FIELDS if old_p.get(f) != new_p.get(f)]
 
 
+def distance_m(lon1, lat1, lon2, lat2):
+    """Luftlinie in Metern (Haversine)."""
+    r = 6371000
+    p1, p2 = math.radians(lat1), math.radians(lat2)
+    dp, dl = p2 - p1, math.radians(lon2 - lon1)
+    a = math.sin(dp / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(dl / 2) ** 2
+    return 2 * r * math.asin(math.sqrt(a))
+
+
+def compute_move(old_f, new_f):
+    """[(MOVE_LABEL, "lat,lon alt", "lat,lon neu")] ab MOVE_THRESHOLD_M, sonst []."""
+    lon1, lat1 = coords(old_f)
+    lon2, lat2 = coords(new_f)
+    if None in (lon1, lat1, lon2, lat2):
+        return []
+    if distance_m(lon1, lat1, lon2, lat2) < MOVE_THRESHOLD_M:
+        return []
+    return [(MOVE_LABEL, f"{lat1:.6f},{lon1:.6f}", f"{lat2:.6f},{lon2:.6f}")]
+
+
+def feature_changes(old_f, new_f):
+    """Verschiebung plus geänderte Felder zwischen zwei Ständen desselben Defis."""
+    return compute_move(old_f, new_f) + compute_changes(props(old_f), props(new_f))
+
+
 # ── 24/7-Logik ───────────────────────────────────────────────────────────────
 def is_gain_247(label, old, new):
     return label == OPENING_LABEL and str(new) == "24/7" and str(old) != "24/7"
@@ -337,11 +373,35 @@ def badge_247():
             f'margin-left:8px;vertical-align:middle;">24/7</span>')
 
 
+def format_distance(m):
+    if m < 1000:
+        return f"{round(m)} m"
+    km = f"{m / 1000:.1f}"
+    return f"{km.replace('.', ',') if LANG == 'fr' else km} km"
+
+
+def move_line(old, new):
+    """Zeile für eine Verschiebung; old/new als "lat,lon"."""
+    try:
+        lat1, lon1 = (float(x) for x in str(old).split(","))
+        lat2, lon2 = (float(x) for x in str(new).split(","))
+    except ValueError:
+        return f'<div style="margin:3px 0;font-size:13px;color:{MUTED};">{_e(label_out(MOVE_LABEL))}</div>'
+    dist = format_distance(distance_m(lon1, lat1, lon2, lat2))
+    old_link = (f' <a href="{_e(map_url(lon1, lat1))}" style="color:{GREEN_DARK};font-size:12px;">'
+                f'({_e(T("old_location"))})</a>')
+    return (f'<div style="margin:3px 0;font-size:13px;color:{INK};">'
+            f'<span style="color:{MUTED};">{_e(label_out(MOVE_LABEL))}{colon()}</span> '
+            f'<strong style="font-weight:600;">{_e(T("moved", dist=dist))}</strong>{old_link}</div>')
+
+
 def change_line(change):
     """change = (label, alt, neu) oder ("__raw__", text) für unlesbare Altdaten."""
     if len(change) == 2:
         return f'<div style="margin:3px 0;font-size:13px;color:{MUTED};">{_e(change[1])}</div>'
     label, old, new = change
+    if label == MOVE_LABEL:
+        return move_line(old, new)
     if is_gain_247(label, old, new):
         return (f'<div style="margin:3px 0;font-size:13px;"><span style="color:{GREEN_DARK};font-weight:600;">'
                 f'{_e(T("gain_247"))}</span>{badge_247()}</div>')

@@ -12,7 +12,7 @@ import sys
 from datetime import datetime, timezone
 
 from mail_common import (index, props, coords, address, display_name, detail_line,
-                         feature_entry, compute_changes, page)
+                         feature_entry, feature_changes, page)
 
 pending_file = sys.argv[3] if len(sys.argv) > 3 else ".reporting/pending_changes_be.json"
 
@@ -34,7 +34,7 @@ changed_entries = []
 now_iso = datetime.now(timezone.utc).isoformat()
 for k in common:
     np_ = props(new_idx[k])
-    changes = compute_changes(props(old_idx[k]), np_)
+    changes = feature_changes(old_idx[k], new_idx[k])
     if not changes:
         continue
     lon, lat = coords(new_idx[k])

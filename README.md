@@ -282,6 +282,9 @@ mehrere Workflows gleichzeitig ihren Verarbeitungsstand committen wollten.
 | `use_cc` | ob `MAIL_COPY`-Secret als CC angehängt wird |
 | `reporting_mode` | `"immediate"` oder `"immediate_new_deleted_weekly_changed"` (aktuell nur BE) |
 | `language` | Sprache der Mail: `"de"` (Standard, wenn das Feld fehlt) oder `"fr"`. Steuert Betreff, Titel, Statusbezeichnungen, Feldnamen und Fusszeile. Die Texte stehen zentral in `scripts/mail_common.py` (`TEXTS`, `FIELD_LABELS_FR`) und im Orchestrator (`SUBJECTS`). |
+| `partner_logo` | optional: Partner-Logo oben rechts in der Mail, z.B. `"surevive"` (siehe `PARTNER_LOGOS` in `scripts/mail_common.py`). Fehlt das Feld, erscheint nur das defikarte.ch-Logo. |
+| `subject` | optional: eigener Betreff mit Platzhalter `{name}`, z.B. `"Änderungen an Defis {name}"` (Liechtenstein). Ohne das Feld gilt der Standardbetreff aus `SUBJECTS`. |
+| `move_threshold_m` | optional: ab wie vielen Metern eine Verschiebung als Änderung gemeldet wird (Standard `25`). Kleinere Korrekturen beim Kartieren lösen keine Meldung aus. |
 
 #### Neuen Kanton hinzufügen
 

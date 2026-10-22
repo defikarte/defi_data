@@ -25,7 +25,7 @@ import subprocess
 import sys
 from datetime import datetime, timezone
 
-from mail_common import (index, props, feature_entry, compute_changes, page, card,
+from mail_common import (index, feature_entry, feature_changes, page, card,
                          summary_html, dot, STATUS_COLORS, FONT, INK, MUTED, RULE,
                          GREEN_DARK, GREEN_LIGHT, COLOR_WARN_TEXT, _e)
 
@@ -86,7 +86,7 @@ def diff(old_fc, new_fc):
     for k in set(new_idx) - set(old_idx):
         out.append((k, feature_entry("Neu", new_idx[k])))
     for k in set(new_idx) & set(old_idx):
-        ch = compute_changes(props(old_idx[k]), props(new_idx[k]))
+        ch = feature_changes(old_idx[k], new_idx[k])
         if ch:
             out.append((k, feature_entry("Geändert", new_idx[k], ch)))
     for k in set(old_idx) - set(new_idx):

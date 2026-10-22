@@ -10,7 +10,7 @@ import json
 import sys
 from datetime import datetime, timezone
 
-from mail_common import index, props, feature_entry, compute_changes, page, T
+from mail_common import index, feature_entry, feature_changes, page, T
 
 
 def load(path):
@@ -27,7 +27,7 @@ common = sorted(set(new_idx) & set(old_idx))
 
 entries = [feature_entry("Neu", new_idx[k]) for k in added]
 for k in common:
-    changes = compute_changes(props(old_idx[k]), props(new_idx[k]))
+    changes = feature_changes(old_idx[k], new_idx[k])
     if changes:
         entries.append(feature_entry("Geändert", new_idx[k], changes))
 entries += [feature_entry("Gelöscht", old_idx[k]) for k in removed]
