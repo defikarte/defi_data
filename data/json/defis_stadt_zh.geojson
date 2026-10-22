@@ -1904,21 +1904,24 @@
   "type": "Feature",
   "id": "node/8190623288",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "BOT-0-78 / beim Haupteingang",
-    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
+    "access": "yes",
+    "defibrillator:location": "Botanischer Garten beim Eingang zur Cafeteria, Zollikerstrasse 105, 8008 Zürich",
+    "description": "AED-Box an Aussenwand",
+    "email": "info@su.uzh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Betriebssanität UZH",
-    "phone": "+41 44 635 41 41",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universität Zürich",
+    "phone": "+41 44 635 44 10",
     "id": "node/8190623288"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5600877,
-      47.358916
+      8.5596866,
+      47.358869
     ]
   }
 },
@@ -6376,6 +6379,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Mattenhof 8 durchgang",
+    "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -6387,8 +6391,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5930982,
-      47.3984462
+      8.5930983,
+      47.3984461
     ]
   }
 },
@@ -6398,6 +6402,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz",
+    "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -6409,8 +6414,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5917436,
-      47.3981318
+      8.5917431,
+      47.3981322
     ]
   }
 },
@@ -13037,6 +13042,7 @@
     "access": "yes",
     "defibrillator:location": "Beim Hauseingang",
     "description": "Draussen",
+    "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -13049,8 +13055,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5872231,
-      47.3987524
+      8.5872229,
+      47.3987523
     ]
   }
 },
@@ -19742,6 +19748,106 @@
     "coordinates": [
       8.5309174,
       47.3795569
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309008602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Lernzentrum Strickhof, Strickhofstrasse 37, 8057 Zürich",
+    "description": "AED ist in einer Box auf einem Ständer rechts vom Haupteingang",
+    "email": "info@su.uzh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universität Zürich",
+    "phone": "+41 44 635 44 10",
+    "id": "node/14309008602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.549622,
+      47.3954502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309076001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Box rechts vom unteren Eingang zum Gebäude TDE, Winterthurerstrasse 258b, 8057 Zürich",
+    "description": "Box an Aussenwand beim unteren Gebäudeeingang, auf Ebene der Parkplätze/Strasse",
+    "email": "info@su.uzh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universität Zürich",
+    "phone": "+41 44 635 44 10",
+    "id": "node/14309076001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5518743,
+      47.3997652
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309172501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stockerstrasse 23, 8002 Zürich",
+    "description": "In der grossen Eingangshalle, IV-WC links neben den Liften",
+    "email": "info@grebimmo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:00-19:00",
+    "operator": "Stockerhof Immoilien AG",
+    "phone": "+41 44 737 90 00",
+    "id": "node/14309172501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5355141,
+      47.3660475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309182201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Tödistrasse 27, 8002 Zürich",
+    "description": "Im Treppenhaus ganz unten an der Wand",
+    "email": "info@grebimmo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-3",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Edgar A. Giger",
+    "phone": "+41 44 737 90 00",
+    "id": "node/14309182201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5347551,
+      47.3658496
     ]
   }
 }

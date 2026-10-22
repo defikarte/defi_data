@@ -38725,6 +38725,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/8190623288",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Botanischer Garten beim Eingang zur Cafeteria, Zollikerstrasse 105, 8008 Zürich",
+    "description": "AED-Box an Aussenwand",
+    "email": "info@su.uzh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universität Zürich",
+    "phone": "+41 44 635 44 10",
+    "id": "node/8190623288"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5596866,
+      47.358869
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8198910052",
   "properties": {
     "access": "yes",
@@ -80242,6 +80267,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9999113417",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Nussbaumstr 36a",
+    "description": "im Hof",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Siedlung Baumgarten",
+    "id": "node/9999113417"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4677291,
+      46.9536239
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10006194517",
   "properties": {
     "access": "yes",
@@ -81217,6 +81264,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Mattenhof 8 durchgang",
+    "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -81228,8 +81276,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5930982,
-      47.3984462
+      8.5930983,
+      47.3984461
     ]
   }
 },
@@ -81239,6 +81287,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz",
+    "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -81250,8 +81299,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5917436,
-      47.3981318
+      8.5917431,
+      47.3981322
     ]
   }
 },
@@ -118664,6 +118713,7 @@
     "access": "yes",
     "defibrillator:location": "Beim Hauseingang",
     "description": "Draussen",
+    "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -118676,8 +118726,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5872231,
-      47.3987524
+      8.5872229,
+      47.3987523
     ]
   }
 },
@@ -134576,8 +134626,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6466997,
-      47.0061576
+      8.6467475,
+      47.0061755
     ]
   }
 },
@@ -164063,6 +164113,56 @@
     "coordinates": [
       7.6190737,
       47.5508438
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309008602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haupteingang Lernzentrum Strickhof, Strickhofstrasse 37, 8057 Zürich",
+    "description": "AED ist in einer Box auf einem Ständer rechts vom Haupteingang",
+    "email": "info@su.uzh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universität Zürich",
+    "phone": "+41 44 635 44 10",
+    "id": "node/14309008602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.549622,
+      47.3954502
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309076001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Box rechts vom unteren Eingang zum Gebäude TDE, Winterthurerstrasse 258b, 8057 Zürich",
+    "description": "Box an Aussenwand beim unteren Gebäudeeingang, auf Ebene der Parkplätze/Strasse",
+    "email": "info@su.uzh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Universität Zürich",
+    "phone": "+41 44 635 44 10",
+    "id": "node/14309076001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5518743,
+      47.3997652
     ]
   }
 }

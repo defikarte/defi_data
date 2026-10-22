@@ -33169,6 +33169,30 @@
       47.4082086
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14309231601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Empfangsraum Auravita Fitness",
+    "email": "info@auravita.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:45-17:00",
+    "operator": "AuraVita, AlbuVille AG",
+    "phone": "+41 55 220 67 00",
+    "id": "node/14309231601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8209846,
+      47.2272281
+    ]
+  }
 }
 ]
 }

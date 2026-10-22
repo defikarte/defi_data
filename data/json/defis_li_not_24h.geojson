@@ -164,28 +164,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9004556016",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bademeisterkabine",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
-    "operator": "Bademeister",
-    "phone": "+423 392 34 94",
-    "id": "node/9004556016"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5260477,
-      47.1057958
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9004557420",
   "properties": {
     "access": "yes",
@@ -1612,12 +1590,14 @@
   "type": "Feature",
   "id": "node/12167764301",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Haupteingang / Eingang 1, Lova Center, Austrasse, 9490 Vaduz",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 7:00-17:30",
     "operator": "Lova Center",
     "phone": "+4232361616",
     "id": "node/12167764301"
@@ -1625,7 +1605,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5242233,
+      9.5242231,
       47.1228007
     ]
   }
@@ -1681,7 +1661,7 @@
   "type": "Feature",
   "id": "node/12259418801",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Hoval AG, Werksgelände",
     "description": "Im mobilen Einsatzrucksack",
     "emergency": "defibrillator",
@@ -1697,7 +1677,7 @@
     "type": "Point",
     "coordinates": [
       9.5216408,
-      47.1216857
+      47.1216856
     ]
   }
 },

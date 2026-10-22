@@ -42962,28 +42962,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8190623288",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "BOT-0-78 / beim Haupteingang",
-    "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Betriebssanität UZH",
-    "phone": "+41 44 635 41 41",
-    "id": "node/8190623288"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5600877,
-      47.358916
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8190623289",
   "properties": {
     "access": "yes",
@@ -93751,27 +93729,6 @@
     "coordinates": [
       6.5263062,
       46.5979756
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9999113417",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Nussbaumstr 36a",
-    "description": "im Hof",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Siedlung Baumgarten",
-    "id": "node/9999113417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4677291,
-      46.9536239
     ]
   }
 },
@@ -218172,6 +218129,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 8:00 - 20:00, Sa 8:00 - 18:00",
     "operator": "Migros",
     "id": "node/14131423902"
   },
@@ -222054,6 +222012,104 @@
     "coordinates": [
       8.2338626,
       47.1466267
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309172501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stockerstrasse 23, 8002 Zürich",
+    "description": "In der grossen Eingangshalle, IV-WC links neben den Liften",
+    "email": "info@grebimmo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:00-19:00",
+    "operator": "Stockerhof Immoilien AG",
+    "phone": "+41 44 737 90 00",
+    "id": "node/14309172501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5355141,
+      47.3660475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309182201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Tödistrasse 27, 8002 Zürich",
+    "description": "Im Treppenhaus ganz unten an der Wand",
+    "email": "info@grebimmo.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-3",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Edgar A. Giger",
+    "phone": "+41 44 737 90 00",
+    "id": "node/14309182201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5347551,
+      47.3658496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309231601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Empfangsraum Auravita Fitness",
+    "email": "info@auravita.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:00-22:00; Sa-Su 08:45-17:00",
+    "operator": "AuraVita, AlbuVille AG",
+    "phone": "+41 55 220 67 00",
+    "id": "node/14309231601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8209846,
+      47.2272281
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14309298201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Haupteingang",
+    "email": "info@immo-360.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Immobiliengeschäft",
+    "phone": "+41 79 635 11 77",
+    "id": "node/14309298201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6415284,
+      47.2404104
     ]
   }
 }
