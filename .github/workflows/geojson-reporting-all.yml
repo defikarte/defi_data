@@ -1,4 +1,4 @@
-name: Reporting für alle Kantone
+name: Reporting für alle Kunden
 on:
   workflow_run:
     workflows: ["Get data from Overpass"]
