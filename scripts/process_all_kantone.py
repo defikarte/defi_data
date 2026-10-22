@@ -87,7 +87,10 @@ def lang_of(kanton):
 
 
 def subject_for(kanton, kind):
-    return SUBJECTS[lang_of(kanton)][kind].format(name=kanton["name"])
+    # Optionaler eigener Betreff pro Eintrag ("subject" in kantone_config.json),
+    # z.B. für Liechtenstein, wo "Kanton {name}" nicht passt.
+    template = kanton.get("subject") or SUBJECTS[lang_of(kanton)][kind]
+    return template.format(name=kanton["name"])
 
 
 def script_env(kanton):

@@ -133,6 +133,16 @@
       "reporting_mode": "immediate",
       "language": "de",
       "partner_logo": "surevive"
+    },
+    {
+      "id": "li",
+      "name": "Liechtenstein",
+      "geojson_file": "defis_liechtenstein.geojson",
+      "mail_recipient_secret": "MAIL_RECIPIENT_LI",
+      "use_cc": true,
+      "reporting_mode": "immediate",
+      "language": "de",
+      "subject": "Änderungen an Defis in {name}"
     }
   ],
   "defikarte_logo_url": "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"

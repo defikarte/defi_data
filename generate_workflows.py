@@ -123,7 +123,7 @@ def build_weekly_workflow(kanton):
     return f"""name: Wöchentlicher Änderungs-Report {name}
 on:
   schedule:
-    - cron: "0 7 * * 1"   # jeden Montag um 07:00 UTC
+    - cron: "16 7 * * 1"   # jeden Montag um 07:00 UTC
   workflow_dispatch:
 
 jobs:
