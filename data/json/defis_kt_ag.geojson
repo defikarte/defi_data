@@ -32003,6 +32003,23 @@
       47.5380917
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14310891069",
+  "properties": {
+    "defibrillator:location": "Beim Durchgang zu CH Media",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14310891069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0658963,
+      47.3981639
+    ]
+  }
 }
 ]
 }

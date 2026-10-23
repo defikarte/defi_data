@@ -81690,8 +81690,8 @@
   "id": "node/8190623288",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Botanischer Garten beim Eingang zur Cafeteria, Zollikerstrasse 105, 8008 Zürich",
-    "description": "AED-Box an Aussenwand",
+    "covered": "yes",
+    "defibrillator:location": "An der Aussenwand links des Eingangs zur Cafeteria, Zollikerstrasse 105, 8008 Zürich",
     "email": "info@su.uzh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -81705,8 +81705,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5596866,
-      47.358869
+      8.5596781,
+      47.3589051
     ]
   }
 },
@@ -386278,6 +386278,23 @@
     "coordinates": [
       8.6415284,
       47.2404104
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14310891069",
+  "properties": {
+    "defibrillator:location": "Beim Durchgang zu CH Media",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "id": "node/14310891069"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0658963,
+      47.3981639
     ]
   }
 }

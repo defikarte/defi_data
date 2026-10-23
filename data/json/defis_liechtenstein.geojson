@@ -212,7 +212,7 @@
   "type": "Feature",
   "id": "node/9004556010",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Hallenbad Balzers Bademeisterkabine",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -260,13 +260,14 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Pfarrkirche, Eingang links an der Wand",
+    "description": "Im Vorraum der Kirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
     "operator": "Gemeinde Triesen",
-    "phone": "+423 792 36 42",
+    "phone": "+423 222 01 35",
     "id": "node/9004556013"
   },
   "geometry": {
@@ -421,13 +422,15 @@
   "id": "node/9004557424",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Amt für Strassenverkehr, in der Fahrzeughalle",
+    "defibrillator:location": "Amt für Strassenverkehr",
+    "description": "Beim Warteraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00,13:00-17:00",
     "operator": "Liecht. Landesverwaltung",
+    "phone": "+423 222 01 35",
     "id": "node/9004557424"
   },
   "geometry": {
@@ -534,7 +537,7 @@
   "type": "Feature",
   "id": "node/9004557430",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Amt für Informatik, Haupteingang Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -695,7 +698,7 @@
   "type": "Feature",
   "id": "node/9004557439",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Rheinparkstadion Haupttribüne, Sanitätszimmer",
     "description": "Am Wochenende nur zu Spielzeiten",
     "emergency": "defibrillator",
@@ -875,8 +878,9 @@
   "type": "Feature",
   "id": "node/9004557456",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Haus der Wirtschaft: Eingang EG",
+    "description": "Beim Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -897,6 +901,7 @@
   "type": "Feature",
   "id": "node/9004557458",
   "properties": {
+    "access": "private",
     "defibrillator:location": "LAK Haus in Cafeteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -987,7 +992,7 @@
   "type": "Feature",
   "id": "node/9004557463",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "hpz Werkstätten Auxilia, erster Stock gegenüber Lift",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -1009,20 +1014,21 @@
   "type": "Feature",
   "id": "node/9004557464",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Werk 1",
-    "description": "während Öffnungszeiten verfügbar",
+    "access": "private",
+    "defibrillator:location": "Hilti Im Werk 1",
+    "description": "Werkschutz alarmieren",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Leiter Werkschutz",
+    "opening_hours": "Mo-Fr 7:30-17:00",
+    "operator": "Hilti Werkschutz",
     "phone": "+423 234 22 01",
     "id": "node/9004557464"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5244276,
+      9.5244277,
       47.1793582
     ]
   }
@@ -1623,10 +1629,12 @@
   "type": "Feature",
   "id": "node/10074622166",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Haus Zentrum Triesen, VP Bank bei Personaleingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 06:00-21:00",
     "operator": "VP Bank",
     "phone": "+42 32356310",
@@ -1635,7 +1643,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5244146,
+      9.5244149,
       47.1217239
     ]
   }
@@ -1785,9 +1793,11 @@
   "type": "Feature",
   "id": "node/10763310412",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "2.OG, Empfang",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "name": "Bemer International AG",
     "opening_hours": "Mo-Th 08:00-12:00, 13:00-17:00; Fr 08:00-12:00, 13:00-15:00",
@@ -1798,8 +1808,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.52209,
-      47.12098
+      9.5220901,
+      47.1209802
     ]
   }
 },
@@ -1807,7 +1817,7 @@
   "type": "Feature",
   "id": "node/10763310413",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Mercedes Garage Weilenmann, EG, Kundenwartebereich",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -1823,8 +1833,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5097915,
-      47.1741828
+      9.5097908,
+      47.174183
     ]
   }
 },
@@ -1832,9 +1842,11 @@
   "type": "Feature",
   "id": "node/10763310414",
   "properties": {
+    "access": "private",
     "defibrillator:location": "1.OG, Küche Cafeteria",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "name": "IFM Independent Fund Management AG (F&M AG)",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:30",
@@ -1845,8 +1857,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.50878,
-      47.16562
+      9.5087796,
+      47.1656202
     ]
   }
 },
@@ -1879,12 +1891,14 @@
   "type": "Feature",
   "id": "node/10763310417",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Hotel Gorfion, Mitarbeiter Treppenhaus, hinter Tür EG.",
+    "access": "permissive",
+    "defibrillator:location": "Hotel Gorfion",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "name": "Hotel Gorfion Anstalt",
+    "opening_hours": "Mo-Su 7:00-20:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310417"
@@ -1892,8 +1906,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.60902,
-      47.10129
+      9.6090205,
+      47.1012899
     ]
   }
 },
@@ -1901,7 +1915,7 @@
   "type": "Feature",
   "id": "node/10765221505",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Sonnenplatz Einkaufszentrum",
     "description": "Beim Haupteingang zwischen den Schiebetüren",
     "emergency": "defibrillator",
@@ -1915,7 +1929,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5254154,
+      9.525416,
       47.1090444
     ]
   }
@@ -1924,13 +1938,14 @@
   "type": "Feature",
   "id": "node/10795986605",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Liecht. Braustube, Eingang bei Briefkästen. An der Wand gegenüber des Lifts montiert.",
-    "description": "von Mo-Fr 08.00-12.00 Uhr / 13.00-17.00 Uhr und den Öffnungszeiten der Braustube verfügbar",
+    "description": "Beim Lift",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "HFH AG",
     "id": "node/10795986605"
   },
@@ -1946,20 +1961,21 @@
   "type": "Feature",
   "id": "node/10819384705",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "RMS Shooting und Kafi",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "4",
+    "opening_hours": "Mo-Fr 7:30-17:00",
     "operator": "RMS Shooting",
     "id": "node/10819384705"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5146022,
-      47.1774116
+      9.5146021,
+      47.1774115
     ]
   }
 },
@@ -2347,9 +2363,9 @@
   "type": "Feature",
   "id": "node/11413463669",
   "properties": {
-    "access": "no",
+    "access": "private",
     "defibrillator:location": "Schloss Vaduz",
-    "description": "In der Küche beim Personal",
+    "description": "Beim Serverraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -2359,8 +2375,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5243141,
-      47.1397125
+      9.5243137,
+      47.1397126
     ]
   }
 },
@@ -2710,7 +2726,7 @@
   "type": "Feature",
   "id": "node/11694863269",
   "properties": {
-    "access": "no",
+    "access": "private",
     "defibrillator:location": "LAK, Garderobe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -2722,8 +2738,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5229979,
-      47.135526
+      9.522998,
+      47.1355262
     ]
   }
 },
@@ -3009,20 +3025,22 @@
   "type": "Feature",
   "id": "node/11834920269",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Schneeflucht Restaurant, Eingangsbereich",
     "description": "In der Skisaison und den Öffnungszeiten des Restaurants verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Su 8:00-16:00",
     "operator": "Bergbahnen Malbun",
     "id": "node/11834920269"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5994944,
-      47.1095262
+      9.5994946,
+      47.1095263
     ]
   }
 },
@@ -3244,12 +3262,13 @@
   "type": "Feature",
   "id": "node/12067551769",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Reception, Park Hotel Sonnenhof",
-    "description": "taeglich von 06:30 bis 22:00 uhr verfuegbar",
+    "description": "täglich von 06:30 bis 22:00 uhr verfuegbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Su 06:30-24:00",
+    "opening_hours": "Mo-Su 06:30-22:00",
     "operator": "Park Hotel Sonnenhof",
     "phone": "+4232390202",
     "id": "node/12067551769"
@@ -3621,7 +3640,7 @@
   "type": "Feature",
   "id": "node/12372464101",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Sigma Kreditbank Bürohaus",
     "description": "im Büro",
     "emergency": "defibrillator",
@@ -4078,7 +4097,7 @@
   "type": "Feature",
   "id": "node/12985552402",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "LAK Unterm Schloss 80",
     "description": "beim Haupteingang rechts in einem Sideboard gelagert",
     "emergency": "defibrillator",
@@ -4093,8 +4112,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4979174,
-      47.0649605
+      9.497918,
+      47.0649607
     ]
   }
 },
@@ -4126,7 +4145,7 @@
   "type": "Feature",
   "id": "node/13096032201",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Gebr. Hilti AG Baugeschäft Standort",
     "description": "Im Treppenhaus, zwischen Tiefgarage und Büro",
     "emergency": "defibrillator",
@@ -4141,8 +4160,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5091026,
-      47.1771995
+      9.5091029,
+      47.1771996
     ]
   }
 },
