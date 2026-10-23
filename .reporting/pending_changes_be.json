@@ -86,5 +86,52 @@
       }
     ],
     "detected_at": "2026-10-22T17:42:41.417346+00:00"
+  },
+  {
+    "key": "node/6688231263",
+    "name": "Gemeindeverwaltung Oberhofen",
+    "has_name": false,
+    "detail": "Gemeindeverwaltung Oberhofen, Schalter Zentrale Dienste",
+    "address": null,
+    "lon": 7.6678162,
+    "lat": 46.7304721,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": "Schiffsstation Oberhofen",
+        "new": "Gemeindeverwaltung Oberhofen"
+      },
+      {
+        "label": "Telefon",
+        "old": null,
+        "new": "+41 33 244 11 11"
+      },
+      {
+        "label": "Zugang",
+        "old": "yes",
+        "new": "permissive"
+      },
+      {
+        "label": "Öffnungszeiten",
+        "old": "24/7",
+        "new": "Mo 08:00 - 11:30, 14:00-18:00, Tu 08:00-11:30, 14:00-17:00, Th 08:00-11:30, 14:00-17:00, Fr 08:00-14:00"
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": "Hinter dem Pier 17",
+        "new": "Gemeindeverwaltung Oberhofen, Schalter Zentrale Dienste"
+      },
+      {
+        "label": "Beschreibung",
+        "old": null,
+        "new": "Der Defibrillator befindet sich aktuell bei der Gemeindeverwaltung Oberhofen, Schoren 1, 3653 Oberhofen."
+      },
+      {
+        "label": "Innenbereich",
+        "old": "no",
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-10-23T15:31:56.657551+00:00"
   }
 ]
