@@ -222135,6 +222135,31 @@
       47.3981639
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14312129701",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "TopPharm Apotheke & Drogerie Erlinsbach, Küttigerstrasse 2a 5018 Erlinsbach",
+    "description": "Nur zugänglich während den Öffnungszeiten der Apotheke - nich frei zugänglich - Personal fragen",
+    "email": "info@apoerlinsbach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-12:30, Sa 9:00-16:00",
+    "operator": "TopPharm Apotheke & Drogerie Erlinsbach AG",
+    "phone": "+41 62 857 70 00",
+    "id": "node/14312129701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0081035,
+      47.4057535
+    ]
+  }
 }
 ]
 }
