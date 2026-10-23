@@ -32,7 +32,7 @@ CARD_BG = "#FFFFFF"
 CHANGE_BG = "#F5F7F6"
 SITE_URL = "https://defikarte.ch"
 # "Auf Karte ansehen" führt auf defikarte.ch: Kartenausschnitt über den Hash
-# (#zoom/lat/lon), ?aed=<OSM-Node-ID> öffnet dort den Detailmarker.
+# (#zoom/lat/lon), /map/aed/<OSM-Node-ID> öffnet dort den Detailmarker.
 DEFIKARTE_MAP_URL = f"{SITE_URL}/map"
 DEFIKARTE_ZOOM = 19
 FONT = "'Poppins', Arial, Helvetica, sans-serif"
@@ -246,8 +246,8 @@ def defikarte_url(lon, lat, key=None):
     if lon is None or lat is None:
         return map_url(lon, lat, key)
     m = re.match(r"^node/(\d+)$", key or "")
-    query = f"?aed={m.group(1)}" if m else ""
-    return f"{DEFIKARTE_MAP_URL}{query}#{DEFIKARTE_ZOOM}/{lat:.6f}/{lon:.6f}"
+    path = f"/aed/{m.group(1)}" if m else ""
+    return f"{DEFIKARTE_MAP_URL}{path}#{DEFIKARTE_ZOOM}/{lat:.6f}/{lon:.6f}"
 
 
 def truncate(s, n=140):
