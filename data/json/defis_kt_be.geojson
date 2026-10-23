@@ -20939,7 +20939,6 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Gemeindeverwaltung Oberhofen, Schalter Zentrale Dienste",
-    "description": "Der Defibrillator befindet sich aktuell bei der Gemeindeverwaltung Oberhofen, Schoren 1, 3653 Oberhofen.",
     "email": "verwaltung@oberhofen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -20953,8 +20952,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6678162,
-      46.7304721
+      7.6675721,
+      46.7310218
     ]
   }
 },
