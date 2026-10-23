@@ -1144,7 +1144,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:plac
 12198429201,node,47.4415921,9.1446514,yes,,,,,,,,,,Beim Haupteingang,,,"24/7 erreichbar, beim Haupteingang",,,defibrillator,144,node/12198429201,,,yes,,,,,,,,24/7,SeniorenZentrum Uzwil,,,+41 71 955 61 61,,"local_knowledge, defikarte.ch",,,,
 12205131701,node,47.4186086,9.2345067,yes,,,,,,,,,,Strassenkreisinspektorat Gossau,,,Einfahrtstor Aussenmontage,,sicherheit@sg.ch,defibrillator,144,node/12205131701,,,no,,,,,,,,24/7,Kanton St.Gallen Staatskanzlei,,,+41 58 229 29 08,,"local_knowledge, defikarte.ch",,,,
 12209001749,node,47.3637426,9.14193,permissive,,,,,,,,,,Westseitig am Gebäude,,,,,,defibrillator,144,node/12209001749,,,no,,,,,,,,24/7,Schweizerische Südostbahn,,,,,,,,,
-12210449001,node,47.4132639,9.3458354,yes,,,,,,,,,,Neben Lift,,,während Öffnungszeiten verfügbar,,,defibrillator,144,node/12210449001,,,yes,,,,2,,,,,bsb,,,+41 71 243 60 10,,"local_knowledge, defikarte.ch",,,,
+12210449001,node,47.4132639,9.3458354,yes,,,,,,,,,,Neben Lift,,,während Öffnungszeiten verfügbar,,,defibrillator,144,node/12210449001,,,yes,,,,2,,,,,bsb.info.partner AG,,,+41 71 243 60 10,,"local_knowledge, defikarte.ch",,,,
 12215930275,node,47.2495151,9.4722429,yes,,,,,,,,,,An Fassade des Gebäudes,,,,,,defibrillator,144,node/12215930275,,,no,,,,,,,,24/7,Pol. Gemeinde Sennwald,,,,,,,2024-10-11,,
 12255826302,node,47.41814,9.3583606,yes,,,,,,,,,,"Klubhaus FC Fortuna SG, aussen an der Wand",,,,,,defibrillator,144,node/12255826302,,,no,,,,0,,,,24/7,FC Fortuna,,,,,,,,,
 12261090601,node,47.4729529,9.1130502,,,,,,,,,,,Eingang Denner ,,,,,,defibrillator,144,node/12261090601,,,no,,,,,,,,24/7,,,,,,,,,,
@@ -1504,3 +1504,4 @@ Aussen links neben den Garagentoren im Eingangsbereich",,,,,,defibrillator,144,n
 14280975201,node,47.3616027,9.1347281,,,,,,,,,,,"Ochsenweg 2, 9122 Mogelsberg",,,,,,defibrillator,144,node/14280975201,,,no,,,,,,,,24/7,,,,,,,,,,
 14284400401,node,47.166932,9.4692437,yes,,,,,,,,,,"Neuhof, Innenhof, vor Durchgang Wiedenstrasse 50",,,"Grüner Kasten, 24h zugänglich",,info@neuhof.ch,defibrillator,144,node/14284400401,,,no,,,,0,,,,24/7,Neuhof AG,,,+41 77 495 74 63,,,,,,
 14293099402,node,47.4082086,9.3057431,permissive,,,,,,,,,,Links neben Vero Moda beim Notausgang,,,,,,defibrillator,144,node/14293099402,,,yes,,,,0,,,,,,,,,,,,,,
+14309231601,node,47.2272281,8.8209846,permissive,,,,,,,,,,Im Empfangsraum Auravita Fitness,,,,,info@auravita.ch,defibrillator,144,node/14309231601,,,yes,,,,2,,,,Mo-Fr 07:00-22:00; Sa-Su 08:45-17:00,"AuraVita, AlbuVille AG",,,+41 55 220 67 00,,,,,,

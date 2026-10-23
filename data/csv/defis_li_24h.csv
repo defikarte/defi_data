@@ -54,7 +54,7 @@ osm_id,osm_type,lat,lon,access,check_date,defibrillator:location,defibrillator:l
 11531604931,node,47.1383792,9.5192402,yes,,"Gemeindesaal,
 Beim Haupteingang links an der Wand",,,,defibrillator,,node/11531604931,no,,24/7,Gemeinde Vaduz,,,+423 793 78 02,,,
 11598105669,node,47.1059712,9.5261586,yes,,Eingang Hallenbad / Lift,,,,defibrillator,144,node/11598105669,no,,24/7,Gemeinde Triesen,,,+4233993692,,,
-11598729469,node,47.2390233,9.5259957,yes,,Nellengasse Primarschule Garage Hauswartung,,Bei Garagentore an Aussenwand,,defibrillator,144,node/11598729469,no,,24/7,Gemeinde Ruggell,,,+423 377 49 20,,,
+11598729469,node,47.2390233,9.5259957,yes,,Nellengasse Primarschule Garage Hauswartung,,Bei Garagentore an Aussenwand,,defibrillator,144,node/11598729469,no,,24/7,Gemeinde Ruggell,,,+423 222 01 35,,,
 11649491371,node,47.0930718,9.5262425,yes,,Tennishaus,,Beim Eingang zur Tennishalle,,defibrillator,144,node/11649491371,no,,24/7,Gemeinde Triesen / Tennisclub Triesen,,,+423 792 36 42,,,
 11649514569,node,47.0861519,9.5270424,yes,,Campingplatz Mittagsspitze,,"Direkt bei Strasse sichtbar, Einfahrt Camping, Hausfassade",,defibrillator,144,node/11649514569,no,,24/7,Gemeinde Triesen,,,+423 792 36 42,,,
 11652564769,node,47.1100085,9.523884,yes,,Eingang Gemeindeveraltung,,Aussenwand bei Tiefgaragenzugang Treppe,,defibrillator,144,node/11652564769,no,,24/7,Gemeinde Triesen,,,+423 792 36 42,,,
@@ -125,3 +125,4 @@ Beim Haupteingang links an der Wand",,,,defibrillator,,node/11531604931,no,,24/7
 14000180901,node,47.1182466,9.5396719,yes,,Litzistrasse Verzweigung Grüschaweg,,Direkt an der Strasse,,defibrillator,144,node/14000180901,no,0,24/7,Gemeinde Triesenberg,,,+4232220135,,,
 14000193301,node,47.1237074,9.5406094,yes,,Engistrasse Wasserversorgung,,"An Bruchsteinmauer, bei Wasserversorgung T‘berg",,defibrillator,144,node/14000193301,no,0,24/7,Gemeinde Triesenberg,,,+4232220135,,,
 14038907502,node,47.1611767,9.5089121,yes,,Laurentius Bad / Apotheke Landstrasse 97,,An der Landstrasse / Kreuzung / beim Briefkasten,,defibrillator,144,node/14038907502,no,0,24/7,Gemeinde Schaan,,,+4232220135,,,
+14311760802,node,47.2236322,9.5520103,yes,,Zollhaus Binzastrasse,,Direkt an der Strasse ersichtlich,,defibrillator,144,node/14311760802,no,0,24/7,Gemeinde Mauren,,,+423 222 01 35,,,
