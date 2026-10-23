@@ -136,13 +136,13 @@
     },
     {
       "id": "li",
-      "name": "Liechtenstein",
+      "name": "Fürstentum Liechtenstein",
       "geojson_file": "defis_liechtenstein.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_LI",
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "de",
-      "subject": "Änderungen an Defis in {name}"
+      "subject": "Änderungen an Defis im {name}"
     }
   ],
   "defikarte_logo_url": "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
