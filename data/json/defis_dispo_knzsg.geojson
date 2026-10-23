@@ -29642,7 +29642,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "operator": "bsb",
+    "operator": "bsb.info.partner AG",
     "phone": "+41 71 243 60 10",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12210449001"

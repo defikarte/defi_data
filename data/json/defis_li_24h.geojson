@@ -1259,7 +1259,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Ruggell",
-    "phone": "+423 377 49 20",
+    "phone": "+423 222 01 35",
     "id": "node/11598729469"
   },
   "geometry": {
@@ -2933,6 +2933,30 @@
     "coordinates": [
       9.5089121,
       47.1611767
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14311760802",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zollhaus Binzastrasse",
+    "description": "Direkt an der Strasse ersichtlich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Mauren",
+    "phone": "+423 222 01 35",
+    "id": "node/14311760802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5520103,
+      47.2236322
     ]
   }
 }

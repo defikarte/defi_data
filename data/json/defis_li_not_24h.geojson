@@ -652,8 +652,9 @@
   "type": "Feature",
   "id": "node/9004557465",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Ospelt: Portier/Securitasloge",
+    "description": "Beim Portier",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -674,11 +675,13 @@
   "type": "Feature",
   "id": "node/9004557469",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "LAK Haus am Empfang",
+    "description": "Beim Eingang in einem gelben Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Su 09:00-18:00",
     "operator": "Sekretariat",
     "phone": "+423 377 46 00",
@@ -696,11 +699,13 @@
   "type": "Feature",
   "id": "node/9004557470",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Schulzentrum Eschen, Hallenbad, erste Hilfe Raum",
+    "description": "Im Bad an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-21:00",
     "operator": "Bademeister",
     "phone": "+423 373 48 66",
@@ -718,6 +723,7 @@
   "type": "Feature",
   "id": "node/9004557473",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Pförnerhaus Anmeldung Sicherheit",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -739,7 +745,7 @@
   "type": "Feature",
   "id": "node/9004557478",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "KaiserAG - Obere Werkhalle - Sicherheitsposten",
     "defibrillator:location:en": "Company: Kaiser AG",
     "email": "gemeinde@mauren.li",
@@ -749,7 +755,7 @@
     "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Thomas Lampert",
-    "phone": "+4223 377 21 30",
+    "phone": "+423 377 21 30",
     "wheelchair": "yes",
     "id": "node/9004557478"
   },
@@ -765,11 +771,13 @@
   "type": "Feature",
   "id": "node/9004557481",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Treppenhaus UG der Turnhalle",
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle, Treppenhaus UG",
+    "description": "Nur bei Schul- und Turnbetrieb zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
     "opening_hours": "Mo-Fr 08:00-12:00, 13:30-16:30",
     "operator": "Hausdienst",
     "phone": "+423 792 22 40",
@@ -787,14 +795,16 @@
   "type": "Feature",
   "id": "node/9004557484",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Gemeindesaal im Foyer",
     "description": "Nur bei Veranstaltungen verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-17:00",
     "operator": "Gemeinde Ruggell",
-    "phone": "+423 377 49 20",
+    "phone": "+423 222 01 35",
     "id": "node/9004557484"
   },
   "geometry": {
@@ -833,19 +843,23 @@
   "type": "Feature",
   "id": "node/9472004262",
   "properties": {
-    "defibrillator:location": "4.OG Empfang rechts hinter Glaswand",
+    "access": "private",
+    "defibrillator:location": "Thyssenkrupp TecCenter AG",
+    "description": "4.OG Empfang rechts hinter Glaswand",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
+    "level": "4",
     "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Robert Edlinger",
-    "phone": "+43 664 281 4920",
+    "phone": "+423 399 70 00",
     "id": "node/9472004262"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.5355642,
-      47.2072331
+      47.2072326
     ]
   }
 },
@@ -1202,7 +1216,7 @@
   "type": "Feature",
   "id": "node/11217394739",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Zollamt Schaanwald",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -1481,12 +1495,14 @@
   "type": "Feature",
   "id": "node/11827202448",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Musikhaus EG",
+    "description": "Neben dem Lift",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-22:00",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
     "operator": "Gemeinde Ruggell",
     "phone": "+423 377 49 20",
     "id": "node/11827202448"
@@ -1494,7 +1510,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5249385,
+      9.5249384,
       47.2396125
     ]
   }
@@ -1503,12 +1519,14 @@
   "type": "Feature",
   "id": "node/11827202449",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Eingang Turnhalle",
-    "description": "Während externen Betrieb verfügbar",
+    "description": "Während Turnbetrieb verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Ruggell",
     "phone": "+423 377 49 20",
     "id": "node/11827202449"
@@ -1754,30 +1772,6 @@
     "coordinates": [
       9.5236914,
       47.1127779
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12372470501",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "ITW Gebäude Firma Plan:Ing",
-    "description": "im inneren des Gebäudes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "2",
-    "opening_hours": "Mo-Fr 07:00-17:30",
-    "operator": "Firma Plan:Ing",
-    "phone": "+4233779000",
-    "id": "node/12372470501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5129424,
-      47.0767529
     ]
   }
 },
@@ -2047,11 +2041,13 @@
   "type": "Feature",
   "id": "node/13620828901",
   "properties": {
-    "defibrillator:location": "Im Kokon Gebäude",
+    "access": "private",
+    "defibrillator:location": "Kokon Büro und Restaurant",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 8:30-17:00",
     "id": "node/13620828901"
   },
   "geometry": {
@@ -2090,12 +2086,13 @@
   "type": "Feature",
   "id": "node/13684567301",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "SZU OG2 Eingang",
-    "description": "während den regulären schulzeiten benutzbar 07:30-16:50",
+    "description": "während den regulären Schulzeiten benutzbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "02",
+    "level": "2",
     "opening_hours": "Mo-Fr 07:30-16:50",
     "operator": "Gemeinde Eschen",
     "id": "node/13684567301"
@@ -2103,8 +2100,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5269979,
-      47.2140602
+      9.5271454,
+      47.2138681
     ]
   }
 },
@@ -2113,7 +2110,7 @@
   "id": "node/13752848301",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Entsorgi Wertstoffsammelstelle",
+    "defibrillator:location": "Elrec Entsorgi Wertstoffsammelstelle",
     "description": "während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -2127,8 +2124,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5145689,
-      47.2084156
+      9.5145692,
+      47.2084152
     ]
   }
 },
@@ -2205,23 +2202,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14183500913",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/14183500913"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5259947,
-      47.2390144
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14209319501",
   "properties": {
     "access": "permissive",
@@ -2267,6 +2247,78 @@
     "coordinates": [
       9.4973883,
       47.0647606
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14311741001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle Schulzentrum Eschen",
+    "description": "Im Gang an der Wand, nur während Turnbetrieb erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14311741001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5264507,
+      47.2138271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14311756801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Busbetriebe Liechtenstein Standort Ruggell",
+    "description": "Im Büro bei der GL, durch klingeln verfügbar",
+    "email": "info@bosps.li",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 7:00-17:00",
+    "phone": "+41 58 510 63 63",
+    "id": "node/14311756801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5248657,
+      47.2461962
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14311763301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Arztpraxis am Weiherring",
+    "description": "Bei den MPAs",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Ärzte",
+    "phone": "+423 237 10 10",
+    "id": "node/14311763301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5431334,
+      47.2180161
     ]
   }
 }

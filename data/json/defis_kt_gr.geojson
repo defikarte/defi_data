@@ -2152,6 +2152,7 @@
   "type": "Feature",
   "id": "node/8442383749",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Beim Haupteingang die Treppe auf der Rechten Seite benutzen. Im ersten OG links nach hinten laufen bis zu der grossen Standuhr. Links neben der Uhr befindet sich der AED Oder Auskunft am Empfang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -7129,6 +7130,7 @@
   "type": "Feature",
   "id": "node/10018919417",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Calanda Logistik AG Aufenthaltsraum",
     "description": "Nur während Öffnungszeiten Verfügbar",
     "emergency": "defibrillator",
@@ -8165,6 +8167,7 @@
   "type": "Feature",
   "id": "node/10741361205",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Tennishalle Haupteingang rechts an der Wand",
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -9205,6 +9208,7 @@
   "type": "Feature",
   "id": "node/10763310390",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "3.OG, unter Treppe",
     "description": "oranger Koffer",
     "emergency": "defibrillator",
@@ -10193,6 +10197,7 @@
   "type": "Feature",
   "id": "node/11038063726",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "Zurich HelpPoint Chur",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -12045,6 +12050,7 @@
   "type": "Feature",
   "id": "node/11730969869",
   "properties": {
+    "access": "customers",
     "defibrillator:location": "FHGR, Pulvermühlestrasse 57",
     "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
