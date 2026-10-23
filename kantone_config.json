@@ -14,7 +14,7 @@
       "name": "Basel",
       "geojson_file": "defis_dispo_basel.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_BL",
-      "use_cc": true,
+      "use_cc": false,
       "reporting_mode": "immediate",
       "language": "de"
     },
@@ -32,7 +32,7 @@
       "name": "KNZ LU",
       "geojson_file": "defis_dispo_luks.geojson",
       "mail_recipient_secret": "MAIL_RECIPIENT_LUKS",
-      "use_cc": true,
+      "use_cc": false,
       "reporting_mode": "immediate",
       "language": "de"
     },
