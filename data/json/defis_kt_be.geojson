@@ -20937,20 +20937,23 @@
   "type": "Feature",
   "id": "node/6688231263",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Hinter dem Pier 17",
+    "access": "permissive",
+    "defibrillator:location": "Gemeindeverwaltung Oberhofen, Schalter Zentrale Dienste",
+    "description": "Der Defibrillator befindet sich aktuell bei der Gemeindeverwaltung Oberhofen, Schoren 1, 3653 Oberhofen.",
+    "email": "verwaltung@oberhofen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Schiffsstation Oberhofen",
+    "indoor": "yes",
+    "opening_hours": "Mo 08:00 - 11:30, 14:00-18:00, Tu 08:00-11:30, 14:00-17:00, Th 08:00-11:30, 14:00-17:00, Fr 08:00-14:00",
+    "operator": "Gemeindeverwaltung Oberhofen",
+    "phone": "+41 33 244 11 11",
     "wheelchair": "no",
     "id": "node/6688231263"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6678161,
+      7.6678162,
       46.7304721
     ]
   }

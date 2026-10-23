@@ -22069,12 +22069,12 @@
   "type": "Feature",
   "id": "node/9128876334",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Am Empfang im Schrank",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Fr 08:00-18:30; Sa 09:00-12:00; Su off",
     "operator": "Physio Gossau",
     "phone": "+41 43 477 55 00",
     "id": "node/9128876334"
@@ -22082,8 +22082,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7578442,
-      47.3068757
+      8.7578443,
+      47.3068755
     ]
   }
 },
@@ -22928,8 +22928,8 @@
   "type": "Feature",
   "id": "node/9245680188",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Trakt 3, Eingangsbereich, rechte Seite an der Wand",
-    "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -67277,6 +67277,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "id": "node/12669929701"
   },
   "geometry": {

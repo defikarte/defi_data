@@ -14022,28 +14022,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6688231263",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Hinter dem Pier 17",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Schiffsstation Oberhofen",
-    "wheelchair": "no",
-    "id": "node/6688231263"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6678161,
-      46.7304721
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6688231265",
   "properties": {
     "access": "yes",

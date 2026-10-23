@@ -33193,6 +33193,126 @@
       47.2272281
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14312465001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Bruggwaldstrasse 49",
+    "description": "EG bei der Stempeluhr",
+    "email": "immobilien@obvita.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "obvita",
+    "phone": "+41 71 246 61 11",
+    "id": "node/14312465001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.395857,
+      47.4478526
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14312465002",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "obvita Produktion Bruggwaldstrasse 53",
+    "description": "Im UG1",
+    "email": "immobilien@obvita.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "obvita",
+    "phone": "+41 71 246 61 11",
+    "id": "node/14312465002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3957169,
+      47.4485667
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14312465003",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bruggwaldstrasse 51",
+    "description": "Beim Eingang links",
+    "email": "immobilien@obvita.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "obvita",
+    "phone": "+41 71 246 61 11",
+    "id": "node/14312465003"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3951138,
+      47.4481343
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14312474501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang links",
+    "description": "Der Defi hängt links nach dem Eingang",
+    "email": "immobilien@obvita.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "obvita",
+    "phone": "+41 71 246 61 11",
+    "id": "node/14312474501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3956957,
+      47.4470639
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14312479601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "obvita Tageszentrum Teufener Strasse 2",
+    "description": "im 2. OG beim Notausgang",
+    "email": "immobilien@obvita.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "operator": "obvita",
+    "phone": "+41 71 246 65 80",
+    "id": "node/14312479601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.3713387,
+      47.420987
+    ]
+  }
 }
 ]
 }
