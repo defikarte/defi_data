@@ -16590,6 +16590,26 @@
       47.4995906
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14314933901",
+  "properties": {
+    "defibrillator:location": "Aussen vom Nebeneingang, grüner Metallkasten",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Schweizerisches Rotes Kreuz Thurgau",
+    "id": "node/14314933901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1033376,
+      47.5706556
+    ]
+  }
 }
 ]
 }

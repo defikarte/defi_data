@@ -5280,6 +5280,317 @@
       47.2180161
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14314522501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Realschule Blazers",
+    "description": "Im Gang an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314522501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5021969,
+      47.067167
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314526701",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Landeswerkhof Triesenberg",
+    "description": "Im Treppenhaus an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-16:00",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314526701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5500674,
+      47.1166675
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314529001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Landtagsgebäude",
+    "description": "Im Aufenthaltsraum der Parlamentarier",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-16:00",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314529001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5227187,
+      47.1377103
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314531501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Früh & Partner Vermögensverwaltung",
+    "description": "Beim Lift an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Früh & Partner",
+    "phone": "+423 377 99 77",
+    "id": "node/14314531501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5083856,
+      47.1490603
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314534601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Pflanzgarten FL",
+    "description": "Beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-16:00",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314534601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4904142,
+      47.175429
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314620801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Hilti Logistikzentrum",
+    "description": "Im Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-16:00",
+    "operator": "Hilti",
+    "id": "node/14314620801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5407343,
+      47.2019036
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314697401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Gemeindesaal",
+    "description": "Im orangen Sanitätsschrank beim Foyer / Nur bei Veranstaltungen frei zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 9:00-16:00",
+    "operator": "Gemeinde Triesenberg",
+    "phone": "+423 222 01 35",
+    "id": "node/14314697401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.542877,
+      47.1183901
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314703101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Tennishalle Schaan",
+    "description": "Bei den Toiletten im Gang / nur im Spielbetrieb zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 9:00-21:00",
+    "operator": "Tennisclub Schaan",
+    "phone": "+423 222 01 35",
+    "id": "node/14314703101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.512798,
+      47.1738338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314707201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulgebäude BMS",
+    "description": "Beim Haupteingang an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314707201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5199944,
+      47.1381124
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314710001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Musikschule Triesen",
+    "description": "Beim Haupteingang im Foyer an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 9:00-17:00",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314710001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5244414,
+      47.1099345
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314712301",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Bürohaus Specki",
+    "description": "Im Schrank beim Eingang zu den Büros",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 7:30-16:30",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314712301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.510008,
+      47.1699506
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314716201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Stabstelle für Sport SSP",
+    "description": "Im Büro an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-16:30",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314716201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5087457,
+      47.1623495
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314736801",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "AMS Arbeitsmarkt Service Liechtenstein",
+    "description": "In der Küche am Fenster",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 9:00-16:00",
+    "operator": "Landesverwaltung",
+    "phone": "+423 222 01 35",
+    "id": "node/14314736801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5079769,
+      47.1646624
+    ]
+  }
 }
 ]
 }
