@@ -93,20 +93,15 @@
     "has_name": false,
     "detail": "Gemeindeverwaltung Oberhofen, Schalter Zentrale Dienste",
     "address": null,
-    "lon": 7.6675721,
-    "lat": 46.7310218,
+    "lon": 7.6678155,
+    "lat": 46.7304726,
     "changes": [
       {
         "label": "Standort",
-        "old": "46.730472,7.667816",
-        "new": "46.731022,7.667572"
-      },
-      {
-        "label": "Beschreibung",
-        "old": "Der Defibrillator befindet sich aktuell bei der Gemeindeverwaltung Oberhofen, Schoren 1, 3653 Oberhofen.",
-        "new": null
+        "old": "46.731022,7.667572",
+        "new": "46.730473,7.667815"
       }
     ],
-    "detected_at": "2026-10-23T19:35:35.642295+00:00"
+    "detected_at": "2026-10-24T14:56:02.647110+00:00"
   }
 ]
