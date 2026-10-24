@@ -7379,6 +7379,7 @@
   "id": "node/11030060444",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-24",
     "defibrillator:location": "A côté de l'entrée de l'office du tourisme",
     "emergency": "defibrillator",
     "emergency:phone": "144",

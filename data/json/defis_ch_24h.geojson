@@ -100371,6 +100371,7 @@
   "id": "node/11030060444",
   "properties": {
     "access": "yes",
+    "check_date": "2026-10-24",
     "defibrillator:location": "A côté de l'entrée de l'office du tourisme",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -164169,6 +164170,28 @@
     "coordinates": [
       8.5027964,
       47.3744258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14315904801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Stäpfli",
+    "description": "Vor dem Eingang links. Aussen an Hauswand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14315904801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0847652,
+      47.4021121
     ]
   }
 }

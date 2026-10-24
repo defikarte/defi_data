@@ -32045,6 +32045,28 @@
       47.4057535
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14315904801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Stäpfli",
+    "description": "Vor dem Eingang links. Aussen an Hauswand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14315904801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0847652,
+      47.4021121
+    ]
+  }
 }
 ]
 }
