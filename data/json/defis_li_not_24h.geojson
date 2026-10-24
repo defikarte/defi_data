@@ -635,7 +635,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 7:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "Hilti Werkschutz",
     "phone": "+423 234 22 01",
     "id": "node/9004557464"
@@ -802,7 +802,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Gemeinde Ruggell",
     "phone": "+423 222 01 35",
     "id": "node/9004557484"
@@ -1106,7 +1106,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Hotel Gorfion Anstalt",
-    "opening_hours": "Mo-Su 7:00-20:00",
+    "opening_hours": "Mo-Su 07:00-20:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
     "id": "node/10763310417"
@@ -1175,7 +1175,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "4",
-    "opening_hours": "Mo-Fr 7:30-17:00",
+    "opening_hours": "Mo-Fr 07:30-17:00",
     "operator": "RMS Shooting",
     "id": "node/10819384705"
   },
@@ -1573,7 +1573,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Su 8:00-16:00",
+    "opening_hours": "Mo-Su 08:00-16:00",
     "operator": "Bergbahnen Malbun",
     "id": "node/11834920269"
   },
@@ -1643,7 +1643,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00-17:30",
+    "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "Lova Center",
     "phone": "+4232361616",
     "id": "node/12167764301"
@@ -2047,7 +2047,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:30-17:00",
+    "opening_hours": "Mo-Fr 08:30-17:00",
     "id": "node/13620828901"
   },
   "geometry": {
@@ -2237,7 +2237,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-12:00,14:00-18:00",
+    "opening_hours": "Mo-Fr 08:00-12:00,14:00-18:00",
     "operator": "Dr. Wille",
     "phone": "+423 384 23 23",
     "id": "node/14226211201"
@@ -2261,7 +2261,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14311741001"
@@ -2286,7 +2286,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Fr 7:00-17:00",
+    "opening_hours": "Mo-Fr 07:00-17:00",
     "phone": "+41 58 510 63 63",
     "id": "node/14311756801"
   },
@@ -2309,7 +2309,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Ärzte",
     "phone": "+423 237 10 10",
     "id": "node/14311763301"

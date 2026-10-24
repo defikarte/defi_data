@@ -58497,8 +58497,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5153971,
-      46.9563755
+      8.5153808,
+      46.9563637
     ]
   }
 },
@@ -308407,8 +308407,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4799347,
-      46.9639447
+      8.4798467,
+      46.9639617
     ]
   }
 },
@@ -386517,6 +386517,22 @@
     "coordinates": [
       8.0847652,
       47.4021121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14316216958",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14316216958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4387266,
+      47.4034531
     ]
   }
 }
