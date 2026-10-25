@@ -39674,8 +39674,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8457074,
-      47.1618819
+      7.8457183,
+      47.1618841
     ]
   }
 },
@@ -189797,7 +189797,6 @@
   "id": "node/10250604509",
   "properties": {
     "defibrillator:location": "TCS TrainingCenter Hinwil",
-    "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -189810,8 +189809,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8178026,
-      47.2883637
+      8.8178051,
+      47.288363
     ]
   }
 },
@@ -193753,30 +193752,6 @@
     "coordinates": [
       7.2673329,
       47.1489591
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10540885013",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Reisiswil",
-    "addr:housenumber": "27",
-    "addr:postcode": "4919",
-    "addr:street": "Dörfli 27",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Gemeindeverwaltung Reisiswil",
-    "phone": "+41 62 927 30 30",
-    "id": "node/10540885013"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8457068,
-      47.1618819
     ]
   }
 },
@@ -288360,27 +288335,6 @@
     "coordinates": [
       6.6076868,
       46.54316
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12070013769",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Mehrzweckhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Einwohnergemeinde",
-    "id": "node/12070013769"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7977833,
-      47.1649702
     ]
   }
 },

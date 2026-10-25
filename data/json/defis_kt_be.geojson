@@ -26722,8 +26722,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8457074,
-      47.1618819
+      7.8457183,
+      47.1618841
     ]
   }
 },
@@ -43179,30 +43179,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10540885013",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Reisiswil",
-    "addr:housenumber": "27",
-    "addr:postcode": "4919",
-    "addr:street": "Dörfli 27",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Gemeindeverwaltung Reisiswil",
-    "phone": "+41 62 927 30 30",
-    "id": "node/10540885013"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8457068,
-      47.1618819
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10540885014",
   "properties": {
     "access": "yes",
@@ -53122,27 +53098,6 @@
     "coordinates": [
       7.4170095,
       46.9264605
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12070013769",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Mehrzweckhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Einwohnergemeinde",
-    "id": "node/12070013769"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7977833,
-      47.1649702
     ]
   }
 },

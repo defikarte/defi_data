@@ -104227,7 +104227,6 @@
   "id": "node/10250604509",
   "properties": {
     "defibrillator:location": "TCS TrainingCenter Hinwil",
-    "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -104240,8 +104239,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8178026,
-      47.2883637
+      8.8178051,
+      47.288363
     ]
   }
 },
