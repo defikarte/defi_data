@@ -15254,10 +15254,11 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-04-03",
-    "defibrillator:location": "Ganz links beim Briefkasten",
+    "defibrillator:location": "Haupteingang Bahn: Ganz links beim Briefkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stoosbahnen AG",
     "phone": "+41 41 818 08 08",
@@ -15266,7 +15267,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.673498,
+      8.6734978,
       46.9913578
     ]
   }

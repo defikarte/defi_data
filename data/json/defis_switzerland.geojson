@@ -31687,10 +31687,11 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-04-03",
-    "defibrillator:location": "Ganz links beim Briefkasten",
+    "defibrillator:location": "Haupteingang Bahn: Ganz links beim Briefkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stoosbahnen AG",
     "phone": "+41 41 818 08 08",
@@ -31699,7 +31700,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.673498,
+      8.6734978,
       46.9913578
     ]
   }
@@ -386534,6 +386535,27 @@
     "coordinates": [
       8.4387266,
       47.4034531
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14318635501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Hotel Kreuz",
+    "description": "4. Stock, braucht Schlüssel von Mitarbeiter für Zugriff",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "id": "node/14318635501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4446104,
+      46.9488337
     ]
   }
 }
