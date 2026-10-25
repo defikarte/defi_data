@@ -82409,6 +82409,31 @@
       47.4034531
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14318901102",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "CrossFit Gleis 10",
+    "description": "EG neben Notausgang",
+    "email": "info@crossfitgleis10.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 06:00-22:00",
+    "operator": "Firma",
+    "phone": "+41 77 282 72 97",
+    "id": "node/14318901102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7181724,
+      47.5054075
+    ]
+  }
 }
 ]
 }
