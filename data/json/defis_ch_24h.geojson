@@ -5092,8 +5092,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.614614,
-      47.2486829
+      7.6146522,
+      47.248611
     ]
   }
 },
@@ -123533,7 +123533,8 @@
   "type": "Feature",
   "id": "node/12105743459",
   "properties": {
-    "defibrillator:location": "Restaurant Fronalpstock, Stoos",
+    "access": "yes",
+    "defibrillator:location": "Restaurant Fronalpstock, an der Wand beim Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -123545,8 +123546,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.637032,
-      46.9698299
+      8.6370322,
+      46.9698298
     ]
   }
 },
@@ -149009,7 +149010,7 @@
   "id": "node/13394764201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Sesselbahn Mettlen-Fronalpstock, Stoos",
+    "defibrillator:location": "Sesselbahn Mettlen-Fronalpstock, an der Wand der Talstation",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -149022,8 +149023,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6559522,
-      46.9769157
+      8.6559498,
+      46.9769144
     ]
   }
 },

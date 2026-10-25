@@ -4546,8 +4546,8 @@
   "type": "Feature",
   "id": "node/13508520501",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Nach dem Haupteingang Gang rechts um die Ecke",
+    "access": "private",
+    "defibrillator:location": "Postverteilzentrum",
     "description": "Anmeldung beim Kundendienst an der digitalen Infosäule im Eingangsbereich, Zugang nur für Mitarbeitende",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -4560,8 +4560,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.493195,
-      47.1688895
+      9.4931947,
+      47.1688893
     ]
   }
 },
