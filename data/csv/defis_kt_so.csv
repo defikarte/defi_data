@@ -141,7 +141,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 9719965845,node,47.1904361,7.5627029,yes,,,,,,,,,,,,Cafeteria,,,,,defibrillator,144,,node/9719965845,yes,,,,,,Mo-Su 07:30-17:30,APH Heimetblick,,,+41 32 671 23 05,,,,
 9728734524,node,47.2059963,7.5482324,permissive,,,,,,,,,,,,Am Empfang,,,,,defibrillator,144,,node/9728734524,yes,,,,,,Mo-Fr 08:00-17:00,,,,,,,,
 9763547179,node,47.2519461,7.5084153,yes,,,,,,,,,,,,"Defi, Bergstation Weissenstein",,,,,defibrillator,144,,node/9763547179,yes,,,,,,24/7,Seilbahn Weissenstein AG,,,+41 32 622 18 27,,,,limited
-9809191417,node,47.3516861,7.9072499,yes,,,,,,,,,,,,Unterführung zu Geleisen bei Gleis 7,,,,,defibrillator,144,,node/9809191417,yes,,,,,,24/7,,,,,,,,
+9809191417,node,47.3515859,7.907342,yes,,,,,,,,,,,,Unterführung zu Geleisen bei Gleis 7,,,,,defibrillator,144,,node/9809191417,yes,,,,,,24/7,,,,,,,,
 9814319225,node,47.4890043,7.4989896,,,,,,,,,,,,,,,,,,defibrillator,144,,node/9814319225,,,,,,,,,,,,,,,
 9827860317,node,47.4766078,7.5166735,yes,,,,,,,,,,,,Feuerwehrmagazin Hofstetten-Flüh,,,,,defibrillator,144,,node/9827860317,no,,,,,,24/7,Gemeinde,,,,,,,
 9844035509,node,47.1252463,7.4649622,yes,,,,,,,,,,,,Beim Hauseingang,,,,,defibrillator,144,,node/9844035509,no,,,,,,24/7,GEBNET AG,,,+41 32 677 16 96,,,,

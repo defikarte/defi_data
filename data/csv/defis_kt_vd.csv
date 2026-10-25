@@ -349,7 +349,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 10957762642,node,46.5389491,6.7313391,yes,,,,,,,,À gauche de l'entrée de la pharmacie,,,,,,,defibrillator,144,,node/10957762642,,,no,,,,,,,,24/7,,,,,,,,,
 10973997105,node,46.8840352,7.0272654,yes,,,,,,,,A côte de la porte Entrée,,,,,24 heures,,defibrillator,144,,node/10973997105,,,no,,,,,,,,24/7,,"Fricompost SA, place de compostage",,,+41793847424,,,,
 11009734393,node,46.4589137,6.8467521,yes,,,,,,,,Dans le hall d'entrée de l'Hôtel de Ville,,,,,,,defibrillator,144,,node/11009734393,,,yes,,,0,,,,,"Mo 07:30-12:00,13:00-16:00; Tu 13:00-17:00; We 07:30-16:00; Th 07:30-12:00,13:00-16:00; Fr 07:30-12:00,13:00-16:00",,Ville de Vevey,,,,,,,
-11030060444,node,46.4604905,6.8426843,yes,,,,,,,,A côté de l'entrée de l'office du tourisme,,,,,,,defibrillator,144,,node/11030060444,,,no,,,,,,,,24/7,,Ville de Vevey,,,,,,,
+11030060444,node,46.4604905,6.8426843,yes,,,,,2026-10-24,,,A côté de l'entrée de l'office du tourisme,,,,,,,defibrillator,144,,node/11030060444,,,no,,,,,,,,24/7,,Ville de Vevey,,,,,,,
 11030061827,node,46.4642914,6.8346162,yes,,,,,,,,A côté de l'entrée du sauvetage,,,,,,,defibrillator,144,,node/11030061827,,,no,,,,,,,,24/7,,Ville de Vevey,,,,,,,
 11031960874,node,46.4648383,6.8401014,permissive,,,,,,,,Dans l'atelier,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/11031960874,,,yes,,,,,,,,"Mo-Fr 07:30-12:00, 13:30-17:00",,Holdinova SA,,,,,,,
 11031968921,node,46.4781561,6.863101,yes,,,,,,,,A côté des WC,,,,,,,defibrillator,144,,node/11031968921,,,no,,,,,,,,24/7,,Ville de Vevey,,,,,,,

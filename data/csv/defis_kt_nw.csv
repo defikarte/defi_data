@@ -59,7 +59,7 @@ osm_id,osm_type,lat,lon,access,addr:housenumber,addr:street,check_date,covered,d
 7637819019,node,46.944891,8.5048737,,,,,yes,Im Eingangsbereich neben Damentoilette,Neben der Frauentoilette,,defibrillator,144,node/7637819019,,,Bergstation Stockhütte,,,,,
 7637819020,node,46.9573578,8.5192395,,,,,,,Eingang Mehrzweckhalle,,defibrillator,144,node/7637819020,,,MZA Schule,,,,,
 7637819021,node,46.9577621,8.5193002,,,,,,,Turnhalle Eingang Eingang Schulhaus 3,,defibrillator,144,node/7637819021,,,neues Schulhaus Turnhalle,,,,,
-7637819022,node,46.9563755,8.5153971,,,,,,im Freien bei der Postautohaltestelle,Postautohaltestelle,,defibrillator,144,node/7637819022,no,,Postautohaltestelle,24/7,,,,
+7637819022,node,46.9563637,8.5153808,,,,,,im Freien bei der Postautohaltestelle,Postautohaltestelle,,defibrillator,144,node/7637819022,no,,Postautohaltestelle,24/7,,,,
 7637819086,node,46.9259601,8.3895501,yes,,,,,Mehrzweckanlage Steini,rechts vom Haupteingang,dallenwil@nw.ch,defibrillator,144,node/7637819086,no,,MZA Steini,24/7,Gemeinde,+41 41 629 77 99,,
 7637819095,node,46.9795663,8.4184061,yes,,,,,an Hauseck an der Straße,höhe TCS Camping links neben Altstoffsammelstelle,,defibrillator,144,node/7637819095,no,,Altstoff-Sammelstelle,24/7,,,,
 7637819096,node,46.9786847,8.4143882,,,,,,Tor 1 Aussenwand,,,defibrillator,144,node/7637819096,no,,Feuerwehrlokal Buochs-Ennetbürgen,,,,,
@@ -120,7 +120,7 @@ osm_id,osm_type,lat,lon,access,addr:housenumber,addr:street,check_date,covered,d
 12355343801,node,46.9765192,8.3365631,yes,,,,,"zb Zentralbahn AG, Bahnhofstrasse 23, 6362 Stansstad
 Im Verwaltungsgebäude im ersten Stock neben dem Empfang",während Öffnungszeiten verfügbar,,defibrillator,144,node/12355343801,yes,1,,"08:00-12:00, 13:30-16:00",zb Zentralbahn AG,+41 58 668 88 88,"local_knowledge, defikarte.ch",
 12411880795,node,46.9880331,8.3092524,yes,,,,,Standort;Beim Empfang,,,defibrillator,144,node/12411880795,yes,1,Seniorenzentrum Zwyden,24/7,Privat,,,
-12453548294,node,46.9639447,8.4799347,yes,,,,,An der Wand links neben dem Eingang,Neben dem Eingang der Toilettenanlage Boden,,defibrillator,144,node/12453548294,no,,Toilettenanlage Boden,24/7,,,,
+12453548294,node,46.9639617,8.4798467,yes,,,,,An der Wand links neben dem Eingang,Neben dem Eingang der Toilettenanlage Boden,,defibrillator,144,node/12453548294,no,,Toilettenanlage Boden,24/7,,,,
 12507000901,node,46.9706966,8.5277592,,,,,,WABAG BAGGER Beckenried,Auf Bagger,,defibrillator,144,node/12507000901,no,,,24/7,,,,
 12622951201,node,46.9877546,8.413682,yes,,,,,Eingang Parkgarage,jederzeit öffentlich zugänglich,,defibrillator,144,node/12622951201,no,,,24/7,Stockwerkeigentümer,,"local_knowledge, defikarte.ch",
 12852336801,node,46.9811272,8.4112475,permissive,,,,,"Aerolite AG, Treppenhaus, 1. OG",während den Geschäftszeiten verfügbar,,defibrillator,144,node/12852336801,yes,1,,07:00-18:00,Aerolite AG,+41796865460,,
