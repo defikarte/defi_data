@@ -461,6 +461,12 @@ def main():
 
         state_changed = state_changed or changed
 
+    if DRY_RUN and state_changed:
+        # Testlauf: Stand nicht committen, sonst gälten die Änderungen als
+        # gemeldet und die echte Mail käme beim nächsten Lauf nie.
+        print("[DRY RUN] Reporting-Stand wird nicht gespeichert.")
+        state_changed = False
+
     github_env = os.environ.get("GITHUB_ENV")
     if github_env:
         with open(github_env, "a", encoding="utf-8") as f:
