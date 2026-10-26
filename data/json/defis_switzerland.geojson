@@ -386507,7 +386507,7 @@
   "type": "Feature",
   "id": "node/14320761201",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Schulung / Büro Lidl Schweiz AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
