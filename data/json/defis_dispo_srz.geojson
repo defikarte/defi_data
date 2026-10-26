@@ -45565,6 +45565,7 @@
   "id": "node/10127395047",
   "properties": {
     "defibrillator:location": "EG beim Empfang der Inotec AG",
+    "description": "Während Bürozeiten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -62771,11 +62772,14 @@
   "type": "Feature",
   "id": "node/11220805237",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Alte Winterthurerstrasse 14b, 8304 Wallisellen",
+    "email": "schmidt@bischofberger.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
+    "opening_hours": "Mo-Fr 07:30-17:30",
     "operator": "Bischofberger AG",
     "phone": "+41 44 809 79 79",
     "id": "node/11220805237"

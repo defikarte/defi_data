@@ -127508,6 +127508,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12304415101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Centre scolaire des Deux Thielles",
+    "description": "Disponible",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "DefiMEd",
+    "phone": "+41327257663",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12304415101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0627284,
+      47.0539041
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12304428601",
   "properties": {
     "access": "private",

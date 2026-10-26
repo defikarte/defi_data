@@ -1947,6 +1947,7 @@
   "type": "Feature",
   "id": "node/13307920301",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Gasser Partner Rechtsanwälte",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
@@ -2630,6 +2631,171 @@
     "coordinates": [
       9.5079769,
       47.1646624
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14320804101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Dr. Huchler, Praxis für innere Medizin",
+    "description": "Beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-17:30",
+    "operator": "Dr. Huchler",
+    "phone": "+423 377 10 90",
+    "id": "node/14320804101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5135953,
+      47.2099495
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14320804102",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Sigma Kreditbank AG",
+    "description": "Beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 8:30-16:30",
+    "operator": "Sigma Bank AG",
+    "phone": "+423 239 03 39",
+    "id": "node/14320804102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5248499,
+      47.1080164
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14320817501",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Casino Admiral",
+    "description": "Beim Eingang nähe des Restaurants",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 11:00-3:00",
+    "operator": "Casino",
+    "phone": "+423 239 11 88",
+    "id": "node/14320817501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5235258,
+      47.1202139
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14320928901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Lorez Gesundheitscenter",
+    "description": "Beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 9:00-16:00",
+    "phone": "+423 370 13 01",
+    "id": "node/14320928901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5089211,
+      47.1569084
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14320931502",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Lorez Powercenter",
+    "description": "Im Gang beim Lift",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 9:00-16:00",
+    "phone": "+423 370 13 00",
+    "id": "node/14320931502"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5048153,
+      47.2056612
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14320935901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Speedcom",
+    "description": "Beim Empfang an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Speedcom",
+    "phone": "+423 220 02 02",
+    "id": "node/14320935901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5146796,
+      47.1767654
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14320946701",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Fitnesshaus Plugym Im Alten Riet 22",
+    "description": "Direkt beim Eingang an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 9:00-17:00",
+    "phone": "+423 230 20 60",
+    "id": "node/14320946701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5121342,
+      47.174717
     ]
   }
 }

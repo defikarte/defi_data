@@ -11182,6 +11182,26 @@
       47.1860071
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14320761201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulung / Büro Lidl Schweiz AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14320761201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6012108,
+      47.1955207
+    ]
+  }
 }
 ]
 }
