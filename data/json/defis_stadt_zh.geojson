@@ -7154,28 +7154,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10565068109",
-  "properties": {
-    "defibrillator:location": "Socar Energy",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "3",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Socar Energy",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10565068109"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5363287,
-      47.3721548
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10570929009",
   "properties": {
     "access": "yes",
@@ -8306,7 +8284,6 @@
     "description": "gelber Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "Duplikat zum Defi (n10565068109)?",
     "indoor": "yes",
     "name": "Socar Energy Switzerland GmbH",
     "operator": "Lifetec AG Schweiz",
