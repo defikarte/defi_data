@@ -63,12 +63,12 @@ def main():
 
     today = datetime.now(timezone.utc).strftime("%d.%m.%Y")
     n = len(entries)
-    subtitle = f"Stand {today} · {n} Eintrag{'e' if n != 1 else ''} geändert diese Woche"
+    subtitle = T("weekly_subtitle", today=today, n=n, entries=T("weekly_entries")[0 if n == 1 else 1])
 
     # Anzahl steht bereits im Untertitel -> Zusammenfassung zeigt nur 24/7-Infos
     summary = summary_html(entries, statuses=())
 
-    html_mail = page(f"Wöchentlicher Änderungs-Report – {kanton_name}", subtitle, entries, summary)
+    html_mail = page(T("weekly_title", name=kanton_name), subtitle, entries, summary)
     with open(output_file, "w", encoding="utf-8") as f:
         f.write(html_mail)
 

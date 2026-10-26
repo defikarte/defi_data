@@ -145,5 +145,14 @@
       "subject": "Änderungen an Defis im {name}"
     }
   ],
+  "partner_logos": {
+    "surevive": {
+      "url": "https://assets.defikarte.ch/logo/surevive.png",
+      "alt": "sureVIVE",
+      "width": 120,
+      "label_width": 100,
+      "show_label": true
+    }
+  },
   "defikarte_logo_url": "https://github.com/OpenBracketsCH/defi_data/raw/main/img/logo.png"
 }

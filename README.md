@@ -216,11 +216,10 @@ scripts/
                                Design-Änderungen nur hier vornehmen!
   geojson_diff.py            ← Diff-Rendering für "immediate"-Kantone
   geojson_diff_be.py         ← Diff-Rendering für BE (sofort + pending)
-  build_weekly_report.py     ← Rendering für den wöchentlichen BE-Report
+  build_weekly_report.py     ← Rendering für den wöchentlichen Sammel-Report
   build_ch_qs_report.py      ← täglicher schweizweiter QS-Report (intern)
 .github/workflows/
   geojson-reporting-all.yml       ← DER EINE Workflow für alle Kantone
-  geojson-weekly-changes-be.yml   ← separater Cron-Workflow, nur BE, 1×/Woche
   geojson-qs-daily.yml            ← täglicher QS-Report Schweiz + Liechtenstein
 ```
 
@@ -280,11 +279,36 @@ mehrere Workflows gleichzeitig ihren Verarbeitungsstand committen wollten.
 | `geojson_file` | Dateiname unter `data/json/` |
 | `mail_recipient_secret` | Name des GitHub Secrets mit der Empfänger-Adresse |
 | `use_cc` | ob `MAIL_COPY`-Secret als CC angehängt wird |
-| `reporting_mode` | `"immediate"` oder `"immediate_new_deleted_weekly_changed"` (aktuell nur BE) |
+| `reporting_mode` | `"immediate"` oder `"immediate_new_deleted_weekly_changed"` (aktuell nur BE, siehe unten) |
 | `language` | Sprache der Mail: `"de"` (Standard, wenn das Feld fehlt) oder `"fr"`. Steuert Betreff, Titel, Statusbezeichnungen, Feldnamen und Fusszeile. Die Texte stehen zentral in `scripts/mail_common.py` (`TEXTS`, `FIELD_LABELS_FR`) und im Orchestrator (`SUBJECTS`). |
-| `partner_logo` | optional: Partner-Logo oben rechts in der Mail, z.B. `"surevive"` (siehe `PARTNER_LOGOS` in `scripts/mail_common.py`). Fehlt das Feld, erscheint nur das defikarte.ch-Logo. |
+| `partner_logo` | optional: Partner-Logo oben rechts in der Mail, z.B. `"surevive"`. Der Name muss unter `partner_logos` (siehe unten) definiert sein, sonst kommt die Mail ohne Logo und der Lauf zeigt eine Warnung. Fehlt das Feld, erscheint nur das defikarte.ch-Logo. |
 | `subject` | optional: eigener Betreff mit Platzhalter `{name}`, z.B. `"Änderungen an Defis {name}"` (Liechtenstein). Ohne das Feld gilt der Standardbetreff aus `SUBJECTS`. |
+| `weekly_subject` | optional: eigener Betreff für den Wochen-Report, Platzhalter `{name}` und `{count}` (z.B. „5 Änderungen“). `subject` gilt nicht für den Wochen-Report. |
+| `enabled` | optional: `false` pausiert den Kanton (keine Mails, Stand bleibt stehen). Beim Wiedereinschalten kommen alle Änderungen seit der Pause gesammelt in einer Mail. Fehlt das Feld, ist der Kanton aktiv. |
 | `move_threshold_m` | optional: ab wie vielen Metern eine Verschiebung als Änderung gemeldet wird (Standard `25`). Kleinere Korrekturen beim Kartieren lösen keine Meldung aus. |
+
+#### Partner-Logos (`partner_logos`)
+
+Auf oberster Ebene der Config, neben `kantone`. Neuer Partner = neuer Eintrag, keine Code-Änderung:
+
+```json
+"partner_logos": {
+  "surevive": {
+    "url": "https://assets.defikarte.ch/logo/surevive.png",
+    "alt": "sureVIVE",
+    "width": 120,
+    "label_width": 100,
+    "show_label": true
+  }
+}
+```
+
+| Feld | Bedeutung |
+|---|---|
+| `url` / `alt` | Bildadresse und Alternativtext |
+| `width` | Breite in Pixel ohne Beschriftung |
+| `show_label` | `true`: „in Zusammenarbeit mit“ über dem Logo (Standard), `false`: nur das Logo |
+| `label_width` | Breite in Pixel mit Beschriftung (ohne Angabe wie `width`) |
 
 #### Neuen Kanton hinzufügen
 
@@ -303,10 +327,6 @@ keine Mail). Die erste Mail kommt bei der ersten Änderung danach.
 Eintrag aus `kantone_config.json` löschen, `python generate_workflows.py` ausführen und die
 generierte `geojson-reporting-all.yml` committen. Danach können das Secret
 `MAIL_RECIPIENT_<ID>` und die Datei `.reporting/last_processed_sha_<id>.txt` gelöscht werden.
-
-**Achtung:** `generate_workflows.py` erzeugt auch `geojson-weekly-changes-be.yml` neu, mit dem
-Zeitplan aus dem Script. Wurde der Zeitplan in der Workflow-Datei von Hand geändert, diese
-Datei nach dem Generieren nicht committen (oder den Zeitplan im Script nachziehen).
 
 #### Verpasste Läufe (Schalter `COMPARE_TO_LAST_STATE`)
 
@@ -344,9 +364,21 @@ Bern hat `reporting_mode: "immediate_new_deleted_weekly_changed"`:
 - **Neu / gelöscht** → sofort, läuft im normalen Orchestrator-Durchlauf mit
 - **Geändert** → landet in `.reporting/pending_changes_be.json`, wird nicht
   sofort verschickt
-- Jeden **Montag 07:00 UTC** läuft der separate `geojson-weekly-changes-be.yml`
-  (eigener Cron-Trigger), verschickt alle gesammelten Änderungen als eine
-  Sammel-Mail und leert die pending-Datei danach
+- Der **erste Orchestrator-Lauf ab Montag 07:00 UTC** verschickt alle gesammelten
+  Änderungen als eine Sammel-Mail (Sprache, CC und Partner-Logo wie in der Config)
+  und leert die pending-Datei danach. Das Datum des letzten Versands steht in
+  `.reporting/last_weekly_report_<id>.txt`.
+- Schlägt der Versand fehl, bleibt alles stehen und der nächste Lauf (eine Stunde
+  später) versucht es erneut.
+- Manuell auslösen: Workflow „Reporting für alle Kunden“ → *Run workflow* →
+  `force_weekly` anhaken. Mit `dry_run` zusammen wird nur simuliert, die
+  pending-Datei bleibt dann erhalten.
+- Ein weiterer Kanton im Wochenmodus braucht nur `reporting_mode` in der Config,
+  keinen eigenen Workflow.
+
+Früher lief der Wochen-Report als eigener Workflow `geojson-weekly-changes-be.yml`.
+Der ist entfernt, weil er dieselbe pending-Datei wie der Orchestrator geschrieben
+und gepusht hat (Gefahr von Push-Kollisionen).
 
 ### Täglicher QS-Report (intern)
 
@@ -438,5 +470,4 @@ Der Orchestrator hat einen `workflow_dispatch`-Input `dry_run`:
 ## Status
 ![Get data from Overpass](https://github.com/chnuessli/defi_archive/workflows/Get%20data%20from%20Overpass/badge.svg) [![Get data converted to csv](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml/badge.svg)](https://github.com/chnuessli/defi_data/actions/workflows/convert.yml)
 [![Reporting – alle Kantone](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-reporting-all.yml)
-[![Wöchentlicher Report BE](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-weekly-changes-be.yml)
 [![QS-Report Schweiz](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-qs-daily.yml/badge.svg)](https://github.com/OpenBracketsCH/defi_data/actions/workflows/geojson-qs-daily.yml)

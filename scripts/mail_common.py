@@ -11,6 +11,7 @@ Feldnamen deutsch; übersetzt wird nur bei der Ausgabe.
 """
 
 import html
+import json
 import math
 import os
 import re
@@ -38,15 +39,12 @@ DEFIKARTE_ZOOM = 19
 FONT = "'Poppins', Arial, Helvetica, sans-serif"
 
 # ── Partner-Logo oben rechts ─────────────────────────────────────────────────
-# Pro Kanton über "partner_logo" in kantone_config.json (-> REPORT_PARTNER).
-# PARTNER_SHOW_LABEL = True zeigt "in Zusammenarbeit mit" über dem Logo
-# (dann wird "label_width" statt "width" verwendet).
-PARTNER_LOGOS = {
-    "surevive": {"url": "https://assets.defikarte.ch/logo/surevive.png", "alt": "sureVIVE",
-                 "width": 120, "label_width": 100},
-}
-PARTNER_SHOW_LABEL = True
-PARTNER = PARTNER_LOGOS.get(os.environ.get("REPORT_PARTNER", "").strip().lower())
+# Logos stehen in kantone_config.json unter "partner_logos", pro Kanton gewählt
+# über "partner_logo". process_all_kantone.py gibt den gewählten Eintrag als JSON
+# mit (-> REPORT_PARTNER). "show_label": true zeigt "in Zusammenarbeit mit" über
+# dem Logo (dann wird "label_width" statt "width" verwendet).
+PARTNER = json.loads(os.environ.get("REPORT_PARTNER") or "null")
+PARTNER_SHOW_LABEL = bool(PARTNER and PARTNER.get("show_label", True))
 
 COLOR_NEU = GREEN_LIGHT
 COLOR_GEAENDERT = "#FFA52F"     # secondary-orange-03
@@ -105,6 +103,9 @@ TEXTS = {
         "osm_history": "Verlauf in OSM",
         "footer": "Automatisch generiert von defikarte.ch",
         "partner_label": "in Zusammenarbeit mit",
+        "weekly_title": "Wöchentlicher Änderungs-Report – {name}",
+        "weekly_subtitle": "Stand {today} · {n} {entries} geändert diese Woche",
+        "weekly_entries": ("Eintrag", "Einträge"),
     },
     "fr": {
         "title": "Modifications des défibrillateurs dans votre secteur",
@@ -130,6 +131,9 @@ TEXTS = {
         "osm_history": "historique dans OSM",
         "footer": "Généré automatiquement par defikarte.ch",
         "partner_label": "en collaboration avec",
+        "weekly_title": "Rapport hebdomadaire des modifications – {name}",
+        "weekly_subtitle": "État au {today} · {n} {entries} cette semaine",
+        "weekly_entries": ("entrée modifiée", "entrées modifiées"),
     },
 }
 
@@ -514,14 +518,14 @@ def header_html():
             f'width="{LOGO_WIDTH}" style="width:{LOGO_WIDTH}px;height:auto;display:block;border:0;"/></a>')
     right = ""
     if PARTNER and PARTNER_SHOW_LABEL:
-        w = PARTNER["label_width"]
+        w = PARTNER.get("label_width") or PARTNER.get("width", 120)
         right = (f'<td align="right" valign="middle" style="font-family:{FONT};font-size:10px;color:{MUTED};line-height:1;">'
                  f'<div style="margin-bottom:6px;">{_e(T("partner_label"))}</div>'
-                 f'<img src="{PARTNER["url"]}" alt="{_e(PARTNER["alt"])}" width="{w}" '
+                 f'<img src="{PARTNER["url"]}" alt="{_e(PARTNER.get("alt", ""))}" width="{w}" '
                  f'style="width:{w}px;height:auto;display:inline-block;border:0;"/></td>')
     elif PARTNER:
-        w = PARTNER["width"]
-        right = (f'<td align="right" valign="middle"><img src="{PARTNER["url"]}" alt="{_e(PARTNER["alt"])}" '
+        w = PARTNER.get("width", 120)
+        right = (f'<td align="right" valign="middle"><img src="{PARTNER["url"]}" alt="{_e(PARTNER.get("alt", ""))}" '
                  f'width="{w}" style="width:{w}px;height:auto;display:block;border:0;"/></td>')
     return (f'<table role="presentation" width="100%" style="border-collapse:collapse;"><tr>'
             f'<td style="padding:4px 0 18px 0;">'

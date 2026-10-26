@@ -16,6 +16,7 @@ Erwartet folgende Umgebungsvariablen:
     MAIL_USER, MAIL_PASS, MAIL_COPY
     sowie je einen Eintrag pro Kanton, benannt nach dessen
     "mail_recipient_secret" aus der Config (z.B. MAIL_RECIPIENT_SO)
+    Optional: DRY_RUN, FORCE_WEEKLY (Wochen-Reports sofort senden)
 
 Schreibt am Ende STATE_CHANGED=true/false in $GITHUB_ENV, damit der
 Workflow weiss ob ein abschliessender Commit nötig ist.
@@ -26,6 +27,7 @@ import os
 import subprocess
 import smtplib
 import time
+from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 
@@ -36,6 +38,14 @@ CONFIG_FILE = "kantone_config.json"
 SEND_DELAY_SECONDS = 8
 
 DRY_RUN = os.environ.get("DRY_RUN", "false").lower() == "true"
+
+# Wöchentlicher Sammel-Report (reporting_mode "immediate_new_deleted_weekly_changed"):
+# geht mit dem ersten Lauf ab Montag 07:00 UTC raus. Läuft hier im Orchestrator mit
+# statt in einem eigenen Cron-Workflow -> keine Push-Kollision um die pending-Datei.
+WEEKLY_WEEKDAY = 0      # 0 = Montag
+WEEKLY_HOUR_UTC = 7
+# Manuell auslösen (Workflow-Input force_weekly): sofort senden, auch ausserhalb des Termins.
+FORCE_WEEKLY = os.environ.get("FORCE_WEEKLY", "false").lower() == "true"
 
 # Fehler pro Kanton. Werden am Ende in der Zusammenfassung des Workflow-Laufs
 # angezeigt und machen den Lauf rot (die anderen Kantone laufen trotzdem durch).
@@ -73,12 +83,18 @@ SUBJECTS = {
     "de": {
         "immediate": "Änderungen an Defis Kanton {name}",
         "be_style": "Neue/gelöschte Defis – {name}",
+        "weekly": "Wöchentlicher Änderungs-Report – {name} ({count})",
     },
     "fr": {
-        "immediate": "Défibrillateurs\u00a0: modifications – {name}",
+        "immediate": "Défibrillateurs : modifications – {name}",
         "be_style": "Défibrillateurs nouveaux/supprimés – {name}",
+        "weekly": "Rapport hebdomadaire des modifications – {name} ({count})",
     },
 }
+COUNT_WORDS = {"de": ("Änderung", "Änderungen"), "fr": ("modification", "modifications")}
+
+# Partner-Logos aus kantone_config.json ("partner_logos"), gesetzt in main().
+PARTNER_LOGOS = {}
 
 
 def lang_of(kanton):
@@ -86,24 +102,62 @@ def lang_of(kanton):
     return lang if lang in SUBJECTS else "de"
 
 
-def subject_for(kanton, kind):
-    # Optionaler eigener Betreff pro Eintrag ("subject" in kantone_config.json),
-    # z.B. für Liechtenstein, wo "Kanton {name}" nicht passt.
-    template = kanton.get("subject") or SUBJECTS[lang_of(kanton)][kind]
-    return template.format(name=kanton["name"])
+def subject_for(kanton, kind, count=None):
+    # Optionaler eigener Betreff pro Eintrag ("subject" bzw. "weekly_subject" in
+    # kantone_config.json), z.B. für Liechtenstein, wo "Kanton {name}" nicht passt.
+    custom = kanton.get("weekly_subject") if kind == "weekly" else kanton.get("subject")
+    template = custom or SUBJECTS[lang_of(kanton)][kind]
+    if count is not None:
+        count = f"{count} {COUNT_WORDS[lang_of(kanton)][0 if count == 1 else 1]}"
+    return template.format(name=kanton["name"], count=count)
+
+
+def partner_of(kanton):
+    """Partner-Logo des Kantons aus "partner_logos" oder None."""
+    key = str(kanton.get("partner_logo", "")).strip().lower()
+    if not key:
+        return None
+    if key not in PARTNER_LOGOS:
+        print(f"::warning title=Kanton {kanton['name']}::partner_logo '{key}' fehlt in "
+              f"partner_logos (kantone_config.json) - Mail ohne Partner-Logo")
+        return None
+    return PARTNER_LOGOS[key]
 
 
 def script_env(kanton):
     """Umgebung für die Diff-Scripts: Report-Sprache, Partner-Logo und
     Schwelle für Verschiebungen mitgeben."""
+    partner = partner_of(kanton)
     return {**os.environ, "REPORT_LANG": lang_of(kanton),
-            "REPORT_PARTNER": str(kanton.get("partner_logo", "")).strip().lower(),
+            "REPORT_PARTNER": json.dumps(partner) if partner else "",
             "REPORT_MOVE_THRESHOLD_M": str(kanton.get("move_threshold_m", ""))}
 
 
 def load_config():
     with open(CONFIG_FILE, encoding="utf-8") as f:
         return json.load(f)
+
+
+def deliver(kanton, html_file, subject):
+    """Schickt html_file an den Empfänger des Kantons (+ CC) und löscht die Datei.
+    Fehler -> KantonError (Stand wird vom Aufrufer dann nicht gespeichert)."""
+    try:
+        with open(html_file, encoding="utf-8") as f:
+            html_body = f.read()
+
+        recipient = os.environ.get(kanton["mail_recipient_secret"], "")
+        cc = os.environ.get("MAIL_COPY") if kanton.get("use_cc") else None
+        if not recipient:
+            raise KantonError(
+                "Kein Empfänger: Secret fehlt oder ist nicht im Workflow eingetragen",
+                kanton["mail_recipient_secret"])
+        try:
+            send_mail(subject=subject, html_body=html_body, to_addr=recipient, cc_addr=cc)
+        except Exception as e:
+            raise KantonError("Mailversand fehlgeschlagen", str(e))
+        time.sleep(SEND_DELAY_SECONDS)
+    finally:
+        os.remove(html_file)
 
 
 def get_geojson_sha(path):
@@ -240,31 +294,7 @@ def process_immediate(kanton):
         run_script(["python3", "scripts/geojson_diff.py", old_tmp, geojson_path], kanton)
 
         if os.path.exists("diff.html"):
-            with open("diff.html", encoding="utf-8") as f:
-                html_body = f.read()
-
-            recipient = os.environ.get(kanton["mail_recipient_secret"], "")
-            cc = os.environ.get("MAIL_COPY") if kanton.get("use_cc") else None
-
-            if recipient:
-                try:
-                    send_mail(
-                        subject=subject_for(kanton, "immediate"),
-                        html_body=html_body,
-                        to_addr=recipient,
-                        cc_addr=cc,
-                    )
-                    time.sleep(SEND_DELAY_SECONDS)
-                except Exception as e:
-                    os.remove("diff.html")
-                    raise KantonError("Mailversand fehlgeschlagen", str(e))
-            else:
-                os.remove("diff.html")
-                raise KantonError(
-                    "Kein Empfänger: Secret fehlt oder ist nicht im Workflow eingetragen",
-                    kanton["mail_recipient_secret"])
-
-            os.remove("diff.html")
+            deliver(kanton, "diff.html", subject_for(kanton, "immediate"))
         else:
             print(f"[{kid}] Diff-Script lief, aber keine relevanten Änderungen.")
     else:
@@ -321,31 +351,7 @@ def process_be_style(kanton):
                     pending_file], kanton)
 
         if os.path.exists("diff_immediate.html"):
-            with open("diff_immediate.html", encoding="utf-8") as f:
-                html_body = f.read()
-
-            recipient = os.environ.get(kanton["mail_recipient_secret"], "")
-            cc = os.environ.get("MAIL_COPY") if kanton.get("use_cc") else None
-
-            if recipient:
-                try:
-                    send_mail(
-                        subject=subject_for(kanton, "be_style"),
-                        html_body=html_body,
-                        to_addr=recipient,
-                        cc_addr=cc,
-                    )
-                    time.sleep(SEND_DELAY_SECONDS)
-                except Exception as e:
-                    os.remove("diff_immediate.html")
-                    raise KantonError("Mailversand fehlgeschlagen", str(e))
-            else:
-                os.remove("diff_immediate.html")
-                raise KantonError(
-                    "Kein Empfänger: Secret fehlt oder ist nicht im Workflow eingetragen",
-                    kanton["mail_recipient_secret"])
-
-            os.remove("diff_immediate.html")
+            deliver(kanton, "diff_immediate.html", subject_for(kanton, "be_style"))
         else:
             print(f"[{kid}] Keine sofortigen Änderungen (neu/gelöscht).")
     else:
@@ -358,26 +364,99 @@ def process_be_style(kanton):
     return True
 
 
+def current_weekly_slot(now=None):
+    """Datum des letzten fälligen Wochentermins (Montag 07:00 UTC) bis jetzt."""
+    now = now or datetime.now(timezone.utc)
+    slot = (now - timedelta(days=(now.weekday() - WEEKLY_WEEKDAY) % 7)).replace(
+        hour=WEEKLY_HOUR_UTC, minute=0, second=0, microsecond=0)
+    if slot > now:
+        slot -= timedelta(days=7)
+    return slot.date()
+
+
+def process_weekly(kanton):
+    """Wöchentlicher Sammel-Report der Änderungen aus pending_changes_<id>.json.
+    Gibt True zurück, wenn sich der Stand geändert hat (Commit nötig)."""
+    kid = kanton["id"]
+    pending_file = f".reporting/pending_changes_{kid}.json"
+    marker_file = f".reporting/last_weekly_report_{kid}.txt"
+    slot = current_weekly_slot().isoformat()
+
+    last = ""
+    if os.path.exists(marker_file):
+        last = open(marker_file, encoding="utf-8").read().strip()
+
+    if not last and not FORCE_WEEKLY:
+        # Noch nie gelaufen: nur initialisieren, damit nach dem Umstellen nicht
+        # mitten in der Woche ein Wochen-Report rausgeht.
+        print(f"[{kid}] Wochen-Report initialisiert auf {slot} (kein Versand).")
+        os.makedirs(".reporting", exist_ok=True)
+        with open(marker_file, "w", encoding="utf-8") as f:
+            f.write(slot)
+        return True
+
+    if last >= slot and not FORCE_WEEKLY:
+        return False
+
+    entries = []
+    if os.path.exists(pending_file) and os.path.getsize(pending_file) > 0:
+        try:
+            with open(pending_file, encoding="utf-8") as f:
+                entries = json.load(f)
+        except json.JSONDecodeError as e:
+            raise KantonError("pending-Datei unlesbar", f"{pending_file}: {e}")
+
+    if entries:
+        run_script(["python3", "scripts/build_weekly_report.py", pending_file,
+                    kanton["name"], "diff_weekly.html"], kanton)
+        deliver(kanton, "diff_weekly.html", subject_for(kanton, "weekly", count=len(entries)))
+        if DRY_RUN:
+            # Im Testlauf nichts verbrauchen, sonst wären die Änderungen weg.
+            print(f"[{kid}] [DRY RUN] pending-Datei und Wochenstand bleiben unverändert.")
+            return False
+        with open(pending_file, "w", encoding="utf-8") as f:
+            f.write("[]")
+    else:
+        print(f"[{kid}] Wochen-Report fällig, aber keine gesammelten Änderungen.")
+
+    with open(marker_file, "w", encoding="utf-8") as f:
+        f.write(slot)
+    return True
+
+
+def guarded(kanton, step):
+    """Führt step(kanton) aus; Fehler werden gesammelt statt den Lauf abzubrechen."""
+    try:
+        return step(kanton)
+    except KantonError as e:
+        ERRORS.append((kanton, e.reason, e.detail))
+    except Exception as e:
+        # Unerwarteter Fehler: nur diesen Kanton überspringen.
+        ERRORS.append((kanton, "Unerwarteter Fehler", f"{type(e).__name__}: {e}"))
+    return False
+
+
 def main():
+    global PARTNER_LOGOS
     config = load_config()
+    PARTNER_LOGOS = {k.lower(): v for k, v in config.get("partner_logos", {}).items()}
     state_changed = False
 
     for kanton in config["kantone"]:
+        if not kanton.get("enabled", True):
+            print(f"[{kanton['id']}] pausiert (enabled: false) - übersprungen.")
+            continue
+
         mode = kanton.get("reporting_mode", "immediate")
-        try:
-            if mode == "immediate":
-                changed = process_immediate(kanton)
-            elif mode == "immediate_new_deleted_weekly_changed":
-                changed = process_be_style(kanton)
-            else:
-                print(f"WARNUNG: Unbekannter reporting_mode '{mode}' für {kanton['id']}")
-                changed = False
-        except KantonError as e:
-            ERRORS.append((kanton, e.reason, e.detail))
-            changed = False
-        except Exception as e:
-            # Unerwarteter Fehler: nur diesen Kanton überspringen.
-            ERRORS.append((kanton, "Unerwarteter Fehler", f"{type(e).__name__}: {e}"))
+        if mode == "immediate":
+            changed = guarded(kanton, process_immediate)
+        elif mode == "immediate_new_deleted_weekly_changed":
+            changed = guarded(kanton, process_be_style)
+            # Eigener Schritt: ein Fehler beim Wochen-Report soll den bereits
+            # verarbeiteten Sofort-Teil nicht ungültig machen (und umgekehrt).
+            changed = guarded(kanton, process_weekly) or changed
+        else:
+            print(f"WARNUNG: Unbekannter reporting_mode '{mode}' für {kanton['id']}")
             changed = False
 
         state_changed = state_changed or changed
