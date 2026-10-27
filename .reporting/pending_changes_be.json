@@ -1,1 +1,19 @@
-[]
+[
+  {
+    "key": "node/6986767559",
+    "name": "Bucher Hydraulics AG Frutigen",
+    "has_name": false,
+    "detail": "Bucher Hydraulics beim Haupteingang",
+    "address": "Schwandistrasse 25, 3714 Frutigen",
+    "lon": 7.6577225,
+    "lat": 46.5916828,
+    "changes": [
+      {
+        "label": "Standortbeschreibung",
+        "old": "Beim Haupteingang",
+        "new": "Bucher Hydraulics beim Haupteingang"
+      }
+    ],
+    "detected_at": "2026-10-27T11:02:39.813761+00:00"
+  }
+]
