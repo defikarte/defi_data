@@ -32028,15 +32028,15 @@
     "description": "24hverfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "id": "node/10011458408"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4802303,
-      47.5694377
+      8.4799658,
+      47.5694071
     ]
   }
 },
@@ -67091,7 +67091,7 @@
   "id": "node/12662459601",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Ergeschoss beim Haupteingang",
+    "defibrillator:location": "Erdgeschoss beim Haupteingang",
     "description": "Während des Schulbetriebs verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -67105,7 +67105,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6252672,
+      8.6252667,
       47.3636021
     ]
   }

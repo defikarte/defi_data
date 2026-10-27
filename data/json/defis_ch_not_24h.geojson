@@ -181942,7 +181942,7 @@
   "id": "node/12662459601",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Ergeschoss beim Haupteingang",
+    "defibrillator:location": "Erdgeschoss beim Haupteingang",
     "description": "Während des Schulbetriebs verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -181956,7 +181956,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6252672,
+      8.6252667,
       47.3636021
     ]
   }
