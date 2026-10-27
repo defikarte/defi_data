@@ -15402,6 +15402,29 @@
       47.5508438
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14323129101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Swiss TPH",
+    "description": "Schrank mit Alarm",
+    "email": "info@swisstph.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "id": "node/14323129101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5504262,
+      47.5599245
+    ]
+  }
 }
 ]
 }
