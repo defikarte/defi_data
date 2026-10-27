@@ -82514,12 +82514,14 @@
   "type": "Feature",
   "id": "node/9713806617",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Eingang Kantine auf der linken Seite beim Windfang",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Nur bei laufendem Betrieb zugänglich",
+    "email": "az-uster@uster.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "operator": "Ausbildungszentrum Riedikon",
     "phone": "+41 44 941 34 34",
     "wheelchair": "limited",
@@ -82528,8 +82530,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7165204,
-      47.3309614
+      8.7165195,
+      47.3309627
     ]
   }
 },
@@ -165735,12 +165737,11 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Gadola Bau AG, Riedikerstrasse 63",
-    "description": "Montag bis Freitag an Werktagen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "07:00 - 17:00",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
     "operator": "Firma",
     "phone": "+41 44 929 61 61",
     "source": "local_knowledge, defikarte.ch",

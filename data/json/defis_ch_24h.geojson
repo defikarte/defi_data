@@ -17653,8 +17653,8 @@
     "addr:housenumber": "25",
     "addr:postcode": "3714",
     "addr:street": "Schwandistrasse",
-    "check_date": "2025-10-25",
-    "defibrillator:location": "Beim Haupteingang",
+    "check_date": "2026-10-27",
+    "defibrillator:location": "Bucher Hydraulics beim Haupteingang",
     "description": "Zoll AEDplus inkl. Kleiderschere und Beatmungsmaske",
     "email": "stefan.kohler@bucherhydraulics.com",
     "emergency": "defibrillator",
@@ -158844,30 +158844,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13947795501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang / Bucher Hydraulics AG Frutigen",
-    "email": "stefan.kohler@bucherhydraulics.com",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Bucher Hydraulics AG Frutigen",
-    "phone": "+41 33 672 61 98",
-    "wikimedia_commons": "File:Defi_Bucher.jpg",
-    "id": "node/13947795501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6594631,
-      46.5916943
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13949154101",
   "properties": {
     "defibrillator:location": "Sur la façade dans la cour de la Maison de l'Absinthe",
@@ -164173,6 +164149,31 @@
     "coordinates": [
       8.0847652,
       47.4021121
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14322507101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alte Käserei",
+    "description": "Schrank mit Alarm",
+    "email": "willy.altherr@neckertal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Werkhof Neckertal",
+    "phone": "+41 58 228 33 40",
+    "id": "node/14322507101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1304881,
+      47.3887656
     ]
   }
 }

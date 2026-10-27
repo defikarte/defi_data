@@ -34457,8 +34457,8 @@
     "addr:housenumber": "25",
     "addr:postcode": "3714",
     "addr:street": "Schwandistrasse",
-    "check_date": "2025-10-25",
-    "defibrillator:location": "Beim Haupteingang",
+    "check_date": "2026-10-27",
+    "defibrillator:location": "Bucher Hydraulics beim Haupteingang",
     "description": "Zoll AEDplus inkl. Kleiderschere und Beatmungsmaske",
     "email": "stefan.kohler@bucherhydraulics.com",
     "emergency": "defibrillator",
@@ -157730,12 +157730,14 @@
   "type": "Feature",
   "id": "node/9713806617",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Eingang Kantine auf der linken Seite beim Windfang",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Nur bei laufendem Betrieb zugänglich",
+    "email": "az-uster@uster.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "operator": "Ausbildungszentrum Riedikon",
     "phone": "+41 44 941 34 34",
     "wheelchair": "limited",
@@ -157744,8 +157746,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7165204,
-      47.3309614
+      8.7165195,
+      47.3309627
     ]
   }
 },
@@ -288612,12 +288614,11 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Gadola Bau AG, Riedikerstrasse 63",
-    "description": "Montag bis Freitag an Werktagen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "07:00 - 17:00",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
     "operator": "Firma",
     "phone": "+41 44 929 61 61",
     "source": "local_knowledge, defikarte.ch",
@@ -371017,30 +371018,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13947795501",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang / Bucher Hydraulics AG Frutigen",
-    "email": "stefan.kohler@bucherhydraulics.com",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Bucher Hydraulics AG Frutigen",
-    "phone": "+41 33 672 61 98",
-    "wikimedia_commons": "File:Defi_Bucher.jpg",
-    "id": "node/13947795501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6594631,
-      46.5916943
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13948350168",
   "properties": {
     "emergency": "defibrillator",
@@ -386520,6 +386497,31 @@
     "coordinates": [
       7.6012108,
       47.1955207
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14322507101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alte Käserei",
+    "description": "Schrank mit Alarm",
+    "email": "willy.altherr@neckertal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Werkhof Neckertal",
+    "phone": "+41 58 228 33 40",
+    "id": "node/14322507101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1304881,
+      47.3887656
     ]
   }
 }

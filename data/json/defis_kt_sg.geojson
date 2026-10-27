@@ -33313,6 +33313,31 @@
       47.420987
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14322507101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Alte Käserei",
+    "description": "Schrank mit Alarm",
+    "email": "willy.altherr@neckertal.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Werkhof Neckertal",
+    "phone": "+41 58 228 33 40",
+    "id": "node/14322507101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1304881,
+      47.3887656
+    ]
+  }
 }
 ]
 }
