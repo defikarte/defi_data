@@ -16511,7 +16511,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo - Fr 7:00 - 17:30",
+    "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "Kompass Arbeitsintegration",
     "phone": "+41 71 424 00 20",
     "id": "node/14282750301"

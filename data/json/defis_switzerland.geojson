@@ -154549,18 +154549,19 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Polizeiwache Köniz",
-    "description": "Rechts beim Haupteingang (aussen)",
+    "description": "Rechts beim Haupteingang (aktuell wegen Briefkasten nicht Nutzbar)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "phone": "+41782351415",
     "id": "node/9649244217"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4131003,
-      46.9258718
+      7.4131,
+      46.9258719
     ]
   }
 },
@@ -385165,7 +385166,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo - Fr 7:00 - 17:30",
+    "opening_hours": "Mo-Fr 07:00-17:30",
     "operator": "Kompass Arbeitsintegration",
     "phone": "+41 71 424 00 20",
     "id": "node/14282750301"
