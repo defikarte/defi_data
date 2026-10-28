@@ -24298,6 +24298,8 @@
     "defibrillator:location": "Der Defibrillator befindet sich frei zugänglich rechts neben der Tür unter dem Vordach des Haupteingangs (Trakt B) der Sekundarschule.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/OfR9yAsFeECqdFZFIZCDFw.webp",
+    "image:license": "CC0",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Schule Rorbas-Freienstein-Teufen",
