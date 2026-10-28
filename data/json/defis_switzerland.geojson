@@ -251039,16 +251039,16 @@
   "type": "Feature",
   "id": "node/11302547869",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Mengeu Schutzraum-Technik",
     "description": "während Öffnungszeiten verfügbar; Türen geschlossen, bitte klingeln",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Th 07:00-17:00; Fr 07:00-16:00",
+    "opening_hours": "Mo-Fr 07:30-11:30, 13:00-16:00",
     "operator": "Mengeu AG",
     "phone": "+41 52 368 66 75",
-    "source": "local_knowledge, defikarte.ch",
+    "source": "aed-source",
     "id": "node/11302547869"
   },
   "geometry": {
@@ -328238,9 +328238,14 @@
   "id": "node/12912536801",
   "properties": {
     "defibrillator:location": "Ärztezentrum Jegenstorf",
+    "description": "Immer zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Ärztezentrum Jegenstorf",
+    "phone": "+41 31 764 60 60",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12912536801"
   },

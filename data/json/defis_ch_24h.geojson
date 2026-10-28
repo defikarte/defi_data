@@ -140031,6 +140031,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/12912536801",
+  "properties": {
+    "defibrillator:location": "Ärztezentrum Jegenstorf",
+    "description": "Immer zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Ärztezentrum Jegenstorf",
+    "phone": "+41 31 764 60 60",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12912536801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5058401,
+      47.0489809
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12912540272",
   "properties": {
     "access": "private",
