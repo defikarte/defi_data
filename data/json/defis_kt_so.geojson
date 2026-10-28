@@ -3578,20 +3578,23 @@
   "type": "Feature",
   "id": "node/10111125117",
   "properties": {
-    "defibrillator:location": "In Gebeude 1.OG Arzt Zimmer",
+    "defibrillator:location": "EG, Speisesaal",
     "description": "von 07:00-20:00 geöfnet 20:00-07:00 bei der Nachtgloke klingeln",
+    "email": "martin.guebeli@bruegglidulliken.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Alters und Pflegeheim Brüggli",
     "phone": "+41 62 285 45 48",
     "id": "node/10111125117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.938973,
-      47.3516283
+      7.9389726,
+      47.3516282
     ]
   }
 },

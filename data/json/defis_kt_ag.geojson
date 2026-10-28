@@ -13092,19 +13092,20 @@
   "type": "Feature",
   "id": "node/10029318941",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Beim Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-16:00",
     "id": "node/10029318941"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2339027,
-      47.4113169
+      8.2339029,
+      47.4113172
     ]
   }
 },

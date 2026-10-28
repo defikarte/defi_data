@@ -162,8 +162,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5165501,
-      47.1643245
+      8.5163972,
+      47.1641203
     ]
   }
 },
@@ -657,11 +657,15 @@
   "type": "Feature",
   "id": "node/7930654677",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Migros",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 19:00; Sa 08:00 - 17:00",
+    "operator": "Migros",
     "id": "node/7930654677"
   },
   "geometry": {
@@ -947,33 +951,25 @@
 },
 {
   "type": "Feature",
-  "id": "node/8003897916",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8003897916"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5163486,
-      47.1641182
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8165390899",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle Zugerberg Bahn",
+    "description": "Schrank mit Alarm",
+    "email": "info@zbb.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Zugerberg Bahn",
+    "phone": "+41 41 711 53 76",
     "id": "node/8165390899"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5210103,
+      8.5210102,
       47.1513652
     ]
   }
@@ -1285,6 +1281,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo - Fr 09:00 - 19:00; Sa 09:00 - 16:00",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
     "phone": "+41 58 728 99 00",
     "id": "node/9605130360"
@@ -1293,7 +1290,7 @@
     "type": "Point",
     "coordinates": [
       8.5150886,
-      47.1645665
+      47.1645666
     ]
   }
 },
@@ -2856,6 +2853,30 @@
     "coordinates": [
       8.5235125,
       47.1781393
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14324925001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stadler Elektro Lager",
+    "email": "guido.matter@stadler-elektro.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo- Fr 07:00 - 16:00",
+    "operator": "Stadler Elektro",
+    "phone": "+41 79 795 22 52",
+    "id": "node/14324925001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.491468,
+      47.1863583
     ]
   }
 }

@@ -1247,20 +1247,23 @@
   "type": "Feature",
   "id": "node/6992457786",
   "properties": {
-    "defibrillator:location": "Hintereingang Gemeinde",
-    "description": "nur während Öffnungszeiten der Gemeinde verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Im Foyer der Gemeinde auf Höhe Lift",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "AED Gemeindehaus",
     "opening_hours": "Mo-Fr 08:00-11:30,14:00-16:30",
     "operator": "Gemeinde Gossau",
+    "phone": "+41 44 936 55 90",
     "id": "node/6992457786"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7627461,
+      8.7627462,
       47.3016627
     ]
   }
@@ -1314,21 +1317,24 @@
   "type": "Feature",
   "id": "node/6992457789",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Altrüti",
     "description": "nur während Veranstaltungen verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "AED Festhütte Altrüti",
     "operator": "Gemeinde Gossau",
+    "phone": "+41 44 936 55 11",
     "id": "node/6992457789"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7702034,
-      47.2981534
+      8.7702032,
+      47.2981535
     ]
   }
 },
@@ -1336,14 +1342,16 @@
   "type": "Feature",
   "id": "node/6992457790",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Schulhaus Berg",
-    "description": "nur während Schulbetrieb verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Schulhaus Berg 1",
     "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Gossau",
+    "phone": "+41 44 936 55 90",
     "id": "node/6992457790"
   },
   "geometry": {
@@ -1360,13 +1368,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Links beim Schwimmbädli beim Abgang zur ZSO-Anlage",
-    "description": "24h verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "-1",
     "name": "AED Schulhaus Schönbüel",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gossau",
+    "phone": "+41 44 936 55 90",
     "id": "node/6992457791"
   },
   "geometry": {
@@ -22866,19 +22876,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang 1. UG auf Seite Aussenfeld",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "-1",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245658038"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7691106,
-      47.2997751
+      8.7691109,
+      47.2997747
     ]
   }
 },
@@ -22907,13 +22919,16 @@
   "type": "Feature",
   "id": "node/9245680187",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Im Korridor vor der Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245680187"
   },
   "geometry": {
@@ -22930,11 +22945,14 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Trakt 3, Eingangsbereich, rechte Seite an der Wand",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245680188"
   },
   "geometry": {
@@ -22949,13 +22967,16 @@
   "type": "Feature",
   "id": "node/9245680189",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Haus B (Trakt Turnhalle/LSB) Eingangsbereich, linke Seite an der Wand, nach der Vitrine.",
-    "description": "während Öffnungszeiten verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245680189"
   },
   "geometry": {
@@ -22994,18 +23015,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Aussenfassade Bistro / Zuschauerraum",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245720417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7487438,
+      8.7487439,
       47.3051601
     ]
   }
@@ -49823,12 +49846,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Eingang der Gemeindebibliothek an einer Säule",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gossau",
-    "phone": "+41449365511",
+    "phone": "+41 44 936 55 90",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11434561769"
   },
@@ -49836,7 +49860,7 @@
     "type": "Point",
     "coordinates": [
       8.7629887,
-      47.301376
+      47.3013758
     ]
   }
 },

@@ -4738,6 +4738,31 @@
       47.5508438
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14324841701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hausbar Markthalle",
+    "description": "Schrank mit Alarm",
+    "email": "technik@markthallebasel.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-24:00",
+    "operator": "Markthallen AG Basel",
+    "phone": "+41 77 231 79 61",
+    "id": "node/14324841701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5875992,
+      47.5492042
+    ]
+  }
 }
 ]
 }

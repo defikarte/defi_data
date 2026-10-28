@@ -18576,13 +18576,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Links beim Schwimmbädli beim Abgang zur ZSO-Anlage",
-    "description": "24h verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "-1",
     "name": "AED Schulhaus Schönbüel",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gossau",
+    "phone": "+41 44 936 55 90",
     "id": "node/6992457791"
   },
   "geometry": {
@@ -23448,8 +23450,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5165501,
-      47.1643245
+      8.5163972,
+      47.1641203
     ]
   }
 },
@@ -38435,6 +38437,31 @@
     "coordinates": [
       7.8574711,
       46.5618812
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8165390899",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingangshalle Zugerberg Bahn",
+    "description": "Schrank mit Alarm",
+    "email": "info@zbb.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Zugerberg Bahn",
+    "phone": "+41 41 711 53 76",
+    "id": "node/8165390899"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5210102,
+      47.1513652
     ]
   }
 },
@@ -65224,19 +65251,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Eingang 1. UG auf Seite Aussenfeld",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "-1",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245658038"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7691106,
-      47.2997751
+      8.7691109,
+      47.2997747
     ]
   }
 },
@@ -65268,18 +65297,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Aussenfassade Bistro / Zuschauerraum",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245720417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7487438,
+      8.7487439,
       47.3051601
     ]
   }
@@ -82003,20 +82034,23 @@
   "type": "Feature",
   "id": "node/10111125117",
   "properties": {
-    "defibrillator:location": "In Gebeude 1.OG Arzt Zimmer",
+    "defibrillator:location": "EG, Speisesaal",
     "description": "von 07:00-20:00 geöfnet 20:00-07:00 bei der Nachtgloke klingeln",
+    "email": "martin.guebeli@bruegglidulliken.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Alters und Pflegeheim Brüggli",
     "phone": "+41 62 285 45 48",
     "id": "node/10111125117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.938973,
-      47.3516283
+      7.9389726,
+      47.3516282
     ]
   }
 },
@@ -109932,12 +109966,13 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Eingang der Gemeindebibliothek an einer Säule",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Gossau",
-    "phone": "+41449365511",
+    "phone": "+41 44 936 55 90",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11434561769"
   },
@@ -109945,7 +109980,7 @@
     "type": "Point",
     "coordinates": [
       8.7629887,
-      47.301376
+      47.3013758
     ]
   }
 },

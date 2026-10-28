@@ -17061,20 +17061,23 @@
   "type": "Feature",
   "id": "node/6992457786",
   "properties": {
-    "defibrillator:location": "Hintereingang Gemeinde",
-    "description": "nur während Öffnungszeiten der Gemeinde verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Im Foyer der Gemeinde auf Höhe Lift",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "AED Gemeindehaus",
     "opening_hours": "Mo-Fr 08:00-11:30,14:00-16:30",
     "operator": "Gemeinde Gossau",
+    "phone": "+41 44 936 55 90",
     "id": "node/6992457786"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7627461,
+      8.7627462,
       47.3016627
     ]
   }
@@ -17128,21 +17131,24 @@
   "type": "Feature",
   "id": "node/6992457789",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Altrüti",
     "description": "nur während Veranstaltungen verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "AED Festhütte Altrüti",
     "operator": "Gemeinde Gossau",
+    "phone": "+41 44 936 55 11",
     "id": "node/6992457789"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7702034,
-      47.2981534
+      8.7702032,
+      47.2981535
     ]
   }
 },
@@ -17150,14 +17156,16 @@
   "type": "Feature",
   "id": "node/6992457790",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Schulhaus Berg",
-    "description": "nur während Schulbetrieb verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "AED Schulhaus Berg 1",
     "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Gossau",
+    "phone": "+41 44 936 55 90",
     "id": "node/6992457790"
   },
   "geometry": {
@@ -38209,11 +38217,15 @@
   "type": "Feature",
   "id": "node/7930654677",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Im Migros",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 - 19:00; Sa 08:00 - 17:00",
+    "operator": "Migros",
     "id": "node/7930654677"
   },
   "geometry": {
@@ -39228,22 +39240,6 @@
     "coordinates": [
       7.9583046,
       47.541784
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8003897916",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/8003897916"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5163486,
-      47.1641182
     ]
   }
 },
@@ -41720,23 +41716,6 @@
     "coordinates": [
       7.9455823,
       47.2524782
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8165390899",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/8165390899"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5210103,
-      47.1513652
     ]
   }
 },
@@ -67769,13 +67748,16 @@
   "type": "Feature",
   "id": "node/9245680187",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Im Korridor vor der Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245680187"
   },
   "geometry": {
@@ -67792,11 +67774,14 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Trakt 3, Eingangsbereich, rechte Seite an der Wand",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245680188"
   },
   "geometry": {
@@ -67811,13 +67796,16 @@
   "type": "Feature",
   "id": "node/9245680189",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Haus B (Trakt Turnhalle/LSB) Eingangsbereich, linke Seite an der Wand, nach der Vitrine.",
-    "description": "während Öffnungszeiten verfügbar",
+    "email": "liegenschaftenabteilung@gossau-zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Gemeinde Gossau",
-    "phone": "+41 44 936 55 11",
+    "phone": "+41 44 936 55 90",
     "id": "node/9245680189"
   },
   "geometry": {
@@ -79405,6 +79393,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo - Fr 09:00 - 19:00; Sa 09:00 - 16:00",
     "operator": "Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",
     "phone": "+41 58 728 99 00",
     "id": "node/9605130360"
@@ -79413,7 +79402,7 @@
     "type": "Point",
     "coordinates": [
       8.5150886,
-      47.1645665
+      47.1645666
     ]
   }
 },
@@ -95235,19 +95224,20 @@
   "type": "Feature",
   "id": "node/10029318941",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Beim Haupteingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 07:00-16:00",
     "id": "node/10029318941"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2339027,
-      47.4113169
+      8.2339029,
+      47.4113172
     ]
   }
 },
@@ -170957,10 +170947,10 @@
   "type": "Feature",
   "id": "node/12273379783",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "addr:housenumber": "3",
     "addr:street": "Unternehmer-park",
-    "defibrillator:location": "Factory EG\n1490LTM",
+    "defibrillator:location": "The Greenery EG1490LTM",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -170984,10 +170974,10 @@
   "type": "Feature",
   "id": "node/12273444649",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "addr:housenumber": "3",
     "addr:street": "Unternehmer-Park",
-    "defibrillator:location": "The Greenery EG\n1484LTM",
+    "defibrillator:location": "The Factory EG1484LTM",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -171002,8 +170992,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5163156,
-      47.1858716
+      8.5163155,
+      47.1858715
     ]
   }
 },
@@ -171011,16 +171001,17 @@
   "type": "Feature",
   "id": "node/12273449627",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:housenumber": "3",
     "addr:street": "Unternehmer-Park",
-    "defibrillator:location": "Foundary EG\n1488LTM",
+    "defibrillator:location": "Foundry EG1488LTM",
+    "description": "Behind reception",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "name": "Partners Group AG",
-    "opening_hours": "Mo-Fr 07:00 -18:00",
+    "opening_hours": "Mo-Fr 08:00 -18:00",
     "operator": "Lifetec AG",
     "phone": "+41 800 122 144",
     "ref": "1488LTM",
@@ -171029,8 +171020,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5156773,
-      47.1857749
+      8.515677,
+      47.1857747
     ]
   }
 },
@@ -222369,6 +222360,55 @@
     "coordinates": [
       7.5504262,
       47.5599245
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14324841701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hausbar Markthalle",
+    "description": "Schrank mit Alarm",
+    "email": "technik@markthallebasel.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 08:00-24:00",
+    "operator": "Markthallen AG Basel",
+    "phone": "+41 77 231 79 61",
+    "id": "node/14324841701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5875992,
+      47.5492042
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14324925001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stadler Elektro Lager",
+    "email": "guido.matter@stadler-elektro.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo- Fr 07:00 - 16:00",
+    "operator": "Stadler Elektro",
+    "phone": "+41 79 795 22 52",
+    "id": "node/14324925001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.491468,
+      47.1863583
     ]
   }
 }
