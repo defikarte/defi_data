@@ -15,5 +15,42 @@
       }
     ],
     "detected_at": "2026-10-27T11:02:39.813761+00:00"
+  },
+  {
+    "key": "node/12912536801",
+    "name": "Ärztezentrum Jegenstorf",
+    "has_name": false,
+    "detail": null,
+    "address": null,
+    "lon": 7.5058401,
+    "lat": 47.0489809,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": null,
+        "new": "Ärztezentrum Jegenstorf"
+      },
+      {
+        "label": "Telefon",
+        "old": null,
+        "new": "+41 31 764 60 60"
+      },
+      {
+        "label": "Öffnungszeiten",
+        "old": null,
+        "new": "24/7"
+      },
+      {
+        "label": "Beschreibung",
+        "old": null,
+        "new": "Immer zugänglich"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      }
+    ],
+    "detected_at": "2026-10-28T13:36:47.930482+00:00"
   }
 ]
