@@ -644,7 +644,7 @@ Zugang: 24/7",,defibrillator,144,,,,node/7637818917,no,,,,,,,Campus Polizeischul
 7637818960,node,47.1405451,7.9688165,yes,,,,,,,,,,,,,,,,Haupteingang linke Seite,,defibrillator,144,,,,node/7637818960,,,,,,,,altes Schulhaus,,,24/7,,,,,,,,,
 7637818961,node,47.142647,7.9829171,,,,,,,,,,,,,,,,,über den Haupteingang,,defibrillator,144,,,,node/7637818961,,,,,,,,HänyTec AG,,,,,,,,,,,,
 7637818964,node,47.0906715,8.0574223,yes,,,,,,,,,,,,,,Eingang Turnhalle re Seite,,,,defibrillator,144,,,,node/7637818964,,,,,,,,Gemeinde,,,24/7,,,,,,,,,
-7637818965,node,46.6685659,8.5860012,yes,,,,,,,,,,2023-06-25,,,,An der Aussenwand bei der Rampe,,Eingang Aussenfassade,,defibrillator,144,,,,node/7637818965,no,,,,,,,Defibrillator Göschenen,,,24/7,Gemeinde Göschenen,,,,,,,,
+7637818965,node,46.6685659,8.5860012,yes,,,Göschenen,,8a,6488,Göscheneralpstrasse,,,2026-10-28,,,,An der Aussenwand bei der Rampe,,Gemeinde Göschenen Eingang Aussenfassade,,defibrillator,144,,,,node/7637818965,no,,0,,,,,Gemeinde Göschenen,,,24/7,Lifetec ag,,0800122144,1677LTS,,,,,
 7637818966,node,46.64897,8.4997338,,,,,,,,,,,,,,,,,Office,,defibrillator,144,,,,node/7637818966,,,,,,,,Göscheneralp Rest Dammagletscher,,,,,,,,,,,,
 7637818967,node,46.6673458,8.5851195,,,,,,,,,,,,,,,,,Haupteingang,,defibrillator,144,,,,node/7637818967,,,,,,,,Kraftwerk Göschenen,,,,,,,,,,,,
 7637818968,node,46.6669533,8.5914866,yes,,,,,,,,,,,,,,,,Haupteingang/links hinter EG Türe Polizei,,defibrillator,144,,,,node/7637818968,,,,,,,,Schadenwehr Gotthard,,,24/7,,,,,,,,,

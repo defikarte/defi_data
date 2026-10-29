@@ -166,7 +166,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 10093471717,node,47.1686022,7.5696238,yes,,,,,,,,,,,,Turnhalle Gländ Südseite,,,,,defibrillator,144,,node/10093471717,no,,,,,,,Gemeinde,,,,,,,
 10093476017,node,47.1709296,7.5733192,yes,,,,,,,,,,,,"Platz vor Gemindeverwaltung, Post und Coop",,,,,defibrillator,144,,node/10093476017,no,,,,,,,Gemeinde,,,,,,,
 10108105480,node,47.393894,7.5426252,yes,,,,,,,,,,,,Neben dem Eingang zur Turnhalle nahe der Treppe,,,,,defibrillator,144,,node/10108105480,no,,,,,,24/7,,,,,,,,
-10111125117,node,47.3516283,7.938973,,,,,,,,,,,,,In Gebeude 1.OG Arzt Zimmer,von 07:00-20:00 geöfnet 20:00-07:00 bei der Nachtgloke klingeln,,,,defibrillator,144,,node/10111125117,yes,,,,,,24/7,,,,+41 62 285 45 48,,,,
+10111125117,node,47.3516282,7.9389726,,,,,,,,,,,,,"EG, Speisesaal",von 07:00-20:00 geöfnet 20:00-07:00 bei der Nachtgloke klingeln,,,martin.guebeli@bruegglidulliken.ch,defibrillator,144,,node/10111125117,yes,,0,,,,24/7,Alters und Pflegeheim Brüggli,,,+41 62 285 45 48,,,,
 10127438045,node,47.1892381,7.554433,yes,,,,,,,,,,,,"Haupteingang, 1.Stock",während Öffnungszeiten verfügbar,,,,defibrillator,144,,node/10127438045,yes,,1,,,,,Curtis Instruments AG,,,+41 32 671 62 00,,,,
 10135735317,node,47.342753,7.8986901,yes,,,,,,,,,,,,Stadion Kleinholz Olten,,,,,defibrillator,144,,node/10135735317,no,,,,,,24/7,Einwohnergemeinde Olten,,,,,,,
 10135862517,node,47.1335909,7.4746009,yes,,,,,,,,,,,,Eingang Schwimmbad Mühledorf,schmaler Weg neben Garten von Rest. Kreuz nach hinten gehen.,,,,defibrillator,144,,node/10135862517,no,,,,,,24/7,Gemeinde,,,+41794061913,,,,
