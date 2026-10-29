@@ -7291,6 +7291,7 @@
   "id": "node/14223721198",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "In the open space, attached to a building's wall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",

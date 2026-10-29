@@ -161022,7 +161022,7 @@
   "type": "Feature",
   "id": "node/14076535101",
   "properties": {
-    "access": "yes",
+    "access": "no",
     "defibrillator:location": "Eingang beim Containerhäuschen, neben den Besucher Parkplätzen",
     "description": "Öffentlich und immer Zugänglich",
     "email": "info@baltenspergerbau.ch",
@@ -163244,6 +163244,7 @@
   "id": "node/14223721198",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "In the open space, attached to a building's wall",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
