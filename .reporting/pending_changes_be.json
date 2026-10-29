@@ -74,5 +74,27 @@
       }
     ],
     "detected_at": "2026-10-28T23:35:29.830544+00:00"
+  },
+  {
+    "key": "node/6635553944",
+    "name": "BASPO / OFSPO Macolin / Maggligen",
+    "has_name": false,
+    "detail": "Bellavista Foyer, vor Restaurant",
+    "address": null,
+    "lon": 7.2119243,
+    "lat": 47.1372901,
+    "changes": [
+      {
+        "label": "Öffnungszeiten",
+        "old": "11:30-13:15,18:00-19:30",
+        "new": "08:00-19:30"
+      },
+      {
+        "label": "Stockwerk",
+        "old": "-1",
+        "new": "-3"
+      }
+    ],
+    "detected_at": "2026-10-29T10:29:06.829850+00:00"
   }
 ]
