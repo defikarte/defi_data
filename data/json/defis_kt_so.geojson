@@ -1473,15 +1473,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
     "operator": "Feuerwehr",
     "id": "node/8996694717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9478376,
-      47.363658
+      7.9478373,
+      47.3636584
     ]
   }
 },

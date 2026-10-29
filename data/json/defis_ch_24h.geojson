@@ -57790,27 +57790,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8996694717",
-  "properties": {
-    "defibrillator:location": "Feuerwehr",
-    "description": "nur durch Feuerwehr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Feuerwehr",
-    "id": "node/8996694717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9478376,
-      47.363658
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8997566861",
   "properties": {
     "access": "yes",
@@ -142621,6 +142600,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/13049857002",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ebertswilerstrasse 33",
+    "description": "Immer zugängig",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Institution",
+    "phone": "+41447648175",
+    "id": "node/13049857002"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.541681,
+      47.2385294
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13049882201",
   "properties": {
     "access": "yes",
@@ -164243,6 +164245,56 @@
     "coordinates": [
       9.1304881,
       47.3887656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331178301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhofstrasse 4, 5200 Brugg",
+    "description": "Schrank mit Alarm",
+    "email": "verwaltung@kathbrugg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Katholische Kirchgemeinde Brugg",
+    "phone": "+41 56 441 12 55",
+    "id": "node/14331178301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2070229,
+      47.4827173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331187001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hauserstrass 18, 5210 Windisch",
+    "description": "Schrank mit Alarm",
+    "email": "verwaltung@kathbrugg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Katholische Kirchgemeinde Brugg",
+    "phone": "+41 56 441 12 55",
+    "id": "node/14331187001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2128556,
+      47.4754993
     ]
   }
 }

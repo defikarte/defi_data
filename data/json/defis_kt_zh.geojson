@@ -71060,6 +71060,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Institution",
     "phone": "+41447648175",
     "id": "node/13049857002"
@@ -71068,7 +71069,7 @@
     "type": "Point",
     "coordinates": [
       8.541681,
-      47.2385296
+      47.2385294
     ]
   }
 },

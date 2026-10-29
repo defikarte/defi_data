@@ -66504,6 +66504,31 @@
       46.9488337
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14331210801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Industriestrasse 16",
+    "description": "Eingang links",
+    "email": "info@dietrich-isol.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr \"07.00-17.30\"",
+    "operator": "Dietrich Isol AG",
+    "phone": "+41 33 655 60 60",
+    "id": "node/14331210801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.649444,
+      46.6932133
+    ]
+  }
 }
 ]
 }

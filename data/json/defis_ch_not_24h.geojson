@@ -59173,6 +59173,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/8996694717",
+  "properties": {
+    "defibrillator:location": "Feuerwehr",
+    "description": "nur durch Feuerwehr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Feuerwehr",
+    "id": "node/8996694717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9478373,
+      47.3636584
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8998079692",
   "properties": {
     "defibrillator:location": "On the wall, next to the door",
@@ -191183,28 +191203,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13049857002",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Ebertswilerstrasse 33",
-    "description": "Immer zugängig",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Institution",
-    "phone": "+41447648175",
-    "id": "node/13049857002"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.541681,
-      47.2385296
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13050264502",
   "properties": {
     "access": "permissive",
@@ -222390,6 +222388,76 @@
     "coordinates": [
       8.491468,
       47.1863583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14330990601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Befindet sich im EG, Eingangshalle, Seitengang zu den Toiletten",
+    "email": "info.plessur@rg.gr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Regionalgericht Plessur",
+    "phone": "+41 81 257 59 00",
+    "id": "node/14330990601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5319897,
+      46.8497592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331210801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Industriestrasse 16",
+    "description": "Eingang links",
+    "email": "info@dietrich-isol.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr \"07.00-17.30\"",
+    "operator": "Dietrich Isol AG",
+    "phone": "+41 33 655 60 60",
+    "id": "node/14331210801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.649444,
+      46.6932133
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331418001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bodyworx Fitness",
+    "description": "Am Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "BodyWorx",
+    "id": "node/14331418001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.481074,
+      47.1878722
     ]
   }
 }

@@ -10138,6 +10138,28 @@
       47.1863583
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14331418001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bodyworx Fitness",
+    "description": "Am Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "BodyWorx",
+    "id": "node/14331418001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.481074,
+      47.1878722
+    ]
+  }
 }
 ]
 }

@@ -17551,6 +17551,29 @@
       46.833499
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14330990601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Befindet sich im EG, Eingangshalle, Seitengang zu den Toiletten",
+    "email": "info.plessur@rg.gr.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Regionalgericht Plessur",
+    "phone": "+41 81 257 59 00",
+    "id": "node/14330990601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5319897,
+      46.8497592
+    ]
+  }
 }
 ]
 }

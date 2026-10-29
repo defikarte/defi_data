@@ -91402,6 +91402,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Institution",
     "phone": "+41447648175",
     "id": "node/13049857002"
@@ -91410,7 +91411,7 @@
     "type": "Point",
     "coordinates": [
       8.541681,
-      47.2385296
+      47.2385294
     ]
   }
 },
@@ -106024,6 +106025,28 @@
     "coordinates": [
       8.491468,
       47.1863583
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331418001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bodyworx Fitness",
+    "description": "Am Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "BodyWorx",
+    "id": "node/14331418001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.481074,
+      47.1878722
     ]
   }
 }
