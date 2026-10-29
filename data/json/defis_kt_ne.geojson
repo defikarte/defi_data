@@ -1653,7 +1653,7 @@
   "type": "Feature",
   "id": "node/12304415101",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "Centre scolaire des Deux Thielles",
     "description": "Disponible",
     "emergency": "defibrillator",

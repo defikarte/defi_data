@@ -7563,8 +7563,8 @@
   "type": "Feature",
   "id": "node/8558333617",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Permanence Notfallpraxis",
-    "description": "Während der Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
