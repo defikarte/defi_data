@@ -164298,6 +164298,53 @@
       47.4754993
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14331950401",
+  "properties": {
+    "defibrillator:location": "Bushaltestelle Donzhausen",
+    "email": "info@sulgen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 644 95 60",
+    "id": "node/14331950401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1960286,
+      47.5540828
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331960201",
+  "properties": {
+    "defibrillator:location": "Bei Schreinerei Bischof",
+    "description": "im Hausdurchgang/ Hauptstrasse 7",
+    "email": "info@sulgen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 644 95 60",
+    "id": "node/14331960201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2161657,
+      47.5349338
+    ]
+  }
 }
 ]
 }

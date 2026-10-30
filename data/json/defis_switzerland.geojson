@@ -116962,12 +116962,15 @@
   "type": "Feature",
   "id": "node/8996694717",
   "properties": {
-    "defibrillator:location": "Feuerwehr",
-    "description": "nur durch Feuerwehr",
+    "access": "private",
+    "defibrillator:location": "Feuerwehrmagazin",
+    "description": "nur durch Feuerwehr zugänglich",
+    "email": "feuerwehr@obergoesgen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "operator": "Feuerwehr",
+    "phone": "+41 76 831 38 18",
     "id": "node/8996694717"
   },
   "geometry": {
@@ -386756,6 +386759,102 @@
     "coordinates": [
       8.481074,
       47.1878722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331950401",
+  "properties": {
+    "defibrillator:location": "Bushaltestelle Donzhausen",
+    "email": "info@sulgen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 644 95 60",
+    "id": "node/14331950401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1960286,
+      47.5540828
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331959301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Seniorenzentrum Oase Obergösgen",
+    "description": "Beim Restauranteingang",
+    "email": "info@oaseobergoesgen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00 - 18:00",
+    "operator": "Seniorenzentrum Oase Obergösgen",
+    "phone": "+41 62 544 57 57",
+    "id": "node/14331959301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9501185,
+      47.3655496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331960201",
+  "properties": {
+    "defibrillator:location": "Bei Schreinerei Bischof",
+    "description": "im Hausdurchgang/ Hauptstrasse 7",
+    "email": "info@sulgen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 71 644 95 60",
+    "id": "node/14331960201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2161657,
+      47.5349338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14331963001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hausarztpraxis Obergösgen",
+    "description": "In der Arztpraxis",
+    "email": "info@hausarztpraxis-obergoesgen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:30 - 17:30",
+    "operator": "Hausarztpraxis Obergösgen",
+    "phone": "+41 62 295 30 50",
+    "id": "node/14331963001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9505128,
+      47.3646305
     ]
   }
 }
