@@ -52823,7 +52823,7 @@
   "type": "Feature",
   "id": "node/11738687970",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Eingang K (Kongresshaus) nach Windfang Links an der Wand.",
     "description": "Öffnungszeiten unterschiedlich mindestens Werktags 08:00-17:00 ausg. Ferienzeit",
     "emergency": "defibrillator",
@@ -62605,7 +62605,7 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "Tödistrasse 46/48",
-    "description": "Go to 3rd floor. Please call so we can give you access to the AED. (Limited access due to building access restrictions. )",
+    "description": "(currently not available due to maintenance) Go to 3rd floor. Please call so we can give you access to the AED. (Limited access due to building access restrictions. )",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -69505,7 +69505,7 @@
   "type": "Feature",
   "id": "node/12864333301",
   "properties": {
-    "access": "customers",
+    "access": "permissive",
     "defibrillator:location": "Tonhalle 1 Obergeschoss im Foyer direkt bei der Tür zum Restaurant.",
     "description": "nur während Öffnungszeiten verfügbar (Veranstaltung Abhängig)",
     "emergency": "defibrillator",
@@ -69522,7 +69522,7 @@
     "type": "Point",
     "coordinates": [
       8.5380523,
-      47.3659489
+      47.3659488
     ]
   }
 },

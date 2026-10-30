@@ -31887,8 +31887,6 @@
   "id": "node/14257567201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Fankhauser Holzbau AG Boniswilerstrasse 32, 5707 Seengen",
-    "description": "Am Gebäude Aussenfassade Richtung Hauptstrasse",
     "email": "info@stampflimedical.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -31902,8 +31900,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1994003,
-      47.3245824
+      8.199384,
+      47.3245886
     ]
   }
 },
@@ -32116,6 +32114,32 @@
     "coordinates": [
       8.2128556,
       47.4754993
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14333672401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bodyfeet AG, Bahnhofstrasse 94, 5000 Aarau",
+    "description": "Sekretariat / Empfang",
+    "email": "aarau@boyfeet.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Geschäft",
+    "phone": "+41 62 823 83 83",
+    "source": "aed-source",
+    "id": "node/14333672401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0535193,
+      47.3923861
     ]
   }
 }

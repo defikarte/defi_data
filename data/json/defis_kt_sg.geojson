@@ -26312,12 +26312,12 @@
   "id": "node/12645050601",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Schulhaus HSO/Prävensanan Eingangsbereich",
+    "defibrillator:location": "Schulhaus HSO/Prävensana/Bodyfeet Eingangsbereich",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "-1",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-22:00, Sa 08:00-16:00",
     "operator": "Firma",
     "phone": "+41 58 680 14 77",
@@ -26327,8 +26327,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.821308,
-      47.2279838
+      8.8213678,
+      47.227999
     ]
   }
 },
@@ -33336,6 +33336,30 @@
     "coordinates": [
       9.1304881,
       47.3887656
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14333734301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "3 OG",
+    "description": "auf dem Schrank",
+    "email": "rapperswil@bodyfeet.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Firma",
+    "id": "node/14333734301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8213638,
+      47.2280673
     ]
   }
 }

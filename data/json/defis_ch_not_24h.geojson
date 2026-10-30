@@ -154235,7 +154235,7 @@
   "type": "Feature",
   "id": "node/11738687970",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Eingang K (Kongresshaus) nach Windfang Links an der Wand.",
     "description": "Öffnungszeiten unterschiedlich mindestens Werktags 08:00-17:00 ausg. Ferienzeit",
     "emergency": "defibrillator",
@@ -173446,7 +173446,7 @@
   "properties": {
     "access": "private",
     "defibrillator:location": "Tödistrasse 46/48",
-    "description": "Go to 3rd floor. Please call so we can give you access to the AED. (Limited access due to building access restrictions. )",
+    "description": "(currently not available due to maintenance) Go to 3rd floor. Please call so we can give you access to the AED. (Limited access due to building access restrictions. )",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -181337,12 +181337,12 @@
   "id": "node/12645050601",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Schulhaus HSO/Prävensanan Eingangsbereich",
+    "defibrillator:location": "Schulhaus HSO/Prävensana/Bodyfeet Eingangsbereich",
     "description": "während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "-1",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-22:00, Sa 08:00-16:00",
     "operator": "Firma",
     "phone": "+41 58 680 14 77",
@@ -181352,8 +181352,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.821308,
-      47.2279838
+      8.8213678,
+      47.227999
     ]
   }
 },
@@ -187278,7 +187278,7 @@
   "type": "Feature",
   "id": "node/12864333301",
   "properties": {
-    "access": "customers",
+    "access": "permissive",
     "defibrillator:location": "Tonhalle 1 Obergeschoss im Foyer direkt bei der Tür zum Restaurant.",
     "description": "nur während Öffnungszeiten verfügbar (Veranstaltung Abhängig)",
     "emergency": "defibrillator",
@@ -187295,7 +187295,7 @@
     "type": "Point",
     "coordinates": [
       8.5380523,
-      47.3659489
+      47.3659488
     ]
   }
 },
@@ -222238,26 +222238,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14314933901",
-  "properties": {
-    "defibrillator:location": "Aussen vom Nebeneingang, grüner Metallkasten",
-    "description": "Schrank mit Alarm",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Schweizerisches Rotes Kreuz Thurgau",
-    "id": "node/14314933901"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1033376,
-      47.5706556
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14318635501",
   "properties": {
     "access": "private",
@@ -222510,6 +222490,76 @@
     "coordinates": [
       7.9505128,
       47.3646305
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14333294801",
+  "properties": {
+    "defibrillator:location": "Schulhaus OSRM",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde",
+    "id": "node/14333294801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1237435,
+      46.9235477
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14333672401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bodyfeet AG, Bahnhofstrasse 94, 5000 Aarau",
+    "description": "Sekretariat / Empfang",
+    "email": "aarau@boyfeet.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Geschäft",
+    "phone": "+41 62 823 83 83",
+    "source": "aed-source",
+    "id": "node/14333672401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0535193,
+      47.3923861
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14333734301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "3 OG",
+    "description": "auf dem Schrank",
+    "email": "rapperswil@bodyfeet.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Firma",
+    "id": "node/14333734301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8213638,
+      47.2280673
     ]
   }
 }

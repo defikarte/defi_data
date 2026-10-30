@@ -163612,8 +163612,6 @@
   "id": "node/14257567201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Fankhauser Holzbau AG Boniswilerstrasse 32, 5707 Seengen",
-    "description": "Am Gebäude Aussenfassade Richtung Hauptstrasse",
     "email": "info@stampflimedical.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -163627,8 +163625,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1994003,
-      47.3245824
+      8.199384,
+      47.3245886
     ]
   }
 },
@@ -164199,6 +164197,27 @@
     "coordinates": [
       8.5027964,
       47.3744258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14314933901",
+  "properties": {
+    "defibrillator:location": "Aussen vom Nebeneingang, grüner Metallkasten",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Schweizerisches Rotes Kreuz Thurgau",
+    "id": "node/14314933901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1033376,
+      47.5706556
     ]
   }
 },

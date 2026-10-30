@@ -16600,6 +16600,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Schweizerisches Rotes Kreuz Thurgau",
     "id": "node/14314933901"
   },

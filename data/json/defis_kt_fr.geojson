@@ -8719,6 +8719,26 @@
       46.8337421
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14333294801",
+  "properties": {
+    "defibrillator:location": "Schulhaus OSRM",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde",
+    "id": "node/14333294801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1237435,
+      46.9235477
+    ]
+  }
 }
 ]
 }
