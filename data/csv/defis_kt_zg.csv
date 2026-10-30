@@ -459,3 +459,4 @@ EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",,defibrillator,144,node/7568
 14263825501,node,47.1834535,8.492649,yes,,,,,,,,"Riedmatt 3, 6300 Zug, Beim Eingang an Fassade zur Kinderbetreuung",24/7,,defibrillator,144,node/14263825501,,,no,,0,,,,24/7,"Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",,+41 58 728 99 00,,,,,
 14263836501,node,47.1781393,8.5235125,yes,,,,,,,,"Wasserspielplatz am Arbach, an der Fassade der Quartierbox (Göblistrasse/Lauridenhofweg)",24/7,,defibrillator,144,node/14263836501,,,no,,0,,,,24/7,"Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",,+41 58 728 99 00,,,,,
 14324925001,node,47.1863583,8.491468,permissive,,,,,,,,Stadler Elektro Lager,,guido.matter@stadler-elektro.ch,defibrillator,144,node/14324925001,,,yes,,-1,,,,Mo- Fr 07:00 - 16:00,Stadler Elektro,,+41 79 795 22 52,,,,,
+14331418001,node,47.1878722,8.481074,permissive,,,,,,,,Bodyworx Fitness,Am Empfang,,defibrillator,144,node/14331418001,,,yes,,1,,,,,BodyWorx,,,,,,,
