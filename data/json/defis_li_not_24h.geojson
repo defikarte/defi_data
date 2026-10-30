@@ -2334,7 +2334,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 7:30-16:30",
+    "opening_hours": "Mo-Fr 07:30-16:30",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314522501"
@@ -2358,7 +2358,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-16:00",
+    "opening_hours": "Mo-Fr 07:30-16:00",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314526701"
@@ -2382,7 +2382,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314529001"
@@ -2406,7 +2406,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Früh & Partner",
     "phone": "+423 377 99 77",
     "id": "node/14314531501"
@@ -2430,7 +2430,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314534601"
@@ -2454,7 +2454,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-16:00",
     "operator": "Hilti",
     "id": "node/14314620801"
   },
@@ -2477,7 +2477,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 9:00-16:00",
+    "opening_hours": "Mo-Fr 09:00-16:00",
     "operator": "Gemeinde Triesenberg",
     "phone": "+423 222 01 35",
     "id": "node/14314697401"
@@ -2501,7 +2501,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Su 9:00-21:00",
+    "opening_hours": "Mo-Su 09:00-21:00",
     "operator": "Tennisclub Schaan",
     "phone": "+423 222 01 35",
     "id": "node/14314703101"
@@ -2525,7 +2525,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314707201"
@@ -2549,7 +2549,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 9:00-17:00",
+    "opening_hours": "Mo-Fr 09:00-17:00",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314710001"
@@ -2573,7 +2573,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 7:30-16:30",
+    "opening_hours": "Mo-Fr 07:30-16:30",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314712301"
@@ -2597,7 +2597,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-16:30",
+    "opening_hours": "Mo-Fr 08:00-16:30",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314716201"
@@ -2621,7 +2621,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Fr 9:00-16:00",
+    "opening_hours": "Mo-Fr 09:00-16:00",
     "operator": "Landesverwaltung",
     "phone": "+423 222 01 35",
     "id": "node/14314736801"
@@ -2645,7 +2645,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8:00-17:30",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Dr. Huchler",
     "phone": "+423 377 10 90",
     "id": "node/14320804101"
@@ -2669,7 +2669,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "2",
-    "opening_hours": "Mo-Fr 8:30-16:30",
+    "opening_hours": "Mo-Fr 08:30-16:30",
     "operator": "Sigma Bank AG",
     "phone": "+423 239 03 39",
     "id": "node/14320804102"
@@ -2717,7 +2717,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "4",
-    "opening_hours": "Mo-Fr 9:00-16:00",
+    "opening_hours": "Mo-Fr 09:00-16:00",
     "phone": "+423 370 13 01",
     "id": "node/14320928901"
   },
@@ -2740,7 +2740,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "4",
-    "opening_hours": "Mo-Fr 9:00-16:00",
+    "opening_hours": "Mo-Fr 09:00-16:00",
     "phone": "+423 370 13 00",
     "id": "node/14320931502"
   },
@@ -2763,7 +2763,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "4",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Speedcom",
     "phone": "+423 220 02 02",
     "id": "node/14320935901"
@@ -2787,7 +2787,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "Mo-Fr 9:00-17:00",
+    "opening_hours": "Mo-Fr 09:00-17:00",
     "phone": "+423 230 20 60",
     "id": "node/14320946701"
   },
