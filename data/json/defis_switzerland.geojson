@@ -71210,10 +71210,12 @@
   "type": "Feature",
   "id": "node/7865291247",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "im Sanitätsfahrzeug der Feuerwehr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "id": "node/7865291247"
   },
   "geometry": {
@@ -239702,9 +239704,8 @@
   "type": "Feature",
   "id": "node/11038063826",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Kommandohaus Betgstation Oberdorf",
-    "description": "während den Öffnungszeiten verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Kommandohaus Bergstation Oberdorf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -239716,8 +239717,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3454289,
-      47.1922557
+      9.3454278,
+      47.192257
     ]
   }
 },
@@ -309851,7 +309852,7 @@
   "type": "Feature",
   "id": "node/12501085483",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Sur la gauche, près des toilettes",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -309862,8 +309863,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5289839,
-      46.5177485
+      6.5289849,
+      46.5177498
     ]
   }
 },
@@ -310517,7 +310518,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "24/7",
     "operator": "Rehazentrum Walenstadtberg",
     "phone": "+41585115111",
     "id": "node/12509116301"
@@ -310525,8 +310525,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2843315,
-      47.140372
+      9.2843324,
+      47.140373
     ]
   }
 },
@@ -327081,17 +327081,18 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "contre le mur de la salle communale",
-    "description": "oui",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "id": "node/12870694201"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.1871943,
-      46.196147
+      6.1871944,
+      46.1961468
     ]
   }
 },
@@ -327862,10 +327863,12 @@
   "type": "Feature",
   "id": "node/12894209874",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Bushaltestelle Wildhaus Dorf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/12894209874"
   },
@@ -357173,9 +357176,10 @@
   "type": "Feature",
   "id": "node/13638964101",
   "properties": {
-    "access": "customers",
-    "defibrillator:location": "au 3 ème étage=niveau du sol côté Champel ",
+    "access": "private",
+    "defibrillator:location": "au 3 ème étage=niveau du sol côté Champel",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "unige",
     "id": "node/13638964101"
@@ -357183,8 +357187,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.1516325,
-      46.1938158
+      6.1516303,
+      46.1938167
     ]
   }
 },
@@ -379873,7 +379877,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00 - 20:00, Sa 8:00 - 18:00",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-18:00",
     "operator": "Migros",
     "id": "node/14131423902"
   },
@@ -383140,7 +383144,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Stalder Tiefbau AG",
-    "opening_hours": "Mo-Fr 08.00-12.00 / 13.00-17.00",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "Lifetec AG",
     "phone": "0800122144",
     "ref": "0452LTM",
@@ -386924,6 +386928,92 @@
     "coordinates": [
       8.8213638,
       47.2280673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335547001",
+  "properties": {
+    "defibrillator:location": "Oberer Quai 51",
+    "description": "1. OG im Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "8lab physio8 perform8 pilates Biel Bienne",
+    "id": "node/14335547001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2522165,
+      47.1398157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335637801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "En bas de l'escalator vers les toilettes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Parkgest Services SA",
+    "id": "node/14335637801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1471898,
+      46.2046627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335721140",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "website": "https://defilibrator.ch",
+    "id": "node/14335721140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6672084,
+      47.2658276
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335764601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Sportanlage Schönau",
+    "description": "Schrank im Gang zwischen Eingang und Zugang Halle 3. ACHTUNG! Zugang nur mit Schlüssel",
+    "email": "info@gymkirchenfeld.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:30-22:00",
+    "operator": "Gymnasium Kirchenfeld Bern",
+    "phone": "+41 31 359 25 25",
+    "id": "node/14335764601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4444243,
+      46.9344453
     ]
   }
 }

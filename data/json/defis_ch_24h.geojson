@@ -133122,30 +133122,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12509116301",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Rehazentrum Walenstadtberg",
-    "description": "während des Tages verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Rehazentrum Walenstadtberg",
-    "phone": "+41585115111",
-    "id": "node/12509116301"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2843315,
-      47.140372
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12513758601",
   "properties": {
     "defibrillator:location": "Kellereingang aussen",
@@ -139606,6 +139582,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/12870694201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "contre le mur de la salle communale",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/12870694201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1871944,
+      46.1961468
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12870980001",
   "properties": {
     "defibrillator:location": "Milchgenossenschaft Hinteregg Forchstrasse 177 8132 Hinteregg",
@@ -139866,10 +139863,12 @@
   "type": "Feature",
   "id": "node/12894209874",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Bushaltestelle Wildhaus Dorf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/12894209874"
   },
@@ -164362,6 +164361,28 @@
     "coordinates": [
       9.2161657,
       47.5349338
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335637801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "En bas de l'escalator vers les toilettes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Parkgest Services SA",
+    "id": "node/14335637801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1471898,
+      46.2046627
     ]
   }
 }

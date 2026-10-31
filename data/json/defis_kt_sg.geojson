@@ -4758,10 +4758,12 @@
   "type": "Feature",
   "id": "node/7865291247",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "im Sanitätsfahrzeug der Feuerwehr",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "id": "node/7865291247"
   },
   "geometry": {
@@ -20873,9 +20875,8 @@
   "type": "Feature",
   "id": "node/11038063826",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Kommandohaus Betgstation Oberdorf",
-    "description": "während den Öffnungszeiten verfügbar",
+    "access": "permissive",
+    "defibrillator:location": "Kommandohaus Bergstation Oberdorf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -20887,8 +20888,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.3454289,
-      47.1922557
+      9.3454278,
+      47.192257
     ]
   }
 },
@@ -25766,7 +25767,6 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "24/7",
     "operator": "Rehazentrum Walenstadtberg",
     "phone": "+41585115111",
     "id": "node/12509116301"
@@ -25774,8 +25774,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2843315,
-      47.140372
+      9.2843324,
+      47.140373
     ]
   }
 },
@@ -27434,10 +27434,12 @@
   "type": "Feature",
   "id": "node/12894209874",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Bushaltestelle Wildhaus Dorf",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/12894209874"
   },

@@ -4042,7 +4042,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00 - 20:00, Sa 8:00 - 18:00",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-18:00",
     "operator": "Migros",
     "id": "node/14131423902"
   },

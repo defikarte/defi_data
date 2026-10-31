@@ -1930,17 +1930,18 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "contre le mur de la salle communale",
-    "description": "oui",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "id": "node/12870694201"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.1871943,
-      46.196147
+      6.1871944,
+      46.1961468
     ]
   }
 },
@@ -2469,9 +2470,10 @@
   "type": "Feature",
   "id": "node/13638964101",
   "properties": {
-    "access": "customers",
-    "defibrillator:location": "au 3 ème étage=niveau du sol côté Champel ",
+    "access": "private",
+    "defibrillator:location": "au 3 ème étage=niveau du sol côté Champel",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "operator": "unige",
     "id": "node/13638964101"
@@ -2479,8 +2481,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.1516325,
-      46.1938158
+      6.1516303,
+      46.1938167
     ]
   }
 },
@@ -2726,6 +2728,28 @@
     "coordinates": [
       6.1044227,
       46.2101078
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335637801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "En bas de l'escalator vers les toilettes",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "24/7",
+    "operator": "Parkgest Services SA",
+    "id": "node/14335637801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.1471898,
+      46.2046627
     ]
   }
 }

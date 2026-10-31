@@ -10674,7 +10674,7 @@
   "type": "Feature",
   "id": "node/12501085483",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Sur la gauche, près des toilettes",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
@@ -10685,8 +10685,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5289839,
-      46.5177485
+      6.5289849,
+      46.5177498
     ]
   }
 },

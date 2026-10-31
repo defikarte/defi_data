@@ -103967,7 +103967,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00 - 20:00, Sa 8:00 - 18:00",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-18:00",
     "operator": "Migros",
     "id": "node/14131423902"
   },
@@ -106047,6 +106047,23 @@
     "coordinates": [
       8.481074,
       47.1878722
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335721140",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "website": "https://defilibrator.ch",
+    "id": "node/14335721140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6672084,
+      47.2658276
     ]
   }
 }

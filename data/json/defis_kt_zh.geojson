@@ -82426,6 +82426,23 @@
       47.5054075
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14335721140",
+  "properties": {
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "website": "https://defilibrator.ch",
+    "id": "node/14335721140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6672084,
+      47.2658276
+    ]
+  }
 }
 ]
 }

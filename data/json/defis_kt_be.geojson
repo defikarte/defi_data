@@ -66529,6 +66529,53 @@
       46.6932133
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14335547001",
+  "properties": {
+    "defibrillator:location": "Oberer Quai 51",
+    "description": "1. OG im Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "8lab physio8 perform8 pilates Biel Bienne",
+    "id": "node/14335547001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2522165,
+      47.1398157
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335764601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Sportanlage Schönau",
+    "description": "Schrank im Gang zwischen Eingang und Zugang Halle 3. ACHTUNG! Zugang nur mit Schlüssel",
+    "email": "info@gymkirchenfeld.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "07:30-22:00",
+    "operator": "Gymnasium Kirchenfeld Bern",
+    "phone": "+41 31 359 25 25",
+    "id": "node/14335764601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4444243,
+      46.9344453
+    ]
+  }
 }
 ]
 }
