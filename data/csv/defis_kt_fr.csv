@@ -407,3 +407,4 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14258921901,node,46.8381277,6.875036,yes,,,,,,,,,,Administration communale,,Avec appel au 144,info@sevaz.ch,defibrillator,144,,,node/14258921901,no,,,0,,,,,24/7,Commune de Sévaz,,,+41 26 663 29 45,,,,,,
 14284618401,node,46.8129496,7.1142935,,,1,,Route des Fluides,,2026-10-14,2026-10-14,,,,,,,defibrillator,,,,node/14284618401,,,,0,,,,,Mo-Fr 08:00-17:00,,,,,,,,,,
 14305868901,node,46.8337421,6.8443562,,,,,,,,,,,,,,,defibrillator,,,,node/14305868901,,,,,,,,,,,,,,,,,,,
+14333294801,node,46.9235477,7.1237435,,,,,,,,,,,Schulhaus OSRM,,,,defibrillator,144,,,node/14333294801,yes,,,0,,,,,,Gemeinde,,,,,,,,,
