@@ -24961,8 +24961,7 @@
   "properties": {
     "access": "yes",
     "contact:phone": "+41 76 422 63 76",
-    "defibrillator:location": "Eingang altes Schulhaus Hauptstrasse",
-    "description": "Der Defi befindet sich gleich rechts neben dem Eingang",
+    "defibrillator:location": "Rechts vor dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -24973,8 +24972,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2838814,
-      46.8360978
+      9.2838612,
+      46.8360946
     ]
   }
 },
@@ -164383,6 +164382,28 @@
     "coordinates": [
       6.1471898,
       46.2046627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14336438201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Römerstrasse 104",
+    "description": "Auffahrt zwischen Thaimassage und Kirche hoch. rechts richtung Kirche. Vor dem Geländer links und anschliessend rechts an der Fassade bei der überdachten Türe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14336438201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7496531,
+      47.50339
     ]
   }
 }

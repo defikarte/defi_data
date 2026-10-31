@@ -590,8 +590,7 @@
   "properties": {
     "access": "yes",
     "contact:phone": "+41 76 422 63 76",
-    "defibrillator:location": "Eingang altes Schulhaus Hauptstrasse",
-    "description": "Der Defi befindet sich gleich rechts neben dem Eingang",
+    "defibrillator:location": "Rechts vor dem Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -602,8 +601,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2838814,
-      46.8360978
+      9.2838612,
+      46.8360946
     ]
   }
 },
