@@ -15112,6 +15112,7 @@
   "type": "Feature",
   "id": "node/14338591601",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Chez Amaudruz Sa",
     "emergency": "defibrillator",
     "emergency:phone": "144",

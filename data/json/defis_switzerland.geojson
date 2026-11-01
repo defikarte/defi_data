@@ -55173,8 +55173,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3023542,
-      47.0509889
+      8.3022561,
+      47.0510665
     ]
   }
 },
@@ -387026,6 +387026,7 @@
   "type": "Feature",
   "id": "node/14338591601",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Chez Amaudruz Sa",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -387039,6 +387040,55 @@
     "coordinates": [
       6.6305804,
       46.5140414
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14339163401",
+  "properties": {
+    "defibrillator:location": "Active Training",
+    "description": "Bei Garderobeneingang",
+    "email": "info@activephysio.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "05:00 - 22:00",
+    "operator": "active Physio",
+    "phone": "+41 44 850 28 04",
+    "id": "node/14339163401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4903762,
+      47.4800047
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14339184401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Chili Health Hinwil AG",
+    "description": "Im Fitness",
+    "email": "hinwil@chili-health.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-21:00, Sa-Su 08:00-16:00",
+    "operator": "Chili Health Hinwil AG",
+    "phone": "+41 55 525 72 62",
+    "id": "node/14339184401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8374566,
+      47.2993396
     ]
   }
 }
