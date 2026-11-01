@@ -76324,27 +76324,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9524523017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Wohnhaus",
-    "description": "im Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privat",
-    "id": "node/9524523017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6299646,
-      47.1658126
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9524757617",
   "properties": {
     "access": "yes",
@@ -222592,23 +222571,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14335721140",
-  "properties": {
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "website": "https://defilibrator.ch",
-    "id": "node/14335721140"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6672084,
-      47.2658276
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14335764601",
   "properties": {
     "access": "private",
@@ -222629,6 +222591,26 @@
     "coordinates": [
       7.4444243,
       46.9344453
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14338591601",
+  "properties": {
+    "defibrillator:location": "Chez Amaudruz Sa",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Privé",
+    "id": "node/14338591601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.6305804,
+      46.5140414
     ]
   }
 }

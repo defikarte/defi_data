@@ -23276,9 +23276,11 @@
   "id": "node/7565185872",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-01",
     "defibrillator:location": "Aussenbereich neben Bankeingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7565185872"
   },
@@ -161020,9 +161022,8 @@
   "type": "Feature",
   "id": "node/14076535101",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Eingang beim Containerhäuschen, neben den Besucher Parkplätzen",
-    "description": "Öffentlich und immer Zugänglich",
     "email": "info@baltenspergerbau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -164382,6 +164383,27 @@
     "coordinates": [
       6.1471898,
       46.2046627
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14335721140",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand an der Hausecke",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14335721140"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6672084,
+      47.2658276
     ]
   }
 },

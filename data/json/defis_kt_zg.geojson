@@ -4555,27 +4555,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9524523017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Wohnhaus",
-    "description": "im Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privat",
-    "id": "node/9524523017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6299646,
-      47.1658126
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9530626434",
   "properties": {
     "check_date": "2026-03-30",

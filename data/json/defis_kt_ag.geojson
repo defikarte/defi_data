@@ -866,9 +866,11 @@
   "id": "node/7565185872",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-01",
     "defibrillator:location": "Aussenbereich neben Bankeingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
     "id": "node/7565185872"
   },

@@ -80324,9 +80324,8 @@
   "type": "Feature",
   "id": "node/14076535101",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Eingang beim Containerhäuschen, neben den Besucher Parkplätzen",
-    "description": "Öffentlich und immer Zugänglich",
     "email": "info@baltenspergerbau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -82431,9 +82430,13 @@
   "type": "Feature",
   "id": "node/14335721140",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand an der Hausecke",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
-    "website": "https://defilibrator.ch",
+    "level": "0",
+    "opening_hours": "24/7",
     "id": "node/14335721140"
   },
   "geometry": {
