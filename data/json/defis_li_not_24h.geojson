@@ -2693,7 +2693,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Su 11:00-3:00",
+    "opening_hours": "Mo-Su 11:00-03:00",
     "operator": "Casino",
     "phone": "+423 239 11 88",
     "id": "node/14320817501"
