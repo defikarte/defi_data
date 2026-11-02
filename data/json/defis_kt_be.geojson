@@ -85,6 +85,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/2330782980",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Thun",
+    "addr:housenumber": "6",
+    "addr:postcode": "3608",
+    "addr:street": "Tempelstrasse",
+    "defibrillator:location": "Eingang/Loge melden.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "opening_hours": "Mo-Fr 08:00-16:30",
+    "operator": "B&T AG",
+    "phone": "+41 333346700",
+    "id": "node/2330782980"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5960894,
+      46.74537
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/2659177739",
   "properties": {
     "access": "yes",
@@ -22050,31 +22075,6 @@
     "coordinates": [
       7.5963488,
       46.74716
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6689477366",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Thun",
-    "addr:housenumber": "6",
-    "addr:postcode": "3608",
-    "addr:street": "Tempelstrasse",
-    "defibrillator:location": "Eingang/Loge melden.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "Mo-Fr 08:00-16:30",
-    "operator": "B & T AG Thun",
-    "phone": "+41 333346700",
-    "id": "node/6689477366"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5960894,
-      46.74537
     ]
   }
 },
@@ -61782,30 +61782,6 @@
     "coordinates": [
       7.4956734,
       46.9744679
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13545394401",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Zelglistrasse 10 - Untergeschoss -1",
-    "description": "plus Samstags 09:00 - 16:00",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "-1",
-    "opening_hours": "Mo-Fr 06:00 - 18:30",
-    "operator": "B&T AG",
-    "phone": "+41 33 334 67 00",
-    "id": "node/13545394401"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5955613,
-      46.7445707
     ]
   }
 },
