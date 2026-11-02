@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "key": "node/6636784166",
+    "name": "JAG Jakob AG",
+    "has_name": false,
+    "detail": "Treppenhaus zum UG",
+    "address": "Industriestrasse 20, 2555 Brügg",
+    "lon": 7.2697755,
+    "lat": 47.122735,
+    "changes": [
+      {
+        "label": "Telefon",
+        "old": "+41 32 374 34 03",
+        "new": "+41 32 374 30 30"
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": "im Parterre",
+        "new": "Treppenhaus zum UG"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-11-02T15:23:25.969173+00:00"
+  }
+]
