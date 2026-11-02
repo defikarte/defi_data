@@ -1,10 +1,7 @@
 name: Get data converted to csv
 
 on:
-  schedule:
-  - cron:  '00 6 * * *' # run every day at 06:00 UTC
-  #- cron:  '0 */2 * * *' # run every 2 hours
-  workflow_dispatch: ~
+  workflow_dispatch:
 
 jobs:
   convert_data:
