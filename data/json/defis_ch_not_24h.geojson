@@ -28521,9 +28521,11 @@
   "type": "Feature",
   "id": "node/7637818868",
   "properties": {
+    "defibrillator:location": "Innenhof Spänesilo",
     "description": "Innenhof Spänesilo",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Holzbau Bucher AG",
     "id": "node/7637818868"
   },
