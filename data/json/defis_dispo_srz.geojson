@@ -95465,6 +95465,7 @@
   "type": "Feature",
   "id": "node/13359692001",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Zollamt Rafz-Solgen",
     "description": "Im Zollbüro. Verfügbar wenn Zollpersonal anwesend ist.",
     "emergency": "defibrillator",
@@ -95476,8 +95477,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.570901,
-      47.6139259
+      8.5709023,
+      47.6139314
     ]
   }
 },

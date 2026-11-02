@@ -59652,6 +59652,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/9097131507",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Volg",
+    "description": "Links vom Eingang frei zugänglich",
+    "email": "gemeinde@lupsingen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Lupsingen",
+    "phone": "+41 61 915 90 50",
+    "id": "node/9097131507"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6946829,
+      47.4461781
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9097410039",
   "properties": {
     "access": "yes",
@@ -164426,6 +164451,30 @@
     "coordinates": [
       8.7496531,
       47.50339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14340374701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strandbad Sursee",
+    "email": "strandbad.sursee@stadtsursee.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Sursee, Centralstrasse 9, 6210 Sursee",
+    "phone": "+41 41 926 91 42",
+    "id": "node/14340374701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1250821,
+      47.1743189
     ]
   }
 }

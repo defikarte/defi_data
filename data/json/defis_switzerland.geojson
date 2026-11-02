@@ -20871,19 +20871,20 @@
     "addr:housenumber": "20",
     "addr:postcode": "2555",
     "addr:street": "Industriestrasse",
-    "defibrillator:location": "im Parterre",
+    "defibrillator:location": "Treppenhaus zum UG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "Mo-Fr 07:30-12:00, 13:15-17:00",
     "operator": "JAG Jakob AG",
-    "phone": "+41 32 374 34 03",
+    "phone": "+41 32 374 30 30",
     "id": "node/6636784166"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2697757,
-      47.1227352
+      7.2697755,
+      47.122735
     ]
   }
 },
@@ -122898,12 +122899,15 @@
   "type": "Feature",
   "id": "node/9097131507",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Am Gemeindehaus",
-    "description": "Derzeit ausser Betrieb",
+    "access": "yes",
+    "defibrillator:location": "Am Volg",
+    "description": "Links vom Eingang frei zugänglich",
+    "email": "gemeinde@lupsingen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Lupsingen",
     "phone": "+41 61 915 90 50",
     "id": "node/9097131507"
@@ -122911,8 +122915,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6952013,
-      47.4461988
+      7.6946829,
+      47.4461781
     ]
   }
 },
@@ -347321,6 +347325,7 @@
   "type": "Feature",
   "id": "node/13359692001",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Zollamt Rafz-Solgen",
     "description": "Im Zollbüro. Verfügbar wenn Zollpersonal anwesend ist.",
     "emergency": "defibrillator",
@@ -347332,8 +347337,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.570901,
-      47.6139259
+      8.5709023,
+      47.6139314
     ]
   }
 },
@@ -387065,6 +387070,30 @@
     "coordinates": [
       8.8374566,
       47.2993396
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14340374701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Strandbad Sursee",
+    "email": "strandbad.sursee@stadtsursee.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stadt Sursee, Centralstrasse 9, 6210 Sursee",
+    "phone": "+41 41 926 91 42",
+    "id": "node/14340374701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1250821,
+      47.1743189
     ]
   }
 }
