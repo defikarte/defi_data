@@ -447,7 +447,7 @@ Korridor rechts",,während Öffnungszeiten verfügbar,,defibrillator,144,,,,node
 7637818806,node,47.0492125,8.3041287,,,,,,,,,,,,,,,,,EG Ein-/Ausgang Hofraum,,defibrillator,144,,,,node/7637818806,yes,,,SIPO Stadt Luzern,,Sicherheitspolizei Stadt Luzern,,Luzerner Polizei,,,,,,,
 7637818807,node,47.0482366,8.2999278,,,,,,,,,,,,,,,,,EG Öffentlich zugänglich,,defibrillator,144,,,,node/7637818807,,,,,,Luzerner Polizei (Kommando),,,,,,,,,
 7637818808,node,47.0516479,8.301029,,,,,"Kasernenplatz 6, 6003 Luzern",,,,,,,,,,,,Empfangshalle,,defibrillator,144,,,,node/7637818808,yes,,,,,,,,,,,,,,Natur-Museum Luzern
-7637818809,node,47.0509889,8.3023542,permissive,,,,,,,,,,,,,,Haupteingang,,,,defibrillator,144,,,,node/7637818809,yes,,,,,,,,,,,,,,
+7637818809,node,47.0510665,8.3022561,permissive,,,,,,,,,,,,,,Haupteingang,,,,defibrillator,144,,,,node/7637818809,yes,,,,,,,,,,,,,,
 7637818810,node,47.0484816,8.3032351,,,,,,,,,,,,,,,,,Treppenhaus 2.OG,,defibrillator,144,,,,node/7637818810,yes,,,,,Passbüro,,,,,,,,,
 7637818811,node,47.0484413,8.299023,,,,,,,,,,,,,,,,,Treppenhaus UG-EG,,defibrillator,144,,,,node/7637818811,,,,,,Luzerner Polizei (Büro Stadt),,,,,,,,,
 7637818812,node,47.0483332,8.303297,,,,,,,,,,,,,,,,,1.OG + 3.OG Personaldienst,,defibrillator,144,,,,node/7637818812,yes,,,,,Luzerner Polizei (Büro Stadt),,,,,,,,,

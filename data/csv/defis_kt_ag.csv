@@ -43,7 +43,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 7559692342,node,47.3550244,8.1686287,yes,,,,,,,,,Eingang Physiotherapie (Treppe UG),,,,defibrillator,144,,node/7559692342,,yes,,,0,,,,24/7,,,,,,,,,,
 7559692343,node,47.346747,8.15483,yes,,,,,,,2025-09-27,,Aussenwand Richtung Oberdorfstrasse,,,,defibrillator,144,,node/7559692343,,no,,,,,,,24/7,,,,,,,,,,
 7559692345,node,47.3453112,8.1653443,yes,,,,,,,,,Büroeingang,,,,defibrillator,144,,node/7559692345,,,,,,,,,24/7,,,,,,,,,,
-7565185872,node,47.4181274,8.3649924,yes,,,,,,,,,Aussenbereich neben Bankeingang,,,,defibrillator,144,,node/7565185872,,,,,,,,,24/7,,,,,,,,,,
+7565185872,node,47.4181274,8.3649924,yes,,,,,,,2026-11-01,,Aussenbereich neben Bankeingang,,,,defibrillator,144,,node/7565185872,,no,,,,,,,24/7,,,,,,,,,,
 7569054302,node,47.4182085,8.2743867,yes,,,,,,,,,Ausserhalb des Gemeindegebäudes,,,,defibrillator,144,,node/7569054302,,no,,,,,,,24/7,Gemeinde Mellingen / Samariterverein Mellingen,,,,,,,,,
 7574604108,node,47.4718398,8.3393875,yes,,,,,,,,,Neben dem Eingang,,,,defibrillator,144,,node/7574604108,,yes,,,,,,,Mo-Fr 08:00-20:00,,,,,,,,,,
 7574604109,node,47.4604526,8.3133405,private,,,,,,,,,Beim Empfang 3. Stock melden,,,,defibrillator,144,,node/7574604109,,yes,,,,,,,Mo-Fr 08:00-17:00,,,,,,,,,,
