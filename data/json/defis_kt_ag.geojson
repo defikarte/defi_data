@@ -12033,11 +12033,12 @@
   "type": "Feature",
   "id": "node/9803819818",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "defibrillator:location": "Aussen rechts am Eingang der Turnhalle Bärenmatte Bremgarten, grüner Metallkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Bremgarten",
     "id": "node/9803819818"
@@ -12045,8 +12046,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3481106,
-      47.3494946
+      8.34811,
+      47.3494947
     ]
   }
 },
@@ -14196,13 +14197,14 @@
   "type": "Feature",
   "id": "node/10248447023",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Eingang Migros Supermarkt, 1. OG",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa 07:30-19:00",
     "operator": "Plaza Shopping Bremgarten",
     "id": "node/10248447023"
   },

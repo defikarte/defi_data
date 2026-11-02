@@ -32685,12 +32685,12 @@
   "id": "node/10060550418",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz",
+    "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz - AUSSER BETRIEB (02.11.2026)",
+    "description": "DERZEIT AUSSER BETRIEB (02.11.2026)",
     "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "24/7",
     "operator": "Siedlungsgenossenschaft Sunnige Hof",
     "phone": "+41443172020",
     "id": "node/10060550418"

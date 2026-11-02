@@ -76956,11 +76956,12 @@
   "type": "Feature",
   "id": "node/9803819818",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "defibrillator:location": "Aussen rechts am Eingang der Turnhalle Bärenmatte Bremgarten, grüner Metallkasten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Bremgarten",
     "id": "node/9803819818"
@@ -76968,8 +76969,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3481106,
-      47.3494946
+      8.34811,
+      47.3494947
     ]
   }
 },
@@ -81306,29 +81307,6 @@
     "coordinates": [
       8.5930983,
       47.3984461
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10060550418",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz",
-    "email": "sibe@sunnigehof.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Siedlungsgenossenschaft Sunnige Hof",
-    "phone": "+41443172020",
-    "id": "node/10060550418"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5917431,
-      47.3981322
     ]
   }
 },
@@ -164475,6 +164453,93 @@
     "coordinates": [
       8.1250821,
       47.1743189
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14341965701",
+  "properties": {
+    "defibrillator:location": "Rathaus Trimmis",
+    "description": "Beim Briefkasten",
+    "email": "adrian.ammann@trimmis.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trimmis",
+    "phone": "+41 81 354 99 33",
+    "id": "node/14341965701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5631911,
+      46.8977283
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14341968901",
+  "properties": {
+    "defibrillator:location": "Trafostation Alt Strass",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trimmis",
+    "phone": "+41 81 354 99 33",
+    "id": "node/14341968901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5593266,
+      46.9073072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14341982301",
+  "properties": {
+    "defibrillator:location": "Werkhof",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trimmis",
+    "phone": "+41 81 354 99 33",
+    "id": "node/14341982301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5559063,
+      46.9016087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14341984101",
+  "properties": {
+    "defibrillator:location": "Bushaltestelle",
+    "email": "adrian.ammann@trimmis.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trimmis",
+    "phone": "+41 81 354 99 33",
+    "id": "node/14341984101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.575464,
+      46.9034913
     ]
   }
 }

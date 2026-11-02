@@ -17573,6 +17573,93 @@
       46.8497592
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14341965701",
+  "properties": {
+    "defibrillator:location": "Rathaus Trimmis",
+    "description": "Beim Briefkasten",
+    "email": "adrian.ammann@trimmis.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trimmis",
+    "phone": "+41 81 354 99 33",
+    "id": "node/14341965701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5631911,
+      46.8977283
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14341968901",
+  "properties": {
+    "defibrillator:location": "Trafostation Alt Strass",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trimmis",
+    "phone": "+41 81 354 99 33",
+    "id": "node/14341968901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5593266,
+      46.9073072
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14341982301",
+  "properties": {
+    "defibrillator:location": "Werkhof",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trimmis",
+    "phone": "+41 81 354 99 33",
+    "id": "node/14341982301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5559063,
+      46.9016087
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14341984101",
+  "properties": {
+    "defibrillator:location": "Bushaltestelle",
+    "email": "adrian.ammann@trimmis.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Trimmis",
+    "phone": "+41 81 354 99 33",
+    "id": "node/14341984101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.575464,
+      46.9034913
+    ]
+  }
 }
 ]
 }
