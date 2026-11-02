@@ -81711,22 +81711,23 @@
   "type": "Feature",
   "id": "node/14188869001",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Arztpraxis Therapie auf Augenhöhe",
     "description": "Direkt im Eingangsbereich von der Praxis an der grauen Säule. Defibrillator kann auf Kind umgeschaltet werden.",
+    "email": "therapie-auf-augenhoehe@hin.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "1",
     "opening_hours": "07:30-17:30",
     "operator": "Therapie auf Augenhöhe GmbH",
-    "phone": "+41794000704",
     "id": "node/14188869001"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5115508,
-      47.38386
+      8.5115504,
+      47.3838607
     ]
   }
 },

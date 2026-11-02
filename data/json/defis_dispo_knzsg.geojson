@@ -39515,7 +39515,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Firma",
     "id": "node/14333734301"
   },
