@@ -8764,6 +8764,56 @@
       46.7939392
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14345422001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Entrée du bâtiment administratif de la ville de Bulle CEB 33",
+    "description": "Libre accès",
+    "email": "fabrice.nancy@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14345422001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0532642,
+      46.6211208
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14345440601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'entrée de la halle de gymnastique",
+    "description": "accès libre",
+    "email": "fabrice.nancy@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14345440601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0657204,
+      46.6096186
+    ]
+  }
 }
 ]
 }
