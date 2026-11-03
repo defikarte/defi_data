@@ -387284,6 +387284,56 @@
       47.2487902
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14345022101",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Habich Dietschy-Strasse 5a",
+    "description": "Physio Schrank neben Eingangstür, Backoffice MPA und OP",
+    "email": "altius@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 07:00-19:00",
+    "operator": "Altius Swiss Sportmed Center AG",
+    "phone": "+41 61 836 30 00",
+    "id": "node/14345022101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7901175,
+      47.5533496
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14345125001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Klinikgebäude Klinik SGM EG",
+    "description": "An Wand im Sicherheitskasten löst akustischen Alarm aus",
+    "email": "rene.drechsler@klinik-sgm.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 8:00-21:00",
+    "operator": "Klinik",
+    "phone": "+41 62 919 22 11",
+    "id": "node/14345125001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7743553,
+      47.2183091
+    ]
+  }
 }
 ]
 }

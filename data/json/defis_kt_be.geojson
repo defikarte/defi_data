@@ -66553,6 +66553,31 @@
       46.9344453
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14345125001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Klinikgebäude Klinik SGM EG",
+    "description": "An Wand im Sicherheitskasten löst akustischen Alarm aus",
+    "email": "rene.drechsler@klinik-sgm.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 8:00-21:00",
+    "operator": "Klinik",
+    "phone": "+41 62 919 22 11",
+    "id": "node/14345125001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7743553,
+      47.2183091
+    ]
+  }
 }
 ]
 }
