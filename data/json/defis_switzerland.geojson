@@ -4708,17 +4708,21 @@
   "type": "Feature",
   "id": "node/4783026180",
   "properties": {
-    "access": "private",
+    "access": "yes",
+    "defibrillator:location": "Rez Haute ecole de gestion / unifr PER14",
+    "description": "Rez, au mur dans le hall d entrée, a côté de la cage d escaliers",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
     "wheelchair": "yes",
     "id": "node/4783026180"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.1568378,
+      7.1568377,
       46.7937048
     ]
   }
@@ -387210,6 +387214,27 @@
     "coordinates": [
       8.84927,
       47.4162859
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14344517401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Unifr PER21",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "id": "node/14344517401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1586134,
+      46.7939392
     ]
   }
 }
