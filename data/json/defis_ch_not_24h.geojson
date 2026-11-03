@@ -222652,14 +222652,13 @@
   "id": "node/14342349301",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Tennis & Squash Felsenegg",
-    "description": "Eingang",
+    "defibrillator:location": "Tennis & Squash Felsenegg beim Eingang",
     "email": "info@tennis-wila.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "MO - SU 07:15 - 21:15",
+    "opening_hours": "Mo-Su 07:15 - 21:15",
     "operator": "Tennis & Squash Felsenegg AG",
     "phone": "+41 79 416 65 16",
     "id": "node/14342349301"
