@@ -33364,6 +33364,30 @@
       47.2280673
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14344812701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Bürg, Delggstrasse 1, 8732 Neuhaus",
+    "description": "hängt an linker Wand neben der Eingangstüre",
+    "email": "liegenschaften@eschenbach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 55 286 15 45",
+    "id": "node/14344812701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.9434794,
+      47.2487902
+    ]
+  }
 }
 ]
 }
