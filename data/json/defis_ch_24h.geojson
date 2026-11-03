@@ -164542,6 +164542,28 @@
       46.9034913
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14344663601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kläranlage Zwillikon, neben Briefkasten",
+    "email": "tiefbau@stadtaffoltern.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Affoltern am Albis",
+    "id": "node/14344663601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4317653,
+      47.2889882
+    ]
+  }
 }
 ]
 }
