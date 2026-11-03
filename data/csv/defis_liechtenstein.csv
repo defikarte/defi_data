@@ -5,7 +5,7 @@ osm_id,osm_type,lat,lon,access,check_date,defibrillator:location,defibrillator:l
 9004556000,node,47.1099416,9.5960319,no,,"Jungendhaus Malbun, Flur Erdgeschoss",,Nur Verfügbar wenn Tagesbetrieb,,defibrillator,144,node/9004556000,yes,,,,,,Mo-Fr 09:00-17:00,Betreiber Jugendhaus Landesverwaltung,,,+423 263 22 86,,,
 9004556001,node,47.1169584,9.5474035,yes,,"Schulhaus Obergufer, Turnhalle und Schuleingang",,24h verfügbar Eingangsbereich Turnhalle aussen,,defibrillator,144,node/9004556001,no,,,,,,24/7,Gemeinde Triesenberg,,,+423 792 26 75,,,
 9004556004,node,47.1179677,9.5432273,yes,,"Dorfzentrum, Eingang Gemeindeverwaltung Warteraum",,Öffentlich zugänglich und im Wandkasten verbaut unterhalb Infobildschirm und neben WC Eingang,,defibrillator,144,node/9004556004,no,,,,,,24/7,Gemeinde Triesenberg,,,+423 792 26 69,,,
-9004556005,node,47.1147438,9.5405088,yes,,Sportplatz Leitawis Sanitätsraum Tribüne Hauptplatz,,,,defibrillator,144,node/9004556005,yes,,,,,,24/7,Gemeinde Triesenberg,,,+423 792 26 68,,,
+9004556005,node,47.1147438,9.5405079,yes,,Sportplatz Leitawis Sanitätsraum Tribüne Hauptplatz,,,,defibrillator,144,node/9004556005,yes,,,,,,24/7,Gemeinde Triesenberg,,,+423 792 26 68,,,
 9004556006,node,47.0654426,9.5019813,yes,,"Pfarrkirche Balzers, bei der Toilettenanlage aussen",,,,defibrillator,144,node/9004556006,no,,,,,,24/7,Gemeinde Balzers,,,+41 79 698 93 11,,,
 9004556008,node,47.0665958,9.5024067,yes,,Gemeindesaal Balzers,,Haupteingang,,defibrillator,144,node/9004556008,no,,,,,,24/7,Gemeinde Balzers,,,+41 79 697 33 26,,,
 9004556010,node,47.0674838,9.5027715,permissive,,Hallenbad Balzers Bademeisterkabine,,,,defibrillator,144,node/9004556010,yes,,0,,,,Mo-Fr 08:00-22:00,Gemeinde Balzers,,,+41 78 802 10 79,,,

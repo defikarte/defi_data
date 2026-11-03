@@ -574,7 +574,7 @@ Korridor rechts",,während Öffnungszeiten verfügbar,,defibrillator,144,,,,node
 7637818864,node,47.1941179,8.2953163,yes,,,,,,,,,,,,,,Beim Haupteingang,,,,defibrillator,144,,,,node/7637818864,,,,,,,,Gemeinde Hohenrain,,,24/7,,,,,,,,,
 7637818865,node,46.8996535,8.2671528,,,,,,,,,,,,,,,,,Kasse Eingang,,defibrillator,144,,,,node/7637818865,,,,,,,,Aqua Center,,,,,,,,,,,,
 7637818866,node,46.9048405,8.2750555,yes,,,,,,,,,,,,,,,,"EG, Restaurant, gegenüber Damentoilette",,defibrillator,144,,,,node/7637818866,,,,,,,,Betagtensiedlung Huwel,,,24/7,,,,,,,,,
-7637818868,node,46.9023957,8.2747812,,,,,,,,,,,,,,,,,Innenhof Spänesilo,,defibrillator,144,,,,node/7637818868,,,,,,,,Holzbau Bucher AG,,,,,,,,,,,,
+7637818868,node,46.9023957,8.2747812,,,,,,,,,,,,,,,Innenhof Spänesilo,,Innenhof Spänesilo,,defibrillator,144,,,,node/7637818868,yes,,,,,,,Holzbau Bucher AG,,,,,,,,,,,,
 7637818869,node,47.0034507,8.3708492,yes,,,,,,,,,,,,,,,,Bootshaus aussen,,defibrillator,144,,,,node/7637818869,,,,,,,,Lifetec Bootshafen Hostatt,,,24/7,,,,,,,,,
 7637818870,node,47.0132939,8.3334341,,,,,,,,,,,,,,,In der Sakristei,,Nur während Veranstaltungen zugänglich.,,defibrillator,144,,,,node/7637818870,yes,,,,,,,,,,,Kirchgemeindeamt der kath. Kirchgemeinde Horw,,+41 41 349 00 88,,,,,,
 7637818871,node,47.0059571,8.3374644,,,,,,,,,,,,,,,,,Haupteingang,,defibrillator,144,,,,node/7637818871,,,,,,,,Lifetec IMI Management AG,,,,,,,,,,,,
@@ -1623,3 +1623,4 @@ im Haupteingang,",,"Klingel benutzen, wenn jemand da ist, helfen wir gerne",,def
 14252580301,node,47.137566,8.1929067,yes,,,,,,,,,,,,,,Vor der Pfarrwohnung,,Jederzeit zugänglich,sekretariat.sursee@reflu.ch,defibrillator,144,,,,node/14252580301,no,,0,,,,,,,,24/7,Reformierte Kirche Sursee,,+41 41 921 11 19,,,,,,
 14301890001,node,46.9545335,8.3709874,yes,,,,,,,,,,,,,,"Kollegium St. Fidelis Stans, beim Eingang West",,,stefan.nemitz@kollegistans.ch,defibrillator,144,,,,node/14301890001,no,,,,,,,,,,24/7,"Kollegium St. Fidelis, Mürgstrasse 20, 6370 Stans",,+41 41 618 74 66,,,,,,
 14308768401,node,47.1466267,8.2338626,private,,,,,,,,,,,,,,e.Luterbach AG,,Hängt im zwischen Gang vor dem Werkstatt Pausenraum,info@luterbach-ag.ch,defibrillator,144,,,,node/14308768401,yes,,1,,,,,,,,Mo-Fr 07:30-16:30,Firma,,+41 41 464 35 00,,,,,,
+14340374701,node,47.1743189,8.1250821,yes,,,,,,,,,,,,,,Strandbad Sursee,,,strandbad.sursee@stadtsursee.ch,defibrillator,144,,,,node/14340374701,no,,0,,,,,,,,24/7,"Stadt Sursee, Centralstrasse 9, 6210 Sursee",,+41 41 926 91 42,,,,,,

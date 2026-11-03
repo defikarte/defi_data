@@ -33,7 +33,7 @@ osm_id,osm_type,lat,lon,access,check_date,defibrillator:location,description,ema
 7637818853,node,46.9795548,8.2552628,yes,,"Pilatus Kulm, Neben Uhren",,,defibrillator,144,node/7637818853,yes,0,Pilatusbahn Pilatus-Kulm,24/7,Pilatus-Bahnen AG,+41 41 329 11 11,,limited
 7637818865,node,46.8996535,8.2671528,,,,Kasse Eingang,,defibrillator,144,node/7637818865,,,Aqua Center,,,,,
 7637818866,node,46.9048405,8.2750555,yes,,,"EG, Restaurant, gegenüber Damentoilette",,defibrillator,144,node/7637818866,,,Betagtensiedlung Huwel,24/7,,,,
-7637818868,node,46.9023957,8.2747812,,,,Innenhof Spänesilo,,defibrillator,144,node/7637818868,,,Holzbau Bucher AG,,,,,
+7637818868,node,46.9023957,8.2747812,,,Innenhof Spänesilo,Innenhof Spänesilo,,defibrillator,144,node/7637818868,yes,,Holzbau Bucher AG,,,,,
 7637818885,node,46.911786,8.2612881,yes,,,Aussenseite Büroeingang,,defibrillator,144,node/7637818885,,,von Atzigen AG,24/7,,,,
 7637818953,node,46.8222822,8.1749584,no,,,KW Unteraa,,defibrillator,144,node/7637818953,yes,,Elektrizitätswerk Obwalden,,,,,
 7637818954,node,46.8225543,8.1740573,yes,,,Alte Kraftwerkszentrale «Turbine» (neben Haupteingang),,defibrillator,144,node/7637818954,,,Elektrizitätswerk Obwalden,24/7,,,,

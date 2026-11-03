@@ -810,3 +810,7 @@ Furtschellas Talstation
 14282925137,node,46.6395758,10.2925208,,,,,,,,,,,,,"Im Eingangsbereich zum Hotel Restaurant Süsom Givè, untem beim Treppenabsatz.",,,,,defibrillator,,,,,node/14282925137,,,yes,,,,,,,,,,,,,,
 14300984251,node,46.833499,9.2821123,permissive,,,,,,,,,,,,Im 1. Stock im Gang zu den Toiletten links neben den Schliessfächern,,,,,defibrillator,,,,,node/14300984251,,,yes,,1,,,Mo-Su 07:00-22:00,,,,,,,,,
 14330990601,node,46.8497592,9.5319897,permissive,,,,,,,,,,,,"Befindet sich im EG, Eingangshalle, Seitengang zu den Toiletten",,,,info.plessur@rg.gr.ch,defibrillator,,144,,,node/14330990601,,,yes,,0,,,,Regionalgericht Plessur,,,+41 81 257 59 00,,,,,
+14341965701,node,46.8977283,9.5631911,,,,,,,,,,,,,Rathaus Trimmis,,,Beim Briefkasten,adrian.ammann@trimmis.ch,defibrillator,,144,,,node/14341965701,,,no,,,,,24/7,Gemeinde Trimmis,,,+41 81 354 99 33,,,,,
+14341968901,node,46.9073072,9.5593266,,,,,,,,,,,,,Trafostation Alt Strass,,,,,defibrillator,,144,,,node/14341968901,,,no,,,,,24/7,Gemeinde Trimmis,,,+41 81 354 99 33,,,,,
+14341982301,node,46.9016087,9.5559063,,,,,,,,,,,,,Werkhof,,,,,defibrillator,,144,,,node/14341982301,,,no,,,,,24/7,Gemeinde Trimmis,,,+41 81 354 99 33,,,,,
+14341984101,node,46.9034913,9.575464,,,,,,,,,,,,,Bushaltestelle,,,,adrian.ammann@trimmis.ch,defibrillator,,144,,,node/14341984101,,,no,,,,,24/7,Gemeinde Trimmis,,,+41 81 354 99 33,,,,,

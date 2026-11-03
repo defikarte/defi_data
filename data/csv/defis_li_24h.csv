@@ -2,7 +2,7 @@ osm_id,osm_type,lat,lon,access,check_date,defibrillator:location,defibrillator:l
 8842630422,node,47.1404741,9.5223373,yes,,"Vadozner Huus, Rathausplatz, Gemeindepolizei",,An der Aussenwand bei der Gemeindepolizei Rathausplatz,,defibrillator,144,node/8842630422,no,,24/7,Gemeinde Vaduz,,,+423 793 78 02,,,
 9004556001,node,47.1169584,9.5474035,yes,,"Schulhaus Obergufer, Turnhalle und Schuleingang",,24h verfügbar Eingangsbereich Turnhalle aussen,,defibrillator,144,node/9004556001,no,,24/7,Gemeinde Triesenberg,,,+423 792 26 75,,,
 9004556004,node,47.1179677,9.5432273,yes,,"Dorfzentrum, Eingang Gemeindeverwaltung Warteraum",,Öffentlich zugänglich und im Wandkasten verbaut unterhalb Infobildschirm und neben WC Eingang,,defibrillator,144,node/9004556004,no,,24/7,Gemeinde Triesenberg,,,+423 792 26 69,,,
-9004556005,node,47.1147438,9.5405088,yes,,Sportplatz Leitawis Sanitätsraum Tribüne Hauptplatz,,,,defibrillator,144,node/9004556005,yes,,24/7,Gemeinde Triesenberg,,,+423 792 26 68,,,
+9004556005,node,47.1147438,9.5405079,yes,,Sportplatz Leitawis Sanitätsraum Tribüne Hauptplatz,,,,defibrillator,144,node/9004556005,yes,,24/7,Gemeinde Triesenberg,,,+423 792 26 68,,,
 9004556006,node,47.0654426,9.5019813,yes,,"Pfarrkirche Balzers, bei der Toilettenanlage aussen",,,,defibrillator,144,node/9004556006,no,,24/7,Gemeinde Balzers,,,+41 79 698 93 11,,,
 9004556008,node,47.0665958,9.5024067,yes,,Gemeindesaal Balzers,,Haupteingang,,defibrillator,144,node/9004556008,no,,24/7,Gemeinde Balzers,,,+41 79 697 33 26,,,
 9004556011,node,47.0732475,9.4954404,yes,,Fussballplatz Hauptgebäude,,"Nebeneingang Hauptgebäude FC, direkt neben der Strasse",,defibrillator,144,node/9004556011,no,,24/7,Gemeinde Balzers,,,+41 79 639 33 13,,,
