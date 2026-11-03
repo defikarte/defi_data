@@ -307611,13 +307611,13 @@
   "type": "Feature",
   "id": "node/12430823601",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "defibrillator:location": "Haupteingang Balmer Bücherdienst AG",
     "description": "Einsatzbereit vor dem Haupteingang",
     "email": "christian.roos@balmer-bd.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Balmer Bücherdienst AG",
@@ -382470,18 +382470,19 @@
   "type": "Feature",
   "id": "node/14175358483",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Grüner Metallkasten aussen an der Wand der Drogerie",
+    "access": "private",
+    "defibrillator:location": "Drogerie Sachseln",
+    "description": "doppelt erfasst",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "24/7",
     "id": "node/14175358483"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2394688,
-      46.8687543
+      8.2394685,
+      46.8687544
     ]
   }
 },
