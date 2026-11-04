@@ -222789,6 +222789,25 @@
       47.5310019
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14349642801",
+  "properties": {
+    "defibrillator:location": "Restaurant Transit",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14349642801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.631957,
+      46.8758137
+    ]
+  }
 }
 ]
 }
