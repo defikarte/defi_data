@@ -24898,8 +24898,8 @@
   "type": "Feature",
   "id": "node/9447040286",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Wohnung 1 OG links",
+    "access": "private",
+    "defibrillator:location": "Wohnung 2. OG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -24910,8 +24910,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5641324,
-      47.480335
+      8.5491645,
+      47.4922726
     ]
   }
 },
