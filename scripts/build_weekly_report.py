@@ -14,7 +14,7 @@ import re
 import sys
 from datetime import datetime, timezone
 
-from mail_common import FIELD_LABELS, defikarte_url, page, summary_html, fallback_coords_line, T
+from mail_common import FIELD_LABELS, defikarte_url, page, summary_html, shows_coords, coords_line, T
 
 _OLD_FORMAT = re.compile(r"^(.*?): '(.*)' \u2192 '(.*)'$", re.DOTALL)
 
@@ -36,12 +36,13 @@ def to_entry(e):
     name = str(e.get("name") or "").strip()
     addr = e.get("address") or None
     has_name = e.get("has_name", True)
+    changes = [normalize_change(c) for c in e.get("changes", [])]
     if not name or name == "(ohne Name)":
         has_name = False
         if addr:
             name, addr = addr, None
         else:
-            name, addr = T("unnamed"), fallback_coords_line("Geändert", lon, lat)
+            name, addr = T("unnamed"), None if shows_coords("Geändert", changes) else coords_line(lon, lat)
     return {
         "status": "Geändert",
         "name": name,
@@ -52,9 +53,8 @@ def to_entry(e):
         "key": e.get("key"),
         "lon": lon,
         "lat": lat,
-        "contact": e.get("contact"),
         "new_247": False,
-        "changes": [normalize_change(c) for c in e.get("changes", [])],
+        "changes": changes,
     }
 
 

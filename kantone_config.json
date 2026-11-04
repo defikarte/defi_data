@@ -7,9 +7,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_ZH",
       "use_cc": false,
       "reporting_mode": "immediate",
-      "language": "de",
-      "coordinates": "wgs84",     
-      "show_contact": true
+      "language": "de"
     },
     {
       "id": "bl",
@@ -18,9 +16,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_BL",
       "use_cc": false,
       "reporting_mode": "immediate",
-      "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true
+      "language": "de"
     },
     {
       "id": "zg_city",
@@ -29,9 +25,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_ZG",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true
+      "language": "de"
     },
     {
       "id": "luks",
@@ -40,9 +34,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_LUKS",
       "use_cc": false,
       "reporting_mode": "immediate",
-      "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true
+      "language": "de"
     },
     {
       "id": "so",
@@ -51,9 +43,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_SO",
       "use_cc": true,
       "reporting_mode": "immediate",
-      "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true
+      "language": "de"
     },
     {
       "id": "be",
@@ -62,9 +52,7 @@
       "mail_recipient_secret": "MAIL_RECIPIENT_BE",
       "use_cc": true,
       "reporting_mode": "immediate_new_deleted_weekly_changed",
-      "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true
+      "language": "de"
     },
     {
       "id": "ju",
@@ -74,8 +62,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "fr",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "partner_logo": "surevive"
     },
     {
@@ -86,8 +72,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "fr",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "partner_logo": "surevive"
     },
     {
@@ -98,8 +82,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "fr",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "partner_logo": "surevive"
     },
     {
@@ -110,8 +92,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "fr",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "partner_logo": "surevive"
     },
     {
@@ -122,8 +102,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "partner_logo": "surevive"
     },
     {
@@ -134,8 +112,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "partner_logo": "surevive"
     },
     {
@@ -146,8 +122,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "partner_logo": "surevive"
     },
     {
@@ -158,8 +132,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "partner_logo": "surevive"
     },
     {
@@ -170,8 +142,6 @@
       "use_cc": true,
       "reporting_mode": "immediate",
       "language": "de",
-      "coordinates": "wgs84",      
-      "show_contact": true,
       "subject": "Änderungen an Defis im {name}"
     }
   ],

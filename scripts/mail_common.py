@@ -73,16 +73,6 @@ OPENING_LABEL = FIELD_LABELS["opening_hours"]
 MOVE_LABEL = "Standort"
 MOVE_THRESHOLD_M = float(os.environ.get("REPORT_MOVE_THRESHOLD_M") or 25)
 
-# Koordinaten zum Kopieren in Einsatzleitsysteme ("wgs84", "lv95", "both"), bei Neu und Geändert.
-# Pro Kanton über "coordinates" in kantone_config.json (-> REPORT_COORDS). Alles andere: keine.
-COORDS_MODE = os.environ.get("REPORT_COORDS", "").strip().lower()
-if COORDS_MODE not in ("wgs84", "lv95", "both"):
-    COORDS_MODE = "none"
-
-# Kontaktangaben des Betreibers bei Neu und Geändert.
-# Pro Kanton über "show_contact" in kantone_config.json (-> REPORT_SHOW_CONTACT).
-SHOW_CONTACT = os.environ.get("REPORT_SHOW_CONTACT", "").strip().lower() == "true"
-
 
 # ── Sprache ──────────────────────────────────────────────────────────────────
 LANG = os.environ.get("REPORT_LANG", "de").strip().lower()
@@ -102,7 +92,8 @@ TEXTS = {
         "map_link": "Auf Karte ansehen",
         "no_name_hint": "(kein Name in OSM)",
         "location": "Standort",
-        "coords_lv95": "LV95",
+        "coordinates": "Koordinaten",
+        "email": "E-Mail",
         "unnamed": "Defi ohne Bezeichnung",
         "empty": "(leer)",
         "added": "ergänzt",
@@ -131,7 +122,8 @@ TEXTS = {
         "map_link": "Voir sur la carte",
         "no_name_hint": "(sans nom dans OSM)",
         "location": "Emplacement",
-        "coords_lv95": "MN95",
+        "coordinates": "Coordonnées",
+        "email": "E-mail",
         "unnamed": "Défibrillateur sans désignation",
         "empty": "(vide)",
         "added": "ajouté",
@@ -231,7 +223,7 @@ def first_tag(p, *tags):
 
 
 def contact_info(p):
-    """Vorhandene Kontaktangaben des Betreibers; emergency:phone bewusst nicht (praktisch immer 144)."""
+    """Vorhandene Kontaktangaben; emergency:phone bewusst nicht (praktisch immer 144)."""
     info = {"operator": first_tag(p, "operator", "operator:name"),
             "phone": first_tag(p, "phone", "contact:phone", "contact:mobile"),
             "email": first_tag(p, "email", "contact:email", "operator:email")}
@@ -322,24 +314,9 @@ def coords_line(lon, lat):
     return f"{T('location')} {lat:.5f}, {lon:.5f}" if lat is not None and lon is not None else None
 
 
-def shows_coords(status):
-    return COORDS_MODE != "none" and status in ("Neu", "Geändert")
-
-
-def fallback_coords_line(status, lon, lat):
-    """coords_line als Ersatz für fehlende Angaben; entfällt, wenn die Karte
-    ohnehin eine Koordinatenzeile zeigt (sonst stünde dieselbe Info doppelt da)."""
-    return None if shows_coords(status) else coords_line(lon, lat)
-
-
-def wgs84_to_lv95(lat, lon):
-    """WGS84 -> LV95 (E, N) in Metern, Näherungsformel von swisstopo (ca. 1 m genau)."""
-    phi = (lat * 3600 - 169028.66) / 10000
-    lam = (lon * 3600 - 26782.5) / 10000
-    e = 2600072.37 + 211455.93 * lam - 10938.51 * lam * phi - 0.36 * lam * phi ** 2 - 44.54 * lam ** 3
-    n = (1200147.07 + 308807.95 * phi + 3745.25 * lam ** 2 + 76.63 * phi ** 2
-         - 194.56 * lam ** 2 * phi + 119.79 * phi ** 3)
-    return e, n
+def shows_coords(status, changes):
+    """Koordinaten bei neuen Defis (Zeile) und ab MOVE_THRESHOLD_M verschobenen (Änderungsbox)."""
+    return status == "Neu" or any(c[0] == MOVE_LABEL for c in changes or [])
 
 
 def feature_entry(status, feature, changes=None):
@@ -349,7 +326,8 @@ def feature_entry(status, feature, changes=None):
     name, has_name, name_is_addr = display_name(p, lon, lat)
     detail = detail_line(p, name)
     # Koordinaten nur, wenn sonst gar nichts den Defi beschreibt
-    fallback = fallback_coords_line(status, lon, lat) if name == T("unnamed") and not detail else None
+    fallback = (coords_line(lon, lat) if name == T("unnamed") and not detail
+                and not shows_coords(status, changes) else None)
     return {
         "status": status,
         "name": name,
@@ -361,7 +339,7 @@ def feature_entry(status, feature, changes=None):
         "key": get_key(feature),
         "lon": lon,
         "lat": lat,
-        "contact": contact_info(p),
+        "contact": contact_info(p) if status == "Neu" else None,
         "new_247": status == "Neu" and p.get("opening_hours") == "24/7",
         "changes": changes or [],
     }
@@ -474,7 +452,11 @@ def move_line(old, new, key=None):
     old_link = f' <a href="{_e(url)}" style="color:{GREEN_DARK};font-size:12px;">({_e(text)})</a>'
     return (f'<div style="margin:3px 0;font-size:13px;color:{INK};">'
             f'<span style="color:{MUTED};">{_e(label_out(MOVE_LABEL))}{colon()}</span> '
-            f'<strong style="font-weight:600;">{_e(T("moved", dist=dist))}</strong>{old_link}</div>')
+            f'<strong style="font-weight:600;">{_e(T("moved", dist=dist))}</strong>{old_link}</div>'
+            f'<div style="margin:3px 0;font-size:13px;color:{INK};">'
+            f'<span style="color:{MUTED};">{_e(T("coordinates"))}{colon()}</span> '
+            f'<span style="color:#999999;text-decoration:line-through;">{lat1:.6f}, {lon1:.6f}</span> &rarr; '
+            f'<strong style="font-weight:600;">{lat2:.6f}, {lon2:.6f}</strong></div>')
 
 
 def change_line(change, key=None):
@@ -506,21 +488,6 @@ def change_line(change, key=None):
 
 
 
-def coords_html(entry):
-    """Koordinatenzeile der Karte; ohne Kundenwunsch leer."""
-    lon, lat = entry.get("lon"), entry.get("lat")
-    if not shows_coords(entry["status"]) or lon is None or lat is None:
-        return ""
-    parts = []
-    if COORDS_MODE in ("wgs84", "both"):
-        parts.append(f"{lat:.6f}, {lon:.6f}")
-    if COORDS_MODE in ("lv95", "both"):
-        e, n = wgs84_to_lv95(lat, lon)
-        parts.append(f"{T('coords_lv95')} {e:.0f}, {n:.0f}")
-    return (f'<div style="font-size:13px;color:{MUTED};margin-top:2px;font-variant-numeric:tabular-nums;">'
-            f'{_e(" · ".join(parts))}</div>')
-
-
 def contact_links(scheme, value):
     """Links für einen OSM-Wert; mehrere Angaben sind dort mit ";" getrennt."""
     links = []
@@ -533,22 +500,24 @@ def contact_links(scheme, value):
 
 
 def contact_html(entry):
-    """Kontaktzeile der Karte (Betreiber, Telefon, E-Mail); ohne Kundenwunsch oder Angaben leer."""
+    """Kontaktzeilen neuer Defis; der Betreiber nicht nochmals, wenn er schon vollständig im Titel steht."""
     contact = entry.get("contact") or {}
-    if not SHOW_CONTACT or entry["status"] not in ("Neu", "Geändert"):
-        return ""
     parts = []
-    # Steht der Betreiber schon vollständig im Titel, nicht nochmals (gekürzter Titel zählt nicht)
     if contact.get("operator") and contact["operator"] != entry.get("name"):
-        parts.append(_e(contact["operator"]))
+        parts.append(f'{_e(label_out(FIELD_LABELS["operator"]))}{colon()} {_e(contact["operator"])}')
     if contact.get("phone"):
-        parts.append(contact_links("tel", contact["phone"]))
+        parts.append(f'{_e(label_out(FIELD_LABELS["phone"]))}{colon()} {contact_links("tel", contact["phone"])}')
     if contact.get("email"):
-        parts.append(contact_links("mailto", contact["email"]))
-    parts = [part for part in parts if part]
-    if not parts:
+        parts.append(f'{_e(T("email"))}{colon()} {contact_links("mailto", contact["email"])}')
+    return "".join(f'<div style="font-size:13px;color:{MUTED};margin-top:2px;">{part}</div>' for part in parts)
+
+
+def coords_html(entry):
+    lon, lat = entry.get("lon"), entry.get("lat")
+    if entry["status"] != "Neu" or lon is None or lat is None:
         return ""
-    return f'<div style="font-size:13px;color:{MUTED};margin-top:2px;">{" · ".join(parts)}</div>'
+    return (f'<div style="font-size:13px;color:{MUTED};margin-top:2px;">'
+            f'{_e(T("coordinates"))}{colon()} {lat:.6f}, {lon:.6f}</div>')
 
 
 def card(entry):

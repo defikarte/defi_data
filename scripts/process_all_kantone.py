@@ -125,14 +125,12 @@ def partner_of(kanton):
 
 
 def script_env(kanton):
-    """Umgebung für die Diff-Scripts: Report-Sprache, Partner-Logo, Schwelle
-    für Verschiebungen, Koordinatenanzeige und Kontaktzeile mitgeben."""
+    """Umgebung für die Diff-Scripts: Report-Sprache, Partner-Logo und
+    Schwelle für Verschiebungen mitgeben."""
     partner = partner_of(kanton)
     return {**os.environ, "REPORT_LANG": lang_of(kanton),
             "REPORT_PARTNER": json.dumps(partner) if partner else "",
-            "REPORT_MOVE_THRESHOLD_M": str(kanton.get("move_threshold_m", "")),
-            "REPORT_COORDS": str(kanton.get("coordinates", "")),
-            "REPORT_SHOW_CONTACT": str(kanton.get("show_contact", ""))}
+            "REPORT_MOVE_THRESHOLD_M": str(kanton.get("move_threshold_m", ""))}
 
 
 def load_config():
