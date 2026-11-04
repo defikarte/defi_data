@@ -33203,26 +33203,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14175358483",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Drogerie Sachseln",
-    "description": "doppelt erfasst",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/14175358483"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2394685,
-      46.8687544
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14191532878",
   "properties": {
     "addr:city": "Schüpfheim",

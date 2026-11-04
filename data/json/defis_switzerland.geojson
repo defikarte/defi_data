@@ -62994,27 +62994,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7667048303",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang zur Aula/Turnhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Eschenbach",
-    "id": "node/7667048303"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9246938,
-      47.2418596
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7667048304",
   "properties": {
     "access": "yes",
@@ -382474,26 +382453,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14175358483",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Drogerie Sachseln",
-    "description": "doppelt erfasst",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/14175358483"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2394685,
-      46.8687544
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14175873001",
   "properties": {
     "access": "permissive",
@@ -387496,6 +387455,31 @@
     "coordinates": [
       8.631957,
       46.8758137
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14349916001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindeverwaltung beim Anschlagbrett",
+    "email": "info@duerrenroth.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung Dürrenroth",
+    "phone": "+41 62 959 01 11",
+    "wikimedia_commons": "File:AEDDuerrenroth.jpg",
+    "id": "node/14349916001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7919837,
+      47.0899153
     ]
   }
 }

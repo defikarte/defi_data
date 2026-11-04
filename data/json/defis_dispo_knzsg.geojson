@@ -1717,27 +1717,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7667048303",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang zur Aula/Turnhalle",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Eschenbach",
-    "id": "node/7667048303"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9246938,
-      47.2418596
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7667048304",
   "properties": {
     "access": "yes",
