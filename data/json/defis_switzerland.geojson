@@ -387392,7 +387392,7 @@
     "access": "yes",
     "defibrillator:location": "Entrée du bâtiment administratif de la ville de Bulle CEB 33",
     "description": "Libre accès",
-    "email": "fabrice.nancy@bulle.ch",
+    "email": "departement.urbanisme@bulle.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -387417,7 +387417,7 @@
     "access": "yes",
     "defibrillator:location": "A l'entrée de la halle de gymnastique",
     "description": "accès libre",
-    "email": "fabrice.nancy@bulle.ch",
+    "email": "departement.urbanisme@bulle.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -387431,7 +387431,7 @@
     "type": "Point",
     "coordinates": [
       7.0657204,
-      46.6096186
+      46.6096187
     ]
   }
 }
