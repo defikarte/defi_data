@@ -2,7 +2,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 2246047716,node,46.8547972,7.2297071,yes,,,,,,,,,,Am Gebäude der Firma Jörg & Co. Metallbau AG,,,,defibrillator,144,,,node/2246047716,no,,,,,,,,24/7,,,,,,,,,,
 2861933760,node,46.9749165,7.198529,yes,Kerzers,5,3210,Vordere Gasse,,,,,,Eingang Gebäude,,Grüner Kasten,,defibrillator,144,,,node/2861933760,no,,,0,,,Gemeinde Kerzers FR,,24/7,Lifetec AG,,,,0800122144,1625LTS,,,,
 4738423504,node,46.8258118,7.3010113,,,,,,no,,,,,,,Türautomat Knopf links von Türe,,defibrillator,144,yes,no,node/4738423504,yes,,,,,no,Defibrillator,,,,,,,,,,,,
-4783026180,node,46.7937048,7.1568378,private,,,,,,,,,,,,,,defibrillator,144,,,node/4783026180,,,,0,,,,,,,,,,,,,,,yes
+4783026180,node,46.7937048,7.1568377,yes,,,,,,,,,,Rez Haute ecole de gestion / unifr PER14,,"Rez, au mur dans le hall d entrée, a côté de la cage d escaliers",,defibrillator,144,,,node/4783026180,yes,,,0,,,,,Mo-Fr 07:00-17:30,,,,,,,,,,yes
 4783196007,node,46.8021295,7.1655386,yes,,,,,,,,,,"outside, next to building entry",,,,defibrillator,144,,,node/4783196007,,,,0,,,,,,,,,+41 21 637 02 30,,,,,,yes
 5141600056,node,46.9240925,6.9542825,,,,,,,,,,,,,,,defibrillator,144,,,node/5141600056,,,,,,,,,,,,,,,,,,,
 5566386285,node,46.5602474,7.0383308,yes,,,,,,,,,,,,,,defibrillator,144,,,node/5566386285,no,,,,,,,,24/7,,,,,,,,,,
@@ -408,3 +408,6 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14284618401,node,46.8129496,7.1142935,,,1,,Route des Fluides,,2026-10-14,2026-10-14,,,,,,,defibrillator,,,,node/14284618401,,,,0,,,,,Mo-Fr 08:00-17:00,,,,,,,,,,
 14305868901,node,46.8337421,6.8443562,,,,,,,,,,,,,,,defibrillator,,,,node/14305868901,,,,,,,,,,,,,,,,,,,
 14333294801,node,46.9235477,7.1237435,,,,,,,,,,,Schulhaus OSRM,,,,defibrillator,144,,,node/14333294801,yes,,,0,,,,,,Gemeinde,,,,,,,,,
+14344517401,node,46.7939392,7.1586134,yes,,,,,,,,,,Unifr PER21,,,,defibrillator,144,,,node/14344517401,yes,,,0,,,,,Mo-Fr 07:00-17:30,,,,,,,,,,
+14345422001,node,46.6211208,7.0532642,yes,,,,,,,,,,Entrée du bâtiment administratif de la ville de Bulle CEB 33,,Libre accès,fabrice.nancy@bulle.ch,defibrillator,144,,,node/14345422001,no,,,0,,,,,24/7,Commune,,,+41 26 919 18 40,,,,,,
+14345440601,node,46.6096186,7.0657204,yes,,,,,,,,,,A l'entrée de la halle de gymnastique,,accès libre,fabrice.nancy@bulle.ch,defibrillator,144,,,node/14345440601,no,,,0,,,,,24/7,commune,,,+41 26 919 18 40,,,,,,
