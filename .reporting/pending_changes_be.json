@@ -25,5 +25,22 @@
       }
     ],
     "detected_at": "2026-11-02T15:23:25.969173+00:00"
+  },
+  {
+    "key": "node/14345125001",
+    "name": "Klinik",
+    "has_name": false,
+    "detail": "Klinikgebäude Klinik SGM EG",
+    "address": null,
+    "lon": 7.7743553,
+    "lat": 47.2183091,
+    "changes": [
+      {
+        "label": "Öffnungszeiten",
+        "old": "Mo-Su 8:00-21:00",
+        "new": "Mo-Su 08:00-21:00"
+      }
+    ],
+    "detected_at": "2026-11-04T08:48:36.829469+00:00"
   }
 ]
