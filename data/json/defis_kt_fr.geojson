@@ -8814,6 +8814,25 @@
       46.6096187
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14349375101",
+  "properties": {
+    "defibrillator:location": "Dans le champs, à côté d'une vache",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14349375101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.9619403,
+      46.5990165
+    ]
+  }
 }
 ]
 }
