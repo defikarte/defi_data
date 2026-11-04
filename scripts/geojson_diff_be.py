@@ -11,8 +11,8 @@ import os
 import sys
 from datetime import datetime, timezone
 
-from mail_common import (index, props, coords, address, display_name, detail_line,
-                         feature_entry, feature_changes, page)
+from mail_common import (index, props, coords, address, contact_info, display_name, detail_line,
+                         feature_entry, feature_changes, page, SHOW_CONTACT)
 
 pending_file = sys.argv[3] if len(sys.argv) > 3 else ".reporting/pending_changes_be.json"
 
@@ -49,6 +49,8 @@ for k in common:
         "lat": lat,
         "changes": [{"label": l, "old": o, "new": n} for l, o, n in changes],
         "detected_at": now_iso,
+        # Für den Wochenreport; nur speichern, wenn der Kunde die Kontaktzeile will
+        **({"contact": contact_info(np_)} if SHOW_CONTACT else {}),
     })
 
 os.makedirs(os.path.dirname(pending_file) or ".", exist_ok=True)

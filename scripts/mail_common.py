@@ -15,6 +15,7 @@ import json
 import math
 import os
 import re
+from urllib.parse import quote
 
 # ── defikarte.ch CI ──────────────────────────────────────────────────────────
 # Farben aus den Design-Tokens der Website (Figma: primary-*, graustufen-*).
@@ -72,6 +73,16 @@ OPENING_LABEL = FIELD_LABELS["opening_hours"]
 MOVE_LABEL = "Standort"
 MOVE_THRESHOLD_M = float(os.environ.get("REPORT_MOVE_THRESHOLD_M") or 25)
 
+# Koordinaten zum Kopieren in Einsatzleitsysteme ("wgs84", "lv95", "both"), bei Neu und Geändert.
+# Pro Kanton über "coordinates" in kantone_config.json (-> REPORT_COORDS). Alles andere: keine.
+COORDS_MODE = os.environ.get("REPORT_COORDS", "").strip().lower()
+if COORDS_MODE not in ("wgs84", "lv95", "both"):
+    COORDS_MODE = "none"
+
+# Kontaktangaben des Betreibers bei Neu und Geändert.
+# Pro Kanton über "show_contact" in kantone_config.json (-> REPORT_SHOW_CONTACT).
+SHOW_CONTACT = os.environ.get("REPORT_SHOW_CONTACT", "").strip().lower() == "true"
+
 
 # ── Sprache ──────────────────────────────────────────────────────────────────
 LANG = os.environ.get("REPORT_LANG", "de").strip().lower()
@@ -91,6 +102,7 @@ TEXTS = {
         "map_link": "Auf Karte ansehen",
         "no_name_hint": "(kein Name in OSM)",
         "location": "Standort",
+        "coords_lv95": "LV95",
         "unnamed": "Defi ohne Bezeichnung",
         "empty": "(leer)",
         "added": "ergänzt",
@@ -119,6 +131,7 @@ TEXTS = {
         "map_link": "Voir sur la carte",
         "no_name_hint": "(sans nom dans OSM)",
         "location": "Emplacement",
+        "coords_lv95": "MN95",
         "unnamed": "Défibrillateur sans désignation",
         "empty": "(vide)",
         "added": "ajouté",
@@ -208,6 +221,23 @@ def address(p):
     return ", ".join(parts) if parts else None
 
 
+def first_tag(p, *tags):
+    """Erster nicht leerer Wert der Tags, Leerraum bereinigt ("" wenn keiner)."""
+    for tag in tags:
+        value = " ".join(str(p.get(tag) or "").split())
+        if value:
+            return value
+    return ""
+
+
+def contact_info(p):
+    """Vorhandene Kontaktangaben des Betreibers; emergency:phone bewusst nicht (praktisch immer 144)."""
+    info = {"operator": first_tag(p, "operator", "operator:name"),
+            "phone": first_tag(p, "phone", "contact:phone", "contact:mobile"),
+            "email": first_tag(p, "email", "contact:email", "operator:email")}
+    return {k: v for k, v in info.items() if v}
+
+
 def get_key(feature):
     p = props(feature)
     for k in ("@id", "osm_id", "osm:id", "id", "osmid", "osmId"):
@@ -292,6 +322,26 @@ def coords_line(lon, lat):
     return f"{T('location')} {lat:.5f}, {lon:.5f}" if lat is not None and lon is not None else None
 
 
+def shows_coords(status):
+    return COORDS_MODE != "none" and status in ("Neu", "Geändert")
+
+
+def fallback_coords_line(status, lon, lat):
+    """coords_line als Ersatz für fehlende Angaben; entfällt, wenn die Karte
+    ohnehin eine Koordinatenzeile zeigt (sonst stünde dieselbe Info doppelt da)."""
+    return None if shows_coords(status) else coords_line(lon, lat)
+
+
+def wgs84_to_lv95(lat, lon):
+    """WGS84 -> LV95 (E, N) in Metern, Näherungsformel von swisstopo (ca. 1 m genau)."""
+    phi = (lat * 3600 - 169028.66) / 10000
+    lam = (lon * 3600 - 26782.5) / 10000
+    e = 2600072.37 + 211455.93 * lam - 10938.51 * lam * phi - 0.36 * lam * phi ** 2 - 44.54 * lam ** 3
+    n = (1200147.07 + 308807.95 * phi + 3745.25 * lam ** 2 + 76.63 * phi ** 2
+         - 194.56 * lam ** 2 * phi + 119.79 * phi ** 3)
+    return e, n
+
+
 def feature_entry(status, feature, changes=None):
     """Baut aus einem GeoJSON-Feature einen Karten-Eintrag."""
     p = props(feature)
@@ -299,7 +349,7 @@ def feature_entry(status, feature, changes=None):
     name, has_name, name_is_addr = display_name(p, lon, lat)
     detail = detail_line(p, name)
     # Koordinaten nur, wenn sonst gar nichts den Defi beschreibt
-    fallback = coords_line(lon, lat) if name == T("unnamed") and not detail else None
+    fallback = fallback_coords_line(status, lon, lat) if name == T("unnamed") and not detail else None
     return {
         "status": status,
         "name": name,
@@ -309,6 +359,9 @@ def feature_entry(status, feature, changes=None):
         # Gelöschte Defis gibt es auf defikarte.ch nicht mehr -> OSM-Link (zeigt auch die Historie)
         "url": (map_url if status == "Gelöscht" else defikarte_url)(lon, lat, get_key(feature)),
         "key": get_key(feature),
+        "lon": lon,
+        "lat": lat,
+        "contact": contact_info(p),
         "new_247": status == "Neu" and p.get("opening_hours") == "24/7",
         "changes": changes or [],
     }
@@ -453,6 +506,51 @@ def change_line(change, key=None):
 
 
 
+def coords_html(entry):
+    """Koordinatenzeile der Karte; ohne Kundenwunsch leer."""
+    lon, lat = entry.get("lon"), entry.get("lat")
+    if not shows_coords(entry["status"]) or lon is None or lat is None:
+        return ""
+    parts = []
+    if COORDS_MODE in ("wgs84", "both"):
+        parts.append(f"{lat:.6f}, {lon:.6f}")
+    if COORDS_MODE in ("lv95", "both"):
+        e, n = wgs84_to_lv95(lat, lon)
+        parts.append(f"{T('coords_lv95')} {e:.0f}, {n:.0f}")
+    return (f'<div style="font-size:13px;color:{MUTED};margin-top:2px;font-variant-numeric:tabular-nums;">'
+            f'{_e(" · ".join(parts))}</div>')
+
+
+def contact_links(scheme, value):
+    """Links für einen OSM-Wert; mehrere Angaben sind dort mit ";" getrennt."""
+    links = []
+    for part in value.split(";"):
+        part = part.strip()
+        if part:
+            target = quote(re.sub(r"\s", "", part), safe="+@")
+            links.append(f'<a href="{_e(f"{scheme}:{target}")}" style="color:{GREEN_DARK};">{_e(part)}</a>')
+    return ", ".join(links)
+
+
+def contact_html(entry):
+    """Kontaktzeile der Karte (Betreiber, Telefon, E-Mail); ohne Kundenwunsch oder Angaben leer."""
+    contact = entry.get("contact") or {}
+    if not SHOW_CONTACT or entry["status"] not in ("Neu", "Geändert"):
+        return ""
+    parts = []
+    # Steht der Betreiber schon vollständig im Titel, nicht nochmals (gekürzter Titel zählt nicht)
+    if contact.get("operator") and contact["operator"] != entry.get("name"):
+        parts.append(_e(contact["operator"]))
+    if contact.get("phone"):
+        parts.append(contact_links("tel", contact["phone"]))
+    if contact.get("email"):
+        parts.append(contact_links("mailto", contact["email"]))
+    parts = [part for part in parts if part]
+    if not parts:
+        return ""
+    return f'<div style="font-size:13px;color:{MUTED};margin-top:2px;">{" · ".join(parts)}</div>'
+
+
 def card(entry):
     bg, fg = STATUS_PILL[entry["status"]]
     link = (f'<a href="{_e(entry["url"])}" style="display:inline-block;border:1px solid {GREEN_DARK};'
@@ -482,7 +580,7 @@ def card(entry):
     </table>
     <div style="font-size:16px;font-weight:600;color:{INK};margin-top:10px;">{_e(entry["name"])}{hint}{badge}</div>
     {detail}
-    {addr}
+    {addr}{contact_html(entry)}{coords_html(entry)}
     {changes}
   </td></tr>
 </table>'''
