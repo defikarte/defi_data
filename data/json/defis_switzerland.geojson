@@ -313316,13 +313316,15 @@
   "id": "node/12571521001",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Bächigenstrasse 13",
+    "defibrillator:location": "Stationsstrasse 8",
     "description": "öffentlich zugänglich",
+    "email": "info@stadtgossau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Stadt Gossau",
+    "phone": "+41 71 388 81 41",
     "id": "node/12571521001"
   },
   "geometry": {
