@@ -15453,6 +15453,26 @@
       47.5492042
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14349000701",
+  "properties": {
+    "defibrillator:location": "Restaurant Seegarten bei der Kasse",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14349000701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6147066,
+      47.5310019
+    ]
+  }
 }
 ]
 }

@@ -8741,15 +8741,19 @@
     "addr:housenumber": "17",
     "addr:postcode": "5313",
     "addr:street": "Sonnengasse",
+    "defibrillator:location": "Parkplatz Stadtkirche",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Gemeinde",
     "id": "node/6293056987"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2504442,
-      47.5806671
+      8.2504441,
+      47.5806673
     ]
   }
 },
@@ -387434,6 +387438,26 @@
     "coordinates": [
       7.0657204,
       46.6096187
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14349000701",
+  "properties": {
+    "defibrillator:location": "Restaurant Seegarten bei der Kasse",
+    "description": "während Öffnungszeiten verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14349000701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6147066,
+      47.5310019
     ]
   }
 }
