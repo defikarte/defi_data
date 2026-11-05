@@ -222933,6 +222933,25 @@
       47.4701201
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14353113001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Reception an der Wand (rechts)",
+    "emergency": "defibrillator",
+    "level": "0",
+    "operator": "Greuterhof",
+    "id": "node/14353113001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8400046,
+      47.5444107
+    ]
+  }
 }
 ]
 }
