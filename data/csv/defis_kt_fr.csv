@@ -409,5 +409,6 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14305868901,node,46.8337421,6.8443562,,,,,,,,,,,,,,,defibrillator,,,,node/14305868901,,,,,,,,,,,,,,,,,,,
 14333294801,node,46.9235477,7.1237435,,,,,,,,,,,Schulhaus OSRM,,,,defibrillator,144,,,node/14333294801,yes,,,0,,,,,,Gemeinde,,,,,,,,,
 14344517401,node,46.7939392,7.1586134,yes,,,,,,,,,,Unifr PER21,,,,defibrillator,144,,,node/14344517401,yes,,,0,,,,,Mo-Fr 07:00-17:30,,,,,,,,,,
-14345422001,node,46.6211208,7.0532642,yes,,,,,,,,,,Entrée du bâtiment administratif de la ville de Bulle CEB 33,,Libre accès,fabrice.nancy@bulle.ch,defibrillator,144,,,node/14345422001,no,,,0,,,,,24/7,Commune,,,+41 26 919 18 40,,,,,,
-14345440601,node,46.6096186,7.0657204,yes,,,,,,,,,,A l'entrée de la halle de gymnastique,,accès libre,fabrice.nancy@bulle.ch,defibrillator,144,,,node/14345440601,no,,,0,,,,,24/7,commune,,,+41 26 919 18 40,,,,,,
+14345422001,node,46.6211208,7.0532642,yes,,,,,,,,,,Entrée du bâtiment administratif de la ville de Bulle CEB 33,,Libre accès,departement.urbanisme@bulle.ch,defibrillator,144,,,node/14345422001,no,,,0,,,,,24/7,Commune,,,+41 26 919 18 40,,,,,,
+14345440601,node,46.6096187,7.0657204,yes,,,,,,,,,,A l'entrée de la halle de gymnastique,,accès libre,departement.urbanisme@bulle.ch,defibrillator,144,,,node/14345440601,no,,,0,,,,,24/7,commune,,,+41 26 919 18 40,,,,,,
+14349375101,node,46.5990165,6.9619403,,,,,,,,,,,"Dans le champs, à côté d'une vache",,,,defibrillator,144,,,node/14349375101,no,,,,,,,,24/7,,,,,,,,,,

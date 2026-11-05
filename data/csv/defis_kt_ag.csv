@@ -16,7 +16,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 6066721244,node,47.5507237,7.7743312,no,,,,,,,,,,,,,defibrillator,144,,node/6066721244,,yes,,,,,,,,,,,,,,,,,
 6160120165,node,47.1478177,8.3914245,yes,,,,,,,,,Unterstand Schulhaus Badiblick (Eingang Schulleiterbüro),,,,defibrillator,144,,node/6160120165,,no,,,,,,,24/7,Gemeinde Dietwil,,,+41 41 787 34 72,,,,,,
 6219026385,node,47.3920944,8.0534217,yes,,,,,,,,,,,,,defibrillator,144,,node/6219026385,,,,,,,,,,,,,,,,,,,
-6293056987,node,47.5806671,8.2504442,,Klingnau,,17,5313,Sonnengasse,,,,,,,,defibrillator,144,,node/6293056987,,,,,,,,,,,,,,,,,,,
+6293056987,node,47.5806673,8.2504441,,Klingnau,,17,5313,Sonnengasse,,,,Parkplatz Stadtkirche,,,,defibrillator,144,,node/6293056987,,no,,,0,,,,,Gemeinde,,,,,,,,,
 6318321968,node,47.3909155,8.3873403,yes,,,,,,,,,An Aussenwand,,,,defibrillator,144,,node/6318321968,,,,,0,,,,24/7,,,,,,,,,limited,
 6938294362,node,47.3921539,8.3896544,private,,,,,,,,,Küche,,,,defibrillator,144,,node/6938294362,,yes,,,0,,,,,,,,,,,,,,
 7049195212,node,47.5587232,7.801117,yes,Rheinfelden,CH,41,4310,Roberstenstrasse,,,,Stadtpark Ost bei der WC Anlage auf der Westseite,,Hinter WC Anlage,,defibrillator,144,,node/7049195212,,no,,,,,,,24/7,Stadt Rheinfelden,,,+41 61 835 51 11,4310 Rheinfelden,,,,,
