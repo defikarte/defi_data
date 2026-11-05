@@ -387681,6 +387681,53 @@
       47.413238
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14352169901",
+  "properties": {
+    "defibrillator:location": "Euro 1 Gebäude",
+    "description": "Schrank mit Alarm, offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Verwaltung",
+    "id": "node/14352169901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.436115,
+      47.1480326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14352207401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Alterszentrum Kappelhof AG, Eingang Haus 3",
+    "description": "Schrank mit Alarm",
+    "email": "alterszentrum@wittenbach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 07:00-19:00",
+    "operator": "Alterszentrum Kappelhof AG",
+    "phone": "+41 71 292 28 28",
+    "id": "node/14352207401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.398573,
+      47.4599039
+    ]
+  }
 }
 ]
 }

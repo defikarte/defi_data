@@ -106276,6 +106276,28 @@
       47.413238
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14352169901",
+  "properties": {
+    "defibrillator:location": "Euro 1 Gebäude",
+    "description": "Schrank mit Alarm, offen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "Verwaltung",
+    "id": "node/14352169901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.436115,
+      47.1480326
+    ]
+  }
 }
 ]
 }
