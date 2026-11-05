@@ -164694,6 +164694,106 @@
       47.0899153
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14351310901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Centre d'entretien de la Ville de Bulle",
+    "description": "Sur la façade au centre du bâtiment",
+    "email": "departement.urbanisme@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14351310901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.068513,
+      46.6233943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14351310902",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sous le couvert d'entrée du bâtiment Bouleau de l'Ecole de la Condémine",
+    "description": "Fixé sur la façade",
+    "email": "departement.urbanisme@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14351310902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0600933,
+      46.6165841
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14351310903",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "A l'entrée de l'école primaire de la Léchère",
+    "description": "Fixé sur la façade au niveau de l'entrée principale",
+    "email": "departement.urbanisme@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14351310903"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0509684,
+      46.624471
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14351322801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sur la façade principale de l'Espace Gruyère",
+    "description": "Sur la façade à gauche de l'entrée principale",
+    "email": "departement.urbanisme@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14351322801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0484986,
+      46.6146962
+    ]
+  }
 }
 ]
 }
