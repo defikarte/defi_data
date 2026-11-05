@@ -387728,6 +387728,31 @@
       47.4599039
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14352265702",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "beim Haupteingang neben dem Personenlift",
+    "description": "Schrank gekennzeichnet Haupteingang neben dem Personenlift",
+    "email": "rfroehlicher@kochag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "07:00 - 17:00",
+    "operator": "Geschäftshaus Emil Frey & René Koch AG",
+    "phone": "+41447826039",
+    "id": "node/14352265702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6585636,
+      47.2398069
+    ]
+  }
 }
 ]
 }
