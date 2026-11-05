@@ -185636,29 +185636,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12815400101",
-  "properties": {
-    "access": "yes",
-    "addr:housenumber": "9",
-    "addr:street": "Rue du Stand",
-    "defibrillator:location": "Centre sportif",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Municipalité de Sainte-Croix",
-    "id": "node/12815400101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.5007097,
-      46.8262225
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12816999001",
   "properties": {
     "access": "permissive",
@@ -222388,7 +222365,7 @@
     "type": "Point",
     "coordinates": [
       7.649444,
-      46.6932133
+      46.6932132
     ]
   }
 },
