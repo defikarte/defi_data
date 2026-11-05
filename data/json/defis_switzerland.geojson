@@ -387607,6 +387607,29 @@
       46.6181229
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14351559901",
+  "properties": {
+    "defibrillator:location": "Hölzliwisenstrasse 5, im hinteren Bereich Richtung Innenhof",
+    "email": "gigerkampfkunst@bluemail.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00 - 19:00",
+    "operator": "Geschäftshaus",
+    "phone": "+41 76 423 79 63",
+    "id": "node/14351559901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6794735,
+      47.3781568
+    ]
+  }
 }
 ]
 }
