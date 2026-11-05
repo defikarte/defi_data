@@ -222788,6 +222788,31 @@
       46.8758137
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14351453701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Au premier étage sous l'espace de la coupole, proche de l'ascenseur",
+    "description": "Fixé à l'intérieur sur le mur",
+    "email": "departement.urbanisme@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "06:00-23:30",
+    "operator": "Commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14351453701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0568779,
+      46.6181229
+    ]
+  }
 }
 ]
 }
