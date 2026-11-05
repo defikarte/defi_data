@@ -95912,8 +95912,7 @@
   "id": "node/10060550418",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz - AUSSER BETRIEB (02.11.2026)",
-    "description": "DERZEIT AUSSER BETRIEB (02.11.2026)",
+    "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz - Leihgerät (vorübergehend)",
     "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -130581,7 +130580,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Sa 7:30-19:00",
+    "opening_hours": "Mo-Fr 7:30-19:00; Sa 7:30-18:00",
     "operator": "Migros",
     "ref": "CH705002",
     "id": "node/10847054128"
@@ -130589,8 +130588,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5023137,
-      46.8197383
+      6.502313,
+      46.8197388
     ]
   }
 },

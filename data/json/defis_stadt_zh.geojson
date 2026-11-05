@@ -6401,8 +6401,7 @@
   "id": "node/10060550418",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz - AUSSER BETRIEB (02.11.2026)",
-    "description": "DERZEIT AUSSER BETRIEB (02.11.2026)",
+    "defibrillator:location": "Ehemaliges Bushäuschen beim Glassammelplatz - Leihgerät (vorübergehend)",
     "email": "sibe@sunnigehof.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",

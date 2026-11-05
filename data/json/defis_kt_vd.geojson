@@ -6937,7 +6937,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Sa 7:30-19:00",
+    "opening_hours": "Mo-Fr 7:30-19:00; Sa 7:30-18:00",
     "operator": "Migros",
     "ref": "CH705002",
     "id": "node/10847054128"
@@ -6945,8 +6945,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5023137,
-      46.8197383
+      6.502313,
+      46.8197388
     ]
   }
 },
