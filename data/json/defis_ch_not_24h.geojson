@@ -222909,6 +222909,30 @@
       47.2398069
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14352845701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Therapie & Trainingscenter Physio Kühni Haupteingang innen",
+    "email": "admin@physiokuehni.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Physio Kühni",
+    "phone": "+41 61 991 90 90",
+    "id": "node/14352845701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8646499,
+      47.4701201
+    ]
+  }
 }
 ]
 }
