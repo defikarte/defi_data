@@ -56170,22 +56170,28 @@
   "type": "Feature",
   "id": "node/10763310116",
   "properties": {
-    "access:conditional": "yes @ opening_hours",
-    "defibrillator:location": "Liftvorplatz, 4.OG;Empfangsbereich 1. OG",
-    "description": "oranger Koffer",
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "12",
+    "addr:postcode": "8006",
+    "addr:street": "Wasserwerkstrasse",
+    "defibrillator:location": "FINMA Empfangsbereich 1. OG",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Eidgenössische Finanzmarktaufsicht FINMA",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0883LTM",
     "id": "node/10763310116"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.54048,
+      8.5404579,
       47.38331
     ]
   }
@@ -106238,6 +106244,36 @@
     "coordinates": [
       8.6794735,
       47.3781568
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14351856385",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich-Oerlikon",
+    "addr:housenumber": "32",
+    "addr:postcode": "8050",
+    "addr:street": "Thurgauerstrasse",
+    "defibrillator:location": "FINMA Geschoss 5 Zimmer 5.31",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "name": "FINMA",
+    "opening_hours": "Mo - Fr 08:00 - 18:00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0884LTM",
+    "id": "node/14351856385"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5520362,
+      47.413238
     ]
   }
 }

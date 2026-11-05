@@ -211110,22 +211110,28 @@
   "type": "Feature",
   "id": "node/10763310116",
   "properties": {
-    "access:conditional": "yes @ opening_hours",
-    "defibrillator:location": "Liftvorplatz, 4.OG;Empfangsbereich 1. OG",
-    "description": "oranger Koffer",
+    "access": "yes",
+    "addr:city": "Zürich",
+    "addr:housenumber": "12",
+    "addr:postcode": "8006",
+    "addr:street": "Wasserwerkstrasse",
+    "defibrillator:location": "FINMA Empfangsbereich 1. OG",
+    "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Eidgenössische Finanzmarktaufsicht FINMA",
     "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
+    "ref": "0883LTM",
     "id": "node/10763310116"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.54048,
+      8.5404579,
       47.38331
     ]
   }
@@ -227913,10 +227919,13 @@
   "type": "Feature",
   "id": "node/10847054128",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
+    "defibrillator:location": "Magasin Migros",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 7:30-19:00",
     "operator": "Migros",
     "ref": "CH705002",
     "id": "node/10847054128"
@@ -227924,7 +227933,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5023136,
+      6.5023137,
       46.8197383
     ]
   }
@@ -323778,17 +323787,22 @@
   "type": "Feature",
   "id": "node/12815400101",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "9",
     "addr:street": "Rue du Stand",
+    "defibrillator:location": "Centre sportif",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "operator": "Municipalité de Sainte-Croix",
     "id": "node/12815400101"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5007098,
-      46.8262224
+      6.5007097,
+      46.8262225
     ]
   }
 },
@@ -324320,18 +324334,24 @@
   "type": "Feature",
   "id": "node/12819965801",
   "properties": {
+    "access": "yes",
     "addr:housenumber": "10",
     "addr:street": "Rue Neuve",
+    "defibrillator:location": "Escaliers de l'hôtel de Ville/Office de Poste",
+    "description": "Armoire avec alarme, tout public",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Municipalité de Sainte-Croix",
     "id": "node/12819965801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5012057,
-      46.8224672
+      6.5012053,
+      46.8224671
     ]
   }
 },
@@ -387628,6 +387648,36 @@
     "coordinates": [
       8.6794735,
       47.3781568
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14351856385",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Zürich-Oerlikon",
+    "addr:housenumber": "32",
+    "addr:postcode": "8050",
+    "addr:street": "Thurgauerstrasse",
+    "defibrillator:location": "FINMA Geschoss 5 Zimmer 5.31",
+    "description": "Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "name": "FINMA",
+    "opening_hours": "Mo - Fr 08:00 - 18:00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "0884LTM",
+    "id": "node/14351856385"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5520362,
+      47.413238
     ]
   }
 }

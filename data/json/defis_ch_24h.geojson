@@ -138351,6 +138351,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/12819965801",
+  "properties": {
+    "access": "yes",
+    "addr:housenumber": "10",
+    "addr:street": "Rue Neuve",
+    "defibrillator:location": "Escaliers de l'hôtel de Ville/Office de Poste",
+    "description": "Armoire avec alarme, tout public",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "operator": "Municipalité de Sainte-Croix",
+    "id": "node/12819965801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.5012053,
+      46.8224671
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12822724017",
   "properties": {
     "access": "yes",
