@@ -24129,6 +24129,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818555",
+  "properties": {
+    "defibrillator:location": "Standord falsch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Rigi Staffelhöhe",
+    "id": "node/7637818555"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4641585,
+      47.0484764
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818559",
   "properties": {
     "access": "yes",
@@ -140586,24 +140605,6 @@
     "coordinates": [
       10.1187299,
       46.3970136
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11143854725",
-  "properties": {
-    "defibrillator:location": "In the waiting room of the train station, on the wall in a green box.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "id": "node/11143854725"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.464526,
-      47.0482586
     ]
   }
 },

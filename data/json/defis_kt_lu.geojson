@@ -2494,19 +2494,23 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-04-18",
-    "defibrillator:location": "Am Gebäude aussen, Gleis 1",
+    "defibrillator:location": "Station Vitznau RIGI BAHNEN AG",
+    "description": "Am Gebäude aussen",
+    "email": "welcome@rigi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Rigi Bahnen AG",
+    "operator": "RIGI BAHNEN AG",
+    "phone": "+41 41 399 87 87",
     "id": "node/7637812582"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4828277,
-      47.0096382
+      8.4828171,
+      47.0095514
     ]
   }
 },
@@ -4254,20 +4258,23 @@
   "properties": {
     "access": "yes",
     "contact:phone": "+41 41 811 15 55",
-    "defibrillator:location": "Außenwand des Gebäudes. Seite Dorfplatz",
-    "description": "Standort: Station Rigi Kaltbad.",
+    "defibrillator:location": "Station Kaltbad-First RIGI BAHNEN AG",
+    "description": "Aussenwand des Gebäudes. Seite Dorfplatz",
+    "email": "welcome@rigi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "name": "Rigi Kaltbad",
     "opening_hours": "24/7",
+    "operator": "RIGI BAHNEN AG",
+    "phone": "+41 41 399 87 87",
     "id": "node/7637818554"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4663451,
+      8.4663445,
       47.0439228
     ]
   }
@@ -4276,18 +4283,17 @@
   "type": "Feature",
   "id": "node/7637818555",
   "properties": {
-    "access": "yes",
-    "description": "Wartsaal",
+    "defibrillator:location": "Standord falsch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Rigi Staffelhöhe",
-    "opening_hours": "24/7",
     "id": "node/7637818555"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4641587,
+      8.4641585,
       47.0484764
     ]
   }
@@ -18527,17 +18533,22 @@
   "type": "Feature",
   "id": "node/11143854725",
   "properties": {
-    "defibrillator:location": "In the waiting room of the train station, on the wall in a green box.",
+    "access": "yes",
+    "defibrillator:location": "Station Staffelhöhe RIGI BAHNEN AG",
+    "email": "welcome@rigi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "RIGI BAHNEN AG",
+    "phone": "+41 41 399 87 87",
     "id": "node/11143854725"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.464526,
-      47.0482586
+      8.4645259,
+      47.0482585
     ]
   }
 },

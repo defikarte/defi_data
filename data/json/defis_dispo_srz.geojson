@@ -3658,13 +3658,15 @@
   "id": "node/6976938438",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Schalterraum Bahnstation Rigi Bahnen AG",
+    "defibrillator:location": "Station Staffel RIGI BAHNEN AG",
+    "email": "welcome@rigi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "note": "Tel. 041 811 15 55",
     "opening_hours": "24/7",
-    "operator": "Rigi Bahnen AG",
+    "operator": "RIGI BAHNEN AG",
+    "phone": "+41 41 399 87 87",
     "id": "node/6976938438"
   },
   "geometry": {
@@ -7182,20 +7184,23 @@
     "access": "yes",
     "check_date": "2025-09-16",
     "contact:phone": "+41 41 811 15 55",
-    "defibrillator:location": "Bergbahnen Rigi Kulm",
+    "defibrillator:location": "Warteraum RIGI BAHNEN AG",
     "description": "Warteraum Seite Bergkapelle",
+    "email": "welcome@rigi.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Rigi Kulm",
     "opening_hours": "24/7",
+    "operator": "RIGI BAHNEN AG",
+    "phone": "+41 41 399 87 87",
     "id": "node/7637818553"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4837861,
-      47.0552008
+      8.4837869,
+      47.0552016
     ]
   }
 },
