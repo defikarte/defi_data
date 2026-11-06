@@ -461,3 +461,4 @@ EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",,defibrillator,144,node/7568
 14331418001,node,47.1878722,8.481074,permissive,,,,,,,,Bodyworx Fitness,Am Empfang,,defibrillator,144,node/14331418001,,,yes,,1,,,,,BodyWorx,,,,,,,
 14345175402,node,47.1821891,8.5260021,yes,,,,,,,,"Grienbachstrasse 34, 6300 Zug","Schrank, an Fassade bei Garagentore (Carrosserie Lisibach)",sicherheit@stadtzug.ch,defibrillator,144,node/14345175402,,,no,,0,,,,24/7,"Stadt Zug, Fachbereich Sicherheit",,+41 58 728 99 00,,,,,
 14345212101,node,47.1424056,8.5110776,yes,,,,,,,,"Fuchsloch 14, Oberwil b. Zug","Schrank, an Fassade beim Eingang zur Kita",sicherheit@stadtzug.ch,defibrillator,144,node/14345212101,,,no,,0,,,,24/7,"Stadtverwaltung Zug, Abteilung Sicherheit und Verkehr",,+41 58 728 99 00,,,,,
+14352169901,node,47.1480326,8.436115,,,,,,,,,Euro 1 Gebäude,"Schrank mit Alarm, offen",,defibrillator,144,node/14352169901,,,yes,,0,,,,Mo-Fr 08:00-18:00,Verwaltung,,,,,,,
