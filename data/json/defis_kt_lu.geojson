@@ -136,24 +136,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4867633692",
-  "properties": {
-    "defibrillator:location": "Neben dem Kassenautomaten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/4867633692"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4405848,
-      47.0339027
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/5149554201",
   "properties": {
     "defibrillator:location": "Josef Hunkeler AG",
@@ -280,22 +262,6 @@
     "coordinates": [
       8.3397201,
       47.0543555
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6032534439",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/6032534439"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4830476,
-      47.0096442
     ]
   }
 },
@@ -4276,25 +4242,6 @@
     "coordinates": [
       8.4663445,
       47.0439228
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818555",
-  "properties": {
-    "defibrillator:location": "Standord falsch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Rigi Staffelhöhe",
-    "id": "node/7637818555"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4641585,
-      47.0484764
     ]
   }
 },

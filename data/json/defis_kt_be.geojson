@@ -47820,30 +47820,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11085017305",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Durchgang Schulhaus und Mehrzweckhalle",
-    "description": "öffentlich zugänglich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Einwohnergemeinde Oberbipp",
-    "phone": "+41326362773",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11085017305"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6580554,
-      47.2574866
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11086298077",
   "properties": {
     "access": "yes",

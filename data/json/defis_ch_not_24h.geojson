@@ -2760,24 +2760,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/4867633692",
-  "properties": {
-    "defibrillator:location": "Neben dem Kassenautomaten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/4867633692"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4405848,
-      47.0339027
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/4926738436",
   "properties": {
     "emergency": "defibrillator",
@@ -4365,22 +4347,6 @@
     "coordinates": [
       6.4945795,
       46.5096638
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6032534439",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/6032534439"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4830476,
-      47.0096442
     ]
   }
 },
@@ -24124,25 +24090,6 @@
     "coordinates": [
       8.3930545,
       47.1186226
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818555",
-  "properties": {
-    "defibrillator:location": "Standord falsch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Rigi Staffelhöhe",
-    "id": "node/7637818555"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4641585,
-      47.0484764
     ]
   }
 },
@@ -222890,7 +222837,7 @@
   "type": "Feature",
   "id": "node/14352265702",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "beim Haupteingang neben dem Personenlift",
     "description": "Schrank gekennzeichnet Haupteingang neben dem Personenlift",
     "email": "rfroehlicher@kochag.ch",
@@ -222898,7 +222845,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "07:00 - 17:00",
+    "opening_hours": "Mo-Fr 07:00 - 17:00",
     "operator": "Geschäftshaus Emil Frey & René Koch AG",
     "phone": "+41447826039",
     "id": "node/14352265702"
