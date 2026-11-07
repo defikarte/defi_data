@@ -164856,6 +164856,31 @@
       47.175702
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14357402601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Oberbertschikon 8",
+    "description": "Schrank mit Alarm am Gebäude befestigt",
+    "email": "j.hochuli@team.jobs",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kulturverein Oberbertschikon / Badeplauschverein",
+    "phone": "+41795311723",
+    "id": "node/14357402601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8220068,
+      47.5255303
+    ]
+  }
 }
 ]
 }
