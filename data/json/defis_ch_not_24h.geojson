@@ -27,7 +27,7 @@
     "addr:place": "Bahnhofplatz",
     "addr:postcode": "9500",
     "amenity": "arts_centre",
-    "check_date": "2024-10-20",
+    "check_date": "2026-11-07",
     "defibrillator:location": "Outside of Entrance",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -222875,6 +222875,25 @@
     "coordinates": [
       8.8400046,
       47.5444107
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14356515701",
+  "properties": {
+    "defibrillator:location": "Beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14356515701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9933213,
+      46.3147799
     ]
   }
 }

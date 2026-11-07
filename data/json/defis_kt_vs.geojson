@@ -7380,6 +7380,25 @@
       46.1848365
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14356515701",
+  "properties": {
+    "defibrillator:location": "Beim Eingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14356515701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9933213,
+      46.3147799
+    ]
+  }
 }
 ]
 }
