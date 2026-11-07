@@ -14729,29 +14729,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10325385309",
-  "properties": {
-    "access": "no",
-    "defibrillator:location": "Unterdorfstrasse 4a, 5445 Eggenwil",
-    "description": "bei Fam. Engler - Schurz klingeln!",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Privatperson",
-    "phone": "+41793486729",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/10325385309"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3383517,
-      47.369429
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10536640209",
   "properties": {
     "defibrillator:location": "Gemeindesaal / Sanitätszimmer",
