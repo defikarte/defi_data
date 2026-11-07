@@ -164834,6 +164834,28 @@
       46.6146962
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14356846201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Fassade bei unterführung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Bürgisweyerbad",
+    "phone": "+41 62 965 26 31",
+    "id": "node/14356846201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8157352,
+      47.175702
+    ]
+  }
 }
 ]
 }
