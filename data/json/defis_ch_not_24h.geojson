@@ -171232,29 +171232,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12284940308",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Wilenstrasse 2, 9422 Staad ",
-    "description": "Steht das ganze Jahr zur Verfügung ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Thal",
-    "phone": "+41718861030",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12284940308"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5380157,
-      47.4789319
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12284944805",
   "properties": {
     "access": "yes",
@@ -171370,30 +171347,6 @@
     "coordinates": [
       9.5611417,
       47.4688119
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12284978201",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Doppelturnhalle Bützel, Bützelstrasse, 9422 Staad",
-    "description": "Steht das ganze Jahr zur Verfügung ",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeinde Thal",
-    "phone": "+41718861030",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12284978201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5436805,
-      47.478185
     ]
   }
 },

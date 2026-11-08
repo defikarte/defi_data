@@ -24974,11 +24974,12 @@
   "id": "node/12284940308",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Wilenstrasse 2, 9422 Staad ",
-    "description": "Steht das ganze Jahr zur Verfügung ",
+    "defibrillator:location": "Wilenstrasse 2, 9422 Staad",
+    "description": "Steht das ganze Jahr zur Verfügung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Thal",
     "phone": "+41718861030",
     "source": "local_knowledge, defikarte.ch",
@@ -25143,11 +25144,12 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Doppelturnhalle Bützel, Bützelstrasse, 9422 Staad",
-    "description": "Steht das ganze Jahr zur Verfügung ",
+    "description": "Steht das ganze Jahr zur Verfügung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Thal",
     "phone": "+41718861030",
     "source": "local_knowledge, defikarte.ch",
@@ -33392,6 +33394,29 @@
     "coordinates": [
       9.398573,
       47.4599039
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14359150602",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "beim Parkplatz Aussen an der Wand",
+    "email": "infotb@rorschach.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Technische Betriebe Rorschach",
+    "phone": "+41 71 844 22 22",
+    "id": "node/14359150602"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4958796,
+      47.4745257
     ]
   }
 }

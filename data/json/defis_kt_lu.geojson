@@ -24758,6 +24758,29 @@
       47.1743189
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14359152501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Hintertannberg 3",
+    "description": "Direkt an der Mauer rechts, bei der Einfahrt in die offene Tiefgarage Hintertannberg 3",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Strassengenossenschaft Hintertannberg",
+    "id": "node/14359152501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.1315723,
+      47.1846746
+    ]
+  }
 }
 ]
 }
