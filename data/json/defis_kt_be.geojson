@@ -38403,15 +38403,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "SUSV - Schweizer Unterwasser-Sport-Verband/ Sandra Büchi",
+    "operator": "Schweizer Unterwasser-Sport-Verband",
     "phone": "+41 31 301 43 43",
     "id": "node/9485396623"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7471852,
-      46.6854957
+      7.7471977,
+      46.6855554
     ]
   }
 },
