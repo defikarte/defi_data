@@ -298466,6 +298466,8 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "outdoor": "yes",
+    "ref:CH-GE:defib": "S188",
     "id": "node/12289834189"
   },
   "geometry": {
@@ -298487,6 +298489,8 @@
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "outdoor": "yes",
+    "ref:CH-GE:defib": "S187",
     "id": "node/12289852079"
   },
   "geometry": {
