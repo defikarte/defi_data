@@ -42,5 +42,22 @@
       }
     ],
     "detected_at": "2026-11-04T08:48:36.829469+00:00"
+  },
+  {
+    "key": "node/13739244702",
+    "name": "Pontoniersportverein Wynau",
+    "has_name": false,
+    "detail": "Kellenboden 1 im Windfang",
+    "address": null,
+    "lon": 7.8175543,
+    "lat": 47.261384,
+    "changes": [
+      {
+        "label": "Standortbeschreibung",
+        "old": "Kellenboden 1",
+        "new": "Kellenboden 1 im Windfang"
+      }
+    ],
+    "detected_at": "2026-11-08T09:50:04.194752+00:00"
   }
 ]
