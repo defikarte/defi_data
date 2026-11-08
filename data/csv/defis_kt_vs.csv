@@ -363,3 +363,5 @@ Achtung: Betriebszeiten beachten (saisonal unterschiedlich!)",,defibrillator,144
 14266976301,node,46.2380573,7.875594,yes,,,,,,,,,,,Haupteingang Dienstgebäude KWM,,Im Eingangsbereich,,defibrillator,144,,node/14266976301,yes,0,,,,,24/7,Kraftwerke Mattmark AG,,,,+41279530000,,,,,,,,,,,,
 14277364654,node,46.1267872,7.0604718,yes,,,,,,,,,,,A droite en entrant,,Pendant les heures d'ouverture,,defibrillator,,,node/14277364654,yes,0,,,,,,,,,,,,,,,,,,,,,,
 14297785813,node,46.1848365,6.9996435,yes,,,,,,,,,,,,,,,defibrillator,,,node/14297785813,no,,,,,,,,,,,,,,,,,,,,,,,
+14356515701,node,46.3147799,7.9933213,,,,,,,,,,,,Beim Eingang,,,,defibrillator,144,,node/14356515701,yes,0,,,,,,,,,,,,,,,,,,,,,,
+14357445201,node,46.2921174,7.8828554,private,,,,,,,,,,,Praxis Alpendocs AG,,"Treppe hoch, linke Tür",praxis@alpendocs.ch,defibrillator,144,,node/14357445201,yes,1,,,,,Mo-Fr 8:00-17:30,Alpendocs AG,,,,+41 27 552 01 44,,,,,,,,,,,,

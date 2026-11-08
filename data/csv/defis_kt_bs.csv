@@ -79,7 +79,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 10763310560,node,47.55993,7.59472,,,,,,,"EG, Eingangsbereich",oranger Koffer,,defibrillator,144,,node/10763310560,yes,,,,Manor AG,Mo-Th 07:00-18:00; Fr 07:00-17:00,Lifetec AG Schweiz,+41 800 122 144,,,,,
 10763310561,node,47.55298,7.5918,no,,,,,,"1.OG, Küche beim Empfang",oranger Koffer,,defibrillator,144,,node/10763310561,yes,,,,Lenz Caemmerer Basel,,Lifetec AG Schweiz,+41 800 122 144,,,,,
 10763310562,node,47.54109,7.59449,yes,,,,,,"Garderobe, EG",oranger Koffer,,defibrillator,144,,node/10763310562,yes,,,,Burckhardt + Partner AG,"Mo-Fr 08:00-12:00, 13:30-17:00",Lifetec AG Schweiz,+41 800 122 144,,,,,
-10763310566,node,47.5627,7.58389,yes,,,,,,3.OG bei Küche,oranger Koffer,,defibrillator,144,,node/10763310566,yes,,,,KulThrstifThng Basel H.Geiger,We-Mo 11:00-18:00,Lifetec AG Schweiz,+41 800 122 144,,,,,
+10763310566,node,47.5627,7.58389,yes,,,,,,3. OG bei Küche,oranger Koffer,,defibrillator,144,,node/10763310566,yes,,,,Kulturstiftung Basel H. Geiger,We-Mo 11:00-18:00,Lifetec AG Schweiz,+41 800 122 144,,,,,
 10766467905,node,47.5540864,7.5734547,,,,,,,"Belchenstraße 6, Basel",,,defibrillator,144,,node/10766467905,yes,,1,,,"Mo-Fr 07:30-12:00,13:00-16:30",Firma E.KALT AG,+41 61 306 36 36,,,,,
 10777896895,node,47.5575281,7.5904768,,,,,,,"Im Eingangsbereich, nach Kasse",,,defibrillator,144,,node/10777896895,yes,,,,,,,,,,,,
 10781539926,node,47.5523715,7.5906824,yes,,,,,,"Elisabethenstrasse 16, Bühnen Eingang (Porte)",,,defibrillator,144,,node/10781539926,yes,,0,,,Mo-Fr 08:00-17:00,Theater Basel,+41 61 295 11 00,,,,,
