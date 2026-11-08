@@ -299022,28 +299022,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12299017501",
-  "properties": {
-    "defibrillator:location": "Forsthaus Nüesch",
-    "description": "im Aussenbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde Zufikon",
-    "phone": "+41566482942",
-    "id": "node/12299017501"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3673155,
-      47.3368331
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12299039102",
   "properties": {
     "access": "permissive",
@@ -317721,19 +317699,20 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Update Fitness",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
     "opening_hours": "Mo-Fr 06:00-22:00; Sa-Su 08:00-20:00",
+    "operator": "Update Fitness",
     "id": "node/12658396801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4142941,
-      47.4370907
+      9.4142935,
+      47.4370903
     ]
   }
 },
@@ -384062,8 +384041,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7704081,
-      46.7007178
+      7.7703527,
+      46.7006272
     ]
   }
 },
