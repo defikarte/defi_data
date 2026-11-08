@@ -151294,13 +151294,13 @@
   "type": "Feature",
   "id": "node/9591617736",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Im Feuerwehrdepot auf dem Samariteranhänger auf der Seite der Deichsel rechts",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Bei Bedarf via Feuerwehr 118 anfordern",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "24/7",
     "operator": "Samariterverein Trogen",
     "id": "node/9591617736"
   },
@@ -363025,7 +363025,7 @@
   "id": "node/13739244702",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Kellenboden 1",
+    "defibrillator:location": "Kellenboden 1 im Windfang",
     "email": "hasler.sven@gmail.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -363033,6 +363033,7 @@
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Pontoniersportverein Wynau",
+    "wikimedia_commons": "File:Pontonierhaus_Wyden.jpg",
     "id": "node/13739244702"
   },
   "geometry": {

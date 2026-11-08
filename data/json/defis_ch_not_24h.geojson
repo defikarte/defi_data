@@ -78690,6 +78690,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/9591617736",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Im Feuerwehrdepot auf dem Samariteranhänger auf der Seite der Deichsel rechts",
+    "description": "Bei Bedarf via Feuerwehr 118 anfordern",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Samariterverein Trogen",
+    "id": "node/9591617736"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4653332,
+      47.4094104
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9591629542",
   "properties": {
     "defibrillator:location": "Pestalozzi AG in der Halle 1",
