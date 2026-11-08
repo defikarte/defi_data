@@ -167685,6 +167685,7 @@
   "id": "node/9917843278",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-08",
     "defibrillator:location": "Surface de vente",
     "description": "Pendant les heures d'ouverture",
     "emergency": "defibrillator",
