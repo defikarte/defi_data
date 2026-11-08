@@ -293714,7 +293714,7 @@
   "id": "node/12173566201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Velounterstand SOB Bahnhof Biberegg",
+    "defibrillator:location": "hellgrüner Metallkasten beim überdachten Velounterstand SOB Bahnhof Biberegg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -293726,8 +293726,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6689466,
-      47.0938036
+      8.6689587,
+      47.0938383
     ]
   }
 },
