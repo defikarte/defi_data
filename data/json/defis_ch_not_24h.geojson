@@ -221419,12 +221419,13 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Mehrzweckhalle",
-    "description": "In der Mehrzweckhalle",
+    "description": "In der Mehrzweckhalle im Schrank",
     "email": "hwpr@regensdorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 16:00",
     "operator": "Gemeinde Regensdorf",
     "id": "node/14289693801"
   },
