@@ -60522,19 +60522,22 @@
   "id": "node/9140381717",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Araschgerstrasse Kindergarten",
+    "defibrillator:location": "Araschgerstrasse 69, Kindergarten",
     "description": "immer zugänglich",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, 7000 Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9140381717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5432107,
-      46.832287
+      9.5432112,
+      46.8322871
     ]
   }
 },

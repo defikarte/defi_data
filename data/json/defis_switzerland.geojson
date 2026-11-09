@@ -124921,19 +124921,22 @@
   "id": "node/9140381717",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Araschgerstrasse Kindergarten",
+    "defibrillator:location": "Araschgerstrasse 69, Kindergarten",
     "description": "immer zugänglich",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, 7000 Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9140381717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5432107,
-      46.832287
+      9.5432112,
+      46.8322871
     ]
   }
 },
@@ -387752,6 +387755,31 @@
     "coordinates": [
       8.1315723,
       47.1846746
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14362392401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulzahnklinik, Lindenquai 18, 7000 Chur",
+    "description": "Empfang",
+    "email": "mirco.keller@chur.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:45-12:00,13:00-17:00",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, 7000 Chur",
+    "phone": "+41 81 254 43 97",
+    "id": "node/14362392401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5310554,
+      46.8470629
     ]
   }
 }

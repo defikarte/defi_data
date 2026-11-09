@@ -222880,6 +222880,31 @@
       46.2921174
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14362392401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulzahnklinik, Lindenquai 18, 7000 Chur",
+    "description": "Empfang",
+    "email": "mirco.keller@chur.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:45-12:00,13:00-17:00",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, 7000 Chur",
+    "phone": "+41 81 254 43 97",
+    "id": "node/14362392401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5310554,
+      46.8470629
+    ]
+  }
 }
 ]
 }
