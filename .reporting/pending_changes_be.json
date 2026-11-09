@@ -1,1 +1,46 @@
-[]
+[
+  {
+    "key": "node/11483621720",
+    "name": "Société des Forces Electriques de La Goule SA",
+    "has_name": false,
+    "detail": "en façade nord, sur le côté gauche de la porte d’entrée principale",
+    "address": "Route de Tramelan 16, 2610 St-Imier",
+    "lon": 7.0058165,
+    "lat": 47.1556829,
+    "changes": [
+      {
+        "label": "Standortbeschreibung",
+        "old": "en façade nord",
+        "new": "en façade nord, sur le côté gauche de la porte d’entrée principale"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "no"
+      }
+    ],
+    "detected_at": "2026-11-09T19:50:06.149319+00:00"
+  },
+  {
+    "key": "node/13996096601",
+    "name": "Société des Forces électriques de La Goule SA",
+    "has_name": false,
+    "detail": "route de Tramelan 16, 2610 SaintImier",
+    "address": null,
+    "lon": 7.0058176,
+    "lat": 47.1557296,
+    "changes": [
+      {
+        "label": "Zugang",
+        "old": "permissive",
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-11-09T19:50:06.149319+00:00"
+  }
+]
