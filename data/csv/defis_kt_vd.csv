@@ -175,7 +175,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 9917843262,node,46.553565,6.5729624,yes,,,,,,,,Surface de vente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9917843262,,,yes,,,,,,,,,,Lidl,,,+41716278074,,,,
 9917843269,node,46.6608833,6.7956699,yes,,,,,,,,Surface de vente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9917843269,,,yes,,,,,,,,,,Lidl,,,+41716278074,,,,
 9917843272,node,46.5221313,6.6367775,yes,,,,,,,,Surface de vente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9917843272,,,yes,,,,,,,,,,Lidl,,,+41716278074,,,,
-9917843278,node,46.5425998,6.6275581,yes,,,,,,,,Surface de vente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9917843278,,,yes,,,,,,,,,,Lidl,,,+41716278074,,,,
+9917843278,node,46.5425998,6.6275581,yes,,,,,2026-11-08,,,Surface de vente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9917843278,,,yes,,,,,,,,,,Lidl,,,+41716278074,,,,
 9917843289,node,46.5220957,6.6262058,yes,,,,,,,,Surface de vente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9917843289,,,yes,,,,,,,,,,Lidl,,,+41716278074,,,,
 9917845028,node,46.3187906,6.962018,yes,,,,,,,,Surface de vente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9917845028,,,yes,,,,,,,,,,Lidl,,,+41716278074,,,,
 9917845039,node,46.5324157,6.5874584,yes,,,,,,,,Surface de vente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9917845039,,,yes,,,,,,,,,,Lidl,,,+41716278074,,,,

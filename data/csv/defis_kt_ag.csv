@@ -1186,7 +1186,6 @@ Im Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. gesch
 12289635601,node,47.472944,8.3083144,,,,,,,,,,Mr Pickwick Pub Baden,,Öffnüngszeiten/ Bar,,defibrillator,144,,node/12289635601,,yes,,,,,,,,Firma,,,,,,,,,
 12289768815,node,47.4163924,8.2659583,yes,,,,,,,,,,,,,defibrillator,144,,node/12289768815,,,,,,,,,24/7,,,,,,,,,,
 12293437101,node,47.3931055,8.1627238,private,,,,,,,,,Diestgebäude SBB,,im Aufenthaltsraum,,defibrillator,144,,node/12293437101,,yes,,,1,,,,Mo-Fr 08:00-15:00,Privat (SBB),,,,,,"local_knowledge, defikarte.ch",,,
-12299017501,node,47.3368331,8.3673155,,,,,,,,,,Forsthaus Nüesch,,im Aussenbereich,,defibrillator,144,,node/12299017501,,no,,,,,,,24/7,Gemeinde Zufikon,,,+41566482942,,,,,,
 12308405801,node,47.3698188,8.0452508,permissive,,,,,,,,,Im Firmenfahrzeug Blaulicht Zubehör Röder,,,,defibrillator,144,,node/12308405801,,yes,,,,,,,24/7,Christoph Röder,,,+41798699496,,,,,,
 12317904501,node,47.3541358,8.1620049,,,,,,,,,,Beim Hauteingang,,Während Öffnungszeiten,,defibrillator,144,,node/12317904501,,yes,,,0,,,,Mo-Fr 07:00-17:00,"Stiftung Seehalde Breitenweg 3, 5703 Seon",,,+41 62 769 60 30,,,"local_knowledge, defikarte.ch",,,
 12334677601,node,47.4212358,7.9718106,,,,,,,,,,Klinik Barmelweid,,24 Stunden,,defibrillator,144,,node/12334677601,,yes,,,,,,,24/7,Klinik Barmelweid,,,+41628572111,,,,,,
