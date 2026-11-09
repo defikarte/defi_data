@@ -60171,11 +60171,13 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Kantonsschule Wohlen - Im Hauptgebäude Calatrava links vor dem Eingang zur Aula",
-    "description": "für Mitarbeitende 24h verfügbar / für Öffentlichkeit nur während des Schulbetriebes 06.45 - 18.00 Uhr",
+    "description": "für Mitarbeitende 24h verfügbar",
     "email": "info@kswo.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 06:45-18:00",
     "operator": "Kantonsschule Wohlen",
     "phone": "+41 56 618 49 94",
     "id": "node/9045223353"
@@ -181794,7 +181796,6 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Update Fitness",
-    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",

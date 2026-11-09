@@ -31371,7 +31371,6 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Update Fitness",
-    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
