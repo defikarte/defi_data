@@ -387786,6 +387786,28 @@
       46.8470629
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14362948401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Lidl, vers la caisse 3, contre un poteau vers les vitres donnant sur l extérieur",
+    "description": "A côté de la caisse 3, contre la vitre donnant vers l'extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:00-19:00",
+    "id": "node/14362948401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.1527386,
+      46.8045872
+    ]
+  }
 }
 ]
 }
