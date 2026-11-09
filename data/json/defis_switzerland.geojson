@@ -65372,25 +65372,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721432518",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der Zugang zur Anlage liegt zwischen den Gebäuden Hauptstrasse 83 und Hauptstrasse 85.",
-    "description": "Badeanlage in der Regel in Betrieb von Mitte Mai - Anfang September (9-19).",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721432518"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5418674,
-      47.4837574
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721434361",
   "properties": {
     "access": "yes",
@@ -118471,7 +118452,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Kantonsschule Wohlen - Im Hauptgebäude Calatrava links vor dem Eingang zur Aula",
-    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "description": "für Mitarbeitende 24h verfügbar / für Öffentlichkeit nur während des Schulbetriebes 06.45 - 18.00 Uhr",
     "email": "info@kswo.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -118483,8 +118464,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2702858,
-      47.3557449
+      8.2702857,
+      47.3557448
     ]
   }
 },
@@ -264474,69 +264455,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11632523269",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Hafengebäude unter Treppe",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "id": "node/11632523269"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5328577,
-      47.4811002
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11632530369",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Velounterstand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "id": "node/11632530369"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5379566,
-      47.4789945
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11632546469",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Turnhalle rechts neben Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Gemeinde",
-    "id": "node/11632546469"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5437657,
-      47.4782309
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11632546470",
   "properties": {
     "access": "yes",
@@ -298065,7 +297983,7 @@
   "id": "node/12284940308",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Wilenstrasse 2, 9422 Staad",
+    "defibrillator:location": "Wilenstrasse 2, 9422 Staad: Bei Velounterstand",
     "description": "Steht das ganze Jahr zur Verfügung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -298079,8 +297997,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5380157,
-      47.4789319
+      9.5379637,
+      47.479008
     ]
   }
 },
@@ -298161,7 +298079,7 @@
   "id": "node/12284958901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Hafen Staad, 9422 Staad",
+    "defibrillator:location": "Unter Hafentreppe",
     "description": "Steht das ganze Jahr zur Verfügung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -298200,8 +298118,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5417762,
-      47.4835797
+      9.5416972,
+      47.483527
     ]
   }
 },
@@ -298258,7 +298176,7 @@
   "id": "node/12284978201",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Doppelturnhalle Bützel, Bützelstrasse, 9422 Staad",
+    "defibrillator:location": "Doppelturnhalle Bützel, Bützelstrasse, 9422 Staad;Neben Eingang rechts",
     "description": "Steht das ganze Jahr zur Verfügung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -298273,8 +298191,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5436805,
-      47.478185
+      9.5437417,
+      47.4782396
     ]
   }
 },

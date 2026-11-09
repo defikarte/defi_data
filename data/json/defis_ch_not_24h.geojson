@@ -33934,25 +33934,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721432518",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Der Zugang zur Anlage liegt zwischen den Gebäuden Hauptstrasse 83 und Hauptstrasse 85.",
-    "description": "Badeanlage in der Regel in Betrieb von Mitte Mai - Anfang September (9-19).",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721432518"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.5418674,
-      47.4837574
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721434860",
   "properties": {
     "access": "yes",
@@ -60190,7 +60171,7 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Kantonsschule Wohlen - Im Hauptgebäude Calatrava links vor dem Eingang zur Aula",
-    "description": "teilweise für MA 24h verfügbar, aber nicht gesichert",
+    "description": "für Mitarbeitende 24h verfügbar / für Öffentlichkeit nur während des Schulbetriebes 06.45 - 18.00 Uhr",
     "email": "info@kswo.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -60202,8 +60183,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2702858,
-      47.3557449
+      8.2702857,
+      47.3557448
     ]
   }
 },
@@ -171297,8 +171278,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5417762,
-      47.4835797
+      9.5416972,
+      47.483527
     ]
   }
 },
