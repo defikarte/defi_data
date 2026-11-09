@@ -4882,13 +4882,17 @@
   "type": "Feature",
   "id": "node/9277830917",
   "properties": {
-    "access": "private",
-    "defibrillator:location": "Werkhof, Eingang Bürogebäude",
-    "description": "Nur während Öffnungszeiten zugänglich",
+    "access": "permissive",
+    "defibrillator:location": "Werkhof, Industriestrasse 14, 7000 Chur, Eingang Bürogebäude",
+    "description": "Eingang Bürogebäude",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "operator": "Stadt Chur",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-11:30, 13:15-17:00, Sa 08:30-11:30",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, 7000 Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9277830917"
   },
   "geometry": {
