@@ -258944,9 +258944,11 @@
     "addr:housenumber": "16",
     "addr:postcode": "2610",
     "addr:street": "Route de Tramelan",
-    "defibrillator:location": "en façade nord",
+    "defibrillator:location": "en façade nord, sur le côté gauche de la porte d’entrée principale",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Société des Forces Electriques de La Goule SA",
     "phone": "+41 32 942 41 11",
@@ -258955,8 +258957,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.0058338,
-      47.1556996
+      7.0058165,
+      47.1556829
     ]
   }
 },
@@ -374421,7 +374423,7 @@
   "type": "Feature",
   "id": "node/13996096601",
   "properties": {
-    "access": "permissive",
+    "access": "yes",
     "defibrillator:location": "route de Tramelan 16, 2610 SaintImier",
     "description": "Disponible à toute heure",
     "emergency": "defibrillator",
