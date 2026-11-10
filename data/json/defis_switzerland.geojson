@@ -21444,9 +21444,11 @@
     "addr:housenumber": "46",
     "addr:postcode": "3270",
     "addr:street": "Stadtplatz",
-    "defibrillator:location": "wärend Öffnungszeiten der Gemeindeverwaltung. AED befindet sich im Gang des Erdgeschoss.",
+    "defibrillator:location": "im Gang des Erdgeschoss",
+    "description": "wärend Öffnungszeiten der Gemeindeverwaltung",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "operator": "Gemeinde Aarberg",
     "phone": "+41 32 391 25 25",
     "id": "node/6636906409"
@@ -21454,7 +21456,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2754833,
+      7.2754832,
       47.0442454
     ]
   }
@@ -21488,12 +21490,11 @@
   "type": "Feature",
   "id": "node/6636906411",
   "properties": {
-    "access": "yes",
     "addr:city": "Aarberg",
     "addr:housenumber": "29",
     "addr:postcode": "3270",
     "addr:street": "Stadtplatz",
-    "defibrillator:location": "Windfang Eingang Restaurant",
+    "defibrillator:location": "Eingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -21505,8 +21506,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2760075,
-      47.0440268
+      7.2760076,
+      47.0440267
     ]
   }
 },
@@ -107049,27 +107050,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8840906896",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Hallenbad beim Schwimmbecken",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stadt Gossau",
-    "id": "node/8840906896"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.249854,
-      47.4196682
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8840906897",
   "properties": {
     "access": "yes",
@@ -107107,27 +107087,6 @@
     "coordinates": [
       9.2551904,
       47.4110091
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8840906899",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang vor Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stadt Gossau",
-    "id": "node/8840906899"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2499137,
-      47.4199423
     ]
   }
 },
@@ -319520,27 +319479,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12704979630",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Hallenbad",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Stadt Gossau",
-    "id": "node/12704979630"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2495097,
-      47.4195564
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12704979631",
   "properties": {
     "access": "yes",
@@ -387962,6 +387900,25 @@
     "coordinates": [
       7.8101867,
       46.9616552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14365698301",
+  "properties": {
+    "defibrillator:location": "rechts neben Eingang Bibliothek",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14365698301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2735648,
+      47.0437747
     ]
   }
 }

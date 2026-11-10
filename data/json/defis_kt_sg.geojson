@@ -8934,27 +8934,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8840906896",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Hallenbad beim Schwimmbecken",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stadt Gossau",
-    "id": "node/8840906896"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.249854,
-      47.4196682
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8840906897",
   "properties": {
     "access": "yes",
@@ -8992,27 +8971,6 @@
     "coordinates": [
       9.2551904,
       47.4110091
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8840906899",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang vor Turnhalle",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "Stadt Gossau",
-    "id": "node/8840906899"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2499137,
-      47.4199423
     ]
   }
 },
@@ -26456,27 +26414,6 @@
     "coordinates": [
       9.3444353,
       47.4418289
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12704979630",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Hallenbad",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Stadt Gossau",
-    "id": "node/12704979630"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2495097,
-      47.4195564
     ]
   }
 },

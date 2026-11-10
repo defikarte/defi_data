@@ -136487,27 +136487,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12704979630",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Hallenbad",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Stadt Gossau",
-    "id": "node/12704979630"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.2495097,
-      47.4195564
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12704979631",
   "properties": {
     "access": "yes",
@@ -165024,6 +165003,25 @@
     "coordinates": [
       7.8101867,
       46.9616552
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14365698301",
+  "properties": {
+    "defibrillator:location": "rechts neben Eingang Bibliothek",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14365698301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2735648,
+      47.0437747
     ]
   }
 }
