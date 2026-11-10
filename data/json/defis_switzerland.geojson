@@ -104649,27 +104649,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8779635517",
-  "properties": {
-    "access": "yes",
-    "check_date": "2026-10-08",
-    "defibrillator:location": "Beim Bankomat",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/8779635517"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5977311,
-      47.1749139
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8780672277",
   "properties": {
     "access": "yes",
