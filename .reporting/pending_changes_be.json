@@ -49,45 +49,64 @@
     "has_name": false,
     "detail": "Zentrale",
     "address": "Lindenhof, 3236 Gampelen",
-    "lon": 7.0591636,
-    "lat": 46.9878541,
+    "lon": 7.0591637,
+    "lat": 46.9878543,
     "changes": [
       {
-        "label": "Standort",
-        "old": "46.988890,7.059109",
-        "new": "46.987854,7.059164"
-      },
-      {
-        "label": "Telefon",
-        "old": "+41 31 635 65 86",
-        "new": "+41 31 635 65 11"
+        "label": "Zugang",
+        "old": "permissive",
+        "new": "private"
       },
       {
         "label": "Öffnungszeiten",
-        "old": null,
-        "new": "07:00- 07:00"
-      },
-      {
-        "label": "Standortbeschreibung",
-        "old": "Zeitweise öffentlich",
-        "new": "Zentrale"
-      },
-      {
-        "label": "Beschreibung",
-        "old": null,
-        "new": "Beim Sicherheitsdienst"
-      },
-      {
-        "label": "Stockwerk",
-        "old": null,
-        "new": "0"
-      },
-      {
-        "label": "Innenbereich",
-        "old": null,
-        "new": "yes"
+        "old": "07:00- 07:00",
+        "new": "24/7"
       }
     ],
-    "detected_at": "2026-11-10T15:50:25.606450+00:00"
+    "detected_at": "2026-11-10T19:50:09.433975+00:00"
+  },
+  {
+    "key": "node/14364983201",
+    "name": "Intern oder als Zubringer-AED",
+    "has_name": false,
+    "detail": "Zentrale",
+    "address": null,
+    "lon": 7.0615214,
+    "lat": 46.9882339,
+    "changes": [
+      {
+        "label": "Zugang",
+        "old": "permissive",
+        "new": "private"
+      },
+      {
+        "label": "Öffnungszeiten",
+        "old": "07:00-07:00",
+        "new": "24/7"
+      }
+    ],
+    "detected_at": "2026-11-10T19:50:09.433975+00:00"
+  },
+  {
+    "key": "node/14364993601",
+    "name": "Mitarbeiter JVA",
+    "has_name": false,
+    "detail": "Zebtrale",
+    "address": null,
+    "lon": 7.0603815,
+    "lat": 46.9867373,
+    "changes": [
+      {
+        "label": "Zugang",
+        "old": "permissive",
+        "new": "private"
+      },
+      {
+        "label": "Öffnungszeiten",
+        "old": "07:00-07:00",
+        "new": "24/7"
+      }
+    ],
+    "detected_at": "2026-11-10T19:50:09.433975+00:00"
   }
 ]
