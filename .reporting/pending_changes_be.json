@@ -42,5 +42,52 @@
       }
     ],
     "detected_at": "2026-11-09T19:50:06.149319+00:00"
+  },
+  {
+    "key": "node/6636838630",
+    "name": "JVA Zentrale",
+    "has_name": false,
+    "detail": "Zentrale",
+    "address": "Lindenhof, 3236 Gampelen",
+    "lon": 7.0591636,
+    "lat": 46.9878541,
+    "changes": [
+      {
+        "label": "Standort",
+        "old": "46.988890,7.059109",
+        "new": "46.987854,7.059164"
+      },
+      {
+        "label": "Telefon",
+        "old": "+41 31 635 65 86",
+        "new": "+41 31 635 65 11"
+      },
+      {
+        "label": "Öffnungszeiten",
+        "old": null,
+        "new": "07:00- 07:00"
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": "Zeitweise öffentlich",
+        "new": "Zentrale"
+      },
+      {
+        "label": "Beschreibung",
+        "old": null,
+        "new": "Beim Sicherheitsdienst"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-11-10T15:50:25.606450+00:00"
   }
 ]
