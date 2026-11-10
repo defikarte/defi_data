@@ -19888,6 +19888,32 @@
       47.413238
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14364927703",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Waffenplatzstrasse 64, 8002 Zürich",
+    "description": "Im Eingangsbereich / Mo-Fr Geschlossen von 12:00-13:00, Mo-Do Geöffnet bis 17:00",
+    "email": "mail@budliger.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 8:00-16:30",
+    "operator": "Budliger Treuhand AG",
+    "phone": "+41 44 289 45 45",
+    "source": "aed-source",
+    "id": "node/14364927703"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5267007,
+      47.357594
+    ]
+  }
 }
 ]
 }
