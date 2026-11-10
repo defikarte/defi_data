@@ -108,5 +108,54 @@
       }
     ],
     "detected_at": "2026-11-10T19:50:09.433975+00:00"
+  },
+  {
+    "key": "node/6636906409",
+    "name": "Gemeinde Aarberg",
+    "has_name": false,
+    "detail": "im Gang des Erdgeschoss",
+    "address": "Stadtplatz 46, 3270 Aarberg",
+    "lon": 7.2754832,
+    "lat": 47.0442454,
+    "changes": [
+      {
+        "label": "Standortbeschreibung",
+        "old": "wärend Öffnungszeiten der Gemeindeverwaltung. AED befindet sich im Gang des Erdgeschoss.",
+        "new": "im Gang des Erdgeschoss"
+      },
+      {
+        "label": "Beschreibung",
+        "old": null,
+        "new": "wärend Öffnungszeiten der Gemeindeverwaltung"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-11-10T23:49:33.640321+00:00"
+  },
+  {
+    "key": "node/6636906411",
+    "name": "Hotel Restaurant Krone",
+    "has_name": false,
+    "detail": "Eingang",
+    "address": "Stadtplatz 29, 3270 Aarberg",
+    "lon": 7.2760076,
+    "lat": 47.0440267,
+    "changes": [
+      {
+        "label": "Zugang",
+        "old": "yes",
+        "new": null
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": "Windfang Eingang Restaurant",
+        "new": "Eingang"
+      }
+    ],
+    "detected_at": "2026-11-10T23:49:33.640321+00:00"
   }
 ]
