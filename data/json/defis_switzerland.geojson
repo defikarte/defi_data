@@ -387944,6 +387944,26 @@
       47.0284209
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14365517801",
+  "properties": {
+    "defibrillator:location": "Camping Restaurant Jägerhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14365517801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8101867,
+      46.9616552
+    ]
+  }
 }
 ]
 }
