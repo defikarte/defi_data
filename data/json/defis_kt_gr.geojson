@@ -4839,20 +4839,23 @@
   "id": "node/9277827317",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Rathaushalle, Aufgang Cafeteria",
+    "defibrillator:location": "Stadtverwaltung, Poststrasse 33, Chur, Rathaushalle 1.OG (beim Durchgang Verwaltung)",
     "description": "Nur während Öffnungszeiten zugänglich",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "operator": "Stadt Chur",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9277827317"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5325057,
-      46.849061
+      9.5325055,
+      46.8490609
     ]
   }
 },
