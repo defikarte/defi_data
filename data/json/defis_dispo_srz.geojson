@@ -106379,6 +106379,30 @@
       47.357594
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14364998513",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus, neben dem Eingang beim Veloständer",
+    "email": "sicherheit.gesellschaft@hittnau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Hittnau",
+    "phone": "+41 43 288 66 66",
+    "id": "node/14364998513"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8248406,
+      47.3659131
+    ]
+  }
 }
 ]
 }
