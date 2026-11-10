@@ -10191,6 +10191,34 @@
 },
 {
   "type": "Feature",
+  "id": "node/6636838630",
+  "properties": {
+    "access": "private",
+    "addr:city": "Gampelen",
+    "addr:postcode": "3236",
+    "addr:street": "Lindenhof",
+    "defibrillator:location": "Zentrale",
+    "description": "Beim Sicherheitsdienst",
+    "email": "jva.witzwil@be.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "JVA Zentrale",
+    "phone": "+41 31 635 65 11",
+    "id": "node/6636838630"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0591637,
+      46.9878543
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/6636838631",
   "properties": {
     "access": "yes",
@@ -164861,6 +164889,56 @@
 },
 {
   "type": "Feature",
+  "id": "node/14364983201",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Zentrale",
+    "description": "Beim Sicherheitsdienst",
+    "email": "jva.witzwil@be.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Intern oder als Zubringer-AED",
+    "phone": "+41 31 635 65 11",
+    "id": "node/14364983201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0615214,
+      46.9882339
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14364993601",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Zebtrale",
+    "description": "Beim Sicherheitsdienst",
+    "email": "jva.witzwil@be.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Mitarbeiter JVA",
+    "phone": "+41 31 635 65 11",
+    "id": "node/14364993601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0603815,
+      46.9867373
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/14364998513",
   "properties": {
     "access": "yes",
@@ -164880,6 +164958,52 @@
     "coordinates": [
       8.8248406,
       47.3659131
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14365429201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang bei Schulhaus Buchen",
+    "email": "brigitte.kropf@spitalstsag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Samariter Linke Zulg",
+    "phone": "+41 79 751 96 44",
+    "wikimedia_commons": "File:Defi_Horrenbach.jpg",
+    "id": "node/14365429201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6989731,
+      46.7795731
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14365451201",
+  "properties": {
+    "defibrillator:location": "Schulhaus Mattstetten, in der Eingangsschleuse",
+    "description": "Die erste Tür ist nicht verschlossen, Defi erreichbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14365451201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5141218,
+      47.0284209
     ]
   }
 }

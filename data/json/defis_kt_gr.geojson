@@ -17695,22 +17695,6 @@
       46.8470629
     ]
   }
-},
-{
-  "type": "Feature",
-  "id": "node/14364939596",
-  "properties": {
-    "emergency": "defibrillator",
-    "indoor": "no",
-    "id": "node/14364939596"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.3616764,
-      46.8282207
-    ]
-  }
 }
 ]
 }
