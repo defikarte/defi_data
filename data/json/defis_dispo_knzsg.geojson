@@ -38283,6 +38283,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "id": "node/13999943001"
   },
   "geometry": {
