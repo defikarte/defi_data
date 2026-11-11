@@ -42834,6 +42834,7 @@
   "id": "node/8190623283",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-11",
     "defibrillator:location": "RAA-E-400 / Eingangshalle bei Cafeteria, Lift",
     "description": "während Gebäudeöffnungszeiten (tagsüber) verfügbar",
     "emergency": "defibrillator",
