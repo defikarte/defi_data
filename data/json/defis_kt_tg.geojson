@@ -5991,19 +5991,21 @@
   "id": "node/10240184805",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "beim Eingang, draussen montiert",
+    "defibrillator:location": "Eingang Volg / Aussenbereich",
+    "description": "Im Eingangsbereich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Dorfmarkt VITAplus",
+    "operator": "Volg Wuppenau / Gemeinde",
     "phone": "+41 71 944 23 30",
     "id": "node/10240184805"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.10863,
-      47.49893
+      9.1086088,
+      47.4988897
     ]
   }
 },
