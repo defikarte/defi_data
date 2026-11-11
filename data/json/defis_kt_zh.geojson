@@ -82787,7 +82787,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Scheune, Erlenstrasse 20, 8335 Hittnau",
-    "description": "rechte Hausfassade, rechts neben Stromkasten",
+    "description": "rechte Hausfassade, rechts neben dem grauen Stromkasten",
     "email": "sicherheit.gesellschaft@hittnau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -82801,8 +82801,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8161192,
-      47.3765154
+      8.8161179,
+      47.376516
     ]
   }
 },

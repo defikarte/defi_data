@@ -222945,6 +222945,29 @@
       47.665268
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14367220801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Bodyfeet AG",
+    "email": "mail@bodyfeet.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "phone": "+41 33 225 44 22",
+    "id": "node/14367220801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6267869,
+      46.7573875
+    ]
+  }
 }
 ]
 }
