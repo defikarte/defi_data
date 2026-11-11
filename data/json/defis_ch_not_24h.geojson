@@ -68445,7 +68445,7 @@
   "type": "Feature",
   "id": "node/9277827317",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Stadtverwaltung, Poststrasse 33, Chur, Rathaushalle 1.OG (beim Durchgang Verwaltung)",
     "description": "Nur während Öffnungszeiten zugänglich",
     "email": "mirco.keller@chur.ch",
@@ -68519,21 +68519,24 @@
   "type": "Feature",
   "id": "node/9277892417",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Turn- und Sportanlage, Eingang Foyer",
+    "access": "permissive",
+    "defibrillator:location": "Turn- und Sportanlage GBC, Eingang Foyer",
     "description": "Nur während Öffnungszeiten zugänglich",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Gewerbliche Berufsschule Chur",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9277892417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.523446,
-      46.8563197
+      9.5228049,
+      46.8566636
     ]
   }
 },
@@ -68541,21 +68544,24 @@
   "type": "Feature",
   "id": "node/9277898117",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Eingangsbereich GBC, vor dem Sekretariat",
     "description": "Nur während Öffnungszeiten zugänglich",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "no",
+    "indoor": "yes",
     "level": "0",
-    "operator": "Gewerbliche Berufsschule Chur",
+    "opening_hours": "Mo-Fr 07:30-12:00, 13:00-17:00",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9277898117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5243693,
-      46.8560122
+      9.5240816,
+      46.8554957
     ]
   }
 },
@@ -75936,21 +75942,23 @@
   "type": "Feature",
   "id": "node/9505534750",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Im Gebäude der Kasse für das Quader Eisfeld",
     "description": "Von Ende November bis Ende Februar! Während den Öffnungszeiten des Eisfelds",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Stadt Chur",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9505534750"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5345877,
-      46.8534951
+      9.5345879,
+      46.853495
     ]
   }
 },
@@ -75958,14 +75966,16 @@
   "type": "Feature",
   "id": "node/9505534751",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Im Gebäude an der Kasse der Badi Sand",
-    "description": "Von Anfangs Mais bis Ende August!",
+    "description": "Von Anfangs Mai bis Ende August!",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Stadt Chur",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9505534751"
   },
   "geometry": {
