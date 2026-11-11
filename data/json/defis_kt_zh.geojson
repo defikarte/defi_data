@@ -163,19 +163,25 @@
   "type": "Feature",
   "id": "node/2978025989",
   "properties": {
+    "access": "yes",
     "addr:city": "Andelfingen",
     "addr:housenumber": "33",
     "addr:postcode": "8450",
     "addr:street": "Landstrasse",
     "check_date:opening_hours": "2023-11-07",
+    "defibrillator:location": "In die physio sport ag",
+    "description": "Im Spiegelschrank beim Eingang links um die Ecke. Tür mit Kleber beschriftet",
+    "email": "info@physiosport-ag.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "fitness": "exercise",
     "healthcare": "physiotherapist",
-    "indoor": "no",
+    "indoor": "yes",
+    "level": "2",
     "name": "physio sport ag",
     "office": "therapist",
     "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-13:00",
+    "operator": "Physio sport ag",
     "phone": "+41 52 317 14 22",
     "website": "https://www.physiosport-ag.ch/",
     "wheelchair": "yes",
@@ -184,8 +190,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.678884,
-      47.5926408
+      8.6788841,
+      47.5926407
     ]
   }
 },

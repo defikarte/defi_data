@@ -2959,21 +2959,23 @@
   "id": "node/11886219969",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Turnhalle Recken Foyer",
-    "description": "Rechts nach dem Eingang ins Foyer der Turnhalle",
+    "defibrillator:location": "Schulhaus Lamm Velounterstand",
+    "description": "Rechte Seite Foyereingang Lamm am Velounterstand",
+    "email": "bauverwaltung@thayngen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-18:00",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
     "id": "node/11886219969"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7115007,
-      47.7488423
+      8.7108305,
+      47.7487888
     ]
   }
 },
