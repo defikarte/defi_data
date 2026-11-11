@@ -82729,6 +82729,31 @@
       47.3659131
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14366694901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im UG in die physio Sport ab im Spiegelschrank neben der eingang",
+    "description": "Im Spiegelschrank links neben eingang",
+    "email": "dachsen@physiosport-ag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00 - 21:00; Sa 9:00 - 13:00",
+    "operator": "Physio Sport ag",
+    "phone": "+41 52 533 34 47",
+    "id": "node/14366694901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.616267,
+      47.665268
+    ]
+  }
 }
 ]
 }

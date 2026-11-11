@@ -2258,20 +2258,24 @@
   "id": "node/10724653594",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Im Eingangsbereich der Turnhalle bei der Treppe an der Wand in einem Koffer",
+    "defibrillator:location": "Zentralschulhaus Hofen",
+    "description": "Vor EIngang Aula/KIGA an der Aussenwand",
+    "email": "bauverwaltung@thayngen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-18:00",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
     "wheelchair": "limited",
     "id": "node/10724653594"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6713642,
-      47.7792345
+      8.671062,
+      47.7792281
     ]
   }
 },
@@ -3257,20 +3261,24 @@
   "id": "node/12901356101",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "an der Aussenwand vom ehem. Schlachthüüsli, beim Dorfbrunnen",
+    "defibrillator:location": "Altes Schulhaus Barzheim",
+    "description": "an der Aussenwand, beim Dorfbrunnen",
+    "email": "bauverwaltung@thayngen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "weiss es nicht",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12901356101"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.721322,
-      47.7605677
+      8.7213501,
+      47.7605977
     ]
   }
 },
@@ -4121,21 +4129,23 @@
   "id": "node/14233144301",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "bibliotheke thayngen",
-    "description": "vor unterem eingang",
+    "defibrillator:location": "Bibliothek Thayngen",
+    "description": "vor unterem Eingang",
+    "email": "bauverwaltun@thayngen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "bibliotheke gemeinde",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
     "id": "node/14233144301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7073971,
-      47.7474873
+      8.7073973,
+      47.7474872
     ]
   }
 },
@@ -4190,20 +4200,23 @@
   "id": "node/14251862001",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "vor Turnhalle Silberberg",
+    "defibrillator:location": "Turnhalle Silberberg",
     "description": "vor Eingang der Turnhalle, draussen",
+    "email": "bauverwaltung@thayngen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
     "id": "node/14251862001"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6999508,
-      47.7492496
+      8.6999025,
+      47.7493093
     ]
   }
 },
@@ -4277,6 +4290,56 @@
     "coordinates": [
       8.651634,
       47.710839
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366688001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Hammen Ost, Turnhalle",
+    "description": "Turnhalle bei Musikranlage",
+    "email": "bauverwaltung@thayngen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
+    "id": "node/14366688001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7118976,
+      47.7494738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366694701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sporthalle Stockwiesen",
+    "description": "Erste Hilfe Kasten EG in der Turnhalle",
+    "email": "bauverwaltung@thayngen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-15:00",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
+    "id": "node/14366694701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7081818,
+      47.7432279
     ]
   }
 }

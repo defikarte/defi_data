@@ -111380,28 +111380,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10724653594",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Im Eingangsbereich der Turnhalle bei der Treppe an der Wand in einem Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 08:00-18:00",
-    "wheelchair": "limited",
-    "id": "node/10724653594"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6713642,
-      47.7792345
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10725587544",
   "properties": {
     "defibrillator:location": "In der Sprechzimmer+ Praxis, gegen Strasse raus.",
@@ -222912,6 +222890,81 @@
     "coordinates": [
       8.5267007,
       47.357594
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366688001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus Hammen Ost, Turnhalle",
+    "description": "Turnhalle bei Musikranlage",
+    "email": "bauverwaltung@thayngen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
+    "id": "node/14366688001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7118976,
+      47.7494738
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366694701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Sporthalle Stockwiesen",
+    "description": "Erste Hilfe Kasten EG in der Turnhalle",
+    "email": "bauverwaltung@thayngen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-15:00",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
+    "id": "node/14366694701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7081818,
+      47.7432279
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366694901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im UG in die physio Sport ab im Spiegelschrank neben der eingang",
+    "description": "Im Spiegelschrank links neben eingang",
+    "email": "dachsen@physiosport-ag.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00 - 21:00; Sa 9:00 - 13:00",
+    "operator": "Physio Sport ag",
+    "phone": "+41 52 533 34 47",
+    "id": "node/14366694901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.616267,
+      47.665268
     ]
   }
 }

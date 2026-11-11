@@ -91880,6 +91880,32 @@
 },
 {
   "type": "Feature",
+  "id": "node/10724653594",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zentralschulhaus Hofen",
+    "description": "Vor EIngang Aula/KIGA an der Aussenwand",
+    "email": "bauverwaltung@thayngen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
+    "wheelchair": "limited",
+    "id": "node/10724653594"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.671062,
+      47.7792281
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10725468706",
   "properties": {
     "access": "yes",
@@ -139838,20 +139864,24 @@
   "id": "node/12901356101",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "an der Aussenwand vom ehem. Schlachthüüsli, beim Dorfbrunnen",
+    "defibrillator:location": "Altes Schulhaus Barzheim",
+    "description": "an der Aussenwand, beim Dorfbrunnen",
+    "email": "bauverwaltung@thayngen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "weiss es nicht",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12901356101"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.721322,
-      47.7605677
+      8.7213501,
+      47.7605977
     ]
   }
 },
@@ -163273,21 +163303,23 @@
   "id": "node/14233144301",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "bibliotheke thayngen",
-    "description": "vor unterem eingang",
+    "defibrillator:location": "Bibliothek Thayngen",
+    "description": "vor unterem Eingang",
+    "email": "bauverwaltun@thayngen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "bibliotheke gemeinde",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
     "id": "node/14233144301"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7073971,
-      47.7474873
+      8.7073973,
+      47.7474872
     ]
   }
 },
@@ -163457,20 +163489,23 @@
   "id": "node/14251862001",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "vor Turnhalle Silberberg",
+    "defibrillator:location": "Turnhalle Silberberg",
     "description": "vor Eingang der Turnhalle, draussen",
+    "email": "bauverwaltung@thayngen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Thayngen",
+    "phone": "+41 52 645 04 00",
     "id": "node/14251862001"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6999508,
-      47.7492496
+      8.6999025,
+      47.7493093
     ]
   }
 },
