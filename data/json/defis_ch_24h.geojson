@@ -23026,24 +23026,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7559787508",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/7559787508"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8221234,
-      47.2259438
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7559787511",
   "properties": {
     "access": "yes",
@@ -23065,7 +23047,8 @@
   "type": "Feature",
   "id": "node/7559787513",
   "properties": {
-    "access": "yes",
+    "access": "private",
+    "defibrillator:location": "Feuerwehr",
     "description": "Tel 118 aufbieten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -153735,11 +153718,13 @@
   "type": "Feature",
   "id": "node/13713261801",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Stiftung Alterswohnungen Jona",
     "description": "Ausserhalb des Gebäudes Porthofstrasse 10",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Stiftung Alterswohnungen Jona",
     "phone": "+4155511 42 60",
@@ -153748,7 +153733,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8399112,
+      8.8399111,
       47.2283751
     ]
   }
@@ -153757,6 +153742,7 @@
   "type": "Feature",
   "id": "node/13713267801",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Stiftung Alterswohnungen Jona",
     "description": "Ausserhalb Gebäude Porthofstrasse 8a",
     "emergency": "defibrillator",
@@ -153770,8 +153756,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8394524,
-      47.2283471
+      8.8391412,
+      47.2285757
     ]
   }
 },
@@ -156920,11 +156906,12 @@
   "type": "Feature",
   "id": "node/13840967002",
   "properties": {
-    "defibrillator:location": "moxyhotel",
-    "description": "rechts neben dem Hoteleingang zwischen Eingang und Lift",
+    "access": "yes",
+    "defibrillator:location": "Moxy: Rechts neben dem Hoteleingang zwischen Eingang und Lift",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "moxyhotel",
     "id": "node/13840967002"
@@ -156932,8 +156919,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8250628,
-      47.2276965
+      8.8252639,
+      47.2276701
     ]
   }
 },
@@ -165022,6 +165009,31 @@
     "coordinates": [
       7.2735648,
       47.0437747
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366253601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stade de Football",
+    "description": "Armoire avec appel au 144",
+    "email": "administration@remaufens.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Municipalité",
+    "phone": "+41 21 948 80 84",
+    "id": "node/14366253601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8751741,
+      46.5242115
     ]
   }
 }

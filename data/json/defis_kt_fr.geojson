@@ -8980,6 +8980,31 @@
       46.8045872
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14366253601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Stade de Football",
+    "description": "Armoire avec appel au 144",
+    "email": "administration@remaufens.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Municipalité",
+    "phone": "+41 21 948 80 84",
+    "id": "node/14366253601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.8751741,
+      46.5242115
+    ]
+  }
 }
 ]
 }

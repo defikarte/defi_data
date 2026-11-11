@@ -18939,7 +18939,7 @@
   "type": "Feature",
   "id": "node/7559742684",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Alterswohnungen Porthof",
     "description": "nicht zugänglich, eingeschlossen",
     "emergency": "defibrillator",
@@ -187939,17 +187939,19 @@
   "id": "node/12905506901",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "in der AMAG im Empfangsraum hinten links an der Wand",
+    "defibrillator:location": "AMAG Showroom: Im Empfangsraum hinten links an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-18:30; Sa 09:00-16:00",
     "operator": "AMAG",
     "id": "node/12905506901"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8474219,
+      8.847422,
       47.2304031
     ]
   }
