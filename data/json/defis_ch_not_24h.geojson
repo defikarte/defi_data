@@ -68470,20 +68470,22 @@
   "type": "Feature",
   "id": "node/9277827318",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Hallenbad Obere Au, an der Kasse beim Schwimmbad",
     "description": "Während den Öffnungszeiten verfügbar",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Stadt Chur",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9277827318"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5059493,
+      9.5059492,
       46.8589698
     ]
   }
@@ -75909,22 +75911,24 @@
   "type": "Feature",
   "id": "node/9505534749",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eishalle, Gebäudeeingang",
+    "access": "permissive",
+    "defibrillator:location": "Rasensportstadion vor Sanitätszimmer",
     "description": "Nur während Öffnungszeiten zugänglich",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "name": "Defibrillator Eishalle",
-    "operator": "Stadt Chur",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/9505534749"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5049097,
-      46.8578989
+      9.5047945,
+      46.8571402
     ]
   }
 },
@@ -195788,20 +195792,21 @@
   "id": "node/13247379501",
   "properties": {
     "access": "permissive",
-    "defibrillator:location": "Sport- und Eventanlagen, Trainingseishalle",
+    "defibrillator:location": "Trainingseishalle vor Büro Eismeister",
+    "description": "Nur während Öffnungszeiten zugänglich",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "07:00-22:00",
-    "operator": "Stadt Chur",
-    "phone": "+41812544288",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/13247379501"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5040817,
+      9.5040818,
       46.8578646
     ]
   }
@@ -195810,21 +195815,22 @@
   "type": "Feature",
   "id": "node/13247380601",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Freibad",
+    "access": "permissive",
+    "defibrillator:location": "Freibad / Traglufthalle Badmeisterkabine",
+    "description": "Nur während Öffnungszeiten zugänglich",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "08:00-20:00",
-    "operator": "Stadt Chur",
-    "phone": "+41812544288",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/13247380601"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.5055159,
-      46.8594977
+      9.5054193,
+      46.8594803
     ]
   }
 },
@@ -222966,6 +222972,30 @@
     "coordinates": [
       7.6267869,
       46.7573875
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14367654701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Hallenbad Badmeisterkabine",
+    "description": "Während den Öffnungszeiten verfügbar",
+    "email": "mirco.keller@chur.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",
+    "phone": "+41 81 254 43 97",
+    "id": "node/14367654701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.505882,
+      46.8587983
     ]
   }
 }
