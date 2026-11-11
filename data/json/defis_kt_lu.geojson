@@ -517,20 +517,23 @@
   "type": "Feature",
   "id": "node/7611640463",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "6. OG",
+    "access": "permissive",
+    "defibrillator:location": "6. OG Treppenhaus",
+    "description": "Treppenhaus im 6. OG",
+    "email": "info@ewl-luzern.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Stadt Luzern",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "ewl energie wasser luzern",
+    "phone": "+41 800 395 395",
     "id": "node/7611640463"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3100709,
-      47.0408749
+      8.3109909,
+      47.0413026
     ]
   }
 },
@@ -538,13 +541,17 @@
   "type": "Feature",
   "id": "node/7611640464",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Zwischenstock EG/UG",
+    "access": "private",
+    "defibrillator:location": "Rapporträum UG (Gang)",
+    "description": "Ist im Gang in der Nähe der Rapporträume an der Wand montiert.",
+    "email": "info@ewl-luzern.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "-1",
     "opening_hours": "24/7",
-    "operator": "Stadt Luzern",
+    "operator": "ewl energie wasser luzern",
+    "phone": "+41 800 395 395",
     "id": "node/7611640464"
   },
   "geometry": {
@@ -7000,17 +7007,25 @@
   "type": "Feature",
   "id": "node/7637818720",
   "properties": {
-    "description": "Zwischenstock EG/UG und 6.OG",
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus EG / UG Treppe",
+    "description": "Zwischenstock EG/UG",
+    "email": "info@ewl-luzern.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Tiefbauamt / GIS",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "ewl energie wasser luzern",
+    "phone": "+41 800 395 395",
     "id": "node/7637818720"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3108725,
-      47.0414522
+      8.3110121,
+      47.0413993
     ]
   }
 },
