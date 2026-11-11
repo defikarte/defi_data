@@ -164951,7 +164951,8 @@
   "id": "node/14364998513",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Gemeindehaus, neben dem Eingang beim Veloständer",
+    "defibrillator:location": "Gemeindehaus, Jakob Stutz-Strasse 50, 8335 Hittnau",
+    "description": "neben dem Eingang beim Veloständer",
     "email": "sicherheit.gesellschaft@hittnau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -164965,8 +164966,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8248406,
-      47.3659131
+      8.8248405,
+      47.365913
     ]
   }
 },
@@ -165077,6 +165078,131 @@
     "coordinates": [
       6.8751741,
       46.5242115
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366947801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Garage Glättli, Isikerstrasse 2, 8335 Hittnau",
+    "description": "zwischen den beiden Showräumen",
+    "email": "sicherheit.gesellschaft@hittnau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Hittnau",
+    "phone": "+41 43 288 66 66",
+    "id": "node/14366947801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8222745,
+      47.3686591
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366974601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Scheune, Erlenstrasse 20, 8335 Hittnau",
+    "description": "rechte Hausfassade, rechts neben Stromkasten",
+    "email": "sicherheit.gesellschaft@hittnau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Hittnau",
+    "phone": "+41 43 288 66 66",
+    "id": "node/14366974601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8161192,
+      47.3765154
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366977601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Haselstrasse 42, 8335 Hittnau",
+    "description": "rechts neben Briefkasten und Anschlagbrett",
+    "email": "sicherheit.gesellschaft@hittnau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Hittnau",
+    "phone": "+41 43 288 66 66",
+    "id": "node/14366977601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8354881,
+      47.3793322
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14366987101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "altes Feuerwehrhaus, Loweidstrasse 10, 8335 Hittnau",
+    "description": "rechts an der Hausfassade",
+    "email": "sicherheit.gesellschaft@hittnau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Hittnau",
+    "phone": "+41 43 288 66 66",
+    "id": "node/14366987101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8429666,
+      47.3660903
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14367038701",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wetzikerstrasse 110, 8335 Hittnau",
+    "description": "an Hausfassade parallel zur Hauptstrasse",
+    "email": "sicherheit.gesellschaft@hittnau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Hittnau",
+    "phone": "+41 43 288 66 66",
+    "id": "node/14367038701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8187988,
+      47.3460294
     ]
   }
 }
