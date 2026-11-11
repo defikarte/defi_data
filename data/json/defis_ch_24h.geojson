@@ -91883,7 +91883,7 @@
   "id": "node/10724653594",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Zentralschulhaus Hofen",
+    "defibrillator:location": "71543 Wüstenrot",
     "description": "Vor EIngang Aula/KIGA an der Aussenwand",
     "email": "bauverwaltung@thayngen.ch",
     "emergency": "defibrillator",
@@ -91893,6 +91893,7 @@
     "opening_hours": "24/7",
     "operator": "Gemeinde Thayngen",
     "phone": "+41 52 645 04 00",
+    "source": "aed-source",
     "wheelchair": "limited",
     "id": "node/10724653594"
   },
