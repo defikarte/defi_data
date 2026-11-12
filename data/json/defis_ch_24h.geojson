@@ -31489,6 +31489,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/7723753875",
+  "properties": {
+    "access": "yes",
+    "contact:phone": "+41 76 422 63 76",
+    "defibrillator:location": "An der Aussenwand zwischen der Kasse und dem Kiosk, auf dem Gelände des Seebades.",
+    "description": "24/7 zugänglich",
+    "email": "marc.schmit@uzh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Flims (Dario Gauch)",
+    "id": "node/7723753875"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2951283,
+      46.8218495
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7723753876",
   "properties": {
     "access": "yes",
@@ -50723,6 +50747,29 @@
     "coordinates": [
       7.5115237,
       46.7673376
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8733394273",
+  "properties": {
+    "access": "yes",
+    "check_date": "2026-01-29",
+    "defibrillator:location": "Rechts neben Eingangstüre Ticketshop",
+    "defibrillator:location:de": "Zwischen Kasse Bergbahnen und WC.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "phone": "+41 81 927 74 00",
+    "id": "node/8733394273"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2814745,
+      46.8336837
     ]
   }
 },
@@ -77665,6 +77712,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/9858003517",
+  "properties": {
+    "access:conditional": "yes @ opening_hours",
+    "access:note": "Nur bei schönem Wetter verfügbar",
+    "defibrillator:location": "Kiosk Canovasee",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "private",
+    "phone": "+41 76 445 28 74",
+    "id": "node/9858003517"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4517022,
+      46.7465988
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9858937018",
   "properties": {
     "access": "yes",
@@ -86855,6 +86925,31 @@
     "coordinates": [
       7.2655819,
       46.8212819
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10305080509",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Restaurant Lescha, oberseitig vom Haus, neben gelbem Postbriefkasten",
+    "description": "immer verfügbar",
+    "email": "marc.schmit@uzh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Restaurant Lescha",
+    "phone": "+41816512112",
+    "id": "node/10305080509"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.404726,
+      46.7210788
     ]
   }
 },
@@ -135850,6 +135945,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/12659488901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehr Garaga;Feuerwehrlokal",
+    "description": "Aussenmontage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Klosters",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12659488901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.9194044,
+      46.8612548
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12662177390",
   "properties": {
     "access": "yes",
@@ -139029,6 +139147,29 @@
     "coordinates": [
       9.0678406,
       47.0467329
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/12854810702",
+  "properties": {
+    "defibrillator:location": "Reichenauerstrasse 16, Aussen an Gebäudewand",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Tamins",
+    "phone": "+41816411118",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12854810702"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4079179,
+      46.8276012
     ]
   }
 },
@@ -150728,6 +150869,26 @@
     "coordinates": [
       8.9380666,
       46.7343293
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13571549801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kassen Talstation Ftan",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13571549801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      10.2458976,
+      46.7948998
     ]
   }
 },

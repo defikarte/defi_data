@@ -65587,17 +65587,19 @@
     "contact:phone": "+41 76 422 63 76",
     "defibrillator:location": "An der Aussenwand zwischen der Kasse und dem Kiosk, auf dem Gelände des Seebades.",
     "description": "24/7 zugänglich",
+    "email": "marc.schmit@uzh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Flims (Dario Gauch)",
     "id": "node/7723753875"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2951288,
-      46.8218486
+      9.2951283,
+      46.8218495
     ]
   }
 },
@@ -103007,14 +103009,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "phone": "+41 81 927 74 00",
     "id": "node/8733394273"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2814744,
-      46.8336838
+      9.2814745,
+      46.8336837
     ]
   }
 },
@@ -163813,6 +163816,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "private",
     "phone": "+41 76 445 28 74",
     "id": "node/9858003517"
@@ -163820,8 +163824,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4517042,
-      46.7465986
+      9.4517022,
+      46.7465988
     ]
   }
 },
@@ -192200,10 +192204,12 @@
     "access": "yes",
     "defibrillator:location": "Restaurant Lescha, oberseitig vom Haus, neben gelbem Postbriefkasten",
     "description": "immer verfügbar",
+    "email": "marc.schmit@uzh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Restaurant Lescha",
     "phone": "+41816512112",
     "id": "node/10305080509"
@@ -192211,8 +192217,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.4047216,
-      46.7210787
+      9.404726,
+      46.7210788
     ]
   }
 },
@@ -317590,16 +317596,16 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Klosters",
-    "phone": "+41 81 423 36 00;+41814233680",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12659488901"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.9194045,
-      46.8612538
+      9.9194044,
+      46.8612548
     ]
   }
 },
@@ -325825,6 +325831,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Tamins",
     "phone": "+41816411118",
     "source": "local_knowledge, defikarte.ch",
@@ -353702,13 +353709,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13571549801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.2458972,
-      46.7948994
+      10.2458976,
+      46.7948998
     ]
   }
 },
