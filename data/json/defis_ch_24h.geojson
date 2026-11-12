@@ -54380,18 +54380,22 @@
   "id": "node/8871047011",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Piano di Peccia, garage comunali",
+    "description": "Armadietto con allarme",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "de: Bitte vor Ort prüfen. Der Ort ist gemäss Luftbild unwahrscheinlich.\nen: Please survey on site. Location looks unreasonable on aerial imagenery.",
+    "fixme": "de: Bitte vor Ort prüfen. Der Ort ist gemäss Luftbild unwahrscheinlich. en: Please survey on site. Location looks unreasonable on aerial imagenery.",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gruppo Animazione Valle di Peccia",
     "id": "node/8871047011"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6161566,
-      46.4109668
+      8.6145258,
+      46.4118397
     ]
   }
 },

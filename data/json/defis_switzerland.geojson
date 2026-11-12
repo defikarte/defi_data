@@ -110247,18 +110247,22 @@
   "id": "node/8871047011",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Piano di Peccia, garage comunali",
+    "description": "Armadietto con allarme",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "fixme": "de: Bitte vor Ort prüfen. Der Ort ist gemäss Luftbild unwahrscheinlich.\nen: Please survey on site. Location looks unreasonable on aerial imagenery.",
+    "fixme": "de: Bitte vor Ort prüfen. Der Ort ist gemäss Luftbild unwahrscheinlich. en: Please survey on site. Location looks unreasonable on aerial imagenery.",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gruppo Animazione Valle di Peccia",
     "id": "node/8871047011"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6161566,
-      46.4109668
+      8.6145258,
+      46.4118397
     ]
   }
 },
@@ -241811,15 +241815,15 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-18:30",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-20:00",
     "operator": "Schlosspark Einkaufszentrum",
     "id": "node/11071334205"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8960444,
-      47.5541394
+      8.8960437,
+      47.5541392
     ]
   }
 },
@@ -388282,6 +388286,29 @@
     "coordinates": [
       7.275499,
       47.04607
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14369899501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle",
+    "email": "info@aarberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
+    "id": "node/14369899501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.276051,
+      47.0466071
     ]
   }
 }

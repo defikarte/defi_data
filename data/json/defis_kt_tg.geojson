@@ -11650,15 +11650,15 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-18:30",
+    "opening_hours": "Mo-Fr 08:00-20:00, Sa 08:00-20:00",
     "operator": "Schlosspark Einkaufszentrum",
     "id": "node/11071334205"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8960444,
-      47.5541394
+      8.8960437,
+      47.5541392
     ]
   }
 },

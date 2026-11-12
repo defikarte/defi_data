@@ -66785,6 +66785,29 @@
       47.04607
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14369899501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle",
+    "email": "info@aarberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
+    "id": "node/14369899501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.276051,
+      47.0466071
+    ]
+  }
 }
 ]
 }
