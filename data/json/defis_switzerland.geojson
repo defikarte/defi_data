@@ -388512,6 +388512,29 @@
       47.138704
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14371083401",
+  "properties": {
+    "defibrillator:location": "Kantonales Hochbauamt Schaffhausen",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Kantonale Verwaltung Schaffhausen",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14371083401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6342775,
+      47.6954181
+    ]
+  }
 }
 ]
 }
