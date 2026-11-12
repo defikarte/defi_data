@@ -29566,24 +29566,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819000",
-  "properties": {
-    "description": "Samaritermagazin",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Samaritermagazin Werkhof",
-    "id": "node/7637819000"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4146242,
-      46.984376
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819001",
   "properties": {
     "access": "permissive",

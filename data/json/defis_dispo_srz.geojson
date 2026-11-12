@@ -106649,6 +106649,116 @@
       47.5586293
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14370438301",
+  "properties": {
+    "defibrillator:location": "Freistehend bei Wanderwegweisern",
+    "email": "info@oberaegeri.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
+    "phone": "+41 41 723 80 00",
+    "id": "node/14370438301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6000348,
+      47.1463565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14370444401",
+  "properties": {
+    "defibrillator:location": "freistehend, bei Bushaltestelle",
+    "email": "info@oberaegeri.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
+    "phone": "+41 41 723 80 00",
+    "id": "node/14370444401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.600603,
+      47.1374406
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14370446801",
+  "properties": {
+    "defibrillator:location": "bei Entsorgungsstelle",
+    "email": "info@oberaegeri.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
+    "phone": "+41 41 723 80 00",
+    "id": "node/14370446801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6112352,
+      47.1394902
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14370450001",
+  "properties": {
+    "defibrillator:location": "freistehend, bei Sitzbank",
+    "email": "info@oberaegeri.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
+    "phone": "+41 41 723 80 00",
+    "id": "node/14370450001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6331929,
+      47.1322782
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14370452701",
+  "properties": {
+    "defibrillator:location": "am Gebäude",
+    "email": "info@oberaegeri.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Oberägeri",
+    "phone": "+41 41 723 80 00",
+    "id": "node/14370452701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6376319,
+      47.138704
+    ]
+  }
 }
 ]
 }

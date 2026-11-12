@@ -1055,16 +1055,24 @@
   "type": "Feature",
   "id": "node/7637819000",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus beim Holzschuppen",
     "description": "Samaritermagazin",
+    "email": "paul.mathis@samariterverein-ennetbuergen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
     "name": "Samaritermagazin Werkhof",
+    "opening_hours": "24/7",
+    "operator": "Samariterverein Ennetbürgen",
+    "phone": "+41 41 620 74 02",
     "id": "node/7637819000"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4146242,
+      8.4146243,
       46.984376
     ]
   }
