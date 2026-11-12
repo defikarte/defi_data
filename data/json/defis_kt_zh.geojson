@@ -33504,6 +33504,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 06:30-17:30",
     "operator": "Carl Meier Sohn AG, Roger Meier & Selina Wirth",
     "phone": "+41443683333",
@@ -33512,8 +33513,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6245412,
-      47.4373552
+      8.6244473,
+      47.437279
     ]
   }
 },
