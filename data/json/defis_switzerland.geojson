@@ -21423,12 +21423,14 @@
     "addr:postcode": "3270",
     "addr:street": "Stadtplatz",
     "defibrillator:location": "im Gang des Erdgeschoss",
-    "description": "wärend Öffnungszeiten der Gemeindeverwaltung",
+    "description": "Während den Öffnungszeiten der Gemeindeverwaltung",
+    "email": "info@aarberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Gemeinde Aarberg",
-    "phone": "+41 32 391 25 25",
+    "phone": "+41 32 391 25 20",
     "id": "node/6636906409"
   },
   "geometry": {
@@ -43154,19 +43156,23 @@
   "id": "node/7569054302",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ausserhalb des Gemeindegebäudes",
+    "defibrillator:location": "Rathaus Mellingen, Eingangsbereich linke Seite",
+    "description": "Gerät: Zoll AED3",
+    "email": "stadtkanzlei@mellingen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Mellingen / Samariterverein Mellingen",
+    "operator": "Stadt Mellingen / Samariterverein Mellingen",
+    "phone": "+41 56 481 88 20",
     "id": "node/7569054302"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2743867,
-      47.4182085
+      8.2744002,
+      47.4182301
     ]
   }
 },
@@ -101664,18 +101670,19 @@
     "addr:housenumber": "4",
     "addr:postcode": "3014",
     "addr:street": "Gardistrasse",
-    "defibrillator:location": "an der Reception",
+    "defibrillator:location": "Links von der Reception, befestigt an Geschirrrückgabe",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "24/7",
     "operator": "Hotel Moxy Bern Expo",
     "id": "node/8728490404"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4646719,
-      46.9681697
+      7.4646685,
+      46.968361
     ]
   }
 },
@@ -103425,12 +103432,14 @@
     "addr:postcode": "3270",
     "addr:street": "Bürenstrasse",
     "defibrillator:location": "Eingang Turnhalle",
+    "email": "info@aarberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Aarberg",
-    "phone": "+41 32 391 25 25",
+    "phone": "+41 32 391 25 20",
     "id": "node/8734513572"
   },
   "geometry": {
@@ -203752,13 +203761,11 @@
   "type": "Feature",
   "id": "node/10734345505",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Eingang Empfang",
-    "description": "während den Öffnungszeiten erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-17:15",
     "operator": "Küchler Technik AG",
     "phone": "+41 41 329 20 20",
     "source": "local_knowledge, defikarte.ch",
@@ -268196,8 +268203,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1812193,
-      47.4685093
+      8.1823837,
+      47.4679291
     ]
   }
 },
@@ -298250,17 +298257,23 @@
   "type": "Feature",
   "id": "node/12289768815",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbereich Hallenbad, linke Seite an der Wand",
+    "email": "stadtkanzlei@mellingen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 12:00- 20:00",
+    "operator": "Stadt Mellingen",
+    "phone": "+41 56 481 88 20",
     "id": "node/12289768815"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2659583,
-      47.4163924
+      8.267342,
+      47.416309
     ]
   }
 },
@@ -388198,6 +388211,77 @@
     "coordinates": [
       7.6670759,
       46.6825028
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14369645101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Turnhalle Schulanlage Bahnhofstrasse 22, Eingangsbereich, linke Seite",
+    "description": "Gerät: Schiller fredeasy",
+    "email": "stadtkanzlei@mellingen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Stadt Mellingen",
+    "phone": "+41 56 481 88 20",
+    "id": "node/14369645101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2741455,
+      47.4218434
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14369646101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Aarfithalle, UG im Foyer, neben Halleneingang 2",
+    "email": "info@aarberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
+    "id": "node/14369646101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2779501,
+      47.0516312
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14369678001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus, bei Windfang linke Seite",
+    "email": "info@aarberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
+    "id": "node/14369678001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.275499,
+      47.04607
     ]
   }
 }

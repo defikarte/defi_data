@@ -23732,19 +23732,23 @@
   "id": "node/7569054302",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Ausserhalb des Gemeindegebäudes",
+    "defibrillator:location": "Rathaus Mellingen, Eingangsbereich linke Seite",
+    "description": "Gerät: Zoll AED3",
+    "email": "stadtkanzlei@mellingen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Mellingen / Samariterverein Mellingen",
+    "operator": "Stadt Mellingen / Samariterverein Mellingen",
+    "phone": "+41 56 481 88 20",
     "id": "node/7569054302"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2743867,
-      47.4182085
+      8.2744002,
+      47.4182301
     ]
   }
 },
@@ -49762,6 +49766,31 @@
 },
 {
   "type": "Feature",
+  "id": "node/8728490404",
+  "properties": {
+    "access": "permissive",
+    "addr:city": "Bern",
+    "addr:housenumber": "4",
+    "addr:postcode": "3014",
+    "addr:street": "Gardistrasse",
+    "defibrillator:location": "Links von der Reception, befestigt an Geschirrrückgabe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Hotel Moxy Bern Expo",
+    "id": "node/8728490404"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4646685,
+      46.968361
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8728561337",
   "properties": {
     "access": "yes",
@@ -51058,12 +51087,14 @@
     "addr:postcode": "3270",
     "addr:street": "Bürenstrasse",
     "defibrillator:location": "Eingang Turnhalle",
+    "email": "info@aarberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Aarberg",
-    "phone": "+41 32 391 25 25",
+    "phone": "+41 32 391 25 20",
     "id": "node/8734513572"
   },
   "geometry": {
@@ -126913,24 +126944,6 @@
     "coordinates": [
       8.4238167,
       46.9778329
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/12289768815",
-  "properties": {
-    "access": "yes",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "id": "node/12289768815"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2659583,
-      47.4163924
     ]
   }
 },
