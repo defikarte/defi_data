@@ -1073,17 +1073,25 @@
   "type": "Feature",
   "id": "node/7637819001",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus 5",
     "description": "Im Foyer Schulhaus 5",
+    "email": "info@schule-ennetbuergen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Schulhaus",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Schule Ennetbürgen",
+    "phone": "+41 41 624 98 98",
     "id": "node/7637819001"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.41279,
-      46.983
+      46.9830001
     ]
   }
 },

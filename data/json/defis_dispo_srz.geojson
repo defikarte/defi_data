@@ -106627,6 +106627,28 @@
       47.3460294
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14370354201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Mehrzweckhalle Primarschule Dägerlen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "off",
+    "operator": "Primarschule Dägerlen",
+    "id": "node/14370354201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7300088,
+      47.5586293
+    ]
+  }
 }
 ]
 }
