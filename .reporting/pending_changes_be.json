@@ -201,5 +201,22 @@
       }
     ],
     "detected_at": "2026-11-12T09:50:34.915505+00:00"
+  },
+  {
+    "key": "node/13316734301",
+    "name": "Zentrum Paul Klee",
+    "has_name": false,
+    "detail": "Haupteingang Zentrum Paul Klee, vis a vis Kasse",
+    "address": null,
+    "lon": 7.4741794,
+    "lat": 46.949032,
+    "changes": [
+      {
+        "label": "Öffnungszeiten",
+        "old": null,
+        "new": "Tu-Su 10:00-17:00"
+      }
+    ],
+    "detected_at": "2026-11-12T13:50:26.239267+00:00"
   }
 ]
