@@ -66715,6 +66715,25 @@
       46.7573875
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14369550401",
+  "properties": {
+    "defibrillator:location": "Primarschule Spiezwiler",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "id": "node/14369550401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6670759,
+      46.6825028
+    ]
+  }
 }
 ]
 }
