@@ -119,22 +119,22 @@
     "lat": 47.0442454,
     "changes": [
       {
-        "label": "Standortbeschreibung",
-        "old": "wärend Öffnungszeiten der Gemeindeverwaltung. AED befindet sich im Gang des Erdgeschoss.",
-        "new": "im Gang des Erdgeschoss"
+        "label": "Telefon",
+        "old": "+41 32 391 25 25",
+        "new": "+41 32 391 25 20"
       },
       {
         "label": "Beschreibung",
-        "old": null,
-        "new": "wärend Öffnungszeiten der Gemeindeverwaltung"
+        "old": "wärend Öffnungszeiten der Gemeindeverwaltung",
+        "new": "Während den Öffnungszeiten der Gemeindeverwaltung"
       },
       {
-        "label": "Innenbereich",
+        "label": "Stockwerk",
         "old": null,
-        "new": "yes"
+        "new": "0"
       }
     ],
-    "detected_at": "2026-11-10T23:49:33.640321+00:00"
+    "detected_at": "2026-11-12T09:50:34.915505+00:00"
   },
   {
     "key": "node/6636906411",
@@ -157,5 +157,49 @@
       }
     ],
     "detected_at": "2026-11-10T23:49:33.640321+00:00"
+  },
+  {
+    "key": "node/8728490404",
+    "name": "Hotel Moxy Bern Expo",
+    "has_name": false,
+    "detail": "Links von der Reception, befestigt an Geschirrrückgabe",
+    "address": "Gardistrasse 4, 3014 Bern",
+    "lon": 7.4646685,
+    "lat": 46.968361,
+    "changes": [
+      {
+        "label": "Öffnungszeiten",
+        "old": null,
+        "new": "24/7"
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": "an der Reception",
+        "new": "Links von der Reception, befestigt an Geschirrrückgabe"
+      }
+    ],
+    "detected_at": "2026-11-12T09:50:34.915505+00:00"
+  },
+  {
+    "key": "node/8734513572",
+    "name": "Einwohnergemeinde Aarberg",
+    "has_name": false,
+    "detail": "Eingang Turnhalle",
+    "address": "Bürenstrasse 12, 3270 Aarberg",
+    "lon": 7.277721,
+    "lat": 47.0485302,
+    "changes": [
+      {
+        "label": "Telefon",
+        "old": "+41 32 391 25 25",
+        "new": "+41 32 391 25 20"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "no"
+      }
+    ],
+    "detected_at": "2026-11-12T09:50:34.915505+00:00"
   }
 ]
