@@ -302015,11 +302015,12 @@
     "access": "yes",
     "addr:housenumber": "16",
     "addr:street": "Lerzenstrasse",
-    "defibrillator:location": "Eingangsbereich Links 4.OG",
+    "defibrillator:location": "Eingangsbereich Links 2.OG",
+    "email": "daniel.bollier@lifetec.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "4",
+    "level": "2",
     "name": "Boesch Sanitäringenieure AG",
     "opening_hours": "Mo-Fr 08:00-11:45, 13:00-17:00",
     "operator": "Lifetec AG",
@@ -302031,8 +302032,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3984671,
-      47.4196524
+      8.3994018,
+      47.417983
     ]
   }
 },
