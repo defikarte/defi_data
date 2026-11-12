@@ -280,7 +280,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,addr:city,addr:housenumber,add
 10231044979,node,47.4528614,9.0361865,yes,,,,,,,,,Beim Eingang zur ehemaligen Turnhalle,,,,defibrillator,144,,node/10231044979,,,no,,,,,,,24/7,Primarschule Wilen,+41 71 929 36 70,,,,,,,
 10238816242,node,47.4522697,9.0363997,yes,,,,,,,,,Primarschule: UG Turnhalleneingang drinnen,während Öffnungszeiten verfügbar,,,defibrillator,144,,node/10238816242,,,yes,,0,,,,,,Primarschule Wilen,+41 71 929 36 70,,,,,,,
 10240184804,node,47.51685,9.25518,yes,,,,,,,,,"Haus A1, Eingang innen rechts",ab 22.00 Uhr mit Hausklingel,,,defibrillator,144,,node/10240184804,,,yes,,,,,,,Mo-Fr 08:00-18:00,Wohnheim Sonnenrain,+41 71 555 39 39,,,,,,,
-10240184805,node,47.49893,9.10863,yes,,,,,,,,,"beim Eingang, draussen montiert",,,,defibrillator,144,,node/10240184805,,,,,,,,,,24/7,Dorfmarkt VITAplus,+41 71 944 23 30,,,,,,,
+10240184805,node,47.4988897,9.1086088,yes,,,,,,,,,Eingang Volg / Aussenbereich,Im Eingangsbereich,,,defibrillator,144,,node/10240184805,,,no,,,,,,,24/7,Volg Wuppenau / Gemeinde,+41 71 944 23 30,,,,,,,
 10240184806,node,47.56607,9.1103,yes,,,,,,,,,3. Stock,während Öffnungszeiten verfügbar,,,defibrillator,144,,node/10240184806,,,,,,,,,,,Zahnarzt Felsenmarkt Weinfelden,+41 71 622 44 77,,,,,,,
 10240184807,node,47.55483,9.10786,yes,,,,,,,,,Sanitätsraum,während Öffnungszeiten verfügbar,,,defibrillator,144,,node/10240184807,,,,,,,,,,,Thurbad,+41 71 622 62 82,,,,,,,
 10240184808,node,47.57023,9.09744,yes,,,,,,,,,EG beim Haupteingang b. Damentoilette,während Öffnungszeiten verfügbar,,,defibrillator,144,,node/10240184808,,,,,,,,,,,Technische Betriebe Weinfelden AG,+41 71 626 82 71,,,,,,,
