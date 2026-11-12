@@ -223122,6 +223122,26 @@
       47.0466071
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14369995101",
+  "properties": {
+    "defibrillator:location": "Industrestrasse 109, Haus 1",
+    "description": "nach der Türe links an der Wand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "operator": "Coop",
+    "id": "node/14369995101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2774225,
+      47.4093837
+    ]
+  }
 }
 ]
 }
