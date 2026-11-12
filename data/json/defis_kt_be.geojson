@@ -13312,34 +13312,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6636838630",
-  "properties": {
-    "access": "private",
-    "addr:city": "Gampelen",
-    "addr:postcode": "3236",
-    "addr:street": "Lindenhof",
-    "defibrillator:location": "Zentrale",
-    "description": "Beim Sicherheitsdienst",
-    "email": "jva.witzwil@be.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "JVA Zentrale",
-    "phone": "+41 31 635 65 11",
-    "id": "node/6636838630"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0591637,
-      46.9878543
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6636838631",
   "properties": {
     "access": "yes",
@@ -66608,31 +66580,6 @@
     "coordinates": [
       7.8157352,
       47.175702
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14364983201",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Zentrale",
-    "description": "Beim Sicherheitsdienst",
-    "email": "jva.witzwil@be.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Intern oder als Zubringer-AED",
-    "phone": "+41 31 635 65 11",
-    "id": "node/14364983201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0615214,
-      46.9882339
     ]
   }
 },

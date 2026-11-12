@@ -444,8 +444,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1803021,
-      46.6180152
+      9.180292,
+      46.6180143
     ]
   }
 },
@@ -10186,34 +10186,6 @@
     "coordinates": [
       7.2625961,
       47.0980513
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/6636838630",
-  "properties": {
-    "access": "private",
-    "addr:city": "Gampelen",
-    "addr:postcode": "3236",
-    "addr:street": "Lindenhof",
-    "defibrillator:location": "Zentrale",
-    "description": "Beim Sicherheitsdienst",
-    "email": "jva.witzwil@be.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "JVA Zentrale",
-    "phone": "+41 31 635 65 11",
-    "id": "node/6636838630"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0591637,
-      46.9878543
     ]
   }
 },
@@ -36165,8 +36137,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1787064,
-      46.6167629
+      9.1786858,
+      46.6167544
     ]
   }
 },
@@ -49363,29 +49335,6 @@
     "coordinates": [
       9.402125,
       47.4373615
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/8696903829",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Dorfmarkt VITA PLUS",
-    "description": "Im Eingangsbereich",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "24/7",
-    "operator": "Dorfmarkt / Gemeinde",
-    "phone": "+41 71 944 23 30",
-    "id": "node/8696903829"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.1086066,
-      47.4987703
     ]
   }
 },
@@ -164896,31 +164845,6 @@
     "coordinates": [
       8.1315723,
       47.1846746
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14364983201",
-  "properties": {
-    "access": "private",
-    "defibrillator:location": "Zentrale",
-    "description": "Beim Sicherheitsdienst",
-    "email": "jva.witzwil@be.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Intern oder als Zubringer-AED",
-    "phone": "+41 31 635 65 11",
-    "id": "node/14364983201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.0615214,
-      46.9882339
     ]
   }
 },
