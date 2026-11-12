@@ -165189,6 +165189,29 @@
       46.7670285
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14370205501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Maya Popcorn / Lieferanteneingang",
+    "description": "Beim Lieferanteneingang (Blechtüre) / links beim Feuerlöscher",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Egli AG Import und Vertrieb",
+    "phone": "+41 52 354 77 88",
+    "id": "node/14370205501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0215522,
+      47.1540363
+    ]
+  }
 }
 ]
 }

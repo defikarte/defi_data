@@ -60925,6 +60925,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Tu-Su 10:00-17:00",
     "operator": "Zentrum Paul Klee",
     "phone": "+41 31 359 01 01",
     "id": "node/13316734301"

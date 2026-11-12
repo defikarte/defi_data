@@ -345041,6 +345041,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Tu-Su 10:00-17:00",
     "operator": "Zentrum Paul Klee",
     "phone": "+41 31 359 01 01",
     "id": "node/13316734301"
@@ -388330,6 +388331,29 @@
     "coordinates": [
       9.2774225,
       47.4093837
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14370205501",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Maya Popcorn / Lieferanteneingang",
+    "description": "Beim Lieferanteneingang (Blechtüre) / links beim Feuerlöscher",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Egli AG Import und Vertrieb",
+    "phone": "+41 52 354 77 88",
+    "id": "node/14370205501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0215522,
+      47.1540363
     ]
   }
 }
