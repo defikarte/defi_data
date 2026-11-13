@@ -11400,10 +11400,13 @@
     "addr:postcode": "3270",
     "addr:street": "Volzweg",
     "defibrillator:location": "Schwimmbad, Sanitätszimmer zu Öffnungszeiten",
+    "email": "info@aarberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "operator": "Schwimmbad Aarberg",
-    "phone": "+41323922384",
+    "phone": "+41 32 391 25 20",
     "id": "node/6637199796"
   },
   "geometry": {
@@ -44556,19 +44559,21 @@
     "access": "yes",
     "defibrillator:location": "Im 2. Stock beim Lift",
     "description": "während",
+    "email": "hochbauamt@sh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "2",
     "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:00",
-    "operator": "Stadt Schaffhausen, Fritz Rüttimann",
-    "phone": "+41 52 632 73 73",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
     "id": "node/8453143076"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6296868,
-      47.7047323
+      8.6295967,
+      47.7044013
     ]
   }
 },
@@ -215281,13 +215286,15 @@
   "properties": {
     "access": "permissive",
     "defibrillator:location": "Dienststelle Berufsbildung und Berufsberatung",
-    "description": "während Öffnungszeiten verfügbar",
+    "description": "Während Öffnungszeiten verfügbar",
+    "email": "hochbauamt@sh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Kanton Schaffhausen",
-    "phone": "+41526327256",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
     "id": "node/14060861702"
   },
   "geometry": {
@@ -223152,6 +223159,177 @@
     "coordinates": [
       8.6344002,
       47.6952929
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372035601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Strassenverkehrs- und Schifffahrtsamt",
+    "description": "Bei den Fahrzeugexperten oder in der Schalterhalle melden, da für AED nicht öffentlich zugänglich",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372035601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6708179,
+      47.7182076
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372041601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Kantonale Steuerverwaltung",
+    "description": "Im Eingangsbereich anmelden. Im Treppenhaus beim Personenaufzug",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "5",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372041601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6388562,
+      47.7141271
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372043301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Erdgeschoss innen, nach der Eingangstüre rechts",
+    "email": "info@aarberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
+    "id": "node/14372043301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2758366,
+      47.0447253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372052901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Frauengasse 17, Obergericht",
+    "description": "Aussen klingeln. AED befindet sich im EG bei der Erste Hilfe Station",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372052901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6334216,
+      47.6948989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372071801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schwimmbad, Standort Technik",
+    "email": "info@aarberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
+    "id": "node/14372071801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2735911,
+      47.0405567
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372075101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "KESB. 2. OG Korridor Mite",
+    "description": "Beim Empfang melden",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372075101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6291319,
+      47.7035777
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372076401",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "RAV Kantonale Verwaltung Schaffhausen",
+    "description": "Sanitätsraum 2.OG",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372076401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6297292,
+      47.704772
     ]
   }
 }

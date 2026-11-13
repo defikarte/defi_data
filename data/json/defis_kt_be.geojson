@@ -14303,10 +14303,13 @@
     "addr:postcode": "3270",
     "addr:street": "Volzweg",
     "defibrillator:location": "Schwimmbad, Sanitätszimmer zu Öffnungszeiten",
+    "email": "info@aarberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "operator": "Schwimmbad Aarberg",
-    "phone": "+41323922384",
+    "phone": "+41 32 391 25 20",
     "id": "node/6637199796"
   },
   "geometry": {
@@ -66807,6 +66810,52 @@
     "coordinates": [
       7.276051,
       47.0466071
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372043301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Erdgeschoss innen, nach der Eingangstüre rechts",
+    "email": "info@aarberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
+    "id": "node/14372043301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2758366,
+      47.0447253
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372071801",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schwimmbad, Standort Technik",
+    "email": "info@aarberg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
+    "id": "node/14372071801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2735911,
+      47.0405567
     ]
   }
 }
