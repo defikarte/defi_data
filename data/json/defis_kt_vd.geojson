@@ -3403,27 +3403,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9862344668",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "A supprimer n'existe plus !",
-    "description": "A supprimer n'existe plus !",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "A supprimer n'existe plus !",
-    "id": "node/9862344668"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.9668111,
-      46.3172664
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9862344674",
   "properties": {
     "access": "private",

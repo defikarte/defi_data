@@ -1903,30 +1903,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310417",
-  "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Hotel Gorfion",
-    "description": "Oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Hotel Gorfion Anstalt",
-    "opening_hours": "Mo-Su 07:00-20:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "id": "node/10763310417"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.6090205,
-      47.1012899
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10765221505",
   "properties": {
     "access": "permissive",

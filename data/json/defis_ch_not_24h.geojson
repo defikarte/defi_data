@@ -17033,7 +17033,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "AED Gemeindehaus",
-    "opening_hours": "Mo-Fr 08:00-11:30,14:00-16:30",
+    "opening_hours": "Mo 09:00-11:30, 14:00-18:30; Tu-Th 09:00-11:30, 14:00-16:30; Fr 07:00-12:30",
     "operator": "Gemeinde Gossau",
     "phone": "+41 44 936 55 90",
     "id": "node/6992457786"
@@ -17041,7 +17041,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7627462,
+      8.7627463,
       47.3016627
     ]
   }
@@ -86163,27 +86163,6 @@
     "coordinates": [
       7.6033048,
       47.4542992
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9862344668",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "A supprimer n'existe plus !",
-    "description": "A supprimer n'existe plus !",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "A supprimer n'existe plus !",
-    "id": "node/9862344668"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.9668111,
-      46.3172664
     ]
   }
 },
@@ -223311,6 +223290,36 @@
     "coordinates": [
       8.6297292,
       47.704772
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372614670",
+  "properties": {
+    "access": "private",
+    "addr:city": "Zürich",
+    "addr:housenumber": "16",
+    "addr:postcode": "8008",
+    "addr:street": "Kreuzbühlstrasse",
+    "defibrillator:location": "Freie Katholische Schulen Zürich - Schulhaus Kreuzbühl\nEG weisser Treppenhaus neben weisser Lift Links",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Freie Katholische Schulen Zürich - Schulhaus Kreuzbühl",
+    "opening_hours": "Mo-Fr 07.00-18.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1709LTM",
+    "id": "node/14372614670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5508006,
+      47.3655395
     ]
   }
 }

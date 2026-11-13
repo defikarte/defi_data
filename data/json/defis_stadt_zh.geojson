@@ -19914,6 +19914,36 @@
       47.357594
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14372614670",
+  "properties": {
+    "access": "private",
+    "addr:city": "Zürich",
+    "addr:housenumber": "16",
+    "addr:postcode": "8008",
+    "addr:street": "Kreuzbühlstrasse",
+    "defibrillator:location": "Freie Katholische Schulen Zürich - Schulhaus Kreuzbühl\nEG weisser Treppenhaus neben weisser Lift Links",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Freie Katholische Schulen Zürich - Schulhaus Kreuzbühl",
+    "opening_hours": "Mo-Fr 07.00-18.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1709LTM",
+    "id": "node/14372614670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5508006,
+      47.3655395
+    ]
+  }
 }
 ]
 }

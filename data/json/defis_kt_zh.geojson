@@ -1261,7 +1261,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "AED Gemeindehaus",
-    "opening_hours": "Mo-Fr 08:00-11:30,14:00-16:30",
+    "opening_hours": "Mo 09:00-11:30, 14:00-18:30; Tu-Th 09:00-11:30, 14:00-16:30; Fr 07:00-12:30",
     "operator": "Gemeinde Gossau",
     "phone": "+41 44 936 55 90",
     "id": "node/6992457786"
@@ -1269,7 +1269,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7627462,
+      8.7627463,
       47.3016627
     ]
   }
@@ -57118,6 +57118,7 @@
   "type": "Feature",
   "id": "node/11961443869",
   "properties": {
+    "access": "private",
     "defibrillator:location": "nach dem Tor rechts in der Einstellhalle",
     "description": "Jeder aus den Häuser Lindenhofstrasse 5 bis 19 hat Zugang mit dem Garagenschlüssel, also irgendwo läuten.",
     "emergency": "defibrillator",
@@ -57131,7 +57132,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.7838988,
+      8.7838987,
       47.3125624
     ]
   }
@@ -83085,6 +83086,96 @@
     "coordinates": [
       8.6363779,
       47.4375484
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372614670",
+  "properties": {
+    "access": "private",
+    "addr:city": "Zürich",
+    "addr:housenumber": "16",
+    "addr:postcode": "8008",
+    "addr:street": "Kreuzbühlstrasse",
+    "defibrillator:location": "Freie Katholische Schulen Zürich - Schulhaus Kreuzbühl\nEG weisser Treppenhaus neben weisser Lift Links",
+    "description": "Koffer Orange",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "name": "Freie Katholische Schulen Zürich - Schulhaus Kreuzbühl",
+    "opening_hours": "Mo-Fr 07.00-18.00",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1709LTM",
+    "id": "node/14372614670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5508006,
+      47.3655395
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372621752",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassersdorf",
+    "addr:housenumber": "46",
+    "addr:postcode": "8303",
+    "addr:street": "Bodenacherring",
+    "defibrillator:location": "Gemeindeverwaltung Bassersdorf\nSchulhaus Chrüzacher",
+    "description": "Grüner Kasten Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Bassersdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1707LTS",
+    "id": "node/14372621752"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6318396,
+      47.4395697
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372631901",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassersdorf",
+    "addr:housenumber": "2",
+    "addr:postcode": "8303",
+    "addr:street": "Karl Hügin-Platz",
+    "defibrillator:location": "Gemeindeverwaltung Bassersdorf\nGemeindehaus A\nEingang Gebäude",
+    "description": "Grüner Kasten Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Bassersdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1700LTS",
+    "id": "node/14372631901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6293215,
+      47.443016
     ]
   }
 }
