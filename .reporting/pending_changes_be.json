@@ -218,5 +218,32 @@
       }
     ],
     "detected_at": "2026-11-12T13:50:26.239267+00:00"
+  },
+  {
+    "key": "node/6637199796",
+    "name": "Schwimmbad Aarberg",
+    "has_name": false,
+    "detail": "Schwimmbad, Sanitätszimmer zu Öffnungszeiten",
+    "address": "Volzweg 1, 3270 Aarberg",
+    "lon": 7.273575,
+    "lat": 47.0407157,
+    "changes": [
+      {
+        "label": "Telefon",
+        "old": "+41323922384",
+        "new": "+41 32 391 25 20"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-11-13T08:49:08.778686+00:00"
   }
 ]
