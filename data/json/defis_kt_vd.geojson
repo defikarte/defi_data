@@ -3406,10 +3406,12 @@
   "id": "node/9862344668",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "A l'intérieur du poste de gendarmerie",
+    "defibrillator:location": "A supprimer n'existe plus !",
+    "description": "A supprimer n'existe plus !",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "operator": "A supprimer n'existe plus !",
     "id": "node/9862344668"
   },
   "geometry": {

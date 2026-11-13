@@ -12501,6 +12501,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Sa 07:30-20:00",
     "operator": "LIDL Schweiz",
     "phone": "+41716278074",
     "id": "node/9917843271"
@@ -12508,8 +12509,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3797908,
-      47.3682378
+      8.3797909,
+      47.3682374
     ]
   }
 },
@@ -12523,6 +12524,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "opening_hours": "Mo-Sa 08:00-20:00",
     "operator": "Lidl Schweiz",
     "phone": "+41716278074",
     "id": "node/9917843276"
@@ -12530,8 +12532,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3693419,
-      47.4210697
+      8.3693417,
+      47.4210699
     ]
   }
 },
@@ -12745,6 +12747,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Sa 07:30-21:00",
     "operator": "LIDL Schweiz",
     "phone": "+41716278074",
     "id": "node/9917845111"
