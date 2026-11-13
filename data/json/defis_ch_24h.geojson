@@ -165513,6 +165513,186 @@
       47.138704
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14372212773",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassersdorf",
+    "addr:housenumber": "25",
+    "addr:postcode": "8303",
+    "addr:street": "Opfikonerstrasse",
+    "defibrillator:location": "Gebäude D neben Haupteingang an Betonwand",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Bassersdorf Bassersdorf Schulhaus Geeren Gebäude D",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1706LTS",
+    "id": "node/14372212773"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6222946,
+      47.4432456
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372313129",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassersdorf",
+    "addr:housenumber": "24",
+    "addr:postcode": "8303",
+    "addr:street": "Steinligstrasse",
+    "defibrillator:location": "Gemeindeverwaltung Bassersdorf\nSchulhaus Mösli C Neben Haupteingang",
+    "description": "Grüner Kasten /  Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Bassersdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1705lts",
+    "id": "node/14372313129"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6293549,
+      47.4464979
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372323440",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassersdorf",
+    "addr:housenumber": "10",
+    "addr:postcode": "8303",
+    "addr:street": "Baltenswilerstrasse",
+    "defibrillator:location": "Gemeindeverwaltung Bassersdorf Gemeindehaus D",
+    "description": "Grüner Kasten Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Bassersdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1701LTS",
+    "id": "node/14372323440"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6297239,
+      47.4415117
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372369522",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassersdorf",
+    "addr:housenumber": "31",
+    "addr:postcode": "8303",
+    "addr:street": "Bergstrasse",
+    "defibrillator:location": "Gemeindeverwaltung Bassersdorf Friedhof",
+    "description": "Grüner Kasten / Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Bassersdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1704LTS",
+    "id": "node/14372369522"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6211071,
+      47.4492133
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372372561",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassersdorf",
+    "addr:housenumber": "45",
+    "addr:postcode": "8303",
+    "addr:street": "Bassersdorferstrasse",
+    "defibrillator:location": "Gemeindeverwaltung Bassersdorf Altes Schulhaus Baltenswil",
+    "description": "Grüner Kasten /  Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Bassersdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1703LTS",
+    "id": "node/14372372561"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.640127,
+      47.4318587
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372373432",
+  "properties": {
+    "access": "yes",
+    "addr:city": "Bassersdorf",
+    "addr:housenumber": "1",
+    "addr:postcode": "8303",
+    "addr:street": "Ufmattenstrasse",
+    "defibrillator:location": "Gemeindeverwaltung Bassersdorf \nWerk- und Feuerwehrgebäude",
+    "description": "Grüner Kasten Oranger Koffer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "name": "Gemeindeverwaltung Bassersdorf",
+    "opening_hours": "24/7",
+    "operator": "Lifetec AG",
+    "phone": "0800122144",
+    "ref": "1702LTS",
+    "id": "node/14372373432"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6363779,
+      47.4375484
+    ]
+  }
 }
 ]
 }

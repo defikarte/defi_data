@@ -6334,33 +6334,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310548",
-  "properties": {
-    "access": "no",
-    "addr:city": "Allschwil",
-    "addr:housenumber": "3",
-    "addr:postcode": "4123",
-    "addr:street": "Rudolf Geigy-Strasse",
-    "description": "oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "name": "Becton Dickinson AG",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "ref": "0410LTM",
-    "id": "node/10763310548"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5504494,
-      47.5607946
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310549",
   "properties": {
     "defibrillator:location": "Reception geradeaus",
