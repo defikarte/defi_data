@@ -44,7 +44,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 7559692343,node,47.346747,8.15483,yes,,,,,,,2025-09-27,,Aussenwand Richtung Oberdorfstrasse,,,,defibrillator,144,,node/7559692343,,no,,,,,,,24/7,,,,,,,,,,
 7559692345,node,47.3453112,8.1653443,yes,,,,,,,,,Büroeingang,,,,defibrillator,144,,node/7559692345,,,,,,,,,24/7,,,,,,,,,,
 7565185872,node,47.4181274,8.3649924,yes,,,,,,,2026-11-01,,Aussenbereich neben Bankeingang,,,,defibrillator,144,,node/7565185872,,no,,,,,,,24/7,,,,,,,,,,
-7569054302,node,47.4182085,8.2743867,yes,,,,,,,,,Ausserhalb des Gemeindegebäudes,,,,defibrillator,144,,node/7569054302,,no,,,,,,,24/7,Gemeinde Mellingen / Samariterverein Mellingen,,,,,,,,,
+7569054302,node,47.4182301,8.2744002,yes,,,,,,,,,"Rathaus Mellingen, Eingangsbereich linke Seite",,Gerät: Zoll AED3,stadtkanzlei@mellingen.ch,defibrillator,144,,node/7569054302,,no,,,0,,,,24/7,Stadt Mellingen / Samariterverein Mellingen,,,+41 56 481 88 20,,,,,,
 7574604108,node,47.4718398,8.3393875,yes,,,,,,,,,Neben dem Eingang,,,,defibrillator,144,,node/7574604108,,yes,,,,,,,Mo-Fr 08:00-20:00,,,,,,,,,,
 7574604109,node,47.4604526,8.3133405,private,,,,,,,,,Beim Empfang 3. Stock melden,,,,defibrillator,144,,node/7574604109,,yes,,,,,,,Mo-Fr 08:00-17:00,,,,,,,,,,
 7574604110,node,47.4649243,8.3183724,private,,,,,,,,,Bei Eingang Turnhalle,,,,defibrillator,144,,node/7574604110,,yes,,,,,,,Mo-Fr 07:30-22:00,,,,,,,,,,
@@ -1062,7 +1062,7 @@ Im Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. gesch
 11703541052,node,47.5535606,7.8481515,private,,,,,,,,,EG Rechts neben Toilette 1386LTM,,Oranger Koffer,,defibrillator,144,,node/11703541052,,yes,,,0,,Ingenieurbureau A. Aegerter & Dr. O. Bosshardt AG,,"Mo-Fr 08:00-11:30, 13:00-16:00",Lifetec AG Schweiz,,,+41 800 122 144,,,,,,
 11724086169,node,47.5597387,8.0605316,,,,,,,,,,"Bahnhofstrasse 8, 5080 Laufenburg",,während der Öffnungszeiten,,defibrillator,144,,node/11724086169,,yes,,,1,,,,07:30-17:30,ERNE IT,,,+41 62 869 43 70,,,"local_knowledge, defikarte.ch",,,
 11725464469,node,47.5617659,8.4085858,no,,,,,,,,,Gemeindeverwaltung Fisibach ,,Wären den Öffnungszeiten der Kanzlei,,defibrillator,144,,node/11725464469,,yes,,,0,,,,,Gemeinde,,,+41434331080,,,"local_knowledge, defikarte.ch",,,
-11733701453,node,47.4685093,8.1812193,private,,,,,,,,,"Spedition
+11733701453,node,47.4679291,8.1823837,private,,,,,,,,,"Spedition
 
 1247LTM",,Oranger Koffer,,defibrillator,144,,node/11733701453,,yes,,,,,Christinger AG,,"Mo-Th 07:30-12:00,13:00-17:00; Fr 07:30-12:00, 13:00-16:30",Lifetec AG Schweiz,,,+41 800 122 144,,,,,,
 11733746509,node,47.2571695,8.1726458,private,,,,,,,,,"Werkhalle
@@ -1184,7 +1184,7 @@ Im Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. gesch
 12281184001,node,47.38674,8.1812477,,,,,,,,,,Alter Gemeindesaal,,Eingangsbereich,,defibrillator,144,,node/12281184001,,yes,,,0,,,,,Stadt Lenzburg,,,+41797764093,,,,,,
 12281822301,node,47.3886458,8.1659317,,,,,,"General Herzog-Strasse 19, 5600 Lenzburg",,,,Doppelturnhalle Schulhaus Lenzhard (Gebäude F),,während der Schulzeit verfügbar,,defibrillator,144,,node/12281822301,,corridor,,,,,,,,Oberstufenzentrum Lenzhard,,,,,,"local_knowledge, defikarte.ch",,,
 12289635601,node,47.472944,8.3083144,,,,,,,,,,Mr Pickwick Pub Baden,,Öffnüngszeiten/ Bar,,defibrillator,144,,node/12289635601,,yes,,,,,,,,Firma,,,,,,,,,
-12289768815,node,47.4163924,8.2659583,yes,,,,,,,,,,,,,defibrillator,144,,node/12289768815,,,,,,,,,24/7,,,,,,,,,,
+12289768815,node,47.416309,8.267342,permissive,,,,,,,,,"Eingangsbereich Hallenbad, linke Seite an der Wand",,,stadtkanzlei@mellingen.ch,defibrillator,144,,node/12289768815,,yes,,,0,,,,Mo-Su 12:00- 20:00,Stadt Mellingen,,,+41 56 481 88 20,,,,,,
 12293437101,node,47.3931055,8.1627238,private,,,,,,,,,Diestgebäude SBB,,im Aufenthaltsraum,,defibrillator,144,,node/12293437101,,yes,,,1,,,,Mo-Fr 08:00-15:00,Privat (SBB),,,,,,"local_knowledge, defikarte.ch",,,
 12308405801,node,47.3698188,8.0452508,permissive,,,,,,,,,Im Firmenfahrzeug Blaulicht Zubehör Röder,,,,defibrillator,144,,node/12308405801,,yes,,,,,,,24/7,Christoph Röder,,,+41798699496,,,,,,
 12317904501,node,47.3541358,8.1620049,,,,,,,,,,Beim Hauteingang,,Während Öffnungszeiten,,defibrillator,144,,node/12317904501,,yes,,,0,,,,Mo-Fr 07:00-17:00,"Stiftung Seehalde Breitenweg 3, 5703 Seon",,,+41 62 769 60 30,,,"local_knowledge, defikarte.ch",,,
@@ -1457,3 +1457,4 @@ Im Normalfall von Montag - Freitag 07:00-16:00 (während Schulferien evtl. gesch
 14331187001,node,47.4754993,8.2128556,yes,,,,,,,,,"Hauserstrass 18, 5210 Windisch",,Schrank mit Alarm,verwaltung@kathbrugg.ch,defibrillator,144,,node/14331187001,,no,,,0,,,,24/7,Katholische Kirchgemeinde Brugg,,,+41 56 441 12 55,,,,,,
 14333672401,node,47.3923861,8.0535193,permissive,,,,,,,,,"Bodyfeet AG, Bahnhofstrasse 94, 5000 Aarau",,Sekretariat / Empfang,aarau@boyfeet.ch,defibrillator,144,,node/14333672401,,yes,,,1,,,,Mo-Fr 08:00-17:00,Geschäft,,,+41 62 823 83 83,,,aed-source,,,
 14345022101,node,47.5533496,7.7901175,private,,,,,,,,,Habich Dietschy-Strasse 5a,,"Physio Schrank neben Eingangstür, Backoffice MPA und OP",altius@hin.ch,defibrillator,144,,node/14345022101,,yes,,,1,,,,Mo-Fr 07:00-19:00,Altius Swiss Sportmed Center AG,,,+41 61 836 30 00,,,,,,
+14369645101,node,47.4218434,8.2741455,permissive,,,,,,,,,"Turnhalle Schulanlage Bahnhofstrasse 22, Eingangsbereich, linke Seite",,Gerät: Schiller fredeasy,stadtkanzlei@mellingen.ch,defibrillator,144,,node/14369645101,,yes,,,0,,,,Mo-Fr 08:00 - 17:00,Stadt Mellingen,,,+41 56 481 88 20,,,,,,

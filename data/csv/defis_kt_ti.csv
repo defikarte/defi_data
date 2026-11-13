@@ -122,8 +122,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 8852622688,node,46.2236121,8.7414198,yes,,,,,,,,,,,,defibrillator,144,,node/8852622688,,no,,,,,24/7,,,,,,
 8865473817,node,46.0116185,8.818602,,,,,,,,Gemeindehaus Astano,,,während Öffnungszeiten,,defibrillator,144,,node/8865473817,,yes,,,,,Mo-Fr 08:30-11:30; Th 16:00-19:00,Gemeinde,+41916081533,,,,
 8870217496,node,46.0058327,9.0035435,yes,,,,,,,An der Wand,,,,,defibrillator,144,,node/8870217496,,,0,,,,24/7,,,,,2021-06-27,limited
-8871047011,node,46.4109668,8.6161566,yes,,,,,,,,,,,,defibrillator,144,"de: Bitte vor Ort prüfen. Der Ort ist gemäss Luftbild unwahrscheinlich.
-en: Please survey on site. Location looks unreasonable on aerial imagenery.",node/8871047011,,no,,,,,24/7,,,,,,
+8871047011,node,46.4118397,8.6145258,yes,,,,,,,"Piano di Peccia, garage comunali",,,Armadietto con allarme,,defibrillator,144,de: Bitte vor Ort prüfen. Der Ort ist gemäss Luftbild unwahrscheinlich. en: Please survey on site. Location looks unreasonable on aerial imagenery.,node/8871047011,,no,0,,,,24/7,Gruppo Animazione Valle di Peccia,,,,,
 8873005517,node,46.1440934,8.8438928,yes,,,,,2026-05-24,,Ente Turistico Gambarogno,,,,,defibrillator,144,,node/8873005517,,no,,,,,24/7,,,,,,
 8879700761,node,46.0106642,8.9961085,,,,,,,,,,,,,defibrillator,144,,node/8879700761,,no,0,,,,24/7,,,,,,yes
 8880216131,node,46.1637962,8.7576599,yes,,,,,,,an der Kreuzung,,,,,defibrillator,144,,node/8880216131,,no,,,,,24/7,,,,,,
