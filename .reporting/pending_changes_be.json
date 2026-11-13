@@ -245,5 +245,37 @@
       }
     ],
     "detected_at": "2026-11-13T08:49:08.778686+00:00"
+  },
+  {
+    "key": "node/14365698301",
+    "name": "Gemeinde Aarberg",
+    "has_name": false,
+    "detail": "rechts neben Eingang Bibliothek",
+    "address": null,
+    "lon": 7.2735648,
+    "lat": 47.0437747,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": null,
+        "new": "Gemeinde Aarberg"
+      },
+      {
+        "label": "Telefon",
+        "old": null,
+        "new": "+41 32 391 25 20"
+      },
+      {
+        "label": "Zugang",
+        "old": null,
+        "new": "yes"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      }
+    ],
+    "detected_at": "2026-11-13T09:50:28.021512+00:00"
   }
 ]
