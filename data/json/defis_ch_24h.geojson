@@ -138210,30 +138210,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12815400101",
-  "properties": {
-    "access": "yes",
-    "addr:housenumber": "9",
-    "addr:street": "Rue du Stand",
-    "defibrillator:location": "Centre sportif",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Municipalité de Sainte-Croix",
-    "id": "node/12815400101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.5007097,
-      46.8262225
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12816146001",
   "properties": {
     "access": "yes",
@@ -158882,8 +158858,10 @@
   "id": "node/13938258845",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Valiant Bank, Bruggmatt 1, 6130 Willisau",
     "defibrillator:location:en": "On right when entering through main entrance.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -164812,25 +164790,6 @@
     "coordinates": [
       7.0657204,
       46.6096187
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14349375101",
-  "properties": {
-    "defibrillator:location": "Dans le champs, à côté d'une vache",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "id": "node/14349375101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.9619403,
-      46.5990165
     ]
   }
 },

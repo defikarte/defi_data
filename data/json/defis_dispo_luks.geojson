@@ -32712,8 +32712,10 @@
   "id": "node/13938258845",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Valiant Bank, Bruggmatt 1, 6130 Willisau",
     "defibrillator:location:en": "On right when entering through main entrance.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",

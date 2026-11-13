@@ -11906,15 +11906,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
+    "opening_hours": "10:00-20:00",
     "operator": "Municipalité de Sainte-Croix",
     "id": "node/12815400101"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5007097,
-      46.8262225
+      6.5007091,
+      46.826223
     ]
   }
 },

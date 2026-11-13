@@ -323510,15 +323510,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
-    "opening_hours": "24/7",
+    "opening_hours": "10:00-20:00",
     "operator": "Municipalité de Sainte-Croix",
     "id": "node/12815400101"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.5007097,
-      46.8262225
+      6.5007091,
+      46.826223
     ]
   }
 },
@@ -370396,8 +370396,10 @@
   "id": "node/13938258845",
   "properties": {
     "access": "yes",
+    "defibrillator:location": "Valiant Bank, Bruggmatt 1, 6130 Willisau",
     "defibrillator:location:en": "On right when entering through main entrance.",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
     "opening_hours": "24/7",
@@ -387185,18 +387187,20 @@
   "type": "Feature",
   "id": "node/14349375101",
   "properties": {
-    "defibrillator:location": "Dans le champs, à côté d'une vache",
+    "defibrillator:location": "AED n'existe pas. A supprimer 13.11.2026 TV",
+    "description": "AED n'existe pas. A supprimer 13.11.2026 TV",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "opening_hours": "24/7",
+    "opening_hours": "00:00-00:00",
+    "operator": "AED n'existe pas. A supprimer 13.11.2026 TV",
     "id": "node/14349375101"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.9619403,
-      46.5990165
+      6.9619404,
+      46.5990164
     ]
   }
 },
