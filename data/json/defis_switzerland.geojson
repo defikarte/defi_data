@@ -387905,11 +387905,16 @@
   "type": "Feature",
   "id": "node/14365698301",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "rechts neben Eingang Bibliothek",
+    "email": "info@aarberg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Aarberg",
+    "phone": "+41 32 391 25 20",
     "id": "node/14365698301"
   },
   "geometry": {
