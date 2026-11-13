@@ -5275,6 +5275,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5028745025"
   },
   "geometry": {
@@ -5289,7 +5290,7 @@
   "type": "Feature",
   "id": "node/5028745126",
   "properties": {
-    "defibrillator:location": "Links aussen am Eingang des Museums, im grünen Metall Ästen an der Wand.",
+    "defibrillator:location": "Links aussen am Eingang des Museums, im grünen Metallkasten an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -47273,13 +47274,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Gemeindeverwaltung",
+    "opening_hours": "24/7",
     "id": "node/7637812546"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3953162,
-      46.9088469
+      8.3953156,
+      46.9088472
     ]
   }
 },
@@ -47293,13 +47295,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Schulhaus Dönni",
+    "opening_hours": "24/7",
     "id": "node/7637812547"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3993113,
-      46.9090628
+      8.3993114,
+      46.909063
     ]
   }
 },
@@ -48849,6 +48852,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Lifetec Montana Sport",
+    "opening_hours": "24/7",
     "id": "node/7637818440"
   },
   "geometry": {
@@ -50953,14 +50957,16 @@
     "defibrillator:location": "Velounterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Sonnefeld",
+    "opening_hours": "24/7",
     "id": "node/7637818575"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2500782,
-      47.0302241
+      8.250078,
+      47.0302247
     ]
   }
 },
@@ -51854,13 +51860,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Camping Sternen",
+    "opening_hours": "24/7",
     "id": "node/7637818626"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9094347,
-      46.8727986
+      7.9094267,
+      46.8727931
     ]
   }
 },
@@ -55826,17 +55833,19 @@
   "type": "Feature",
   "id": "node/7637818855",
   "properties": {
+    "defibrillator:location": "Krienseregg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Pilatusbahnen Krienseregg",
+    "opening_hours": "24/7",
     "id": "node/7637818855"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2644113,
-      47.0140273
+      8.264401,
+      47.0140297
     ]
   }
 },
@@ -57733,17 +57742,20 @@
   "type": "Feature",
   "id": "node/7637818976",
   "properties": {
+    "defibrillator:location": "Bürgenstockstrasse",
     "description": "vor Tiefgarage bei Veloraum",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "3-Familienhaus",
+    "opening_hours": "24/7",
     "id": "node/7637818976"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.350982,
-      46.9795918
+      8.3509827,
+      46.9795917
     ]
   }
 },
@@ -58409,14 +58421,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Einwohnergemeinde Engelberg",
+    "opening_hours": "24/7",
     "operator": "Einwohnergmeinde Engelberg",
     "id": "node/7637819018"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.411887,
-      46.8167829
+      8.4118876,
+      46.8167837
     ]
   }
 },
@@ -59746,13 +59759,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Feuerwehrlokal Buochs-Ennetbürgen",
+    "opening_hours": "24/7",
     "id": "node/7637819096"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4143882,
-      46.9786847
+      8.4143881,
+      46.9786845
     ]
   }
 },
@@ -60202,17 +60216,20 @@
   "type": "Feature",
   "id": "node/7637819121",
   "properties": {
+    "defibrillator:location": "Isleten",
     "description": "Nordseite d. Gebäudes an d. Fassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Schweiz. Sprengstoff AG",
+    "opening_hours": "24/7",
     "id": "node/7637819121"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5953028,
-      46.9177433
+      8.5952997,
+      46.9177418
     ]
   }
 },
@@ -60319,16 +60336,19 @@
   "type": "Feature",
   "id": "node/7637819129",
   "properties": {
+    "defibrillator:location": "Gemeindeverwaltung Attinghausen",
     "description": "Links neben Haupteingang (alte Telefonkabine)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Gemeindeverwaltung",
+    "opening_hours": "24/7",
     "id": "node/7637819129"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6290787,
+      8.6290786,
       46.8623572
     ]
   }
@@ -106651,13 +106671,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8838998717"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4209182,
-      46.9737047
+      8.4209186,
+      46.9737044
     ]
   }
 },
@@ -132094,13 +132115,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9230592776"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6367365,
-      46.8644545
+      8.6367372,
+      46.8644541
     ]
   }
 },
@@ -146919,8 +146941,6 @@
   "id": "node/9508364654",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "12",
-    "addr:street": "Via Fedacla",
     "defibrillator:location": "An Frontseite von Platzwart-Häuschen 1446LTS",
     "description": "Grüner Kasten / Via Fedacla",
     "emergency": "defibrillator",
@@ -146931,15 +146951,14 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
-    "postal_code": "7514",
     "ref": "1446LTS",
     "id": "node/9508364654"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7638504,
-      46.430542
+      9.7638502,
+      46.4305417
     ]
   }
 },
@@ -253713,6 +253732,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Privat",
     "phone": "+41 79 834 69 32",
     "source": "local_knowledge, defikarte.ch",

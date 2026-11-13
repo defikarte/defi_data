@@ -21869,46 +21869,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637812546",
-  "properties": {
-    "defibrillator:location": "An der Aussenwand neben der Kellertreppe.",
-    "description": "re. bei der Eingangstreppe",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Gemeindeverwaltung",
-    "id": "node/7637812546"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3953162,
-      46.9088469
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637812547",
-  "properties": {
-    "defibrillator:location": "An nördlicher Aussenwand (Schmalseite) links neben der Tür.",
-    "description": "Haupteingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Schulhaus Dönni",
-    "id": "node/7637812547"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3993113,
-      46.9090628
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637812548",
   "properties": {
     "defibrillator:location": "Rechts der Türe des Sanitätszimmers",
@@ -22986,28 +22946,6 @@
     "coordinates": [
       8.36481,
       46.96935
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818440",
-  "properties": {
-    "access": "yes",
-    "check_date": "2025-07-04",
-    "defibrillator:location": "In der Mitte des Gebäudes bei Laderampe/Fahrstühlen.",
-    "description": "Werkstatt EG",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Lifetec Montana Sport",
-    "id": "node/7637818440"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3587772,
-      46.9671958
     ]
   }
 },
@@ -24338,24 +24276,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818575",
-  "properties": {
-    "defibrillator:location": "Velounterstand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Sonnefeld",
-    "id": "node/7637818575"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2500782,
-      47.0302241
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818576",
   "properties": {
     "emergency": "defibrillator",
@@ -24893,26 +24813,6 @@
     "coordinates": [
       8.3632952,
       47.0466962
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637818626",
-  "properties": {
-    "defibrillator:location": "Aussenwand beim grünen Gebäude",
-    "description": "Vor Sanitärgebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Camping Sternen",
-    "id": "node/7637818626"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.9094347,
-      46.8727986
     ]
   }
 },
@@ -28369,24 +28269,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818855",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Pilatusbahnen Krienseregg",
-    "id": "node/7637818855"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.2644113,
-      47.0140273
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818856",
   "properties": {
     "description": "Unter Rolltreppe 2.OG und Sanitätszimmer",
@@ -29355,24 +29237,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637818976",
-  "properties": {
-    "description": "vor Tiefgarage bei Veloraum",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "3-Familienhaus",
-    "id": "node/7637818976"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.350982,
-      46.9795918
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637818980",
   "properties": {
     "description": "im Produktionsgebäude",
@@ -29770,27 +29634,6 @@
     "coordinates": [
       8.4008103,
       46.8227921
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819018",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Mehrzweckanlage Feuerwehr, Abgang Sportplatz, bei Parkuhr",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Einwohnergemeinde Engelberg",
-    "operator": "Einwohnergmeinde Engelberg",
-    "id": "node/7637819018"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.411887,
-      46.8167829
     ]
   }
 },
@@ -30829,25 +30672,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819096",
-  "properties": {
-    "defibrillator:location": "Tor 1 Aussenwand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "name": "Feuerwehrlokal Buochs-Ennetbürgen",
-    "id": "node/7637819096"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4143882,
-      46.9786847
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819098",
   "properties": {
     "description": "Haupteingang",
@@ -31013,24 +30837,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819121",
-  "properties": {
-    "description": "Nordseite d. Gebäudes an d. Fassade",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Schweiz. Sprengstoff AG",
-    "id": "node/7637819121"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5953028,
-      46.9177433
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819123",
   "properties": {
     "defibrillator:location": "Eingang Mehrzweckgebäude",
@@ -31062,24 +30868,6 @@
     "coordinates": [
       8.3261919,
       47.1441987
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/7637819129",
-  "properties": {
-    "description": "Links neben Haupteingang (alte Telefonkabine)",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "name": "Gemeindeverwaltung",
-    "id": "node/7637819129"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6290787,
-      46.8623572
     ]
   }
 },
@@ -53495,25 +53283,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8838998717",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Theater Buochs",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/8838998717"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4209182,
-      46.9737047
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8840651017",
   "properties": {
     "defibrillator:location": "Kantonale Verwaltung, Stsmofenbachstrasse 12",
@@ -67149,25 +66918,6 @@
     "coordinates": [
       6.62092,
       46.7901087
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9230592776",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An Aussenwand",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9230592776"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.6367365,
-      46.8644545
     ]
   }
 },
@@ -145393,30 +145143,6 @@
     "coordinates": [
       7.4742705,
       46.9577321
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11369384969",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bäretswilerstrasse 28, 8340 Hinwil",
-    "description": "Einfahrt Tiefgarage",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Privat",
-    "phone": "+41 79 834 69 32",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11369384969"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.8534784,
-      47.3163156
     ]
   }
 },

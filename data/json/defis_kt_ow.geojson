@@ -947,14 +947,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Einwohnergemeinde Engelberg",
+    "opening_hours": "24/7",
     "operator": "Einwohnergmeinde Engelberg",
     "id": "node/7637819018"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.411887,
-      46.8167829
+      8.4118876,
+      46.8167837
     ]
   }
 },

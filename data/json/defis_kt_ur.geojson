@@ -700,17 +700,20 @@
   "type": "Feature",
   "id": "node/7637819121",
   "properties": {
+    "defibrillator:location": "Isleten",
     "description": "Nordseite d. Gebäudes an d. Fassade",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Schweiz. Sprengstoff AG",
+    "opening_hours": "24/7",
     "id": "node/7637819121"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5953028,
-      46.9177433
+      8.5952997,
+      46.9177418
     ]
   }
 },
@@ -741,16 +744,19 @@
   "type": "Feature",
   "id": "node/7637819129",
   "properties": {
+    "defibrillator:location": "Gemeindeverwaltung Attinghausen",
     "description": "Links neben Haupteingang (alte Telefonkabine)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Gemeindeverwaltung",
+    "opening_hours": "24/7",
     "id": "node/7637819129"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6290787,
+      8.6290786,
       46.8623572
     ]
   }
@@ -1481,13 +1487,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9230592776"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6367365,
-      46.8644545
+      8.6367372,
+      46.8644541
     ]
   }
 },

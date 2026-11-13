@@ -4595,14 +4595,16 @@
     "defibrillator:location": "Velounterstand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Sonnefeld",
+    "opening_hours": "24/7",
     "id": "node/7637818575"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2500782,
-      47.0302241
+      8.250078,
+      47.0302247
     ]
   }
 },
@@ -5356,13 +5358,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Camping Sternen",
+    "opening_hours": "24/7",
     "id": "node/7637818626"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9094347,
-      46.8727986
+      7.9094267,
+      46.8727931
     ]
   }
 },
@@ -9243,17 +9246,19 @@
   "type": "Feature",
   "id": "node/7637818855",
   "properties": {
+    "defibrillator:location": "Krienseregg",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "name": "Pilatusbahnen Krienseregg",
+    "opening_hours": "24/7",
     "id": "node/7637818855"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2644113,
-      47.0140273
+      8.264401,
+      47.0140297
     ]
   }
 },

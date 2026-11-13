@@ -5683,8 +5683,6 @@
   "id": "node/9508364654",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "12",
-    "addr:street": "Via Fedacla",
     "defibrillator:location": "An Frontseite von Platzwart-Häuschen 1446LTS",
     "description": "Grüner Kasten / Via Fedacla",
     "emergency": "defibrillator",
@@ -5695,15 +5693,14 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
-    "postal_code": "7514",
     "ref": "1446LTS",
     "id": "node/9508364654"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7638504,
-      46.430542
+      9.7638502,
+      46.4305417
     ]
   }
 },

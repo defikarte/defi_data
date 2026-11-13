@@ -2313,6 +2313,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5028745025"
   },
   "geometry": {
@@ -2327,7 +2328,7 @@
   "type": "Feature",
   "id": "node/5028745126",
   "properties": {
-    "defibrillator:location": "Links aussen am Eingang des Museums, im grünen Metall Ästen an der Wand.",
+    "defibrillator:location": "Links aussen am Eingang des Museums, im grünen Metallkasten an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -25399,6 +25400,48 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637812546",
+  "properties": {
+    "defibrillator:location": "An der Aussenwand neben der Kellertreppe.",
+    "description": "re. bei der Eingangstreppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Gemeindeverwaltung",
+    "opening_hours": "24/7",
+    "id": "node/7637812546"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3953156,
+      46.9088472
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637812547",
+  "properties": {
+    "defibrillator:location": "An nördlicher Aussenwand (Schmalseite) links neben der Tür.",
+    "description": "Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Schulhaus Dönni",
+    "opening_hours": "24/7",
+    "id": "node/7637812547"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3993114,
+      46.909063
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637812550",
   "properties": {
     "defibrillator:location": "Feuerwehrgebäude",
@@ -25846,6 +25889,29 @@
     "coordinates": [
       8.3667386,
       46.9566455
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818440",
+  "properties": {
+    "access": "yes",
+    "check_date": "2025-07-04",
+    "defibrillator:location": "In der Mitte des Gebäudes bei Laderampe/Fahrstühlen.",
+    "description": "Werkstatt EG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Lifetec Montana Sport",
+    "opening_hours": "24/7",
+    "id": "node/7637818440"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3587772,
+      46.9671958
     ]
   }
 },
@@ -26613,6 +26679,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818575",
+  "properties": {
+    "defibrillator:location": "Velounterstand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Sonnefeld",
+    "opening_hours": "24/7",
+    "id": "node/7637818575"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.250078,
+      47.0302247
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818590",
   "properties": {
     "access": "yes",
@@ -26946,6 +27032,27 @@
     "coordinates": [
       8.0679569,
       47.1678943
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818626",
+  "properties": {
+    "defibrillator:location": "Aussenwand beim grünen Gebäude",
+    "description": "Vor Sanitärgebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Camping Sternen",
+    "opening_hours": "24/7",
+    "id": "node/7637818626"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9094267,
+      46.8727931
     ]
   }
 },
@@ -27453,6 +27560,26 @@
     "coordinates": [
       8.2777149,
       47.0302823
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637818855",
+  "properties": {
+    "defibrillator:location": "Krienseregg",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Pilatusbahnen Krienseregg",
+    "opening_hours": "24/7",
+    "id": "node/7637818855"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.264401,
+      47.0140297
     ]
   }
 },
@@ -28379,6 +28506,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637818976",
+  "properties": {
+    "defibrillator:location": "Bürgenstockstrasse",
+    "description": "vor Tiefgarage bei Veloraum",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "3-Familienhaus",
+    "opening_hours": "24/7",
+    "id": "node/7637818976"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3509827,
+      46.9795917
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637818977",
   "properties": {
     "access": "yes",
@@ -28624,6 +28772,28 @@
     "coordinates": [
       8.4078285,
       46.8209964
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819018",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckanlage Feuerwehr, Abgang Sportplatz, bei Parkuhr",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Einwohnergemeinde Engelberg",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergmeinde Engelberg",
+    "id": "node/7637819018"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4118876,
+      46.8167837
     ]
   }
 },
@@ -28913,6 +29083,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637819096",
+  "properties": {
+    "defibrillator:location": "Tor 1 Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Feuerwehrlokal Buochs-Ennetbürgen",
+    "opening_hours": "24/7",
+    "id": "node/7637819096"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4143881,
+      46.9786845
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637819097",
   "properties": {
     "access": "yes",
@@ -29190,6 +29380,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/7637819121",
+  "properties": {
+    "defibrillator:location": "Isleten",
+    "description": "Nordseite d. Gebäudes an d. Fassade",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Schweiz. Sprengstoff AG",
+    "opening_hours": "24/7",
+    "id": "node/7637819121"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5952997,
+      46.9177418
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7637819125",
   "properties": {
     "access": "yes",
@@ -29248,6 +29459,27 @@
     "coordinates": [
       8.6659661,
       46.8752372
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/7637819129",
+  "properties": {
+    "defibrillator:location": "Gemeindeverwaltung Attinghausen",
+    "description": "Links neben Haupteingang (alte Telefonkabine)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "name": "Gemeindeverwaltung",
+    "opening_hours": "24/7",
+    "id": "node/7637819129"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6290786,
+      46.8623572
     ]
   }
 },
@@ -53152,6 +53384,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/8838998717",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Theater Buochs",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8838998717"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4209186,
+      46.9737044
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8839390917",
   "properties": {
     "access": "yes",
@@ -64936,6 +65188,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/9230592776",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An Aussenwand",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9230592776"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6367372,
+      46.8644541
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9233094307",
   "properties": {
     "access": "yes",
@@ -71004,8 +71276,6 @@
   "id": "node/9508364654",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "12",
-    "addr:street": "Via Fedacla",
     "defibrillator:location": "An Frontseite von Platzwart-Häuschen 1446LTS",
     "description": "Grüner Kasten / Via Fedacla",
     "emergency": "defibrillator",
@@ -71016,15 +71286,14 @@
     "opening_hours": "24/7",
     "operator": "Lifetec AG Schweiz",
     "phone": "+41 800 122 144",
-    "postal_code": "7514",
     "ref": "1446LTS",
     "id": "node/9508364654"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.7638504,
-      46.430542
+      9.7638502,
+      46.4305417
     ]
   }
 },
@@ -108304,6 +108573,31 @@
     "coordinates": [
       8.5018353,
       47.4813392
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11369384969",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bäretswilerstrasse 28, 8340 Hinwil",
+    "description": "Einfahrt Tiefgarage",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Privat",
+    "phone": "+41 79 834 69 32",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11369384969"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8534784,
+      47.3163156
     ]
   }
 },

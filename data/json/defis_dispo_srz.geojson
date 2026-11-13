@@ -503,6 +503,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde Pfäffikon",
     "id": "node/5028745025"
   },
   "geometry": {
@@ -517,7 +518,7 @@
   "type": "Feature",
   "id": "node/5028745126",
   "properties": {
-    "defibrillator:location": "Links aussen am Eingang des Museums, im grünen Metall Ästen an der Wand.",
+    "defibrillator:location": "Links aussen am Eingang des Museums, im grünen Metallkasten an der Wand.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -65027,6 +65028,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Privat",
     "phone": "+41 79 834 69 32",
     "source": "local_knowledge, defikarte.ch",
