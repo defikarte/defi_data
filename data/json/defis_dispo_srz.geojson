@@ -106765,7 +106765,9 @@
   "type": "Feature",
   "id": "node/14371083401",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Kantonales Hochbauamt Schaffhausen",
+    "description": "Im EG rechts bei der Erste Hilfe Station. Bitte klingeln, da Aussentür geschlossen",
     "email": "hochbauamt@sh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -106779,8 +106781,133 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6342775,
-      47.6954181
+      8.6342776,
+      47.695418
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372015001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantonsgericht, Herrenacker 26",
+    "description": "Bei der Kanzlei im Eingangsbereich melden",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372015001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6341218,
+      47.6955961
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372019001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rathausbogen 10 Rathauslaube im Zwischengeschoss",
+    "description": "Beim Eingang rechts auf dem Zwischenpodest",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372019001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6342355,
+      47.6959998
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372023802",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Herrenacker 3, Erziehungsdepartenemt",
+    "description": "Im Eingangsbereich innen anmelden. AED befindet sich bei der Erste Hilfe-Station",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372023802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.633873,
+      47.6952419
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372024202",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beckenstube 7, Regierungsgebäude",
+    "description": "Beim Eingang unmittelbar gegenüber vom Infoschalter",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372024202"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6344891,
+      47.6952442
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14372028001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beckenstube 11",
+    "description": "Im Eingangsbereich bei der Erste Hilfe Station",
+    "email": "hochbauamt@sh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 08:00 -17:00",
+    "operator": "Kanton Schaffhausen Hochbauamt",
+    "phone": "+41 52 632 73 35",
+    "id": "node/14372028001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6344002,
+      47.6952929
     ]
   }
 }
