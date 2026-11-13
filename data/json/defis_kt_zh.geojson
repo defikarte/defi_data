@@ -76399,14 +76399,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "unklar",
     "id": "node/13627074201"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9051276,
-      47.3659994
+      8.905127,
+      47.3660002
     ]
   }
 },

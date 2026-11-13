@@ -204238,27 +204238,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13627074201",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "schulhaus wellenau",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "unklar",
-    "id": "node/13627074201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9051276,
-      47.3659994
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13630005401",
   "properties": {
     "access": "permissive",
@@ -220424,29 +220403,6 @@
     "coordinates": [
       8.7010808,
       47.4810905
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14263428603",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "An der Aussenfassade unter dem Vordach",
-    "email": "info@mobilcentergmbh.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "mobilcenter von rotz gmbh",
-    "phone": "+41 71 977 21 19",
-    "id": "node/14263428603"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.974219,
-      47.4314738
     ]
   }
 },
