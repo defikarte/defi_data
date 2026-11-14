@@ -10451,7 +10451,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0158946,
+      8.0158943,
       47.1452163
     ]
   }
@@ -15556,14 +15556,14 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Sanitätsteam Ettiswil",
-    "phone": "+41795982464",
+    "phone": "+41 79 598 24 64",
     "id": "node/9909593178"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0185329,
-      47.1494603
+      8.0185322,
+      47.1494599
     ]
   }
 },
@@ -24824,6 +24824,29 @@
     "coordinates": [
       8.0215522,
       47.1540363
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14377775701",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Moosgasse 2 / 6217 Kottwil / in der Garage / Zugangscode via Betreiber 079 788 85 64",
+    "description": "beim Betreiber 079 788 85 64 den Zugangscode zur Garage abfragen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Urs Heimgartner",
+    "phone": "+41 79 788 85 64",
+    "id": "node/14377775701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0448772,
+      47.1630499
     ]
   }
 }
