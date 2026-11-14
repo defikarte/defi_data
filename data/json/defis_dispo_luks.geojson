@@ -3594,16 +3594,18 @@
   "type": "Feature",
   "id": "node/7637818418",
   "properties": {
-    "description": "EG",
+    "defibrillator:location": "Eingang Polizeiposten Sursee",
+    "description": "Schalter Eingang Polizeiposten",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "name": "Polizeiposten",
     "id": "node/7637818418"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1028538,
+      8.1028539,
       47.1708285
     ]
   }
