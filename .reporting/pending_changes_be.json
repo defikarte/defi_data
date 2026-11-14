@@ -277,5 +277,54 @@
       }
     ],
     "detected_at": "2026-11-13T09:50:28.021512+00:00"
+  },
+  {
+    "key": "node/12309708520",
+    "name": "Kirchgemeinde Köniz",
+    "has_name": false,
+    "detail": "Eingang Seite Könizbergstrasse, unter Treppe rechts",
+    "address": null,
+    "lon": 7.4153293,
+    "lat": 46.9298551,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": null,
+        "new": "Kirchgemeinde Köniz"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      }
+    ],
+    "detected_at": "2026-11-14T16:49:15.888417+00:00"
+  },
+  {
+    "key": "node/5274992719",
+    "name": "Kirchgemeinde Köniz",
+    "has_name": false,
+    "detail": "Kircheneingang links",
+    "address": null,
+    "lon": 7.4132609,
+    "lat": 46.921011,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": null,
+        "new": "Kirchgemeinde Köniz"
+      },
+      {
+        "label": "Zugang",
+        "old": null,
+        "new": "permissive"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      }
+    ],
+    "detected_at": "2026-11-14T16:49:15.888417+00:00"
   }
 ]
