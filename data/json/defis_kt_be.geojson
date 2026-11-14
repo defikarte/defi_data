@@ -1703,17 +1703,20 @@
   "type": "Feature",
   "id": "node/5274992719",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Kircheneingang links",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "operator": "Kirchgemeinde Köniz",
     "id": "node/5274992719"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4132608,
-      46.9210113
+      7.4132609,
+      46.921011
     ]
   }
 },
@@ -54822,12 +54825,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "operator": "Kirchgemeinde Köniz",
     "id": "node/12309708520"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.4153292,
+      7.4153293,
       46.9298551
     ]
   }
@@ -66861,6 +66866,29 @@
     "coordinates": [
       7.2735911,
       47.0405567
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14377917101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Muhlernstrasse 230, Murrihuus",
+    "email": "nadia.leutwyler@kg-koeniz.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Kirchgemeinde Köniz",
+    "phone": "+41 31 978 31 59",
+    "id": "node/14377917101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4159011,
+      46.9096975
     ]
   }
 }
