@@ -169505,28 +169505,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9917845065",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Verkaufsfläche LIDL",
-    "description": "während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "operator": "LIDL Schweiz",
-    "phone": "+41716278074",
-    "id": "node/9917845065"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.9231287,
-      46.0421846
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9917845066",
   "properties": {
     "access": "yes",
