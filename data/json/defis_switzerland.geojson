@@ -389135,6 +389135,29 @@
       46.9096975
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14378491201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Ancienne laiterie, mur extérieur côté Alpes",
+    "description": "boîtier mural extérieur",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Commune de Montanaire",
+    "id": "node/14378491201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7878854,
+      46.6978572
+    ]
+  }
 }
 ]
 }
