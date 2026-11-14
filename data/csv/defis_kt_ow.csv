@@ -48,7 +48,7 @@ osm_id,osm_type,lat,lon,access,check_date,defibrillator:location,description,ema
 7637819015,node,46.7707973,8.4228731,,,Rechts der Türe des Sanitätszimmers,,,defibrillator,144,node/7637819015,,,Bergbahnen Engelberg-Trübsee-Ttilis AG,,,,,
 7637819016,node,46.8227921,8.4008103,,,"Bei der Reception, Personal fragen",,,defibrillator,144,node/7637819016,,,Titlis Terrace,,,,,
 7637819017,node,46.8209964,8.4078285,yes,,Haupteingang neben dem Briefkasten der Post,,,defibrillator,144,node/7637819017,no,,,24/7,Einwohnergemeinde Engelberg,,,yes
-7637819018,node,46.8167829,8.411887,yes,,"Mehrzweckanlage Feuerwehr, Abgang Sportplatz, bei Parkuhr",,,defibrillator,144,node/7637819018,no,,Einwohnergemeinde Engelberg,,Einwohnergmeinde Engelberg,,,
+7637819018,node,46.8167837,8.4118876,yes,,"Mehrzweckanlage Feuerwehr, Abgang Sportplatz, bei Parkuhr",,,defibrillator,144,node/7637819018,no,,Einwohnergemeinde Engelberg,24/7,Einwohnergmeinde Engelberg,,,
 7637819168,node,46.938201,8.275519,,,Werkstatt,,,defibrillator,144,node/7637819168,,,Ulrich & Hefti AG,,,,,
 7637819169,node,46.9375364,8.2706261,,,,Betriebssanität,,defibrillator,144,node/7637819169,,,Alpnach Norm,,,,,
 7637819170,node,46.9423897,8.2769178,,,,"Im Haupteingang (Schleuse, linke Seite)",,defibrillator,144,node/7637819170,,,Allmendpark Alpnach,,,,,

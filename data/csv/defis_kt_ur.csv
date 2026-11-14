@@ -32,9 +32,9 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 7637819106,node,46.7687398,8.6889162,yes,,,,,,,,,,defibrillator,144,,node/7637819106,,,,,Feuerwehrlokal,,,24/7,,,,,,
 7637819107,node,46.7664633,8.7113249,,,,,,,,,Veloabstand Talstation Luftseilbahn Golzern,,defibrillator,144,,node/7637819107,,,,,Golzern,,,,,,,,,
 7637819120,node,46.9347598,8.5793891,yes,,,,,2026-08-25,,Im Rollstuhlgerechten WC,Kehrplatz Baumgarten,,defibrillator,144,,node/7637819120,yes,0,,,,,,24/7,Gemeinde Bauen,,,,,yes
-7637819121,node,46.9177433,8.5953028,,,,,,,,,Nordseite d. Gebäudes an d. Fassade,,defibrillator,144,,node/7637819121,,,,,Schweiz. Sprengstoff AG,,,,,,,,,
+7637819121,node,46.9177418,8.5952997,,,,,,,,Isleten,Nordseite d. Gebäudes an d. Fassade,,defibrillator,144,,node/7637819121,no,,,,Schweiz. Sprengstoff AG,,,24/7,,,,,,
 7637819128,node,46.8752372,8.6659661,yes,,,,,2025-09-05,,An der Aussenwand neben dem Haupteingang,beim Eingang,,defibrillator,144,,node/7637819128,no,,,,Sporthalle,,,24/7,,,,,,
-7637819129,node,46.8623572,8.6290787,,,,,,,,,Links neben Haupteingang (alte Telefonkabine),,defibrillator,144,,node/7637819129,,,,,Gemeindeverwaltung,,,,,,,,,
+7637819129,node,46.8623572,8.6290786,,,,,,,,Gemeindeverwaltung Attinghausen,Links neben Haupteingang (alte Telefonkabine),,defibrillator,144,,node/7637819129,no,,,,Gemeindeverwaltung,,,24/7,,,,,,
 7637819131,node,46.6398309,8.5903985,,,,,,,,,im Büro Swiss Alps,,defibrillator,144,,node/7637819131,,,,,Feriendorf Andermatt Haus Wolf,,,,,,,,,
 7637819132,node,46.633064,8.5958702,,,,,,,,,,,defibrillator,144,,node/7637819132,yes,,,,Gasthaus Tell,,,,,,,,,
 7637819134,node,46.6387137,8.5949985,yes,,,,,,,,Haupteingang Pforte,,defibrillator,144,,node/7637819134,,,,,Kaserne Andermatt,,,24/7,,,,,,
@@ -71,7 +71,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 8678285150,node,46.8605587,8.6426992,yes,,,,,2024-02-06,,Durchgang beim Teich,,,defibrillator,144,,node/8678285150,no,,,,,,,24/7,Stiftung Behindertenbetriebe Uri (SBU),+41 41 874 15 15,,,,
 8851160392,node,46.9673291,8.5845162,yes,,,,,2026-08-14,,"auf dem Platz, zwischen Postfächern und Ladestationen für Elektrofahrzeuge",Haltestelle Tanzplatz,,defibrillator,144,,node/8851160392,no,,,,,,,24/7,,,,,,yes
 8979391059,node,46.9781585,8.5910748,yes,,,,,,,Neben dem WC,Jugendherberge Seelisberg,,defibrillator,144,,node/8979391059,yes,,,,,,,,Jugendherberge Seelisberg,+41 41 820 52 32,,,,no
-9230592776,node,46.8644545,8.6367365,yes,,,,,,,An Aussenwand,,,defibrillator,144,,node/9230592776,no,,,,,,,,,,,,,
+9230592776,node,46.8644541,8.6367372,yes,,,,,,,An Aussenwand,,,defibrillator,144,,node/9230592776,no,,,,,,,24/7,,,,,,
 9515956035,node,46.8870501,8.6339306,,,,,,,,Feuerwehrlokal,,,defibrillator,144,,node/9515956035,,,,,,,,,,,,,,
 9515963245,node,46.8724905,8.651324,,,,,,2024-02-06,,Bei Kundendienst Migros,,,defibrillator,144,,node/9515963245,yes,1,,,,,,"Mo-Th 08:00-18:30, Fr 08:00-21:00, Sa 08:00-17:00",Migros,,,,,
 9531714556,node,46.6390603,8.5916199,,,,,,,,Parking Reuss Andermatt,,,defibrillator,144,,node/9531714556,,,,,,,,,,,,,,

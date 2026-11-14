@@ -209,7 +209,6 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 9917843273,node,45.8463163,9.0120855,yes,,,,,,,Verkaufsfläche LIDL,,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9917843273,,yes,,,,,,LIDL Schweiz,+41716278074,,,,
 9917843283,node,46.0125898,8.9658814,yes,,,,,,,Verkaufsfläche LIDL,,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9917843283,,yes,,,,,,LIDL Schweiz,+41716278074,,,,
 9917845020,node,46.1818978,9.0180933,yes,,,,,,,Verkaufsfläche LIDL,,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9917845020,,yes,,,,,,LIDL Schweiz,+41716278074,,,,
-9917845065,node,46.0421846,8.9231287,yes,,,,,,,Verkaufsfläche LIDL,,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9917845065,,yes,,,,,,LIDL Schweiz,+41716278074,,,,
 9917845096,node,46.3516561,8.9725866,yes,,,,,,,Verkaufsfläche LIDL,,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9917845096,,yes,,,,,,LIDL Schweiz,+41 71 627 80 74,,,,
 9917845098,node,46.1539653,8.9652353,yes,,,,,,,Verkaufsfläche LIDL,,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9917845098,,yes,,,,,,LIDL Schweiz,+41716278074,,,,
 9917845102,node,46.2255095,9.0432219,yes,,,,,,,Verkaufsfläche LIDL,,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9917845102,,yes,,,,,,LIDL Schweiz,+41716278074,,,,
