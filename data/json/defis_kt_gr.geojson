@@ -294,11 +294,12 @@
   "properties": {
     "access": "yes",
     "check_date": "2025-06-18",
-    "defibrillator:location": "an der Bushaltestelle; östliche Hauswand",
+    "defibrillator:location": "an der Bushaltestelle; östliche Hauswand neben der Kasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/6646055348"
   },
   "geometry": {
@@ -315,18 +316,19 @@
   "properties": {
     "access": "yes",
     "check_date": "2025-06-16",
-    "defibrillator:location": "zwischen den Toilettentüren",
+    "defibrillator:location": "zwischen den Toilettentüren im grünen Kasten beschriftet mit AED",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "wheelchair": "yes",
     "id": "node/6646055351"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8755041,
-      46.8834887
+      9.8755026,
+      46.8834649
     ]
   }
 },
