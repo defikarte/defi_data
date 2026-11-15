@@ -46209,18 +46209,21 @@
   "id": "node/8557047322",
   "properties": {
     "defibrillator:location": "In Apotheke",
-    "description": "während Öffnungszeiten verfügbar",
+    "email": "info@klus-apotheke.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-19:00, Sa 08:00-17:00",
     "operator": "Frau Dr. Fröhlich, Apothekerin",
+    "phone": "+41 44 381 70 30",
     "id": "node/8557047322"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       8.5666309,
-      47.3645727
+      47.3645731
     ]
   }
 },
