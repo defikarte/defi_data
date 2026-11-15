@@ -36585,27 +36585,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7902352988",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "1. OG im Gang",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Th 08:00-12:00",
-    "id": "node/7902352988"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4672018,
-      47.6673658
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7902352989",
   "properties": {
     "defibrillator:location": "Damenumkleide",
