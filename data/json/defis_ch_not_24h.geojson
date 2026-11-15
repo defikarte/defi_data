@@ -55981,7 +55981,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde Koblenz ",
+    "operator": "Gemeinde Koblenz",
     "id": "node/8890475818"
   },
   "geometry": {
@@ -58705,12 +58705,12 @@
     "access": "yes",
     "check_date": "2025-12-06",
     "defibrillator:location": "Reception St Chrischona Campus",
-    "description": "Während Oeffungszeiten Verfügbar ",
+    "description": "Während Oeffungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "Mo-Fr 09:00-12:00",
-    "operator": "Campus Chrischona ",
+    "operator": "Campus Chrischona",
     "id": "node/8995801821"
   },
   "geometry": {
@@ -169872,7 +169872,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Samariterverein Riehen ",
+    "operator": "Samariterverein Riehen",
     "phone": "+41 61 599 11 31",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12248475201"

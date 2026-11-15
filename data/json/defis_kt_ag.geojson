@@ -5162,7 +5162,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
-    "operator": "Gemeinde Koblenz ",
+    "operator": "Gemeinde Koblenz",
     "id": "node/8890475818"
   },
   "geometry": {
