@@ -165337,6 +165337,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "beim Parkplatz Aussen an der Wand",
+    "description": "befindet sich beim Parkplatz / Eingang Werkstatt",
     "email": "infotb@rorschach.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
