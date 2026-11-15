@@ -12,8 +12,8 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:cou
 6010742519,node,46.7745165,9.6574211,,,,,,,,,,,,,Hermans Häuser,,,,,defibrillator,,144,,,node/6010742519,,,no,,,,,24/7,,,,,,,,,
 6010746167,node,46.7752656,9.6740597,,,,,,,,,,,,,"Campingplatz, Zentrales Gebäude, neben Check In",,,"Zugang jederzeit, bei der Entsorgungsstation",,defibrillator,,144,,,node/6010746167,,,no,,,,,24/7,Gemeinde / Camping Arosa,,,,,,,,
 6466286078,node,46.7602202,9.557857,,,,,,,,,,,,,"Auf der Aussenwand, gerade bei der Ecke von Haus",,,,,defibrillator,,144,,,node/6466286078,,,no,,,,,,,,,,,,,,
-6646055348,node,46.8843879,9.8758907,yes,,,,,,,,,2025-06-18,,,an der Bushaltestelle; östliche Hauswand,,,,,defibrillator,,144,,,node/6646055348,,,no,,,,,24/7,,,,,,,,,
-6646055351,node,46.8834887,9.8755041,yes,,,,,,,,,2025-06-16,,,zwischen den Toilettentüren,,,,,defibrillator,,144,,,node/6646055351,,,no,,,,,24/7,,,,,,,,,
+6646055348,node,46.8843879,9.8758907,yes,,,,,,,,,2025-06-18,,,an der Bushaltestelle; östliche Hauswand neben der Kasse,,,,,defibrillator,,144,,,node/6646055348,,,no,,,,,24/7,,,,,,,,,yes
+6646055351,node,46.8834649,9.8755026,yes,,,,,,,,,2025-06-16,,,zwischen den Toilettentüren im grünen Kasten beschriftet mit AED,,,,,defibrillator,,144,,,node/6646055351,,,no,,,,,24/7,,,,,,,,,yes
 6651312612,node,46.7494628,9.4422178,yes,,,,,,,,,,,,Beim Denner,,,,,defibrillator,,144,,,node/6651312612,,,no,,,,,24/7,Gemeinde Domleschg,,,+41 81 650 13 13,,,,,
 6780438488,node,46.803085,9.8365178,customers,,,,,,,,,,,,Next to stairwell inside hotel.,,,,,defibrillator,,144,,,node/6780438488,,,yes,,0,,,,,,,,,,,,no
 6794746185,node,46.7463346,9.555387,yes,,,,,,,,,,,,SPAR Einkaufsladen Valbella,,,Immer zugänglich,,defibrillator,,144,,,node/6794746185,,,no,,0,,,24/7,Gemeinde Vaz/Obervaz,,,,,,,,
