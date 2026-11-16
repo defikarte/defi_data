@@ -4811,7 +4811,7 @@
   "properties": {
     "access": "yes",
     "brand": "Aivia",
-    "defibrillator:location": "At a column of the roof, facing towards Bahnhofsplatz",
+    "defibrillator:location": "Mounted on column, facing Bahnhofsplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -4822,8 +4822,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7477727,
-      46.0237332
+      7.7477742,
+      46.0238246
     ]
   }
 },

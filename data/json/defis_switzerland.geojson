@@ -210968,36 +210968,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10763310116",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Zürich",
-    "addr:housenumber": "12",
-    "addr:postcode": "8006",
-    "addr:street": "Wasserwerkstrasse",
-    "defibrillator:location": "FINMA Empfangsbereich 1. OG",
-    "description": "Oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "name": "Eidgenössische Finanzmarktaufsicht FINMA",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Lifetec AG Schweiz",
-    "phone": "+41 800 122 144",
-    "ref": "0883LTM",
-    "id": "node/10763310116"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5404579,
-      47.38331
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10763310118",
   "properties": {
     "access": "no",
@@ -296648,7 +296618,7 @@
   "properties": {
     "access": "yes",
     "brand": "Aivia",
-    "defibrillator:location": "At a column of the roof, facing towards Bahnhofsplatz",
+    "defibrillator:location": "Mounted on column, facing Bahnhofsplatz",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -296659,8 +296629,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7477727,
-      46.0237332
+      7.7477742,
+      46.0238246
     ]
   }
 },
