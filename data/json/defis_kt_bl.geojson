@@ -10707,6 +10707,51 @@
       47.4701201
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14382962001",
+  "properties": {
+    "defibrillator:location": "Schoolhaus ISB Aesch",
+    "description": "Cabinet inside building, next to ladies toilet",
+    "email": "alison.snow@isbasel.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-18:00",
+    "operator": "ISB",
+    "id": "node/14382962001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5939145,
+      47.4798375
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14382964901",
+  "properties": {
+    "defibrillator:location": "ISB Reinach campus",
+    "description": "Cabinet next to reception",
+    "email": "alison.snow@isbasel.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo -Fr 08:00-18:00",
+    "id": "node/14382964901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6018962,
+      47.5105539
+    ]
+  }
 }
 ]
 }
