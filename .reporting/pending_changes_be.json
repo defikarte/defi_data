@@ -1,1 +1,29 @@
-[]
+[
+  {
+    "key": "node/12777762601",
+    "name": "Käserei Benzenberg",
+    "has_name": false,
+    "detail": "Aussenfassade an der Strasse",
+    "address": null,
+    "lon": 7.7505004,
+    "lat": 46.9923505,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": "Private",
+        "new": "Käserei Benzenberg"
+      },
+      {
+        "label": "Telefon",
+        "old": "+41797124472",
+        "new": "+41 79 247 01 28"
+      },
+      {
+        "label": "Beschreibung",
+        "old": "Jederzeit zugänglich",
+        "new": null
+      }
+    ],
+    "detected_at": "2026-11-16T08:49:22.346046+00:00"
+  }
+]
