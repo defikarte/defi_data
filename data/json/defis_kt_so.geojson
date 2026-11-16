@@ -11235,6 +11235,23 @@
       47.3646305
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14384076882",
+  "properties": {
+    "defibrillator:location": "Im überdachten, aber offen zugänglichen Bereich des Dorfhauses, rechts hinten an der Wand.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14384076882"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5158867,
+      47.1506805
+    ]
+  }
 }
 ]
 }

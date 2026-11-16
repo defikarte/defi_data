@@ -389304,6 +389304,41 @@
       47.0426977
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14384076882",
+  "properties": {
+    "defibrillator:location": "Im überdachten, aber offen zugänglichen Bereich des Dorfhauses, rechts hinten an der Wand.",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14384076882"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5158867,
+      47.1506805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14384134205",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mounted to the wall",
+    "emergency": "defibrillator",
+    "indoor": "no",
+    "id": "node/14384134205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.76026,
+      46.8777221
+    ]
+  }
 }
 ]
 }
