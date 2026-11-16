@@ -63,7 +63,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 9763784981,node,46.8035433,7.1547925,yes,,,,,,,,,,Im Vermögenszentrum,,,,defibrillator,144,,,node/9763784981,yes,,,,,,,,Mo-Fr 08:00-17:30,"Tamara Oppliger, Jennifer Meuwly",,,+41 26 350 90 90,,,,,,
 9825186577,node,46.9302177,7.1172758,,,,,,,,,,,Eingang Hotel,,,,defibrillator,144,,,node/9825186577,yes,,,,,,,,,,,,,,,,,,
 9843994354,node,46.8199316,7.2588226,yes,,,,,,,,,,"Der Defibrillator befindet sich im Pfarreihaus Antoniusweg 32 (im Eingang), 1713 St. Antoni Der Eingang befindet sich ca. 50 m östlich der (weitherum gut sichtbaren) katholischen Kirche.",,,,defibrillator,144,,,node/9843994354,yes,,,,,,,,24/7,katholische Pfarrei St. Antoni,,,+41 26 495 11 31,,,,,,
-9847088867,node,46.8955474,6.9391915,,,,,,,,,,,sur le mur du batiment scolaire,,,,defibrillator,144,,,node/9847088867,no,,,,,,,,24/7,,,,,,,,,,yes
+9847088867,node,46.8953297,6.9396914,,,,,,,,,,,sur le mur du batiment scolaire,,,,defibrillator,144,,,node/9847088867,no,,,,,,,,24/7,,,,,,,,,,yes
 9863392517,node,46.9404963,7.1975407,yes,,,,,,,,,,Altes Feuerwehrlokal,,Aussenfassade,,defibrillator,144,,,node/9863392517,no,,,,,,,,,,,,,,,,,,
 9863464518,node,46.9405186,7.1975575,yes,,,,,,,,,,Altes Feuerwehrlokal Gempenach,,Aussenwand,,defibrillator,144,,,node/9863464518,no,,,,,,,,,,,,,,,,,,
 9899496818,node,46.9329037,7.1999253,yes,,,,,,,,,,"Schulhausweg 2, 3214 Ulmiz",,,,defibrillator,144,,,node/9899496818,no,,,,,,,,24/7,Gemeinde Gurmels,,,,,,,,,
