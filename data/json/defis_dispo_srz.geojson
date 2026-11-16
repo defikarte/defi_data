@@ -71402,16 +71402,19 @@
   "type": "Feature",
   "id": "node/11816475034",
   "properties": {
+    "defibrillator:location": "Kita & Kindergarten Langmatt, neben Eingang",
+    "description": "Schrank mit Alarm",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/11816475034"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4355235,
-      47.1400107
+      8.4355232,
+      47.1400109
     ]
   }
 },

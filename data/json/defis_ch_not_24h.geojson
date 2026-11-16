@@ -156484,23 +156484,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11816475034",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/11816475034"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.4355235,
-      47.1400107
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11816758741",
   "properties": {
     "access": "no",
