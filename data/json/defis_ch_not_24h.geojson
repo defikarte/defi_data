@@ -158595,9 +158595,12 @@
   "id": "node/11883063161",
   "properties": {
     "access": "yes",
+    "addr:city": "Aarburg",
+    "addr:country": "CH",
     "addr:housenumber": "85",
+    "addr:postcode": "4663",
     "addr:street": "Oltnerstrasse",
-    "defibrillator:location": "1.UG Zwischen Werkstatt und Carrosserie\n1367LTM",
+    "defibrillator:location": "1.UG Zwischen Werkstatt und Carrosserie 1367LTM",
     "description": "Oranger Koffer",
     "emergency": "defibrillator",
     "emergency:phone": "144",
