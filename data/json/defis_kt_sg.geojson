@@ -16997,7 +16997,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "We-Fr 10:00-12:00; 15:00-17:00",
+    "opening_hours": "We-Fr 10:00-12:00,15:00-17:00",
     "operator": "Tonhalle Wil",
     "phone": "+41 71 913 89 20",
     "id": "node/10633760505"
