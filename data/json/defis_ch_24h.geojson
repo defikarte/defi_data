@@ -166177,6 +166177,30 @@
       47.6798055
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14383425101",
+  "properties": {
+    "defibrillator:location": "Gruben 285, 3418 Rüegsbach",
+    "description": "AED ist beim Bauernhaus links bei der Treppe",
+    "email": "coer@gmx.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Privatperson",
+    "phone": "+41 79 712 02 45",
+    "id": "node/14383425101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6780885,
+      47.0427519
+    ]
+  }
 }
 ]
 }
