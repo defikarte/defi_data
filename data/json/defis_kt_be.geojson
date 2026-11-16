@@ -58206,15 +58206,16 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Aussenfassade an der Strasse",
-    "description": "Jederzeit zugänglich",
+    "email": "sibylle.gerber@outlook.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Private",
-    "phone": "+41797124472",
+    "operator": "Käserei Benzenberg",
+    "phone": "+41 79 247 01 28",
     "source": "local_knowledge, defikarte.ch",
+    "wikimedia_commons": "File:Defi_Benzenberg.jpg",
     "id": "node/12777762601"
   },
   "geometry": {

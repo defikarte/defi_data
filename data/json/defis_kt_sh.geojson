@@ -933,7 +933,8 @@
   "id": "node/7902352988",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim gelben Briefkasten im Zwischengang",
+    "defibrillator:location": "Storchen, Gemeindeverwaltung",
+    "description": "Beim gelben Briefkasten im Zwischengang",
     "email": "corina.schlaepfer@wilchingen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -4623,6 +4624,55 @@
     "coordinates": [
       8.6297292,
       47.704772
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14382823101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang der reformierten Kirche Osterfingen",
+    "description": "Im Vorraum / Eingang der reformierten Kirche Osterfingen",
+    "email": "corina.schlaepfer@wilchingen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41526326502",
+    "id": "node/14382823101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4910972,
+      47.6630679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14382849201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantine Külling AG",
+    "description": "Schrank, neben Notfallsäule bei der Kantone Külling AG",
+    "email": "corina.schlaepfer@wilchingen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41526326502",
+    "id": "node/14382849201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4623989,
+      47.6798055
     ]
   }
 }

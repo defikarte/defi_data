@@ -71673,7 +71673,8 @@
   "id": "node/7902352988",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Beim gelben Briefkasten im Zwischengang",
+    "defibrillator:location": "Storchen, Gemeindeverwaltung",
+    "description": "Beim gelben Briefkasten im Zwischengang",
     "email": "corina.schlaepfer@wilchingen.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -304002,8 +304003,6 @@
   "id": "node/12390109868",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "8",
-    "addr:street": "Compognastrasse",
     "defibrillator:location": "Eingang EG Empfang rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -322551,15 +322550,16 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Aussenfassade an der Strasse",
-    "description": "Jederzeit zugänglich",
+    "email": "sibylle.gerber@outlook.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Private",
-    "phone": "+41797124472",
+    "operator": "Käserei Benzenberg",
+    "phone": "+41 79 247 01 28",
     "source": "local_knowledge, defikarte.ch",
+    "wikimedia_commons": "File:Defi_Benzenberg.jpg",
     "id": "node/12777762601"
   },
   "geometry": {
@@ -389163,6 +389163,55 @@
     "coordinates": [
       6.7878854,
       46.6978572
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14382823101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang der reformierten Kirche Osterfingen",
+    "description": "Im Vorraum / Eingang der reformierten Kirche Osterfingen",
+    "email": "corina.schlaepfer@wilchingen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41526326502",
+    "id": "node/14382823101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4910972,
+      47.6630679
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14382849201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Kantine Külling AG",
+    "description": "Schrank, neben Notfallsäule bei der Kantone Külling AG",
+    "email": "corina.schlaepfer@wilchingen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41526326502",
+    "id": "node/14382849201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4623989,
+      47.6798055
     ]
   }
 }

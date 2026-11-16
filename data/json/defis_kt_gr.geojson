@@ -14157,8 +14157,6 @@
   "id": "node/12390109868",
   "properties": {
     "access": "yes",
-    "addr:housenumber": "8",
-    "addr:street": "Compognastrasse",
     "defibrillator:location": "Eingang EG Empfang rechts",
     "emergency": "defibrillator",
     "emergency:phone": "144",
