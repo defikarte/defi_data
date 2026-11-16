@@ -389277,6 +389277,29 @@
       47.0427519
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14383462301",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "AED Lifepak CR2",
+    "emergency": "defibrillator",
+    "image": "https://back.openaedmap.org/api/v1/photos/view/qOTGmVQ5GM87I9NnG2F4CA.webp",
+    "image:license": "CC0",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Rentsch Alexandra",
+    "phone": "0797120245",
+    "id": "node/14383462301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6781856,
+      47.0426977
+    ]
+  }
 }
 ]
 }
