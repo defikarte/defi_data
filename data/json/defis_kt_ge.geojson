@@ -2756,6 +2756,30 @@
       46.2046627
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14386982601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Tribune de Genève",
+    "description": "A l'entrée du 4ème étage",
+    "email": "barbara.yilmaz-collet@tx.group",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "4",
+    "operator": "Entreprise privée",
+    "phone": "+41 22 322 40 00",
+    "id": "node/14386982601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.138254,
+      46.202668
+    ]
+  }
 }
 ]
 }

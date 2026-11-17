@@ -15172,6 +15172,31 @@
       46.516763
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14386918601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rédaction 20 Minutes",
+    "description": "Sonner à l'entrée des bureaux",
+    "email": "isabelle.heirich@20minutes.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "TX Group SA",
+    "phone": "+41 76 409 47 43",
+    "id": "node/14386918601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.618907,
+      46.522896
+    ]
+  }
 }
 ]
 }

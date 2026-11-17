@@ -155446,6 +155446,7 @@
     "access": "yes",
     "addr:city": "Aarburg",
     "addr:housenumber": "37",
+    "addr:postcode": "4663",
     "addr:street": "Städtchen",
     "defibrillator:location": "Rückseite der Bibliothek / nur im Innenhof des Gebäude Rathaus sichtbar",
     "description": "Grüner Kasten",

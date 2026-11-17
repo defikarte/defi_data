@@ -363048,6 +363048,7 @@
     "access": "yes",
     "addr:city": "Aarburg",
     "addr:housenumber": "37",
+    "addr:postcode": "4663",
     "addr:street": "Städtchen",
     "defibrillator:location": "Rückseite der Bibliothek / nur im Innenhof des Gebäude Rathaus sichtbar",
     "description": "Grüner Kasten",
@@ -389394,6 +389395,55 @@
     "coordinates": [
       7.4283009,
       46.9524713
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14386918601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Rédaction 20 Minutes",
+    "description": "Sonner à l'entrée des bureaux",
+    "email": "isabelle.heirich@20minutes.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "TX Group SA",
+    "phone": "+41 76 409 47 43",
+    "id": "node/14386918601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.618907,
+      46.522896
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14386982601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Tribune de Genève",
+    "description": "A l'entrée du 4ème étage",
+    "email": "barbara.yilmaz-collet@tx.group",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "4",
+    "operator": "Entreprise privée",
+    "phone": "+41 22 322 40 00",
+    "id": "node/14386982601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.138254,
+      46.202668
     ]
   }
 }
