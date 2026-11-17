@@ -1707,6 +1707,7 @@
   "id": "node/9121866714",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-17",
     "defibrillator:location": "Im Bankomatenraum, nach der Glastür links an der Wand",
     "emergency": "defibrillator",
     "emergency:phone": "144",
