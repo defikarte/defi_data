@@ -11088,19 +11088,22 @@
   "type": "Feature",
   "id": "node/9604701904",
   "properties": {
-    "defibrillator:location": "4. Stock im AZ Medienhaus, Empfang VZ VermögensZentrum",
+    "access": "permissive",
+    "defibrillator:location": "VZ VermögensZentrum Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "3",
+    "opening_hours": "8:00 - 17:00",
     "operator": "reaplus GmbH",
     "id": "node/9604701904"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0477402,
-      47.3917746
+      8.0468994,
+      47.3908042
     ]
   }
 },

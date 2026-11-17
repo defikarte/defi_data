@@ -118311,9 +118311,10 @@
   "type": "Feature",
   "id": "node/9041755617",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Lift AG Regensdorf, Querstrasse 37, 8180 Regensdorf",
-    "description": "Standort: Eingang Produktionshalle und 2 OG. beim Lift über Haupteingang oder Rampe Warenannahme bei Althardtstrasse",
+    "description": "Standort: Eingang Produktionshalle und 2 OG. Grossraumbüro im Schrank",
+    "email": "info@liftag.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -151714,19 +151715,22 @@
   "type": "Feature",
   "id": "node/9604701904",
   "properties": {
-    "defibrillator:location": "4. Stock im AZ Medienhaus, Empfang VZ VermögensZentrum",
+    "access": "permissive",
+    "defibrillator:location": "VZ VermögensZentrum Empfang",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "3",
+    "opening_hours": "8:00 - 17:00",
     "operator": "reaplus GmbH",
     "id": "node/9604701904"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0477402,
-      47.3917746
+      8.0468994,
+      47.3908042
     ]
   }
 },
@@ -260479,13 +260483,13 @@
   "type": "Feature",
   "id": "node/11524133169",
   "properties": {
-    "defibrillator:location": "Givaudan International SA",
+    "defibrillator:location": "Givaudan Innovation Center",
     "description": "Einsatzmaterial der Givaudan Betriebssanität",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "07:00 - 18:00",
+    "opening_hours": "07:00 - 17:00",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11524133169"
   },
@@ -369114,7 +369118,7 @@
   "type": "Feature",
   "id": "node/13911768601",
   "properties": {
-    "defibrillator:location": "Eingang",
+    "defibrillator:location": "Givaudan Business Center",
     "description": "08:00- 12:00 13:00-16:00",
     "emergency": "defibrillator",
     "emergency:phone": "144",
