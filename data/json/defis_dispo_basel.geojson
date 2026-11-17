@@ -1492,15 +1492,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-19:00; Sa 07:30-18:00",
+    "opening_hours": "Mo-sa 7:30-20:00",
     "operator": "Migros",
     "id": "node/9004540917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5731795,
-      47.532501
+      7.5731796,
+      47.5325009
     ]
   }
 },

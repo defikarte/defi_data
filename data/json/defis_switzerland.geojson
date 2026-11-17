@@ -7180,6 +7180,7 @@
   "type": "Feature",
   "id": "node/5719351201",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T22",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -84578,7 +84579,7 @@
   "type": "Feature",
   "id": "node/8425555999",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 91",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84603,7 +84604,7 @@
   "type": "Feature",
   "id": "node/8425556295",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 75",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84628,7 +84629,7 @@
   "type": "Feature",
   "id": "node/8425569481",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 310",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84644,7 +84645,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5624228,
+      8.5624229,
       47.4522143
     ]
   }
@@ -84678,7 +84679,7 @@
   "type": "Feature",
   "id": "node/8425572253",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 100",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84694,7 +84695,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.56108,
+      8.5610799,
       47.4527404
     ]
   }
@@ -84703,7 +84704,7 @@
   "type": "Feature",
   "id": "node/8425583115",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84728,7 +84729,7 @@
   "type": "Feature",
   "id": "node/8425596397",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84753,7 +84754,7 @@
   "type": "Feature",
   "id": "node/8425597832",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 386",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84770,7 +84771,7 @@
     "type": "Point",
     "coordinates": [
       8.5622283,
-      47.4522029
+      47.452203
     ]
   }
 },
@@ -84778,7 +84779,7 @@
   "type": "Feature",
   "id": "node/8425603376",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-06-01",
     "defibrillator:location": "Raumnummer 100",
     "emergency": "defibrillator",
@@ -84795,7 +84796,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5614634,
+      8.5614633,
       47.4525379
     ]
   }
@@ -84905,8 +84906,8 @@
   "type": "Feature",
   "id": "node/8425616083",
   "properties": {
-    "access": "yes",
-    "defibrillator:location": "Raumnummer 901\n\nColumn By Pret near B25",
+    "access": "private",
+    "defibrillator:location": "Raumnummer 901 Column By Pret near B25",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -84981,7 +84982,7 @@
   "type": "Feature",
   "id": "node/8425628674",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 871",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85161,7 +85162,7 @@
   "type": "Feature",
   "id": "node/8425649787",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 300",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85186,7 +85187,7 @@
   "type": "Feature",
   "id": "node/8425651075",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-01-03",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
@@ -85203,7 +85204,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5615303,
+      8.5615304,
       47.4502838
     ]
   }
@@ -85212,7 +85213,7 @@
   "type": "Feature",
   "id": "node/8425653640",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-06-01",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
@@ -85263,7 +85264,7 @@
   "type": "Feature",
   "id": "node/8425657008",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-05-20",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
@@ -85280,8 +85281,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5609593,
-      47.4494641
+      8.5609592,
+      47.449464
     ]
   }
 },
@@ -85289,7 +85290,7 @@
   "type": "Feature",
   "id": "node/8425663655",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 989",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85306,7 +85307,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5573925,
+      8.5573924,
       47.4513107
     ]
   }
@@ -85340,7 +85341,7 @@
   "type": "Feature",
   "id": "node/8425669125",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85365,7 +85366,7 @@
   "type": "Feature",
   "id": "node/8425670307",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 907",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85381,7 +85382,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5603283,
+      8.5603282,
       47.4506464
     ]
   }
@@ -85390,7 +85391,7 @@
   "type": "Feature",
   "id": "node/8425679537",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 800",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85406,7 +85407,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5602673,
+      8.5602672,
       47.4510538
     ]
   }
@@ -85415,7 +85416,7 @@
   "type": "Feature",
   "id": "node/8425682245",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 170",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85432,7 +85433,7 @@
     "type": "Point",
     "coordinates": [
       8.5608466,
-      47.4512407
+      47.4512406
     ]
   }
 },
@@ -85440,7 +85441,7 @@
   "type": "Feature",
   "id": "node/8425683456",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 800",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85465,6 +85466,7 @@
   "type": "Feature",
   "id": "node/8425691486",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 720",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85481,7 +85483,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.570141,
+      8.5701409,
       47.4534043
     ]
   }
@@ -85516,7 +85518,7 @@
   "type": "Feature",
   "id": "node/8425696231",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-07-08",
     "defibrillator:location": "Raumnummer 750",
     "emergency": "defibrillator",
@@ -85533,8 +85535,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5532461,
-      47.4612588
+      8.553246,
+      47.4612587
     ]
   }
 },
@@ -85568,7 +85570,7 @@
   "type": "Feature",
   "id": "node/8425701626",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 900",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85593,6 +85595,7 @@
   "type": "Feature",
   "id": "node/8425712010",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 510",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85609,8 +85612,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5714997,
-      47.4526241
+      8.5714998,
+      47.4526243
     ]
   }
 },
@@ -85618,6 +85621,7 @@
   "type": "Feature",
   "id": "node/8425722707",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 360",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85634,8 +85638,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5567076,
-      47.4610981
+      8.5567078,
+      47.4610982
     ]
   }
 },
@@ -85643,6 +85647,7 @@
   "type": "Feature",
   "id": "node/8425726619",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 545",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85659,7 +85664,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5679081,
+      8.5679082,
       47.453844
     ]
   }
@@ -85668,7 +85673,7 @@
   "type": "Feature",
   "id": "node/8425729461",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 250",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85685,7 +85690,7 @@
     "type": "Point",
     "coordinates": [
       8.564797,
-      47.4508304
+      47.4508305
     ]
   }
 },
@@ -85718,6 +85723,7 @@
   "type": "Feature",
   "id": "node/8425738769",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 340",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85734,8 +85740,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5700331,
-      47.4527291
+      8.570033,
+      47.452729
     ]
   }
 },
@@ -85743,7 +85749,7 @@
   "type": "Feature",
   "id": "node/8425743754",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 250",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85759,8 +85765,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5623036,
-      47.4507896
+      8.5623039,
+      47.4507897
     ]
   }
 },
@@ -85768,7 +85774,7 @@
   "type": "Feature",
   "id": "node/8425744089",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 730",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85793,7 +85799,7 @@
   "type": "Feature",
   "id": "node/8425745462",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Servicecenter ZRH",
     "description": "ZUKO am Eingang rufen",
     "emergency": "defibrillator",
@@ -85819,7 +85825,7 @@
   "type": "Feature",
   "id": "node/8425747070",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 450",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85835,7 +85841,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5556036,
+      8.5556035,
       47.4610488
     ]
   }
@@ -85844,7 +85850,7 @@
   "type": "Feature",
   "id": "node/8425749230",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 150",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85860,7 +85866,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5575507,
+      8.5575506,
       47.4609543
     ]
   }
@@ -85894,7 +85900,7 @@
   "type": "Feature",
   "id": "node/8425766247",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 750",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85910,8 +85916,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5533876,
-      47.4612492
+      8.5533875,
+      47.4612493
     ]
   }
 },
@@ -85919,6 +85925,7 @@
   "type": "Feature",
   "id": "node/8425766248",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 100",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85944,7 +85951,7 @@
   "type": "Feature",
   "id": "node/8425767491",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85969,7 +85976,7 @@
   "type": "Feature",
   "id": "node/8425768484",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 350",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85985,7 +85992,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5569243,
+      8.5569244,
       47.4609981
     ]
   }
@@ -85994,7 +86001,7 @@
   "type": "Feature",
   "id": "node/8425768489",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 270",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -86010,7 +86017,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5630952,
+      8.5630953,
       47.4520178
     ]
   }
@@ -86019,7 +86026,7 @@
   "type": "Feature",
   "id": "node/8425781368",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 200",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -86035,7 +86042,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.56217,
+      8.5621701,
       47.4503008
     ]
   }
@@ -86044,6 +86051,7 @@
   "type": "Feature",
   "id": "node/8425781369",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 200",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -86060,8 +86068,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5514903,
-      47.4452593
+      8.5514899,
+      47.4452592
     ]
   }
 },
@@ -86069,7 +86077,7 @@
   "type": "Feature",
   "id": "node/8425785450",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 450",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -86085,7 +86093,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5621177,
+      8.5621178,
       47.4497544
     ]
   }
@@ -86094,7 +86102,7 @@
   "type": "Feature",
   "id": "node/8425789243",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 450",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -86110,8 +86118,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5624309,
-      47.4495675
+      8.5624306,
+      47.4495677
     ]
   }
 },
@@ -86119,6 +86127,7 @@
   "type": "Feature",
   "id": "node/8425793496",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 450",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -113176,6 +113185,7 @@
   "type": "Feature",
   "id": "node/8922690817",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Hyatt Regency Gym G8",
     "description": "im Gym der 8ten Etage",
     "emergency": "defibrillator",
@@ -117264,15 +117274,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-19:00; Sa 07:30-18:00",
+    "opening_hours": "Mo-sa 7:30-20:00",
     "operator": "Migros",
     "id": "node/9004540917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5731795,
-      47.532501
+      7.5731796,
+      47.5325009
     ]
   }
 },
@@ -256641,7 +256651,7 @@
   "type": "Feature",
   "id": "node/11421360969",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Werft 3, Seite von Tor 140, bei Lift neben Stempelkasten",
     "description": "nur für Leute innerhalb Flughafenareal verfügbar",
     "emergency": "defibrillator",
@@ -256655,8 +256665,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5649026,
-      47.4422623
+      8.5649022,
+      47.4422625
     ]
   }
 },
@@ -274662,9 +274672,9 @@
   "type": "Feature",
   "id": "node/11839050471",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Bogenhangar",
-    "description": "Nur für Flughafen Mitarbeiter während Betrieb zugänglich, ",
+    "description": "Nur für Flughafen Mitarbeiter während Betrieb zugänglich,",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -341334,8 +341344,8 @@
   "type": "Feature",
   "id": "node/13234986401",
   "properties": {
+    "access": "private",
     "defibrillator:location": "5. Stock vor den Aufzügen",
-    "description": "Jederzeit",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -342968,9 +342978,9 @@
   "type": "Feature",
   "id": "node/13266930603",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Gate Gourmet Hauptgebäude",
-    "description": "beim Warenlift  rechts neben Pot Wash Abteilung ,,nur intern  oder mit Zutrittsberechtigung erreichbar",
+    "description": "beim Warenlift rechts neben Pot Wash Abteilung ,,nur intern oder mit Zutrittsberechtigung erreichbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -343898,7 +343908,7 @@
   "type": "Feature",
   "id": "node/13283123001",
   "properties": {
-    "access": "permissive",
+    "access": "private",
     "defibrillator:location": "Werft 2, Mitte",
     "description": "Flughafen Areal",
     "emergency": "defibrillator",
@@ -343912,8 +343922,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5676704,
-      47.4431513
+      8.5676705,
+      47.4431514
     ]
   }
 },
@@ -345340,6 +345350,7 @@
   "type": "Feature",
   "id": "node/13328098901",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T26n",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345361,6 +345372,7 @@
   "type": "Feature",
   "id": "node/13328101201",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T26a",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345373,8 +345385,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5695327,
-      47.4431173
+      8.5695331,
+      47.4431169
     ]
   }
 },
@@ -345382,6 +345394,7 @@
   "type": "Feature",
   "id": "node/13328104601",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T42",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345403,6 +345416,7 @@
   "type": "Feature",
   "id": "node/13328105601",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T12",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345424,6 +345438,7 @@
   "type": "Feature",
   "id": "node/13328112301",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T27",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345436,7 +345451,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5698188,
+      8.5698187,
       47.4450218
     ]
   }
@@ -345445,6 +345460,7 @@
   "type": "Feature",
   "id": "node/13328112303",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T21a",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345466,6 +345482,7 @@
   "type": "Feature",
   "id": "node/13328114601",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T14",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345478,7 +345495,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5682705,
+      8.5682704,
       47.4448926
     ]
   }
@@ -345487,6 +345504,7 @@
   "type": "Feature",
   "id": "node/13328115001",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T14",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345508,6 +345526,7 @@
   "type": "Feature",
   "id": "node/13328117201",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T10",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -345529,6 +345548,7 @@
   "type": "Feature",
   "id": "node/13328120401",
   "properties": {
+    "access": "private",
     "defibrillator:location": "SR Technics, Building T21b",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -346408,7 +346428,7 @@
     "access": "yes",
     "addr:city": "Aarau",
     "addr:housenumber": "30",
-    "addr:postcode": "5001",
+    "addr:postcode": "5000",
     "addr:street": "Rohrerstrasse",
     "defibrillator:location": "Vor Eingang",
     "description": "Grünerkasten",
@@ -371669,9 +371689,8 @@
   "type": "Feature",
   "id": "node/13960617102",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Kieser, beim Eingang schräg rechts",
-    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -371684,7 +371703,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5678957,
+      8.5678958,
       47.4486212
     ]
   }
@@ -377301,27 +377320,6 @@
     "coordinates": [
       8.5363762,
       47.4524446
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14100799101",
-  "properties": {
-    "access": "customers",
-    "defibrillator:location": "Dormakaba Empfang",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
-    "operator": "Dormakaba AG",
-    "phone": "+41448189099",
-    "id": "node/14100799101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5364287,
-      47.4524244
     ]
   }
 },
@@ -389307,7 +389305,7 @@
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Rentsch Alexandra",
-    "phone": "0797120245",
+    "phone": "+41 79 712 02 45",
     "id": "node/14383462301"
   },
   "geometry": {
@@ -389354,6 +389352,30 @@
     "coordinates": [
       6.7602601,
       46.8777221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14386542901",
+  "properties": {
+    "defibrillator:location": "Entrée pricipale réception",
+    "description": "Réceptionniste sur place",
+    "email": "receptiontour@tx.group",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Tamedia",
+    "phone": "+41 21 349 45 45",
+    "id": "node/14386542901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.63486,
+      46.516763
     ]
   }
 }

@@ -59060,15 +59060,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-19:00; Sa 07:30-18:00",
+    "opening_hours": "Mo-sa 7:30-20:00",
     "operator": "Migros",
     "id": "node/9004540917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5731795,
-      47.532501
+      7.5731796,
+      47.5325009
     ]
   }
 },
@@ -157200,9 +157200,9 @@
   "type": "Feature",
   "id": "node/11839050471",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Bogenhangar",
-    "description": "Nur für Flughafen Mitarbeiter während Betrieb zugänglich, ",
+    "description": "Nur für Flughafen Mitarbeiter während Betrieb zugänglich,",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -211804,9 +211804,8 @@
   "type": "Feature",
   "id": "node/13960617102",
   "properties": {
-    "access": "private",
+    "access": "permissive",
     "defibrillator:location": "Kieser, beim Eingang schräg rechts",
-    "description": "Während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -211819,7 +211818,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5678957,
+      8.5678958,
       47.4486212
     ]
   }
@@ -215567,27 +215566,6 @@
     "coordinates": [
       8.5363762,
       47.4524446
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/14100799101",
-  "properties": {
-    "access": "customers",
-    "defibrillator:location": "Dormakaba Empfang",
-    "emergency": "defibrillator",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
-    "operator": "Dormakaba AG",
-    "phone": "+41448189099",
-    "id": "node/14100799101"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5364287,
-      47.4524244
     ]
   }
 },
@@ -223084,6 +223062,30 @@
     "coordinates": [
       7.5158867,
       47.1506805
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14386542901",
+  "properties": {
+    "defibrillator:location": "Entrée pricipale réception",
+    "description": "Réceptionniste sur place",
+    "email": "receptiontour@tx.group",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-17:00",
+    "operator": "Tamedia",
+    "phone": "+41 21 349 45 45",
+    "id": "node/14386542901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.63486,
+      46.516763
     ]
   }
 }
