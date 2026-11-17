@@ -25,5 +25,22 @@
       }
     ],
     "detected_at": "2026-11-16T08:49:22.346046+00:00"
+  },
+  {
+    "key": "node/14383462301",
+    "name": "Rentsch Alexandra",
+    "has_name": false,
+    "detail": "AED Lifepak CR2",
+    "address": null,
+    "lon": 7.6781856,
+    "lat": 47.0426977,
+    "changes": [
+      {
+        "label": "Telefon",
+        "old": "0797120245",
+        "new": "+41 79 712 02 45"
+      }
+    ],
+    "detected_at": "2026-11-17T13:50:10.429610+00:00"
   }
 ]
