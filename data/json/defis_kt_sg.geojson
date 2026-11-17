@@ -25604,9 +25604,11 @@
   "properties": {
     "defibrillator:location": "Restaurant Chrüzegg",
     "description": "Während Betriebszeiten verfügbar",
+    "email": "info@chruezegg.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "operator": "Berggasthaus Chrüzegg",
     "phone": "+41 79 318 57 33",
     "source": "local_knowledge, defikarte.ch",

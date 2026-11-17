@@ -166244,6 +166244,28 @@
       47.0426977
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14384134205",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Aussenwand",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14384134205"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.7602601,
+      46.8777221
+    ]
+  }
 }
 ]
 }
