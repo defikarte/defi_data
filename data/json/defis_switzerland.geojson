@@ -68912,6 +68912,7 @@
   "type": "Feature",
   "id": "node/7820028706",
   "properties": {
+    "access": "private",
     "defibrillator:location": "unten neben den Mitarbeitende Ablagen",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -84652,7 +84653,7 @@
   "type": "Feature",
   "id": "node/8425570787",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 762",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84668,7 +84669,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5613177,
+      8.5613176,
       47.4527567
     ]
   }
@@ -84803,7 +84804,7 @@
   "type": "Feature",
   "id": "node/8425606223",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 100",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84820,7 +84821,7 @@
     "type": "Point",
     "coordinates": [
       8.5610729,
-      47.4527588
+      47.4527589
     ]
   }
 },
@@ -84828,7 +84829,7 @@
   "type": "Feature",
   "id": "node/8425607904",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 700",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84844,7 +84845,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5614334,
+      8.5614335,
       47.4535138
     ]
   }
@@ -84853,7 +84854,7 @@
   "type": "Feature",
   "id": "node/8425611367",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 700",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84878,6 +84879,7 @@
   "type": "Feature",
   "id": "node/8425613587",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 930",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -84928,13 +84930,13 @@
   "type": "Feature",
   "id": "node/8425621621",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-08-05",
     "defibrillator:location": "Raumnummer 830",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0.5",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Flughafen Zürich AG",
     "phone": "+41 43 816 24 24",
@@ -84954,7 +84956,7 @@
   "type": "Feature",
   "id": "node/8425628638",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 350",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -84970,8 +84972,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5616958,
-      47.4538303
+      8.5616957,
+      47.4538304
     ]
   }
 },
@@ -85004,12 +85006,12 @@
   "type": "Feature",
   "id": "node/8425630720",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 960",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0.5",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Flughafen Zürich AG",
     "phone": "+41 43 816 24 24",
@@ -85029,7 +85031,7 @@
   "type": "Feature",
   "id": "node/8425630958",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-06-01",
     "defibrillator:location": "Raumnummer 920",
     "emergency": "defibrillator",
@@ -85046,7 +85048,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5580263,
+      8.5580262,
       47.453867
     ]
   }
@@ -85055,6 +85057,7 @@
   "type": "Feature",
   "id": "node/8425632614",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 930",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85080,7 +85083,7 @@
   "type": "Feature",
   "id": "node/8425637810",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-08-05",
     "defibrillator:location": "Raumnummer 840",
     "emergency": "defibrillator",
@@ -85106,7 +85109,7 @@
   "type": "Feature",
   "id": "node/8425641767",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "check_date": "2026-08-05",
     "defibrillator:location": "Raumnummer 960",
     "emergency": "defibrillator",
@@ -85132,7 +85135,7 @@
   "type": "Feature",
   "id": "node/8425647132",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 100",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85235,7 +85238,7 @@
   "type": "Feature",
   "id": "node/8425653641",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 088B",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85312,7 +85315,7 @@
   "type": "Feature",
   "id": "node/8425669085",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Raumnummer 090B",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -85328,7 +85331,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5604842,
+      8.5604841,
       47.452792
     ]
   }
@@ -85487,6 +85490,7 @@
   "type": "Feature",
   "id": "node/8425696196",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Raumnummer 910",
     "description": "nur mit Zugangskarte erreichbar",
     "emergency": "defibrillator",
@@ -85503,8 +85507,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5645712,
-      47.4539484
+      8.5645713,
+      47.4539483
     ]
   }
 },
