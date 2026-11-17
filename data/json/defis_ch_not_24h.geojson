@@ -223088,6 +223088,24 @@
       46.516763
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14386581958",
+  "properties": {
+    "defibrillator:location": "Eingang rein, Treppe hoch",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "wheelchair": "no",
+    "id": "node/14386581958"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4283009,
+      46.9524713
+    ]
+  }
 }
 ]
 }
