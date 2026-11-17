@@ -41,7 +41,7 @@ osm_id,osm_type,lat,lon,access,addr:housenumber,addr:street,check_date,defibrill
 7644008618,node,47.6969895,8.6344057,permissive,,,,Stadthaus Haus A,Beim Personaleingang links,,defibrillator,144,,node/7644008618,yes,,,Mo-Fr 07:00-17:00,,,,,,,,
 7836638224,node,47.6941096,8.6377658,permissive,,,,In der Rhybadi,Bei Garderobe Kinderhägli,,defibrillator,144,,node/7836638224,yes,0,,May-Sep 08:00-22:00,Stadt Schaffhausen,,,,,,,
 7900550879,node,47.6971001,8.633557,yes,,,2025-12-31,"am Fronwagplatz, an der Lampe",,,defibrillator,144,street_lamp,node/7900550879,no,,,24/7,Stadt Schaffhausen,,,,,defibrillator.ch,,yes
-7902352988,node,47.6673657,8.4672021,yes,,,,Beim gelben Briefkasten im Zwischengang,,corina.schlaepfer@wilchingen.ch,defibrillator,144,,node/7902352988,no,0,,24/7,Gemeinde Wilchingen,+41 52 632 65 03,,,,,,
+7902352988,node,47.6673657,8.4672021,yes,,,,"Storchen, Gemeindeverwaltung",Beim gelben Briefkasten im Zwischengang,corina.schlaepfer@wilchingen.ch,defibrillator,144,,node/7902352988,no,0,,24/7,Gemeinde Wilchingen,+41 52 632 65 03,,,,,,
 7902352989,node,47.6723455,8.4714247,,,,,Damenumkleide,während den Sommermonaten zugänglich wenn Badi geöffnet ist,,defibrillator,144,,node/7902352989,yes,,,Mo-Su 08:00-21:00,,,,,,,,
 8040757092,node,47.6592651,8.8596552,yes,,,,Im Rathaus,,,defibrillator,144,,node/8040757092,yes,,,Mo-Fr 08:00-17:00,,,,,,,,
 8278094210,node,47.572971,8.5608156,yes,,,,aussen an der Wand beim Gemeindehaus,,,defibrillator,144,,node/8278094210,no,,,24/7,,,,,,,,
@@ -205,3 +205,5 @@ osm_id,osm_type,lat,lon,access,addr:housenumber,addr:street,check_date,defibrill
 14372052901,node,47.6948989,8.6334216,permissive,,,,"Frauengasse 17, Obergericht",Aussen klingeln. AED befindet sich im EG bei der Erste Hilfe Station,hochbauamt@sh.ch,defibrillator,144,,node/14372052901,yes,0,,Mo - Fr 08:00 -17:00,Kanton Schaffhausen Hochbauamt,+41 52 632 73 35,,,,,,
 14372075101,node,47.7035777,8.6291319,permissive,,,,KESB. 2. OG Korridor Mite,Beim Empfang melden,hochbauamt@sh.ch,defibrillator,144,,node/14372075101,yes,2,,Mo - Fr 08:00 -17:00,Kanton Schaffhausen Hochbauamt,+41 52 632 73 35,,,,,,
 14372076401,node,47.704772,8.6297292,permissive,,,,RAV Kantonale Verwaltung Schaffhausen,Sanitätsraum 2.OG,hochbauamt@sh.ch,defibrillator,144,,node/14372076401,yes,2,,Mo - Fr 08:00 -17:00,Kanton Schaffhausen Hochbauamt,+41 52 632 73 35,,,,,,
+14382823101,node,47.6630679,8.4910972,yes,,,,Eingang der reformierten Kirche Osterfingen,Im Vorraum / Eingang der reformierten Kirche Osterfingen,corina.schlaepfer@wilchingen.ch,defibrillator,144,,node/14382823101,yes,,,24/7,Gemeinde,+41526326502,,,,,,
+14382849201,node,47.6798055,8.4623989,yes,,,,Kantine Külling AG,"Schrank, neben Notfallsäule bei der Kantone Külling AG",corina.schlaepfer@wilchingen.ch,defibrillator,144,,node/14382849201,no,0,,24/7,Gemeinde,+41526326502,,,,,,

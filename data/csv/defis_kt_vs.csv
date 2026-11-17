@@ -238,7 +238,7 @@ Achtung: Betriebszeiten beachten (saisonal unterschiedlich!)",,defibrillator,144
 12208526840,node,46.3688279,8.2121205,,,,,,,,,,,,"Kehrichtsammelstelle, Bushaltestelle Fäld",,,,defibrillator,144,,node/12208526840,no,,,,,,,Gemeinde Fäld,,,,,,,,,,,,,,,,
 12223973601,node,46.0223994,7.748693,yes,,,,,,,,,,,Sekratariat Sportarena,,An Aussenfassade Richtung Tennisplätze,,defibrillator,144,,node/12223973601,no,,,,,,,Gemeinde Zermatt,,,,,,,,,,,,,,,,
 12237797001,node,46.1217172,7.23287,permissive,,,,,,,,,,,Restaurant Croix de Coeur,,während den Öffnungszeiten,,defibrillator,144,,node/12237797001,yes,,,,,,,,,,,,,,,,,,,,,,,
-12250098784,node,46.0237332,7.7477727,yes,,,,,,,Aivia,,,,"At a column of the roof, facing towards Bahnhofsplatz",,,,defibrillator,144,,node/12250098784,no,,,,,,24/7,,,3b6fc850-cb46-4c1a-8eb7-57de7971fbbb,,,,,,,,,,,,,,
+12250098784,node,46.0238246,7.7477742,yes,,,,,,,Aivia,,,,"Mounted on column, facing Bahnhofsplatz",,,,defibrillator,144,,node/12250098784,no,,,,,,24/7,,,3b6fc850-cb46-4c1a-8eb7-57de7971fbbb,,,,,,,,,,,,,,
 12258196701,node,46.2409293,7.3063156,,,,,,,,,,,,arrête de bus,,Sous l‘abri du bus,,defibrillator,144,,node/12258196701,no,,,,,,24/7,Commine de Conthey,,,,,,,,,,,,,,,,
 12258220384,node,46.1713507,7.1870236,yes,,,,,,,,,,,Dans le hall d'entrée,,,,defibrillator,144,,node/12258220384,yes,0,,,,,,,,,,,,,,,,,,,,,,
 12338844401,node,46.5361078,8.3590829,yes,,,,,,,,,,,Installationsplatz Baustelle Sanierung Furkatunnel,,"Zugang nur im Notfall erlaubt, ansonsten Zugang für unbefugte verboten. Der Defi befindet sich an der Aussenseite der Halle und ist in einem beleuchteten Kasten gelagert.",,defibrillator,144,,node/12338844401,no,0,,,,,24/7,ARGE Marti Furkatunnel,,,,+41795612240,,,,,,,,,,"local_knowledge, defikarte.ch",,
