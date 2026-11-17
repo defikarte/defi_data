@@ -21706,16 +21706,11 @@
   "id": "node/8560997397",
   "properties": {
     "access": "private",
-    "defibrillator:location": "Hauseingang",
-    "description": "bei Stoll klingeln",
-    "email": "dani_stoll@bluewin.ch",
+    "defibrillator:location": "Nicht mehr vorhanden",
+    "description": "Nicht mehr vorhanden",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "First Responder Wilchingen/ Dani Stoll",
-    "phone": "+41 79 602 82 42",
     "id": "node/8560997397"
   },
   "geometry": {

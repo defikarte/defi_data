@@ -30338,10 +30338,15 @@
   "type": "Feature",
   "id": "node/7637819065",
   "properties": {
-    "description": "Rezeption",
+    "access": "yes",
+    "defibrillator:location": "Im Gestell hinter Empfang Restaurant (nicht an Reception Hotel)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
     "name": "Hotel Sonne",
+    "opening_hours": "Mo-Th 07:00-23:30; Fr-Sa 07:00-24:30; Su,PH 08:00-22:00",
+    "operator": "Hotel Sonne",
     "id": "node/7637819065"
   },
   "geometry": {
@@ -46967,6 +46972,26 @@
     "coordinates": [
       8.5336944,
       47.286565
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8560997397",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Nicht mehr vorhanden",
+    "description": "Nicht mehr vorhanden",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "id": "node/8560997397"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4697665,
+      47.6675055
     ]
   }
 },
