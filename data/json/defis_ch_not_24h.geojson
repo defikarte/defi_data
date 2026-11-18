@@ -162505,21 +162505,21 @@
   "type": "Feature",
   "id": "node/11985922069",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Beim Haupteingang, hinten rechts neben der Schiebetür.",
     "description": "Während den Öffnungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:30 - 17:30",
     "operator": "Swiss International Air Lines",
     "id": "node/11985922069"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5776979,
-      47.451584
+      8.5776977,
+      47.4515841
     ]
   }
 },

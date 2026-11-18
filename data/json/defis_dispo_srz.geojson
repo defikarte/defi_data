@@ -47853,7 +47853,7 @@
   "type": "Feature",
   "id": "node/10537274009",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "defibrillator:location": "An der Wand hinter des Hauseingangs (im Freien)",
     "description": "AED Schrank an der Seite öffnen, Tasche entnehmen. In der Tasche befindet sich alles Zubehör. Bitte nach Verwendung Information an 079 651 55 93, danke!",
     "emergency": "defibrillator",
@@ -47869,7 +47869,7 @@
     "type": "Point",
     "coordinates": [
       8.4943199,
-      47.4958834
+      47.4958843
     ]
   }
 },
@@ -75520,21 +75520,21 @@
   "type": "Feature",
   "id": "node/11985922069",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Beim Haupteingang, hinten rechts neben der Schiebetür.",
     "description": "Während den Öffnungszeiten Verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:30 - 17:30",
     "operator": "Swiss International Air Lines",
     "id": "node/11985922069"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5776979,
-      47.451584
+      8.5776977,
+      47.4515841
     ]
   }
 },

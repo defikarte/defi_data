@@ -87485,7 +87485,7 @@
   "type": "Feature",
   "id": "node/10537274009",
   "properties": {
-    "access": "private",
+    "access": "yes",
     "defibrillator:location": "An der Wand hinter des Hauseingangs (im Freien)",
     "description": "AED Schrank an der Seite öffnen, Tasche entnehmen. In der Tasche befindet sich alles Zubehör. Bitte nach Verwendung Information an 079 651 55 93, danke!",
     "emergency": "defibrillator",
@@ -87501,7 +87501,7 @@
     "type": "Point",
     "coordinates": [
       8.4943199,
-      47.4958834
+      47.4958843
     ]
   }
 },
