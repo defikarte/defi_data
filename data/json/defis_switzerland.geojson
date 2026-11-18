@@ -56372,18 +56372,22 @@
   "type": "Feature",
   "id": "node/7637818890",
   "properties": {
+    "access": "private",
+    "defibrillator:location": "Ebenaustrasse 20",
     "description": "beim Eingang Treppenhaus beim Lift",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Hochschule Technik & Architektur",
+    "operator": "Hochschule Luzern",
     "id": "node/7637818890"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3075549,
-      47.0137349
+      8.307555,
+      47.0137352
     ]
   }
 },
@@ -56391,17 +56395,20 @@
   "type": "Feature",
   "id": "node/7637818891",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Technikumstrasse 21, Trakt 2",
     "description": "Trakt 2 Beim Empfang D209",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Hochschule Trakt 2",
+    "operator": "Hochschule Luzern",
     "id": "node/7637818891"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3060973,
+      8.3060972,
       47.0138808
     ]
   }
@@ -56410,11 +56417,15 @@
   "type": "Feature",
   "id": "node/7637818892",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Technikumstrasse 21, Trakt 3",
     "description": "Trakt 3 Elektrolabor C336",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
     "name": "Hochschule Trakt 3",
+    "operator": "Hochschule Luzern",
     "id": "node/7637818892"
   },
   "geometry": {
@@ -56429,11 +56440,14 @@
   "type": "Feature",
   "id": "node/7637818893",
   "properties": {
-    "description": "Trakt 4 Werkstatt Architektur E406",
+    "access": "permissive",
+    "defibrillator:location": "Technikumstrasse 21, Trakt 4",
+    "description": "Trakt 4 Werkstatt Architektur E407",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Hochschule Trakt 4",
+    "operator": "Hochschule Luzern",
     "id": "node/7637818893"
   },
   "geometry": {
@@ -56448,18 +56462,21 @@
   "type": "Feature",
   "id": "node/7637818894",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Technikumstrasse 21, Trakt 5",
     "description": "Trakt 5 Foyer Mensa D525",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Hochschule Trakt 5",
+    "operator": "Hochschule Luzern",
     "id": "node/7637818894"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3051959,
-      47.0142565
+      8.305196,
+      47.0142564
     ]
   }
 },
@@ -260727,7 +260744,7 @@
   "type": "Feature",
   "id": "node/11527654675",
   "properties": {
-    "defibrillator:location": "Gemeindehaus D (Türmli) im Treppenhaus EG",
+    "defibrillator:location": "Gemeindehaus E (Türmli) im Treppenhaus EG",
     "description": "während der öffnungszeiten der Verwaltung verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -260741,7 +260758,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6281288,
+      8.628129,
       47.443333
     ]
   }
@@ -303234,14 +303251,13 @@
   "type": "Feature",
   "id": "node/12373640201",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "defibrillator:location": "Trakt 1 Passerelle innen",
-    "description": "Während Öffnungszeiten verfügbar ",
+    "description": "Während den Öffnungszeiten verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "06:30- 21:30",
     "operator": "Hochschule Technik und Archtektur",
     "phone": "+41 41 349 32 09",
     "source": "local_knowledge, defikarte.ch",

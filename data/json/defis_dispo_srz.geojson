@@ -66572,7 +66572,7 @@
   "type": "Feature",
   "id": "node/11527654675",
   "properties": {
-    "defibrillator:location": "Gemeindehaus D (Türmli) im Treppenhaus EG",
+    "defibrillator:location": "Gemeindehaus E (Türmli) im Treppenhaus EG",
     "description": "während der öffnungszeiten der Verwaltung verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -66586,7 +66586,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6281288,
+      8.628129,
       47.443333
     ]
   }
