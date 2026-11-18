@@ -114488,6 +114488,7 @@
   "type": "Feature",
   "id": "node/10763309994",
   "properties": {
+    "access": "permissive",
     "addr:city": "Zürich",
     "addr:housenumber": "11",
     "addr:postcode": "8048",
@@ -114507,8 +114508,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4827999,
-      47.394911
+      8.4827998,
+      47.3949109
     ]
   }
 },
@@ -116044,7 +116045,7 @@
   "type": "Feature",
   "id": "node/10763310065",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "addr:city": "zürich",
     "addr:housenumber": "9",
     "addr:postcode": "8048",
@@ -116074,6 +116075,7 @@
   "type": "Feature",
   "id": "node/10763310066",
   "properties": {
+    "access": "permissive",
     "addr:city": "Zürich",
     "addr:housenumber": "9",
     "addr:postcode": "8048",
@@ -116094,8 +116096,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.48256,
-      47.39426
+      8.4825601,
+      47.3942599
     ]
   }
 },
@@ -116103,6 +116105,7 @@
   "type": "Feature",
   "id": "node/10763310067",
   "properties": {
+    "access": "permissive",
     "addr:city": "Zürich",
     "addr:housenumber": "9",
     "addr:postcode": "8048",
@@ -116132,6 +116135,7 @@
   "type": "Feature",
   "id": "node/10763310068",
   "properties": {
+    "access": "permissive",
     "addr:city": "Zürich",
     "addr:housenumber": "9",
     "addr:postcode": "8048",
@@ -184727,8 +184731,8 @@
   "type": "Feature",
   "id": "node/12803801001",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Eingang N, Portierloge, SwissLife Arena",
-    "description": "während Öffnungszeiten zugänglich",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -184741,7 +184745,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4803415,
+      8.4803416,
       47.3950841
     ]
   }
@@ -184750,6 +184754,7 @@
   "type": "Feature",
   "id": "node/12803810701",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Eismeisterwerkstatt, ZSC Lions",
     "description": "während Eisbetrieb verfügbar",
     "emergency": "defibrillator",
@@ -184772,6 +184777,7 @@
   "type": "Feature",
   "id": "node/12803814201",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Business Club, Lions Auditorium, Swiss Life Arena",
     "description": "während Eventbetrieb zugänglich",
     "emergency": "defibrillator",
@@ -223188,6 +223194,7 @@
   "type": "Feature",
   "id": "node/14390220101",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Swisslifearena 3Stock Wandelhalle Windfang",
     "description": "Im Disporaum abgeschlossen",
     "emergency": "defibrillator",
@@ -223208,6 +223215,7 @@
   "type": "Feature",
   "id": "node/14390221001",
   "properties": {
+    "access": "private",
     "defibrillator:location": "Swisslifearena 4.Stock OBC",
     "description": "Beim OBC Empfang",
     "emergency": "defibrillator",
@@ -223228,6 +223236,7 @@
   "type": "Feature",
   "id": "node/14390222101",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Swisslifearena Trainingshalle",
     "emergency": "defibrillator",
     "emergency:phone": "144",
