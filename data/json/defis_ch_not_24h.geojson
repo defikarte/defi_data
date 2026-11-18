@@ -16002,8 +16002,11 @@
   "id": "node/6721750676",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-18",
+    "defibrillator:location": "Left side of the main door. Visible from the main road here.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "operator": "Gemeinde Aeschi",
     "phone": "+41 62 9557080",
     "wheelchair": "yes",
