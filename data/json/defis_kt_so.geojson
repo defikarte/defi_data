@@ -417,6 +417,7 @@
   "id": "node/7281021204",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-18",
     "defibrillator:location": "Martin-Disteli-Unterführung Bahnhof Olten",
     "description": "In Unterführung",
     "emergency": "defibrillator",

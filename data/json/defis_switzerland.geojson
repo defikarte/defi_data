@@ -38910,6 +38910,7 @@
   "id": "node/7281021204",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-18",
     "defibrillator:location": "Martin-Disteli-Unterführung Bahnhof Olten",
     "description": "In Unterführung",
     "emergency": "defibrillator",
@@ -50399,10 +50400,16 @@
   "type": "Feature",
   "id": "node/7637818537",
   "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Stationsstrasse 89",
     "description": "4.OG Cafeteria",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
     "name": "Frey&Cie Telecom AG",
+    "opening_hours": "Mo-FR 08:00 - 17:00",
+    "operator": "Frey + Cie Holding AG",
     "id": "node/7637818537"
   },
   "geometry": {
@@ -55570,16 +55577,22 @@
   "type": "Feature",
   "id": "node/7637818841",
   "properties": {
-    "description": "4.OG beim Empfang",
+    "access": "permissive",
+    "defibrillator:location": "Frey + Cie Elektro AG",
+    "description": "4.OG beim Empfang Frey + Cie Elektro AG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
     "name": "Frey&Cie Elektro AG",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Frey + Cie Elektro AG",
     "id": "node/7637818841"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.2947437,
+      8.2947438,
       47.0235734
     ]
   }
@@ -161942,8 +161955,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.526865,
-      47.1949505
+      8.5268648,
+      47.1949506
     ]
   }
 },
@@ -389559,6 +389572,29 @@
     "coordinates": [
       8.4698184,
       46.9669475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14391221101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wand zur Garageneinfahrt, Hirsmühleweg 14 / 16",
+    "description": "Schrank mit Alarm, kein Schlüssel notwendig",
+    "email": "gemeindeverwaltung@regensberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Regensberg",
+    "phone": "+41 44 527 21 00",
+    "id": "node/14391221101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4445678,
+      47.481835
     ]
   }
 }

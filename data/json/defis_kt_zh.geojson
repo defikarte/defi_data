@@ -83227,6 +83227,29 @@
       47.3958905
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14391221101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wand zur Garageneinfahrt, Hirsmühleweg 14 / 16",
+    "description": "Schrank mit Alarm, kein Schlüssel notwendig",
+    "email": "gemeindeverwaltung@regensberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "operator": "Gemeinde Regensberg",
+    "phone": "+41 44 527 21 00",
+    "id": "node/14391221101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4445678,
+      47.481835
+    ]
+  }
 }
 ]
 }
