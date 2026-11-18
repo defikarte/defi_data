@@ -16,7 +16,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 6629821167,node,47.2081866,7.5615515,permissive,Zuchwil,,14,4528,Industriestrasse,,,,,,,Hinter Fronttüre im Treppenhaus,,,,,defibrillator,144,,node/6629821167,,,,,,,Mo-Fr 07:30-18:00,DePuy Synthes,,,+41 32 720 7972,,,,
 6629821168,node,47.2163204,7.6129967,permissive,Deitingen,,22,4543,Grabmattstrasse,,,,,,,"Clubhaus FC Deitingen, nur während des Trainings und der Spiele verfügbar",,,,,defibrillator,144,,node/6629821168,,,,,,,,Einwohnergemeinde Deitingen / Im Clubhaus des FC Deitingen,,,+41 76 570 1579,,,,
 6715019540,node,47.3512779,7.9102246,yes,,,,,,,2025-03-19,,,,,Auf der linken Seite des Eingangs,,,,,defibrillator,144,,node/6715019540,,,0,,,,24/7,,,,,,,http://defibrillator.ch/,yes
-6721750676,node,47.1796096,7.6589651,yes,,,,,,,,,,,,,,,,,defibrillator,144,,node/6721750676,,,,,,,,Gemeinde Aeschi,,,+41 62 9557080,,,,yes
+6721750676,node,47.1796096,7.6589651,yes,,,,,,,2026-11-18,,,,,Left side of the main door. Visible from the main road here.,,,,,defibrillator,144,,node/6721750676,no,,,,,,,Gemeinde Aeschi,,,+41 62 9557080,,,,yes
 7281021204,node,47.3515682,7.9073316,yes,,,,,,,,,,,,Martin-Disteli-Unterführung Bahnhof Olten,In Unterführung,,,,defibrillator,144,,node/7281021204,yes,,-1,,,,24/7,,,,,,,,yes
 7533067856,node,47.4660265,7.4662965,,,,,,,,,,,,,,,,,,defibrillator,144,,node/7533067856,,,,,,,,,,,,,,,
 7554709700,node,47.2342759,7.6145503,private,,,,,,,,,,,,,,,,,defibrillator,144,,node/7554709700,,,,,,,"Mo-Tu 06:45-11:45, 12:45-17:00;Fr 06:45-11:45, 12:45-16:30;PH off",,,,,,,,
@@ -78,7 +78,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:post
 9101273185,node,47.4849093,7.5223437,yes,,,,,,,,,,,,Eingang Firma Kenny Design GmbH,,,,,defibrillator,144,,node/9101273185,no,,,,,,24/7,"Nicole Martin, Kenny Design GmbH",,,+41 61 545 99 10,,,,
 9102959692,node,47.2065288,7.5648255,yes,,,,,,,,,,,,gleich an Aussenfassade,,,,,defibrillator,144,,node/9102959692,,,0,,,Garten Wyss,24/7,Garten Wyss,,,,,,,
 9104138425,node,47.221871,7.5804923,private,,,,,,,,,,,,Aussenfassade bei Velostation,,,,,defibrillator,144,,node/9104138425,no,,,,,Biogen,24/7,Biogen,,,,,,,
-9121866714,node,47.3507628,7.9023168,yes,,,,,,,,,,,,"Im Bankomatenraum, nach der Glastür links an der Wand",,,,,defibrillator,144,,node/9121866714,yes,,0,,,,24/7,Aargauische Kantonalbank,,,+41 62 207 99 99,,,,yes
+9121866714,node,47.3507628,7.9023168,yes,,,,,,,2026-11-17,,,,,"Im Bankomatenraum, nach der Glastür links an der Wand",,,,,defibrillator,144,,node/9121866714,yes,,0,,,,24/7,Aargauische Kantonalbank,,,+41 62 207 99 99,,,,yes
 9122029900,node,47.1969664,7.5986478,yes,,,,,,,,,,,,Bei Lieferqanteneingang,,,,,defibrillator,144,,node/9122029900,,,,,,Brönnimann,24/7,,,,,,,,
 9128865040,node,47.4832507,7.6136126,yes,,,,,,,,,,,,Aussen beim Käch an der Wand richtung Strasse.,,,,,defibrillator,144,,node/9128865040,no,,,,,,24/7,,,,,,,,
 9129678917,node,47.1128067,7.3913201,private,,,,,,,,,,,,Produktion UG,,,,,defibrillator,144,,node/9129678917,yes,,-1,,,,Mo - Fr 07:00-17:00,CDR Glas AG,,,+41 79 335 50 20,,,,

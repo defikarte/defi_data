@@ -729,7 +729,7 @@ Zugang: 24/7",,defibrillator,144,,,,node/7637818917,no,,,,,,,Campus Polizeischul
 7637819061,node,47.0867621,8.2893786,,,,,,,,,,,,,,,,,Eingang Turnhalle,,defibrillator,144,,,,node/7637819061,,,,,,,,Turnhalle Räeggisingenschulhaus,,,,,,,,,,,,
 7637819062,node,47.0791382,8.300872,,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/7637819062,,,,,,,,Turnhalle Schulhaus Emmen-Dorf,,,,,,,,,,,,
 7637819063,node,47.07678,8.2916711,,,,,,,,,,,,,,,,,Haupteingang,,defibrillator,144,,,,node/7637819063,,,,,,,,Wohnheim Lindenfeld Emmen,,,,,,,,,,,,
-7637819065,node,47.1504801,8.1669863,,,,,,,,,,,,,,,,,Rezeption,,defibrillator,144,,,,node/7637819065,,,,,,,,Hotel Sonne,,,,,,,,,,,,
+7637819065,node,47.1504801,8.1669863,yes,,,,,,,,,,,,,,Im Gestell hinter Empfang Restaurant (nicht an Reception Hotel),,,,defibrillator,144,,,,node/7637819065,yes,,0,,,,,Hotel Sonne,,,"Mo-Th 07:00-23:30; Fr-Sa 07:00-24:30; Su,PH 08:00-22:00",Hotel Sonne,,,,,,,,
 7637819067,node,47.1534163,8.1676751,yes,,,,,,,,,,,,,,Schule Eich,,im Foyer,,defibrillator,144,,,,node/7637819067,no,,,,,,,Mehrzweckanlage,,,24/7,,,,,survey,,,,
 7637819069,node,47.1857945,8.0074483,,,,,,,,,,,,,,,,,Neben Haupteingang>>Musikzimmer,,defibrillator,144,,,,node/7637819069,,,,,,,,Schulhaus,,,,,,,,,,,,
 7637819070,node,47.1758019,8.0047792,,,,,,,,,,,,,,,,,"1. Zentrale, 2.Ausschafungsgefängnis",,defibrillator,144,,,,node/7637819070,,,,,,,,Strafanstalt Wauwilermoos,,,,,,,,,,,,
