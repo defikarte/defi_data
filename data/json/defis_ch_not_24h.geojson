@@ -115047,8 +115047,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6882993,
-      47.2190297
+      8.6884062,
+      47.2190635
     ]
   }
 },
@@ -223181,6 +223181,65 @@
     "coordinates": [
       6.138254,
       46.202668
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14390220101",
+  "properties": {
+    "defibrillator:location": "Swisslifearena 3Stock Wandelhalle Windfang",
+    "description": "Im Disporaum abgeschlossen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "id": "node/14390220101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4796397,
+      47.3950309
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14390221001",
+  "properties": {
+    "defibrillator:location": "Swisslifearena 4.Stock OBC",
+    "description": "Beim OBC Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "4",
+    "id": "node/14390221001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4805573,
+      47.3956219
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14390222101",
+  "properties": {
+    "defibrillator:location": "Swisslifearena Trainingshalle",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "id": "node/14390222101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4804239,
+      47.3958905
     ]
   }
 }
