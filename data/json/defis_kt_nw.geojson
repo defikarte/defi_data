@@ -2742,6 +2742,24 @@
       46.9545335
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14390523301",
+  "properties": {
+    "defibrillator:location": "Schulhaus beckenried Veloständer",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "id": "node/14390523301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4698184,
+      46.9669475
+    ]
+  }
 }
 ]
 }

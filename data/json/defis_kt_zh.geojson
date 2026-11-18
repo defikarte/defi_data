@@ -11543,6 +11543,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Bassersdorf",
     "id": "node/8491952517"
@@ -11550,8 +11551,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6293045,
-      47.4433841
+      8.6291287,
+      47.4432913
     ]
   }
 },
@@ -50392,12 +50393,13 @@
   "type": "Feature",
   "id": "node/11527654675",
   "properties": {
-    "defibrillator:location": "Gemeindehaus C vor der Einwohnerkontrolle",
+    "defibrillator:location": "Gemeindehaus D (Türmli) im Treppenhaus EG",
     "description": "während der öffnungszeiten der Verwaltung verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo - Th 08:00-11:30,14:00 - 16:30,   Fr 07:30 - 14:00",
+    "level": "0",
+    "opening_hours": "Mo 13:30 - 18:30, Tu-We 08:00 - 11:30, Th 13:30 - 16:30, Fr 07:30 - 14:00",
     "operator": "Gemeindeverwaltung Bassersdorf",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11527654675"
@@ -50405,8 +50407,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6291599,
-      47.4434616
+      8.6281288,
+      47.443333
     ]
   }
 },
@@ -50475,8 +50477,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6321053,
-      47.4393891
+      8.6318997,
+      47.4391989
     ]
   }
 },

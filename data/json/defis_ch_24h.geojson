@@ -43708,6 +43708,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Gemeinde Bassersdorf",
     "id": "node/8491952517"
@@ -43715,8 +43716,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6293045,
-      47.4433841
+      8.6291287,
+      47.4432913
     ]
   }
 },
@@ -112285,8 +112286,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6321053,
-      47.4393891
+      8.6318997,
+      47.4391989
     ]
   }
 },
