@@ -23869,7 +23869,9 @@
   "id": "node/11844242720",
   "properties": {
     "access": "yes",
+    "addr:city": "Suhr",
     "addr:housenumber": "64",
+    "addr:postcode": "5034",
     "addr:street": "Bernstrasse West",
     "defibrillator:location": "EG Foyer 1361 LTM",
     "description": "Oranger Koffer",
