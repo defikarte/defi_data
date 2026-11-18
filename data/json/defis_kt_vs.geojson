@@ -7424,6 +7424,29 @@
       46.2921174
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14390419902",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "CO des Deux Rives",
+    "description": "Accroché au mur gauche devant la porte de l’école, en haut des escaliers extérieurs",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "operator": "Cycle d’orientation",
+    "phone": "+41 27 306 46 30",
+    "id": "node/14390419902"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2106637,
+      46.1872825
+    ]
+  }
 }
 ]
 }
