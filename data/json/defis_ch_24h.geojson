@@ -76473,20 +76473,21 @@
   "id": "node/9775471917",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dürrenäscherstrasse 436 Hallwil",
+    "defibrillator:location": "Aussentor, Magazin Busi-Gartenbau",
     "description": "Beim Eingangstor befestigt",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Busi-Gartenbau",
+    "phone": "+41 79 222 34 24",
     "id": "node/9775471917"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.1727864,
-      47.3316248
+      8.1724225,
+      47.3318178
     ]
   }
 },
@@ -76747,28 +76748,6 @@
     "coordinates": [
       7.6674658,
       46.7478073
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9784670958",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Aussentor, Magazin Busi-Gartenbau",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "opening_hours": "24/7",
-    "operator": "Peter Sandmeier",
-    "phone": "+41 79 222 34 24",
-    "id": "node/9784670958"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.1725702,
-      47.3318571
     ]
   }
 },

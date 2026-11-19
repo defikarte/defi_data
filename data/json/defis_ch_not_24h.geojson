@@ -223346,6 +223346,31 @@
       47.481835
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14394842101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangsbereich Spitex St. Gallen",
+    "description": "hinter Betonsäule im Eingangsbereich",
+    "email": "office@spitex-stgallen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:00-17:00",
+    "operator": "Spitex St. Gallen",
+    "phone": "+41 71 277 66 77",
+    "id": "node/14394842101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.396237,
+      47.4389117
+    ]
+  }
 }
 ]
 }
