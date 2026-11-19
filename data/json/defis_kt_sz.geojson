@@ -4294,19 +4294,23 @@
   "type": "Feature",
   "id": "node/9761344225",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "PVA AG Eingang Süd",
+    "description": "Im Bistro",
+    "email": "info@pva",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-21:00",
-    "operator": "Firma",
-    "phone": "+41787126834",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "PVA AG",
+    "phone": "+41 55 451 95 95",
     "id": "node/9761344225"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8156815,
+      8.8156816,
       47.1924945
     ]
   }

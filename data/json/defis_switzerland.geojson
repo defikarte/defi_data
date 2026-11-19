@@ -160007,19 +160007,23 @@
   "type": "Feature",
   "id": "node/9761344225",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "PVA AG Eingang Süd",
+    "description": "Im Bistro",
+    "email": "info@pva",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 07:00-21:00",
-    "operator": "Firma",
-    "phone": "+41787126834",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-17:30",
+    "operator": "PVA AG",
+    "phone": "+41 55 451 95 95",
     "id": "node/9761344225"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8156815,
+      8.8156816,
       47.1924945
     ]
   }
@@ -389617,6 +389621,31 @@
     "coordinates": [
       9.396237,
       47.4389117
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14394899701",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Chleigrütstrasse 11, Rheinfelden",
+    "description": "Im Korridor Erdgeschoss",
+    "email": "betriebssanitaet@josefmeyerrail.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00 - 17:00",
+    "operator": "JOSEF MEYER Rail AG",
+    "phone": "+41 61 855 50 50",
+    "id": "node/14394899701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8227953,
+      47.5673821
     ]
   }
 }

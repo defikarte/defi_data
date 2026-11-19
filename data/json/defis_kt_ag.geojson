@@ -32159,6 +32159,31 @@
       47.4218434
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14394899701",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Chleigrütstrasse 11, Rheinfelden",
+    "description": "Im Korridor Erdgeschoss",
+    "email": "betriebssanitaet@josefmeyerrail.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo - Fr 07:00 - 17:00",
+    "operator": "JOSEF MEYER Rail AG",
+    "phone": "+41 61 855 50 50",
+    "id": "node/14394899701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8227953,
+      47.5673821
+    ]
+  }
 }
 ]
 }
