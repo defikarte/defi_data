@@ -16681,6 +16681,31 @@
       47.5559524
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14396122901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der Rampe beim Gewerbehaus Kraftwerk82, vis à vis der Kirche",
+    "description": "frei zugänglich",
+    "email": "matthias.hoefliger@kraftwerk-82.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kraftwerk82 AG",
+    "phone": "+41 41 914 25 25",
+    "id": "node/14396122901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2481546,
+      47.5043339
+    ]
+  }
 }
 ]
 }

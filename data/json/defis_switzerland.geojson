@@ -37978,16 +37978,18 @@
   "type": "Feature",
   "id": "node/7139430480",
   "properties": {
+    "defibrillator:location": "Feuerwehrmagazin",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Wallbach",
     "id": "node/7139430480"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9040533,
+      7.9040532,
       47.5582504
     ]
   }
@@ -38001,6 +38003,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Wallbach",
     "ref": "Schule Wallbach",
     "id": "node/7139430481"
@@ -38008,8 +38011,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8984643,
-      47.5609025
+      7.8984645,
+      47.5609026
     ]
   }
 },
@@ -48879,11 +48882,15 @@
   "type": "Feature",
   "id": "node/7637818441",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Erdgeschoss, Flur, rechte Wand hinter der Schiebetür",
+    "email": "portier@pilatus-aircraft.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Pilatus Flugzeugwerke",
+    "operator": "Pilatus Flugzeugwerke AG",
+    "phone": "+41 41 619 66 88",
     "id": "node/7637818441"
   },
   "geometry": {
@@ -389785,6 +389792,94 @@
     "coordinates": [
       8.5291418,
       47.4573511
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14396037601",
+  "properties": {
+    "defibrillator:location": "Sportzentrum Schauenburg, Liestal",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "BBZ BL",
+    "id": "node/14396037601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7248659,
+      47.4908899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14396044301",
+  "properties": {
+    "defibrillator:location": "Mühlemattstrasse 34, Liestal",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "BBZ BL",
+    "id": "node/14396044301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7284366,
+      47.489464
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14396044402",
+  "properties": {
+    "defibrillator:location": "Wellnesswelt Sole Uno",
+    "description": "Beim Bademeister im Büro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Su 08:00-22:30",
+    "operator": "Sole Uno",
+    "id": "node/14396044402"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7995131,
+      47.5576635
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14396122901",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der Rampe beim Gewerbehaus Kraftwerk82, vis à vis der Kirche",
+    "description": "frei zugänglich",
+    "email": "matthias.hoefliger@kraftwerk-82.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Kraftwerk82 AG",
+    "phone": "+41 41 914 25 25",
+    "id": "node/14396122901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2481546,
+      47.5043339
     ]
   }
 }

@@ -3963,11 +3963,15 @@
   "type": "Feature",
   "id": "node/7637818441",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Erdgeschoss, Flur, rechte Wand hinter der Schiebetür",
+    "email": "portier@pilatus-aircraft.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "name": "Pilatus Flugzeugwerke",
+    "operator": "Pilatus Flugzeugwerke AG",
+    "phone": "+41 41 619 66 88",
     "id": "node/7637818441"
   },
   "geometry": {

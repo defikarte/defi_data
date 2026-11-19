@@ -15565,6 +15565,48 @@
       47.5254682
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14396037601",
+  "properties": {
+    "defibrillator:location": "Sportzentrum Schauenburg, Liestal",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "BBZ BL",
+    "id": "node/14396037601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7248659,
+      47.4908899
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14396044301",
+  "properties": {
+    "defibrillator:location": "Mühlemattstrasse 34, Liestal",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "BBZ BL",
+    "id": "node/14396044301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7284366,
+      47.489464
+    ]
+  }
 }
 ]
 }
