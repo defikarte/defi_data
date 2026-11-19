@@ -32208,6 +32208,47 @@
       47.4765609
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14395843901",
+  "properties": {
+    "defibrillator:location": "Rolf Berchtold AG",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-11:30",
+    "id": "node/14395843901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0514958,
+      47.3029344
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14395854501",
+  "properties": {
+    "defibrillator:location": "Feldmattweg 9, 5040 Schöftland, 1. OG Südseite",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "1",
+    "operator": "Privatperson",
+    "phone": "+41 76 576 39 31",
+    "id": "node/14395854501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.0524375,
+      47.3122254
+    ]
+  }
 }
 ]
 }
