@@ -389882,6 +389882,26 @@
       47.5043339
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14396280801",
+  "properties": {
+    "defibrillator:location": "Äussere Haab Turnhalle in der Garderobe",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14396280801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.8527178,
+      47.194189
+    ]
+  }
 }
 ]
 }
