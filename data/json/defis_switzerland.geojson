@@ -389698,6 +389698,30 @@
       47.5254682
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14395465101",
+  "properties": {
+    "defibrillator:location": "Badener Tanzcentrum",
+    "description": "Im Foyer, links neben Bar aufgehängt",
+    "email": "info@badenertanzcentrum.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 14:00-22:30",
+    "operator": "Tanzschule",
+    "phone": "+41 56 203 10 10",
+    "id": "node/14395465101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3013029,
+      47.4765609
+    ]
+  }
 }
 ]
 }
