@@ -241,7 +241,7 @@ EG, Ausgang Richtung Metalli beim Lift zum Gleis 3",,defibrillator,144,node/7568
 9752635086,node,47.1277762,8.5921859,,,,,,,,,,,,defibrillator,144,node/9752635086,,,,,0,,,,,,,,,,,,
 9775580617,node,47.1811023,8.459678,,,,,,,,,"Eingang Ärztezentrum Lorze, Dorfplatz 1","Aussenwand, rechts vom Eingang",,defibrillator,144,node/9775580617,,,no,,,,,,24/7,Hirslanden,,,,,,,
 9784802617,node,47.1962202,8.5398826,yes,,,,,,,,"EG, Vorraum Kanzlei, Eingangstür rechts an der Wand",,,defibrillator,144,node/9784802617,,,yes,,,,,,Mo-Fr 08:00-17:00,"Korporation Baar-Dorf / Frau Corinna Müller, Korporationsschreiberin",,+41 41 766 09 66,,,,,
-9804074017,node,47.1949505,8.526865,,,,,,,,,Gemeindeverwaltung Baar,Beim Empfang,,defibrillator,144,node/9804074017,,,yes,,,,,,Mo - Fr 08:00 - 17:00,Gemeinde,,,,,,,
+9804074017,node,47.1949506,8.5268648,,,,,,,,,Gemeindeverwaltung Baar,Beim Empfang,,defibrillator,144,node/9804074017,,,yes,,,,,,Mo - Fr 08:00 - 17:00,Gemeinde,,,,,,,
 9836095818,node,47.1059152,8.5137121,yes,,,,,,,,"Bushaltestelle Oberdorf, Oberdorfstrasse",,,defibrillator,144,node/9836095818,,,no,,,,,,24/7,Einwohnergemeinde Walchwil,,+41 41 759 80 10,,,,,
 9836095819,node,47.1084357,8.5049093,yes,,,,,,2025-06-01,,"S-Bahnstation Hörndli, Oberdorfstrasse",Im Warteunterstand,,defibrillator,144,node/9836095819,,,no,,,,,,24/7,Einwohnergemeinde Walchwil,,+41 41 759 80 10,,,,,
 9836097944,node,47.1622218,8.4386547,yes,,,,,,,,1.OG Beim Eingang links im Gang gekenzeichnet im Schrank. Mitarbeiter wissen ALLE bescheid,,,defibrillator,144,node/9836097944,,,yes,,,,,,Mo-Fr 08:00-17:00,Multivac Export AG,,+41 417856516,,,,,
