@@ -389648,6 +389648,56 @@
       47.5673821
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14395099201",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "EG Im Lager",
+    "description": "beim Leitstand melden",
+    "email": "andrea.arabaci@gw-world.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "05:30 - 20:00",
+    "operator": "Gebrüder Weiss AG",
+    "phone": "+41 58 458 50 83",
+    "id": "node/14395099201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6829813,
+      47.5292976
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14395148102",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Lindenapotheke Rössli Muttenz",
+    "description": "Im Beratungsraum",
+    "email": "lindenapo-muttenz@hin.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:30,13:30-18:30;Sa 08:30-14:00",
+    "operator": "Lindenapotheke Rössli Muttenz",
+    "phone": "+41 61 461 25 25",
+    "id": "node/14395148102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6471245,
+      47.5254682
+    ]
+  }
 }
 ]
 }
