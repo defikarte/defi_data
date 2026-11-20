@@ -28946,6 +28946,7 @@
     "defibrillator:location": "Aussenwand Feuerwehrmagazin",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "operator": "Feuerwehr Sigriswil",
     "phone": "+41 33 251 28 20",
@@ -28954,8 +28955,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7195038,
-      46.7375164
+      7.7199058,
+      46.7372679
     ]
   }
 },
