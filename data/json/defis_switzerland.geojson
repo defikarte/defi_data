@@ -369777,31 +369777,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13922494201",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Gare de Montreux",
-    "description": "gare Avenue des Alpes/ a côté bancomat Raiffeisen",
-    "email": "francine.vaquin@sbb.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1",
-    "opening_hours": "24/7",
-    "operator": "CFF",
-    "phone": "+41 79 255 80 34",
-    "id": "node/13922494201"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      6.7900042,
-      46.4513532
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13922497601",
   "properties": {
     "access": "yes",
