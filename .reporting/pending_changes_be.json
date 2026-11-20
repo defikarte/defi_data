@@ -42,5 +42,42 @@
       }
     ],
     "detected_at": "2026-11-17T13:50:10.429610+00:00"
+  },
+  {
+    "key": "node/6565869507",
+    "name": "Wengen Tourismus",
+    "has_name": false,
+    "detail": "Tourist Center Wengen",
+    "address": "Wengiboden 1349b, 3823 Wengen",
+    "lon": 7.9218956,
+    "lat": 46.6060521,
+    "changes": [
+      {
+        "label": "Telefon",
+        "old": null,
+        "new": "+41 33 856 85 85"
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": "Informationstafel Lauberhornrennen, Rückseite",
+        "new": "Tourist Center Wengen"
+      },
+      {
+        "label": "Beschreibung",
+        "old": null,
+        "new": "Vor Haupteingang Tourist Center, neben Briefkästen"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      },
+      {
+        "label": "Innenbereich",
+        "old": "yes",
+        "new": "no"
+      }
+    ],
+    "detected_at": "2026-11-20T10:49:47.833585+00:00"
   }
 ]
