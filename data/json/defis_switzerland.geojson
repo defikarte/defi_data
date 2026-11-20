@@ -13335,19 +13335,24 @@
     "contact:email": "info@wengen.swiss",
     "contact:phone": "+41 33 856 85 85",
     "contact:website": "https://wengen.swiss",
-    "defibrillator:location": "Informationstafel Lauberhornrennen, Rückseite",
+    "defibrillator:location": "Tourist Center Wengen",
+    "description": "Vor Haupteingang Tourist Center, neben Briefkästen",
+    "email": "info@wengen.swiss",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "operator": "Wengen Tourismus",
+    "phone": "+41 33 856 85 85",
+    "source": "aed-source",
     "id": "node/6565869507"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.9216709,
-      46.6058964
+      7.9218956,
+      46.6060521
     ]
   }
 },
