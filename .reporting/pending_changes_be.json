@@ -96,5 +96,27 @@
       }
     ],
     "detected_at": "2026-11-20T12:49:12.857818+00:00"
+  },
+  {
+    "key": "node/6688231266",
+    "name": "Feuerwehr Sigriswil",
+    "has_name": false,
+    "detail": "Aussenwand Feuerwehrmagazin",
+    "address": "Schwandenstrasse 101, 3657 Schwanden bei Sigriswil",
+    "lon": 7.7199058,
+    "lat": 46.7372679,
+    "changes": [
+      {
+        "label": "Standort",
+        "old": "46.737516,7.719504",
+        "new": "46.737268,7.719906"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-11-20T21:49:29.974353+00:00"
   }
 ]
