@@ -223587,6 +223587,56 @@
       47.194189
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14398677601",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "BZI Interlaken, Turnhalle",
+    "description": "Schrank mit Alarm, Schiller AED",
+    "email": "mailbox@bzi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "7:30-16:00",
+    "operator": "Bildungszentrum Interlaken bzi",
+    "phone": "+41 33 508 48 48",
+    "id": "node/14398677601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8722489,
+      46.6855114
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14398683901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "BZI Interlaken, bei Mensa",
+    "description": "Schrank mit Alarm, Schiller AED",
+    "email": "mailbox@bzi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 7:30-16:00",
+    "operator": "Bildungszentrum Interlaken bzi",
+    "phone": "+41 33 508 48 48",
+    "id": "node/14398683901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8731551,
+      46.6854631
+    ]
+  }
 }
 ]
 }
