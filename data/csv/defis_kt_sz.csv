@@ -202,7 +202,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 9731780817,node,47.0928619,8.4539574,,,,,,,,,"Bethlehemweg 12, 6405 Immensee",,,defibrillator,144,node/9731780817,,yes,,,,Mo-Su 06:45-20:15,Gymnasium Immensee,,+41418548181,,,
 9742573487,node,47.0571972,8.8015805,yes,,,,,,,,Direkt links neben dem Bancomat der Schwyzer Kantonalbank,,,defibrillator,144,node/9742573487,,no,,,,24/7,Schwyzer Kantonalbank,,+41 58 800 20 20,,,
 9752218819,node,47.1816388,8.8724632,yes,,,,,,,,Eingang Mehrzweckhalle,,,defibrillator,144,node/9752218819,,no,,,,24/7,,,,,,
-9761344225,node,47.1924945,8.8156815,,,,,,,,,PVA AG Eingang Süd,,,defibrillator,144,node/9761344225,,yes,,,,Mo-Fr 07:00-21:00,Firma,,+41787126834,,,
+9761344225,node,47.1924945,8.8156816,permissive,,,,,,,,PVA AG Eingang Süd,Im Bistro,info@pva,defibrillator,144,node/9761344225,,yes,0,,,Mo-Fr 07:00-17:30,PVA AG,,+41 55 451 95 95,,,
 9806613617,node,47.110699,8.4473323,yes,,,,,,,,Eingangsbereich Schwabe Pharma,,,defibrillator,144,node/9806613617,,no,,,,24/7,Schwabe-Gruppe Schweiz,,+41418541842,,,
 9838921817,node,47.1902791,8.8961666,yes,,,,,,,,"Schwyzer Kantonalbank, Eingang",Immer zugänglich,,defibrillator,144,node/9838921817,,no,,,,24/7,Schwyzer Kantonalbank,,+41 58 8006985,,,
 9839233917,node,47.0840303,8.577098,yes,,,,,,,,Berggasthaus Wildspitz,im Schlupf aufgehängt,,defibrillator,144,node/9839233917,,yes,,,,24/7,Stiftung Wildspitz,,+41 41 832 11 39,,,
@@ -418,3 +418,4 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 14201623601,node,46.9876345,8.7272369,yes,,,,,,,,Eingang zur MZH Ilge,,,defibrillator,144,node/14201623601,,no,,,,24/7,Gemeinde Illgau,,,,,
 14201628401,node,46.9873985,8.7241317,yes,,,,,,,,Eingang zur Gemeindekanzlei Illgau,,,defibrillator,144,node/14201628401,,no,,,,24/7,Gemeinde Illgau,,,,,
 14280781201,node,47.1916725,8.7216871,,,,,,,,,Migros Roospark,Während Öffnungszeiten Migros verfügbar,,defibrillator,144,node/14280781201,,yes,0,,,Mo-Sa 07:30-20:00,,,,,,
+14396280801,node,47.194189,8.8527178,,,,,,,,,Äussere Haab Turnhalle in der Garderobe,Schrank mit Alarm,,defibrillator,144,node/14396280801,,yes,0,,,,,,,,,

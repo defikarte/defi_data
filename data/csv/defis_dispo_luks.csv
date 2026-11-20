@@ -198,7 +198,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:delivery,addr:city,addr
 7637818438,node,46.96935,8.36481,,,,,,,,,,,,,,,,,Hauptgebäude,,defibrillator,144,,,,node/7637818438,yes,,,,,,,Job-Vision Kt. NW,,,,,,,,,,,,
 7637818439,node,46.9566455,8.3667386,,,,,,,,,,,,,,,,,Eingang zum Zivilstandsamt,,defibrillator,144,,,,node/7637818439,no,,,,,,,Kantonale Verwaltung,,,24/7,,,,,,,,,
 7637818440,node,46.9671958,8.3587772,yes,,,,,,,,,,2025-07-04,,,,In der Mitte des Gebäudes bei Laderampe/Fahrstühlen.,,Werkstatt EG,,defibrillator,144,,,,node/7637818440,no,,,,,,,Lifetec Montana Sport,,,24/7,,,,,,,,,
-7637818441,node,46.9733526,8.3806979,,,,,,,,,,,,,,,"Erdgeschoss, Flur, rechte Wand hinter der Schiebetür",,,,defibrillator,144,,,,node/7637818441,yes,,,,,,,Pilatus Flugzeugwerke,,,,,,,,,,,,
+7637818441,node,46.9733526,8.3806979,permissive,,,,,,,,,,,,,,"Erdgeschoss, Flur, rechte Wand hinter der Schiebetür",,,portier@pilatus-aircraft.com,defibrillator,144,,,,node/7637818441,yes,,,,,,,Pilatus Flugzeugwerke,,,,Pilatus Flugzeugwerke AG,,+41 41 619 66 88,,,,,,
 7637818445,node,46.9674156,8.3640387,,,,,,,,,,,,,,,,,Eingang zur Truppenunterkunft,,defibrillator,144,,,,node/7637818445,,,,,,,,Sportanlage Eichli,,,,,,,,,,,,
 7637818447,node,46.9626143,8.3602993,,,,,,,,,,,,,,,Nidwaldner Kantonalbank,,neben Briefkästen,,defibrillator,144,,,,node/7637818447,no,,,,,,,Staatsarchiv,,,24/7,,,,,,,,,
 7637818448,node,46.9644515,8.3854284,,,,,,,,,,,,,,,,,Haupteingang re.,,defibrillator,144,,,,node/7637818448,,,,,,,,Strassenverkehrsamt,,,,,,,,,,,,
