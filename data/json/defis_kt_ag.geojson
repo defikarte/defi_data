@@ -312,6 +312,7 @@
   "id": "node/6219026385",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-20",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "id": "node/6219026385"
@@ -7174,29 +7175,6 @@
     "coordinates": [
       8.043199,
       47.3894394
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9045223415",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Bahnhofstrasse 88, 2. Stock Schalter Information",
-    "description": "7h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:00-12:00,14:00-17:00",
-    "operator": "Amt für Migration und Integration",
-    "phone": "+41 62 835 18 60",
-    "id": "node/9045223415"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0527344,
-      47.3924106
     ]
   }
 },
@@ -29053,15 +29031,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "aussen an der Nordseite des Gebäudes;Ecke Otelfingerstrasse und Oberwiesenweg",
+    "description": "Schrank mit Alarm",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 56 436 87 91",
     "id": "node/13335807056"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3765237,
-      47.4488551
+      8.376524,
+      47.4488553
     ]
   }
 },
@@ -30191,16 +30174,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bushaltestelle Bahnhof",
+    "description": "Schrank mit Alarm",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
+    "phone": "+41 56 436 87 91",
     "id": "node/13677433975"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3584531,
-      47.4470603
+      8.3584526,
+      47.4470605
     ]
   }
 },

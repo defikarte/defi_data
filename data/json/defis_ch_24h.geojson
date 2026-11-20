@@ -30899,8 +30899,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.9889496,
-      46.7431039
+      8.9889721,
+      46.7431109
     ]
   }
 },
@@ -148318,6 +148318,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/13335807056",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "aussen an der Nordseite des Gebäudes;Ecke Otelfingerstrasse und Oberwiesenweg",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 56 436 87 91",
+    "id": "node/13335807056"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.376524,
+      47.4488553
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13342558209",
   "properties": {
     "defibrillator:location": "Wertstoffsammelstelle Schanz",
@@ -153375,6 +153398,29 @@
     "coordinates": [
       6.7161184,
       46.4936326
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13677433975",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bushaltestelle Bahnhof",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 56 436 87 91",
+    "id": "node/13677433975"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3584526,
+      47.4470605
     ]
   }
 },
