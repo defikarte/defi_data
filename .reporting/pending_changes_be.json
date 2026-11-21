@@ -118,5 +118,22 @@
       }
     ],
     "detected_at": "2026-11-20T21:49:29.974353+00:00"
+  },
+  {
+    "key": "node/8154591430",
+    "name": "Commune de la Neuveville",
+    "has_name": false,
+    "detail": "Placé sur le mur nord de la station de couplage",
+    "address": "Rue des Mornets 25, 2520 La Neuveville",
+    "lon": 7.0893333,
+    "lat": 47.0644862,
+    "changes": [
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "no"
+      }
+    ],
+    "detected_at": "2026-11-21T16:50:01.082745+00:00"
   }
 ]
