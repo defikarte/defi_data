@@ -41661,6 +41661,7 @@
   "id": "node/9917845036",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-21",
     "defibrillator:location": "Verkaufsfläche LIDL",
     "description": "während Öffnungszeiten verfügbar",
     "emergency": "defibrillator",

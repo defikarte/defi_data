@@ -13093,7 +13093,9 @@
   "id": "node/11924944909",
   "properties": {
     "access": "yes",
+    "addr:city": "Tägerwilen",
     "addr:housenumber": "20",
+    "addr:postcode": "8274",
     "addr:street": "Oberstrasse",
     "defibrillator:location": "EG beim Treppenhaus neben Werkstatt 1421LTM",
     "description": "Gelber Koffer",
