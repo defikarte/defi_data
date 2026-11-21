@@ -45,7 +45,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:cou
 7701970744,node,46.7911547,9.2562276,,,,,,,,,,2026-01-02,,,an Gebäudewand,,,,,defibrillator,,144,,,node/7701970744,,,no,,,,,24/7,,,,,,,,,
 7717374425,node,46.7277836,8.9381563,,,,,,,,,,,,,an der Strasse,,,,,defibrillator,,144,,,node/7717374425,,,,,,,,24/7,,,,,,,,,
 7717374426,node,46.7340529,8.9588214,,,,,,,,,,,,,am Gebäude,,,,,defibrillator,,144,,,node/7717374426,,,,,,,,24/7,,,,,,,,,
-7717374427,node,46.7431039,8.9889496,,,,,,,,,,,,,am Gebäude,,,,,defibrillator,,144,,,node/7717374427,,,no,,,,,24/7,,,,,,,,,
+7717374427,node,46.7431109,8.9889721,,,,,,,,,,,,,am Gebäude,,,,,defibrillator,,144,,,node/7717374427,,,no,,,,,24/7,,,,,,,,,
 7720904251,node,46.9500114,10.3705788,no,,,,,,,,,,,,Beim Rettungsdienst,,,,,defibrillator,,144,,,node/7720904251,,,,,,,,,,,,,,,,,
 7720904252,node,46.9594328,10.4031596,yes,,,,,,,,,,,,Im Eingang des Seniorencenters Chalamandrin - Türe ist immer offen,,,Öffentlich zugänglich,,defibrillator,,144,,,node/7720904252,,,,,,,,24/7,Gemeinde Samnaun,,,,,,,,
 7720904253,node,46.8841468,10.463588,yes,,,,,,,,,2026-08-24,,,In der öffentlichen Toilette.,,,Öffentlich zugänglich,,defibrillator,,144,,,node/7720904253,https://openaedmap.org/api/v1/photos/view/JNpi2L0Z_yTvh528BCOopg.webp,CC0,yes,,,,,24/7,,,,,,,,,
