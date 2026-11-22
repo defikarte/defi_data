@@ -66992,6 +66992,26 @@
       46.6854631
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14405436735",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Im Untergeschoss beim Empfang des Boulderkinos links neben der Toilette",
+    "emergency": "defibrillator",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Su 06:00-23:00",
+    "id": "node/14405436735"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6321228,
+      46.7579771
+    ]
+  }
 }
 ]
 }
