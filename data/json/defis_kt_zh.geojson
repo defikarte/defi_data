@@ -83277,6 +83277,30 @@
       47.4573511
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14409246501",
+  "properties": {
+    "defibrillator:location": "Physio Praxis GmbH",
+    "description": "Links Neben Empfang",
+    "email": "winterthur@mail.physiopraxis-gmbh.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "3",
+    "opening_hours": "07:00 - 20:00",
+    "operator": "Praxis",
+    "phone": "+41 52 212 12 60",
+    "id": "node/14409246501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7268559,
+      47.500204
+    ]
+  }
 }
 ]
 }
