@@ -1758,10 +1758,15 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Schulhaus",
+    "description": "Schrank mit Alarm",
+    "email": "mirco.keller@chur.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
+    "operator": "Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, 7001 Chur",
+    "phone": "+41 81 254 43 97",
     "id": "node/7746283996"
   },
   "geometry": {
