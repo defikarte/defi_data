@@ -33291,6 +33291,30 @@
       47.4389117
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14410488601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenfassade Feuerwehrdepot",
+    "description": "Schrank mit Alarm",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Politische Gemeinde Untereggen",
+    "phone": "+41 71 868 90 90",
+    "id": "node/14410488601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4482006,
+      47.4518562
+    ]
+  }
 }
 ]
 }
