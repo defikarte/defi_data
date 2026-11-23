@@ -221487,7 +221487,7 @@
   "id": "node/10763310609",
   "properties": {
     "access": "yes",
-    "addr:city": "Möriken",
+    "addr:city": "Möriken AG",
     "addr:housenumber": "45",
     "addr:postcode": "5103",
     "addr:street": "Bruneggerstrasse",
@@ -388063,7 +388063,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Wetzikerstrasse 110, 8335 Hittnau",
-    "description": "an Hausfassade parallel zur Hauptstrasse",
+    "description": "neben gelben Post-Briefkasten parallel zur Hauptstrasse",
     "email": "sicherheit.gesellschaft@hittnau.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
@@ -388077,8 +388077,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.8187988,
-      47.3460294
+      8.8188137,
+      47.3461225
     ]
   }
 },
