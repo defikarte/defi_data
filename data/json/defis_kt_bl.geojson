@@ -5111,20 +5111,20 @@
   "id": "node/10880476605",
   "properties": {
     "defibrillator:location": "BBZBL",
-    "description": "Im Parterre und auf allen Stockwerken?",
+    "description": "Schrank mit Alarm",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "level": "0",
-    "opening_hours": "Mo-Fr 07:00-18:00",
+    "level": "2",
+    "opening_hours": "Mo-Fr 07:00-20:00",
     "operator": "Schule",
     "id": "node/10880476605"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7286077,
-      47.4895097
+      7.7286076,
+      47.4895099
     ]
   }
 },
@@ -10813,6 +10813,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 07:00-20:00",
     "operator": "BBZ BL",
     "id": "node/14396037601"
   },
@@ -10834,6 +10835,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
+    "opening_hours": "Mo-Fr 08:00-20:00",
     "operator": "BBZ BL",
     "id": "node/14396044301"
   },
@@ -10841,7 +10843,7 @@
     "type": "Point",
     "coordinates": [
       7.7284366,
-      47.489464
+      47.4894639
     ]
   }
 }

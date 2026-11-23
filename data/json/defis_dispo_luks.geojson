@@ -15519,16 +15519,20 @@
   "type": "Feature",
   "id": "node/7637819148",
   "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dätwylerstrasse 15",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "AED Centramed Gesundheitspraxis",
+    "opening_hours": "24/7",
     "id": "node/7637819148"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6467733,
-      46.8787701
+      8.6468523,
+      46.8786815
     ]
   }
 },
@@ -33553,6 +33557,27 @@
     "coordinates": [
       8.4698184,
       46.9669475
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14408713101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Höfligasse 9",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "id": "node/14408713101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6464502,
+      46.8793118
     ]
   }
 }
