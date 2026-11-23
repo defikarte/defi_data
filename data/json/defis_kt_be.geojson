@@ -29527,31 +29527,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8154312158",
-  "properties": {
-    "access": "permissive",
-    "addr:city": "Bern",
-    "addr:housenumber": "16c",
-    "addr:postcode": "3007",
-    "addr:street": "Konsumstrasse",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 08:30-16:30",
-    "operator": "Tageszentrum Soteria",
-    "phone": "+41 31 381 30 86",
-    "id": "node/8154312158"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4253137,
-      46.9438857
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8154591429",
   "properties": {
     "access": "yes",
