@@ -15609,6 +15609,26 @@
       47.4894639
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14409048101",
+  "properties": {
+    "defibrillator:location": "Ihr findet den Defi im Übergang zwischen Abholraum und Pausenraum.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Standard AG",
+    "id": "node/14409048101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6244792,
+      47.5427314
+    ]
+  }
 }
 ]
 }

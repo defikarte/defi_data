@@ -24882,6 +24882,28 @@
       47.1630499
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14409039802",
+  "properties": {
+    "defibrillator:location": "Der Defi befindet sich im Gebäude im Büro zwischen Verkauf und Lager.",
+    "email": "verkauf@elkabel.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EL Kabel AG",
+    "phone": "+41 41 455 50 70",
+    "id": "node/14409039802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3712245,
+      47.1043173
+    ]
+  }
 }
 ]
 }

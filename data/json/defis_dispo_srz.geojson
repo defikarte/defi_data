@@ -30771,12 +30771,14 @@
   "type": "Feature",
   "id": "node/9045127717",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Mehrzweckgebäude Neerach, Treppenhaus",
-    "description": "während den Schulzeiten oder eines Anlasses zugänglich",
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude Neerach, Aussenbereich hinteren Eingang",
+    "description": "Aussen beim hinteren Eingang vom MZG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "phone": "+41 44 859 16 09",
     "id": "node/9045127717"
   },
   "geometry": {

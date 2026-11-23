@@ -118468,12 +118468,14 @@
   "type": "Feature",
   "id": "node/9045127717",
   "properties": {
-    "access": "no",
-    "defibrillator:location": "Mehrzweckgebäude Neerach, Treppenhaus",
-    "description": "während den Schulzeiten oder eines Anlasses zugänglich",
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckgebäude Neerach, Aussenbereich hinteren Eingang",
+    "description": "Aussen beim hinteren Eingang vom MZG",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
+    "operator": "Gemeinde",
+    "phone": "+41 44 859 16 09",
     "id": "node/9045127717"
   },
   "geometry": {
@@ -389948,6 +389950,48 @@
     "coordinates": [
       8.6464502,
       46.8793118
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14409039802",
+  "properties": {
+    "defibrillator:location": "Der Defi befindet sich im Gebäude im Büro zwischen Verkauf und Lager.",
+    "email": "verkauf@elkabel.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "EL Kabel AG",
+    "phone": "+41 41 455 50 70",
+    "id": "node/14409039802"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3712245,
+      47.1043173
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14409048101",
+  "properties": {
+    "defibrillator:location": "Ihr findet den Defi im Übergang zwischen Abholraum und Pausenraum.",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Standard AG",
+    "id": "node/14409048101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6244792,
+      47.5427314
     ]
   }
 }
