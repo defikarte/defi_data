@@ -270431,30 +270431,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11749904870",
-  "properties": {
-    "defibrillator:location": "Hauptgebäude, Stampfenbachstrasse 110",
-    "description": "Während Öffnungszeiten verfügbar, Durchgang Treppenhaus in Büroräumlichkeiten, links",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "1",
-    "opening_hours": "Mo-Fr 08:00-17:00",
-    "operator": "Hochbauamt Kanton Zürich",
-    "phone": "+41 43 259 28 42",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11749904870"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5410233,
-      47.383679
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11749927069",
   "properties": {
     "defibrillator:location": "Haupteingang - entrée principale",
