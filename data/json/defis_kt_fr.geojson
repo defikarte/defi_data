@@ -6893,6 +6893,7 @@
   "properties": {
     "description": "voir ouverture du piscine",
     "emergency": "defibrillator",
+    "indoor": "yes",
     "name": "Défibrillateur (temp partielle)",
     "id": "node/13591386383"
   },
