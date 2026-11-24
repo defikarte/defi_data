@@ -202098,7 +202098,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-18:00; Su 08:00-12:00,12:40-16:00",
+    "opening_hours": "Mo-Fr 07:00-19:00; Sa 08:00-18:00",
     "operator": "Aargauverkehr AG",
     "phone": "+41 62 832 83 00",
     "source": "local_knowledge, defikarte.ch",
@@ -202121,7 +202121,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:00-19:00; Sa 07:00-17:00; Su 08:00-12:00",
+    "opening_hours": "Mo-Fr 06:00-19:00; Sa 07:00-17:00",
     "operator": "Aargauverkehr AG",
     "phone": "+41 62 832 83 88",
     "source": "local_knowledge, defikarte.ch",
@@ -259654,7 +259654,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 06:00-18:30, Sa 08:00-12:00",
+    "opening_hours": "Mo-Tu 06:00-18:30, We 06:00-13:30, Th-Fr 06:00-18:30",
     "operator": "Aargau Verkehr AG (AVA)",
     "phone": "+41 62 832 83 82",
     "source": "local_knowledge, defikarte.ch",
@@ -259663,7 +259663,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0533605,
+      8.0533606,
       47.338959
     ]
   }
@@ -387325,36 +387325,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/14351856385",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Zürich-Oerlikon",
-    "addr:housenumber": "32",
-    "addr:postcode": "8050",
-    "addr:street": "Thurgauerstrasse",
-    "defibrillator:location": "FINMA Geschoss 5 Zimmer 5.31",
-    "description": "Oranger Koffer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "5",
-    "name": "FINMA",
-    "opening_hours": "Mo - Fr 08:00 - 18:00",
-    "operator": "Lifetec AG",
-    "phone": "0800122144",
-    "ref": "0884LTM",
-    "id": "node/14351856385"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5520362,
-      47.413238
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/14352169901",
   "properties": {
     "defibrillator:location": "Euro 1 Gebäude",
@@ -390215,6 +390185,31 @@
     "coordinates": [
       7.065945,
       46.6162163
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14412088901",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Im Foyer bei den Garderoben",
+    "description": "An Feiertagen und in den Schulferien ist der Zugang nicht gewährleistet. Oft auch am Montagvormittag, Mittwochnachnachmittag.",
+    "email": "administration.kk.zwoelf@reformiert-zuerich.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Th 09:00-16:00",
+    "operator": "Evangelisch-reformierte Kirchgemeinde Zürich",
+    "phone": "+41 44 321 60 70",
+    "id": "node/14412088901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.563943,
+      47.410258
     ]
   }
 }
