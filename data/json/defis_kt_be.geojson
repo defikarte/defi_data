@@ -67009,6 +67009,31 @@
       46.943673
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14411687001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Ökologiegebäude aussen",
+    "description": "An der Fassade",
+    "email": "jva.witzwil@be.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "JVA Witzwil",
+    "phone": "+41 31 635 65 11",
+    "id": "node/14411687001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.058453,
+      46.9871608
+    ]
+  }
 }
 ]
 }

@@ -64617,6 +64617,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/9199400450",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Neben Eingang der Verwaltung",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/9199400450"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5750411,
+      47.5418609
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/9199400454",
   "properties": {
     "access": "yes",
@@ -119933,6 +119953,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/11929216669",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Primarschule Neusatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Binningen",
+    "id": "node/11929216669"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5680767,
+      47.5406025
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11929273869",
   "properties": {
     "access": "yes",
@@ -121450,6 +121492,73 @@
     "coordinates": [
       7.1310496,
       46.9609247
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11993507869",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus, Nebeneingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11993507869"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5572956,
+      47.540292
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11993508769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus oberhalb Treppe",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11993508769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5713557,
+      47.5303721
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11993512776",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Parkplatz Friedhof Süd, neben Tor",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeindeverwaltung",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11993512776"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5783831,
+      47.5385465
     ]
   }
 },
@@ -138424,6 +138533,28 @@
 },
 {
   "type": "Feature",
+  "id": "node/12805809601",
+  "properties": {
+    "defibrillator:location": "FW-Magazin / Kombinau / Nähe Spielplatze",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/12805809601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7851009,
+      47.4950235
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/12809561201",
   "properties": {
     "defibrillator:location": "Clausen Kran AG, offene Halle",
@@ -153045,6 +153176,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/13659500701",
+  "properties": {
+    "defibrillator:location": "Fit 4 Ever Oberwil",
+    "description": "24/7",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "1",
+    "opening_hours": "24/7",
+    "id": "node/13659500701"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.555595,
+      47.5097251
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13660682101",
   "properties": {
     "access": "yes",
@@ -159026,6 +159178,30 @@
     "coordinates": [
       7.4712704,
       47.0120845
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13925780601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Mehrzweckhalle/Turm Eingang Oben",
+    "email": "gemeinde@rickenbach-bl.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Rickenbach",
+    "phone": "+41 61 981 32 52",
+    "id": "node/13925780601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.8502035,
+      47.4838154
     ]
   }
 },
@@ -166387,6 +166563,31 @@
     "coordinates": [
       9.4482006,
       47.4518562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411687001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Ökologiegebäude aussen",
+    "description": "An der Fassade",
+    "email": "jva.witzwil@be.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "JVA Witzwil",
+    "phone": "+41 31 635 65 11",
+    "id": "node/14411687001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.058453,
+      46.9871608
     ]
   }
 }

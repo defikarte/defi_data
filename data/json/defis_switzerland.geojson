@@ -130461,6 +130461,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/9199400450"
   },
   "geometry": {
@@ -280417,14 +280418,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Binningen",
     "id": "node/11929216669"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5680771,
-      47.5406029
+      7.5680767,
+      47.5406025
     ]
   }
 },
@@ -284075,6 +284077,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11993507869"
@@ -284097,6 +284100,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11993508769"
@@ -284118,6 +284122,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeindeverwaltung",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/11993512776"
@@ -323130,6 +323135,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12805809601"
@@ -323137,8 +323143,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7850956,
-      47.4950199
+      7.7851009,
+      47.4950235
     ]
   }
 },
@@ -358184,13 +358190,14 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "1",
+    "opening_hours": "24/7",
     "id": "node/13659500701"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5555955,
-      47.5097253
+      7.555595,
+      47.5097251
     ]
   }
 },
@@ -369791,6 +369798,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Rickenbach",
     "phone": "+41 61 981 32 52",
     "id": "node/13925780601"
@@ -369798,8 +369806,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.8501999,
-      47.4838088
+      7.8502035,
+      47.4838154
     ]
   }
 },
@@ -390075,6 +390083,31 @@
     "coordinates": [
       7.9800318,
       47.1188014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411687001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Ökologiegebäude aussen",
+    "description": "An der Fassade",
+    "email": "jva.witzwil@be.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "JVA Witzwil",
+    "phone": "+41 31 635 65 11",
+    "id": "node/14411687001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.058453,
+      46.9871608
     ]
   }
 }

@@ -65840,25 +65840,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9199400450",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Neben Eingang der Verwaltung",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/9199400450"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5750411,
-      47.5418609
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9199400451",
   "properties": {
     "access": "yes",
@@ -160479,27 +160460,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/11929216669",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingang Primarschule Neusatz",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeinde Binningen",
-    "id": "node/11929216669"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5680771,
-      47.5406029
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/11929342969",
   "properties": {
     "access": "permissive",
@@ -162611,70 +162571,6 @@
     "coordinates": [
       7.0822297,
       46.5842979
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11993507869",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus, Nebeneingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeindeverwaltung",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11993507869"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5572956,
-      47.540292
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11993508769",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Schulhaus oberhalb Treppe",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeindeverwaltung",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11993508769"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5713557,
-      47.5303721
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11993512776",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Parkplatz Friedhof Süd, neben Tor",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeindeverwaltung",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/11993512776"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5783831,
-      47.5385465
     ]
   }
 },
@@ -184702,27 +184598,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/12805809601",
-  "properties": {
-    "defibrillator:location": "FW-Magazin / Kombinau / Nähe Spielplatze",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeinde",
-    "source": "local_knowledge, defikarte.ch",
-    "id": "node/12805809601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.7850956,
-      47.4950199
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/12806727737",
   "properties": {
     "emergency": "defibrillator",
@@ -205134,26 +205009,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13659500701",
-  "properties": {
-    "defibrillator:location": "Fit 4 Ever Oberwil",
-    "description": "24/7",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "1",
-    "id": "node/13659500701"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5555955,
-      47.5097253
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13659724001",
   "properties": {
     "access": "customers",
@@ -210749,29 +210604,6 @@
     "coordinates": [
       8.0580034,
       47.3425154
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/13925780601",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Mehrzweckhalle/Turm Eingang Oben",
-    "email": "gemeinde@rickenbach-bl.ch",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "level": "0",
-    "operator": "Gemeinde Rickenbach",
-    "phone": "+41 61 981 32 52",
-    "id": "node/13925780601"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.8501999,
-      47.4838088
     ]
   }
 },
