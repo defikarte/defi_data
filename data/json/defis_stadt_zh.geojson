@@ -5271,29 +5271,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/9634936200",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Neben den Garderoben",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "level": "0",
-    "opening_hours": "24/7",
-    "operator": "Reformiertes Kirchenzentrum Saatlen",
-    "wheelchair": "limited",
-    "id": "node/9634936200"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5639592,
-      47.4102458
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/9684571952",
   "properties": {
     "defibrillator:location": "5. Stock, Eingang und dann links",
@@ -6205,47 +6182,6 @@
     "coordinates": [
       8.5311044,
       47.3899719
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10006324811",
-  "properties": {
-    "defibrillator:location": "Pfarrerzimmer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
-    "operator": "Reformierte Kirche Zürich",
-    "id": "node/10006324811"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5741264,
-      47.403665
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10006324812",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingangshalle, grüner Kasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
-    "operator": "Reformierte Kirche Zürich",
-    "id": "node/10006324812"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5741485,
-      47.402966
     ]
   }
 },

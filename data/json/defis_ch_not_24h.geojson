@@ -93562,47 +93562,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10006324811",
-  "properties": {
-    "defibrillator:location": "Pfarrerzimmer",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
-    "operator": "Reformierte Kirche Zürich",
-    "id": "node/10006324811"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5741264,
-      47.403665
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10006324812",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Eingangshalle, grüner Kasten",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "yes",
-    "opening_hours": "Mo-Fr 09:00-17:00",
-    "operator": "Reformierte Kirche Zürich",
-    "id": "node/10006324812"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.5741485,
-      47.402966
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10006374603",
   "properties": {
     "defibrillator:location": "Der Defibrillator befindet sich im 3. Stock, in der Apotheke der Dermatologie Praxis. Zugang in die Apotheke nur mit einer Praxismitarbeiterin möglich!",
