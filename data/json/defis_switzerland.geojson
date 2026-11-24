@@ -70061,16 +70061,18 @@
   "type": "Feature",
   "id": "node/7862924003",
   "properties": {
+    "defibrillator:location": "Gemeindehaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7862924003"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6395363,
-      47.4562708
+      7.6395361,
+      47.4562706
     ]
   }
 },
@@ -116159,14 +116161,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/8989620017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5016519,
-      47.3815567
+      7.5016451,
+      47.381556
     ]
   }
 },
@@ -129359,10 +129362,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Haupteingang",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Liesberg",
     "phone": "+41 61 775 97 97",
     "id": "node/9168319086"
@@ -181828,16 +181831,18 @@
   "type": "Feature",
   "id": "node/10175042525",
   "properties": {
+    "defibrillator:location": "Ringstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/10175042525"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5518117,
-      47.5053019
+      7.5518118,
+      47.505302
     ]
   }
 },
@@ -200377,16 +200382,19 @@
   "type": "Feature",
   "id": "node/10676767694",
   "properties": {
-    "description": "Am Feuerwehrhaus",
+    "access": "yes",
+    "defibrillator:location": "Am Feuerwehrhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/10676767694"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.474641,
-      47.3807495
+      7.4746406,
+      47.3807497
     ]
   }
 },
@@ -361234,13 +361242,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13715424801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5301091,
-      47.4335021
+      7.5301087,
+      47.4335025
     ]
   }
 },
@@ -390108,6 +390117,31 @@
     "coordinates": [
       7.058453,
       46.9871608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411815301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangshalle, weisser Kasten mit grünem Aufkleber",
+    "description": "An Feiertagen und während den Sommerferien ist das Kirchgemeindehaus z.T. geschlossen. Niemand vor Ort.",
+    "email": "administration.kk.zwoelf@reformiert-zuerich.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-16:00",
+    "operator": "Evangelisch-reformierte Kirchgemeinde Zürich",
+    "phone": "+41 44 321 60 70",
+    "id": "node/14411815301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.574143,
+      47.402975
     ]
   }
 }

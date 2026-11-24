@@ -35698,23 +35698,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7862924003",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/7862924003"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.6395363,
-      47.4562708
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7863686759",
   "properties": {
     "access": "yes",
@@ -58430,26 +58413,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/8989620017",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Feuerwehrmagazin Aussenmauer Haltestelle Dorf Mitte",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde",
-    "id": "node/8989620017"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5016519,
-      47.3815567
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/8990455117",
   "properties": {
     "access": "no",
@@ -65385,28 +65348,6 @@
     "coordinates": [
       8.7728693,
       46.1100634
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/9168319086",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Beim Haupteingang",
-    "description": "24h verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "operator": "Gemeinde Liesberg",
-    "phone": "+41 61 775 97 97",
-    "id": "node/9168319086"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.4267592,
-      47.4017524
     ]
   }
 },
@@ -98451,23 +98392,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/10175042525",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/10175042525"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5518117,
-      47.5053019
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/10175173865",
   "properties": {
     "access": "yes",
@@ -109223,23 +109147,6 @@
     "coordinates": [
       8.4294134,
       47.2640071
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/10676767694",
-  "properties": {
-    "description": "Am Feuerwehrhaus",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/10676767694"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.474641,
-      47.3807495
     ]
   }
 },
@@ -206574,25 +206481,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13715424801",
-  "properties": {
-    "defibrillator:location": "Bahnhofstrasse",
-    "description": "Aussen am Gebäude",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/13715424801"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5301091,
-      47.4335021
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13715424902",
   "properties": {
     "defibrillator:location": "Bahnhofstrasse",
@@ -223518,6 +223406,31 @@
     "coordinates": [
       7.9800318,
       47.1188014
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411815301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangshalle, weisser Kasten mit grünem Aufkleber",
+    "description": "An Feiertagen und während den Sommerferien ist das Kirchgemeindehaus z.T. geschlossen. Niemand vor Ort.",
+    "email": "administration.kk.zwoelf@reformiert-zuerich.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-16:00",
+    "operator": "Evangelisch-reformierte Kirchgemeinde Zürich",
+    "phone": "+41 44 321 60 70",
+    "id": "node/14411815301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.574143,
+      47.402975
     ]
   }
 }

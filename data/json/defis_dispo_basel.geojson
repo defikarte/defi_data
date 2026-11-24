@@ -2092,10 +2092,10 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Beim Haupteingang",
-    "description": "24h verfügbar",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Liesberg",
     "phone": "+41 61 775 97 97",
     "id": "node/9168319086"
@@ -4414,16 +4414,18 @@
   "type": "Feature",
   "id": "node/10175042525",
   "properties": {
+    "defibrillator:location": "Ringstrasse",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/10175042525"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5518117,
-      47.5053019
+      7.5518118,
+      47.505302
     ]
   }
 },
@@ -13502,13 +13504,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13715424801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5301091,
-      47.4335021
+      7.5301087,
+      47.4335025
     ]
   }
 },

@@ -531,16 +531,18 @@
   "type": "Feature",
   "id": "node/7862924003",
   "properties": {
+    "defibrillator:location": "Gemeindehaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/7862924003"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6395363,
-      47.4562708
+      7.6395361,
+      47.4562706
     ]
   }
 },
@@ -1414,14 +1416,15 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde",
     "id": "node/8989620017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5016519,
-      47.3815567
+      7.5016451,
+      47.381556
     ]
   }
 },
@@ -4014,16 +4017,19 @@
   "type": "Feature",
   "id": "node/10676767694",
   "properties": {
-    "description": "Am Feuerwehrhaus",
+    "access": "yes",
+    "defibrillator:location": "Am Feuerwehrhaus",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/10676767694"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.474641,
-      47.3807495
+      7.4746406,
+      47.3807497
     ]
   }
 },

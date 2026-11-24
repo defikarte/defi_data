@@ -107448,6 +107448,31 @@
       47.500204
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14411815301",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Eingangshalle, weisser Kasten mit grünem Aufkleber",
+    "description": "An Feiertagen und während den Sommerferien ist das Kirchgemeindehaus z.T. geschlossen. Niemand vor Ort.",
+    "email": "administration.kk.zwoelf@reformiert-zuerich.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 09:00-16:00",
+    "operator": "Evangelisch-reformierte Kirchgemeinde Zürich",
+    "phone": "+41 44 321 60 70",
+    "id": "node/14411815301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.574143,
+      47.402975
+    ]
+  }
 }
 ]
 }

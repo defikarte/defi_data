@@ -34364,6 +34364,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/7862924003",
+  "properties": {
+    "defibrillator:location": "Gemeindehaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/7862924003"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.6395361,
+      47.4562706
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7863551413",
   "properties": {
     "defibrillator:location": "bei der Postauto Haltestelle",
@@ -57725,6 +57744,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8989620017",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Feuerwehrmagazin Aussenmauer Haltestelle Dorf Mitte",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "id": "node/8989620017"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5016451,
+      47.381556
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8989714796",
   "properties": {
     "access": "yes",
@@ -63963,6 +64003,28 @@
     "coordinates": [
       7.6699724,
       46.4951042
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/9168319086",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Beim Haupteingang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Liesberg",
+    "phone": "+41 61 775 97 97",
+    "id": "node/9168319086"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4267592,
+      47.4017524
     ]
   }
 },
@@ -83378,6 +83440,25 @@
 },
 {
   "type": "Feature",
+  "id": "node/10175042525",
+  "properties": {
+    "defibrillator:location": "Ringstrasse",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10175042525"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5518118,
+      47.505302
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/10175173858",
   "properties": {
     "access": "permissive",
@@ -91145,6 +91226,26 @@
     "coordinates": [
       6.6535222,
       46.8152633
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/10676767694",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Am Feuerwehrhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/10676767694"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4746406,
+      47.3807497
     ]
   }
 },
@@ -154651,6 +154752,26 @@
     "coordinates": [
       7.3043012,
       47.1302548
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13715424801",
+  "properties": {
+    "defibrillator:location": "Bahnhofstrasse",
+    "description": "Aussen am Gebäude",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13715424801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5301087,
+      47.4335025
     ]
   }
 },
