@@ -1,7 +1,7 @@
 [
   {
     "key": "node/14412409401",
-    "name": "Privaperson",
+    "name": "Privatperson",
     "has_name": false,
     "detail": "Privathaus",
     "address": null,
@@ -10,15 +10,32 @@
     "changes": [
       {
         "label": "Betreiber",
-        "old": "Privatperson",
-        "new": "Privaperson"
-      },
-      {
-        "label": "Beschreibung",
-        "old": "Privater AED von Fam. MENZI, AED nicht immer vorort",
-        "new": "Privater AED, nicht immer vorort"
+        "old": "Privaperson",
+        "new": "Privatperson"
       }
     ],
-    "detected_at": "2026-11-24T19:49:21.108977+00:00"
+    "detected_at": "2026-11-24T20:50:25.250105+00:00"
+  },
+  {
+    "key": "node/6661546146",
+    "name": "Auf dem Perron 1 an einer Säule direkt beim Eingang zum AVEC",
+    "has_name": false,
+    "detail": null,
+    "address": "Burgdorfstrasse 3, 3672 Oberdiessbach",
+    "lon": 7.6179098,
+    "lat": 46.8395321,
+    "changes": [
+      {
+        "label": "Standortbeschreibung",
+        "old": "Auf dem Perron an einer Säule",
+        "new": "Auf dem Perron 1 an einer Säule direkt beim Eingang zum AVEC"
+      },
+      {
+        "label": "Stockwerk",
+        "old": null,
+        "new": "0"
+      }
+    ],
+    "detected_at": "2026-11-24T20:50:25.250105+00:00"
   }
 ]
