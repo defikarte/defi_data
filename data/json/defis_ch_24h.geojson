@@ -13038,18 +13038,19 @@
     "addr:housenumber": "3",
     "addr:postcode": "3672",
     "addr:street": "Burgdorfstrasse",
-    "defibrillator:location": "Auf dem Perron an einer Säule",
+    "defibrillator:location": "Auf dem Perron 1 an einer Säule direkt beim Eingang zum AVEC",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "opening_hours": "24/7",
     "id": "node/6661546146"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.6178666,
-      46.8394133
+      7.6179098,
+      46.8395321
     ]
   }
 },

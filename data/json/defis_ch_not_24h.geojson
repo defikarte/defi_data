@@ -223515,12 +223515,11 @@
     "access": "private",
     "defibrillator:location": "Privathaus",
     "description": "Privater AED, nicht immer vorort",
-    "email": "andri.menzi@icloud.com",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "operator": "Privaperson",
+    "operator": "Privatperson",
     "phone": "+41 77 529 87 23",
     "id": "node/14412409401"
   },
