@@ -152835,8 +152835,9 @@
   "type": "Feature",
   "id": "node/11733545769",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Grindelstrasse 40",
-    "description": "erreichbar während der Betriebszeiten, wenn durch den Haupteingang reinkommt nach links an der Wand (Betriebssanität 6112)",
+    "description": "erreichbar während der Betriebszeiten, wenn durch den Haupteingang reinkommt nach links an der Wand (Betriebssanität 1112), zweiter Defi im 2. Stock",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -223619,6 +223620,72 @@
     "coordinates": [
       7.4000264,
       46.943673
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411462901",
+  "properties": {
+    "defibrillator:location": "Kraftwerk Kappelerhof",
+    "description": "Schrank zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "phone": "+41 56 200 22 22",
+    "id": "node/14411462901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2930829,
+      47.4842068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411466501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Regionalwerke AG Baden",
+    "phone": "+41 56 200 22 22",
+    "id": "node/14411466501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2980705,
+      47.4835623
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411495601",
+  "properties": {
+    "defibrillator:location": "Alterszentrum Willisau",
+    "description": "Büro Stützpunkt, beim Haupteingang links abbiegen, Türe ist gekennzeichnet. Wenn der Haupteingang verschlossen ist, bitte klingeln",
+    "email": "zopfmatt@azw-willisau.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "MO-SU 7:00-19:00",
+    "operator": "Alterszentrum Willisau",
+    "phone": "+41 41 972 52 52",
+    "id": "node/14411495601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.9800318,
+      47.1188014
     ]
   }
 }

@@ -68994,8 +68994,9 @@
   "type": "Feature",
   "id": "node/11733545769",
   "properties": {
+    "access": "permissive",
     "defibrillator:location": "Grindelstrasse 40",
-    "description": "erreichbar während der Betriebszeiten, wenn durch den Haupteingang reinkommt nach links an der Wand (Betriebssanität 6112)",
+    "description": "erreichbar während der Betriebszeiten, wenn durch den Haupteingang reinkommt nach links an der Wand (Betriebssanität 1112), zweiter Defi im 2. Stock",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",

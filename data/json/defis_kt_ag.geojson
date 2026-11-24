@@ -32264,6 +32264,48 @@
       47.5576635
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14411462901",
+  "properties": {
+    "defibrillator:location": "Kraftwerk Kappelerhof",
+    "description": "Schrank zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "phone": "+41 56 200 22 22",
+    "id": "node/14411462901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2930829,
+      47.4842068
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411466501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Treppenhaus",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "opening_hours": "Mo-Fr 8:00-17:00",
+    "operator": "Regionalwerke AG Baden",
+    "phone": "+41 56 200 22 22",
+    "id": "node/14411466501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.2980705,
+      47.4835623
+    ]
+  }
 }
 ]
 }
