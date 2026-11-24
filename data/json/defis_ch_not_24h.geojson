@@ -1816,8 +1816,10 @@
   "type": "Feature",
   "id": "node/4553822516",
   "properties": {
+    "defibrillator:location": "Im Eingangsbereich, links der Eingangstür",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/4553822516"
   },
   "geometry": {
@@ -84352,6 +84354,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "2. Obergeschoss, links vom Empfang an der Tür",
+    "email": "robert.hildebrandt@zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -84373,8 +84376,10 @@
   "type": "Feature",
   "id": "node/9791639370",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Mittlerer Gebäudeteil der Geschäftsliegenschaft Waltersbachstrasse 5 Zu finden im Treppenhaus zwischen dem 3. und 4. OG.",
+    "description": "Zugang nur via Mitarbeiter-Badge",
+    "email": "robert.hildebrandt@zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -211389,6 +211394,7 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-06-23",
+    "defibrillator:location": "Accroché au mur",
     "emergency": "defibrillator",
     "indoor": "no",
     "id": "node/13959880504"
@@ -223499,6 +223505,30 @@
     "coordinates": [
       8.563943,
       47.410258
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14412409401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Privathaus",
+    "description": "Privater AED von Fam. MENZI, AED nicht immer vorort",
+    "email": "andri.menzi@icloud.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Privatperson",
+    "phone": "+41 77 529 87 23",
+    "id": "node/14412409401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5790339,
+      46.926402
     ]
   }
 }

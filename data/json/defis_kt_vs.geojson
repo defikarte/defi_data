@@ -6767,6 +6767,7 @@
   "properties": {
     "access": "yes",
     "check_date": "2026-06-23",
+    "defibrillator:location": "Accroché au mur",
     "emergency": "defibrillator",
     "indoor": "no",
     "id": "node/13959880504"

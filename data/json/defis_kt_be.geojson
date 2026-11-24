@@ -67034,6 +67034,30 @@
       46.9871608
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14412409401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Privathaus",
+    "description": "Privater AED von Fam. MENZI, AED nicht immer vorort",
+    "email": "andri.menzi@icloud.com",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Privatperson",
+    "phone": "+41 77 529 87 23",
+    "id": "node/14412409401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.5790339,
+      46.926402
+    ]
+  }
 }
 ]
 }

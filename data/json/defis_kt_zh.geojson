@@ -28361,6 +28361,7 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "2. Obergeschoss, links vom Empfang an der Tür",
+    "email": "robert.hildebrandt@zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -28382,8 +28383,10 @@
   "type": "Feature",
   "id": "node/9791639370",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "defibrillator:location": "Mittlerer Gebäudeteil der Geschäftsliegenschaft Waltersbachstrasse 5 Zu finden im Treppenhaus zwischen dem 3. und 4. OG.",
+    "description": "Zugang nur via Mitarbeiter-Badge",
+    "email": "robert.hildebrandt@zh.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",

@@ -131,8 +131,10 @@
   "type": "Feature",
   "id": "node/4553822516",
   "properties": {
+    "defibrillator:location": "Im Eingangsbereich, links der Eingangstür",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "id": "node/4553822516"
   },
   "geometry": {
