@@ -30901,16 +30901,20 @@
   "type": "Feature",
   "id": "node/13919318168",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "an der Hausfassade",
+    "description": "Aussenkassten",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "id": "node/13919318168"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3065128,
-      47.4780248
+      8.306513,
+      47.4780246
     ]
   }
 },

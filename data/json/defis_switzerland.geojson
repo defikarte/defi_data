@@ -63978,8 +63978,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      10.463588,
-      46.8841468
+      10.4635974,
+      46.884159
     ]
   }
 },
@@ -369346,16 +369346,20 @@
   "type": "Feature",
   "id": "node/13919318168",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "an der Hausfassade",
+    "description": "Aussenkassten",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
     "id": "node/13919318168"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3065128,
-      47.4780248
+      8.306513,
+      47.4780246
     ]
   }
 },
@@ -389979,6 +389983,31 @@
     "coordinates": [
       9.4482006,
       47.4518562
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411430001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "AED am Empfang bei UB Umbau-Service AG",
+    "email": "rs@broennimann-partner.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "operator": "UB Umbau-Service AG",
+    "phone": "+41 31 348 24 16",
+    "wikimedia_commons": "File:Defi_UBUmbau.jpg",
+    "id": "node/14411430001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4000264,
+      46.943673
     ]
   }
 }

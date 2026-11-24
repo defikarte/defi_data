@@ -66984,6 +66984,31 @@
       46.7579771
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14411430001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "AED am Empfang bei UB Umbau-Service AG",
+    "email": "rs@broennimann-partner.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30-16:30",
+    "operator": "UB Umbau-Service AG",
+    "phone": "+41 31 348 24 16",
+    "wikimedia_commons": "File:Defi_UBUmbau.jpg",
+    "id": "node/14411430001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.4000264,
+      46.943673
+    ]
+  }
 }
 ]
 }
