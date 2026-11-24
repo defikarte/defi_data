@@ -24928,6 +24928,30 @@
       47.1188014
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14411853101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Pfistergasse 24",
+    "description": "Schrank ohne Alarm",
+    "email": "museum.luzern@lu.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Museum Luzern",
+    "phone": "+41 41 228 54 21",
+    "id": "node/14411853101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3017177,
+      47.0513227
+    ]
+  }
 }
 ]
 }

@@ -390144,6 +390144,79 @@
       47.402975
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14411853101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Pfistergasse 24",
+    "description": "Schrank ohne Alarm",
+    "email": "museum.luzern@lu.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "Museum Luzern",
+    "phone": "+41 41 228 54 21",
+    "id": "node/14411853101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3017177,
+      47.0513227
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411975901",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Accueil de la piscine communale",
+    "description": "Accessible lorsque la piscine est ouverte - Demander à l'accueil de la piscine ou aux maîtres nageurs",
+    "email": "departement.urbanisme@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 8:00-20:00",
+    "operator": "Commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14411975901"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.0485239,
+      46.6134341
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14411985001",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Vestiaires sous la tribune du stade",
+    "description": "Réservé aux sociétés utilisatrices du stade",
+    "email": "departement.urbanisme@bulle.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "operator": "commune",
+    "phone": "+41 26 919 18 40",
+    "id": "node/14411985001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.065945,
+      46.6162163
+    ]
+  }
 }
 ]
 }
