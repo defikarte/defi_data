@@ -45,7 +45,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 7637819139,node,46.6365336,8.5944033,yes,,,,,,,,Rezeption EG,,defibrillator,144,,node/7637819139,yes,,,,The Chedi Hotel,,,24/7,,,,,,
 7637819141,node,46.7681464,8.6715016,,,,,,,,,Haupteingang,,defibrillator,144,,node/7637819141,,,,,Kraftwerk Amsteg AG,,,,,,,,,
 7637819147,node,46.8827874,8.6437408,yes,,,,,,,,Haupteingang oberhalb gelben Briefkasten,,defibrillator,144,,node/7637819147,,,,,APH Rosenberg,,,24/7,,,,,,
-7637819148,node,46.8787701,8.6467733,,,,,,,,,,,defibrillator,144,,node/7637819148,,,,,AED Centramed Gesundheitspraxis,,,,,,,,,
+7637819148,node,46.8786815,8.6468523,yes,,,,,,,Dätwylerstrasse 15,,,defibrillator,144,,node/7637819148,no,,,,AED Centramed Gesundheitspraxis,,,24/7,,,,,,
 7637819149,node,46.8804509,8.6439189,,,,,,2024-06-27,,"Im energieUri Elektroshop, zwischen die Kasse und der Eingang zum Hinterraum.",Verkaufsgeschäft,,defibrillator,144,,node/7637819149,yes,,,,energieUri Elektroshop,,,"Mo-Fr 09:00-12:00, 13:30-18:30; Sa 09:00-16:00",,,,,,
 7637819150,node,46.8820547,8.644118,,,,,,,,,Treppenhaus zwischen 1. und 2. OG,,defibrillator,144,,node/7637819150,yes,,,,Kant Verwaltung,,,,,,,,,
 7637819151,node,46.8743793,8.6523062,yes,,,,,2024-01-22,,,Aussenfassade der Baudirektion beim Parkplatz,,defibrillator,144,,node/7637819151,,,,,Kant. Verwaltung,,,24/7,,,,,,
@@ -128,3 +128,4 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 13985173402,node,46.821824,8.647372,yes,,,,,,,"Haupteingang, Vorraum, linke Seite",immer verfügbar,info@spannort-erstfeld.ch,defibrillator,144,,node/13985173402,yes,0,,,,,,24/7,"Spannort, 6472 Erstfeld",+41 41 882 12 12,,,,
 14135244403,node,46.880715,8.6437985,,,,,,,,Amavita Apotheke,,,defibrillator,144,,node/14135244403,yes,0,,,,,,,,+41 58 878 13 20,,,,
 14349642801,node,46.8758137,8.631957,,,,,,,,Restaurant Transit,,,defibrillator,144,,node/14349642801,yes,0,,,,,,,,,,,,
+14408713101,node,46.8793118,8.6464502,yes,,,,,,,Höfligasse 9,,,defibrillator,144,,node/14408713101,no,0,,,,,,24/7,,,,,,

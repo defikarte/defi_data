@@ -84,7 +84,7 @@ Rechte Hauswand, neben Briefkasten",,,,,defibrillator,,144,,,node/7746283991,,,n
 7746283993,node,46.8264832,9.654481,yes,,,,,,,,,,,,Piazza Molinis Beim Kehrichthäuschen,,,,,defibrillator,,144,,,node/7746283993,,,,,,,,24/7,Gemeinde,,,,,,,,
 7746283994,node,46.8339277,9.6456833,yes,,,,,,,,,,,,Beim Gemeindehaus,,,,,defibrillator,,144,,,node/7746283994,,,no,,,,,24/7,Gemeinde,,,,,,,,
 7746283995,node,46.8376928,9.6379297,yes,,,,,,,,,,,,Beim Papigerstübli in der Garage,,,,,defibrillator,,144,,,node/7746283995,,,,,,,,24/7,Gemeinde,,,,,,,,
-7746283996,node,46.8364899,9.5618901,yes,,,,,,,,,,,,Beim Schulhaus,,,,,defibrillator,,144,,,node/7746283996,,,yes,,,,,24/7,,,,,,,,,
+7746283996,node,46.8364899,9.5618901,yes,,,,,,,,,,,,Beim Schulhaus,,,Schrank mit Alarm,mirco.keller@chur.ch,defibrillator,,144,,,node/7746283996,,,no,,0,,,24/7,"Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, 7001 Chur",,,+41 81 254 43 97,,,,,
 7746283997,node,46.842396,9.5971301,yes,,,,,,,,,,,,Beim Gemeindehaus,,,,,defibrillator,,144,,,node/7746283997,,,,,,,,24/7,Gemeinde,,,,,,,,
 7746283998,node,46.8328041,9.6115701,yes,,,,,,,,,,,,Beim Gemeindehaus,,,,,defibrillator,,144,,,node/7746283998,,,,,,,,24/7,Gemeinde,,,,,,,,
 7746284888,node,46.6113141,9.1767226,yes,,,,,,,,,,,,Strassenlaterne,,,,,defibrillator,,144,,,node/7746284888,,,no,,,,,24/7,First Responder+ Vals,,,,,,,,

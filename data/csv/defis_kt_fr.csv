@@ -320,7 +320,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 13591367437,node,46.7796236,7.1479365,,,,,Route de la gérine,,,,,,,,,,defibrillator,,,,node/13591367437,,,,,,,Défibrillateur,,,,,,,,,,,,
 13591383635,node,46.7787947,7.1542113,,,,,route de Fribourg,,,,,,,,,,defibrillator,,,,node/13591383635,,,,,,,Défibrillateur,,,,,,,,,,,,
 13591383636,node,46.7781669,7.1558182,,,,,chemin des épinettes,,,,,,,,,,defibrillator,,,,node/13591383636,,,,,,,Défibrillateur,,,,,,,,,,,,
-13591386383,node,46.7759762,7.152161,,,,,,,,,,,,,voir ouverture du piscine,,defibrillator,,,,node/13591386383,,,,,,,Défibrillateur (temp partielle),,,,,,,,,,,,
+13591386383,node,46.7759762,7.152161,,,,,,,,,,,,,voir ouverture du piscine,,defibrillator,,,,node/13591386383,yes,,,,,,Défibrillateur (temp partielle),,,,,,,,,,,,
 13591400769,node,46.7762469,7.1589649,,,,,,,,,,,,,,,defibrillator,,,,node/13591400769,,,,,,,Défibrillateur,,,,,,,,,,,,
 13591403346,node,46.6769334,6.8953398,,,,,,,,,,,,,,,defibrillator,,,,node/13591403346,,,,,,,Défibrillateur,,,,,,,,,,,,
 13591416766,node,46.6881138,6.9141122,,,,,,,,,,,,,,,defibrillator,,,,node/13591416766,,,,,,,Défibrillateur,,,,,,,,,,,,
