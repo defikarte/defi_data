@@ -1,1 +1,24 @@
-[]
+[
+  {
+    "key": "node/14412409401",
+    "name": "Privaperson",
+    "has_name": false,
+    "detail": "Privathaus",
+    "address": null,
+    "lon": 7.5790342,
+    "lat": 46.9264022,
+    "changes": [
+      {
+        "label": "Betreiber",
+        "old": "Privatperson",
+        "new": "Privaperson"
+      },
+      {
+        "label": "Beschreibung",
+        "old": "Privater AED von Fam. MENZI, AED nicht immer vorort",
+        "new": "Privater AED, nicht immer vorort"
+      }
+    ],
+    "detected_at": "2026-11-24T19:49:21.108977+00:00"
+  }
+]
