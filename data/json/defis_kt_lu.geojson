@@ -4063,7 +4063,7 @@
     "indoor": "yes",
     "level": "4",
     "name": "Frey&Cie Telecom AG",
-    "opening_hours": "Mo-FR 08:00 - 17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Frey + Cie Holding AG",
     "id": "node/7637818537"
   },

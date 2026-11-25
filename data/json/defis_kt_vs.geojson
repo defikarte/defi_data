@@ -7413,7 +7413,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8:00-17:30",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Alpendocs AG",
     "phone": "+41 27 552 01 44",
     "id": "node/14357445201"

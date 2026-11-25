@@ -3105,7 +3105,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 7:30-12:00, 13:30-17:30",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:30",
     "operator": "Arztpraxis Xundheitszentrum",
     "phone": "+41 52 741 36 26",
     "id": "node/12218696701"

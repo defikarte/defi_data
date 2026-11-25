@@ -39524,6 +39524,31 @@
       47.4742524
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14415710001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Altersheim Haus Sonnengarten",
+    "description": "Beim Haupteingang links, am Eingang der Cafeteria",
+    "email": "info@haussonnengarten.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "00:00-00:00",
+    "operator": "Haus Sonnengarten",
+    "phone": "+41 71 599 92 00",
+    "id": "node/14415710001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.541814,
+      47.382358
+    ]
+  }
 }
 ]
 }

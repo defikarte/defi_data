@@ -82631,7 +82631,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
-    "opening_hours": "Mo-Fr 08:00 - 21:00; Sa 9:00 - 13:00",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-13:00",
     "operator": "Physio Sport ag",
     "phone": "+41 52 533 34 47",
     "id": "node/14366694901"
@@ -82987,7 +82987,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Freie Katholische Schulen Zürich - Schulhaus Kreuzbühl",
-    "opening_hours": "Mo-Fr 07.00-18.00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Lifetec AG",
     "phone": "0800122144",
     "ref": "1709LTM",
@@ -83157,7 +83157,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo - Fr 7:30 - 16:45",
+    "opening_hours": "Mo-Fr 07:30-16:45",
     "operator": "Fronius Schweiz AG",
     "phone": "+41 44 817 99 44",
     "id": "node/14395857201"

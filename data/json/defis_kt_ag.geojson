@@ -11078,7 +11078,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "8:00 - 17:00",
+    "opening_hours": "08:00-17:00",
     "operator": "reaplus GmbH",
     "id": "node/9604701904"
   },
@@ -31904,7 +31904,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Holliger Paletten Logistik AG",
-    "opening_hours": "Mo-Fr 05.00-23.00",
+    "opening_hours": "Mo-Fr 05:00-23:00",
     "operator": "Lifetec AG",
     "phone": "0800122144",
     "ref": "0725LTM",
@@ -31954,7 +31954,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "PSI",
     "id": "node/14308390701"
   },
@@ -31995,7 +31995,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-12:30, Sa 9:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-12:30, Sa 09:00-16:00",
     "operator": "TopPharm Apotheke & Drogerie Erlinsbach AG",
     "phone": "+41 62 857 70 00",
     "id": "node/14312129701"

@@ -23919,7 +23919,7 @@
     "indoor": "yes",
     "level": "4",
     "name": "Frey&Cie Telecom AG",
-    "opening_hours": "Mo-FR 08:00 - 17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "Frey + Cie Holding AG",
     "id": "node/7637818537"
   },
@@ -59006,7 +59006,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-sa 7:30-20:00",
+    "opening_hours": "Mo-Sa 07:30-20:00",
     "operator": "Migros",
     "id": "node/9004540917"
   },
@@ -78497,7 +78497,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "3",
-    "opening_hours": "8:00 - 17:00",
+    "opening_hours": "08:00-17:00",
     "operator": "reaplus GmbH",
     "id": "node/9604701904"
   },
@@ -129835,7 +129835,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-19:00; Sa 7:30-18:00",
+    "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-18:00",
     "operator": "Migros",
     "ref": "CH705002",
     "id": "node/10847054128"
@@ -168547,7 +168547,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
-    "opening_hours": "Mo-Fr 7:30-12:00, 13:30-17:30",
+    "opening_hours": "Mo-Fr 07:30-12:00,13:30-17:30",
     "operator": "Arztpraxis Xundheitszentrum",
     "phone": "+41 52 741 36 26",
     "id": "node/12218696701"
@@ -220135,7 +220135,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Holliger Paletten Logistik AG",
-    "opening_hours": "Mo-Fr 05.00-23.00",
+    "opening_hours": "Mo-Fr 05:00-23:00",
     "operator": "Lifetec AG",
     "phone": "0800122144",
     "ref": "0725LTM",
@@ -220652,7 +220652,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "PSI",
     "id": "node/14308390701"
   },
@@ -220876,7 +220876,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 8:00-12:30, Sa 9:00-16:00",
+    "opening_hours": "Mo-Fr 08:00-12:30, Sa 09:00-16:00",
     "operator": "TopPharm Apotheke & Drogerie Erlinsbach AG",
     "phone": "+41 62 857 70 00",
     "id": "node/14312129701"
@@ -221802,7 +221802,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8:00-17:30",
+    "opening_hours": "Mo-Fr 08:00-17:30",
     "operator": "Alpendocs AG",
     "phone": "+41 27 552 01 44",
     "id": "node/14357445201"
@@ -221851,7 +221851,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00-19:00",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "id": "node/14362948401"
   },
   "geometry": {
@@ -221949,7 +221949,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "-1",
-    "opening_hours": "Mo-Fr 08:00 - 21:00; Sa 9:00 - 13:00",
+    "opening_hours": "Mo-Fr 08:00-21:00; Sa 09:00-13:00",
     "operator": "Physio Sport ag",
     "phone": "+41 52 533 34 47",
     "id": "node/14366694901"
@@ -222501,7 +222501,7 @@
     "indoor": "yes",
     "level": "0",
     "name": "Freie Katholische Schulen Zürich - Schulhaus Kreuzbühl",
-    "opening_hours": "Mo-Fr 07.00-18.00",
+    "opening_hours": "Mo-Fr 07:00-18:00",
     "operator": "Lifetec AG",
     "phone": "0800122144",
     "ref": "1709LTM",
@@ -223017,7 +223017,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo - Fr 7:30 - 16:45",
+    "opening_hours": "Mo-Fr 07:30-16:45",
     "operator": "Fronius Schweiz AG",
     "phone": "+41 44 817 99 44",
     "id": "node/14395857201"
@@ -223582,6 +223582,31 @@
     "coordinates": [
       9.4804117,
       47.4742524
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14415710001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Altersheim Haus Sonnengarten",
+    "description": "Beim Haupteingang links, am Eingang der Cafeteria",
+    "email": "info@haussonnengarten.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "00:00-00:00",
+    "operator": "Haus Sonnengarten",
+    "phone": "+41 71 599 92 00",
+    "id": "node/14415710001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.541814,
+      47.382358
     ]
   }
 }

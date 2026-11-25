@@ -6919,7 +6919,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-19:00; Sa 7:30-18:00",
+    "opening_hours": "Mo-Fr 07:30-19:00; Sa 07:30-18:00",
     "operator": "Migros",
     "ref": "CH705002",
     "id": "node/10847054128"

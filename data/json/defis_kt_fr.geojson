@@ -8973,7 +8973,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:00-19:00",
+    "opening_hours": "Mo-Fr 07:00-19:00",
     "id": "node/14362948401"
   },
   "geometry": {
