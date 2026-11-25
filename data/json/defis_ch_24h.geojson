@@ -31475,6 +31475,29 @@
 },
 {
   "type": "Feature",
+  "id": "node/7721282986",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Auf der linken Seite neben dem Haupteingang vom Rathaus",
+    "email": "sicherheit@buchs-sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Buchs SG",
+    "phone": "+41 81 755 75 35",
+    "id": "node/7721282986"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4707701,
+      47.1657177
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/7721303952",
   "properties": {
     "access": "yes",
@@ -166704,6 +166727,29 @@
     "coordinates": [
       6.955605,
       46.3198592
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14416477001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "An der Wand am Gebäude Nr. 29",
+    "email": "sicherheit@buchs-sg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadt Buchs SG",
+    "phone": "+41 81 755 75 35",
+    "id": "node/14416477001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4751325,
+      47.1663086
     ]
   }
 }

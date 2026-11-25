@@ -33599,25 +33599,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7721282986",
-  "properties": {
-    "access": "yes",
-    "defibrillator:location": "Auf der linken Seite im Treppenhaus",
-    "description": "nur während Öffnungszeiten verfügbar",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7721282986"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.4707701,
-      47.1657177
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7721303951",
   "properties": {
     "access": "yes",
