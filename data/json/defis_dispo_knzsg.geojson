@@ -39477,6 +39477,53 @@
       47.4518562
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14415178101",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Permapack AG",
+    "description": "beim Empfang",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:30-17:00",
+    "operator": "Permapack AG",
+    "phone": "+41 71 844 12 12",
+    "id": "node/14415178101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4869897,
+      47.4742696
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14415181301",
+  "properties": {
+    "defibrillator:location": "Mo-Fr 07:00-12:00 13:00-17:00",
+    "description": "im Logistikbüro",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:00-12:00, 13:00-17:00",
+    "operator": "Permapack AG",
+    "phone": "+41 71 844 12 12",
+    "id": "node/14415181301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.4804117,
+      47.4742524
+    ]
+  }
 }
 ]
 }

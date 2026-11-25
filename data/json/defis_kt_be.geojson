@@ -67058,6 +67058,31 @@
       46.9264022
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14415178401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Spitalstrasse 21 3454 Sumiswald",
+    "description": "Schrank mit Alarm vor WC Besucher",
+    "email": "technik@sumia.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Su 06:30 - 21:00",
+    "operator": "Alterszentrum Sumiswald AG",
+    "phone": "+41 34 432 59 89",
+    "id": "node/14415178401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7469774,
+      47.0302886
+    ]
+  }
 }
 ]
 }

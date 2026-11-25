@@ -9239,20 +9239,20 @@
     "access": "yes",
     "defibrillator:location": "Rechts neben Eingang",
     "description": "von Aussen zugänglich",
-    "email": "gemeinde@bubikon.ch",
+    "email": "info@zentrum-sunnegarte.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
-    "operator": "Gemeinde Bubikon",
-    "phone": "+41 55 253 33 55",
+    "operator": "Zentrum Sunnegarte, Bubikon",
+    "phone": "+41 55 253 01 11",
     "id": "node/8359649207"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.814172,
+      8.8141733,
       47.2662731
     ]
   }
