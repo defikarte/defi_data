@@ -27122,15 +27122,15 @@
   "type": "Feature",
   "id": "node/6661466166",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "addr:city": "Münsingen",
     "addr:housenumber": "23",
     "addr:postcode": "3110",
     "addr:street": "Bernstrasse",
-    "defibrillator:location": "in der Kirche bei Eingang rechts",
+    "defibrillator:location": "Ref. Kirche Münsingen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
     "operator": "Reformierte Kirche Münsingen",
     "phone": "+41 79 892 77 13",
     "id": "node/6661466166"
@@ -27138,7 +27138,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5601946,
+      7.5601945,
       46.8784661
     ]
   }
@@ -349443,7 +349443,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 07:00-22:00",
+    "opening_hours": "Mo-Fr 07:00-16:30",
     "operator": "Schule Rorschacherberg",
     "phone": "+41 79 386 63 80",
     "id": "node/13434113701"
@@ -390319,6 +390319,25 @@
     "coordinates": [
       9.541814,
       47.382358
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14416248301",
+  "properties": {
+    "defibrillator:location": "Sortie Réfectoire salle de gym",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14416248301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.955605,
+      46.3198592
     ]
   }
 }

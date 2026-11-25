@@ -15172,6 +15172,25 @@
       46.522896
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14416248301",
+  "properties": {
+    "defibrillator:location": "Sortie Réfectoire salle de gym",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14416248301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.955605,
+      46.3198592
+    ]
+  }
 }
 ]
 }

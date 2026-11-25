@@ -12957,31 +12957,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/6661466166",
-  "properties": {
-    "access": "yes",
-    "addr:city": "Münsingen",
-    "addr:housenumber": "23",
-    "addr:postcode": "3110",
-    "addr:street": "Bernstrasse",
-    "defibrillator:location": "in der Kirche bei Eingang rechts",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "opening_hours": "24/7",
-    "operator": "Reformierte Kirche Münsingen",
-    "phone": "+41 79 892 77 13",
-    "id": "node/6661466166"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      7.5601946,
-      46.8784661
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/6661546143",
   "properties": {
     "access": "yes",
@@ -166710,6 +166685,25 @@
     "coordinates": [
       7.058453,
       46.9871608
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14416248301",
+  "properties": {
+    "defibrillator:location": "Sortie Réfectoire salle de gym",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/14416248301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      6.955605,
+      46.3198592
     ]
   }
 }

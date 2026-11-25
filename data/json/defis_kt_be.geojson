@@ -19215,15 +19215,15 @@
   "type": "Feature",
   "id": "node/6661466166",
   "properties": {
-    "access": "yes",
+    "access": "private",
     "addr:city": "Münsingen",
     "addr:housenumber": "23",
     "addr:postcode": "3110",
     "addr:street": "Bernstrasse",
-    "defibrillator:location": "in der Kirche bei Eingang rechts",
+    "defibrillator:location": "Ref. Kirche Münsingen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "opening_hours": "24/7",
+    "indoor": "yes",
     "operator": "Reformierte Kirche Münsingen",
     "phone": "+41 79 892 77 13",
     "id": "node/6661466166"
@@ -19231,7 +19231,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.5601946,
+      7.5601945,
       46.8784661
     ]
   }
