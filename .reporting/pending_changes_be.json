@@ -37,5 +37,37 @@
       }
     ],
     "detected_at": "2026-11-24T20:50:25.250105+00:00"
+  },
+  {
+    "key": "node/6661466166",
+    "name": "Reformierte Kirche Münsingen",
+    "has_name": false,
+    "detail": "Ref. Kirche Münsingen",
+    "address": "Bernstrasse 23, 3110 Münsingen",
+    "lon": 7.5601945,
+    "lat": 46.8784661,
+    "changes": [
+      {
+        "label": "Zugang",
+        "old": "yes",
+        "new": "private"
+      },
+      {
+        "label": "Öffnungszeiten",
+        "old": "24/7",
+        "new": null
+      },
+      {
+        "label": "Standortbeschreibung",
+        "old": "in der Kirche bei Eingang rechts",
+        "new": "Ref. Kirche Münsingen"
+      },
+      {
+        "label": "Innenbereich",
+        "old": null,
+        "new": "yes"
+      }
+    ],
+    "detected_at": "2026-11-25T13:50:47.564874+00:00"
   }
 ]
