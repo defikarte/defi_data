@@ -330600,20 +330600,26 @@
   "type": "Feature",
   "id": "node/12985225203",
   "properties": {
-    "access": "yes",
+    "access": "permissive",
     "check_date": "2025-07-07",
+    "defibrillator:location": "GZ Witikon, Witikonerstrasse 405, 8053 Zürich",
     "defibrillator:location:de": "Im Eingangsbereich links der Eingangstüre an der Wand",
+    "description": "Schrank an Wand im Eingangsbereich",
+    "email": "Gz-witikon@gz-zh.ch",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "yes",
-    "level": "1",
+    "level": "0",
+    "opening_hours": "Tu-Th 09:00-18:00, Fr 09:00-22:30",
+    "operator": "GZ Witikon",
     "phone": "+41 44 422 75 61",
     "id": "node/12985225203"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5942292,
-      47.3599877
+      8.5942295,
+      47.3599875
     ]
   }
 },
