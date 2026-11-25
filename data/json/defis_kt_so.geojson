@@ -6268,13 +6268,14 @@
   "type": "Feature",
   "id": "node/11283631869",
   "properties": {
-    "access": "no",
+    "access": "yes",
     "defibrillator:location": "Schulhausstrasse 2, 4626 Niederbuchsiten",
     "description": "Schulhaus Bereich Haupteingang",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Einwohnergemeinde Niederbuchsiten",
     "phone": "+4162 389 70 00",
     "source": "local_knowledge, defikarte.ch",
@@ -6283,7 +6284,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7730056,
+      7.7730057,
       47.2978677
     ]
   }
@@ -6321,6 +6322,8 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
     "operator": "Einwonergemeinde Niederbuchsiten",
     "phone": "+4162 389 70 00",
     "source": "local_knowledge, defikarte.ch",
@@ -6329,8 +6332,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7672023,
-      47.2957122
+      7.7672026,
+      47.2957123
     ]
   }
 },
