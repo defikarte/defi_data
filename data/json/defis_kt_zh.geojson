@@ -83243,6 +83243,47 @@
       47.410258
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14417799001",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schwimmbad Kügeliloo",
+    "description": "Direkt beim Schwimmbecken",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14417799001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5281823,
+      47.4110824
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14417850501",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Direkt hinter der Eingangstür, an der Wand links",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "id": "node/14417850501"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.530347,
+      47.4107461
+    ]
+  }
 }
 ]
 }
