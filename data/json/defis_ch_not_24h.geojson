@@ -223387,7 +223387,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Su 8:00-20:00",
+    "opening_hours": "Mo-Su 08:00-20:00",
     "operator": "Commune",
     "phone": "+41 26 919 18 40",
     "id": "node/14411975901"
