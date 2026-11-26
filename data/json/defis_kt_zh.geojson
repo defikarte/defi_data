@@ -12911,8 +12911,9 @@
   "type": "Feature",
   "id": "node/8557121975",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Sanitäter Raum, beim Bademeister melden",
+    "email": "fm@maennedorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
@@ -83332,6 +83333,30 @@
     "coordinates": [
       8.7625134,
       47.5118989
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14419633101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang Seebad",
+    "email": "fm@maennedorf.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Männedorf Facility Management",
+    "phone": "+41 44 921 67 69",
+    "id": "node/14419633101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7075823,
+      47.246697
     ]
   }
 }

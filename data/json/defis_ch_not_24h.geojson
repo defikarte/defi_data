@@ -46250,8 +46250,9 @@
   "type": "Feature",
   "id": "node/8557121975",
   "properties": {
-    "access": "no",
+    "access": "permissive",
     "defibrillator:location": "Sanitäter Raum, beim Bademeister melden",
+    "email": "fm@maennedorf.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
