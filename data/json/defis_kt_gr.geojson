@@ -299,14 +299,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Madrisabahn",
     "wheelchair": "yes",
     "id": "node/6646055348"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8758907,
-      46.8843879
+      9.8758909,
+      46.8843881
     ]
   }
 },
@@ -317,18 +318,21 @@
     "access": "yes",
     "check_date": "2025-06-16",
     "defibrillator:location": "zwischen den Toilettentüren im grünen Kasten beschriftet mit AED",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 81 423 36 80",
     "wheelchair": "yes",
     "id": "node/6646055351"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8755026,
-      46.8834649
+      9.8755027,
+      46.8834648
     ]
   }
 },
@@ -3042,17 +3046,19 @@
     "access": "yes",
     "defibrillator:location": "Feuerwehr Depot",
     "description": "Beim Haupteingang",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Klosters",
+    "phone": "+41 81 423 36 80",
     "id": "node/8734017117"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8945393,
+      9.894539,
       46.8617458
     ]
   }
@@ -3498,16 +3504,19 @@
     "access": "yes",
     "defibrillator:location": "Rathaus Klosters",
     "description": "Fassade Haupteingang rechte Seite",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 81 423 36 80",
     "id": "node/8939277617"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.883594,
+      9.8835939,
       46.8687152
     ]
   }
@@ -3559,17 +3568,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Restaurant Alp Garfiun",
-    "description": "Auf der linken Gebäudeseite",
+    "description": "Auf der linken Gebäudeseite beim Brunnen",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 81 423 36 80",
     "id": "node/8960709417"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.9553813,
+      9.9553814,
       46.8572764
     ]
   }
@@ -5302,20 +5314,23 @@
   "type": "Feature",
   "id": "node/9422029017",
   "properties": {
-    "defibrillator:location": "Sportanlage Arena",
+    "access": "permissive",
+    "defibrillator:location": "Sportanlage Arena, rechts von der Kasse",
     "description": "während der Öffnungszeit verfügbar",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "09:00-21:00",
     "operator": "Gemeinde Klosters",
+    "phone": "+41 81 423 36 80",
     "id": "node/9422029017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.8856126,
-      46.8656797
+      46.8656798
     ]
   }
 },
@@ -14958,13 +14973,15 @@
   "id": "node/12659488901",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Feuerwehr Garaga;Feuerwehrlokal",
+    "defibrillator:location": "Feuerwehr Garage; Feuerwehrlokal",
     "description": "Aussenmontage",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
     "operator": "Gemeinde Klosters",
+    "phone": "+41 81 423 36 80",
     "source": "local_knowledge, defikarte.ch",
     "id": "node/12659488901"
   },
@@ -17775,6 +17792,29 @@
     "coordinates": [
       9.5101685,
       46.8488526
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14419535101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Talstrasse 10, beim Haupteingang des Office 10",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 81 423 36 80",
+    "id": "node/14419535101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.8845169,
+      46.8683189
     ]
   }
 }

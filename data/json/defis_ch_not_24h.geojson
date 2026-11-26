@@ -73474,20 +73474,23 @@
   "type": "Feature",
   "id": "node/9422029017",
   "properties": {
-    "defibrillator:location": "Sportanlage Arena",
+    "access": "permissive",
+    "defibrillator:location": "Sportanlage Arena, rechts von der Kasse",
     "description": "während der Öffnungszeit verfügbar",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
     "opening_hours": "09:00-21:00",
     "operator": "Gemeinde Klosters",
+    "phone": "+41 81 423 36 80",
     "id": "node/9422029017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.8856126,
-      46.8656797
+      46.8656798
     ]
   }
 },
