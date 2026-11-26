@@ -1209,19 +1209,22 @@
   "type": "Feature",
   "id": "node/8950763724",
   "properties": {
-    "access": "permissive",
-    "defibrillator:location": "Inside building / Innen",
+    "access": "yes",
+    "defibrillator:location": "Bahnhofstrasse 24, Randa (beim Eingang Tourismusbüro)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeidne Randa",
+    "phone": "+41 27 967 17 76",
     "id": "node/8950763724"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.7819122,
-      46.0999504
+      7.7819118,
+      46.0999501
     ]
   }
 },
@@ -1230,12 +1233,13 @@
   "id": "node/8950763725",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "On wall outside building / An Aussenwand",
+    "defibrillator:location": "On wall outside building / An Aussenwand (Eingang Kripta)",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
+    "phone": "+41 27 967 17 76",
     "wheelchair": "yes",
     "id": "node/8950763725"
   },
@@ -7446,6 +7450,29 @@
     "coordinates": [
       7.2106637,
       46.1872825
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14419303001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Dorfstrasse 345, Randa (Wildikapelle)",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Randa",
+    "phone": "+41 27 967 17 76",
+    "id": "node/14419303001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7808949,
+      46.0946589
     ]
   }
 }
