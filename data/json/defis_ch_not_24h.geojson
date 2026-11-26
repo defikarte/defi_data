@@ -20002,22 +20002,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7581443273",
-  "properties": {
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7581443273"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8998447,
-      46.8611012
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7590530162",
   "properties": {
     "access": "yes",
@@ -159294,25 +159278,6 @@
     "coordinates": [
       8.7860951,
       46.1687552
-    ]
-  }
-},
-{
-  "type": "Feature",
-  "id": "node/11898412627",
-  "properties": {
-    "covered": "yes",
-    "defibrillator:location": "In einer alten Telefonkabine.",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/11898412627"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      9.8416014,
-      46.8902544
     ]
   }
 },
