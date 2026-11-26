@@ -15640,6 +15640,31 @@
       47.5427314
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14419947001",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Sichternstrasse 90, CH-4410 Liestal BL",
+    "description": "Schrank grün (Haupteingang)",
+    "email": "betriebsleiter-ssa-liestal@gmx.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Schiesssportanlage SSA Sichtern (Stadt Liestal)",
+    "phone": "+41 61 921 11 79",
+    "id": "node/14419947001"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.7081961,
+      47.4811362
+    ]
+  }
 }
 ]
 }

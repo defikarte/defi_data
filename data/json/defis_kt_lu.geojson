@@ -11986,17 +11986,23 @@
   "type": "Feature",
   "id": "node/7637819123",
   "properties": {
+    "access": "yes",
     "defibrillator:location": "Eingang Mehrzweckgebäude",
-    "description": "Eingang",
+    "description": "Haupteingang, Outdoor, weisser Briefkasten mit Defibrillatorzeichen",
+    "email": "infrastruktur@ballwil.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde",
     "id": "node/7637819123"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3244318,
-      47.1533814
+      8.3244395,
+      47.1533241
     ]
   }
 },

@@ -30856,24 +30856,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/7637819123",
-  "properties": {
-    "defibrillator:location": "Eingang Mehrzweckgebäude",
-    "description": "Eingang",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "id": "node/7637819123"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.3244318,
-      47.1533814
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/7637819124",
   "properties": {
     "description": "Disposition",
