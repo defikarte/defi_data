@@ -24958,6 +24958,31 @@
       47.0513227
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14420195603",
+  "properties": {
+    "access": "permissive",
+    "defibrillator:location": "Schulhaus RIgi unterer Stock",
+    "description": "Badge hat jedes Vereinsmitglied",
+    "email": "gemeinde@dierilon.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "-1",
+    "opening_hours": "Mo-Fr 08:00 - 17:00",
+    "operator": "Gemeinde",
+    "phone": "+41 41 455 53 10",
+    "id": "node/14420195603"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.3697328,
+      47.0961248
+    ]
+  }
 }
 ]
 }

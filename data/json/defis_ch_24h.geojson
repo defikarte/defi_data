@@ -167017,6 +167017,31 @@
       47.4811362
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14420162801",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Merhzweckhalle Beggingen",
+    "description": "Schrank mit Alarm",
+    "email": "gemeindekanzlei@beggingen.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Einwohnergemeinde Beggingen",
+    "phone": "+41 52 682 00 23",
+    "id": "node/14420162801"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5328124,
+      47.7665299
+    ]
+  }
 }
 ]
 }
