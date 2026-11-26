@@ -87265,18 +87265,20 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bushaltestelle Wartehaus",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "opening_hours": "24/7",
-    "operator": "Klosters",
+    "operator": "Gemeinde Klosters",
+    "phone": "+41 81 423 36 80",
     "id": "node/8448563317"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8060199,
-      46.911099
+      9.8060194,
+      46.9110992
     ]
   }
 },
@@ -98501,18 +98503,21 @@
   "properties": {
     "access": "yes",
     "defibrillator:location": "Bushaltestelle Serneus Dorf",
-    "description": "neben Primarschulhaus Serneus, nähe Kirche",
+    "description": "neben Primarschulhaus Serneus, in der alten Telefonkabine bei der Bushaltestelle",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 81 423 36 80",
     "id": "node/8629213518"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8413566,
-      46.8903325
+      9.8410336,
+      46.890326
     ]
   }
 },
@@ -98656,17 +98661,20 @@
     "access": "yes",
     "check_date": "2025-05-31",
     "defibrillator:location": "Pagrüeg, an Hausfassade neben Parkplatz",
+    "email": "gemeindepolizei@gemeindeklosters.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
     "opening_hours": "24/7",
+    "operator": "Gemeinde",
+    "phone": "+41 81 423 36 80",
     "id": "node/8633070017"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
       9.8339801,
-      46.9008366
+      46.9008364
     ]
   }
 },
@@ -113583,8 +113591,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.499043,
-      47.6904534
+      8.4990937,
+      47.6904495
     ]
   }
 },
@@ -278321,13 +278329,14 @@
     "defibrillator:location": "In einer alten Telefonkabine.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "id": "node/11898412627"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.8410124,
-      46.8903207
+      9.8416014,
+      46.8902544
     ]
   }
 },
@@ -343414,8 +343423,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5531866,
-      47.3545924
+      8.5532438,
+      47.3546496
     ]
   }
 },
@@ -390461,6 +390470,56 @@
     "coordinates": [
       7.7808949,
       46.0946589
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14419333401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zürcherische Pestalozzistiftung",
+    "description": "Vor Haupteingang",
+    "email": "info@pestalozzistiftung.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Zürcherische Pestalozzistiftig",
+    "phone": "+41 44 767 90 30",
+    "id": "node/14419333401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.474257,
+      47.2212577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14419485401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Eingang Bürogebäude, links im Treppenhaus EG",
+    "description": "Schrank ohne Alarm",
+    "email": "info@hueppi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30 - 17:00",
+    "operator": "Hüppi AG",
+    "phone": "+41 52 244 33 77",
+    "id": "node/14419485401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7625134,
+      47.5118989
     ]
   }
 }

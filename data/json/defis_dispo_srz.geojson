@@ -29492,8 +29492,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.499043,
-      47.6904534
+      8.4990937,
+      47.6904495
     ]
   }
 },
@@ -93964,8 +93964,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5531866,
-      47.3545924
+      8.5532438,
+      47.3546496
     ]
   }
 },
@@ -107492,6 +107492,56 @@
     "coordinates": [
       8.530347,
       47.4107461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14419333401",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Zürcherische Pestalozzistiftung",
+    "description": "Vor Haupteingang",
+    "email": "info@pestalozzistiftung.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Zürcherische Pestalozzistiftig",
+    "phone": "+41 44 767 90 30",
+    "id": "node/14419333401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.474257,
+      47.2212577
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14419485401",
+  "properties": {
+    "access": "private",
+    "defibrillator:location": "Eingang Bürogebäude, links im Treppenhaus EG",
+    "description": "Schrank ohne Alarm",
+    "email": "info@hueppi.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 07:30 - 17:00",
+    "operator": "Hüppi AG",
+    "phone": "+41 52 244 33 77",
+    "id": "node/14419485401"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7625134,
+      47.5118989
     ]
   }
 }
