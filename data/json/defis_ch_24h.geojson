@@ -70759,7 +70759,7 @@
   "id": "node/9437180016",
   "properties": {
     "access": "yes",
-    "defibrillator:location": "Dans la cabine téléphonique de l'arrêt du bus",
+    "defibrillator:location": "Sur le bâtiment communal proche de l’arrêt du bus Jongny-Village",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -70769,8 +70769,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      6.841682,
-      46.4792683
+      6.8416822,
+      46.4792684
     ]
   }
 },
