@@ -3733,6 +3733,7 @@
   "id": "node/7863755977",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-26",
     "defibrillator:location": "Fussballplatz - Spielplatz Mitte Dorf",
     "description": "AED ist 24h verfügbar",
     "emergency": "defibrillator",
