@@ -203,7 +203,7 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:delivery,addr:city,addr
 7637818534,node,47.0798222,8.1217506,,,,,,,,,,,,,,,Eingang Fensterbau GebÃ¤ude 3,,,,defibrillator,144,,,,node/7637818534,,,,,,Haupt AG,,,,,,,,,
 7637818535,node,47.0859436,8.252108,,,,,,,,,,,,,,,,,Eingang Bürogebäude,,defibrillator,144,,,,node/7637818535,,,,,,Belag und Beton AG,,,,,,,,,
 7637818536,node,47.1006105,8.2666107,,,,,,,,,,,,,,,,,Samariterlokal,,defibrillator,144,,,,node/7637818536,,,,,,Feuerwehr Magazin,,,,,,,,,
-7637818537,node,47.0908044,8.2529062,permissive,,,,,,,,,,,,,,Stationsstrasse 89,,4.OG Cafeteria,,defibrillator,144,,,,node/7637818537,yes,,4,,,Frey&Cie Telecom AG,Mo-FR 08:00 - 17:00,Frey + Cie Holding AG,,,,,,,
+7637818537,node,47.0908044,8.2529062,permissive,,,,,,,,,,,,,,Stationsstrasse 89,,4.OG Cafeteria,,defibrillator,144,,,,node/7637818537,yes,,4,,,Frey&Cie Telecom AG,Mo-Fr 08:00-17:00,Frey + Cie Holding AG,,,,,,,
 7637818538,node,47.0975188,8.2434317,,,,,,,,,,,,,,,,,1 Info Stand 2 Haupteingang EG 3 Pflanzen Abteilung EG,,defibrillator,144,,,,node/7637818538,,,,,,IKEA,,,,,,,,,
 7637818539,node,47.094216,8.2726632,,,,,,,,,,,,,,,Innen im Eingangsbereich,,Eingangshalle,,defibrillator,144,,,,node/7637818539,no,,,,,Pfarreiheim Rothenburg,,,,,,,,,
 7637818540,node,47.0936609,8.2698094,yes,,,,,,,,,,,,,,,,,,defibrillator,144,,,,node/7637818540,,,,,,Raiffeisenbank,24/7,,,,,,,,

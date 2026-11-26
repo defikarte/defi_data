@@ -327,7 +327,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 10837702949,node,46.7829126,6.5726308,yes,,,,,,,,Bâtiment communal de Champvent,,,,,,,defibrillator,144,,node/10837702949,,,no,,,,,,,,,,,,,,,,,
 10839451305,node,46.7048544,6.7563228,,,,,,,,,devant la porte d entree,,,,,,,defibrillator,144,,node/10839451305,,,no,,,,,,,,24/7,,,,,,,,,
 10846867664,node,46.4755886,6.8642815,yes,,,,,,,,A la réception du garage Emil Frey,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/10846867664,,,yes,,,,,,,,,,,,,,,,,
-10847054128,node,46.8197388,6.502313,permissive,,,,,,,,Magasin Migros,,,,,,,defibrillator,144,,node/10847054128,,,yes,,,0,,,,,Mo-Fr 7:30-19:00; Sa 7:30-18:00,,Migros,,,,,CH705002,,
+10847054128,node,46.8197388,6.502313,permissive,,,,,,,,Magasin Migros,,,,,,,defibrillator,144,,node/10847054128,,,yes,,,0,,,,,Mo-Fr 07:30-19:00; Sa 07:30-18:00,,Migros,,,,,CH705002,,
 10860128855,node,46.5150368,6.6021249,yes,,,,,,,,A l'entrée des vestiaires,,,,,,,defibrillator,144,,node/10860128855,,,no,,,,,,,,24/7,,,,,,,,,
 10866851554,node,46.4324827,6.924443,yes,,,,,,,,An der Hauswand,,,,,,,defibrillator,144,,node/10866851554,,,,,,,,,,,24/7,,,,,,,,,limited
 10867134070,node,46.7794842,6.6392249,yes,,,,,,,,Dans la pharmacie,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/10867134070,,,yes,,,0,,,,,,,,,,,,,,
@@ -722,3 +722,4 @@ An Fassade Gemeindehaus",,,,,Grüner Kasten /  Koffer Orange,,defibrillator,144,
 14378491201,node,46.6978572,6.7878854,yes,,,,,,,,"Ancienne laiterie, mur extérieur côté Alpes",,,,,boîtier mural extérieur,,defibrillator,144,,node/14378491201,,,no,,,0,,,,,24/7,,Commune de Montanaire,,,,,,,
 14386542901,node,46.516763,6.63486,,,,,,,,,Entrée pricipale réception,,,,,Réceptionniste sur place,receptiontour@tx.group,defibrillator,144,,node/14386542901,,,yes,,,0,,,,,Mo-Fr 08:00-17:00,,Tamedia,,,+41 21 349 45 45,,,,
 14386918601,node,46.522896,6.618907,yes,,,,,,,,Rédaction 20 Minutes,,,,,Sonner à l'entrée des bureaux,isabelle.heirich@20minutes.ch,defibrillator,144,,node/14386918601,,,yes,,,1,,,,,Mo-Fr 08:00-17:00,,TX Group SA,,,+41 76 409 47 43,,,,
+14416248301,node,46.3198592,6.955605,,,,,,,,,Sortie Réfectoire salle de gym,,,,,,,defibrillator,144,,node/14416248301,,,no,,,,,,,,24/7,,,,,,,,,

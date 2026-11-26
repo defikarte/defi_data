@@ -68,7 +68,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:floor,addr:housenumbe
 8998955517,node,47.4700055,7.8000934,yes,,,,,,,,Tennis center Grien,,Während Oeffungszeiten Verfügbar,,defibrillator,144,,node/8998955517,yes,,,,,,Mo-Fr 08:30-23:00; Sa-Su 09:00-19:00,Tennis Center Ergolz,,,,,,,
 8999070117,node,47.5206326,7.6937607,yes,,,,,,,,Migros Innen bei Kundendienst Rechte Seite,,,,defibrillator,144,,node/8999070117,yes,,,,,,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Migros,,,,,,,
 9001674917,node,47.4200415,7.5018618,yes,,,,,,,,Migros Kundendienst/Blumen,,während oeffnungszeiten verfügbar.,,defibrillator,144,,node/9001674917,yes,,,,,,Mo-Fr 08:00-19:00; Sa 08:00-18:00,Migros,,,,,,,
-9004540917,node,47.5325009,7.5731796,yes,,,,,,,,Bei Kundendienst Eingang Links,,während oeffungszeiten verfügbar,,defibrillator,144,,node/9004540917,yes,,,,,,Mo-sa 7:30-20:00,Migros,,,,,,,
+9004540917,node,47.5325009,7.5731796,yes,,,,,,,,Bei Kundendienst Eingang Links,,während oeffungszeiten verfügbar,,defibrillator,144,,node/9004540917,yes,,,,,,Mo-Sa 07:30-20:00,Migros,,,,,,,
 9006331917,node,47.4741901,7.7639798,yes,,,,,,,,Sporthalle Stutz ca. 20 m links vom Haupteingang an Wand montiert.,,Jederzeit verfügbar,,defibrillator,144,,node/9006331917,no,,,,,,24/7,Gemeinde,,,,,,,
 9007091596,node,47.4847942,7.7322386,,,,,,,,,im Foyer des Verwaltungsgebäudes,,während Öffnungszeiten verfügbar,,defibrillator,144,,node/9007091596,yes,,0,,,,"Mo-Fr 07:45 - 12:00, 13:15 - 17:00",Generalsekretariat VGD,,,,,,,
 9008238117,node,47.4038663,7.7804056,yes,,,,,,,,Gemeindeverwaltung,,,,defibrillator,144,,node/9008238117,no,,,,,,24/7,,,,,,,,
