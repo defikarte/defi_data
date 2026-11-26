@@ -166803,6 +166803,30 @@
       47.1663086
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14419186601",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bahnhofplatz, beim Lift",
+    "description": "Defbrillatorkasten aussen am Lift/Aufzug",
+    "email": "f-im-fm@rhb.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Rhätische Bahn AG",
+    "id": "node/14419186601"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.5101685,
+      46.8488526
+    ]
+  }
 }
 ]
 }
