@@ -62,8 +62,8 @@ osm_id,osm_type,lat,lon,access,access:conditional,addr:city,addr:housenumber,add
 8926874880,node,46.3164293,7.6352607,,,,,,,,,,,,,,,,defibrillator,144,,node/8926874880,yes,,,,,,,,,,,,,,,,,,,,,,,
 8946945673,node,46.1056394,7.9276916,,,,,,,,,,,,Neben Eingang links,,,,defibrillator,144,,node/8946945673,no,,,,,,24/7,Gemeinde Saas-Fee,,,,,,,,,,,,,,,,
 8948650946,node,46.1150238,7.9165562,,,,,,,,,,,,Beim Operator-Büro Bergbahn,,,,defibrillator,144,,node/8948650946,yes,,,,,,,,,,,,,,,,,,,,,,,
-8950763724,node,46.0999504,7.7819122,permissive,,,,,,,,,,,Inside building / Innen,,,,defibrillator,144,,node/8950763724,no,0,,,,,,,,,,,,,,,,,,,,,,
-8950763725,node,46.1010486,7.7840664,yes,,,,,,,,,,,On wall outside building / An Aussenwand,,,,defibrillator,144,,node/8950763725,no,0,,,,,24/7,,,,,,,,,,,,,,,,,yes
+8950763724,node,46.0999501,7.7819118,yes,,,,,,,,,,,"Bahnhofstrasse 24, Randa (beim Eingang Tourismusbüro)",,,,defibrillator,144,,node/8950763724,no,0,,,,,24/7,Gemeidne Randa,,,,+41 27 967 17 76,,,,,,,,,,,,
+8950763725,node,46.1010486,7.7840664,yes,,,,,,,,,,,On wall outside building / An Aussenwand (Eingang Kripta),,,,defibrillator,144,,node/8950763725,no,0,,,,,24/7,,,,,+41 27 967 17 76,,,,,,,,,,,,yes
 8955041731,node,46.0668662,7.7779256,,,,,,,,,,,,Inside building / Innen,,,,defibrillator,144,,node/8955041731,yes,0,,,,,,,,,,,,,,,,,,,,,,limited
 8956922044,node,46.2941678,7.8816796,yes,,,,,,,,,,,In underpass / In Unterführung,,,,defibrillator,144,,node/8956922044,yes,-1,,,,,24/7,,,,,,,,,,,,,,,,,yes
 8957178486,node,46.3033379,7.8701366,yes,,,,,,,,,,,On wall outside building / An Aussenwand,,,,defibrillator,144,,node/8957178486,no,0,,,,,24/7,,,,,,,,,,,,,,,,,yes
@@ -366,3 +366,4 @@ Achtung: Betriebszeiten beachten (saisonal unterschiedlich!)",,defibrillator,144
 14356515701,node,46.3147799,7.9933213,,,,,,,,,,,,Beim Eingang,,,,defibrillator,144,,node/14356515701,yes,0,,,,,,,,,,,,,,,,,,,,,,
 14357445201,node,46.2921174,7.8828554,private,,,,,,,,,,,Praxis Alpendocs AG,,"Treppe hoch, linke Tür",praxis@alpendocs.ch,defibrillator,144,,node/14357445201,yes,1,,,,,Mo-Fr 08:00-17:30,Alpendocs AG,,,,+41 27 552 01 44,,,,,,,,,,,,
 14390419902,node,46.1872825,7.2106637,yes,,,,,,,,,,,CO des Deux Rives,,"Accroché au mur gauche devant la porte de l’école, en haut des escaliers extérieurs",,defibrillator,144,,node/14390419902,no,1,,,,,,Cycle d’orientation,,,,+41 27 306 46 30,,,,,,,,,,,,
+14419303001,node,46.0946589,7.7808949,yes,,,,,,,,,,,"Dorfstrasse 345, Randa (Wildikapelle)",,,,defibrillator,144,,node/14419303001,no,0,,,,,24/7,Gemeinde Randa,,,,+41 27 967 17 76,,,,,,,,,,,,

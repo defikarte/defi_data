@@ -12,8 +12,8 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:cou
 6010742519,node,46.7745165,9.6574211,,,,,,,,,,,,,Hermans Häuser,,,,,defibrillator,,144,,,node/6010742519,,,no,,,,,24/7,,,,,,,,,
 6010746167,node,46.7752656,9.6740597,,,,,,,,,,,,,"Campingplatz, Zentrales Gebäude, neben Check In",,,"Zugang jederzeit, bei der Entsorgungsstation",,defibrillator,,144,,,node/6010746167,,,no,,,,,24/7,Gemeinde / Camping Arosa,,,,,,,,
 6466286078,node,46.7602202,9.557857,,,,,,,,,,,,,"Auf der Aussenwand, gerade bei der Ecke von Haus",,,,,defibrillator,,144,,,node/6466286078,,,no,,,,,,,,,,,,,,
-6646055348,node,46.8843879,9.8758907,yes,,,,,,,,,2025-06-18,,,an der Bushaltestelle; östliche Hauswand neben der Kasse,,,,,defibrillator,,144,,,node/6646055348,,,no,,,,,24/7,,,,,,,,,yes
-6646055351,node,46.8834649,9.8755026,yes,,,,,,,,,2025-06-16,,,zwischen den Toilettentüren im grünen Kasten beschriftet mit AED,,,,,defibrillator,,144,,,node/6646055351,,,no,,,,,24/7,,,,,,,,,yes
+6646055348,node,46.8843881,9.8758909,yes,,,,,,,,,2025-06-18,,,an der Bushaltestelle; östliche Hauswand neben der Kasse,,,,,defibrillator,,144,,,node/6646055348,,,no,,,,,24/7,Madrisabahn,,,,,,,,yes
+6646055351,node,46.8834648,9.8755027,yes,,,,,,,,,2025-06-16,,,zwischen den Toilettentüren im grünen Kasten beschriftet mit AED,,,,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/6646055351,,,no,,,,,24/7,Gemeinde,,,+41 81 423 36 80,,,,,yes
 6651312612,node,46.7494628,9.4422178,yes,,,,,,,,,,,,Beim Denner,,,,,defibrillator,,144,,,node/6651312612,,,no,,,,,24/7,Gemeinde Domleschg,,,+41 81 650 13 13,,,,,
 6780438488,node,46.803085,9.8365178,customers,,,,,,,,,,,,Next to stairwell inside hotel.,,,,,defibrillator,,144,,,node/6780438488,,,yes,,0,,,,,,,,,,,,no
 6794746185,node,46.7463346,9.555387,yes,,,,,,,,,,,,SPAR Einkaufsladen Valbella,,,Immer zugänglich,,defibrillator,,144,,,node/6794746185,,,no,,0,,,24/7,Gemeinde Vaz/Obervaz,,,,,,,,
@@ -25,7 +25,6 @@ osm_id,osm_type,lat,lon,access,access:conditional,access:note,addr:city,addr:cou
 7257127081,node,46.8397866,9.6051461,yes,,,,,,,,,,,,Beim Gemeindehaus,,,,,defibrillator,,144,,,node/7257127081,,,,,,,,24/7,Gemeinde,,,,,,,,
 7321844644,node,46.8109199,9.5310336,,,,,,,,,,,,,,,,,,defibrillator,,144,,,node/7321844644,,,no,,,,,,,,,,,,,,
 7518987364,node,46.7681636,10.1110223,yes,,,,,,,,,,,,Cabina da telefon,,"next to phone box, on lampost at corner",Öffentlich zugänglich,,defibrillator,,144,,,node/7518987364,https://openaedmap.org/api/v1/photos/view/qzCvIJ5wZs7lVgJdmFP1Sw.webp,CC0,no,,,,,24/7,Gemeinde Zernez,,,,,,,,
-7581443273,node,46.8611012,9.8998447,,,,,,,,,,,,,,,,,,defibrillator,,144,,,node/7581443273,,,,,,,,,,,,,,,,,
 7615866817,node,46.8360946,9.2838612,yes,,,,,,,,,,+41 76 422 63 76,,Rechts vor dem Eingang,,,,,defibrillator,,144,,,node/7615866817,,,no,,,,,24/7,Gemeinde Flims (Gauch Dario),,,,,,,,
 7623455069,node,46.3263276,10.0541805,yes,,,,,,,,,,,,"An der Gebäudeecke, Seite Bahngleise",,,,fm@rhb.ch,defibrillator,,144,,,node/7623455069,,,no,,0,,,24/7,Rhätische Bahn AG,,,+41812886443,,,,,
 7645864233,node,46.759361,9.4436833,yes,,,,,,,,,,,,Bei der Gemeindeverwaltung/Dorfladen,,,,,defibrillator,,144,,,node/7645864233,,,no,,,,,24/7,Gemeinde Domleschg,,,+41 81 650 13 13,,,,,
@@ -108,7 +107,7 @@ Rechte Hauswand, neben Briefkasten",,,,,defibrillator,,144,,,node/7746283991,,,n
 8445539417,node,46.8703761,9.5341286,no,,,,,,,,,,,,Kirche Masans,,,"Nur während Öffnungszeiten der Kirche zugänglich. 
 
 Zum Eingang in den Vorraum der Kirche rein dann geradeaus,zwei Treppen hinunter. Auf der linken Seite an der Wand ist der Defi montiert.",,defibrillator,,144,,,node/8445539417,,,yes,,,,,,Kirchgemeinde,,,,,,,,
-8448563317,node,46.911099,9.8060199,yes,,,,,,,,,,,,Bushaltestelle Wartehaus,,,,,defibrillator,,144,,,node/8448563317,,,yes,,,,,24/7,Klosters,,,,,,,,
+8448563317,node,46.9110992,9.8060194,yes,,,,,,,,,,,,Bushaltestelle Wartehaus,,,,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/8448563317,,,no,,,,,24/7,Gemeinde Klosters,,,+41 81 423 36 80,,,,,
 8462309322,node,46.6310521,9.7466084,yes,,,,,,,,,,,,Neben dem Eingang zum Bahnmuseum,,,,,defibrillator,,144,,,node/8462309322,,,no,,,,,24/7,Rhätische Bahn AG,,,+41 81 288 65 65,,,,,
 8464677117,node,47.0246076,9.5139034,yes,,,,,,,,,,,,Beim Feuerwehrdepot links neben dem Tor,,,,,defibrillator,,144,,,node/8464677117,,,no,,,,,24/7,,,,,,,,,
 8465295317,node,46.9318657,9.7687561,yes,,,,,,,,,,,,Eingangsbereich Badi,,,24h/7 Tage verfügbar (nur Sommer),,defibrillator,,144,,,node/8465295317,,,yes,,,,,,Gemeinde Luzein,,,,,,,,
@@ -129,8 +128,8 @@ Zum Eingang in den Vorraum der Kirche rein dann geradeaus,zwei Treppen hinunter.
 8592533918,node,46.6022252,9.958689,yes,,,,,,,,,,,,auf Schulhausplatz,,,,,defibrillator,,144,,,node/8592533918,,,no,,,,,24/7,,,,,,,,,
 8622817587,node,46.982107,9.6468695,yes,,,,,,,,,,,,,,,,,defibrillator,,144,,,node/8622817587,,,no,,,,,24/7,,,,,,,,,
 8629192717,node,46.9156232,9.7436761,yes,,,,,,,,,,,,Eingang Laden,,,,,defibrillator,,144,,,node/8629192717,,,no,,,,,24/7,,,,,,,,,
-8629213518,node,46.8903325,9.8413566,yes,,,,,,,,,,,,Bushaltestelle Serneus Dorf,,,"neben Primarschulhaus Serneus, nähe Kirche",,defibrillator,,144,,,node/8629213518,,,no,,,,,24/7,,,,,,,,,
-8633070017,node,46.9008366,9.8339801,yes,,,,,,,,,2025-05-31,,,"Pagrüeg, an Hausfassade neben Parkplatz",,,,,defibrillator,,144,,,node/8633070017,,,no,,,,,24/7,,,,,,,,,
+8629213518,node,46.890326,9.8410336,yes,,,,,,,,,,,,Bushaltestelle Serneus Dorf,,,"neben Primarschulhaus Serneus, in der alten Telefonkabine bei der Bushaltestelle",gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/8629213518,,,no,,,,,24/7,Gemeinde,,,+41 81 423 36 80,,,,,
+8633070017,node,46.9008364,9.8339801,yes,,,,,,,,,2025-05-31,,,"Pagrüeg, an Hausfassade neben Parkplatz",,,,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/8633070017,,,no,,,,,24/7,Gemeinde,,,+41 81 423 36 80,,,,,
 8639535050,node,46.9546648,9.5591961,,,,,,,,,,,,,Im ersten Stock neben Lift,,,,,defibrillator,,144,,,node/8639535050,,,yes,,,,,,,,,,,,,,
 8661870617,node,46.82003,9.2634263,yes,,,,,,,,,,,,Talstation grosse Gondelbahn. Direkt bei Eingang WC,,,ausserhalb Gebäude. 24 Std erreichbar,,defibrillator,,144,,,node/8661870617,,,no,,,,,24/7,Laax Bergbahn,,,,,,,,
 8666515486,node,46.7065547,8.9527975,yes,,,,,,,,,,,,Vis à Vis Ustria Val Sumvitg,,,,,defibrillator,,144,,,node/8666515486,,,no,,,,,24/7,Marc Cathomas,,,+41 79 357 85 74,,,,,
@@ -145,7 +144,7 @@ Zum Eingang in den Vorraum der Kirche rein dann geradeaus,zwei Treppen hinunter.
 8720986731,node,46.4905225,9.9049258,yes,,,,,,,,,,,,Banca popolare di Sondrio am Schalter,,,zugänglich während den Öffnungszeiten,,defibrillator,,144,,,node/8720986731,,,yes,,,,,Mo-Fr 08:30-11:30,Banca popolario di Sondrio,,,+41 58 855 43 00,,,,,
 8720986732,node,46.4905779,9.8964259,yes,,,,,,,,,,,,"Bahnhofgebäude, Gleis 1",,,,fm@rhb.ch,defibrillator,,144,,,node/8720986732,,,no,,0,,,24/7,Rhätische Bahn AG,,,+41 81 288 65 65,,,,,
 8733394273,node,46.8336837,9.2814745,yes,,,,,,,,,2026-01-29,,,Rechts neben Eingangstüre Ticketshop,Zwischen Kasse Bergbahnen und WC.,,,,defibrillator,,144,,,node/8733394273,,,no,,,,,24/7,,,,+41 81 927 74 00,,,,,
-8734017117,node,46.8617458,9.8945393,yes,,,,,,,,,,,,Feuerwehr Depot,,,Beim Haupteingang,,defibrillator,,144,,,node/8734017117,,,no,,,,,24/7,Gemeinde Klosters,,,,,,,,
+8734017117,node,46.8617458,9.894539,yes,,,,,,,,,,,,Feuerwehr Depot,,,Beim Haupteingang,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/8734017117,,,no,,,,,24/7,Gemeinde Klosters,,,+41 81 423 36 80,,,,,
 8734825297,node,46.8057167,9.2574672,,,,,,,,,,,,,Rechts neben Eingang zu Tourist-Information.,,,,,defibrillator,,144,,,node/8734825297,,,no,,,,,24/7,,,,,,,,,
 8775922299,node,46.9754554,9.6405918,yes,,,,,,,,,,,,Der Defibrillator befindet sich an der Nordwest-Fassade direkt beim Haupteingang / Empfang der TRUMPF Schweiz AG.,,,,,defibrillator,,144,,,node/8775922299,,,no,,,,,24/7,"TRUMPF Schweiz AG, Herr Dieter Huyssen",,,+41 58 257 61 61,,,,,
 8775941719,node,46.7292571,8.9207911,yes,,,,,,,,,,,,An der Hausfassade,,,,,defibrillator,,144,,,node/8775941719,,,yes,,,,,24/7,Gemeinde Sumvitg,,,,,,,,
@@ -166,10 +165,10 @@ Zum Eingang in den Vorraum der Kirche rein dann geradeaus,zwei Treppen hinunter.
 8935589217,node,46.9252619,9.7449401,yes,,,,,,,,,,,,altes Schulhaus Putz/öffentliche Toilette,,,24h/7 Tage verfügbar,,defibrillator,,144,,,node/8935589217,,,yes,,,,,24/7,Gemeinde Luzein,,,+41 81 300 32 20,,,,,
 8935589218,node,46.9197094,9.7675753,yes,,,,,,,,,,,,Kehrrichthaus bei Kirche Luzein,,,,,defibrillator,,144,,,node/8935589218,,,no,,,,,24/7,Gemeinde Luzein,,,+41 81 300 32 20,,,,,
 8935589219,node,46.9266761,9.7657473,yes,,,,,,,,,,,,Schulhaus Pany/Eingangsbereich,,,24h/7 Tage Verfügbarkeit,,defibrillator,,144,,,node/8935589219,,,yes,,,,,24/7,Gemeinde Luzein,,,+41 81 300 32 20,,,,,
-8939277617,node,46.8687152,9.883594,yes,,,,,,,,,,,,Rathaus Klosters,,,Fassade Haupteingang rechte Seite,,defibrillator,,144,,,node/8939277617,,,no,,,,,24/7,,,,,,,,,
+8939277617,node,46.8687152,9.8835939,yes,,,,,,,,,,,,Rathaus Klosters,,,Fassade Haupteingang rechte Seite,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/8939277617,,,no,,,,,24/7,Gemeinde,,,+41 81 423 36 80,,,,,
 8949015017,node,46.9137505,9.7645836,yes,,,,,,,,,,,,Feuerwehr-Depot,,,Wand bei Fahrzeughalle,,defibrillator,,144,,,node/8949015017,,,no,,,,,24/7,,,,,,,,,
 8954525117,node,46.9861512,9.6624332,yes,,,,,,,,,,,,Seilbahn Fanas,,,,,defibrillator,,144,,,node/8954525117,,,no,,,,,24/7,,,,,,,,,
-8960709417,node,46.8572764,9.9553813,yes,,,,,,,,,,,,Restaurant Alp Garfiun,,,Auf der linken Gebäudeseite,,defibrillator,,144,,,node/8960709417,,,no,,,,,24/7,,,,,,,,,
+8960709417,node,46.8572764,9.9553814,yes,,,,,,,,,,,,Restaurant Alp Garfiun,,,Auf der linken Gebäudeseite beim Brunnen,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/8960709417,,,no,,,,,24/7,Gemeinde,,,+41 81 423 36 80,,,,,
 8960762063,node,46.7931089,10.247129,,,,,,,,,,,,,,,,,,defibrillator,,144,,,node/8960762063,,,,,,,,,,,,,,,,,
 8988290985,node,46.9141471,9.7803238,yes,,,,,,,,,,,,beim Schulhauseingang der Oberstufe,,,,,defibrillator,,144,,,node/8988290985,,,no,,,,,24/7,Gemeinde Küblis,,,+41 81 300 32 00,,,,,
 8991968293,node,46.9656956,9.5558785,private,,,,,,,,,,,,HW Landquart Sanitätsraum,,,,,defibrillator,,144,,,node/8991968293,,,yes,,,,,,Rhätische Bahn AG,,,+41 81 288 65 65,,,,,
@@ -249,7 +248,7 @@ Zum Eingang in den Vorraum der Kirche rein dann geradeaus,zwei Treppen hinunter.
 9327362721,node,46.6777793,9.3153673,yes,,,,,,,,,,,,KWZ,,,während Öffnungszeiten verfügbar,,defibrillator,,144,,,node/9327362721,,,no,,,,,,KWZ,,,,,,,,
 9327362722,node,46.6836911,9.3165176,yes,,,,,,,,,,,,Gemeindehaus,,,,,defibrillator,,144,,,node/9327362722,,,no,,,,,24/7,Gemeinde Safiental,,,,,,,,
 9398435165,node,46.8441821,9.4766544,yes,,,,,,,,,,,,Der Defibrillator befindet sich an der Mauer links beim Eingang zu Doppelturnhalle.,,,,,defibrillator,,144,,,node/9398435165,,,,,0,,,24/7,Reavita AG,,,+41 79 653 76 64,,,,,yes
-9422029017,node,46.8656797,9.8856126,,,,,,,,,,,,,Sportanlage Arena,,,während der Öffnungszeit verfügbar,,defibrillator,,144,,,node/9422029017,,,yes,,,,,09:00-21:00,Gemeinde Klosters,,,,,,,,
+9422029017,node,46.8656798,9.8856126,permissive,,,,,,,,,,,,"Sportanlage Arena, rechts von der Kasse",,,während der Öffnungszeit verfügbar,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/9422029017,,,yes,,,,,09:00-21:00,Gemeinde Klosters,,,+41 81 423 36 80,,,,,
 9437185108,node,46.9712556,9.5511639,,,,,,,,,,,,,Einfahrt/Anmeldung,,,,,defibrillator,,144,,,node/9437185108,,,yes,,,,,Mo-Fr 07:00-17:00,Armin Walser,,,+41 81 553 50 02,,,,,
 9437205322,node,46.9144769,9.7753268,,,,,,,,,,,,,In Arztpraxis 1. Stock Notfallzimmer,,,während Öffnungszeiten verfügbar,,defibrillator,,144,,,node/9437205322,,,yes,,,,,,Gruppenpraxis Küblis,,,+41 81 300 30 50,,,,,
 9437222242,node,46.9581641,9.5547661,,,,,,,,,,,,,Im EG Bürotrakt,,,,,defibrillator,,144,,,node/9437222242,,,yes,,,,,Mo-Fr 07:00-17:00,"INTEGRA Biosciences, Betriebssanität",,,+41812869530,,,,,
@@ -587,7 +586,6 @@ Neben Eingang Gemeindeverwaltung
 1401 LTS",,,Grüner Kasten / Oranger Koffer,,defibrillator,,144,,,node/11843468900,,,no,,0,,Gemeinde Thusis,24/7,Lifetec AG Schweiz,,,+41 800 122 144,,1401 LTS,,,
 11884814770,node,46.8486353,9.5329142,permissive,,,,,,,,,,,,hassler medic,,,Zugang mit Chipkarte oder nach telefonischer Rücksprache ,,defibrillator,,144,,,node/11884814770,,,no,,,,,24/7,Praxis Physiotherapie ,,,+41786838668,,,"local_knowledge, defikarte.ch",,
 11896492169,node,46.8772951,9.5250897,no,,,,,,,,,,,,Schulhaus Haldenstein Turnhalle,,,Beim Eingang der Turnhalle,,defibrillator,,144,,,node/11896492169,,,no,,0,,,,,,,,,,,,
-11898412627,node,46.8903207,9.8410124,,,,,,,,,,,,yes,In einer alten Telefonkabine.,,,,,defibrillator,,144,,,node/11898412627,,,,,,,,,,,,,,,,,
 11909510169,node,46.8107972,9.3947534,yes,,,,,,,,,,,,Beim Hintereingang Bongert,,,,,defibrillator,,144,,,node/11909510169,,,no,,0,,,24/7,Samaritervrrein Bonaduz/Rhäzüns,,,+41798236777,,,,,
 11915133669,node,46.8013447,9.8363149,yes,,,,,,,,,,,,"Talstrasse 53, 7270 Davos Platz",,,weisser Kasten an der Treppe ,,defibrillator,,144,,,node/11915133669,,,yes,,,,,07:00-19:00,Privat,,,+41 81 410 11 33,,,"local_knowledge, defikarte.ch",,
 11923512069,node,46.8500182,9.5348366,yes,,,,,,,,,,,,Ambulanz Alpinmedic Chur;Planaterrastrasse 16,,,"Der AED ist über den Eingang an der Planaterrastrasse 16 im 1 UG rechts, oder via Hof um das Gebäude bei der Alpinmedic Ambulanz Garage neben der Pixelmolkerei zugänglich",,defibrillator,,144,,,node/11923512069,,,yes,,-1,,,24/7,Alpinmedic.ch,,,+41 800 365 144,,,,,
@@ -689,7 +687,7 @@ Furtschellas Talstation
 12647773901,node,46.6976623,8.788261,yes,,,,,,,,,,,,Bergstation Pendelbahn Cuolm da Vi,,,während der Betriebszeiten,,defibrillator,,144,,,node/12647773901,,,yes,,,,,Mo-Su 09:00-17:00,Bergbahnen Disentis,,,+41 81 920 30 40,,,,,
 12649549201,node,46.7864506,9.6787506,yes,,,,,,,,,,,,parterre im Hausgang an der Wand,,,,,defibrillator,,144,,,node/12649549201,,,yes,,,,,24/7,Claudio Massalongo,,,+41765262731,,,,,
 12649549802,node,46.7856244,9.6791697,yes,,,,,,,,,,,,"Haus Furkablick, Tomelistr.6",,,,,defibrillator,,144,,,node/12649549802,,,yes,,,,,24/7,Haus Furkablick,,,+41765262731,,,,,
-12659488901,node,46.8612548,9.9194044,yes,,,,,,,,,,,,Feuerwehr Garaga;Feuerwehrlokal,,,Aussenmontage,,defibrillator,,144,,,node/12659488901,,,no,,,,,24/7,Gemeinde Klosters,,,,,,"local_knowledge, defikarte.ch",,
+12659488901,node,46.8612548,9.9194044,yes,,,,,,,,,,,,Feuerwehr Garage; Feuerwehrlokal,,,Aussenmontage,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/12659488901,,,no,,,,,24/7,Gemeinde Klosters,,,+41 81 423 36 80,,,"local_knowledge, defikarte.ch",,
 12675970901,node,46.8358955,9.4607896,yes,,,,,,,,,,,,Schulhaus Caguils Eingang Turnhalle,,,Immer verfügbar,,defibrillator,,144,,,node/12675970901,,,no,,0,,,24/7,Gemeinde Domat/Ems,,,+41793041342,,,"local_knowledge, defikarte.ch",,
 12699081501,node,46.7584815,9.1438383,yes,,,,,,,,,,,,Defibrillator befindet sich in Surcuolm bei der Postautohaltestelle beim alten Gemeindehaus; an der Westfassade,,,,,defibrillator,,144,,,node/12699081501,,,no,,,,,24/7,,,,,,,,,
 12722617201,node,46.412207,9.9654622,yes,,,,,,,,,,,,Bergstation Diavolezza,,,An Betriebszeiten sowie an Betriebstagen frei Zugänglich,,defibrillator,,144,,,node/12722617201,,,yes,,0,,,,Diavolezza Lagalb AG,,,+41 81 839 39 39,,,"local_knowledge, defikarte.ch",,
@@ -816,3 +814,5 @@ Furtschellas Talstation
 14341984101,node,46.9034913,9.575464,,,,,,,,,,,,,Bushaltestelle,,,,adrian.ammann@trimmis.ch,defibrillator,,144,,,node/14341984101,,,no,,,,,24/7,Gemeinde Trimmis,,,+41 81 354 99 33,,,,,
 14362392401,node,46.8470629,9.5310554,permissive,,,,,,,,,,,,"Schulzahnklinik, Lindenquai 18, 7000 Chur",,,Empfang,mirco.keller@chur.ch,defibrillator,,144,,,node/14362392401,,,yes,,0,,,"Mo-Fr 07:45-12:00,13:00-17:00","Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, 7000 Chur",,,+41 81 254 43 97,,,,,
 14367654701,node,46.8587983,9.505882,permissive,,,,,,,,,,,,Hallenbad Badmeisterkabine,,,Während den Öffnungszeiten verfügbar,mirco.keller@chur.ch,defibrillator,,144,,,node/14367654701,,,yes,,0,,,,"Stadt Chur, Immobilien und Hochbau, Reichsgasse 60, Chur",,,+41 81 254 43 97,,,,,
+14419186601,node,46.8488526,9.5101685,yes,,,,,,,,,,,,"Bahnhofplatz, beim Lift",,,Defbrillatorkasten aussen am Lift/Aufzug,f-im-fm@rhb.ch,defibrillator,,144,,,node/14419186601,,,no,,0,,,24/7,Rhätische Bahn AG,,,,,,,,
+14419535101,node,46.8683189,9.8845169,yes,,,,,,,,,,,,"Talstrasse 10, beim Haupteingang des Office 10",,,,gemeindepolizei@gemeindeklosters.ch,defibrillator,,144,,,node/14419535101,,,no,,,,,24/7,Gemeinde,,,+41 81 423 36 80,,,,,

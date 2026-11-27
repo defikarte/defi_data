@@ -146,7 +146,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 9437104657,node,46.4767205,6.8289168,yes,,,,,,,,Contre le mur extérieur du bâtiment communal,,,,,,,defibrillator,144,,node/9437104657,,,no,,,,,,,,24/7,,Commune de Chardonne,,,,,,,
 9437117588,node,46.4711642,6.8452955,yes,,,,,,,,Contre le mur extérieur du collège à gauche de la porte principale,,,,,,,defibrillator,144,,node/9437117588,,,no,,,,,,,,24/7,,,,,,,,,
 9437164339,node,46.4739575,6.7846115,yes,,,,,,,,"Au bord du lac, à l'entrée des vestiaires de la plage sous le quai 2 de la gare",,,,,,,defibrillator,144,,node/9437164339,,,no,,,,,,,,24/7,,,,,,,,,
-9437180016,node,46.4792683,6.841682,yes,,,,,,,,Dans la cabine téléphonique de l'arrêt du bus,,,,,,,defibrillator,144,,node/9437180016,,,no,,,,,,,,24/7,,,,,,,,,
+9437180016,node,46.4792684,6.8416822,yes,,,,,,,,Sur le bâtiment communal proche de l’arrêt du bus Jongny-Village,,,,,,,defibrillator,144,,node/9437180016,,,no,,,,,,,,24/7,,,,,,,,,
 9437197288,node,46.4786834,6.8414146,yes,,,,,,,,A gauche de l'entrée principale de la salle polyvalente,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9437197288,,,yes,,,,,,,,Mo-Fr 08:00-18:00,,,,,,,,,
 9498474638,node,46.5201681,6.6339877,yes,,,,,,,,A l'accueil,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9498474638,,,yes,,,,,,,,Mo-Fr 09:30-18:00; Sa 09:00-17:00,,Bucherer SA,,,,,,,
 9543688972,node,46.4823562,6.9086019,yes,,,,,,,,Hall d'entrée,,,,,Pendant les heures d'ouverture,,defibrillator,144,,node/9543688972,,,yes,,,,,,,,,,Restaurant des Pléiades,,,,,,,

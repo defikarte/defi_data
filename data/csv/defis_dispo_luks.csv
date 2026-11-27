@@ -779,7 +779,7 @@ Zugang: 24/7",,defibrillator,144,,,,node/7637818917,no,,,,,,,Campus Polizeischul
 7637819119,node,46.935716,8.4815689,yes,,,,,,,,,,,,,,WC Anlage Sessellift Aengi Bergstation,,,,defibrillator,144,,,,node/7637819119,yes,,,,,,,Bergbahnen Beckenried-Emmeten AG,,,24/7,,,,,,,,,
 7637819120,node,46.9347598,8.5793891,yes,,,,,,,,,,2026-08-25,,,,Im Rollstuhlgerechten WC,,Kehrplatz Baumgarten,,defibrillator,144,,,,node/7637819120,yes,,0,,,,,,,,24/7,Gemeinde Bauen,,,,,,yes,,
 7637819121,node,46.9177418,8.5952997,,,,,,,,,,,,,,,Isleten,,Nordseite d. Gebäudes an d. Fassade,,defibrillator,144,,,,node/7637819121,no,,,,,,,Schweiz. Sprengstoff AG,,,24/7,,,,,,,,,
-7637819123,node,47.1533814,8.3244318,,,,,,,,,,,,,,,Eingang Mehrzweckgebäude,,Eingang,,defibrillator,144,,,,node/7637819123,,,,,,,,,,,,,,,,,,,,
+7637819123,node,47.1533241,8.3244395,yes,,,,,,,,,,,,,,Eingang Mehrzweckgebäude,,"Haupteingang, Outdoor, weisser Briefkasten mit Defibrillatorzeichen",infrastruktur@ballwil.ch,defibrillator,144,,,,node/7637819123,no,,0,,,,,,,,24/7,Gemeinde,,,,,,,,
 7637819124,node,47.1441987,8.3261919,,,,,,,,,,,,,,,,,Disposition,,defibrillator,144,,,,node/7637819124,,,,,,,,Lötscher Kies und Beton AG,,,,,,,,,,,,
 7637819125,node,47.2134395,8.0933422,yes,,,,,,,,,,,,,,Haupteingang,,,,defibrillator,144,,,,node/7637819125,,,,,,,,Gemeindeverwaltung Büron,,,24/7,,,,,,,,,
 7637819126,node,47.21147,8.08908,yes,,,,,,,,,,,,,,links neben dem Haupteingang,,,,defibrillator,144,,,,node/7637819126,,,,,,,,ATO Immobilien,,,24/7,,,,,,,,,
@@ -1629,3 +1629,4 @@ im Haupteingang,",,"Klingel benutzen, wenn jemand da ist, helfen wir gerne",,def
 14409039802,node,47.1043173,8.3712245,,,,,,,,,,,,,,,Der Defi befindet sich im Gebäude im Büro zwischen Verkauf und Lager.,,,verkauf@elkabel.ch,defibrillator,144,,,,node/14409039802,yes,,0,,,,,,,,,EL Kabel AG,,+41 41 455 50 70,,,,,,
 14411495601,node,47.1188014,7.9800318,,,,,,,,,,,,,,,Alterszentrum Willisau,,"Büro Stützpunkt, beim Haupteingang links abbiegen, Türe ist gekennzeichnet. Wenn der Haupteingang verschlossen ist, bitte klingeln",zopfmatt@azw-willisau.ch,defibrillator,144,,,,node/14411495601,yes,,0,,,,,,,,MO-SU 7:00-19:00,Alterszentrum Willisau,,+41 41 972 52 52,,,,,,
 14411853101,node,47.0513227,8.3017177,permissive,,,,,,,,,,,,,,Pfistergasse 24,,Schrank ohne Alarm,museum.luzern@lu.ch,defibrillator,144,,,,node/14411853101,yes,,0,,,,,,,,,Museum Luzern,,+41 41 228 54 21,,,,,,
+14420195603,node,47.0961248,8.3697328,permissive,,,,,,,,,,,,,,Schulhaus RIgi unterer Stock,,Badge hat jedes Vereinsmitglied,gemeinde@dierilon.ch,defibrillator,144,,,,node/14420195603,yes,,-1,,,,,,,,Mo-Fr 08:00 - 17:00,Gemeinde,,+41 41 455 53 10,,,,,,
