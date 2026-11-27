@@ -23897,13 +23897,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13683040801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0631795,
-      46.9943428
+      8.063179,
+      46.9943429
     ]
   }
 },

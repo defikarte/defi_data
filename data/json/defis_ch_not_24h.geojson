@@ -205416,24 +205416,6 @@
 },
 {
   "type": "Feature",
-  "id": "node/13683040801",
-  "properties": {
-    "defibrillator:location": "Business Park, bei Durchgang/Unterführung",
-    "emergency": "defibrillator",
-    "emergency:phone": "144",
-    "indoor": "no",
-    "id": "node/13683040801"
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      8.0631795,
-      46.9943428
-    ]
-  }
-},
-{
-  "type": "Feature",
   "id": "node/13684222801",
   "properties": {
     "access": "permissive",

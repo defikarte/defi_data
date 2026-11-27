@@ -359353,13 +359353,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13683040801"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.0631795,
-      46.9943428
+      8.063179,
+      46.9943429
     ]
   }
 },
@@ -390668,7 +390669,7 @@
     "email": "unterhalt-produktion@wts-produktion.ch",
     "emergency": "defibrillator",
     "emergency:phone": "144",
-    "indoor": "yes",
+    "indoor": "no",
     "level": "0",
     "opening_hours": "24/7",
     "operator": "WTS Produktion AG",
@@ -390678,8 +390679,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      7.2519125,
-      46.7974017
+      7.2519127,
+      46.7974016
     ]
   }
 }
