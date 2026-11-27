@@ -37169,6 +37169,27 @@
 },
 {
   "type": "Feature",
+  "id": "node/8038988147",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "öffentlich",
+    "description": "24h",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8038988147"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0919275,
+      47.2949946
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8038988152",
   "properties": {
     "access": "yes",
@@ -55060,6 +55081,29 @@
     "coordinates": [
       7.5414813,
       47.3732746
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/8880370617",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Bleikenstrasse 11",
+    "description": "24h verfügbar",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Heberlein AG",
+    "phone": "+41 71 987 44 44",
+    "id": "node/8880370617"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0877533,
+      47.2953744
     ]
   }
 },
@@ -163497,6 +163541,31 @@
     "coordinates": [
       8.5399579,
       47.4086461
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14161894201",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Eingang zum Gewerbepark Dietfurt, gegenüber der Schreinerei",
+    "description": "Der Defi hängt aussen an der Eingangstür und ist 24/7 zugänglich",
+    "email": "manuela.feuz@snenergie.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "SN Energie AG",
+    "phone": "+41 55 647 42 00",
+    "id": "node/14161894201"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.0811168,
+      47.3446815
     ]
   }
 },
