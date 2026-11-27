@@ -1998,13 +1998,14 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8576304020"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2099463,
-      47.6388174
+      9.209946,
+      47.6388172
     ]
   }
 },
@@ -2948,7 +2949,7 @@
   "id": "node/9084175133",
   "properties": {
     "check_date": "2026-05-25",
-    "defibrillator:location": "Am Toikettenhaus aussen",
+    "defibrillator:location": "Am Toilettenhaus aussen",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
@@ -2957,7 +2958,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.213159,
+      9.2131593,
       47.6420264
     ]
   }
@@ -11912,6 +11913,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Stadtgemeinde Diessenhofen, Bauverwaltung",
     "phone": "+41526464220",
     "source": "local_knowledge, defikarte.ch",
@@ -14918,14 +14920,16 @@
     "access": "yes",
     "defibrillator:location": "bei Arkaden mit Sitzbänken und Rettungsring",
     "emergency": "defibrillator",
+    "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/13160129670"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.1348655,
-      47.6645361
+      9.1348636,
+      47.6645347
     ]
   }
 },
@@ -14961,6 +14965,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Stiftung Vivala",
     "phone": "+41716482238",
     "id": "node/13183865301"
@@ -14968,8 +14973,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.2237906,
-      47.5781293
+      9.2237896,
+      47.5781288
     ]
   }
 },

@@ -6760,12 +6760,13 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "id": "node/8038988147"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0919274,
+      9.0919275,
       47.2949946
     ]
   }
@@ -10775,6 +10776,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Heberlein AG",
     "phone": "+41 71 987 44 44",
     "id": "node/8880370617"
@@ -10782,8 +10784,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0877536,
-      47.2953739
+      9.0877533,
+      47.2953744
     ]
   }
 },
@@ -38722,6 +38724,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "SN Energie AG",
     "phone": "+41 55 647 42 00",
     "id": "node/14161894201"
@@ -38729,8 +38732,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      9.0811169,
-      47.3446814
+      9.0811168,
+      47.3446815
     ]
   }
 },
