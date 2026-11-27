@@ -390657,6 +390657,31 @@
       47.5213572
     ]
   }
+},
+{
+  "type": "Feature",
+  "id": "node/14423236102",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Aussenwand rechts vom Eingang",
+    "description": "Schrank mit Alarm, Plombiert",
+    "email": "unterhalt-produktion@wts-produktion.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "yes",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "WTS Produktion AG",
+    "phone": "+41 26 494 28 85",
+    "id": "node/14423236102"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      7.2519125,
+      46.7974017
+    ]
+  }
 }
 ]
 }
