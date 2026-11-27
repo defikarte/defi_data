@@ -47356,6 +47356,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/8576304020",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Gemeindehaus Bottighofen",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/8576304020"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.209946,
+      47.6388172
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/8576857317",
   "properties": {
     "access": "yes",
@@ -107602,6 +107622,30 @@
 },
 {
   "type": "Feature",
+  "id": "node/11307541769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Grüntal Hausecke rechts",
+    "description": "frei zugänglich",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Stadtgemeinde Diessenhofen, Bauverwaltung",
+    "phone": "+41526464220",
+    "source": "local_knowledge, defikarte.ch",
+    "id": "node/11307541769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.7346619,
+      47.6813098
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/11307552469",
   "properties": {
     "access": "yes",
@@ -109321,6 +109365,28 @@
     "coordinates": [
       9.216375,
       47.5489254
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11385426169",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Polizeiposten Kloten;Parkplatz",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde/Kanton",
+    "id": "node/11385426169"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.5861695,
+      47.4501023
     ]
   }
 },
@@ -112201,6 +112267,29 @@
     "coordinates": [
       8.6493177,
       47.4480927
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/11502735769",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Schulhaus Sunnerai",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Nürensdorf",
+    "phone": "+41797268309",
+    "id": "node/11502735769"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.6380541,
+      47.4599412
     ]
   }
 },
@@ -145838,6 +145927,26 @@
 },
 {
   "type": "Feature",
+  "id": "node/13160129670",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "bei Arkaden mit Sitzbänken und Rettungsring",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "id": "node/13160129670"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.1348636,
+      47.6645347
+    ]
+  }
+},
+{
+  "type": "Feature",
   "id": "node/13162012301",
   "properties": {
     "access": "yes",
@@ -146168,6 +146277,28 @@
     "coordinates": [
       8.8829076,
       47.6511983
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/13183865301",
+  "properties": {
+    "defibrillator:location": "Oberdorf 7 8585 Happerswil",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "level": "0",
+    "opening_hours": "24/7",
+    "operator": "Stiftung Vivala",
+    "phone": "+41716482238",
+    "id": "node/13183865301"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      9.2237896,
+      47.5781288
     ]
   }
 },
@@ -166825,6 +166956,30 @@
     "coordinates": [
       6.7602601,
       46.8777221
+    ]
+  }
+},
+{
+  "type": "Feature",
+  "id": "node/14391221101",
+  "properties": {
+    "access": "yes",
+    "defibrillator:location": "Wand zur Garageneinfahrt, Hirsmühleweg 14 / 16",
+    "description": "Schrank mit Alarm, kein Schlüssel notwendig",
+    "email": "gemeindeverwaltung@regensberg.ch",
+    "emergency": "defibrillator",
+    "emergency:phone": "144",
+    "indoor": "no",
+    "opening_hours": "24/7",
+    "operator": "Gemeinde Regensberg",
+    "phone": "+41 44 527 21 00",
+    "id": "node/14391221101"
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      8.4445676,
+      47.481835
     ]
   }
 },

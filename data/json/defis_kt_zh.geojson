@@ -49116,14 +49116,15 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde/Kanton",
     "id": "node/11385426169"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.5861704,
-      47.4501016
+      8.5861695,
+      47.4501023
     ]
   }
 },
@@ -50083,6 +50084,7 @@
     "emergency:phone": "144",
     "indoor": "no",
     "level": "0",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Nürensdorf",
     "phone": "+41797268309",
     "id": "node/11502735769"
@@ -50090,8 +50092,8 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.6380531,
-      47.4599403
+      8.6380541,
+      47.4599412
     ]
   }
 },
@@ -83135,6 +83137,7 @@
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "no",
+    "opening_hours": "24/7",
     "operator": "Gemeinde Regensberg",
     "phone": "+41 44 527 21 00",
     "id": "node/14391221101"
@@ -83142,7 +83145,7 @@
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.4445678,
+      8.4445676,
       47.481835
     ]
   }
