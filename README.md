@@ -286,6 +286,7 @@ mehrere Workflows gleichzeitig ihren Verarbeitungsstand committen wollten.
 | `weekly_subject` | optional: eigener Betreff für den Wochen-Report, Platzhalter `{name}` und `{count}` (z.B. „5 Änderungen“). `subject` gilt nicht für den Wochen-Report. |
 | `enabled` | optional: `false` pausiert den Kanton (keine Mails, Stand bleibt stehen). Beim Wiedereinschalten kommen alle Änderungen seit der Pause gesammelt in einer Mail. Fehlt das Feld, ist der Kanton aktiv. |
 | `move_threshold_m` | optional: ab wie vielen Metern eine Verschiebung als Änderung gemeldet wird (Standard `25`). Kleinere Korrekturen beim Kartieren lösen keine Meldung aus. |
+| `coordinates_always` | optional: `true` zeigt die Koordinaten (WGS84) bei allen Defis in der Mail, auch bei geänderten ohne Verschiebung und bei gelöschten (dort der letzte bekannte Standort), ebenso im Wochen-Report. Standard `false`: Koordinaten nur bei neuen Defis und, in der Änderungsbox, bei verschobenen. |
 
 #### Partner-Logos (`partner_logos`)
 

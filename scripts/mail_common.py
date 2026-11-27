@@ -73,6 +73,10 @@ OPENING_LABEL = FIELD_LABELS["opening_hours"]
 MOVE_LABEL = "Standort"
 MOVE_THRESHOLD_M = float(os.environ.get("REPORT_MOVE_THRESHOLD_M") or 25)
 
+# Koordinaten zusätzlich bei geänderten und gelöschten Defis (sonst nur Neu und verschoben).
+# Pro Kanton über "coordinates_always" in kantone_config.json (-> REPORT_COORDS_ALWAYS).
+COORDS_ALWAYS = os.environ.get("REPORT_COORDS_ALWAYS", "").strip().lower() == "true"
+
 
 # ── Sprache ──────────────────────────────────────────────────────────────────
 LANG = os.environ.get("REPORT_LANG", "de").strip().lower()
@@ -314,9 +318,14 @@ def coords_line(lon, lat):
     return f"{T('location')} {lat:.5f}, {lon:.5f}" if lat is not None and lon is not None else None
 
 
+def is_moved(changes):
+    return any(c[0] == MOVE_LABEL for c in changes or [])
+
+
 def shows_coords(status, changes):
-    """Koordinaten bei neuen Defis (Zeile) und ab MOVE_THRESHOLD_M verschobenen (Änderungsbox)."""
-    return status == "Neu" or any(c[0] == MOVE_LABEL for c in changes or [])
+    """Koordinaten bei neuen Defis (Zeile), ab MOVE_THRESHOLD_M verschobenen (Änderungsbox)
+    und mit COORDS_ALWAYS bei allen übrigen (Zeile)."""
+    return COORDS_ALWAYS or status == "Neu" or is_moved(changes)
 
 
 def feature_entry(status, feature, changes=None):
@@ -514,7 +523,9 @@ def contact_html(entry):
 
 def coords_html(entry):
     lon, lat = entry.get("lon"), entry.get("lat")
-    if entry["status"] != "Neu" or lon is None or lat is None:
+    # Bei Verschiebungen stehen sie schon in der Änderungsbox
+    if not shows_coords(entry["status"], entry.get("changes")) or is_moved(entry.get("changes")) \
+            or lon is None or lat is None:
         return ""
     return (f'<div style="font-size:13px;color:{MUTED};margin-top:2px;">'
             f'{_e(T("coordinates"))}{colon()} {lat:.6f}, {lon:.6f}</div>')
