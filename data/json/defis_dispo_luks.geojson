@@ -5916,10 +5916,12 @@
   "type": "Feature",
   "id": "node/7637818568",
   "properties": {
-    "access": "yes",
-    "description": "Aussenwand",
+    "access": "private",
+    "defibrillator:location": "Aussenwand",
+    "description": "AUSSER BETRIEB DERZEIT",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "no",
     "name": "Wohnhaus Bodenmatt",
     "opening_hours": "24/7",
     "id": "node/7637818568"
