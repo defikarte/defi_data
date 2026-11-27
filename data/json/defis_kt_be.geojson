@@ -52266,7 +52266,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 06:30 - 21:30, Sa-Su 9:00 - 18:00",
+    "opening_hours": "Mo-Fr 06:30-21:30, Sa-Su 09:00-18:00",
     "operator": "Kieser Bern",
     "phone": "+41 31 384 60 60",
     "source": "local_knowledge, defikarte.ch",
@@ -66447,7 +66447,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "1",
-    "opening_hours": "Mo-Fr 8:00-17:00",
+    "opening_hours": "Mo-Fr 08:00-17:00",
     "operator": "8lab physio8 perform8 pilates Biel Bienne",
     "id": "node/14335547001"
   },
@@ -66928,7 +66928,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-16:00",
+    "opening_hours": "Mo-Fr 07:30-16:00",
     "operator": "Bildungszentrum Interlaken bzi",
     "phone": "+41 33 508 48 48",
     "id": "node/14398677601"
@@ -66953,7 +66953,7 @@
     "emergency:phone": "144",
     "indoor": "yes",
     "level": "0",
-    "opening_hours": "Mo-Fr 7:30-16:00",
+    "opening_hours": "Mo-Fr 07:30-16:00",
     "operator": "Bildungszentrum Interlaken bzi",
     "phone": "+41 33 508 48 48",
     "id": "node/14398683901"
