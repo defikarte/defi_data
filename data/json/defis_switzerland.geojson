@@ -455,6 +455,7 @@
     "access": "yes",
     "emergency": "defibrillator",
     "emergency:phone": "144",
+    "indoor": "yes",
     "opening_hours": "24/7",
     "wheelchair": "yes",
     "id": "node/1871892415"
