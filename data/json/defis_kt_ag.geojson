@@ -16117,20 +16117,21 @@
   "type": "Feature",
   "id": "node/10704059705",
   "properties": {
-    "access": "no",
     "defibrillator:location": "Rezeption innen",
     "description": "08:00-12:00 und 13:00-17:00 Werktags verfügbar.",
     "emergency": "defibrillator",
     "emergency:phone": "144",
     "indoor": "yes",
+    "level": "0",
+    "opening_hours": "Mo-Fr 08:00-12:00, 13:00-17:00",
     "operator": "Georg Utz AG",
     "id": "node/10704059705"
   },
   "geometry": {
     "type": "Point",
     "coordinates": [
-      8.3403521,
-      47.3542909
+      8.3406912,
+      47.3536456
     ]
   }
 },
