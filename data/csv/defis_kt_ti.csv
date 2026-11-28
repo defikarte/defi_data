@@ -304,7 +304,7 @@ osm_id,osm_type,lat,lon,access,addr:city,addr:housenumber,addr:postcode,addr:str
 12192936203,node,46.3644213,8.9436613,yes,,,,,,,Casa comunale Pollegio,,,Armadio verde entrata lato strada cantonale,,defibrillator,144,,node/12192936203,,no,,,,,24/7,Comune di Pollegio,,,,,
 12192948201,node,46.3784293,8.9118196,yes,,,,,,,Casa comunale Bodio,,,Atmadio verde nel sottoscale d’accesso alla casa comunale,,defibrillator,144,,node/12192948201,,no,,,,,24/7,Comune di Bodio,,,,,
 12192954301,node,46.478358,8.8009078,yes,,,,,,,Farmacia delle Alpi,,,"Armadio verde all’esterno, di fianco all’entrata, lato strada cantonale",,defibrillator,144,,node/12192954301,,no,,,,,24/7,,,,,,
-12312887801,node,46.0123454,8.815724,,,,,,,,WC Anlage,,,,,defibrillator,144,,node/12312887801,,no,,,,,24/7,Gemeinde Astano,,,,,
+12312887801,node,46.0123797,8.8157064,,,,,,,,WC Anlage,,,,,defibrillator,144,,node/12312887801,,no,,,,,24/7,Gemeinde Astano,,,,,
 12323614298,node,45.8412675,8.9143701,yes,,,,,,,sul muro del gabbiotto della polizia di frontiera svizzera,,,,,defibrillator,144,,node/12323614298,,no,0,,,,24/7,,,,,,yes
 12350515201,node,46.0137662,8.9641625,,,,,,,,"Via Taddei 6, Viganello",,,,,defibrillator,144,,node/12350515201,,yes,,,,,,Privat,+41919711262,,"local_knowledge, defikarte.ch",,
 12369302201,node,46.036961,8.954822,yes,,,,,,,"Entrata del parcheggio, fermata posta",,,,,defibrillator,144,,node/12369302201,,no,0,,,,24/7,,,,,,

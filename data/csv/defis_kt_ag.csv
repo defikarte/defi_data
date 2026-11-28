@@ -1,7 +1,7 @@
 osm_id,osm_type,lat,lon,access,addr:city,addr:country,addr:housenumber,addr:postcode,addr:street,amenity,check_date,contact:phone,defibrillator:location,defibrillator:location:en,description,email,emergency,emergency:phone,fixme,id,image,indoor,internet_access,latitude,level,longitude,name,note,opening_hours,operator,operator:phone,operator:type,phone,postal_code,ref,source,website,wheelchair,wikimedia_commons
 617510589,node,47.5193564,8.3609857,yes,,,,,,fire_station,,,Feuerwehrmagazin an Wand links beim linken Tor des Feuerwehrmagazins,,,,defibrillator,144,,node/617510589,,no,,,,,Feuerwehr Schneisingen,,24/7,Firstresponder Schneisingen,,,+41 56 241 27 66,,,,,,
 1733421617,node,47.4985984,8.3443139,,,,,,,,,,Zu Öffnungszeiten,,,,defibrillator,144,,node/1733421617,,yes,,,,,,,,,,,,,,,,,
-1871892415,node,47.2866574,8.1485408,yes,,,,,,,,,,,,,defibrillator,144,,node/1871892415,,,,,,,,,24/7,,,,,,,,,yes,
+1871892415,node,47.2866574,8.1485408,yes,,,,,,,,,,,,,defibrillator,144,,node/1871892415,,yes,,,,,,,24/7,,,,,,,,,yes,
 2637872527,node,47.5571782,8.3636015,,,,,,,,,,,,,,defibrillator,144,,node/2637872527,,,,,,,,,,,,,,,,,,,
 3127452232,node,47.4162902,8.2673226,,,,,,,,,,,,,,defibrillator,144,,node/3127452232,,,,,,,,,,,,,,,,,,,
 3191226871,node,47.417058,8.2757594,,,,,,,,,,,,,,defibrillator,144,,node/3191226871,,,,,,,,,,,,,,,,,,,
