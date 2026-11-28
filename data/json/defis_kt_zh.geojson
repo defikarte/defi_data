@@ -6522,6 +6522,7 @@
   "id": "node/8062414467",
   "properties": {
     "access": "yes",
+    "check_date": "2026-11-28",
     "defibrillator:location": "Im Foyer des Gemeindesaals. Linke Wand, zwischen den Eingängen zu den WC.",
     "description": "Zugänglich wenn Gemeindesaal offen/ein Anlass stattfindet.",
     "emergency": "defibrillator",
